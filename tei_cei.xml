@@ -48,8 +48,9 @@
  </teiHeader>
  <text>
   <body>
-   <p>TEI-P5-based schema with added elements for dipolmatic description, based upon the experience
-    of the Charters Encoding Initiative.</p>
+   <div><p>TEI-P5-based schema aims at helping with the encoding of single sheet legal documents as studied in the historial science of diplomatics. 
+    It is based upon the experience of the <ref target="http://www.cei.lmu.de">Charters Encoding Initiative.</ref>.</p>
+    <p>For a start it includes the following modules of the TEI-P5 definition:</p>
    <schemaSpec ident="tei_cei" start="TEI teiCorpus" prefix="cei" docLang="en">
     <!-- required modules -->
     <moduleRef key="header"/>
@@ -66,6 +67,7 @@
     <moduleRef key="certainty" except=""/>
     <moduleRef key="analysis" except=""/>
    </schemaSpec>
+   </div>
   </body>
  </text>
 </TEI>
