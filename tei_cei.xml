@@ -50,7 +50,25 @@
   <body>
    <div><p>TEI-P5-based schema aims at helping with the encoding of single sheet legal documents as studied in the historial science of diplomatics. 
     It is based upon the experience of the <ref target="http://www.cei.lmu.de">Charters Encoding Initiative.</ref>.</p>
-    <p>For a start it includes the following modules of the TEI-P5 definition:</p>
+    <p>For a start it includes the following modules of the TEI-P5 definition:
+     <list>
+      <item>header, linking, core, tei, textstructure: core modules</item>
+      <item>namesdates: 
+       <list>
+        <item>The specialized elements persName and placeName from namesdates are to be preferred over name in all instances. For usage, see <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html">13. Names, Dates, People, and Places</ref> fom the TEI P5 documentation. When selecting which text to encapsulate in persName, "person, possibly including one or more of the person's forenames, surnames, honorifics, added names, etc.," it is recommended to err on the side of inclusivity rather than exclusivity, as there is a significant variation in the representation of persons across documents and abstracts.</item>
+        <item>As much as possible, tracking of individual persons should be done through references to a personography file, where titles and parts of names can be specified. Lists of names with parallel elements are not normalized in the text, but in the persography; so, in the list "Erzbischöfe Johannes von Edessa (Eddessiensis) und Pontius von Seleucia  (Seleuciensis)", Pontius von Seleucia (Seleuciensis) would be marked as a persName and the title of Archbishop of Seleucia in Isauria would be indicated as a roleName in the personography. If the dates of incumbancy are known, they could be indicated through attributes of the <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.datable.html2">att.datable class</ref>.</item>
+        <item>Geographic names, when they appear outside of personal names and titles, should be indicated by placeName and a reference to a placeography file or the <ref target="http://www.geonames.org/">geonames database</ref>; where they appear inside personal names and titles, this markup would occur in the personography file. Geographic names are marked up even when, as in the case of the Archbishopric of Seleucia in Isauria, the geographic element of the roleName is titular. In this case, the type attribute may be used to express this, as in <roleName type="catholic">Archbishop <nameLink>of</nameLink> <placeName type="see,titular" ref="http://sws.geonames.org/300808/about.rdf,https://www.wikidata.org/wiki/Q1727060">Seleucia in Isauria</placeName></roleName>.</item>
+        <item>A ref atribute with a link to a local typology or to <ref target="http://www.geonames.org/">Geonames</ref> is included to disambiguate the location (where possible); in the absence of a comprehensive linkable ontology of historic sees and other geographic divisions, <ref target="https://www.wikidata.org">Wikidata</ref> may be preferable in some cases; in the example, the Geonames reference is to Silifke, modern Seleucia, and the Wikidata reference is to entry for the titular see.</item>
+       </list>
+      </item>
+      <item>transcr: </item>
+      <item>figures: </item>
+      <item>msdescription: </item>
+      <item>gaiji: </item>
+      <item>certainty: </item>
+      <item>analysis: </item>
+      </list>
+    </p>
    <schemaSpec ident="tei_cei" start="TEI teiCorpus" prefix="cei" docLang="en">
     <!-- required modules -->
     <moduleRef key="header"/>
