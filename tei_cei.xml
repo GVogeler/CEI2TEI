@@ -70,8 +70,12 @@
        <item>Where a document previously existed separately, but is now bound in with other material, the previously-separate elements should be marked up using msPart. Where a previously-unitary document now exists in multiple parts, each individual fragment should be marked up using msFrag.</item>
        <item>Where a single document, such as a court case, appears on multiple, interrupted folios in the same manuscript, the individual cases, as above, should be represented by msPart elements and the collection of discontinuous folios should be organized using the locus and locusGrp elements.</item>
       </list></item>
-      <item>gaiji: </item>
-      <item>certainty: </item>
+      <item>gaiji:  <list>
+       <item>gaiji provides the g element, which is to encode glyphs, and may be used to represent various special textual symbols in texts that are considered to be important/distinct. This supercedes the use of cei:c, and is to be preferred over the TEI c element, except where specific linguistic information is being encoded, as opposed to special characters such as medieval textual abbreviations, like p(ro), p(er), o(rum), etc. Please see the guidance in <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/WD.html">5. Characters, Glyphs, and Writing Modes</ref>.</item>
+      </list> </item>
+      <item>certainty: <list>
+       <item>Often, it will be the case that there might be multiple possible interpretations for the correct identification of a person or a place in the text. In these cases, the certainty element, as documented in <ref target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CE.html#CECECE">21.1.2. Structured Indications of Uncertainty</ref> should be used, to represent the uncertainty of the editor in a way that can be interpreted by a proccesor.</item>
+      </list></item>
       <item>analysis: </item>
       </list>
     </p>
