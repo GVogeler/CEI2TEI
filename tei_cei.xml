@@ -90,6 +90,36 @@
     <moduleRef key="gaiji" except=""/>
     <moduleRef key="certainty" except=""/>
     <moduleRef key="analysis" except=""/>
+    <elementSpec ident="msDesc" mode="change"> 
+     <content>
+      <sequence>
+       <elementRef key="msIdentifier"/>
+       <classRef key="model.headLike"
+        minOccurs="0" maxOccurs="unbounded"/>
+       <alternate>
+        <classRef key="model.pLike"
+         minOccurs="1" maxOccurs="unbounded"/>
+        <sequence>
+         <elementRef key="msContents"
+          minOccurs="0"/>
+         <elementRef key="physDesc"
+          minOccurs="0"/>
+         <elementRef key="diploDesc"
+          minOccurs="0"/>
+         <elementRef key="history" minOccurs="0"/>
+         <elementRef key="additional"
+          minOccurs="0"/>
+         <alternate>
+          <elementRef key="msPart" minOccurs="0"
+           maxOccurs="unbounded"/>
+          <elementRef key="msFrag" minOccurs="0"
+           maxOccurs="unbounded"/>
+         </alternate>
+        </sequence>
+       </alternate>
+      </sequence>
+     </content>
+    </elementSpec>
     <elementSpec ident="diploDesc" ns="http://www.monasterium.net/NS/tei_cei" mode="add">
      <desc>Contains a diplomatic description and analysis of a document, including bibliographic references to studies; formal cricism of content and textual/legal form (physical form is physDesc); and discussions of transmission and authenticiy.</desc>
      <classes>
