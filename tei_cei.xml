@@ -153,6 +153,9 @@
       </sequence>
      </content>
     </elementSpec>
+    <elementSpec module="msdescription" ident="sealDesc" mode="change">
+     <altIdent>authDesc</altIdent>
+    </elementSpec>
    </schemaSpec>
    </div>
   </body>
