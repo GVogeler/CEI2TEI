@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns="http://www.tei-c.org/ns/1.0"
+ xml:lang="en" n="testms">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>CEI_TEI_P5</title>
+    <author>S. Winslow (Researcher, author); G. Vogeler (Principal Investigator, author), et. al.
+     (contributors to the CEI)</author>
+   </titleStmt>
+   <publicationStmt>
+    <publisher>TEI Consortium</publisher>
+    <availability status="free">
+     <licence target="http://creativecommons.org/licenses/by-sa/3.0/"> Distributed under a Creative
+      Commons Attribution-ShareAlike 3.0 Unported License </licence>
+     <licence target="http://www.opensource.org/licenses/BSD-2-Clause"><p>Copyright 2013 TEI
+       Consortium.</p><p>All rights reserved.</p><p>Redistribution and use in source and binary
+       forms, with or without modification, are permitted provided that the following conditions are
+       met:</p><list>
+       <item>Redistributions of source code must retain the above copyright notice, this list of
+        conditions and the following disclaimer.</item>
+       <item>Redistributions in binary form must reproduce the above copyright notice, this list of
+        conditions and the following disclaimer in the documentation and/or other materials provided
+        with the distribution.</item>
+      </list><p>This software is provided by the copyright holders and contributors "as is" and any
+       express or implied warranties, including, but not limited to, the implied warranties of
+       merchantability and fitness for a particular purpose are disclaimed. In no event shall the
+       copyright holder or contributors be liable for any direct, indirect, incidental, special,
+       exemplary, or consequential damages (including, but not limited to, procurement of substitute
+       goods or services; loss of use, data, or profits; or business interruption) however caused
+       and on any theory of liability, whether in contract, strict liability, or tort (including
+       negligence or otherwise) arising in any way out of the use of this software, even if advised
+       of the possibility of such damage.</p></licence>
+     <p>TEI material can be licensed differently depending on the use you intend to make of it.
+      Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is
+      generally appropriate for usages which treat TEI content as data or documentation. The BSD-2
+      licence is generally appropriate for usage of TEI content in a software environment. For
+      further information or clarification, please contact the <ref target="mailto:info@tei-c.org"
+       >TEI Consortium</ref>. </p>
+    </availability>
+   </publicationStmt>
+   <notesStmt>
+    <note type="ns">http://www.monasterium.net/NS/tei_cei</note>
+   </notesStmt>
+   <sourceDesc>
+    <p>Written from scratch.</p>
+   </sourceDesc>
+  </fileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div>
+    <p>TEI-P5-based schema aims at helping with the encoding of single sheet legal documents as
+     studied in the historial science of diplomatics. It is based upon the experience of the <ref
+      target="http://www.cei.lmu.de">Charters Encoding Initiative.</ref>.</p>
+    <p>For a start it includes the following modules of the TEI-P5 definition: <list>
+      <item>header, linking, core, tei, textstructure: core modules</item>
+      <item>namesdates: <list>
+        <item>The specialized elements persName and placeName from namesdates are to be preferred
+         over name in all instances. For usage, see <ref
+          target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ND.html">13. Names, Dates,
+          People, and Places</ref> fom the TEI P5 documentation. When selecting which text to
+         encapsulate in persName, "person, possibly including one or more of the person's forenames,
+         surnames, honorifics, added names, etc.," it is recommended to err on the side of
+         inclusivity rather than exclusivity, as there is a significant variation in the
+         representation of persons across documents and abstracts.</item>
+        <item>As much as possible, tracking of individual persons should be done through references
+         to a personography file, where titles and parts of names can be specified. Lists of names
+         with parallel elements are not normalized in the text, but in the persography; so, in the
+         list "Erzbischöfe Johannes von Edessa (Eddessiensis) und Pontius von Seleucia
+         (Seleuciensis)", Pontius von Seleucia (Seleuciensis) would be marked as a persName and the
+         title of Archbishop of Seleucia in Isauria would be indicated as a roleName in the
+         personography. If the dates of incumbancy are known, they could be indicated through
+         attributes of the <ref
+          target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.datable.html2"
+          >att.datable class</ref>.</item>
+        <item>Geographic names, when they appear outside of personal names and titles, should be
+         indicated by placeName and a reference to a placeography file or the <ref
+          target="http://www.geonames.org/">geonames database</ref>; where they appear inside
+         personal names and titles, this markup would occur in the personography file. Geographic
+         names are marked up even when, as in the case of the Archbishopric of Seleucia in Isauria,
+         the geographic element of the roleName is titular. In this case, the type attribute may be
+         used to express this, as in <egXML xmlns="http://www.tei-c.org/ns/Examples">
+          <roleName type="catholic">
+           Archbishop
+           <nameLink>of</nameLink>
+           <placeName type="see,titular" ref="http://sws.geonames.org/300808/about.rdf,https://www.wikidata.org/wiki/Q1727060">Seleucia in Isauria</placeName>
+          </roleName>
+         </egXML>.</item>
+        <item>A ref atribute with a link to a local typology or to <ref
+          target="http://www.geonames.org/">Geonames</ref> is included to disambiguate the location
+         (where possible); in the absence of a comprehensive linkable ontology of historic sees and
+         other geographic divisions, <ref target="https://www.wikidata.org">Wikidata</ref> may be
+         preferable in some cases; in the example, the Geonames reference is to Silifke, modern
+         Seleucia, and the Wikidata reference is to entry for the titular see.</item>
+       </list>
+      </item>
+      <item>transcr: </item>
+      <item>figures: </item>
+      <item>msdescription: <list>
+        <item>Documents should, as much as possible, be treated as examples of manuscripts,
+         following the advice in <ref
+          target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html">10. Manuscript
+          Description</ref>, except in the case of new elements in this specification, such as
+         diploDesc and authDesc and modified elements, such as sealDesc, seal, monogram, and
+         chirograph.</item>
+        <item>In most cases, where single-folio documents are being transcribed, they can be
+         foliated using the pb element and an xml:id set to "f1r" before the beginning of the text
+         on the recto and "f1v" before the text on the verso. In the case of documents of more than
+         one sheet, the foliation element should be used to describe the relationships of
+         items.</item>
+        <item>The intent of these guidelines is to describe individual documents in the sense of
+         discrete charters. Where these charters are collected together in a cartulary or the like,
+         each charter should be its own tei document, and the book/collection should be represented
+         as a separate tei document which refers to the individual charters as a series of msItem
+         elements inside the msContents element, with a link to each individual element. The
+         collection container may (and should, preferably), contain msItem descriptions of
+         non-diplomatic material that is contained alongside the diplomatic material.</item>
+        <item>Where a document previously existed separately, but is now bound in with other
+         material, the previously-separate elements should be marked up using msPart. Where a
+         previously-unitary document now exists in multiple parts, each individual fragment should
+         be marked up using msFrag.</item>
+        <item>Where a single document, such as a court case, appears on multiple, interrupted folios
+         in the same manuscript, the individual cases, as above, should be represented by msPart
+         elements and the collection of discontinuous folios should be organized using the locus and
+         locusGrp elements.</item>
+       </list></item>
+      <item>gaiji: gaiji provides the g element, which is to encode glyphs, and may be used to
+       represent various special textual symbols in texts that are considered to be
+       important/distinct. This supercedes the (former) use of cei:c, and is to be preferred over
+       the TEI c element, except where specific linguistic information is being encoded, as opposed
+       to special characters such as medieval textual abbreviations, like p(ro), p(er), o(rum), etc.
+       Please see the guidance in <ref
+        target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/WD.html">5. Characters, Glyphs,
+        and Writing Modes</ref>.</item>
+      <item>certainty: Often, it will be the case that there might be multiple possible
+       interpretations for the correct identification of a person or a place in the text. In these
+       cases, the certainty element, as documented in <ref
+        target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/CE.html#CECECE">21.1.2.
+        Structured Indications of Uncertainty</ref> should be used, to represent the uncertainty of
+       the editor in a way that can be interpreted by a proccesor.</item>
+      <item>analysis: </item>
+     </list>
+    </p>
+    <schemaSpec ident="tei_cei" start="TEI teiCorpus" docLang="en">
+     <!-- required modules -->
+     <moduleRef key="header"/>
+     <moduleRef key="linking"/>
+     <moduleRef key="core"/>
+     <moduleRef key="tei"/>
+     <moduleRef key="textstructure"/>
+     <!-- optional modules -->
+     <moduleRef key="namesdates"/>
+     <moduleRef key="transcr"/>
+     <moduleRef key="figures"/>
+     <moduleRef key="msdescription"/>
+     <moduleRef key="gaiji" except=""/>
+     <moduleRef key="certainty" except=""/>
+     <moduleRef key="analysis" except=""/>
+     <elementSpec ident="msDesc" mode="change">
+      <content>
+       <sequence>
+        <elementRef key="msIdentifier"/>
+        <classRef key="model.headLike" minOccurs="0" maxOccurs="unbounded"/>
+        <alternate>
+         <classRef key="model.pLike" minOccurs="1" maxOccurs="unbounded"/>
+         <sequence>
+          <elementRef key="msContents" minOccurs="0"/>
+          <elementRef key="physDesc" minOccurs="0"/>
+          <elementRef key="diploDesc" minOccurs="0"/>
+          <elementRef key="history" minOccurs="0"/>
+          <elementRef key="additional" minOccurs="0"/>
+          <alternate>
+           <elementRef key="msPart" minOccurs="0" maxOccurs="unbounded"/>
+           <elementRef key="msFrag" minOccurs="0" maxOccurs="unbounded"/>
+          </alternate>
+         </sequence>
+        </alternate>
+       </sequence>
+      </content>
+     </elementSpec>
+     <elementSpec ident="diploDesc" prefix="cei_"
+      mode="add">
+      <desc>Contains a diplomatic description and analysis of a document, including bibliographic
+       references to studies; formal cricism of content and textual/legal form (physical form is
+       physDesc); and discussions of transmission and authenticiy.</desc>
+      <classes>
+       <memberOf key="model.biblLike"/>
+       <memberOf key="att.declaring"/>
+       <memberOf key="att.docStatus"/>
+       <memberOf key="att.global"/>
+       <memberOf key="att.sortable"/>
+       <memberOf key="att.typed"/>
+      </classes>
+      <content>
+       <sequence>
+        <classRef key="model.pLike" minOccurs="1" maxOccurs="unbounded"/>
+        <alternate>
+         <classRef key="model.pLike" minOccurs="1" maxOccurs="unbounded"/>
+         <sequence>
+          <elementRef key="history" minOccurs="0"/>
+          <elementRef key="additional" minOccurs="0"/>
+         </sequence>
+        </alternate>
+       </sequence>
+      </content>
+     </elementSpec>
+     <elementSpec module="msdescription" ident="sealDesc" mode="change">
+      <altIdent>authDesc</altIdent>
+     </elementSpec>
+    </schemaSpec>
+   </div>
+  </body>
+ </text>
+</TEI>
