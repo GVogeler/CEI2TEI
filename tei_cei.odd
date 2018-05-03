@@ -205,6 +205,61 @@
        </sequence>
       </content>
      </elementSpec>
+     <elementSpec ident="authen" prefix="cei_"
+      mode="add">
+      <desc>Description of an element that is used to authenticate a document. Specifically, elements that would be intended, from a juridical perspective, to be authenticating. May contain a forged element, in which case the forgery should be noted and certainty marked.</desc>
+      <classes>
+       <memberOf key="att.dateable"/>
+       <memberOf key="att.global"/>
+       <memberOf key="att.typed"/>
+      </classes>
+      <content>
+       <alternate minOccurs="1"
+        maxOccurs="unbounded">
+        <classRef key="model.pLike"/>
+        <elementRef key="decoNote"/>
+       </alternate>
+      </content>
+      <attList>
+       <attDef ident="type" mode="replace">
+        <valList type="closed">
+         <valItem ident="securityprinting">
+          <desc>desc goes here</desc>
+         </valItem>
+         <valItem ident="layout">
+          <desc>desc goes here</desc>
+         </valItem>
+         <valItem ident="textual">
+          <desc>desc goes here</desc>
+         </valItem>
+         <valItem ident="material">
+          <desc>desc goes here</desc>
+         </valItem>
+         <valItem ident="digital">
+          <desc>desc goes here</desc>
+         </valItem>
+         <valItem ident="notarized">
+          <desc>desc goes here</desc>
+         </valItem>
+         <valItem ident="nonattached">
+          <desc>desc goes here</desc>
+         </valItem>
+         <valItem ident="biometrics">
+          <desc>desc goes here</desc>
+         </valItem>
+         <valItem ident="token">
+          <desc>desc goes here</desc>
+         </valItem>
+         <valItem ident="specialsign">
+          <desc>desc goes here</desc>
+         </valItem>
+         <valItem ident="mark">
+          <desc>desc goes here</desc>
+         </valItem>
+        </valList>
+       </attDef>
+      </attList>
+     </elementSpec>
      <elementSpec module="msdescription" ident="sealDesc" mode="change">
       <altIdent>authDesc</altIdent>
      </elementSpec>
