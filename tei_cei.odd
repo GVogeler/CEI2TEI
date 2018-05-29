@@ -223,38 +223,53 @@
       <attList>
        <attDef ident="type" mode="replace">
         <valList type="closed">
-         <valItem ident="securityprinting">
-          <desc>desc goes here</desc>
+         <valItem ident="printing">
+          <desc>Security Printing.</desc>
          </valItem>
          <valItem ident="layout">
-          <desc>desc goes here</desc>
+          <desc>Distinctive elements of layout which authenticate document.</desc>
          </valItem>
-         <valItem ident="textual">
-          <desc>desc goes here</desc>
+         <valItem ident="formula">
+          <desc>Distinctive textual formulae that authenticate document.</desc>
          </valItem>
-         <valItem ident="material">
-          <desc>desc goes here</desc>
+         <valItem ident="split">
+          <desc>Shared-medium documents and items that have been separated in a distinct and reconstructable way.</desc>
          </valItem>
          <valItem ident="digital">
-          <desc>desc goes here</desc>
+          <desc>Purely-digital authenticating elements. Anything that is a digital copy of a physical element is not this type.</desc>
          </valItem>
          <valItem ident="notarized">
-          <desc>desc goes here</desc>
+          <desc>Notarization as a legal act with varying regional practices, which may include stamping, embossing, attached materials, signatures, or attestations. Apostilles are considered a type of notarization for this category.</desc>
          </valItem>
          <valItem ident="nonattached">
-          <desc>desc goes here</desc>
+          <desc>Any authenticating element which is not now and was never attached to the document. Registration, certification, duplicates in archives.</desc>
          </valItem>
          <valItem ident="biometrics">
-          <desc>desc goes here</desc>
+          <desc>Biometric info used to establish authentic identity of the document owner/maker/issuer.</desc>
          </valItem>
          <valItem ident="token">
-          <desc>desc goes here</desc>
+          <desc>External tokens used to establish the authenticity or authority of the sender or issuer.</desc>
          </valItem>
-         <valItem ident="specialsign">
-          <desc>desc goes here</desc>
+         <valItem ident="signed">
+          <desc>Any kind of signature, subscription, or signing mark.</desc>
          </valItem>
          <valItem ident="mark">
-          <desc>desc goes here</desc>
+          <desc>Any kind of non-signging mark, such as a hallmark or a trademark.</desc>
+         </valItem>
+         <valItem ident="stamp">
+          <desc>Both inked and adhesive stamps.</desc>
+         </valItem>
+         <valItem ident="split">
+          <desc>Any item where a shared medium has been split in a way that can be recombined to demonstrate authenticity. Chirographs, tallies, indentures.</desc>
+         </valItem>
+         <valItem ident="endorsement">
+          <desc>Writing on the document by someone is a position of authority, establishing its authenticity or authroity.</desc>
+         </valItem>
+         <valItem ident="medium">
+          <desc>Special or controlled materials used to establish authenticity and convey authority. Banknote paper, magnetic stripes, RFID chips.</desc>
+         </valItem>
+         <valItem ident="packaging">
+          <desc>Elements of packaging which correspond to authenticity or establish that it has not been tampered with from some authoritative time frame.</desc>
          </valItem>
         </valList>
        </attDef>
