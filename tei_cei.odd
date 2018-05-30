@@ -293,6 +293,53 @@
        <macroRef key="model.nameLike"/>
       </content>
      </elementSpec>
+     <elementSpec ident="diploFormula" prefix="cei_"
+      mode="add">
+      <desc></desc>
+      <classes>
+       <memberOf key="att.global"/>
+       <memberOf key="att.typed"/>
+      </classes>
+      <content>
+        <classRef key="model.phrase"/>
+      </content>
+      <attList>
+       <attDef ident="type" mode="replace">
+        <valList type="closed">
+         <valItem ident="arenga">
+          <desc>Desc.</desc>
+         </valItem>
+         <valItem ident="corrobatio">
+          <desc>Desc.</desc>
+         </valItem>
+         <valItem ident="datatio">
+          <desc>Desc.</desc>
+         </valItem>
+         <valItem ident="dispositio">
+          <desc>Desc.</desc>
+         </valItem>
+         <valItem ident="inscriptio">
+          <desc>Desc.</desc>
+         </valItem>
+         <valItem ident="intitulatio">
+          <desc>Desc.</desc>
+         </valItem>
+         <valItem ident="narratio">
+          <desc>Desc.</desc>
+         </valItem>
+         <valItem ident="publicatio">
+          <desc>Desc.</desc>
+         </valItem>
+         <valItem ident="sanctio">
+          <desc>Desc.</desc>
+         </valItem>
+         <valItem ident="subscriptio">
+          <desc>Desc.</desc>
+         </valItem>
+        </valList>
+       </attDef>
+      </attList>
+     </elementSpec>
     </schemaSpec>
    </div>
   </body>
