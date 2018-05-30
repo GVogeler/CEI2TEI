@@ -278,6 +278,21 @@
      <elementSpec module="msdescription" ident="sealDesc" mode="change">
       <altIdent>authDesc</altIdent>
      </elementSpec>
+     <elementSpec  ident="issuer" mode="add">
+      <content>
+       <macroRef key="model.nameLike"/>
+      </content>
+     </elementSpec>
+     <elementSpec  ident="recipient" mode="add">
+      <content>
+       <macroRef key="model.nameLike"/>
+      </content>
+     </elementSpec>
+     <elementSpec  ident="documentWitness" mode="add">
+      <content>
+       <macroRef key="model.nameLike"/>
+      </content>
+     </elementSpec>
     </schemaSpec>
    </div>
   </body>
