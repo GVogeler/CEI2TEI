@@ -293,7 +293,7 @@
        <macroRef key="model.nameLike"/>
       </content>
      </elementSpec>
-     <elementSpec ident="diploFormula" prefix="cei_"
+     <elementSpec ident="diploPart" prefix="cei_"
       mode="add">
       <desc></desc>
       <classes>
@@ -306,7 +306,22 @@
       <attList>
        <attDef ident="type" mode="replace">
         <valList type="closed">
+         <valItem ident="protocol">
+          <desc>Desc.</desc>
+         </valItem>
+         <valItem ident="contextus">
+          <desc>Also called corpus.</desc>
+         </valItem>
+         <valItem ident="eschatocol">
+          <desc>Desc.</desc>
+         </valItem>
+         <valItem ident="apprecatio">
+          <desc>Desc.</desc>
+         </valItem>
          <valItem ident="arenga">
+          <desc>Desc.</desc>
+         </valItem>
+         <valItem ident="clausulae">
           <desc>Desc.</desc>
          </valItem>
          <valItem ident="corroboratio">
@@ -324,10 +339,16 @@
          <valItem ident="intitulatio">
           <desc>Desc.</desc>
          </valItem>
+         <valItem ident="invocatio">
+          <desc>Desc.</desc>
+         </valItem>
          <valItem ident="narratio">
           <desc>Desc.</desc>
          </valItem>
          <valItem ident="publicatio">
+          <desc>Desc.</desc>
+         </valItem>
+         <valItem ident="salutatio">
           <desc>Desc.</desc>
          </valItem>
          <valItem ident="sanctio">
