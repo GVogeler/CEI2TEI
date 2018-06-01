@@ -310,61 +310,111 @@
        <attDef ident="type" mode="replace">
         <valList type="closed">
          <valItem ident="protocol">
-          <desc>The opening protocol contains formulaic information invoking divine aid, naming the issuer and addressee, conveying greetings. Generally a superset of the invocatio, intitulatio, inscriptio, and salutatio.</desc>
+          <desc>
+           The opening protocol contains formulaic information invoking divine aid, naming the issuer and addressee, conveying greetings. 
+           Generally a superset of the invocatio, intitulatio, inscriptio, and salutatio.
+          </desc>
          </valItem>
          <valItem ident="contextus">
-          <desc>Also called corpus. The main content relating to the particulars of the act. Generally a superset of the arenga, publicatio, narratio, dispositio, clausulae, and sanctio.</desc>
+          <desc>
+           Also called corpus. The main content relating to the particulars of the act. 
+           Generally a superset of the arenga, publicatio, narratio, dispositio, clausulae, and sanctio.
+          </desc>
          </valItem>
          <valItem ident="eschatocol">
-          <desc>The closing protocol includes formulaic information relating to completion of the document. Generally a superset of the subscriptio, corroboratio, datatio, and appreciatio.</desc>
+          <desc>
+           The closing protocol includes formulaic information relating to completion of the document. Generally a superset of the subscriptio, corroboratio, datatio, and appreciatio.</desc>
          </valItem>
          <valItem ident="apprecatio">
-          <desc>VID 251. A solemn ending clause, indicating the achievement of the act, such as 'Fiat. Fiat. Amen.'</desc>
+          <desc>
+           VID 251.
+           A solemn ending clause, indicating the achievement of the act, such as 'Fiat. Fiat. Amen.'
+          </desc>
          </valItem>
          <valItem ident="arenga">
-          <desc>VID 196. Sometimes called the preamble or proem, the arenga </desc>
+          <desc>
+           VID 196.
+           Sometimes called the exordium, preamble, or proem, the arenga is a 'rhetorical preparation for the burden of communication' (Boyle, 97.) which may be particular to the document or wholly formulaic, unlinked in content to the actual act.
+          </desc>
          </valItem>
          <valItem ident="benedictio">
-          <desc>VID 245. The benediction clause contains a blessing.</desc>
+          <desc>
+           VID 245.
+           The benediction clause contains a blessing.
+          </desc>
          </valItem>
          <valItem ident="clausulae">
-          <desc>Clause of qualifiers, exceptions, prohibitions, and obligations relating to the act.</desc>
+          <desc>
+           Clause of qualifiers, exceptions, prohibitions, and obligations relating to the act.
+          </desc>
          </valItem>
          <valItem ident="corroboratio">
-          <desc>VID 246. Also known as the ratification clause, the clause of corroboration connects the words of the charter to the effective elements of its validity, whether signature, seal, or promulgation.</desc>
+          <desc>
+           VID 246.
+           Also known as the ratification clause, the clause of corroboration connects the words of the charter to the effective elements of its validity, whether signature, seal, or promulgation.
+          </desc>
          </valItem>
          <valItem ident="datatio">
-          <desc>VID 561. The dating clause gives the date of the issuance of the charter, by any dating system.</desc>
+          <desc>VID 561.
+           The dating clause gives the date of the issuance of the charter, by any dating system.
+          </desc>
          </valItem>
          <valItem ident="dispositio">
-          <desc>VID 198. Also known as the conveyance clause, the dispositive clause is the essential or effective clause of the charter, which describes the property or honor to be conveyed, its burndens, conditions, and limitations, and conveys the same.</desc>
+          <desc>
+           VID 198.
+           Also known as the conveyance clause, the dispositive clause is the essential or effective clause of the charter, which describes the property or honor to be conveyed, its burndens, conditions, and limitations, and conveys the same.
+          </desc>
          </valItem>
          <valItem ident="inscriptio">
-          <desc>VID 192. Also known as the address, the part of the document that gives the name, titles, and addresses the qualities of the addressee or recipient of the act.</desc>
+          <desc>
+           VID 192.
+           Also known as the address, the part of the document that gives the name, titles, and addresses the qualities of the addressee or recipient of the act.
+          </desc>
          </valItem>
          <valItem ident="intitulatio">
-          <desc>VID 187. Also known as the superscriptio or the persona salutans, the part of the document which gives the namme of the issuer and his/her titles.</desc>
+          <desc>
+           VID 187.
+           Also known as the superscriptio or the persona salutans, the part of the document which gives the namme of the issuer and his/her titles.
+          </desc>
          </valItem>
          <valItem ident="invocatio">
-          <desc>VID 185. A clause calling upon God or a saint, for divine protection or witness.</desc>
+          <desc>
+           VID 185.
+           A clause calling upon God or a saint, for divine protection or witness.
+          </desc>
          </valItem>
          <valItem ident="narratio">
-          <desc>VID 197. The narration clause states the case of gives the circumstances or context leading up to the issuance of the act. </desc>
+          <desc>
+           VID 197.
+           The narration clause states the case of gives the circumstances or context leading up to the issuance of the act.
+          </desc>
          </valItem>
          <valItem ident="notificatio">
-          <desc>VID 196. The pulbication, promulgation, or notfication clause addresses itself to all those concerned in the act, as parties or readers.</desc>
+          <desc>VID 196.
+           The pulbication, promulgation, or notfication clause addresses itself to all those concerned in the act, as parties or readers.
+          </desc>
          </valItem>
          <valItem ident="publicatio">
-          <desc>VID 196. See notificatio.</desc>
+          <desc>
+           VID 196.
+           See notificatio.</desc>
          </valItem>
          <valItem ident="salutatio">
-          <desc>VID 194. A clause expressing greetings, usually at the beginning of the document. A subtype of this is the salutatio finale or final salutation (VID 253), which comes at the end of the document.</desc>
+          <desc>
+           VID 194.
+           A clause expressing greetings, usually at the beginning of the document. 
+           A subtype of this is the salutatio finale or final salutation (VID 253), which comes at the end of the document.
+          </desc>
          </valItem>
          <valItem ident="sanctio">
-          <desc>VID 237. Also known as a penal clause. Defines penalties for breach of act.</desc>
+          <desc>VID 237.
+           Also known as a penal clause. Defines penalties for breach of act.
+          </desc>
          </valItem>
          <valItem ident="subscriptio">
-          <desc>VID 254. Part of the act containing the signatures of the principals, witnesses, officials, and notaries involved.</desc>
+          <desc>
+           VID 254.
+           Part of the act containing the signatures of the principals, witnesses, officials, and notaries involved.</desc>
          </valItem>
         </valList>
        </attDef>
