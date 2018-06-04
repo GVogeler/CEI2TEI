@@ -102,8 +102,7 @@
          following the advice in <ref
           target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html">10. Manuscript
           Description</ref>, except in the case of new elements in this specification, such as
-         diploDesc and authDesc and modified elements, such as sealDesc, seal, monogram, and
-         chirograph.</item>
+         diploDesc and authDesc and modified elements, such as sealDesc.</item>
         <item>In most cases, where single-folio documents are being transcribed, they can be
          foliated using the pb element and an xml:id set to "f1r" before the beginning of the text
          on the recto and "f1v" before the text on the verso. In the case of documents of more than
