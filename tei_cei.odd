@@ -447,6 +447,26 @@
        </attDef>
       </attList>
      </elementSpec>
+     <elementSpec module="msdescription" ident="additions" mode="change">
+      <desc></desc>
+      <classes mode="replace">
+       <memberOf key="model.physDescPart"/>
+       <memberOf key="att.global"/>
+       <memberOf key="att.typed" mode="add"/>
+      </classes>
+      <attList>
+       <attDef ident="type" mode="add">
+        <datatype>
+         <dataRef key="teidata.text"/>
+        </datatype>
+        <valList type="open">
+         <valItem ident="penTrials">
+          <desc>Desc.</desc>
+         </valItem>
+        </valList>
+       </attDef>
+      </attList>
+     </elementSpec>
     </schemaSpec>
    </div>
   </body>

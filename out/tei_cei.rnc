@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-06-01T14:16:22Z. .
+# Schema generated from ODD source 2018-06-04T12:20:43Z. .
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -7492,8 +7492,21 @@ decoNote =
   }
 additions =
   
-  ## contains a description of any significant additions found within a manuscript, such as marginalia or other annotations. [10.7.2. Writing, Decoration, and Other Notations]
-  element additions { macro.specialPara, att.global.attributes, empty }
+  ##  [10.7.2. Writing, Decoration, and Other Notations]
+  element additions {
+    macro.specialPara,
+    att.global.attributes,
+    att.typed.attribute.subtype,
+    
+    ## 
+    ## Sample values include: 1] penTrials
+    attribute type { xsd:string }?,
+    
+    ## 
+    ## Sample values include: 1] penTrials
+    attribute type { xsd:string }?,
+    empty
+  }
 bindingDesc =
   
   ## (binding description) describes the present and former bindings of a manuscript, either as a series of paragraphs or as a series of distinct binding elements, one for each binding of the manuscript. [10.7.3.1. Binding Descriptions]
