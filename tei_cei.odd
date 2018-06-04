@@ -292,6 +292,11 @@
        <macroRef key="model.nameLike"/>
       </content>
      </elementSpec>
+     <elementSpec  ident="intervenor" prefix="cei_" mode="add">
+      <content>
+       <macroRef key="model.nameLike"/>
+      </content>
+     </elementSpec>
      <elementSpec ident="diploPart" prefix="cei_"
       mode="add">
       <desc>
