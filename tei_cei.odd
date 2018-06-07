@@ -277,25 +277,67 @@
      <elementSpec module="msdescription" ident="sealDesc" mode="change">
       <altIdent>authDesc</altIdent>
      </elementSpec>
-     <elementSpec  ident="issuer" prefix="cei_" mode="add">
+     <elementSpec  ident="legalActor" prefix="cei_" mode="add">
+      <desc>
+       Persons or organizations party to a an act or contract.
+      </desc>
+      <classes>
+       <memberOf key="att.global"/>
+       <memberOf key="att.typed"/>
+      </classes>
       <content>
-       <macroRef key="model.nameLike"/>
+        <macroRef key="model.nameLike"/>
       </content>
-     </elementSpec>
-     <elementSpec  ident="recipient" prefix="cei_" mode="add">
-      <content>
-       <macroRef key="model.nameLike"/>
-      </content>
-     </elementSpec>
-     <elementSpec  ident="documentWitness" prefix="cei_" mode="add">
-      <content>
-       <macroRef key="model.nameLike"/>
-      </content>
-     </elementSpec>
-     <elementSpec  ident="intervenor" prefix="cei_" mode="add">
-      <content>
-       <macroRef key="model.nameLike"/>
-      </content>
+      <attList>
+       <attDef ident="type" mode="replace">
+        <valList type="closed">
+         <valItem ident="issuer">
+          <desc>
+           VID 16. 
+           The party whose authority issues the document.</desc>
+         </valItem>
+         <valItem ident="recipient">
+          <desc>
+           VID 17. 
+           The party to whom the act of the document is addressed.</desc>
+         </valItem>
+         <valItem ident="beneficiary">
+          <desc>
+           VID 17. 
+           In some cases, the party to whom the act of the document is addressed is not the party whose benefit is intended, in which case the latter should be marked as the beneficiary.</desc>
+         </valItem>
+         <valItem ident="witness">
+          <desc>
+           VID 263. 
+           Someone who stands as a legal witness of the act, generally through subscription.</desc>
+         </valItem>
+         <valItem ident="notary">
+          <desc>
+           VID 273. 
+           Someone who is a professional redactor of acts, with a legal authority in their preparation. 
+           May be the same person as, but separate conceptually from the scribe, who does not bear a legal role in the act.</desc>
+         </valItem>
+         <valItem ident="promisor">
+          <desc>
+           The party of a contract who makes a promise.</desc>
+         </valItem>
+         <valItem ident="promisee">
+          <desc>
+           The party of a contract who is on the receiving end a promise.</desc>
+         </valItem>
+         <valItem ident="intervenor">
+          <desc>
+           cf. VID 66. 
+           A party who joins a legal process by the authority of the judicial system, who is not originally party to the contract.</desc>
+         </valItem>
+         <valItem ident="sigillant">
+          <desc>
+           VID 503. 
+           The owner of a seal.</desc>
+         </valItem>
+       </valList>
+       </attDef>
+      </attList>
      </elementSpec>
      <elementSpec ident="diploPart" prefix="cei_"
       mode="add">
