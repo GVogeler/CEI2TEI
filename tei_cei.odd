@@ -467,7 +467,12 @@
       </attList>
      </elementSpec>
      <elementSpec module="msdescription" ident="additions" mode="change">
-      <desc></desc>
+      <desc>
+       Contains a description of any significant additions found within a manuscript, such as marginalia or other annotations. 
+       See definition in <ref
+        target="http://www.cei.lmu.de/VID/VID.php?180">VID 180</ref> and TEI documentation <ref
+        target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html#msph2">10.7.2 Writing, Decoration, and Other Notations</ref>
+      </desc>
       <classes mode="replace">
        <memberOf key="model.physDescPart"/>
        <memberOf key="att.global"/>
@@ -478,9 +483,15 @@
         <datatype>
          <dataRef key="teidata.text"/>
         </datatype>
-        <valList type="open">
-         <valItem ident="penTrials">
-          <desc>Desc.</desc>
+        <valList type="closed">
+         <valItem ident="chancellery">
+          <desc>Notes made in the context of the original production of the document, whether or not that was a chancellery per se.</desc>
+         </valItem>
+         <valItem ident="ownership">
+          <desc>Notes made as part of ownership, sale, or archiving. Ownership notes, summaries on the dorse, etc.</desc>
+         </valItem>
+         <valItem ident="reader">
+          <desc>Notes made by end-users for whatever purpose. Pen-trials, notes on content, instructions on use, etc.</desc>
          </valItem>
         </valList>
        </attDef>
