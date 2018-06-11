@@ -539,6 +539,53 @@
        </attDef>
       </attList>
      </elementSpec>
+     <elementSpec module="msdescription" ident="sealDesc" mode="change">
+      <altIdent>authDesc</altIdent>
+     </elementSpec>
+     <elementSpec  ident="copyStatus" prefix="cei_" mode="add">
+      <desc>
+       The status of the document as an original or a copy. Equivalent to the former CEI traditioForm. 
+       Can occur multiple times in different msItems, to represent, for example, a copy of a document which is in an original of a promulgation of the first document.
+      </desc>
+      <classes>
+       <memberOf key="att.global"/>
+       <memberOf key="att.typed"/>
+      </classes>
+      <content>
+       <macroRef key="model.phrase"/>
+      </content>
+      <attList>
+       <attDef ident="type" mode="replace">
+        <valList type="closed">
+         <valItem ident="original">
+          <desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?42">VID 42</ref>. 
+           An original copy is one that carries the first definitive form that would have force of the contained act.
+          </desc>
+         </valItem>
+         <valItem ident="copy">
+          <desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?53">VID 53</ref>. 
+           cf. VID 54–63, 65, 67–69, 74.
+           A copy of a document is a reproduction of the original.
+          </desc>
+         </valItem>
+         <valItem ident="draft">
+          <desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?349">VID 349</ref>. 
+           A draft is any version of the document before the first definitive form that has force of the contained act.
+          </desc>
+         </valItem>
+         <valItem ident="unknown">
+          <desc>
+           When no definitive classification of the document can be made into one of the other three categories.
+           Differs from simply leaving the type off by making a statement that the subject was inspected and determined to be unknown, rather than not having been inspected at all.
+          </desc>
+         </valItem>
+        </valList>
+       </attDef>
+      </attList>
+     </elementSpec>
     </schemaSpec>
    </div>
   </body>
