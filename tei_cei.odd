@@ -466,29 +466,6 @@
        </attDef>
       </attList>
      </elementSpec>
-     <elementSpec ident="setPhrase" prefix="cei_"
-      mode="add">
-      <desc></desc>
-      <classes>
-       <memberOf key="att.global"/>
-       <memberOf key="att.typed"/>
-      </classes>
-      <content>
-       <classRef key="model.phrase"/>
-      </content>
-      <attList>
-       <attDef ident="type" mode="replace">
-        <datatype>
-         <dataRef key="teidata.text"/>
-        </datatype>
-        <valList type="open">
-         <valItem ident="Salutem et apostolicam benedictionem">
-          <desc>Desc.</desc>
-         </valItem>
-        </valList>
-       </attDef>
-      </attList>
-     </elementSpec>
      <elementSpec module="msdescription" ident="additions" mode="change">
       <desc></desc>
       <classes mode="replace">
