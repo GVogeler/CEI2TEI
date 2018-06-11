@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-06-07T14:17:48Z. .
+# Schema generated from ODD source 2018-06-11T14:58:35Z. .
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -7492,19 +7492,37 @@ decoNote =
   }
 additions =
   
-  ##  [10.7.2. Writing, Decoration, and Other Notations]
+  ## Contains a description of any significant additions found within a manuscript, such as marginalia or other annotations. See definition in VID 180 and TEI documentation 10.7.2 Writing, Decoration, and Other Notations. [10.7.2. Writing, Decoration, and Other Notations]
   element additions {
     macro.specialPara,
     att.global.attributes,
     att.typed.attribute.subtype,
     
-    ## 
-    ## Sample values include: 1] penTrials
-    attribute type { xsd:string }?,
+    ##
+    attribute type {
+      
+      ## Notes made in the context of the original production of the document, whether or not that was a chancellery per se.
+      "chancellery"
+      | 
+        ## Notes made as part of ownership, sale, or archiving. Ownership notes, summaries on the dorse, etc.
+        "ownership"
+      | 
+        ## Notes made by end-users for whatever purpose. Pen-trials, notes on content, instructions on use, etc.
+        "reader"
+    }?,
     
-    ## 
-    ## Sample values include: 1] penTrials
-    attribute type { xsd:string }?,
+    ##
+    attribute type {
+      
+      ## Notes made in the context of the original production of the document, whether or not that was a chancellery per se.
+      "chancellery"
+      | 
+        ## Notes made as part of ownership, sale, or archiving. Ownership notes, summaries on the dorse, etc.
+        "ownership"
+      | 
+        ## Notes made by end-users for whatever purpose. Pen-trials, notes on content, instructions on use, etc.
+        "reader"
+    }?,
     empty
   }
 bindingDesc =

@@ -381,8 +381,9 @@
      <elementSpec ident="diploPart" prefix="cei_"
       mode="add">
       <desc>
-       An element identifying the various conventional elements of documentary instruments. The list contains and may be extended with clauses which overlap in their meanings, to meet the specific legal context of the act. 
-       That said, using the existing categories, where possible, increases the cross-comparative functionality of the total corpus, and is encouraged.
+       An element identifying the various conventional elements of documentary instruments. This refers to the intellectual content of the text; generic solutions should be used if the needs of an individual project require devisions on set phrases or other segments fo text.
+       The list contains and may be extended with clauses which overlap in their meanings, to meet the specific legal context of the act. 
+       Using the existing categories, where possible, increases the cross-comparative functionality of the total corpus, and is encouraged.
       </desc>
       <classes>
        <memberOf key="att.global"/>
@@ -538,9 +539,6 @@
         </valList>
        </attDef>
       </attList>
-     </elementSpec>
-     <elementSpec module="msdescription" ident="sealDesc" mode="change">
-      <altIdent>authDesc</altIdent>
      </elementSpec>
      <elementSpec  ident="copyStatus" prefix="cei_" mode="add">
       <desc>
