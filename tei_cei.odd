@@ -303,7 +303,7 @@
      </elementSpec>
      <elementSpec  ident="legalActor" prefix="cei_" mode="add">
       <desc>
-       Persons or organizations party to a an act or contract.
+       Persons or organizations party to or otherwise mentioned in a an act or contract.
       </desc>
       <classes>
        <memberOf key="att.global"/>
@@ -318,7 +318,9 @@
          <valItem ident="issuer">
           <desc>
            <ref target="http://www.cei.lmu.de/VID/VID.php?16">VID 16</ref>. 
-           The party whose authority issues the document.</desc>
+           The party whose authority issues the document.
+           A lord or judge issueing a ruling is the issuer.
+          </desc>
          </valItem>
          <valItem ident="recipient">
           <desc>
@@ -333,7 +335,9 @@
          <valItem ident="witness">
           <desc>
            <ref target="http://www.cei.lmu.de/VID/VID.php?263">VID 263</ref>. 
-           Someone who stands as a legal witness of the act, generally through subscription.</desc>
+           Someone who stands as a legal witness of the act, generally through subscription.
+           When something is done in the presence of a judge, the judge is marked as a witness.
+          </desc>
          </valItem>
          <valItem ident="notary">
           <desc>
@@ -343,21 +347,32 @@
          </valItem>
          <valItem ident="promisor">
           <desc>
-           The party of a contract who makes a promise.</desc>
+           The party of a contract who makes a promise.
+           All kinds of promisors are meant, which may include lessors/lessees, contractors, debtors, etc.
+          </desc>
          </valItem>
          <valItem ident="promisee">
           <desc>
-           The party of a contract who is on the receiving end a promise.</desc>
+           The party of a contract who is on the receiving end a promise.
+           May also be a promisor where there is a mutual trade. 
+          </desc>
          </valItem>
          <valItem ident="intervenor">
           <desc>
            cf. <ref target="http://www.cei.lmu.de/VID/VID.php?66">VID 66</ref>. 
-           A party who joins a legal process by the authority of the judicial system, who is not originally party to the contract.</desc>
+           A party who joins a legal process by the authority of the judicial system, who is not (originally) party to the contract.
+           May be used for legal intervenors, advocates, procurators, accusers (where said are not recipients or beneficiaries), petitioners/sponsors who are not recipients or beneficiaries of the resulting act, judges (where they are not acting as issuers or witnesses), guarantors, etc.
+          </desc>
          </valItem>
          <valItem ident="sigillant">
           <desc>
            <ref target="http://www.cei.lmu.de/VID/VID.php?503">VID 503</ref>. 
            The owner of a seal.</desc>
+         </valItem>
+         <valItem ident="third">
+          <desc>
+           A third-party is anyone who is not a party to a contract or act but might be affected or involved.
+          </desc>
          </valItem>
        </valList>
        </attDef>
