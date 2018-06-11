@@ -206,7 +206,8 @@
      </elementSpec>
      <elementSpec ident="authen" prefix="cei_"
       mode="add">
-      <desc>Description of an element that is used to authenticate a document. Specifically, elements that would be intended, from a juridical perspective, to be authenticating. May contain a forged element, in which case the forgery should be noted and certainty marked.</desc>
+      <desc>Description of an element that is used to authenticate a document. Specifically, elements that would be intended, from a juridical perspective, to be authenticating. 
+       May contain a forged element, in which case the forgery should be noted and certainty marked.</desc>
       <classes>
        <memberOf key="att.dateable"/>
        <memberOf key="att.global"/>
@@ -238,37 +239,60 @@
           <desc>Purely-digital authenticating elements. Anything that is a digital copy of a physical element is not this type.</desc>
          </valItem>
          <valItem ident="notarized">
-          <desc>Notarization as a legal act with varying regional practices, which may include stamping, embossing, attached materials, signatures, or attestations. Apostilles are considered a type of notarization for this category.</desc>
+          <desc>Notarization as a legal act with varying regional practices, which may include stamping, embossing, attached materials, signatures, or attestations. 
+           Apostilles are considered a type of notarization for this category.
+          </desc>
          </valItem>
          <valItem ident="nonattached">
-          <desc>Any authenticating element which is not now and was never attached to the document. Registration, certification, duplicates in archives.</desc>
+          <desc>
+           Any authenticating element which is not now and was never attached to the document. Registration, certification, duplicates in archives.
+          </desc>
          </valItem>
          <valItem ident="biometrics">
-          <desc>Biometric info used to establish authentic identity of the document owner/maker/issuer.</desc>
+          <desc>
+           Biometric info used to establish authentic identity of the document owner/maker/issuer.
+          </desc>
          </valItem>
          <valItem ident="token">
-          <desc>External tokens used to establish the authenticity or authority of the sender or issuer.</desc>
+          <desc>
+           External tokens used to establish the authenticity or authority of the sender or issuer.
+          </desc>
          </valItem>
          <valItem ident="signed">
-          <desc>Any kind of signature, subscription, or signing mark.</desc>
+          <desc>
+           Any kind of signature, subscription, or signing mark.
+          </desc>
          </valItem>
          <valItem ident="mark">
-          <desc>Any kind of non-signging mark, such as a hallmark or a trademark.</desc>
+          <desc>
+           Any kind of non-signging mark, such as a hallmark or a trademark.
+          </desc>
          </valItem>
          <valItem ident="stamp">
-          <desc>Both inked and adhesive stamps.</desc>
+          <desc>
+           Both inked and adhesive stamps.
+          </desc>
          </valItem>
          <valItem ident="split">
-          <desc>Any item where a shared medium has been split in a way that can be recombined to demonstrate authenticity. Chirographs, tallies, indentures.</desc>
+          <desc>
+           Any item where a shared medium has been split in a way that can be recombined to demonstrate authenticity. 
+           Chirographs, tallies, indentures.
+          </desc>
          </valItem>
          <valItem ident="endorsement">
-          <desc>Writing on the document by someone is a position of authority, establishing its authenticity or authroity.</desc>
+          <desc>
+           Writing on the document by someone is a position of authority, establishing its authenticity or authroity.
+          </desc>
          </valItem>
          <valItem ident="medium">
-          <desc>Special or controlled materials used to establish authenticity and convey authority. Banknote paper, magnetic stripes, RFID chips.</desc>
+          <desc>
+           Special or controlled materials used to establish authenticity and convey authority. Banknote paper, magnetic stripes, RFID chips.
+          </desc>
          </valItem>
          <valItem ident="packaging">
-          <desc>Elements of packaging which correspond to authenticity or establish that it has not been tampered with from some authoritative time frame.</desc>
+          <desc>
+           Elements of packaging which correspond to authenticity or establish that it has not been tampered with from some authoritative time frame.
+          </desc>
          </valItem>
         </valList>
        </attDef>
@@ -293,27 +317,27 @@
         <valList type="closed">
          <valItem ident="issuer">
           <desc>
-           VID 16. 
+           <ref target="http://www.cei.lmu.de/VID/VID.php?16">VID 16</ref>. 
            The party whose authority issues the document.</desc>
          </valItem>
          <valItem ident="recipient">
           <desc>
-           VID 17. 
+           <ref target="http://www.cei.lmu.de/VID/VID.php?17">VID 17</ref>. 
            The party to whom the act of the document is addressed.</desc>
          </valItem>
          <valItem ident="beneficiary">
           <desc>
-           VID 17. 
+           <ref target="http://www.cei.lmu.de/VID/VID.php?17">VID 17</ref>. 
            In some cases, the party to whom the act of the document is addressed is not the party whose benefit is intended, in which case the latter should be marked as the beneficiary.</desc>
          </valItem>
          <valItem ident="witness">
           <desc>
-           VID 263. 
+           <ref target="http://www.cei.lmu.de/VID/VID.php?263">VID 263</ref>. 
            Someone who stands as a legal witness of the act, generally through subscription.</desc>
          </valItem>
          <valItem ident="notary">
           <desc>
-           VID 273. 
+           <ref target="http://www.cei.lmu.de/VID/VID.php?273">VID 273</ref>.
            Someone who is a professional redactor of acts, with a legal authority in their preparation. 
            May be the same person as, but separate conceptually from the scribe, who does not bear a legal role in the act.</desc>
          </valItem>
@@ -327,12 +351,12 @@
          </valItem>
          <valItem ident="intervenor">
           <desc>
-           cf. VID 66. 
+           cf. <ref target="http://www.cei.lmu.de/VID/VID.php?66">VID 66</ref>. 
            A party who joins a legal process by the authority of the judicial system, who is not originally party to the contract.</desc>
          </valItem>
          <valItem ident="sigillant">
           <desc>
-           VID 503. 
+           <ref target="http://www.cei.lmu.de/VID/VID.php?503">VID 503</ref>. 
            The owner of a seal.</desc>
          </valItem>
        </valList>
@@ -373,19 +397,19 @@
          </valItem>
          <valItem ident="apprecatio">
           <desc>
-           VID 251.
+           <ref target="http://www.cei.lmu.de/VID/VID.php?251">VID 251</ref>.
            A solemn ending clause, indicating the achievement of the act, such as 'Fiat. Fiat. Amen.'
           </desc>
          </valItem>
          <valItem ident="arenga">
           <desc>
-           VID 196.
+           <ref target="http://www.cei.lmu.de/VID/VID.php?196">VID 196</ref>.
            Sometimes called the exordium, preamble, or proem, the arenga is a 'rhetorical preparation for the burden of communication' (Boyle, 97.) which may be particular to the document or wholly formulaic, unlinked in content to the actual act.
           </desc>
          </valItem>
          <valItem ident="benedictio">
           <desc>
-           VID 245.
+           <ref target="http://www.cei.lmu.de/VID/VID.php?245">VID 245</ref>.
            The benediction clause contains a blessing.
           </desc>
          </valItem>
@@ -396,70 +420,73 @@
          </valItem>
          <valItem ident="corroboratio">
           <desc>
-           VID 246.
+           <ref target="http://www.cei.lmu.de/VID/VID.php?246">VID 246</ref>.
            Also known as the ratification clause, the clause of corroboration connects the words of the charter to the effective elements of its validity, whether signature, seal, or promulgation.
           </desc>
          </valItem>
          <valItem ident="datatio">
-          <desc>VID 561.
+          <desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?561">VID 561</ref>.
            The dating clause gives the date of the issuance of the charter, by any dating system.
           </desc>
          </valItem>
          <valItem ident="dispositio">
           <desc>
-           VID 198.
+           <ref target="http://www.cei.lmu.de/VID/VID.php?198">VID 198</ref>.
            Also known as the conveyance clause, the dispositive clause is the essential or effective clause of the charter, which describes the property or honor to be conveyed, its burndens, conditions, and limitations, and conveys the same.
           </desc>
          </valItem>
          <valItem ident="inscriptio">
           <desc>
-           VID 192.
+           <ref target="http://www.cei.lmu.de/VID/VID.php?192">VID 192</ref>.
            Also known as the address, the part of the document that gives the name, titles, and addresses the qualities of the addressee or recipient of the act.
           </desc>
          </valItem>
          <valItem ident="intitulatio">
           <desc>
-           VID 187.
+           <ref target="http://www.cei.lmu.de/VID/VID.php?187">VID 187</ref>.
            Also known as the superscriptio or the persona salutans, the part of the document which gives the namme of the issuer and his/her titles.
           </desc>
          </valItem>
          <valItem ident="invocatio">
           <desc>
-           VID 185.
+           <ref target="http://www.cei.lmu.de/VID/VID.php?185">VID 185.</ref>.
            A clause calling upon God or a saint, for divine protection or witness.
           </desc>
          </valItem>
          <valItem ident="narratio">
           <desc>
-           VID 197.
+           <ref target="http://www.cei.lmu.de/VID/VID.php?197">VID 197</ref>.
            The narration clause states the case of gives the circumstances or context leading up to the issuance of the act.
           </desc>
          </valItem>
          <valItem ident="notificatio">
-          <desc>VID 196.
+          <desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?196">VID 196</ref>.
            The pulbication, promulgation, or notfication clause addresses itself to all those concerned in the act, as parties or readers.
           </desc>
          </valItem>
          <valItem ident="publicatio">
           <desc>
-           VID 196.
+           <ref target="http://www.cei.lmu.de/VID/VID.php?196">VID 196</ref>.
            See notificatio.</desc>
          </valItem>
          <valItem ident="salutatio">
           <desc>
-           VID 194.
+           <ref target="http://www.cei.lmu.de/VID/VID.php?194">VID 194</ref>.
            A clause expressing greetings, usually at the beginning of the document. 
            A subtype of this is the salutatio finale or final salutation (VID 253), which comes at the end of the document.
           </desc>
          </valItem>
          <valItem ident="sanctio">
-          <desc>VID 237.
+          <desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?237">VID 237</ref>.
            Also known as a penal clause. Defines penalties for breach of act.
           </desc>
          </valItem>
          <valItem ident="subscriptio">
           <desc>
-           VID 254.
+           <ref target="http://www.cei.lmu.de/VID/VID.php?254">VID 254</ref>.
            Part of the act containing the signatures of the principals, witnesses, officials, and notaries involved.</desc>
          </valItem>
         </valList>
@@ -471,7 +498,7 @@
        Contains a description of any significant additions found within a manuscript, such as marginalia or other annotations. 
        See definition in <ref
         target="http://www.cei.lmu.de/VID/VID.php?180">VID 180</ref> and TEI documentation <ref
-        target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html#msph2">10.7.2 Writing, Decoration, and Other Notations</ref>
+        target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/MS.html#msph2">10.7.2 Writing, Decoration, and Other Notations</ref>.
       </desc>
       <classes mode="replace">
        <memberOf key="model.physDescPart"/>
