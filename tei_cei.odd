@@ -381,7 +381,7 @@
      <elementSpec ident="diploPart" prefix="cei_"
       mode="add">
       <desc>
-       An element identifying the various conventional elements of documentary instruments. This refers to the intellectual content of the text; generic solutions should be used if the needs of an individual project require devisions on set phrases or other segments fo text.
+       An element identifying the various conventional elements of documentary instruments. This refers to the intellectual content of the text; generic solutions should be used if the needs of an individual project require devisions on set phrases or other segments of text.
        The list contains and may be extended with clauses which overlap in their meanings, to meet the specific legal context of the act. 
        Using the existing categories, where possible, increases the cross-comparative functionality of the total corpus, and is encouraged.
       </desc>
@@ -542,7 +542,8 @@
      </elementSpec>
      <elementSpec  ident="copyStatus" prefix="cei_" mode="add">
       <desc>
-       The status of the document as an original or a copy. Equivalent to the former CEI traditioForm. 
+       The status of the document as an original or a copy. 
+       Equivalent to the former CEI traditioForm. 
        Can occur multiple times in different msItems, to represent, for example, a copy of a document which is in an original of a promulgation of the first document.
       </desc>
       <classes>
