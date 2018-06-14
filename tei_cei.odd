@@ -181,7 +181,7 @@
      <elementSpec ident="diploDesc" prefix="cei_"
       mode="add">
       <desc>Contains a diplomatic description and analysis of a document, including bibliographic
-       references to studies; formal cricism of content and textual/legal form (physical form is
+       references to studies; formal criticism of content and textual/legal form (physical form is
        physDesc); and discussions of transmission and authenticiy.</desc>
       <classes>
        <memberOf key="model.biblLike"/>
@@ -480,6 +480,12 @@
           <desc>
            <ref target="http://www.cei.lmu.de/VID/VID.php?196">VID 196</ref>.
            The pulbication, promulgation, or notfication clause addresses itself to all those concerned in the act, as parties or readers.
+          </desc>
+         </valItem>
+         <valItem ident="rogatio">
+          <desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?326">VID 326</ref>.
+            Clause expressing request for formal documentation.
           </desc>
          </valItem>
          <valItem ident="publicatio">
