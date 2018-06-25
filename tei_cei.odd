@@ -539,14 +539,26 @@
          <dataRef key="teidata.text"/>
         </datatype>
         <valList type="closed">
-         <valItem ident="chancellery">
-          <desc>Notes made in the context of the original production of the document, whether or not that was a chancellery per se.</desc>
+         <valItem ident="production">
+          <desc>Notes made in the context of the original production of the document, whether by the scribe, officials, or the original chancellery or issuer.</desc>
          </valItem>
          <valItem ident="ownership">
-          <desc>Notes made as part of ownership, sale, or archiving. Ownership notes, summaries on the dorse, etc.</desc>
+          <desc>
+           Notes made as part of ownership, sale, or archiving. Ownership notes, summaries on the dorse, etc.</desc>
          </valItem>
-         <valItem ident="reader">
-          <desc>Notes made by end-users for whatever purpose. Pen-trials, notes on content, instructions on use, etc.</desc>
+         <valItem ident="personal">
+          <desc>
+           Notes made by end-users for their own use. Pen-trials, notes on content, highlighting, etc.</desc>
+         </valItem>
+         <valItem ident="impersonal">
+          <desc>
+           Notes made for the benefit of another party. Corrections, comments, feedback, etc.</desc>
+         </valItem>
+         <valItem ident="structural">
+          <desc>
+           Annotations that improve the structure of the text or give general directions for its use.
+           Indices, instructions (e.g. for the order of readings), glosses, technical notes, etc.
+          </desc>
          </valItem>
         </valList>
        </attDef>

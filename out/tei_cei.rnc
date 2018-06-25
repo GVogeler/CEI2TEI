@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-06-11T14:58:35Z. .
+# Schema generated from ODD source 2018-06-25T12:51:40Z. .
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -7501,27 +7501,39 @@ additions =
     ##
     attribute type {
       
-      ## Notes made in the context of the original production of the document, whether or not that was a chancellery per se.
-      "chancellery"
+      ## Notes made in the context of the original production of the document, whether by the scribe, officials, or the original chancellery or issuer.
+      "production"
       | 
         ## Notes made as part of ownership, sale, or archiving. Ownership notes, summaries on the dorse, etc.
         "ownership"
       | 
-        ## Notes made by end-users for whatever purpose. Pen-trials, notes on content, instructions on use, etc.
-        "reader"
+        ## Notes made by end-users for their own use. Pen-trials, notes on content, highlighting, etc.
+        "personal"
+      | 
+        ## Notes made for the benefit of another party. Corrections, comments, feedback, etc.
+        "impersonal"
+      | 
+        ## Annotations that improve the structure of the text or give general directions for its use. Indices, instructions (e.g. for the order of readings), glosses, technical notes, etc. 
+        "structural"
     }?,
     
     ##
     attribute type {
       
-      ## Notes made in the context of the original production of the document, whether or not that was a chancellery per se.
-      "chancellery"
+      ## Notes made in the context of the original production of the document, whether by the scribe, officials, or the original chancellery or issuer.
+      "production"
       | 
         ## Notes made as part of ownership, sale, or archiving. Ownership notes, summaries on the dorse, etc.
         "ownership"
       | 
-        ## Notes made by end-users for whatever purpose. Pen-trials, notes on content, instructions on use, etc.
-        "reader"
+        ## Notes made by end-users for their own use. Pen-trials, notes on content, highlighting, etc.
+        "personal"
+      | 
+        ## Notes made for the benefit of another party. Corrections, comments, feedback, etc.
+        "impersonal"
+      | 
+        ## Annotations that improve the structure of the text or give general directions for its use. Indices, instructions (e.g. for the order of readings), glosses, technical notes, etc. 
+        "structural"
     }?,
     empty
   }
@@ -8242,7 +8254,7 @@ interpGrp =
   }
 cei_diploDesc =
   
-  ## Contains a diplomatic description and analysis of a document, including bibliographic references to studies; formal cricism of content and textual/legal form (physical form is physDesc); and discussions of transmission and authenticiy.
+  ## Contains a diplomatic description and analysis of a document, including bibliographic references to studies; formal criticism of content and textual/legal form (physical form is physDesc); and discussions of transmission and authenticiy.
   element diploDesc {
     (model.pLike+,
      (model.pLike+ | (history?, additional?))),
