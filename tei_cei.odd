@@ -308,6 +308,7 @@
       <classes>
        <memberOf key="att.global"/>
        <memberOf key="att.typed"/>
+       <memberOf key="model.nameLike.agent"/>
       </classes>
       <content>
         <macroRef key="model.nameLike"/>
@@ -531,10 +532,10 @@
       <classes mode="replace">
        <memberOf key="model.physDescPart"/>
        <memberOf key="att.global"/>
-       <memberOf key="att.typed" mode="add"/>
+       <memberOf key="att.typed" />
       </classes>
       <attList>
-       <attDef ident="type" mode="add">
+       <attDef ident="type" mode="replace">
         <datatype>
          <dataRef key="teidata.text"/>
         </datatype>
