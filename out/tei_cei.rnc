@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-06-25T13:17:39Z. .
+# Schema generated from ODD source 2018-06-25T13:59:27Z. .
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -1227,16 +1227,13 @@ att.citing.attribute.to =
   attribute to {
     xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
   }?
-model.nameLike.agent = name | orgName | persName | cei_legalActor
-model.nameLike.agent_alternation =
-  name | orgName | persName | cei_legalActor
-model.nameLike.agent_sequence = name, orgName, persName, cei_legalActor
-model.nameLike.agent_sequenceOptional =
-  name?, orgName?, persName?, cei_legalActor?
+model.nameLike.agent = name | orgName | persName
+model.nameLike.agent_alternation = name | orgName | persName
+model.nameLike.agent_sequence = name, orgName, persName
+model.nameLike.agent_sequenceOptional = name?, orgName?, persName?
 model.nameLike.agent_sequenceOptionalRepeatable =
-  name*, orgName*, persName*, cei_legalActor*
-model.nameLike.agent_sequenceRepeatable =
-  name+, orgName+, persName+, cei_legalActor+
+  name*, orgName*, persName*
+model.nameLike.agent_sequenceRepeatable = name+, orgName+, persName+
 model.segLike = seg | s | cl | phr | w | m | c | pc
 model.hiLike = hi
 model.hiLike_alternation = hi
@@ -1886,6 +1883,7 @@ model.inter =
   | model.listLike
   | model.stageLike
   | model.qLike
+  | cei_legalActor
 model.common = model.divPart | model.inter
 model.phrase =
   model.segLike
@@ -8253,7 +8251,7 @@ cei_legalActor =
   
   ## Persons or organizations party to or otherwise mentioned in a an act or contract. 
   element legalActor {
-    model.nameLike,
+    (model.correspActionPart+ | model.pLike+),
     att.global.attributes,
     att.typed.attribute.subtype,
     

@@ -308,10 +308,15 @@
       <classes>
        <memberOf key="att.global"/>
        <memberOf key="att.typed"/>
-       <memberOf key="model.nameLike.agent"/>
+       <memberOf key="model.inter"/>
       </classes>
       <content>
-        <macroRef key="model.nameLike"/>
+       <alternate>
+        <classRef key="model.correspActionPart"
+         minOccurs="1" maxOccurs="unbounded"/>
+        <classRef key="model.pLike" minOccurs="1"
+         maxOccurs="unbounded"/>
+       </alternate>
       </content>
       <attList>
        <attDef ident="type" mode="replace">
