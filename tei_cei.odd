@@ -615,6 +615,18 @@
        </attDef>
       </attList>
      </elementSpec>
+     <elementSpec  ident="issued" prefix="cei_" mode="add">
+      <desc>
+       Official date and/or place of issue for the act. 
+      </desc>
+      <classes>
+       <memberOf key="att.global"/>
+       <memberOf key="model.inter"/>
+      </classes>
+      <content>
+       <macroRef key="macro.specialPara"/>
+      </content>
+     </elementSpec>
     </schemaSpec>
    </div>
   </body>
