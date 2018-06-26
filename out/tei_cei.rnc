@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-06-26T14:37:07Z. .
+# Schema generated from ODD source 2018-06-26T14:59:10Z. .
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -1884,6 +1884,7 @@ model.inter =
   | model.stageLike
   | model.qLike
   | cei_legalActor
+  | cei_diploPart
   | cei_issued
 model.common = model.divPart | model.inter
 model.phrase =
@@ -8288,6 +8289,81 @@ cei_legalActor =
       | 
         ## A third-party is anyone who is not a party to a contract or act but might be affected or involved. 
         "third"
+    }?,
+    empty
+  }
+cei_diploPart =
+  
+  ## An element identifying the various conventional elements of documentary instruments. This refers to the intellectual content of the text; generic solutions should be used if the needs of an individual project require devisions on set phrases or other segments of text. The list contains and may be extended with clauses which overlap in their meanings, to meet the specific legal context of the act. Using the existing categories, where possible, increases the cross-comparative functionality of the total corpus, and is encouraged. 
+  element diploPart {
+    att.global.attributes,
+    att.typed.attribute.subtype,
+    
+    ##
+    attribute type {
+      
+      ## The opening protocol contains formulaic information invoking divine aid, naming the issuer and addressee, conveying greetings. Generally a superset of the invocatio, intitulatio, inscriptio, and salutatio. 
+      "protocol"
+      | 
+        ## Also called corpus. The main content relating to the particulars of the act. Generally a superset of the arenga, publicatio, narratio, dispositio, clausulae, and sanctio. 
+        "contextus"
+      | 
+        ## The closing protocol includes formulaic information relating to completion of the document. Generally a superset of the subscriptio, corroboratio, datatio, and appreciatio.
+        "eschatocol"
+      | 
+        ## VID 251. A solemn ending clause, indicating the achievement of the act, such as 'Fiat. Fiat. Amen.'
+        "apprecatio"
+      | 
+        ## VID 196. Sometimes called the exordium, preamble, or proem, the arenga is a 'rhetorical preparation for the burden of communication' (Boyle, 97.) which may be particular to the document or wholly formulaic, unlinked in content to the actual act.
+        "arenga"
+      | 
+        ## VID 245. The benediction clause contains a blessing.
+        "benedictio"
+      | 
+        ## Clause of qualifiers, exceptions, prohibitions, and obligations relating to the act. 
+        "clausulae"
+      | 
+        ## VID 246. Also known as the ratification clause, the clause of corroboration connects the words of the charter to the effective elements of its validity, whether signature, seal, or promulgation.
+        "corroboratio"
+      | 
+        ## VID 561. The dating clause gives the date of the issuance of the charter, by any dating system.
+        "datatio"
+      | 
+        ## VID 198. Also known as the conveyance clause, the dispositive clause is the essential or effective clause of the charter, which describes the property or honor to be conveyed, its burndens, conditions, and limitations, and conveys the same.
+        "dispositio"
+      | 
+        ## VID 192. Also known as the address, the part of the document that gives the name, titles, and addresses the qualities of the addressee or recipient of the act.
+        "inscriptio"
+      | 
+        ## VID 328. An intercession clause describes the intervention of a third to support a petition.
+        "intercessio"
+      | 
+        ## VID 187. Also known as the superscriptio or the persona salutans, the part of the document which gives the namme of the issuer and his/her titles.
+        "intitulatio"
+      | 
+        ## VID 185.. A clause calling upon God or a saint, for divine protection or witness.
+        "invocatio"
+      | 
+        ## VID 197. The narration clause states the case of gives the circumstances or context leading up to the issuance of the act.
+        "narratio"
+      | 
+        ## VID 196. The pulbication, promulgation, or notfication clause addresses itself to all those concerned in the act, as parties or readers.
+        "notificatio"
+      | 
+        ## VID 326. Clause expressing request for formal documentation.
+        "rogatio"
+      | 
+        ## VID 196. See notificatio.
+        "publicatio"
+      | 
+        ## VID 194. A clause expressing greetings, usually at the beginning of the document. A subtype of this is the salutatio finale or final salutation (VID 253), which comes at the end of the document.
+        "salutatio"
+      | 
+        ## VID 237. Also known as a penal clause. Defines penalties for breach of act.
+        "sanctio"
+      | 
+        ## VID 254. Part of the act containing the signatures of the principals, witnesses, officials, and notaries involved.
+        "subscriptio"
     }?,
     empty
   }
