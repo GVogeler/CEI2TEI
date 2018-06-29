@@ -40,7 +40,7 @@
     </availability>
    </publicationStmt>
    <notesStmt>
-    <note type="ns">http://www.monasterium.net/NS/tei_cei</note>
+    <note type="ns">http://www.monasterium.net/NS/tei_cei/</note>
    </notesStmt>
    <sourceDesc>
     <p>Written from scratch.</p>
