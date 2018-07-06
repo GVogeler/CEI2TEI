@@ -95,7 +95,8 @@
          Seleucia, and the Wikidata reference is to entry for the titular see.</item>
        </list>
       </item>
-      <item>transcr: </item>
+     <item>transcr: </item>
+     <item>textcrit: </item>
       <item>figures: </item>
       <item>msdescription: <list>
         <item>Documents should, as much as possible, be treated as examples of manuscripts,
@@ -153,6 +154,7 @@
      <moduleRef key="transcr"/>
      <moduleRef key="figures"/>
      <moduleRef key="msdescription"/>
+     <moduleRef key="textcrit"/>
      <moduleRef key="gaiji" except=""/>
      <moduleRef key="certainty" except=""/>
      <moduleRef key="analysis" except=""/>
