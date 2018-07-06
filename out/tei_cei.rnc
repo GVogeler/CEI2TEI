@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-07-06T14:05:43Z. .
+# Schema generated from ODD source 2018-07-06T14:21:40Z. .
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -1918,6 +1918,7 @@ model.limitedPhrase =
   | model.ptrLike
   | model.phrase.xml
   | model.pPart.data
+  | cei_copyStatus
 model.divLike = \div
 model.divGenLike = divGen
 model.div1Like = div1
@@ -8647,6 +8648,31 @@ cei_diploPart =
       | 
         ## VID 254. Part of the act containing the signatures of the principals, witnesses, officials, and notaries involved.
         "subscriptio"
+    }?,
+    empty
+  }
+cei_copyStatus =
+  
+  ## The status of the document as an original or a copy. Equivalent to the former CEI traditioForm. Can occur multiple times in different msItems, to represent, for example, a copy of a document which is in an original of a promulgation of the first document. 
+  element copyStatus {
+    model.phrase,
+    att.global.attributes,
+    att.typed.attribute.subtype,
+    
+    ##
+    attribute type {
+      
+      ## VID 42. An original copy is one that carries the first definitive form that would have force of the contained act.
+      "original"
+      | 
+        ## VID 53. cf. VID 54–63, 65, 67–69, 74. A copy of a document is a reproduction of the original.
+        "copy"
+      | 
+        ## VID 349. A draft is any version of the document before the first definitive form that has force of the contained act.
+        "draft"
+      | 
+        ## When no definitive classification of the document can be made into one of the other three categories. Differs from simply leaving the type off by making a statement that the subject was inspected and determined to be unknown, rather than not having been inspected at all. 
+        "unknown"
     }?,
     empty
   }
