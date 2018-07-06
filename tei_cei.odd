@@ -214,6 +214,7 @@
        <memberOf key="att.dateable"/>
        <memberOf key="att.global"/>
        <memberOf key="att.typed"/>
+       <memberOf key="model.inter"/>
       </classes>
       <content>
        <alternate minOccurs="1"

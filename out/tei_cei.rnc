@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-07-06T14:21:40Z. .
+# Schema generated from ODD source 2018-07-06T14:30:19Z. .
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -1895,6 +1895,7 @@ model.inter =
   | model.listLike
   | model.stageLike
   | model.qLike
+  | cei_authen
   | cei_legalActor
   | cei_diploPart
   | cei_issued
@@ -8531,6 +8532,67 @@ cei_diploDesc =
     att.global.attributes,
     att.sortable.attributes,
     att.typed.attributes,
+    empty
+  }
+cei_authen =
+  
+  ## Description of an element that is used to authenticate a document. Specifically, elements that would be intended, from a juridical perspective, to be authenticating. May contain a forged element, in which case the forgery should be noted and certainty marked.
+  element authen {
+    (model.pLike | decoNote)+,
+    att.global.attributes,
+    att.typed.attribute.subtype,
+    
+    ##
+    attribute type {
+      
+      ## Security Printing.
+      "printing"
+      | 
+        ## Distinctive elements of layout which authenticate document.
+        "layout"
+      | 
+        ## Distinctive textual formulae that authenticate document.
+        "formula"
+      | 
+        ## Shared-medium documents and items that have been separated in a distinct and reconstructable way.
+        "split"
+      | 
+        ## Purely-digital authenticating elements. Anything that is a digital copy of a physical element is not this type.
+        "digital"
+      | 
+        ## Notarization as a legal act with varying regional practices, which may include stamping, embossing, attached materials, signatures, or attestations. Apostilles are considered a type of notarization for this category. 
+        "notarized"
+      | 
+        ## Any authenticating element which is not now and was never attached to the document. Registration, certification, duplicates in archives. 
+        "nonattached"
+      | 
+        ## Biometric info used to establish authentic identity of the document owner/maker/issuer. 
+        "biometrics"
+      | 
+        ## External tokens used to establish the authenticity or authority of the sender or issuer. 
+        "token"
+      | 
+        ## Any kind of signature, subscription, or signing mark. 
+        "signed"
+      | 
+        ## Any kind of non-signging mark, such as a hallmark or a trademark. 
+        "mark"
+      | 
+        ## Both inked and adhesive stamps. 
+        "stamp"
+      | 
+        ## Any item where a shared medium has been split in a way that can be recombined to demonstrate authenticity. Chirographs, tallies, indentures. 
+        "split"
+      | 
+        ## Writing on the document by someone is a position of authority, establishing its authenticity or authroity. 
+        "endorsement"
+      | 
+        ## Special or controlled materials used to establish authenticity and convey authority. Banknote paper, magnetic stripes, RFID chips. 
+        "medium"
+      | 
+        ## Elements of packaging which correspond to authenticity or establish that it has not been tampered with from some authoritative time frame. 
+        "packaging"
+    }?,
     empty
   }
 cei_legalActor =
