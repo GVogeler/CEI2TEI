@@ -214,14 +214,10 @@
        <memberOf key="att.dateable"/>
        <memberOf key="att.global"/>
        <memberOf key="att.typed"/>
-       <memberOf key="model.inter"/>
+       <memberOf key="model.pLike"/>
       </classes>
       <content>
-       <alternate minOccurs="1"
-        maxOccurs="unbounded">
-        <classRef key="model.pLike"/>
-        <elementRef key="decoNote"/>
-       </alternate>
+       <classRef key="model.inter" minOccurs="0"/>
       </content>
       <attList>
        <attDef ident="type" mode="replace">
@@ -583,7 +579,7 @@
       <classes>
        <memberOf key="att.global"/>
        <memberOf key="att.typed"/>
-       <memberOf key="model.limitedPhrase"/>
+       <memberOf key="model.headLike"/>
       </classes>
       <content>
        <macroRef key="model.phrase"/>
