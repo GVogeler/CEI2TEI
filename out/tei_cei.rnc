@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-07-09T14:31:51Z. .
+# Schema generated from ODD source 2018-07-09T16:24:22Z. .
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -1600,12 +1600,12 @@ model.lLike_sequence = l
 model.lLike_sequenceOptional = l?
 model.lLike_sequenceOptionalRepeatable = l*
 model.lLike_sequenceRepeatable = l+
-model.pLike = p | ab | cei_authen
-model.pLike_alternation = p | ab | cei_authen
-model.pLike_sequence = p, ab, cei_authen
-model.pLike_sequenceOptional = p?, ab?, cei_authen?
-model.pLike_sequenceOptionalRepeatable = p*, ab*, cei_authen*
-model.pLike_sequenceRepeatable = p+, ab+, cei_authen+
+model.pLike = p | ab | cei_legalActor
+model.pLike_alternation = p | ab | cei_legalActor
+model.pLike_sequence = p, ab, cei_legalActor
+model.pLike_sequenceOptional = p?, ab?, cei_legalActor?
+model.pLike_sequenceOptionalRepeatable = p*, ab*, cei_legalActor*
+model.pLike_sequenceRepeatable = p+, ab+, cei_legalActor+
 model.stageLike = stage
 model.stageLike_alternation = stage
 model.stageLike_sequence = stage
@@ -1895,7 +1895,7 @@ model.inter =
   | model.listLike
   | model.stageLike
   | model.qLike
-  | cei_legalActor
+  | cei_authen
   | cei_diploPart
   | cei_issued
 model.common = model.divPart | model.inter
@@ -7367,7 +7367,11 @@ objectDesc =
   
   ## contains a description of the physical components making up the object which is being described. [10.7.1. Object Description]
   element objectDesc {
-    (model.pLike+ | (supportDesc?, layoutDesc?)),
+    (model.pLike
+     | model.pPart.msdesc
+     | supportDesc
+     | layoutDesc
+     | condition)+,
     att.global.attributes,
     
     ## a short project-specific name identifying the physical form of the carrier, for example as a codex, roll, fragment, partial leaf, cutting etc.
@@ -7566,8 +7570,13 @@ sealDesc =
   
   ## (seal description) describes the seals or other external items attached to a manuscript, either as a series of paragraphs or as a series of distinct seal elements, possibly with additional decoNotes. [10.7.3.2. Seals]
   element authDesc {
-    (model.pLike+
-     | (summary?, (decoNote | seal | condition)+)),
+    (model.pLike
+     | model.inter
+     | model.nameLike
+     | summary?
+     | decoNote
+     | seal
+     | condition)*,
     att.global.attributes,
     empty
   }
@@ -7575,7 +7584,11 @@ seal =
   
   ## contains a description of one seal or similar attachment applied to a manuscript. [10.7.3.2. Seals]
   element seal {
-    (model.pLike | decoNote)+,
+    (model.pPart.msdesc
+     | model.pLike
+     | model.limitedPhrase
+     | decoNote
+     | condition)*,
     att.global.attributes,
     att.typed.attributes,
     att.datable.attributes,
@@ -8523,8 +8536,7 @@ cei_diploDesc =
   
   ## Contains a diplomatic description and analysis of a document, including bibliographic references to studies; formal criticism of content and textual/legal form (physical form is physDesc); and discussions of transmission and authenticiy.
   element diploDesc {
-    (model.pLike+,
-     (model.pLike+ | (history?, additional?))),
+    (model.biblLike | model.pLike | history | additional)+,
     att.declaring.attributes,
     att.docStatus.attributes,
     att.global.attributes,
@@ -8536,7 +8548,11 @@ cei_authen =
   
   ## Description of an element that is used to authenticate a document. Specifically, elements that would be intended, from a juridical perspective, to be authenticating. May contain a forged element, in which case the forgery should be noted and certainty marked.
   element authen {
-    model.inter?,
+    (model.pPart.msdesc
+     | model.pLike
+     | model.limitedPhrase
+     | decoNote
+     | condition)*,
     att.global.attributes,
     att.typed.attribute.subtype,
     
@@ -8597,7 +8613,7 @@ cei_legalActor =
   
   ## Persons or organizations party to or otherwise mentioned in a an act or contract. 
   element legalActor {
-    (model.correspActionPart+ | model.pLike+),
+    (model.correspActionPart | model.inter)*,
     att.global.attributes,
     att.typed.attribute.subtype,
     
@@ -8640,6 +8656,7 @@ cei_diploPart =
   
   ## An element identifying the various conventional elements of documentary instruments. This refers to the intellectual content of the text; generic solutions should be used if the needs of an individual project require devisions on set phrases or other segments of text. The list contains and may be extended with clauses which overlap in their meanings, to meet the specific legal context of the act. Using the existing categories, where possible, increases the cross-comparative functionality of the total corpus, and is encouraged. 
   element diploPart {
+    macro.phraseSeq,
     att.global.attributes,
     att.typed.attribute.subtype,
     
@@ -8715,7 +8732,7 @@ cei_copyStatus =
   
   ## The status of the document as an original or a copy. Equivalent to the former CEI traditioForm. Can occur multiple times in different msItems, to represent, for example, a copy of a document which is in an original of a promulgation of the first document. 
   element copyStatus {
-    model.phrase,
+    macro.phraseSeq,
     att.global.attributes,
     att.typed.attribute.subtype,
     

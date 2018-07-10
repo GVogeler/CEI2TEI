@@ -194,16 +194,12 @@
        <memberOf key="att.typed"/>
       </classes>
       <content>
-       <sequence>
-        <classRef key="model.pLike" minOccurs="1" maxOccurs="unbounded"/>
-        <alternate>
-         <classRef key="model.pLike" minOccurs="1" maxOccurs="unbounded"/>
-         <sequence>
-          <elementRef key="history" minOccurs="0"/>
-          <elementRef key="additional" minOccurs="0"/>
-         </sequence>
-        </alternate>
-       </sequence>
+       <alternate minOccurs="1" maxOccurs="unbounded">
+        <classRef key="model.biblLike" />
+        <classRef key="model.pLike" />
+        <elementRef key="history" />
+        <elementRef key="additional" />
+       </alternate> 
       </content>
      </elementSpec>
      <elementSpec ident="authen" prefix="cei_"
@@ -214,10 +210,16 @@
        <memberOf key="att.dateable"/>
        <memberOf key="att.global"/>
        <memberOf key="att.typed"/>
-       <memberOf key="model.pLike"/>
-      </classes>
+       <memberOf key="model.inter"/>
+      </classes>      
       <content>
-       <classRef key="model.inter" minOccurs="0"/>
+       <alternate minOccurs="0" maxOccurs="unbounded">
+        <classRef key="model.pPart.msdesc"/>
+        <classRef key="model.pLike"/>
+        <classRef key="model.limitedPhrase"/>
+        <elementRef key="decoNote"/>
+        <elementRef key="condition"/>
+       </alternate>
       </content>
       <attList>
        <attDef ident="type" mode="replace">
@@ -299,6 +301,39 @@
      </elementSpec>
      <elementSpec module="msdescription" ident="sealDesc" mode="change">
       <altIdent>authDesc</altIdent>
+      <content>
+       <alternate minOccurs="0" maxOccurs="unbounded">
+        <classRef key="model.pLike"/>
+        <classRef key="model.inter"/>
+        <classRef key="model.nameLike"/>
+        <elementRef key="summary" minOccurs="0"/>
+        <elementRef key="decoNote"/>
+        <elementRef key="seal"/>
+        <elementRef key="condition"/>
+       </alternate>
+      </content>
+     </elementSpec>     
+     <elementSpec module="msdescription" ident="seal" mode="change">
+      <content>
+       <alternate minOccurs="0" maxOccurs="unbounded">
+        <classRef key="model.pPart.msdesc"/>
+        <classRef key="model.pLike"/>
+        <classRef key="model.limitedPhrase"/>
+        <elementRef key="decoNote"/>
+        <elementRef key="condition"/>
+       </alternate>
+      </content>
+     </elementSpec>    
+     <elementSpec module="msdescription" ident="objectDesc" mode="change">
+      <content>
+       <alternate  minOccurs="1" maxOccurs="unbounded">
+        <classRef key="model.pLike" />
+        <classRef key="model.pPart.msdesc"/>
+        <elementRef key="supportDesc"/>
+        <elementRef key="layoutDesc"/>
+        <elementRef key="condition"/>
+       </alternate>
+      </content>
      </elementSpec>
      <elementSpec  ident="legalActor" prefix="cei_" mode="add">
       <desc>
@@ -307,14 +342,13 @@
       <classes>
        <memberOf key="att.global"/>
        <memberOf key="att.typed"/>
-       <memberOf key="model.inter"/>
+       <memberOf key="model.paraContent"/>
+       <memberOf key="model.pLike"/>
       </classes>
       <content>
-       <alternate>
-        <classRef key="model.correspActionPart"
-         minOccurs="1" maxOccurs="unbounded"/>
-        <classRef key="model.pLike" minOccurs="1"
-         maxOccurs="unbounded"/>
+       <alternate minOccurs="0" maxOccurs="unbounded">
+        <classRef key="model.correspActionPart" />
+        <classRef key="model.inter" />
        </alternate>
       </content>
       <attList>
@@ -396,7 +430,7 @@
        <memberOf key="model.inter"/>
       </classes>
       <content>
-       <classRef key="model.phraseSeq"/>
+       <macroRef key="macro.phraseSeq"/>
       </content>
       <attList>
        <attDef ident="type" mode="replace">
@@ -582,7 +616,7 @@
        <memberOf key="model.headLike"/>
       </classes>
       <content>
-       <macroRef key="model.phrase"/>
+       <macroRef key="macro.phraseSeq"/>
       </content>
       <attList>
        <attDef ident="type" mode="replace">
