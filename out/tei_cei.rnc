@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-07-10T08:05:29Z. .
+# Schema generated from ODD source 2018-07-10T10:47:00Z. .
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -1600,12 +1600,13 @@ model.lLike_sequence = l
 model.lLike_sequenceOptional = l?
 model.lLike_sequenceOptionalRepeatable = l*
 model.lLike_sequenceRepeatable = l+
-model.pLike = p | ab | cei_legalActor
-model.pLike_alternation = p | ab | cei_legalActor
-model.pLike_sequence = p, ab, cei_legalActor
-model.pLike_sequenceOptional = p?, ab?, cei_legalActor?
-model.pLike_sequenceOptionalRepeatable = p*, ab*, cei_legalActor*
-model.pLike_sequenceRepeatable = p+, ab+, cei_legalActor+
+model.pLike = p | ab | cei_legalActor | cei_legend
+model.pLike_alternation = p | ab | cei_legalActor | cei_legend
+model.pLike_sequence = p, ab, cei_legalActor, cei_legend
+model.pLike_sequenceOptional = p?, ab?, cei_legalActor?, cei_legend?
+model.pLike_sequenceOptionalRepeatable =
+  p*, ab*, cei_legalActor*, cei_legend*
+model.pLike_sequenceRepeatable = p+, ab+, cei_legalActor+, cei_legend+
 model.stageLike = stage
 model.stageLike_alternation = stage
 model.stageLike_sequence = stage
@@ -1733,16 +1734,29 @@ model.quoteLike_sequence = quote, cit
 model.quoteLike_sequenceOptional = quote?, cit?
 model.quoteLike_sequenceOptionalRepeatable = quote*, cit*
 model.quoteLike_sequenceRepeatable = quote+, cit+
-model.qLike = model.quoteLike | said | q | floatingText
+model.qLike = model.quoteLike | said | q | floatingText | cei_legend
 model.qLike_alternation =
-  model.quoteLike_alternation | said | q | floatingText
-model.qLike_sequence = model.quoteLike_sequence, said, q, floatingText
+  model.quoteLike_alternation | said | q | floatingText | cei_legend
+model.qLike_sequence =
+  model.quoteLike_sequence, said, q, floatingText, cei_legend
 model.qLike_sequenceOptional =
-  model.quoteLike_sequenceOptional?, said?, q?, floatingText?
+  model.quoteLike_sequenceOptional?,
+  said?,
+  q?,
+  floatingText?,
+  cei_legend?
 model.qLike_sequenceOptionalRepeatable =
-  model.quoteLike_sequenceOptionalRepeatable*, said*, q*, floatingText*
+  model.quoteLike_sequenceOptionalRepeatable*,
+  said*,
+  q*,
+  floatingText*,
+  cei_legend*
 model.qLike_sequenceRepeatable =
-  model.quoteLike_sequenceRepeatable+, said+, q+, floatingText+
+  model.quoteLike_sequenceRepeatable+,
+  said+,
+  q+,
+  floatingText+,
+  cei_legend+
 model.respLike =
   author | editor | respStmt | meeting | sponsor | funder | principal
 model.divWrapper =
@@ -8758,4 +8772,13 @@ cei_issued =
   
   ## Official date and/or place of issue for the act. 
   element issued { macro.specialPara, att.global.attributes, empty }
+cei_legend =
+  
+  ## Text written on a seal or as part of a illustration, such as in the heraldry element. 
+  element legend {
+    macro.specialPara,
+    att.global.attributes,
+    att.typed.attributes,
+    empty
+  }
 start = TEI | teiCorpus

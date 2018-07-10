@@ -663,6 +663,20 @@
        <macroRef key="macro.specialPara"/>
       </content>
      </elementSpec>
+     <elementSpec  ident="legend" prefix="cei_" mode="add">
+      <desc>
+      Text written on a seal or as part of a illustration, such as in the heraldry element.
+      </desc>
+      <classes>
+       <memberOf key="att.global"/>
+       <memberOf key="att.typed"/>
+       <memberOf key="model.qLike"/>
+       <memberOf key="model.pLike"/>
+      </classes>
+      <content>
+       <macroRef key="macro.specialPara"/>
+      </content>
+     </elementSpec>
     </schemaSpec>
    </div>
   </body>
