@@ -574,6 +574,7 @@
       </desc>
       <classes mode="replace">
        <memberOf key="model.physDescPart"/>
+       <memberOf key="model.inter"/>
        <memberOf key="att.global"/>
        <memberOf key="att.typed" />
       </classes>
