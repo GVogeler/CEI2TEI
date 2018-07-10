@@ -303,6 +303,7 @@
       <altIdent>authDesc</altIdent>
       <content>
        <alternate minOccurs="0" maxOccurs="unbounded">
+        <textNode/>
         <classRef key="model.pLike"/>
         <classRef key="model.inter"/>
         <classRef key="model.nameLike"/>
