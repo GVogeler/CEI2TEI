@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-07-10T10:47:00Z. .
+# Schema generated from ODD source 2018-07-10T12:55:02Z. .
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -1910,6 +1910,7 @@ model.inter =
   | model.stageLike
   | model.qLike
   | cei_authen
+  | cei_legalActor
   | cei_diploPart
   | cei_issued
 model.common = model.divPart | model.inter
@@ -6859,7 +6860,7 @@ msDesc =
          physDesc?,
          history?,
          additional?,
-         (msPart* | msFrag*)))),
+         (msPart* | msFrag* | model.pLike+)))),
     att.global.attributes,
     att.sortable.attributes,
     att.typed.attributes,
@@ -7591,7 +7592,9 @@ sealDesc =
      | summary?
      | decoNote
      | seal
-     | condition)*,
+     | condition
+     | hi
+     | lb)*,
     att.global.attributes,
     empty
   }

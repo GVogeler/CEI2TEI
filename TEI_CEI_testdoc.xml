@@ -1,5 +1,5 @@
-<TEI xmlns="http://www.tei-c.org/ns/1.0" 
-    xmlns:cei="file:///Z:\Documents\CEI_TEIP5\tei_cei\out\tei_cei.rnc.rng">
+<?xml-model href="out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -56,7 +56,7 @@
         <!--   <sourceDesc> MOVE TO HEADER
                <sourceDescRegest>  
                 <bibl>
-                    <sup/>
+                    <hi rend="sup"/>
                     <ref/>
                 </bibl>
                 </sourceDescRegest>    
@@ -77,11 +77,10 @@
             </msIdentifier>
             <!--    <class/>    -->
             <msContents>
-                <msItem>
-            <div type="abstract">
+                <summary>
                 <!--    <class/>    -->
-                <cei:legalActor type="recipient">
-                    <foreign/>
+                <legalActor type="recipient">
+                    <!--    <foreign/>    THIS SHOULD ALWAYS BE IN SOME OTHER TAG -->
                     <persName>
                         <persName>
                             <persName/>
@@ -94,11 +93,13 @@
                     </orgName>
                     <placeName/>
                     <geogName/>
-                </cei:legalActor>
-                <cei:legalActor type="issuer">
+                </legalActor>
+                <legalActor type="issuer">
                     <persName>
                         <persName>
                             <placeName/>
+                            
+                            <foreign/>
                         </persName>
                         <placeName/>
                         <foreign/>
@@ -106,32 +107,31 @@
                     <orgName/>
                     <placeName/>
                     <geogName/>
-                    <foreign/>
-                </cei:legalActor>
+                </legalActor>
                 <hi>
                     <quote/>
                 </hi>
                 <lb/>
                 <pb/>
-                <sup/>
+                <hi rend="sup"/>
                 <c/>
                 <ref/>
                 <quote>
                     <hi/>
-                    <sup/>
+                    <hi rend="sup"/>
                     <persName/>
                     <geogName/>
                 </quote>
                 <foreign>
                     <lb/>
-                    <sup/>
+                    <hi rend="sup"/>
                     <persName>
                         <persName/>
                         <orgName>
                             <placeName/>
                         </orgName>
                         <surname/>
-                        <rolename/>
+                        <roleName/>
                     </persName>
                     <orgName/>
                     <placeName/>
@@ -143,9 +143,9 @@
                     </persName>
                     <orgName/>
                     <placeName/>
-                    <rolename/>
+                    <roleName/>
                     <foreign>
-                        <sup/>
+                        <hi rend="sup"/>
                     </foreign>
                 </persName>
                 <orgName>
@@ -156,82 +156,56 @@
                 </placeName>
                 <geogName/>
                 <index>
-                    <lb/>
+                    <!--    <lb/> ONLY OCCURS ONCE IN DATABASE, BUT SHOULD NEVER OCCUR -->
                 </index>
-                <cei:legalActor type="witness">
+                <legalActor type="witness">
                     <persName>
                         <placeName/>
                         <foreign/>
                     </persName>
-                </cei:legalActor>
+                </legalActor>
                 <date/>
-                <dateRange/>
+                    <!--    <dateRange/> CONVERT TO DATE, WHICH HAS SAME FUNCTIONALITY -->
                 <num/>
                 <measure>
                     <num/>
                 </measure>
-            </div>
-            <issued>
+                   <issued> 
                 <placeName>
-                    <sup/>
+                    <hi rend="sup"/>
                     <foreign>
-                        <sup/>
+                        <hi rend="sup"/>
                     </foreign>
                 </placeName>
                 <date/>
-                <dateRange>
-                    <sup/>
-                </dateRange>
+                <!--    <dateRange/> CONVERT TO DATE, WHICH HAS SAME FUNCTIONALITY -->
+                    <hi rend="sup"/>
+                       <!--    <dateRange/> CONVERT TO DATE, WHICH HAS SAME FUNCTIONALITY -->
             </issued>
-            <witness>
-                <traditioForm>
-                    <sup/>
-                </traditioForm>
+            <listWit>
+                <witness>
+                    <msDesc>
                 <msIdentifier>
                     <settlement>San Marino</settlement>
                     <repository>Huntington Library</repository>
                     <idno>MS.El.26.C.9</idno>
                 </msIdentifier>
-                <authDesc>
-                    <notariusDesc>
-                        <notariusSub>
-                            <foreign/>
-                        </notariusSub>
-                        <notariusSign/>
-                        <quote>
-                            <sup/>
-                        </quote>
-                        <persName>
-                            <expan/>
-                        </persName>
-                        <geogName/>
-                    </notariusDesc>
-                        <seal>
-                            <cei:legalActor type="sigillant" />
-                            <legend/>
-                            <sealDimensions/>
-                            <sealCondition/>
-                            <sup/>
-                        </seal>
-                        <legend>
-                            <sup/>
-                        </legend>
-                        <hi/>
-                        <lb/>
-                        <sup/>
-                    
-                </authDesc>
-                <physDesc>
+                <copyStatus>
+                            <hi rend="sup"/>
+                </copyStatus>
+                        <physDesc> <!-- note that physDesc has been moved up to encompass authDesc -->
+                <objectDesc> <!-- inserted where physDesc was -->
                     <material>
-                        <sup/>
+                        <hi rend="sup"/>
                     </material>
                     <dimensions>
                         <width/>
                         <height/>
                     </dimensions>
                     <condition>
-                        <sup/>
+                        <hi rend="sup"/>
                     </condition>
+                </objectDesc>
                     <decoDesc>
                         <p>
                             <lb/>
@@ -242,66 +216,106 @@
                             <index/>
                         </p>
                     </decoDesc>
-                </physDesc>
-                <nota>
+                            <authDesc>
+                                <legalActor type="notary"><!--    <notariusDesc> -->
+                                    <authen type="signed"><!--    <notariusSub> -->
+                                        <foreign/>
+                                    </authen><!--     </notariusSub> -->
+                                    <!--    <notariusSign/> -->
+                                    <quote>
+                                        <hi rend="sup"/>
+                                    </quote>
+                                    <persName>
+                                        <expan/>
+                                    </persName>
+                                    <geogName/>
+                                </legalActor><!--    </notariusDesc> -->
+                                <seal>
+                                    <legalActor type="sigillant" />
+                                    <legend/>
+                                    <dimensions /><!--    <sealDimensions/> -->
+                                    <condition /><!--    <sealCondition/> -->
+                                    <hi rend="sup"/>
+                                </seal>
+                                <legend>
+                                    <hi rend="sup"/>
+                                </legend>
+                                <hi/>
+                                <lb/>
+                                <hi rend="sup"/>
+                            </authDesc>
+                        </physDesc>
+                      <p>
+                <note>
                     <hi>
-                        <sup/>
+                        <hi rend="sup"/>
                     </hi>
                     <lb/>
-                    <sup/>
+                    <hi rend="sup"/>
                     <ref/>
                     <quote>
-                        <sup/>
+                        <hi rend="sup"/>
                     </quote>
                     <foreign>
                         <lb/>
-                        <sup/>
+                        <hi rend="sup"/>
                     </foreign>
-                </nota>
-                <additions type="archival">
+                </note>
+                <additions type="production">
                     <quote/>
                 </additions>
                 <figure>
+                    <surface>
                     <zone>
-                        <desc/>
+                        <!-- <desc/> not allowed in TEI P5 and no data in the two occurrences in the databsse, so it can be dropped -->
                     </zone>
-                    <graphic/>
+                    <graphic url=""/>
+                    </surface>
                 </figure>
+                        </p>
+                    </msDesc>
             </witness>
-            <witListPar>
+            </listWit>
+            <listWit>
                 <witness>
-                    <traditioForm>
-                        <hi/>
-                        <sup/>
-                    </traditioForm>
+                    <msDesc>
                     <msIdentifier>
                         <settlement>San Marino</settlement>
                         <repository>Huntington Library</repository>
                         <idno>MS.El.26.C.9</idno>
                     </msIdentifier>
-                    <authen>
-                        <notariusDesc>
-                            <notariusSub/>
-                        </notariusDesc>
-                        <authDesc>
-                            <seal/>
-                        </authDesc>
-                    </authen>
-                    <physicalDesc>
+                        <copyStatus>
+                            <hi/>
+                            <hi rend="sup"/>
+                        </copyStatus>
+                        <physDesc>
+                    <objectDesc>
                         <material/>
                         <dimensions/>
                         <condition/>
-                    </physicalDesc>
-                    <nota/>
-                        <additions type="archival"/>
+                    </objectDesc>
+                            <authDesc>
+                                <authen>
+                                    <legalActor type="notary"><!--    <notariusDesc> -->
+                                        <authen type="signed" /><!--    <notariusSub> -->
+                                    </legalActor>
+                                </authen>
+                                <seal/>
+                            </authDesc>
+                        </physDesc>
+                        <p>
+                    <note/>
+                        <additions type="production"/>
                     <figure>
                         <graphic url="page1.png"/>
                     </figure>
                     <lb/>
-                    <sup/>
+                    <hi rend="sup"/>
                     <foreign/>
+                        </p> <!-- note all these additional paragraphs that need to be added throughout -->
+                    </msDesc>
                 </witness>
-            </witListPar>
+            </listWit>
             <diploDesc>
                 <listBibl>
                     <ref/>
@@ -314,7 +328,7 @@
                 <listBibl type="edition"><!--<listBiblEdition>-->
                     <ref/>
                     <bibl>
-                        <sup/>
+                        <hi rend="sup"/>
                         <anchor/>
                         <ref/>
                         <foreign/>
@@ -331,7 +345,7 @@
                 </listBibl>
                 <listBibl type="facsimile"><!--<listBiblFaksimile>-->
                     <bibl>
-                        <sup/>
+                        <hi rend="sup"/>
                         <ref/>
                     </bibl>
                 </listBibl>
@@ -339,13 +353,13 @@
                     <ref/>
                     <bibl>
                         <lb/>
-                        <sup/>
+                        <hi rend="sup"/>
                         <foreign/>
                     </bibl>
                 </listBibl>
                 <p>
                     <bibl>
-                        <sup/>
+                        <hi rend="sup"/>
                         <author>
                             <persName/>
                         </author>
@@ -355,17 +369,17 @@
                     <lb/>
                     <hi/>
                     <c/>
-                    <sup/>
+                    <hi rend="sup"/>
                     <anchor/>
                     <ref/>
                     <quote>
                         <hi/>
                         <lb/>
-                        <sup/>
+                        <hi rend="sup"/>
                     </quote>
                     <foreign>
                         <hi/>
-                        <sup/>
+                        <hi rend="sup"/>
                     </foreign>
                     <persName>
                         <c/>
@@ -373,32 +387,34 @@
                     <placeName/>
                     <geogName/>
                     <index/>
-                    <cei:legalActor type="witness">
+                    <legalActor type="witness">
                         <c/>
                         <persName>
                             <c/>
                         </persName>
-                    </cei:legalActor>
+                    </legalActor>
                     <date/>
                 </p>
                 <origDate>
-                    <sup/>
+                    <hi rend="sup"/>
                     <expan/>
                 </origDate>
-                <nota>
+                <note>
                     <lb/>
                     <ref/>
                     <foreign/>
                     <index/>
-                </nota>
-                <divNotes>
+                </note>
+                <div type="Notes">
                     <note>
-                        <sup/>
+                        <hi rend="sup"/>
                         <bibl/>
                     </note>
-                </divNotes>
+                </div>
             </diploDesc>
-            <lang_MOM/>
+           <!-- <lang_MOM/> replace with Header language element -->
+                </summary>
+                <msItem>
                 </msItem>
             </msContents>
         </msDesc>
@@ -412,7 +428,7 @@
                 </hi>
                 <pb/>
                 <lb/>
-                <sup/>
+                <hi rend="sup"/>
                 <add>
                     <pb/>
                     <ref/>
@@ -437,9 +453,8 @@
                     <ref/>
                 </index>
                 <date/>
-                <dateRange/>
+                <!--    <dateRange/> CONVERT TO DATE, WHICH HAS SAME FUNCTIONALITY -->
                 <measure/>
-            </p>
             <diploPart type="invocatio">
                 <damage>
                     <pict/>
@@ -447,7 +462,7 @@
             </diploPart>
             <diploPart type="intitulatio">
                 <lb/>
-                <sup/>
+                <hi rend="sup"/>
                 <c/>
                 <persName>
                     <expan/>
@@ -464,7 +479,7 @@
             </diploPart>
             <diploPart type="publicatio">
                 <lb/>
-                <sup/>
+                <hi rend="sup"/>
                 <expan/>
                 <c/>
             </diploPart>
@@ -476,19 +491,19 @@
             <diploPart type="dispositio">
                 <pb/>
                 <lb/>
-                <sup/>
+                <hi rend="sup"/>
                 <expan/>
                 <del/>
                 <damage/>
                 <c/>
                 <ref/>
                 <persName>
-                    <sup/>
+                    <hi rend="sup"/>
                     <expan/>
                     <placeName/>
                 </persName>
                 <placeName>
-                    <sup/>
+                    <hi rend="sup"/>
                     <expan/>
                 </placeName>
                 <geogName>
@@ -512,28 +527,27 @@
                         <c/>
                     </persName>
                     <placeName>
-                        <sup/>
+                        <hi rend="sup"/>
                     </placeName>
                 </setPhrase> -->
-                </diploPart>
                 <lb/>
-                <sup/>
+                <hi rend="sup"/>
                 <expan/>
                 <c/>
                 <persName>
                     <lb/>
-                    <sup/>
+                    <hi rend="sup"/>
                     <expan/>
                 </persName>
                 <placeName>
                     <c/>
                 </placeName>
-                <testis/>
+                <legalActor type="witness"/>
             </diploPart>
             <diploPart type="datatio">
                 <hi/>
                 <lb/>
-                <sup/>
+                <hi rend="sup"/>
                 <expan/>
                 <damage>
                     <expan/>
@@ -551,10 +565,10 @@
                 <foreign/>
                 <persName/>
             </diploPart>
-            <notariusSub/>
+            <authen type="signature"/>
             <!-- <setPhrase>
                 <lb/>
-                <sup/>
+                <hi rend="sup"/>
                 <pict/>
                 <expan/>
                 <c/>
@@ -563,18 +577,17 @@
                     <expan/>
                 </persName>
             </setPhrase> -->
-        </div>
             <hi>
                 <diploPart type="intitulatio">
                     <persName>
                         <expan/>
                     </persName>
                 </diploPart>
-                <sup/>
+                <hi rend="sup"/>
             </hi>
             <pb/>
             <lb/>
-            <sup/>
+            <hi rend="sup"/>
             <pict/>
             <expan/>
             <add/>
@@ -589,9 +602,9 @@
             <quote>
                 <hi/>
                 <lb/>
-                <sup/>
+                <hi rend="sup"/>
                 <expan/>
-                <supplied/>
+                <hi rend="sup"plied/>
                 <del/>
                 <corr/>
                 <space/>
@@ -604,7 +617,7 @@
             </quote>
             <foreign>
                 <lb/>
-                <sup/>
+                <hi rend="sup"/>
             </foreign>
             <note/>
             <persName>
@@ -627,47 +640,48 @@
                 <persName/>
             </testis>
             <date/>
+            </p>
         </div>
     </body>
     <back>
         <persName>
             <lb/>
-            <sup/>
+            <hi rend="sup"/>
             <persName/>
             <placeName/>
             <foreign/>
         </persName>
         <class/>
         <placeName>
-            <sup/>
+            <hi rend="sup"/>
             <index/>
             <foreign>
-                <sup/>
+                <hi rend="sup"/>
             </foreign>
         </placeName>
         <index>
             <foreign/>
         </index>
         <geogName>
-            <sup/>
+            <hi rend="sup"/>
         </geogName>
         <divNotes>
             <note>
                 <hi>
-                    <sup/>
+                    <hi rend="sup"/>
                 </hi>
                 <pb/>
                 <lb/>
-                <sup/>
+                <hi rend="sup"/>
                 <corr/>
                 <c/>
                 <bibl/>
                 <ref/>
                 <quote>
-                    <sup/>
+                    <hi rend="sup"/>
                 </quote>
                 <foreign>
-                    <sup/>
+                    <hi rend="sup"/>
                 </foreign>
                 <persName>
                     <pb/>
@@ -682,7 +696,7 @@
                     <lb/>
                 </index>
                 <date/>
-                <dateRange/>
+                <!--    <dateRange/> CONVERT TO DATE, WHICH HAS SAME FUNCTIONALITY -->
                 <measure>
                     <pb/>
                 </measure>
