@@ -197,6 +197,7 @@
       <content>
        <alternate minOccurs="1" maxOccurs="unbounded">
         <classRef key="model.biblLike" />
+        <classRef key="model.pPart.msdesc" />
         <classRef key="model.pLike" />
         <elementRef key="history" />
         <elementRef key="additional" />
