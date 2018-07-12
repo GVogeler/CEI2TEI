@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-07-11T12:25:10Z. .
+# Schema generated from ODD source 2018-07-12T11:10:16Z. .
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -8636,7 +8636,7 @@ cei_legalActor =
   
   ## Persons or organizations party to or otherwise mentioned in a an act or contract. 
   element legalActor {
-    (model.correspActionPart | model.inter)*,
+    (model.correspActionPart | macro.specialPara)*,
     att.global.attributes,
     att.typed.attribute.subtype,
     
@@ -8679,7 +8679,7 @@ cei_diploPart =
   
   ## An element identifying the various conventional elements of documentary instruments. This refers to the intellectual content of the text; generic solutions should be used if the needs of an individual project require devisions on set phrases or other segments of text. The list contains and may be extended with clauses which overlap in their meanings, to meet the specific legal context of the act. Using the existing categories, where possible, increases the cross-comparative functionality of the total corpus, and is encouraged. 
   element diploPart {
-    macro.phraseSeq,
+    (macro.phraseSeq | model.inter)+,
     att.global.attributes,
     att.typed.attribute.subtype,
     

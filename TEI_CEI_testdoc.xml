@@ -265,12 +265,12 @@
                     <quote/>
                 </additions>
                 <figure>
-                    <surface>
+                    <!--  <surface> figures with surfaces need to be moved to facsimile and then have a reference to them dropped in the original location
                     <zone>
-                        <!-- <desc/> not allowed in TEI P5 and no data in the two occurrences in the databsse, so it can be dropped -->
+                        <desc/> not allowed in TEI P5 and no data in the two occurrences in the databsse, so it can be dropped
                     </zone>
                     <graphic url=""/>
-                    </surface>
+                    </surface> -->
                 </figure>
                         </p>
                     </msDesc>
@@ -318,25 +318,25 @@
             </listWit>
             <diploDesc>
                 <listBibl>
-                    <ref/>
+                    <!-- <ref/> only one example, and it is obviously wrong -->
                     <bibl>
                         <lb/>
-                        <ref/>
-                        <quote/>
+                        <!-- <ref/> only one example, and it is obviously wrong -->
+                        <!-- <quote/> people are misusing content-quote for display-quotation-marks. none of the examples are actually quotes -->
                     </bibl>
                 </listBibl>
                 <listBibl type="edition"><!--<listBiblEdition>-->
-                    <ref/>
+                    <!-- <ref/> only one example, and it is obviously wrong -->
                     <bibl>
                         <hi rend="sup"/>
                         <anchor/>
                         <ref/>
                         <foreign/>
-                        <quote/>
+                        <!-- <quote/> people are misusing content-quote for display-quotation-marks. none of the examples are actually quotes -->
                     </bibl>
                 </listBibl>
                 <listBibl type="regest"><!--<listBiblRegest>-->
-                    <ref/>
+                    <!-- <ref/> only one example, and it is obviously wrong -->
                     <bibl>
                         <ref/>
                         <title/>
@@ -350,7 +350,7 @@
                     </bibl>
                 </listBibl>
                 <listBibl type="other">
-                    <ref/>
+                    <!-- <ref/> only one example, and it is obviously wrong -->
                     <bibl>
                         <lb/>
                         <hi rend="sup"/>
@@ -388,13 +388,13 @@
                     <geogName/>
                     <index/>
                     <legalActor type="witness">
-                        <c/>
+                        <g/> <!-- g instead of c for our usage? -->
                         <persName>
                             <c/>
                         </persName>
                     </legalActor>
                     <date/>
-                </p>
+                    <!--  </p> moved to bottom of div? check; I am just guessing -->
                 <origDate>
                     <hi rend="sup"/>
                     <expan/>
@@ -405,17 +405,16 @@
                     <foreign/>
                     <index/>
                 </note>
-                <div type="Notes">
+                <!--  <div type="Notes"> do we really need this div?-->
                     <note>
                         <hi rend="sup"/>
                         <bibl/>
                     </note>
-                </div>
+                <!--  </div> -->
+                    </p>
             </diploDesc>
            <!-- <lang_MOM/> replace with Header language element -->
                 </summary>
-                <msItem>
-                </msItem>
             </msContents>
         </msDesc>
         <div type="tenor">
@@ -450,14 +449,14 @@
                 <persName/>
                 <placeName/>
                 <index>
-                    <ref/>
+                    <term /><!--     <ref/>  -->
                 </index>
                 <date/>
                 <!--    <dateRange/> CONVERT TO DATE, WHICH HAS SAME FUNCTIONALITY -->
                 <measure/>
             <diploPart type="invocatio">
                 <damage>
-                    <pict/>
+                    <!--    <pict/> need to find a clear instance of this use -->
                 </damage>
             </diploPart>
             <diploPart type="intitulatio">
@@ -560,12 +559,12 @@
             <diploPart type="subscriptio">
                 <hi/>
                 <lb/>
-                <pict/>
+                <!-- <pict/> can I drop all of these? -->
                 <expan/>
                 <foreign/>
                 <persName/>
             </diploPart>
-            <authen type="signature"/>
+            <authen type="signed"/>
             <!-- <setPhrase>
                 <lb/>
                 <hi rend="sup"/>
@@ -588,7 +587,7 @@
             <pb/>
             <lb/>
             <hi rend="sup"/>
-            <pict/>
+                <!-- <pict/> can I drop all of these? -->
             <expan/>
             <add/>
             <del>
@@ -604,7 +603,7 @@
                 <lb/>
                 <hi rend="sup"/>
                 <expan/>
-                <hi rend="sup"plied/>
+                <!-- <hi rend="sup"plied/> straight-up typo  -->
                 <del/>
                 <corr/>
                 <space/>
@@ -636,14 +635,15 @@
                 <lb/>
             </geogName>
             <index/>
-            <testis>
+            <legalActor type="witness">
                 <persName/>
-            </testis>
+            </legalActor>
             <date/>
             </p>
         </div>
     </body>
     <back>
+        <p>
         <persName>
             <lb/>
             <hi rend="sup"/>
@@ -651,7 +651,7 @@
             <placeName/>
             <foreign/>
         </persName>
-        <class/>
+        <!-- <class/> -->
         <placeName>
             <hi rend="sup"/>
             <index/>
@@ -660,12 +660,13 @@
             </foreign>
         </placeName>
         <index>
-            <foreign/>
+            <term><foreign/></term>
         </index>
         <geogName>
             <hi rend="sup"/>
         </geogName>
-        <divNotes>
+        </p>
+        <div type="notes"> <!-- look up use of divNotes in practice -->
             <note>
                 <hi>
                     <hi rend="sup"/>
@@ -693,7 +694,7 @@
                     <lb/>
                 </placeName>
                 <index>
-                    <lb/>
+                    <!--    <lb/> makes no sense, and I need to check that all index tags have terms -->
                 </index>
                 <date/>
                 <!--    <dateRange/> CONVERT TO DATE, WHICH HAS SAME FUNCTIONALITY -->
@@ -701,7 +702,7 @@
                     <pb/>
                 </measure>
             </note>
-        </divNotes>
+        </div>
     </back>
 </text>
 </TEI>
