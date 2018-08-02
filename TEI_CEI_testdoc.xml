@@ -1,5 +1,5 @@
 <?xml-model href="out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<teiCorpus xmlns="http://www.tei-c.org/ns/1.0"><TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<TEI xmlns="http://www.tei-c.org/ns/1.0" >
     <teiHeader>
         <fileDesc>
             <titleStmt>
@@ -705,4 +705,4 @@
             </div>
         </back>
     </text>
-</TEI></teiCorpus>
+</TEI>
