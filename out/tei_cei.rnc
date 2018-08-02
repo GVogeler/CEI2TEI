@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-07-12T11:10:16Z. .
+# Schema generated from ODD source 2018-08-02T13:06:47Z. .
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -1909,7 +1909,6 @@ model.inter =
   | model.listLike
   | model.stageLike
   | model.qLike
-  | additions
   | cei_authen
   | cei_legalActor
   | cei_diploPart
@@ -2769,8 +2768,27 @@ note =
     att.global.attributes,
     att.placement.attributes,
     att.pointing.attributes,
-    att.typed.attributes,
+    att.typed.attribute.subtype,
     att.written.attributes,
+    
+    ##
+    attribute type {
+      
+      ## Notes made in the context of the original production of the document, whether by the scribe, officials, or the original chancellery or issuer.
+      "production"
+      | 
+        ## Notes made as part of ownership, sale, or archiving. Ownership notes, summaries on the dorse, etc.
+        "ownership"
+      | 
+        ## Notes made by end-users for their own use. Pen-trials, notes on content, highlighting, etc.
+        "personal"
+      | 
+        ## Notes made for the benefit of another party. Corrections, comments, feedback, etc.
+        "impersonal"
+      | 
+        ## Annotations that improve the structure of the text or give general directions for its use. Indices, instructions (e.g. for the order of readings), glosses, technical notes, etc. 
+        "structural"
+    }?,
     
     ## indicates whether the copy text shows the exact place of reference for the note.
     [ a:defaultValue = "true" ] attribute anchored { xsd:boolean }?,
@@ -7528,32 +7546,8 @@ decoNote =
   }
 additions =
   
-  ## Contains a description of any significant additions found within a manuscript, such as marginalia or other annotations. See definition in VID 180 and TEI documentation 10.7.2 Writing, Decoration, and Other Notations. [10.7.2. Writing, Decoration, and Other Notations]
-  element additions {
-    macro.specialPara,
-    att.global.attributes,
-    att.typed.attribute.subtype,
-    
-    ##
-    attribute type {
-      
-      ## Notes made in the context of the original production of the document, whether by the scribe, officials, or the original chancellery or issuer.
-      "production"
-      | 
-        ## Notes made as part of ownership, sale, or archiving. Ownership notes, summaries on the dorse, etc.
-        "ownership"
-      | 
-        ## Notes made by end-users for their own use. Pen-trials, notes on content, highlighting, etc.
-        "personal"
-      | 
-        ## Notes made for the benefit of another party. Corrections, comments, feedback, etc.
-        "impersonal"
-      | 
-        ## Annotations that improve the structure of the text or give general directions for its use. Indices, instructions (e.g. for the order of readings), glosses, technical notes, etc. 
-        "structural"
-    }?,
-    empty
-  }
+  ## contains a description of any significant additions found within a manuscript, such as marginalia or other annotations. [10.7.2. Writing, Decoration, and Other Notations]
+  element additions { macro.specialPara, att.global.attributes, empty }
 bindingDesc =
   
   ## (binding description) describes the present and former bindings of a manuscript, either as a series of paragraphs or as a series of distinct binding elements, one for each binding of the manuscript. [10.7.3.1. Binding Descriptions]
@@ -8731,7 +8725,7 @@ cei_diploPart =
         ## VID 197. The narration clause states the case of gives the circumstances or context leading up to the issuance of the act.
         "narratio"
       | 
-        ## VID 196. The pulbication, promulgation, or notfication clause addresses itself to all those concerned in the act, as parties or readers.
+        ## VID 196. The publication, promulgation, or notfication clause addresses itself to all those concerned in the act, as parties or readers.
         "notificatio"
       | 
         ## VID 326. Clause expressing request for formal documentation.
