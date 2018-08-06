@@ -1,0 +1,620 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns> .
+@prefix auth: <http://example.com/auth> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core> .
+@prefix dc:<http://purl.org/dc/elements/1.1/> .
+
+auth:AUTH_TOC_1 rdf:type skos:Concept; 
+skos:prefLabel "Authentication Elements"@en;
+  skos:narrower auth:seal;
+  skos:narrower auth:security_printing;
+  skos:narrower auth:mark;
+  skos:narrower auth:non_attached;
+  skos:narrower auth:token;
+  skos:narrower auth:notarized;
+  skos:narrower auth:medium;
+  skos:narrower auth:packaging;
+  skos:narrower auth:signed;
+  skos:narrower auth:stamp;
+  skos:narrower auth:biometrics;
+  skos:narrower auth:digital;
+  skos:narrower auth:layout;
+  skos:narrower auth:splits;
+  skos:narrower auth:formula;
+  skos:narrower auth:endorsement.
+
+auth:seal rdf:type skos:Concept; 
+  skos:prefLabel "seal"@en; 
+  #Type
+  skos:narrower auth:great;
+  skos:narrower auth:medium;
+  skos:narrower auth:small;
+  skos:narrower auth:papal;
+  skos:narrower auth:of_absence;
+  skos:narrower auth:private;
+  skos:narrower auth:regency;
+  skos:narrower auth:secret;
+  skos:narrower auth:counterseal;
+  skos:narrower auth:absence;
+  # or substitution
+  skos:narrower auth:presumptive.
+  #before assuming office;
+#Material
+#Wax
+#Metal
+#shellac
+#clay (cf. cylinder seal)
+#Supports
+#parchment
+#thread
+#Format
+#Pendant
+#sur simple queue
+#sur double queue
+#cords
+#en placard
+#cylinder (ancient)
+#Electronic article surveilance as analogous to a seal?
+
+auth:papal  rdf:type skos:Concept;
+  skos:prefLabel "Papal seal"@en;
+  skos:narrower auth:bull;
+  skos:narrower auth:fishermans_ring.
+
+auth:bull  rdf:type skos:Concept;
+  skos:prefLabel "Papal bull"@en;
+  skos:narrower auth:golden_bull;
+  skos:narrower auth:leaden_bull.
+
+auth:security_printing  rdf:type skos:Concept;
+  skos:prefLabel "security printing"@en;
+  skos:narrower  auth:guilloche;
+  skos:narrower auth:latent_images;
+  skos:narrower auth:microprinting;
+  skos:narrower auth:MICR;
+  skos:narrower auth:raised;
+  skos:narrower auth:verification_grid;
+  skos:narrower auth:void_pantograph;
+  skos:narrower auth:hologram;
+  skos:narrower auth:typography;
+  skos:narrower auth:script;
+  # (not printing) cf. handwriting;
+  skos:narrower auth:special_ink.
+
+auth:special_ink  rdf:type skos:Concept; 
+  skos:prefLabel "special ink or dye"@en;
+  skos:narrower auth:UV_ink;
+  skos:narrower auth:flourescent_dyes;
+  skos:narrower auth:optically_variable_ink;
+  skos:narrower auth:thermochromatic_ink.
+
+auth:mark rdf:type skos:Concept;
+  skos:prefLabel "mark"@en;
+  skos:narrower  auth:trademark;
+  skos:narrower auth:hallmark;
+  skos:narrower auth:countermark;
+  skos:narrower auth:signum;
+  # (see special signs)
+  skos:narrower auth:notarial_mark;
+  skos:narrower auth:barcode;
+  skos:narrower auth:QR_code;
+  skos:narrower auth:royal_cypher.
+
+auth:non_attached rdf:type skos:Concept;
+  skos:prefLabel "non-attached"@en;
+  skos:altLabel "transactional"@en;
+  skos:narrower auth:certificate_of_authenticity;
+  skos:narrower auth:duplicate;
+  skos:narrower auth:registration;
+  skos:narrower auth:registry_number;
+  skos:narrower auth:serial_number;
+  skos:narrower auth:warrant;
+  skos:narrower auth:reference;
+  skos:narrower auth:presence.
+  #    in archive / Chain of transmission
+          
+auth:token rdf:type skos:Concept;
+  skos:prefLabel "token"@en;
+  skos:narrower auth:drivers_license;
+  skos:narrower auth:passport;
+  skos:narrower auth:ID_card.
+  #  cf. Digital Token
+   
+auth:notarized rdf:type skos:Concept;
+  skos:prefLabel "notarization"@en;
+  skos:narrower auth:apostille.
+
+auth:medium rdf:type skos:Concept;
+  skos:prefLabel "special or controlled medium"@en;
+  skos:narrower auth:banknote_paper;
+  skos:narrower auth:polymer_banknote;
+  skos:narrower auth:stationery;
+  skos:narrower auth:watermark;
+  skos:narrower auth:integrated_circuit;
+  skos:narrower auth:RFID;
+  skos:narrower auth:NFC;
+  skos:narrower auth:connected_token;
+  skos:narrower auth:magnetic_stripe.
+
+auth:packaging rdf:type skos:Concept;
+  skos:prefLabel "packaging"@en;
+  skos:altLabel "enclosure"@en;
+  skos:narrower auth:tamper_evident;
+  skos:narrower auth:lamination;
+  skos:narrower auth:security_bag;
+  skos:narrower auth:security_tape;
+  skos:narrower auth:distinctive_casing.
+
+auth:signed rdf:type skos:Concept;
+  skos:prefLabel "signed"@en;
+  skos:narrower auth:signature;
+  skos:narrower auth:paraph;
+  skos:narrower auth:la_ruche;
+  skos:narrower auth:per_procurationem;
+  skos:narrower auth:initialing;
+  skos:narrower auth:mechanically_produced;
+  skos:narrower auth:sign_manual;
+  skos:narrower auth:manu_propria;
+  skos:narrower auth:cross;
+  skos:narrower auth:notarial_signs;
+  skos:narrower auth:monogram.
+#  skos:narrower auth:ss.
+
+auth:stamp rdf:type skos:Concept;
+  skos:prefLabel "stamp"@en;
+  skos:narrower auth:inked_stamp;
+  skos:narrower auth:adhesive;
+  skos:narrower auth:holographic;
+  skos:narrower auth:embossed.
+
+auth:inked_stamp rdf:type skos:Concept;
+  skos:prefLabel "inked stamp"@en;
+  skos:narrower auth:chop.
+
+auth:biometrics rdf:type skos:Concept;
+  skos:prefLabel "biometrics"@en;
+  # does narrower really work for these categories?
+  skos:narrower auth:fingerprints;
+  skos:narrower auth:iris_scan;
+  skos:narrower auth:photo;
+  skos:narrower auth:DNA;
+  skos:narrower auth:retina_scan;
+  skos:narrower auth:hand_geometry;
+  skos:narrower auth:behaviormetrics;
+  skos:narrower auth:gait;
+  skos:narrower auth:voice;
+  skos:narrower auth:signature;
+  skos:narrower auth:handwriting;
+  skos:narrower auth:soft_biometrics.
+
+auth:soft_biometrics rdf:type skos:Concept;
+  skos:prefLabel "soft biometrics"@en;
+  skos:narrower auth:height;
+  skos:narrower auth:weight;
+  skos:narrower auth:facial_hair;
+  skos:narrower auth:hair_colour;
+  skos:narrower auth:build;
+  skos:narrower auth:skin_tone.
+
+auth:digital rdf:type skos:Concept;
+  skos:prefLabel "digital methods"@en;
+  skos:narrower auth:checksum;
+  skos:narrower auth:digital_signature;
+  skos:narrower auth:digital_watermarking;
+  skos:narrower auth:encryption;
+  skos:narrower auth:hash;
+#  skos:narrower auth:public_key;
+  skos:narrower auth:shared_secret;
+  skos:narrower auth:timestamp;
+  skos:narrower auth:digital_token.
+
+auth:layout rdf:type skos:Concept;
+  skos:prefLabel "layout"@en;
+  skos:narrower auth:dimensions;
+  skos:narrower auth:mise_en_page.
+
+auth:splits rdf:type skos:Concept;
+  skos:prefLabel "splits"@en;
+  skos:narrower auth:indenture;
+  skos:narrower auth:tally;
+  skos:narrower auth:chirograph.
+
+auth:formula rdf:type skos:Concept;
+  skos:prefLabel "formula"@en;
+  skos:narrower auth:attestation;
+  skos:narrower auth:authentication_clause;
+  skos:narrower auth:corroboration;
+  skos:narrower auth:signature_block.
+
+auth:endorsement rdf:type skos:Concept;
+  skos:prefLabel "endorsement"@en.
+
+auth:guilloche rdf:type skos:Concept;
+  skos:prefLabel "guilloche"@en; 
+skos:altLabel "geometric lathe work"@en.
+
+auth:latent_images rdf:type skos:Concept;
+  skos:prefLabel "latent images"@en.
+
+auth:microprinting rdf:type skos:Concept;
+  skos:prefLabel "microprinting"@en. 
+
+auth:MICR rdf:type skos:Concept;
+  skos:prefLabel "magnetic ink character recognition"@en; 
+skos:altLabel "MICR"@en.
+
+auth:raised rdf:type skos:Concept;
+  skos:prefLabel "raised printing"@en. 
+
+auth:verification_grid rdf:type skos:Concept;
+  skos:prefLabel "verification grid"@en. 
+
+auth:void_pantograph rdf:type skos:Concept;
+  skos:prefLabel "void pantograph"@en. 
+
+auth:hologram rdf:type skos:Concept;
+  skos:prefLabel "security hologram"@en;
+  skos:altLabel "hologram"@en;
+  skos:narrower auth:kinegram.
+
+auth:kinegram rdf:type skos:Concept;
+  skos:prefLabel "kinegram"@en.
+  # intersection of embossing and hologram for security printing
+
+auth:typography rdf:type skos:Concept;
+  skos:prefLabel "typography"@en.
+
+auth:script rdf:type skos:Concept;
+  skos:prefLabel "script"@en. 
+  # (not printing) cf. handwriting rdf:type skos:Concept.
+
+auth:UV_ink rdf:type skos:Concept;
+  skos:prefLabel "UV ink"@en.
+
+auth:flourescent_dyes rdf:type skos:Concept;
+  skos:prefLabel "flourescent dye"@en.
+
+auth:optically_variable_ink rdf:type skos:Concept;
+  skos:prefLabel "optically variable ink"@en.
+
+auth:thermochromatic_ink rdf:type skos:Concept;
+  skos:prefLabel "thermochromatic ink"@en.
+
+auth:trademark rdf:type skos:Concept;
+  skos:prefLabel "trademark"@en.
+
+auth:hallmark rdf:type skos:Concept;
+  skos:prefLabel "hallmark"@en.
+
+auth:countermark rdf:type skos:Concept;
+  skos:prefLabel "countermark"@en.
+
+auth:signum rdf:type skos:Concept;
+  # (see special signs) 
+  skos:prefLabel "signum"@en.
+
+auth:notarial_mark rdf:type skos:Concept;
+  skos:prefLabel "notarial mark"@en.
+
+auth:barcode rdf:type skos:Concept;
+  skos:prefLabel "barcode"@en.
+
+auth:QR_code rdf:type skos:Concept;
+  skos:prefLabel "QR code"@en.
+
+auth:royal_cypher rdf:type skos:Concept;
+  skos:prefLabel "royal cipher"@en.
+
+auth:certificate_of_authenticity rdf:type skos:Concept;
+  skos:prefLabel "certificate of authenticity"@en.
+
+auth:duplicate rdf:type skos:Concept;
+  skos:prefLabel "duplicate"@en.
+
+auth:registration rdf:type skos:Concept;
+  skos:prefLabel "registration"@en.
+
+auth:registry_number rdf:type skos:Concept;
+  skos:prefLabel "registry number"@en.
+
+auth:serial_number rdf:type skos:Concept;
+  skos:prefLabel "serial number"@en.
+
+auth:warrant rdf:type skos:Concept;
+  skos:prefLabel "warrant for issue"@en.
+
+auth:reference rdf:type skos:Concept;
+  skos:prefLabel "reference in other sources"@en.
+
+auth:presence rdf:type skos:Concept;
+  skos:prefLabel "archival context"@en;
+  skos:altLabel "chain of transmission"@en.
+  #  in archive / Chain of transmission
+
+auth:drivers_license rdf:type skos:Concept;
+  skos:prefLabel "driver's license"@en.
+
+auth:passport rdf:type skos:Concept;
+  skos:prefLabel "passport"@en.
+
+auth:ID_card rdf:type skos:Concept;
+  skos:prefLabel "identification card"@en;
+  skos:altLabel "ID card"@en.
+  #  cf. Digital Token
+
+auth:banknote_paper rdf:type skos:Concept;
+  skos:prefLabel "banknote paper"@en.
+
+auth:polymer_banknote rdf:type skos:Concept;
+  skos:prefLabel "polymer banknote medium"@en.
+
+auth:stationery rdf:type skos:Concept;
+  skos:prefLabel "stationery"@en.
+
+auth:watermark rdf:type skos:Concept;
+  skos:prefLabel "watermark"@en.
+
+auth:integrated_circuit rdf:type skos:Concept;
+  skos:prefLabel "integrated circuit"@en;
+  skos:altLabel "microchip"@en;
+  skos:altLabel "silicon chip"@en;
+  skos:altLabel "chip"@en;
+  skos:altLabel "IC"@en.
+
+auth:RFID rdf:type skos:Concept;
+  skos:prefLabel "radio-frequency identification"@en;
+  skos:altLabel "RFID"@en.
+
+auth:NFC rdf:type skos:Concept;
+  skos:prefLabel "near-field communication"@en;
+  skos:altLabel "NFC"@en.
+
+auth:connected_token rdf:type skos:Concept;
+  skos:prefLabel "connected token"@en.
+
+auth:magnetic_stripe rdf:type skos:Concept;
+  skos:prefLabel "magnetic stripe"@en;
+  skos:altLabel "magstripe"@en.
+
+auth:tamper_evident rdf:type skos:Concept;
+  skos:prefLabel "tamper-evident"@en.
+  # related to security bag, security envelope, security tape, tamper-evident band, sealing (the kind that breaks the seal when opened)
+  # probably a broader concept than just packaging
+
+auth:lamination rdf:type skos:Concept;
+  #  (a type of sealing?) rdf:type skos:Concept;
+  skos:prefLabel "lamination"@en.
+
+auth:security_bag rdf:type skos:Concept;
+  skos:prefLabel "security bag"@en.
+
+auth:security_tape rdf:type skos:Concept;
+  skos:prefLabel "security tape"@en.
+
+auth:distinctive_casing rdf:type skos:Concept;
+  skos:prefLabel "distinctive casing"@en.
+
+auth:signature rdf:type skos:Concept;
+  skos:prefLabel "autograph signature"@en;
+  skos:altLabel "autograph"@en;
+  skos:altLabel "holographic signature"@en;
+  #skos:altLabel "holograph"@en;
+  skos:altLabel "signature"@en;
+  skos:altLabel "John Hancock"@en-US.
+
+auth:paraph rdf:type skos:Concept;
+  skos:prefLabel "paraph"@en.
+
+auth:la_ruche rdf:type skos:Concept;
+  skos:prefLabel "la ruche"@fr.
+
+auth:per_procurationem rdf:type skos:Concept;
+  skos:prefLabel "per procurationem"@en;
+  skos:prefLabel "per procurationem"@lat;
+  skos:altLabel "p.p."@en;
+  skos:altLabel "per pro"@en;
+  skos:altLabel "by the agency of"@en;
+  skos:altLabel "on behalf of"@en.
+
+auth:initialing rdf:type skos:Concept;
+  skos:prefLabel "initaling"@en.
+
+auth:mechanically_produced rdf:type skos:Concept;
+  skos:prefLabel "mechanically-produced signature"@en.
+
+auth:sign_manual rdf:type skos:Concept;
+  skos:prefLabel "royal sign-manual"@en.
+
+auth:manu_propria rdf:type skos:Concept;
+  #  m.p.r. / manu propria rdf:type skos:Concept;
+  skos:prefLabel "manu propria"@lat;
+  skos:altLabel "m.p"@lat;
+  skos:altLabel "mppria"@lat.
+
+auth:cross rdf:type skos:Concept;
+  #  es for signing
+  skos:prefLabel "crosses for signing"@en.
+
+auth:notarial_signs rdf:type skos:Concept;
+  # related:notarized
+  skos:prefLabel "notarial sign"@en.
+
+auth:monogram rdf:type skos:Concept;
+  skos:prefLabel "monogram"@en;
+  skos:narrower auth:tugra;
+  skos:narrower auth:bene_valete;
+  skos:narrower auth:rota;
+  skos:narrower auth:signum_manus;
+  skos:narrower auth:chrismon.
+
+auth:tugra rdf:type skos:Concept;
+  skos:prefLabel "tugra"@ota.
+
+auth:bene_valete rdf:type skos:Concept;
+  skos:prefLabel "bene valete"@lat.
+
+auth:rota rdf:type skos:Concept;
+  skos:prefLabel "rota"@lat.
+
+auth:signum_manus rdf:type skos:Concept;
+  skos:prefLabel "signum manus"@lat.
+  #closely related to auth:chrismon
+
+auth:chrismon rdf:type skos:Concept;
+  skos:prefLabel "Chrismon"@lat.
+
+#auth:ss rdf:type skos:Concept;
+#  skos:prefLabel "subscripti"@en.
+
+auth:chop rdf:type skos:Concept;
+  #  (E. Asian Seal / Stamp) rdf:type skos:Concept;
+  skos:prefLabel "name stamp"@en;
+  skos:altLabel "chop"@en;
+  skos:altLabel "印鑑"@ja;
+  skos:altLabel "inkan"@en-t-ja;
+  skos:altLabel "判子"@ja;
+  skos:altLabel "hanko"@en-t-ja.
+  
+auth:adhesive rdf:type skos:Concept;
+  skos:prefLabel "adhesive stamp"@en.
+
+auth:holographic rdf:type skos:Concept;
+  # intersection of stamp and security printing rdf:type skos:Concept;
+  skos:prefLabel "holographic stamp"@en.
+
+auth:kinegram rdf:type skos:Concept;
+  # intersection of embossed and holographic and securioty printing rdf:type skos:Concept;
+  skos:prefLabel "kinegram"@en.
+
+auth:embossed rdf:type skos:Concept;
+  skos:prefLabel "embossed"@en.
+
+auth:fingerprints rdf:type skos:Concept;
+  skos:prefLabel "fingerprints"@en.
+
+auth:iris_scan rdf:type skos:Concept;
+  skos:prefLabel "iris scan"@en.
+
+auth:photo rdf:type skos:Concept;
+  skos:prefLabel "photograph"@en;
+  skos:altLabel "photo"@en.
+
+auth:DNA rdf:type skos:Concept;
+  skos:prefLabel "DNA profiling"@en;
+  skos:altLabel "DNA fingerprinting"@en;
+  skos:altLabel "DNA testing"@en;
+  skos:altLabel "DNA typing"@en.
+
+auth:retina_scan rdf:type skos:Concept;
+  skos:prefLabel "retina scan"@en.
+
+auth:hand_geometry rdf:type skos:Concept;
+  skos:prefLabel "hand geometry"@en.
+
+auth:behaviormetrics rdf:type skos:Concept;
+  skos:prefLabel "behaviormetrics"@en.
+
+auth:gait rdf:type skos:Concept;
+  skos:prefLabel "gait"@en.
+
+auth:voice rdf:type skos:Concept;
+  skos:prefLabel "voice"@en.
+
+auth:handwriting rdf:type skos:Concept;
+  #  cf. script rdf:type skos:Concept;
+  skos:prefLabel "handwriting"@en.
+
+auth:height rdf:type skos:Concept;
+  skos:prefLabel "height"@en.
+
+auth:weight rdf:type skos:Concept;
+  skos:prefLabel "weight"@en.
+
+auth:facial_hair rdf:type skos:Concept;
+  skos:prefLabel "facial hair"@en.
+
+auth:hair_colour rdf:type skos:Concept;
+  skos:prefLabel "hair colour"@en.
+
+auth:build rdf:type skos:Concept;
+  skos:prefLabel "build"@en.
+
+auth:skin_tone rdf:type skos:Concept;
+  skos:prefLabel "skin tone"@en.
+
+auth:checksum rdf:type skos:Concept;
+  skos:prefLabel "checksum"@en.
+
+auth:digital_signature rdf:type skos:Concept;
+  skos:prefLabel "digital signature"@en.
+
+auth:digital_watermarking rdf:type skos:Concept;
+  skos:prefLabel "digital watermarking"@en.
+
+auth:encryption rdf:type skos:Concept;
+  skos:prefLabel "encryption"@en.
+
+auth:hash rdf:type skos:Concept;
+  skos:prefLabel "hash"@en.
+
+#auth:public_key rdf:type skos:Concept;
+#  skos:prefLabel "public key encryption"@en.
+
+auth:shared_secret rdf:type skos:Concept;
+  skos:prefLabel ""@en;
+  skos:narrower auth:password;
+  skos:narrower auth:PIN.
+
+auth:password rdf:type skos:Concept;
+  skos:prefLabel "password"@en.
+
+auth:PIN rdf:type skos:Concept;
+  skos:prefLabel "personal identification number"@en;
+  skos:altLabel "PIN"@en.
+
+auth:timestamp rdf:type skos:Concept;
+  skos:prefLabel ""@en.
+
+auth:dimensions rdf:type skos:Concept;
+  skos:prefLabel ""@en.
+
+auth:mise_en_page rdf:type skos:Concept;
+  skos:prefLabel ""@en.
+
+auth:indenture rdf:type skos:Concept;
+  # (jagged edges) -- cf. chirograph
+  skos:prefLabel "indenture"@en.
+
+auth:tally rdf:type skos:Concept;
+  skos:prefLabel "tally stick"@en;
+  skos:altLabel "tally"@en.
+
+auth:chirograph rdf:type skos:Concept;
+#   cf. special signs
+  skos:prefLabel "chirograph"@en.
+
+auth:attestation rdf:type skos:Concept;
+  skos:prefLabel "attestation clause"@en.
+
+auth:authentication_clause rdf:type skos:Concept;
+  skos:prefLabel "authentication clause"@en.
+
+auth:corroboration rdf:type skos:Concept;
+  skos:prefLabel "corroboration clause"@en.
+
+auth:signature_block rdf:type skos:Concept;
+  skos:prefLabel "signature block"@en.
+  #   (.sig, etc.)
+
+auth:fishermans_ring  rdf:type skos:Concept;
+  skos:prefLabel "Ring of the Fisherman "@en;
+  skos:prefLabel "Annulus Piscatoris "@lat;
+  skos:prefLabel "Anello Piscatorio "@it;
+  skos:altLabel "Fisherman's Ring"@en.
+
+auth:golden_bull  rdf:type skos:Concept;
+  skos:prefLabel "golden Papal bull"@en.
+  #reorganize lead and wax and clay into materials and make this the intersection of papal bull and gold
+
+auth:leaden_bull  rdf:type skos:Concept;
+  skos:prefLabel "leaden Papal bull"@en.
+  #reorganize lead and wax and clay into materials and make this the intersection of papal bull and lead
