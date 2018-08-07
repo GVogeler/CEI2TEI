@@ -2,9 +2,11 @@
 @prefix auth: <http://example.com/auth> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core> .
 @prefix dc:<http://purl.org/dc/elements/1.1/> .
+@prefix vid:<http://www.cei.lmu.de/VID/skos/VID_> .
+@prefix vis: <http://gams.uni-graz.at/skos/scheme/o:vis/#> .
 
 auth:AUTH_TOC_1 rdf:type skos:Concept; 
-skos:prefLabel "Authentication Elements"@en;
+  skos:prefLabel "Authentication Elements"@en;
   skos:narrower auth:seal;
   skos:narrower auth:security_printing;
   skos:narrower auth:mark;
@@ -24,45 +26,30 @@ skos:prefLabel "Authentication Elements"@en;
 
 auth:seal rdf:type skos:Concept; 
   skos:prefLabel "seal"@en; 
-  #Type
-  skos:narrower auth:great;
-  skos:narrower auth:medium;
-  skos:narrower auth:small;
-  skos:narrower auth:papal;
-  skos:narrower auth:of_absence;
-  skos:narrower auth:private;
-  skos:narrower auth:regency;
-  skos:narrower auth:secret;
+  skos:exactMatch vid:502;
+  skos:exactMatch vis:3;
+  skos:narrower auth:great_seal;
+  skos:narrower auth:medium_seal;
+  skos:narrower auth:small_seal;
+  skos:narrower auth:papal_seal;
+  skos:narrower auth:private_seal;
+  skos:narrower auth:regency_seal;
+  skos:narrower auth:secretarial_seal;
   skos:narrower auth:counterseal;
-  skos:narrower auth:absence;
-  # or substitution
-  skos:narrower auth:presumptive.
-  #before assuming office;
-#Material
-#Wax
-#Metal
-#shellac
-#clay (cf. cylinder seal)
-#Supports
-#parchment
-#thread
-#Format
-#Pendant
-#sur simple queue
-#sur double queue
-#cords
-#en placard
-#cylinder (ancient)
-#Electronic article surveilance as analogous to a seal?
+  skos:narrower auth:seal_of_absence;
+  skos:narrower auth:presumptive_seal.
 
-auth:papal  rdf:type skos:Concept;
+auth:papal_seal  rdf:type skos:Concept;
   skos:prefLabel "Papal seal"@en;
   skos:narrower auth:bull;
   skos:narrower auth:fishermans_ring.
 
 auth:bull  rdf:type skos:Concept;
   skos:prefLabel "Papal bull"@en;
+  skos:exactMatch vid:506;
+  skos:exactMatch vis:11;
   skos:narrower auth:golden_bull;
+  skos:narrower auth:silver_bull;
   skos:narrower auth:leaden_bull.
 
 auth:security_printing  rdf:type skos:Concept;
@@ -77,7 +64,6 @@ auth:security_printing  rdf:type skos:Concept;
   skos:narrower auth:hologram;
   skos:narrower auth:typography;
   skos:narrower auth:script;
-  # (not printing) cf. handwriting;
   skos:narrower auth:special_ink.
 
 auth:special_ink  rdf:type skos:Concept; 
@@ -110,7 +96,6 @@ auth:non_attached rdf:type skos:Concept;
   skos:narrower auth:warrant;
   skos:narrower auth:reference;
   skos:narrower auth:presence.
-  #    in archive / Chain of transmission
           
 auth:token rdf:type skos:Concept;
   skos:prefLabel "token"@en;
@@ -145,6 +130,7 @@ auth:packaging rdf:type skos:Concept;
   skos:narrower auth:distinctive_casing.
 
 auth:signed rdf:type skos:Concept;
+  skos:relatedMatch vid:254;
   skos:prefLabel "signed"@en;
   skos:narrower auth:signature;
   skos:narrower auth:paraph;
@@ -226,6 +212,7 @@ auth:formula rdf:type skos:Concept;
   skos:narrower auth:signature_block.
 
 auth:endorsement rdf:type skos:Concept;
+  skos:relatedMatch vid:256;
   skos:prefLabel "endorsement"@en.
 
 auth:guilloche rdf:type skos:Concept;
@@ -265,7 +252,7 @@ auth:typography rdf:type skos:Concept;
 
 auth:script rdf:type skos:Concept;
   skos:prefLabel "script"@en. 
-  # (not printing) cf. handwriting rdf:type skos:Concept.
+  # (not typography) cf. handwriting
 
 auth:UV_ink rdf:type skos:Concept;
   skos:prefLabel "UV ink"@en.
@@ -308,9 +295,11 @@ auth:certificate_of_authenticity rdf:type skos:Concept;
   skos:prefLabel "certificate of authenticity"@en.
 
 auth:duplicate rdf:type skos:Concept;
+  skos:exactMatch vid:45;
   skos:prefLabel "duplicate"@en.
 
 auth:registration rdf:type skos:Concept;
+  skos:exactMatch vid:89;
   skos:prefLabel "registration"@en.
 
 auth:registry_number rdf:type skos:Concept;
@@ -381,7 +370,7 @@ auth:tamper_evident rdf:type skos:Concept;
   # probably a broader concept than just packaging
 
 auth:lamination rdf:type skos:Concept;
-  #  (a type of sealing?) rdf:type skos:Concept;
+  #  (a type of sealing?)
   skos:prefLabel "lamination"@en.
 
 auth:security_bag rdf:type skos:Concept;
@@ -394,6 +383,7 @@ auth:distinctive_casing rdf:type skos:Concept;
   skos:prefLabel "distinctive casing"@en.
 
 auth:signature rdf:type skos:Concept;
+  skos:exactMatch vid:259;
   skos:prefLabel "autograph signature"@en;
   skos:altLabel "autograph"@en;
   skos:altLabel "holographic signature"@en;
@@ -402,6 +392,7 @@ auth:signature rdf:type skos:Concept;
   skos:altLabel "John Hancock"@en-US.
 
 auth:paraph rdf:type skos:Concept;
+  skos:exactMatch vid:150;
   skos:prefLabel "paraph"@en.
 
 auth:la_ruche rdf:type skos:Concept;
@@ -409,7 +400,7 @@ auth:la_ruche rdf:type skos:Concept;
 
 auth:per_procurationem rdf:type skos:Concept;
   skos:prefLabel "per procurationem"@en;
-  skos:prefLabel "per procurationem"@lat;
+  skos:prefLabel "per procurationem"@la;
   skos:altLabel "p.p."@en;
   skos:altLabel "per pro"@en;
   skos:altLabel "by the agency of"@en;
@@ -425,13 +416,12 @@ auth:sign_manual rdf:type skos:Concept;
   skos:prefLabel "royal sign-manual"@en.
 
 auth:manu_propria rdf:type skos:Concept;
-  #  m.p.r. / manu propria rdf:type skos:Concept;
-  skos:prefLabel "manu propria"@lat;
-  skos:altLabel "m.p"@lat;
+  #  m.p.r.?
+  skos:prefLabel "manu propria"@la;
+  skos:altLabel "m.p"@la;
   skos:altLabel "mppria"@lat.
 
 auth:cross rdf:type skos:Concept;
-  #  es for signing
   skos:prefLabel "crosses for signing"@en.
 
 auth:notarial_signs rdf:type skos:Concept;
@@ -440,6 +430,7 @@ auth:notarial_signs rdf:type skos:Concept;
 
 auth:monogram rdf:type skos:Concept;
   skos:prefLabel "monogram"@en;
+  skos:exactMatch vid:148;
   skos:narrower auth:tugra;
   skos:narrower auth:bene_valete;
   skos:narrower auth:rota;
@@ -453,6 +444,7 @@ auth:bene_valete rdf:type skos:Concept;
   skos:prefLabel "bene valete"@lat.
 
 auth:rota rdf:type skos:Concept;
+  skos:exactMatch vid:153;
   skos:prefLabel "rota"@lat.
 
 auth:signum_manus rdf:type skos:Concept;
@@ -466,7 +458,7 @@ auth:chrismon rdf:type skos:Concept;
 #  skos:prefLabel "subscripti"@en.
 
 auth:chop rdf:type skos:Concept;
-  #  (E. Asian Seal / Stamp) rdf:type skos:Concept;
+  #  (E. Asian Seal / Stamp);
   skos:prefLabel "name stamp"@en;
   skos:altLabel "chop"@en;
   skos:altLabel "印鑑"@ja;
@@ -478,11 +470,11 @@ auth:adhesive rdf:type skos:Concept;
   skos:prefLabel "adhesive stamp"@en.
 
 auth:holographic rdf:type skos:Concept;
-  # intersection of stamp and security printing rdf:type skos:Concept;
+  # intersection of stamp and security printing;
   skos:prefLabel "holographic stamp"@en.
 
 auth:kinegram rdf:type skos:Concept;
-  # intersection of embossed and holographic and securioty printing rdf:type skos:Concept;
+  # intersection of embossed and holographic and security printing;
   skos:prefLabel "kinegram"@en.
 
 auth:embossed rdf:type skos:Concept;
@@ -560,7 +552,7 @@ auth:hash rdf:type skos:Concept;
 #  skos:prefLabel "public key encryption"@en.
 
 auth:shared_secret rdf:type skos:Concept;
-  skos:prefLabel ""@en;
+  skos:prefLabel "shared secret"@en;
   skos:narrower auth:password;
   skos:narrower auth:PIN.
 
@@ -572,16 +564,19 @@ auth:PIN rdf:type skos:Concept;
   skos:altLabel "PIN"@en.
 
 auth:timestamp rdf:type skos:Concept;
-  skos:prefLabel ""@en.
+  skos:prefLabel "timestamp"@en.
 
 auth:dimensions rdf:type skos:Concept;
-  skos:prefLabel ""@en.
+  skos:prefLabel "dimensions"@en.
 
 auth:mise_en_page rdf:type skos:Concept;
-  skos:prefLabel ""@en.
+  skos:prefLabel "mise-en-page"@en;
+  skos:altLabel "page layout"@en;
+  skos:prefLabel "mise-en-page"@fr.
 
 auth:indenture rdf:type skos:Concept;
   # (jagged edges) -- cf. chirograph
+  skos:relatedMatch vid:44;
   skos:prefLabel "indenture"@en.
 
 auth:tally rdf:type skos:Concept;
@@ -589,16 +584,19 @@ auth:tally rdf:type skos:Concept;
   skos:altLabel "tally"@en.
 
 auth:chirograph rdf:type skos:Concept;
+  skos:relatedMatch vid:44;
 #   cf. special signs
   skos:prefLabel "chirograph"@en.
 
 auth:attestation rdf:type skos:Concept;
+  skos:exactMatch vid:416;
   skos:prefLabel "attestation clause"@en.
 
 auth:authentication_clause rdf:type skos:Concept;
   skos:prefLabel "authentication clause"@en.
 
 auth:corroboration rdf:type skos:Concept;
+  skos:exactMatch vid:246;
   skos:prefLabel "corroboration clause"@en.
 
 auth:signature_block rdf:type skos:Concept;
@@ -606,15 +604,79 @@ auth:signature_block rdf:type skos:Concept;
   #   (.sig, etc.)
 
 auth:fishermans_ring  rdf:type skos:Concept;
-  skos:prefLabel "Ring of the Fisherman "@en;
-  skos:prefLabel "Annulus Piscatoris "@lat;
+  skos:exactMatch vid:520;
+  skos:exactMatch vis:31;
+  skos:prefLabel "Ring of the Fisherman"@en;
+  skos:prefLabel "Annulus Piscatoris "@la;
   skos:prefLabel "Anello Piscatorio "@it;
   skos:altLabel "Fisherman's Ring"@en.
 
 auth:golden_bull  rdf:type skos:Concept;
+  skos:exactMatch vis:11ab;
+  skos:prefLabel "chrysobulle"@fr;
+  skos:prefLabel "Goldene Bulle"@de;
   skos:prefLabel "golden Papal bull"@en.
   #reorganize lead and wax and clay into materials and make this the intersection of papal bull and gold
 
+auth:silver_bull rdf:type skos:Concept;
+  skos:exactMatch vis:11ac;
+  skos:prefLabel "silver bull"@en.
+
 auth:leaden_bull  rdf:type skos:Concept;
+  skos:exactMatch vis:11aa;
   skos:prefLabel "leaden Papal bull"@en.
   #reorganize lead and wax and clay into materials and make this the intersection of papal bull and lead
+
+auth:great_seal  rdf:type skos:Concept;
+  skos:exactMatch vid:515;
+  skos:exactMatch vis:27;
+  skos:prefLabel "Great Seal"@en.
+
+auth:medium_seal  rdf:type skos:Concept;
+  skos:exactMatch vid:517;
+  skos:exactMatch vis:29;
+  skos:prefLabel "medium seal"@en.
+
+auth:small_seal  rdf:type skos:Concept;
+  skos:exactMatch vid:516;
+  skos:exactMatch vis:28;
+  skos:prefLabel "small seal"@en.
+
+auth:papal_seal  rdf:type skos:Concept;
+  skos:prefLabel "papal seal"@en.
+
+auth:seal_of_absence  rdf:type skos:Concept;
+  skos:exactMatch vid:521;
+  skos:exactMatch vis:33;
+  skos:prefLabel "seal of absence"@en;
+  skos:altLabel "deputed seal"@en; #would this be perhaps better as a prefLabel?
+  skos:altLabel "seal of substitution"@en.
+
+auth:private_seal  rdf:type skos:Concept;
+  skos:exactMatch vid:519;
+  skos:exactMatch vis:32;
+  skos:narrower auth:privy_seal;
+  skos:prefLabel "private seal"@en;
+  skos:altLabel "privy seal"@en.
+
+auth:regency_seal  rdf:type skos:Concept;
+  skos:exactMatch vid:522;
+  skos:exactMatch vis:35;
+  skos:prefLabel "seal of regency"@en.
+
+auth:secretarial_seal  rdf:type skos:Concept;
+  skos:exactMatch vid:518;
+  #skos:exactMatch vis:30; ## Signet and secretarial seal refer to different concepts in my understanding, so I am confused by this
+  skos:prefLabel "secretarial seal"@en.
+
+auth:counterseal  rdf:type skos:Concept;
+  skos:exactMatch vid:527;
+  skos:exactMatch vis:43;
+  skos:prefLabel "counterseal"@en.
+
+auth:presumptive_seal  rdf:type skos:Concept;
+  skos:exactMatch vid:523;
+  skos:exactMatch vis:36;
+  skos:prefLabel "presumptive seal"@en;
+  skos:altLabel "seal of election"@en;
+  skos:altLabel "before assuming office"@en.
