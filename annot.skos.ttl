@@ -1,0 +1,150 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns> .
+@prefix annot: <http://example.com/annot> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core> .
+@prefix dc:<http://purl.org/dc/elements/1.1/> .
+
+annot:ANNOT_TOC_1 rdf:type skos:Concept; 
+  skos:prefLabel "Annotation Elements"@en;
+  skos:narrower annot:production;
+  skos:narrower annot:ownership;
+  skos:narrower annot:reader.
+
+annot:production rdf:type skos:Concept; 
+  skos:prefLabel "annotation during production"@en;
+  skos:narrower annot:notarial.
+
+annot:ownership rdf:type skos:Concept; 
+  skos:prefLabel "annotation related to ownership"@en;
+  skos:narrower annot:ownership_mark;
+  skos:narrower annot:dedication;
+  skos:narrower annot:archival;
+  skos:narrower annot:commercial.
+
+annot:reader rdf:type skos:Concept; 
+  skos:prefLabel "annotation related to reading or use"@en;
+  skos:narrower annot:personal;
+  skos:narrower annot:impersonal;
+  skos:narrower annot:structuring.
+
+annot:notarial rdf:type skos:Concept; 
+  skos:prefLabel "annotation by notary"@en.
+
+annot:ownership_mark rdf:type skos:Concept; 
+  skos:prefLabel "ownership mark"@en;
+  skos:narrower annot:ex_libris;
+  skos:narrower annot:signed.
+
+annot:dedication rdf:type skos:Concept; 
+  skos:prefLabel "dedication"@en.
+
+annot:archival rdf:type skos:Concept; 
+  skos:prefLabel "annotation by archive"@en;
+  skos:narrower annot:endorsement;
+  skos:narrower annot:call_number.
+
+annot:commercial rdf:type skos:Concept; 
+  skos:prefLabel "annotation related to sale or price"@en.
+
+annot:ex_libris rdf:type skos:Concept; 
+  skos:prefLabel "ex libris notation"@en.
+
+annot:signed rdf:type skos:Concept;
+  skos:prefLabel "signed by owner"@en.
+
+annot:endorsement rdf:type skos:Concept; 
+  skos:prefLabel "endorsement"@en;
+  skos:prefLabel "rubrum"@la.
+
+annot:call_number rdf:type skos:Concept; 
+  skos:prefLabel "call number"@en.
+
+annot:notarial rdf:type skos:Concept; 
+  skos:prefLabel "annotation by notary"@en.
+
+annot:personal rdf:type skos:Concept; 
+  skos:prefLabel "personal reader's note"@en;
+  skos:narrower annot:polemical;
+  skos:narrower annot:reading;
+  skos:narrower annot:highlight;
+  skos:narrower annot:pen_test.
+
+annot:polemical rdf:type skos:Concept; 
+  skos:prefLabel "polemical"@en.
+
+annot:reading rdf:type skos:Concept; 
+  skos:prefLabel "reading"@en.
+
+annot:highlight rdf:type skos:Concept; 
+  skos:prefLabel "highlight"@en;
+  skos:narrower annot:highlighter;
+  skos:narrower annot:underline;
+  skos:narrower annot:circling;
+  skos:narrower annot:pointer.
+
+annot:highlighter rdf:type skos:Concept; 
+  skos:prefLabel "highlighter"@en.
+
+annot:underline rdf:type skos:Concept; 
+  skos:prefLabel "underline"@en.
+
+annot:circling rdf:type skos:Concept; 
+  skos:prefLabel "circling"@en.
+
+annot:pointer rdf:type skos:Concept; 
+  skos:prefLabel "pointer"@en;
+  skos:prefLabel "arrow"@en;
+  skos:prefLabel "manicule"@en.
+
+annot:arrow rdf:type skos:Concept; 
+  skos:prefLabel "arrow"@en.
+
+annot:manicule rdf:type skos:Concept; 
+  skos:prefLabel "manicule"@en.
+
+annot:pen_test rdf:type skos:Concept; 
+  skos:prefLabel "pen test"@en;
+  skos:prefLabel "probatio pennae"@la.
+
+annot:impersonal rdf:type skos:Concept; 
+  skos:prefLabel "reader's notes intended for others"@en;
+  skos:narrower annot:comment;
+  skos:narrower annot:correction;
+  skos:narrower annot:record.
+
+annot:comment rdf:type skos:Concept; 
+  skos:prefLabel "comment"@en.
+
+annot:correction rdf:type skos:Concept; 
+  skos:prefLabel "correction"@en.
+  #superset of comments and corrections is annot:feedback
+
+annot:record rdf:type skos:Concept; 
+  skos:prefLabel "record"@en.
+  #e.g. property records or birth records in a bible
+
+annot:structuring rdf:type skos:Concept; 
+  skos:prefLabel "structuring notes"@en;
+  skos:narrower annot:technical_note;
+  skos:narrower annot:index;
+  skos:narrower annot:gloss;
+  skos:narrower annot:instruction.
+
+annot:technical_note rdf:type skos:Concept; 
+  skos:prefLabel "technical"@en.
+  #Eva Steinova, Notam Superponere Studui: the Use of Technical Signs in the Early Middle Ages
+
+annot:index rdf:type skos:Concept; 
+  skos:prefLabel "index"@en.
+
+annot:index rdf:type skos:Concept; 
+  skos:prefLabel "gloss"@en.
+
+annot:instruction rdf:type skos:Concept; 
+  skos:prefLabel "instruction"@en.
+  #e.g. notes on order of liturgy, organizing principle added after the original text
+
+
+
+
+
+
