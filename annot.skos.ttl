@@ -1,6 +1,6 @@
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns> .
 @prefix annot: <http://example.com/annot> .
-@prefix skos: <http://www.w3.org/2004/02/skos/core> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix dc:<http://purl.org/dc/elements/1.1/> .
 
 annot:ANNOT_TOC_1 rdf:type skos:Concept; 
@@ -92,8 +92,8 @@ annot:circling rdf:type skos:Concept;
 
 annot:pointer rdf:type skos:Concept; 
   skos:prefLabel "pointer"@en;
-  skos:prefLabel "arrow"@en;
-  skos:prefLabel "manicule"@en.
+  skos:narrower annot:arrow;
+  skos:narrower annot:manicule.
 
 annot:arrow rdf:type skos:Concept; 
   skos:prefLabel "arrow"@en.
@@ -136,7 +136,7 @@ annot:technical_note rdf:type skos:Concept;
 annot:index rdf:type skos:Concept; 
   skos:prefLabel "index"@en.
 
-annot:index rdf:type skos:Concept; 
+annot:gloss rdf:type skos:Concept; 
   skos:prefLabel "gloss"@en.
 
 annot:instruction rdf:type skos:Concept; 
