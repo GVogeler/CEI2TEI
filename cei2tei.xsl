@@ -220,7 +220,7 @@
         <imprint><xsl:apply-templates/></imprint>
     </xsl:template>
     <xsl:template match="cei:index">        
-        <index><xsl:if test="@indexName"><xs:attribute name="indexName"><xsl:value-of select="@indexName"/></xs:attribute></xsl:if>
+        <index><xsl:if test="@indexName"><xsl:attribute name="indexName"><xsl:value-of select="@indexName"/></xsl:attribute></xsl:if>
             <xsl:if test="@lemma"><xs:attribute name="lemma"><xsl:value-of select="@lemma"/></xs:attribute></xsl:if>            
             <xsl:apply-templates/></index>
     </xsl:template>
@@ -399,7 +399,9 @@
     <xsl:template match="cei:zone">
         <zone><xsl:apply-templates/></zone>
     </xsl:template>
- 
+ <xsl:template match="text()">
+     <xsl:value-of select="."/>
+ </xsl:template>
 
    
     
