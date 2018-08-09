@@ -27,7 +27,7 @@ auth:authentication_types a skos:Concept;
   skos:narrower auth:biometrics;
   skos:narrower auth:digital;
   skos:narrower auth:layout;
-  skos:narrower auth:splits;
+  skos:narrower auth:split;
   skos:narrower auth:formula;
   skos:narrower auth:endorsement;
   skos:definition "TBD"@en.
@@ -36,6 +36,7 @@ auth:seal a skos:Concept;
   skos:prefLabel "seal"@en; 
   skos:exactMatch vid:502;
   skos:exactMatch vis:3;
+  skos:broader auth:authentication_types;
   skos:narrower auth:great_seal;
   skos:narrower auth:medium_seal;
   skos:narrower auth:small_seal;
@@ -51,6 +52,7 @@ auth:seal a skos:Concept;
 auth:papal_seal  a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "Papal seal"@en;
+  skos:broader auth:seal;
   skos:narrower auth:bull;
   skos:narrower auth:fishermans_ring;
   skos:definition "TBD"@en.
@@ -60,6 +62,7 @@ auth:bull  a skos:Concept;
   skos:prefLabel "Papal bull"@en;
   skos:exactMatch vid:506;
   skos:exactMatch vis:11;
+  skos:broader auth:papal_seal;
   skos:narrower auth:golden_bull;
   skos:narrower auth:silver_bull;
   skos:narrower auth:leaden_bull;
@@ -68,6 +71,7 @@ auth:bull  a skos:Concept;
 auth:security_printing  a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "security printing"@en;
+  skos:broader auth:authentication_types;
   skos:narrower auth:guilloche;
   skos:narrower auth:latent_images;
   skos:narrower auth:microprinting;
@@ -83,6 +87,7 @@ auth:security_printing  a skos:Concept;
 
 auth:special_ink  a skos:Concept;
   skos:prefLabel "special ink or dye"@en;
+  skos:broader auth:security_printing;
   skos:narrower auth:UV_ink;
   skos:narrower auth:flourescent_dyes;
   skos:narrower auth:optically_variable_ink;
@@ -92,6 +97,7 @@ auth:special_ink  a skos:Concept;
 auth:mark a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "mark"@en;
+  skos:broader auth:authentication_types;
   skos:narrower auth:trademark;
   skos:narrower auth:hallmark;
   skos:narrower auth:countermark;
@@ -107,6 +113,7 @@ auth:non_attached a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "non-attached"@en;
   skos:altLabel "transactional"@en;
+  skos:broader auth:authentication_types;
   skos:narrower auth:certificate_of_authenticity;
   skos:narrower auth:duplicate;
   skos:narrower auth:registration;
@@ -120,6 +127,7 @@ auth:non_attached a skos:Concept;
 auth:token a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "token"@en;
+  skos:broader auth:authentication_types;
   skos:narrower auth:drivers_license;
   skos:narrower auth:passport;
   skos:narrower auth:ID_card;
@@ -129,17 +137,20 @@ auth:token a skos:Concept;
 auth:notarized a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "notarization"@en;
+  skos:broader auth:authentication_types;
   skos:narrower auth:apostille;
   skos:definition "TBD"@en.
 
 auth:apostille a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "apostille"@en;
+  skos:broader auth:notarized;
   skos:definition "TBD"@en.
 
 auth:medium a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "special or controlled medium"@en;
+  skos:broader auth:authentication_types;
   skos:narrower auth:banknote_paper;
   skos:narrower auth:polymer_banknote;
   skos:narrower auth:stationery;
@@ -155,6 +166,7 @@ auth:packaging a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "packaging"@en;
   skos:altLabel "enclosure"@en;
+  skos:broader auth:authentication_types;
   skos:narrower auth:tamper_evident;
   skos:narrower auth:lamination;
   skos:narrower auth:security_bag;
@@ -165,12 +177,13 @@ auth:packaging a skos:Concept;
 auth:signed a skos:Concept;
   skos:relatedMatch vid:254;
   skos:prefLabel "signed"@en;
+  skos:broader auth:authentication_types;
   skos:narrower auth:signature;
   skos:narrower auth:paraph;
   skos:narrower auth:la_ruche;
   skos:narrower auth:per_procurationem;
   skos:narrower auth:initialing;
-  skos:narrower auth:mechanically_produced;
+  skos:narrower auth:mechanically_signed;
   skos:narrower auth:sign_manual;
   skos:narrower auth:manu_propria;
   skos:narrower auth:cross;
@@ -182,6 +195,7 @@ auth:signed a skos:Concept;
 auth:stamp a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "stamp"@en;
+  skos:broader auth:authentication_types;
   skos:narrower auth:inked_stamp;
   skos:narrower auth:adhesive;
   skos:narrower auth:holographic;
@@ -191,12 +205,14 @@ auth:stamp a skos:Concept;
 auth:inked_stamp a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "inked stamp"@en;
+  skos:broader auth:stamp;
   skos:narrower auth:chop;
   skos:definition "TBD"@en.
 
 auth:biometrics a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "biometrics"@en;
+  skos:broader auth:authentication_types;
   # does narrower really work for these categories?
   skos:narrower auth:fingerprints;
   skos:narrower auth:iris_scan;
@@ -215,6 +231,7 @@ auth:biometrics a skos:Concept;
 auth:soft_biometrics a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "soft biometrics"@en;
+  skos:broader auth:biometrics;
   skos:narrower auth:height;
   skos:narrower auth:weight;
   skos:narrower auth:facial_hair;
@@ -226,6 +243,7 @@ auth:soft_biometrics a skos:Concept;
 auth:digital a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "digital methods"@en;
+  skos:broader auth:authentication_types;
   skos:narrower auth:checksum;
   skos:narrower auth:digital_signature;
   skos:narrower auth:digital_watermarking;
@@ -240,13 +258,15 @@ auth:digital a skos:Concept;
 auth:layout a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "layout"@en;
+  skos:broader auth:authentication_types;
   skos:narrower auth:dimensions;
   skos:narrower auth:mise_en_page;
   skos:definition "TBD"@en.
 
-auth:splits a skos:Concept;
+auth:split a skos:Concept;
   skos:inScheme auth:auth;
-  skos:prefLabel "splits"@en;
+  skos:prefLabel "split"@en;
+  skos:broader auth:authentication_types;
   skos:narrower auth:indenture;
   skos:narrower auth:tally;
   skos:narrower auth:chirograph;
@@ -255,58 +275,69 @@ auth:splits a skos:Concept;
 auth:formula a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "formula"@en;
+  skos:broader auth:authentication_types;
   skos:narrower auth:attestation;
   skos:narrower auth:authentication_clause;
   skos:narrower auth:corroboration;
   skos:narrower auth:signature_block;
   skos:definition "TBD"@en.
 
-auth:endorsement a skos:Concept;
+auth:endorsement a skos:Concept; 
   skos:inScheme auth:auth;
   skos:relatedMatch vid:256;
   skos:prefLabel "endorsement"@en;
+  skos:broader auth:authentication_types;
   skos:definition "TBD"@en.
+  #change name to avoid technical confusion with writing on the back of the document, since this is meant to be specialist conferral of authority (like writing on the back of a document)
 
 auth:guilloche a skos:Concept;
   skos:inScheme auth:auth;
-  skos:prefLabel "guilloche"@en; 
+  skos:prefLabel "guilloche"@en;
+  skos:broader auth:security_printing;
 skos:altLabel "geometric lathe work"@en;
   skos:definition "TBD"@en.
 
 auth:latent_images a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "latent images"@en;
+  skos:broader auth:security_printing;
   skos:definition "TBD"@en.
 
 auth:microprinting a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "microprinting"@en;
+  skos:broader auth:security_printing;
   skos:definition "TBD"@en. 
 
 auth:MICR a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "magnetic ink character recognition"@en; 
+  skos:broader auth:security_printing;
 skos:altLabel "MICR"@en;
   skos:definition "TBD"@en.
 
 auth:raised a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "raised printing"@en;
+  skos:broader auth:security_printing;
   skos:definition "TBD"@en. 
 
 auth:verification_grid a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "verification grid"@en;
+  skos:broader auth:security_printing;
   skos:definition "TBD"@en. 
 
 auth:void_pantograph a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "void pantograph"@en;
+  skos:broader auth:security_printing;
   skos:definition "TBD"@en. 
 
 auth:hologram a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "security hologram"@en;
+  skos:broader auth:security_printing;
   skos:altLabel "hologram"@en;
   skos:narrower auth:kinegram;
   skos:definition "TBD"@en.
@@ -314,136 +345,162 @@ auth:hologram a skos:Concept;
 auth:kinegram a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "kinegram"@en;
+  skos:broader auth:hologram;
   skos:definition "TBD"@en.
   # intersection of embossing and hologram for security printing
 
 auth:typography a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "typography"@en;
+  skos:broader auth:security_printing;
   skos:definition "TBD"@en.
 
 auth:script a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "script"@en;
+  skos:broader auth:security_printing;
   skos:definition "TBD"@en. 
   # (not typography) cf. handwriting
 
 auth:UV_ink a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "UV ink"@en;
+  skos:broader auth:special_ink;
   skos:definition "TBD"@en.
 
 auth:flourescent_dyes a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "flourescent dye"@en;
+  skos:broader auth:special_ink;
   skos:definition "TBD"@en.
 
 auth:optically_variable_ink a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "optically variable ink"@en;
+  skos:broader auth:special_ink;
   skos:definition "TBD"@en.
 
 auth:thermochromatic_ink a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "thermochromatic ink"@en;
+  skos:broader auth:special_ink;
   skos:definition "TBD"@en.
 
 auth:trademark a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "trademark"@en;
+  skos:broader auth:mark;
   skos:definition "TBD"@en.
 
 auth:hallmark a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "hallmark"@en;
+  skos:broader auth:mark;
   skos:definition "TBD"@en.
 
 auth:countermark a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "countermark"@en;
+  skos:broader auth:mark;
   skos:definition "TBD"@en.
 
 auth:signum a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "signum"@en;
+  skos:broader auth:mark;
   skos:definition "TBD"@en.
   # (see special signs) 
 
 auth:notarial_mark a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "notarial mark"@en;
+  skos:broader auth:mark;
   skos:definition "TBD"@en.
 
 auth:barcode a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "barcode"@en;
+  skos:broader auth:mark;
   skos:definition "TBD"@en.
 
 auth:QR_code a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "QR code"@en;
+  skos:broader auth:mark;
   skos:definition "TBD"@en.
 
 auth:royal_cypher a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "royal cipher"@en;
+  skos:broader auth:mark;
   skos:definition "TBD"@en.
 
 auth:certificate_of_authenticity a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "certificate of authenticity"@en;
+  skos:broader auth:non_attached;
   skos:definition "TBD"@en.
 
 auth:duplicate a skos:Concept;
   skos:exactMatch vid:45;
   skos:prefLabel "duplicate"@en;
+  skos:broader auth:non_attached;
   skos:definition "TBD"@en.
 
 auth:registration a skos:Concept;
   skos:exactMatch vid:89;
   skos:prefLabel "registration"@en;
+  skos:broader auth:non_attached;
   skos:definition "TBD"@en.
 
 auth:registry_number a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "registry number"@en;
+  skos:broader auth:non_attached;
   skos:definition "TBD"@en.
 
 auth:serial_number a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "serial number"@en;
+  skos:broader auth:non_attached;
   skos:definition "TBD"@en.
 
 auth:warrant a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "warrant for issue"@en;
+  skos:broader auth:non_attached;
   skos:definition "TBD"@en.
 
 auth:reference a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "reference in other sources"@en;
+  skos:broader auth:non_attached;
   skos:definition "TBD"@en.
 
 auth:presence a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "archival context"@en;
   skos:altLabel "chain of transmission"@en;
+  skos:broader auth:non_attached;
   skos:definition "TBD"@en.
   #  in archive / Chain of transmission
 
 auth:drivers_license a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "driver's license"@en;
+  skos:broader auth:token;
   skos:definition "TBD"@en.
 
 auth:passport a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "passport"@en;
+  skos:broader auth:token;
   skos:definition "TBD"@en.
 
 auth:ID_card a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "identification card"@en;
+  skos:broader auth:token;
   skos:altLabel "ID card"@en;
   skos:definition "TBD"@en.
   #  cf. Digital Token
@@ -451,26 +508,31 @@ auth:ID_card a skos:Concept;
 auth:banknote_paper a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "banknote paper"@en;
+  skos:broader auth:medium;
   skos:definition "TBD"@en.
 
 auth:polymer_banknote a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "polymer banknote medium"@en;
+  skos:broader auth:medium;
   skos:definition "TBD"@en.
 
 auth:stationery a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "stationery"@en;
+  skos:broader auth:medium;
   skos:definition "TBD"@en.
 
 auth:watermark a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "watermark"@en;
+  skos:broader auth:medium;
   skos:definition "TBD"@en.
 
 auth:integrated_circuit a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "integrated circuit"@en;
+  skos:broader auth:medium;
   skos:altLabel "microchip"@en;
   skos:altLabel "silicon chip"@en;
   skos:altLabel "chip"@en;
@@ -480,51 +542,60 @@ auth:integrated_circuit a skos:Concept;
 auth:RFID a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "radio-frequency identification"@en;
+  skos:broader auth:medium;
   skos:altLabel "RFID"@en;
   skos:definition "TBD"@en.
 
 auth:NFC a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "near-field communication"@en;
+  skos:broader auth:medium;
   skos:altLabel "NFC"@en;
   skos:definition "TBD"@en.
 
 auth:connected_token a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "connected token"@en;
+  skos:broader auth:medium;
   skos:definition "TBD"@en.
 
 auth:magnetic_stripe a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "magnetic stripe"@en;
+  skos:broader auth:medium;
   skos:altLabel "magstripe"@en;
   skos:definition "TBD"@en.
 
 auth:tamper_evident a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "tamper-evident"@en;
+  skos:broader auth:packaging;
   skos:definition "TBD"@en.
   # related to security bag, security envelope, security tape, tamper-evident band, sealing (the kind that breaks the seal when opened)
   # probably a broader concept than just packaging
 
 auth:lamination a skos:Concept;
   skos:prefLabel "lamination"@en;
+  skos:broader auth:packaging;
   skos:definition "TBD"@en.
   #  (a type of sealing?)
 
 auth:security_bag a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "security bag"@en;
+  skos:broader auth:packaging;
   skos:definition "TBD"@en.
 
 auth:security_tape a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "security tape"@en;
+  skos:broader auth:packaging;
   skos:definition "TBD"@en.
 
 auth:distinctive_casing a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "distinctive casing"@en;
+  skos:broader auth:packaging;
   skos:definition "TBD"@en.
 
 auth:signature a skos:Concept;
@@ -535,16 +606,20 @@ auth:signature a skos:Concept;
   #skos:altLabel "holograph"@en;
   skos:altLabel "signature"@en;
   skos:altLabel "John Hancock"@en-US;
+  skos:broader auth:signed;
+  skos:broader auth:biometrics;
   skos:definition "TBD"@en.
 
 auth:paraph a skos:Concept;
   skos:exactMatch vid:150;
   skos:prefLabel "paraph"@en;
+  skos:broader auth:signed;
   skos:definition "TBD"@en.
 
 auth:la_ruche a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "la ruche"@fr;
+  skos:broader auth:signed;
   skos:definition "TBD"@en.
 
 auth:per_procurationem a skos:Concept;
@@ -555,43 +630,51 @@ auth:per_procurationem a skos:Concept;
   skos:altLabel "per pro"@en;
   skos:altLabel "by the agency of"@en;
   skos:altLabel "on behalf of"@en;
+  skos:broader auth:signed;
   skos:definition "TBD"@en.
 
 auth:initialing a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "initaling"@en;
+  skos:broader auth:signed;
   skos:definition "TBD"@en.
 
-auth:mechanically_produced a skos:Concept;
+auth:mechanically_signed a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "mechanically-produced signature"@en;
+  skos:broader auth:signed;
   skos:definition "TBD"@en.
 
 auth:sign_manual a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "royal sign-manual"@en;
+  skos:broader auth:signed;
   skos:definition "TBD"@en.
 
 auth:manu_propria a skos:Concept;
   skos:prefLabel "manu propria"@la;
   skos:altLabel "m.p"@la;
   skos:altLabel "mppria"@la;
+  skos:broader auth:signed;
   skos:definition "TBD"@en.
   #  m.p.r.?
 
 auth:cross a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "crosses for signing"@en;
+  skos:broader auth:signed;
   skos:definition "TBD"@en.
 
 auth:notarial_signs a skos:Concept;
   skos:prefLabel "notarial sign"@en;
+  skos:broader auth:signed;
   skos:definition "TBD"@en.
   # related:notarized
 
 auth:monogram a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "monogram"@en;
+  skos:broader auth:signed;
   skos:exactMatch vid:148;
   skos:narrower auth:tugra;
   skos:narrower auth:bene_valete;
@@ -603,27 +686,32 @@ auth:monogram a skos:Concept;
 auth:tugra a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "tugra"@ota;
+  skos:broader auth:monogram;
   skos:definition "TBD"@en.
 
 auth:bene_valete a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "bene valete"@la;
+  skos:broader auth:monogram;
   skos:definition "TBD"@en.
 
 auth:rota a skos:Concept;
   skos:exactMatch vid:153;
   skos:prefLabel "rota"@la;
+  skos:broader auth:monogram;
   skos:definition "TBD"@en.
 
 auth:signum_manus a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "signum manus"@la;
+  skos:broader auth:monogram;
   skos:definition "TBD"@en.
   #closely related to :chrismon
 
 auth:chrismon a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "Chrismon"@la;
+  skos:broader auth:monogram;
   skos:definition "TBD"@en.
 
 #:ss a skos:Concept;
@@ -637,43 +725,45 @@ auth:chop a skos:Concept;
   skos:altLabel "inkan"@en-t-ja;
   skos:altLabel "判子"@ja;
   skos:altLabel "hanko"@en-t-ja;
+  skos:broader auth:inked_stamp;
   skos:definition "TBD"@en.
   #  (E. Asian Seal / Stamp);
   
 auth:adhesive a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "adhesive stamp"@en;
+  skos:broader auth:stamp;
   skos:definition "TBD"@en.
 
 auth:holographic a skos:Concept;
   skos:prefLabel "holographic stamp"@en;
+  skos:broader auth:stamp;
   skos:definition "TBD"@en.
   # intersection of stamp and security printing;
-
-auth:kinegram a skos:Concept;
-  skos:prefLabel "kinegram"@en;
-  skos:definition "TBD"@en.
-  # intersection of embossed and holographic and security printing;
 
 auth:embossed a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "embossed"@en;
+  skos:broader auth:stamp;
   skos:definition "TBD"@en.
 
 auth:fingerprints a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "fingerprints"@en;
+  skos:broader auth:biometrics;
   skos:definition "TBD"@en.
 
 auth:iris_scan a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "iris scan"@en;
+  skos:broader auth:biometrics;
   skos:definition "TBD"@en.
 
 auth:photo a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "photograph"@en;
   skos:altLabel "photo"@en;
+  skos:broader auth:biometrics;
   skos:definition "TBD"@en.
 
 auth:DNA a skos:Concept;
@@ -682,92 +772,110 @@ auth:DNA a skos:Concept;
   skos:altLabel "DNA fingerprinting"@en;
   skos:altLabel "DNA testing"@en;
   skos:altLabel "DNA typing"@en;
+  skos:broader auth:biometrics;
   skos:definition "TBD"@en.
 
 auth:retina_scan a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "retina scan"@en;
+  skos:broader auth:biometrics;
   skos:definition "TBD"@en.
 
 auth:hand_geometry a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "hand geometry"@en;
+  skos:broader auth:biometrics;
   skos:definition "TBD"@en.
 
 auth:behaviormetrics a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "behaviormetrics"@en;
+  skos:broader auth:biometrics;
   skos:definition "TBD"@en.
 
 auth:gait a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "gait"@en;
+  skos:broader auth:biometrics;
   skos:definition "TBD"@en.
 
 auth:voice a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "voice"@en;
+  skos:broader auth:biometrics;
   skos:definition "TBD"@en.
 
 auth:handwriting a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "handwriting"@en;
+  skos:broader auth:biometrics;
   skos:definition "TBD"@en.
   #  cf. script a skos:Concept;
 
 auth:height a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "height"@en;
+  skos:broader auth:soft_biometrics;
   skos:definition "TBD"@en.
 
 auth:weight a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "weight"@en;
+  skos:broader auth:soft_biometrics;
   skos:definition "TBD"@en.
 
 auth:facial_hair a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "facial hair"@en;
+  skos:broader auth:soft_biometrics;
   skos:definition "TBD"@en.
 
 auth:hair_colour a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "hair colour"@en;
+  skos:broader auth:soft_biometrics;
   skos:definition "TBD"@en.
 
 auth:build a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "build"@en;
+  skos:broader auth:soft_biometrics;
   skos:definition "TBD"@en.
 
 auth:skin_tone a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "skin tone"@en;
+  skos:broader auth:soft_biometrics;
   skos:definition "TBD"@en.
 
 auth:checksum a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "checksum"@en;
+  skos:broader auth:digital;
   skos:definition "TBD"@en.
 
 auth:digital_signature a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "digital signature"@en;
+  skos:broader auth:digital;
   skos:definition "TBD"@en.
 
 auth:digital_watermarking a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "digital watermarking"@en;
+  skos:broader auth:digital;
   skos:definition "TBD"@en.
 
 auth:encryption a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "encryption"@en;
+  skos:broader auth:digital;
   skos:definition "TBD"@en.
 
 auth:hash a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "hash"@en;
+  skos:broader auth:digital;
   skos:definition "TBD"@en.
 
 #:public_key a skos:Concept;
@@ -777,6 +885,7 @@ auth:hash a skos:Concept;
 auth:shared_secret a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "shared secret"@en;
+  skos:broader auth:digital;
   skos:narrower auth:password;
   skos:narrower auth:PIN;
   skos:definition "TBD"@en.
@@ -784,27 +893,32 @@ auth:shared_secret a skos:Concept;
 auth:password a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "password"@en;
+  skos:broader auth:shared_secret;
   skos:definition "TBD"@en.
 
 auth:PIN a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "personal identification number"@en;
   skos:altLabel "PIN"@en;
+  skos:broader auth:shared_secret;
   skos:definition "TBD"@en.
 
 auth:timestamp a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "timestamp"@en;
+  skos:broader auth:digital;
   skos:definition "TBD"@en.
 
 auth:digital_token a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "digital token"@en;
+  skos:broader auth:digital;
   skos:definition "TBD"@en.
 
 auth:dimensions a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "dimensions"@en;
+  skos:broader auth:layout;
   skos:definition "TBD"@en.
 
 auth:mise_en_page a skos:Concept;
@@ -812,11 +926,13 @@ auth:mise_en_page a skos:Concept;
   skos:prefLabel "mise-en-page"@en;
   skos:altLabel "page layout"@en;
   skos:prefLabel "mise-en-page"@fr;
+  skos:broader auth:layout;
   skos:definition "TBD"@en.
 
 auth:indenture a skos:Concept;
   skos:relatedMatch vid:44;
   skos:prefLabel "indenture"@en;
+  skos:broader auth:split;
   skos:definition "TBD"@en.
   # (jagged edges) -- cf. chirograph
 
@@ -824,32 +940,38 @@ auth:tally a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "tally stick"@en;
   skos:altLabel "tally"@en;
+  skos:broader auth:split;
   skos:definition "TBD"@en.
 
 auth:chirograph a skos:Concept;
   skos:relatedMatch vid:44;
   skos:prefLabel "chirograph"@en;
+  skos:broader auth:split;
   skos:definition "TBD"@en.
 #   cf. special signs
 
 auth:attestation a skos:Concept;
   skos:exactMatch vid:416;
   skos:prefLabel "attestation clause"@en;
+  skos:broader auth:formula;
   skos:definition "TBD"@en.
 
 auth:authentication_clause a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "authentication clause"@en;
+  skos:broader auth:formula;
   skos:definition "TBD"@en.
 
 auth:corroboration a skos:Concept;
   skos:exactMatch vid:246;
   skos:prefLabel "corroboration clause"@en;
+  skos:broader auth:formula;
   skos:definition "TBD"@en.
 
 auth:signature_block a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "signature block"@en;
+  skos:broader auth:formula;
   skos:definition "TBD"@en.
   #   (.sig, etc.)
 
@@ -860,6 +982,7 @@ auth:fishermans_ring  a skos:Concept;
   skos:prefLabel "Annulus Piscatoris "@la;
   skos:prefLabel "Anello Piscatorio "@it;
   skos:altLabel "Fisherman's Ring"@en;
+  skos:broader auth:papal_seal;
   skos:definition "TBD"@en.
 
 auth:golden_bull  a skos:Concept;
@@ -867,17 +990,20 @@ auth:golden_bull  a skos:Concept;
   skos:prefLabel "chrysobulle"@fr;
   skos:prefLabel "Goldene Bulle"@de;
   skos:prefLabel "golden Papal bull"@en;
+  skos:broader auth:bull;
   skos:definition "TBD"@en.
   #reorganize lead and wax and clay into materials and make this the intersection of papal bull and gold
 
 auth:silver_bull a skos:Concept;
   skos:exactMatch vis:11ac;
   skos:prefLabel "silver bull"@en;
+  skos:broader auth:bull;
   skos:definition "TBD"@en.
 
 auth:leaden_bull  a skos:Concept;
   skos:exactMatch vis:11aa;
   skos:prefLabel "leaden Papal bull"@en;
+  skos:broader auth:bull;
   skos:definition "TBD"@en.
   #reorganize lead and wax and clay into materials and make this the intersection of papal bull and lead
 
@@ -885,18 +1011,21 @@ auth:great_seal  a skos:Concept;
   skos:exactMatch vid:515;
   skos:exactMatch vis:27;
   skos:prefLabel "Great Seal"@en;
+  skos:broader auth:seal;
   skos:definition "TBD"@en.
 
 auth:medium_seal  a skos:Concept;
   skos:exactMatch vid:517;
   skos:exactMatch vis:29;
   skos:prefLabel "medium seal"@en;
+  skos:broader auth:seal;
   skos:definition "TBD"@en.
 
 auth:small_seal  a skos:Concept;
   skos:exactMatch vid:516;
   skos:exactMatch vis:28;
   skos:prefLabel "small seal"@en;
+  skos:broader auth:seal;
   skos:definition "TBD"@en.
 
 auth:seal_of_absence  a skos:Concept;
@@ -905,6 +1034,7 @@ auth:seal_of_absence  a skos:Concept;
   skos:prefLabel "seal of absence"@en;
   skos:altLabel "deputed seal"@en; #would this be perhaps better as a prefLabel?
   skos:altLabel "seal of substitution"@en;
+  skos:broader auth:seal;
   skos:definition "TBD"@en.
 
 auth:private_seal  a skos:Concept;
@@ -913,24 +1043,28 @@ auth:private_seal  a skos:Concept;
   #skos:narrower auth:privy_seal;
   skos:prefLabel "private seal"@en;
   skos:altLabel "privy seal"@en;
+  skos:broader auth:seal;
   skos:definition "TBD"@en.
 
 auth:regency_seal  a skos:Concept;
   skos:exactMatch vid:522;
   skos:exactMatch vis:35;
   skos:prefLabel "seal of regency"@en;
+  skos:broader auth:seal;
   skos:definition "TBD"@en.
 
 auth:secretarial_seal  a skos:Concept;
   skos:exactMatch vid:518;
   #skos:exactMatch vis:30; ## Signet and secretarial seal refer to different concepts in my understanding, so I am confused by this
   skos:prefLabel "secretarial seal"@en;
+  skos:broader auth:seal;
   skos:definition "TBD"@en.
 
 auth:counterseal  a skos:Concept;
   skos:exactMatch vid:527;
   skos:exactMatch vis:43;
   skos:prefLabel "counterseal"@en;
+  skos:broader auth:seal;
   skos:definition "TBD"@en.
 
 auth:presumptive_seal  a skos:Concept;
@@ -939,4 +1073,5 @@ auth:presumptive_seal  a skos:Concept;
   skos:prefLabel "presumptive seal"@en;
   skos:altLabel "seal of election"@en;
   skos:altLabel "before assuming office"@en;
+  skos:broader auth:seal;
   skos:definition "TBD"@en.
