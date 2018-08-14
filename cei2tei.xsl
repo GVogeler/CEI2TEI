@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0"
-    xmlns:cei="http://www.monasterium.net/NS/cei" exclude-result-prefixes="xs" version="2.0">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"
+    exclude-result-prefixes="xs" version="2.0">
     <xsl:template match="/">
-        <xsl:processing-instruction name="xml-model">href="../out/tei_cei.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>      
+        <xsl:processing-instruction name="xml-model">href="../out/tei_cei.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
         <TEI>
             <teiHeader>
                 <fileDesc>
@@ -12,60 +13,82 @@
                         <editor>
                             <xsl:value-of select="//atom:email"/>
                         </editor>
+                        <respStmt>
+                            <resp>Principal Investigator</resp>
+                            <persName>
+                                <forename>Georg</forename>
+                                <surname>Vogeler</surname>
+                            </persName>
                     </titleStmt>
                     <publicationStmt>
-                        <distributor>Monasterium.net</distributor>
-                        <idno type="Monasterium" xml:id="monasterium">
-                            <xsl:value-of select="//atom:id"/>
-                        </idno>
-                        <availability>
-                            <p>All texts and pictures are protected according to national copyrights
-                                and exploitation rights. Furthermore, all rights of publication and
-                                duplication of the pictorial reproductions of the documents are held
-                                by the respective archive’s proprietor. Any means of publication is
-                                therefore bound to above mentioned authorization and infringement is
-                                punishable.</p>
-                            <p>We would like to make all users aware that addresses, time and
-                                duration of access will be stored on our server. The place of
-                                jurisdiction for all disputes arising from this agreement is the
-                                court nearest to the respective archive.</p>
-                            <p>Conditions of use of printed editions and depictions apply in the
-                                same way to scientific utilization. Citation according to good
-                                scientific practice is therefore expected. (URL, author,
-                                archive)</p>
-                            <p>When publishing or duplicating research results (including
-                                unpublished theses and dissertations) obtained from data provided by
-                                Monasterium.Net, we would like to ask every user to pass a free
-                                sample copy to the respective holder of the originals (archive).</p>
-                        </availability>
+                            <publisher>
+                                <orgName ref="http://d-nb.info/gnd/1137284463"
+                                    corresp="https://informationsmodellierung.uni-graz.at">Zentrum
+                                    für Informationsmodellierung - Austrian Centre for Digital
+                                    Humanities, Karl-Franzens-Universität Graz</orgName>
+                            </publisher>
+                            <authority>
+                                <orgName>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</orgName>
+                            </authority>
+                            <distributor>
+                                <orgName ref="https://gams.uni-graz.at">GAMS -
+                                    Geisteswissenschaftliches Asset Management System</orgName>
+                            </distributor>
+                            <availability>
+                                <p>All texts and pictures are protected according to national
+                                    copyrights and exploitation rights. Furthermore, all rights of
+                                    publication and duplication of the pictorial reproductions of
+                                    the documents are held by the respective archive’s proprietor.
+                                    Any means of publication is therefore bound to above mentioned
+                                    authorization and infringement is punishable.</p>
+                                <p>We would like to make all users aware that addresses, time and
+                                    duration of access will be stored on our server. The place of
+                                    jurisdiction for all disputes arising from this agreement is the
+                                    court nearest to the respective archive.</p>
+                                <p>Conditions of use of printed editions and depictions apply in the
+                                    same way to scientific utilization. Citation according to good
+                                    scientific practice is therefore expected. (URL, author,
+                                    archive)</p>
+                                <p>When publishing or duplicating research results (including
+                                    unpublished theses and dissertations) obtained from data
+                                    provided by Monasterium.Net, we would like to ask every user to
+                                    pass a free sample copy to the respective holder of the
+                                    originals (archive).</p>
+                            </availability>
+                            <pubPlace>Graz</pubPlace>
                         <date>
                             <xsl:value-of select="//atom:published"/>
                         </date>
                     </publicationStmt>
                     <sourceDesc>
-                        <xsl:for-each
-                            select="//cei:sourcDesc | //cei:sourceDescRegest | //cei:sourceDescVolltext">
+                        <xsl:for-each select="//cei:sourceDesc | cei:sourceDescRegest | cei:sourceDescVolltext | cei:sourceDescErw">
                             <p>
                                 <xsl:value-of select="cei:bibl"/>
                             </p>
                         </xsl:for-each>
-
+                        <idno type="Monasterium" xml:id="monasterium">
+                            <xsl:value-of select="//atom:id"/>
+                        </idno>
                     </sourceDesc>
                 </fileDesc>
                 <encodingDesc>
                     <projectDesc>
-                        <p>Something about Monasterium/IllUrk here.</p>
+                        <p>Something about IllUrk here.</p>
                     </projectDesc>
                     <editorialDecl>
                         <correction>
-                            <p>Turned letters are silently corrected.</p>
+                            <p> </p>
                         </correction>
                         <normalization>
-                            <p>Original spelling and typography is retained, except that long s and
-                                ligatured forms are not encoded.</p>
+                            <p> </p>
                         </normalization>
                     </editorialDecl>
                 </encodingDesc>
+                <profileDesc>
+                    <langUsage>
+                        <xsl:apply-templates select="//cei:lang_MOM"/>
+                    </langUsage>
+                </profileDesc>
                 <revisionDesc>
                     <list>
                         <xsl:for-each select="//atom:updated">
@@ -82,22 +105,22 @@
             <text>
                 <front>
                     <div>
-                    <xsl:apply-templates select="//cei:front"></xsl:apply-templates>    
+                        <xsl:apply-templates select="//cei:front"/>
                     </div>
                 </front>
                 <body>
-                    <xsl:apply-templates/>
+                    <xsl:apply-templates select="//cei:body"/>
                 </body>
                 <back>
                     <div>
-                    <xsl:apply-templates select="//cei:back"></xsl:apply-templates>   
+                        <xsl:apply-templates select="//cei:back"/>
                     </div>
                 </back>
             </text>
         </TEI>
     </xsl:template>
     <xsl:template match="cei:front">
-        <xsl:apply-templates/>        
+        <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="cei:abstract">
         <div type="abstract">
@@ -157,12 +180,15 @@
         </availability>
     </xsl:template>
     <xsl:template match="cei:back">
-            <xsl:apply-templates/>
+        <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="cei:bibl">
         <bibl>
             <xsl:apply-templates/>
         </bibl>
+    </xsl:template>
+    <xsl:template match="cei:body">
+        <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="cei:c">
         <g>
@@ -252,9 +278,9 @@
     <xsl:template match="cei:dateRange">
         <xsl:variable name="from" select="@from"/>
         <xsl:variable name="to" select="@to"/>
-        <dateRange from="{$from}" to="{$to}">
+        <date from="{$from}" to="{$to}">
             <xsl:apply-templates/>
-        </dateRange>
+        </date>
     </xsl:template>
     <xsl:template match="cei:decoDesc">
         <decoDesc>
@@ -358,17 +384,17 @@
     <xsl:template match="cei:index">
         <index>
             <term>
-            <xsl:if test="@indexName">
-                <xsl:attribute name="indexName">
-                    <xsl:value-of select="@indexName"/>
-                </xsl:attribute>
-            </xsl:if>
-            <xsl:if test="@lemma">
-                <xs:attribute name="lemma">
-                    <xsl:value-of select="@lemma"/>
-                </xs:attribute>
-            </xsl:if>
-            <xsl:apply-templates/>
+                <xsl:if test="@indexName">
+                    <xsl:attribute name="indexName">
+                        <xsl:value-of select="@indexName"/>
+                    </xsl:attribute>
+                </xsl:if>
+                <xsl:if test="@lemma">
+                    <xs:attribute name="lemma">
+                        <xsl:value-of select="@lemma"/>
+                    </xs:attribute>
+                </xsl:if>
+                <xsl:apply-templates/>
             </term>
         </index>
     </xsl:template>
@@ -383,9 +409,16 @@
         </legalActor>
     </xsl:template>
     <xsl:template match="cei:lang_MOM">
-        <language>
-            <xsl:apply-templates/>
-        </language>
+        <xsl:variable name="langmom" select="."/>
+        <xsl:for-each select="document('lang_MOM.xml')//lang_MOM_entry">
+            <xsl:if test="lang_mom[text() = $langmom]">
+                <xsl:for-each select="tokenize(lang_iso, ',')">
+                    <xsl:variable name="token" select="normalize-space(.)"/>
+                    <language ident="{$token}"/>
+                </xsl:for-each>
+            </xsl:if>
+
+        </xsl:for-each>
     </xsl:template>
     <xsl:template match="cei:lb">
         <lb>
@@ -401,12 +434,12 @@
         <lem><xsl:apply-templates/></lem>
     </xsl:template>-->
     <xsl:template match="cei:listBibl">
-        <listBibl>
+        <listBibl type="other">
             <xsl:apply-templates/>
         </listBibl>
     </xsl:template>
     <xsl:template match="cei:listBiblEdition">
-        <listBibl type="other">
+        <listBibl type="edition">
             <xsl:apply-templates/>
         </listBibl>
     </xsl:template>

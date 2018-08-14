@@ -1,222 +1,245 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor/></titleStmt><publicationStmt><distributor>Monasterium.net</distributor><idno type="Monasterium" xml:id="monasterium"/><availability><p>All texts and pictures are protected according to national copyrights
-                                and exploitation rights. Furthermore, all rights of publication and
-                                duplication of the pictorial reproductions of the documents are held
-                                by the respective archive’s proprietor. Any means of publication is
-                                therefore bound to above mentioned authorization and infringement is
-                                punishable.</p><p>We would like to make all users aware that addresses, time and
-                                duration of access will be stored on our server. The place of
-                                jurisdiction for all disputes arising from this agreement is the
-                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
-                                same way to scientific utilization. Citation according to good
-                                scientific practice is therefore expected. (URL, author,
-                                archive)</p><p>When publishing or duplicating research results (including
-                                unpublished theses and dissertations) obtained from data provided by
-                                Monasterium.Net, we would like to ask every user to pass a free
-                                sample copy to the respective holder of the originals (archive).</p></availability><date/></publicationStmt><sourceDesc><p>
-                    
-                    
-                </p><p>
-                    
-                </p></sourceDesc></fileDesc><encodingDesc><projectDesc><p>Something about Monasterium/IllUrk here.</p></projectDesc><editorialDecl><correction><p>Turned letters are silently corrected.</p></correction><normalization><p>Original spelling and typography is retained, except that long s and
-                                ligatured forms are not encoded.</p></normalization></editorialDecl></encodingDesc><revisionDesc><list/></revisionDesc></teiHeader><text><front><div>
-        
-            
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:cei="http://www.monasterium.net/NS/cei">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+                <editor>illuminierteurkunden@gmail.com</editor>
+                <respStmt>
+                    <resp>Principal Investigator</resp>
+                    <persName><forename>Georg</forename><surname>Vogeler</surname></persName>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher><orgName ref="http://d-nb.info/gnd/1137284463"
+                        corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                        Informationsmodellierung - Austrian Centre for Digital Humanities,
+                        Karl-Franzens-Universität Graz</orgName></publisher>
+                <authority><orgName>FWF Projekt P 26706-G21 "Illuminierte
+                    Urkunden"</orgName></authority>
+                <distributor><orgName ref="https://gams.uni-graz.at">GAMS -
+                        Geisteswissenschaftliches Asset Management System</orgName></distributor>
+                <availability>
+                    <p>All texts and pictures are protected according to national copyrights and
+                        exploitation rights. Furthermore, all rights of publication and duplication
+                        of the pictorial reproductions of the documents are held by the respective
+                        archive’s proprietor. Any means of publication is therefore bound to above
+                        mentioned authorization and infringement is punishable.</p>
+                    <p>We would like to make all users aware that addresses, time and duration of
+                        access will be stored on our server. The place of jurisdiction for all
+                        disputes arising from this agreement is the court nearest to the respective
+                        archive.</p>
+                    <p>Conditions of use of printed editions and depictions apply in the same way to
+                        scientific utilization. Citation according to good scientific practice is
+                        therefore expected. (URL, author, archive)</p>
+                    <p>When publishing or duplicating research results (including unpublished theses
+                        and dissertations) obtained from data provided by Monasterium.Net, we would
+                        like to ask every user to pass a free sample copy to the respective holder
+                        of the originals (archive).</p>
+                </availability>
+                <pubPlace>Graz</pubPlace>
+                <date>2017-08-11T07:46:03.55Z</date>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+                <idno type="Monasterium" xml:id="monasterium"
+                    >tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1005-08-25_Dijon</idno>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>Something about IllUrk here.</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p/>
+                </correction>
+                <normalization>
+                    <p/>
+                </normalization>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="lat"/>
+                <language ident="ces"/>
+                <language ident="deu"/>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item><date when="2017-08-11">2017-08-11T07:46:03.55Z</date> Last checked by
+                    CAC</item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div>
+
+
                 <bibl>
-                    
                     <ref/>
                 </bibl>
-            
-            
+
+
                 <bibl>
                     <ref/>
                 </bibl>
-            
-            <p/>
-        
-    </div></front><body>
-    
-        
-            
-                <bibl>
-                    
-                    <ref/>
-                </bibl>
-            
-            
-                <bibl>
-                    <ref/>
-                </bibl>
-            
-            <p/>
-        
-    
-    
-        <idno/>
-        <msDesc>
-            
-            <div type="abstract"><p>
-                
-                <legalActor type="recipient">
-                    <foreign/>
-                    <persName>
-                        <persName>
+
+                <p/>
+
+            </div>
+        </front>
+        <body>
+            <idno/>
+            <msDesc>
+
+                <div type="abstract">
+                    <p>
+                        <legalActor type="recipient">
+                            <foreign/>
+                            <persName>
+                                <persName>
+                                    <persName/>
+                                    <placeName/>
+                                </persName>
+                                <placeName/>
+                            </persName>
+                            <orgName>
+                                <placeName/>
+                            </orgName>
+                            <placeName/>
+                            <geogName/>
+                        </legalActor>
+                        <legalActor type="issuer">
+                            <persName>
+                                <persName>
+                                    <placeName/>
+                                </persName>
+                                <placeName/>
+                                <foreign/>
+                            </persName>
+                            <orgName/>
+                            <placeName/>
+                            <geogName/>
+                            <foreign/>
+                        </legalActor>
+                        <hi>
+                            <quote/>
+                        </hi>
+                        <lb/>
+                        <pb/>
+                        <g/>
+                        <ref/>
+                        <quote>
+                            <hi/>
                             <persName/>
+                            <geogName/>
+                        </quote>
+                        <foreign>
+                            <lb/>
+                            <persName>
+                                <persName/>
+                                <orgName>
+                                    <placeName/>
+                                </orgName>
+                                <surname/>
+                                <roleName/>
+                            </persName>
+                            <orgName/>
                             <placeName/>
-                        </persName>
-                        <placeName/>
-                    </persName>
-                    <orgName>
-                        <placeName/>
-                    </orgName>
-                    <placeName/>
-                    <geogName/>
-                </legalActor>
-                <legalActor type="issuer">
-                    <persName>
+                            <index>
+                                <term/>
+                            </index>
+                        </foreign>
                         <persName>
+                            <persName>
+                                <persName/>
+                            </persName>
+                            <orgName/>
                             <placeName/>
+                            <roleName/>
+                            <foreign> </foreign>
                         </persName>
-                        <placeName/>
-                        <foreign/>
-                    </persName>
-                    <orgName/>
-                    <placeName/>
-                    <geogName/>
-                    <foreign/>
-                </legalActor>
-                <hi>
-                    <quote/>
-                </hi>
-                <lb/>
-                <pb/>
-                
-                <g/>
-                <ref/>
-                <quote>
-                    <hi/>
-                    
-                    <persName/>
-                    <geogName/>
-                </quote>
-                <foreign>
-                    <lb/>
-                    
-                    <persName>
-                        <persName/>
                         <orgName>
                             <placeName/>
                         </orgName>
-                        <surname/>
-                        <roleName/>
-                    </persName>
-                    <orgName/>
-                    <placeName/>
-                    <index><term/></index>
-                </foreign>
-                <persName>
-                    <persName>
-                        <persName/>
-                    </persName>
-                    <orgName/>
-                    <placeName/>
-                    <roleName/>
-                    <foreign>
-                        
-                    </foreign>
-                </persName>
-                <orgName>
-                    <placeName/>
-                </orgName>
-                <placeName>
-                    <foreign/>
-                </placeName>
-                <geogName/>
-                <index><term>
-                    <lb/>
-                </term></index>
-                <legalActor type="witness">
-                    <persName>
-                        <placeName/>
-                        <foreign/>
-                    </persName>
-                </legalActor>
-                <date/>
-                <dateRange from="" to=""/>
-                <num/>
-                <measure>
-                    <num/>
-                </measure>
-            </p></div>
-            <issued>
-                <placeName>
-                    
-                    <foreign>
-                        
-                    </foreign>
-                </placeName>
-                <date/>
-                <dateRange from="" to="">
-                    
-                </dateRange>
-            </issued>
-            
-                <copyStatus>
-                    
-                </copyStatus>
-                
-                    <settlement/>
-                    <region/>
-                    <country/>
-                    <repository/>
-                    <ref/>
-                    <repository>
-                        
-                    </repository>
-                    <collection/>
-                    <idno/>
-                    <altIdentifier/>
-                
-                <authen>
-                    <authen type="signed"><legalActor type="notary">
-                        
+                        <placeName>
                             <foreign/>
-                        
-                        
-                        <quote>
-                            
-                        </quote>
-                        <persName>
-                            <expan/>
-                        </persName>
+                        </placeName>
                         <geogName/>
-                    </legalActor></authen>
+                        <index>
+                            <term>
+                                <lb/>
+                            </term>
+                        </index>
+                        <legalActor type="witness">
+                            <persName>
+                                <placeName/>
+                                <foreign/>
+                            </persName>
+                        </legalActor>
+                        <date/>
+                        <date/>
+                        <num/>
+                        <measure>
+                            <num/>
+                        </measure>
+                    </p>
+                </div>
+                <issued>
+                    <placeName>
+                        <foreign> </foreign>
+                    </placeName>
+                    <date/>
+                    <date> </date>
+                </issued>
+
+                <copyStatus> </copyStatus>
+
+                <settlement/>
+                <region/>
+                <country/>
+                <repository/>
+                <ref/>
+                <repository> </repository>
+                <collection/>
+                <idno/>
+                <altIdentifier/>
+
+                <authen>
+                    <authen type="signed">
+                        <legalActor type="notary">
+                            <foreign/>
+                            <quote> </quote>
+                            <persName>
+                                <expan/>
+                            </persName>
+                            <geogName/>
+                        </legalActor>
+                    </authen>
                     <authDesc>
                         <seal>
                             <legalActor type="sigillant"/>
                             <legend/>
-                            
-                            
-                            
+
+
+
                         </seal>
-                        <legend>
-                            
-                        </legend>
+                        <legend> </legend>
                         <hi/>
                         <lb/>
-                        
                     </authDesc>
                 </authen>
                 <physicalDesc>
-                    <material>
-                        
-                    </material>
+                    <material> </material>
                     <dimensions>
                         <width/>
                         <height/>
                     </dimensions>
-                    <condition>
-                        
-                    </condition>
+                    <condition> </condition>
                     <decoDesc>
                         <p>
                             <lb/>
@@ -224,512 +247,426 @@
                             <quote/>
                             <foreign/>
                             <persName/>
-                            <index><term/></index>
+                            <index>
+                                <term/>
+                            </index>
                         </p>
                     </decoDesc>
                 </physicalDesc>
                 <note>
-                    <hi>
-                        
-                    </hi>
+                    <hi> </hi>
                     <lb/>
-                    
                     <ref/>
-                    <quote>
-                        
-                    </quote>
+                    <quote> </quote>
                     <foreign>
                         <lb/>
-                        
                     </foreign>
                 </note>
                 <note type="ownership">
                     <quote/>
                 </note>
-                
-                    <zone>
-                        <desc/>
-                    </zone>
-                    <graphic/>
-                
-            
-            <witListPar>
-                <witness>
-                    <copyStatus>
-                        <hi/>
-                        
-                    </copyStatus>
-                    
+
+                <zone>
+                    <desc/>
+                </zone>
+                <graphic/>
+
+
+                <witListPar>
+                    <witness>
+                        <copyStatus>
+                            <hi/>
+                        </copyStatus>
                         <settlement/>
                         <ref/>
                         <repository/>
                         <collection/>
                         <idno/>
                         <altIdentifier/>
-                    
-                    <authen>
-                        <authen type="signed"><legalActor type="notary">
-                            
-                        </legalActor></authen>
-                        <authDesc>
-                            <seal/>
-                        </authDesc>
-                    </authen>
-                    <physicalDesc>
-                        <material/>
-                        <dimensions/>
-                        <condition/>
-                    </physicalDesc>
-                    <note/>
-                    <note type="ownership"/>
-                    
+                        <authen>
+                            <authen type="signed">
+                                <legalActor type="notary"> </legalActor>
+                            </authen>
+                            <authDesc>
+                                <seal/>
+                            </authDesc>
+                        </authen>
+                        <physicalDesc>
+                            <material/>
+                            <dimensions/>
+                            <condition/>
+                        </physicalDesc>
+                        <note/>
+                        <note type="ownership"/>
                         <graphic/>
-                    
-                    <lb/>
-                    
-                    <foreign/>
-                </witness>
-            </witListPar>
-            <diploDesc>
-                <listBibl>
-                    <ref/>
-                    <bibl>
                         <lb/>
-                        <ref/>
-                        <quote/>
-                    </bibl>
-                </listBibl>
-                <listBibl type="other">
-                    <ref/>
-                    <bibl>
-                        
-                        
-                        <ref/>
                         <foreign/>
-                        <quote/>
-                    </bibl>
-                </listBibl>
-                <listBibl type="regest">
-                    <ref/>
+                    </witness>
+                </witListPar>
+                <diploDesc>
+                    <listBibl type="other">
+                        <ref/>
+                        <bibl>
+                            <lb/>
+                            <ref/>
+                            <quote/>
+                        </bibl>
+                    </listBibl>
+                    <listBibl type="edition">
+                        <ref/>
+                        <bibl>
+                            <ref/>
+                            <foreign/>
+                            <quote/>
+                        </bibl>
+                    </listBibl>
+                    <listBibl type="regest">
+                        <ref/>
+                        <bibl>
+                            <ref/>
+                            <foreign/>
+                        </bibl>
+                    </listBibl>
+
                     <bibl>
                         <ref/>
-                        
-                        <foreign/>
                     </bibl>
-                </listBibl>
-                
-                    <bibl>
-                        
+
+                    <listBibl type="unknown">
                         <ref/>
-                    </bibl>
-                
-                <listBibl type="unknown">
-                    <ref/>
-                    <bibl>
+                        <bibl>
+                            <lb/>
+                            <foreign/>
+                        </bibl>
+                    </listBibl>
+                    <p>
+                        <bibl>
+                            <author>
+                                <persName/>
+                            </author>
+                            <foreign/>
+                        </bibl>
                         <lb/>
-                        
-                        <foreign/>
-                    </bibl>
-                </listBibl>
-                <p>
-                    <bibl>
-                        
-                        <author>
-                            <persName/>
-                        </author>
-                        
-                        <foreign/>
-                    </bibl>
-                    <lb/>
-                    <hi/>
-                    <g/>
-                    
-                    
-                    <ref/>
-                    <quote>
                         <hi/>
-                        <lb/>
-                        
-                    </quote>
-                    <foreign>
-                        <hi/>
-                        
-                    </foreign>
-                    <persName>
                         <g/>
-                    </persName>
-                    <placeName/>
-                    <geogName/>
-                    <index><term/></index>
-                    <legalActor type="witness">
-                        <g/>
+                        <ref/>
+                        <quote>
+                            <hi/>
+                            <lb/>
+                        </quote>
+                        <foreign>
+                            <hi/>
+                        </foreign>
                         <persName>
                             <g/>
                         </persName>
-                    </legalActor>
-                    <date/>
-                </p>
-                
-                    
+                        <placeName/>
+                        <geogName/>
+                        <index>
+                            <term/>
+                        </index>
+                        <legalActor type="witness">
+                            <g/>
+                            <persName>
+                                <g/>
+                            </persName>
+                        </legalActor>
+                        <date/>
+                    </p>
+
+
                     <expan/>
-                
-                <note>
-                    <lb/>
-                    <ref/>
-                    <foreign/>
-                    <index><term/></index>
-                </note>
-                <div>
+
                     <note>
-                        
-                        <bibl/>
+                        <lb/>
+                        <ref/>
+                        <foreign/>
+                        <index>
+                            <term/>
+                        </index>
                     </note>
-                </div>
-            </diploDesc>
-            <language/>
-        </msDesc>
-        <div type="tenor">
-            <p>
-                <diploPart type="intitulatio"/>
-                <diploPart type="datatio"/>
-                <hi>
-                    <hi/>
-                    <ref/>
-                </hi>
-                <pb/>
-                <lb/>
-                
-                <add>
+                    <div>
+                        <note>
+                            <bibl/>
+                        </note>
+                    </div>
+                </diploDesc>
+                <language ident="lat"/>
+                <language ident="ces"/>
+                <language ident="deu"/>
+            </msDesc>
+            <div type="tenor">
+                <p>
+                    <diploPart type="intitulatio"/>
+                    <diploPart type="datatio"/>
+                    <hi>
+                        <hi/>
+                        <ref/>
+                    </hi>
                     <pb/>
+                    <lb/>
+                    <add>
+                        <pb/>
+                        <ref/>
+                        <persName/>
+                        <placeName/>
+                        <index>
+                            <term/>
+                        </index>
+                        <date/>
+                        <measure/>
+                    </add>
+                    <del>
+                        <add/>
+                    </del>
+                    <corr/>
+                    <space/>
+                    <g/>
+                    <handShift/>
                     <ref/>
+                    <note/>
                     <persName/>
                     <placeName/>
-                    <index><term/></index>
+                    <index>
+                        <term>
+                            <ref/>
+                        </term>
+                    </index>
+                    <date/>
                     <date/>
                     <measure/>
-                </add>
-                <del>
-                    <add/>
-                </del>
-                <corr/>
-                <space/>
-                <g/>
-                <handShift/>
-                <ref/>
-                <note/>
-                <persName/>
-                <placeName/>
-                <index><term>
-                    <ref/>
-                </term></index>
-                <date/>
-                <dateRange from="" to=""/>
-                <measure/>
-            </p>
-            <diploPart type="invocatio">
-                <damage>
-                    
-                </damage>
-            </diploPart>
-            <diploPart type="intitulatio">
-                <lb/>
-                
-                <g/>
-                <persName>
-                    <expan/>
-                    <placeName/>
-                </persName>
-                <placeName/>
-            </diploPart>
-            <diploPart type="inscriptio">
-                <lb/>
-            </diploPart>
-            <diploPart type="arenga">
-                <lb/>
-                <placeName/>
-            </diploPart>
-            <diploPart type="publicatio">
-                <lb/>
-                
-                <expan/>
-                <g/>
-            </diploPart>
-            <diploPart type="narratio">
-                <lb/>
-                <persName/>
-                <placeName/>
-            </diploPart>
-            <diploPart type="dispositio">
-                <pb/>
-                <lb/>
-                
-                <expan/>
-                <del/>
-                <damage/>
-                <g/>
-                <ref/>
-                <persName>
-                    
-                    <expan/>
-                    <placeName/>
-                </persName>
-                <placeName>
-                    
-                    <expan/>
-                </placeName>
-                <geogName>
+                </p>
+                <diploPart type="invocatio">
+                    <damage> </damage>
+                </diploPart>
+                <diploPart type="intitulatio">
                     <lb/>
-                </geogName>
-                <index><term/></index>
-                <measure>
-                    <lb/>
-                    <expan/>
-                    <num/>
-                </measure>
-            </diploPart>
-            <diploPart type="sanctio">
-                <lb/>
-            </diploPart>
-            
-                
-                    <expan/>
+                    <g/>
                     <persName>
                         <expan/>
-                        <g/>
+                        <placeName/>
+                    </persName>
+                    <placeName/>
+                </diploPart>
+                <diploPart type="inscriptio">
+                    <lb/>
+                </diploPart>
+                <diploPart type="arenga">
+                    <lb/>
+                    <placeName/>
+                </diploPart>
+                <diploPart type="publicatio">
+                    <lb/>
+                    <expan/>
+                    <g/>
+                </diploPart>
+                <diploPart type="narratio">
+                    <lb/>
+                    <persName/>
+                    <placeName/>
+                </diploPart>
+                <diploPart type="dispositio">
+                    <pb/>
+                    <lb/>
+                    <expan/>
+                    <del/>
+                    <damage/>
+                    <g/>
+                    <ref/>
+                    <persName>
+                        <expan/>
+                        <placeName/>
                     </persName>
                     <placeName>
-                        
+                        <expan/>
                     </placeName>
-                
+                    <geogName>
+                        <lb/>
+                    </geogName>
+                    <index>
+                        <term/>
+                    </index>
+                    <measure>
+                        <lb/>
+                        <expan/>
+                        <num/>
+                    </measure>
+                </diploPart>
+                <diploPart type="sanctio">
+                    <lb/>
+                </diploPart>
+
+
+                <expan/>
+                <persName>
+                    <expan/>
+                    <g/>
+                </persName>
+                <placeName> </placeName>
+
                 <lb/>
-                
+
                 <expan/>
                 <g/>
                 <persName>
                     <lb/>
-                    
                     <expan/>
                 </persName>
                 <placeName>
                     <g/>
                 </placeName>
                 <legalActor type="witness"/>
-            
-            <diploPart type="datatio">
-                <hi/>
-                <lb/>
-                
-                <expan/>
-                <damage>
+
+                <diploPart type="datatio">
+                    <hi/>
+                    <lb/>
                     <expan/>
-                </damage>
-                <g/>
-                <ref/>
-                <placeName/>
-                <date/>
-            </diploPart>
-            
+                    <damage>
+                        <expan/>
+                    </damage>
+                    <g/>
+                    <ref/>
+                    <placeName/>
+                    <date/>
+                </diploPart>
+
                 <hi/>
                 <lb/>
-                
+
                 <expan/>
                 <foreign/>
                 <persName/>
-            
-            
-            
+
+
+
                 <lb/>
-                
-                
+
+
                 <expan/>
                 <g/>
                 <persName>
                     <lb/>
                     <expan/>
                 </persName>
-            
-            <hi>
-                <diploPart type="intitulatio">
-                    <persName>
-                        <expan/>
-                    </persName>
-                </diploPart>
-                
-            </hi>
-            <pb/>
-            <lb/>
-            
-            
-            <expan/>
-            <add/>
-            <del>
+
+                <hi>
+                    <diploPart type="intitulatio">
+                        <persName>
+                            <expan/>
+                        </persName>
+                    </diploPart>
+                </hi>
+                <pb/>
                 <lb/>
-            </del>
-            <damage>
+
+
                 <expan/>
-            </damage>
-            <g/>
-            <ref/>
-            <quote>
-                <hi/>
-                <lb/>
-                
-                <expan/>
-                <supplied/>
-                <del/>
-                <corr/>
-                <space/>
+                <add/>
+                <del>
+                    <lb/>
+                </del>
                 <damage>
                     <expan/>
                 </damage>
-                <unclear>
-                    <expan/>
-                </unclear>
-            </quote>
-            <foreign>
-                <lb/>
-                
-            </foreign>
-            <note/>
-            <persName>
-                <lb/>
-                <expan/>
                 <g/>
+                <ref/>
+                <quote>
+                    <hi/>
+                    <lb/>
+                    <expan/>
+                    <supplied/>
+                    <del/>
+                    <corr/>
+                    <space/>
+                    <damage>
+                        <expan/>
+                    </damage>
+                    <unclear>
+                        <expan/>
+                    </unclear>
+                </quote>
+                <foreign>
+                    <lb/>
+                </foreign>
+                <note/>
+                <persName>
+                    <lb/>
+                    <expan/>
+                    <g/>
+                    <placeName>
+                        <g/>
+                    </placeName>
+                </persName>
                 <placeName>
+                    <lb/>
                     <g/>
                 </placeName>
-            </persName>
-            <placeName>
-                <lb/>
-                <g/>
-            </placeName>
-            <geogName>
-                <lb/>
-            </geogName>
-            <index><term/></index>
-            <legalActor type="witness">
-                <persName/>
-            </legalActor>
-            <date/>
-        </div>
-    
-    
-        <persName>
-            <lb/>
-            
-            <persName/>
-            <placeName/>
-            <foreign/>
-        </persName>
-        
-        <placeName>
-            
-            <index><term/></index>
-            <foreign>
-                
-            </foreign>
-        </placeName>
-        <index><term>
-            <foreign/>
-        </term></index>
-        <geogName>
-            
-        </geogName>
-        <div>
-            <note>
-                <hi>
-                    
-                </hi>
-                <pb/>
-                <lb/>
-                
-                <corr/>
-                <g/>
-                <bibl/>
-                <ref/>
-                <quote>
-                    
-                </quote>
-                <foreign>
-                    
-                </foreign>
+                <geogName>
+                    <lb/>
+                </geogName>
+                <index>
+                    <term/>
+                </index>
+                <legalActor type="witness">
+                    <persName/>
+                </legalActor>
+                <date/>
+            </div>
+        </body>
+        <back>
+            <div>
                 <persName>
-                    <pb/>
                     <lb/>
                     <persName/>
                     <placeName/>
+                    <foreign/>
                 </persName>
+
                 <placeName>
-                    <lb/>
+                    <index>
+                        <term/>
+                    </index>
+                    <foreign> </foreign>
                 </placeName>
-                <index><term>
-                    <lb/>
-                </term></index>
-                <date/>
-                <dateRange from="" to=""/>
-                <measure>
-                    <pb/>
-                </measure>
-            </note>
-        </div>
-    
-</body><back><div>
-        <persName>
-            <lb/>
-            
-            <persName/>
-            <placeName/>
-            <foreign/>
-        </persName>
-        
-        <placeName>
-            
-            <index><term/></index>
-            <foreign>
-                
-            </foreign>
-        </placeName>
-        <index><term>
-            <foreign/>
-        </term></index>
-        <geogName>
-            
-        </geogName>
-        <div>
-            <note>
-                <hi>
-                    
-                </hi>
-                <pb/>
-                <lb/>
-                
-                <corr/>
-                <g/>
-                <bibl/>
-                <ref/>
-                <quote>
-                    
-                </quote>
-                <foreign>
-                    
-                </foreign>
-                <persName>
-                    <pb/>
-                    <lb/>
-                    <persName/>
-                    <placeName/>
-                </persName>
-                <placeName>
-                    <lb/>
-                </placeName>
-                <index><term>
-                    <lb/>
-                </term></index>
-                <date/>
-                <dateRange from="" to=""/>
-                <measure>
-                    <pb/>
-                </measure>
-            </note>
-        </div>
-    </div></back></text></TEI>
+                <index>
+                    <term>
+                        <foreign/>
+                    </term>
+                </index>
+                <geogName> </geogName>
+                <div>
+                    <note>
+                        <hi> </hi>
+                        <pb/>
+                        <lb/>
+                        <corr/>
+                        <g/>
+                        <bibl/>
+                        <ref/>
+                        <quote> </quote>
+                        <foreign> </foreign>
+                        <persName>
+                            <pb/>
+                            <lb/>
+                            <persName/>
+                            <placeName/>
+                        </persName>
+                        <placeName>
+                            <lb/>
+                        </placeName>
+                        <index>
+                            <term>
+                                <lb/>
+                            </term>
+                        </index>
+                        <date/>
+                        <date/>
+                        <measure>
+                            <pb/>
+                        </measure>
+                    </note>
+                </div>
+            </div>
+        </back>
+    </text>
+</TEI>

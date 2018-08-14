@@ -1,31 +1,39 @@
 <?xml-model href="out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:cei="http://www.monasterium.net/NS/cei">
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>This is a title here</title>
-                <respStmt>
-                    <resp>Originally prepared by</resp>
-                    <name>Someone</name>
-                </respStmt>
-                <respStmt>
-                    <resp>Revised and edited by</resp>
-                    <name>Someone</name>
-                </respStmt>
+                <title>Title</title>
+                <editor/>
             </titleStmt>
             <publicationStmt>
-                <distributor>Monasterium</distributor>
-                <address>
-                    <addrLine>Here?</addrLine>
-                </address>
-                <idno type="Monasterium" xml:id="thisisamonasteriumidno">119</idno>
+                <p>Publication Information</p>
+                <distributor>Monasterium.net</distributor>
+                <idno type="Monasterium" xml:id="monasterium"/>
                 <availability>
-                    <p>CC-NC-BY</p>
+                    <p>All texts and pictures are protected according to national copyrights and
+                        exploitation rights. Furthermore, all rights of publication and duplication
+                        of the pictorial reproductions of the documents are held by the respective
+                        archive’s proprietor. Any means of publication is therefore bound to above
+                        mentioned authorization and infringement is punishable.</p>
+                    <p>We would like to make all users aware that addresses, time and duration of
+                        access will be stored on our server. The place of jurisdiction for all
+                        disputes arising from this agreement is the court nearest to the respective
+                        archive.</p>
+                    <p>Conditions of use of printed editions and depictions apply in the same way to
+                        scientific utilization. Citation according to good scientific practice is
+                        therefore expected. (URL, author, archive)</p>
+                    <p>When publishing or duplicating research results (including unpublished theses
+                        and dissertations) obtained from data provided by Monasterium.Net, we would
+                        like to ask every user to pass a free sample copy to the respective holder
+                        of the originals (archive).</p>
                 </availability>
-                <date when="2018">2018</date>
+                <date/>
             </publicationStmt>
             <sourceDesc>
-                <bibl>Source_Book</bibl>
+                <p> </p>
+                <p> </p>
             </sourceDesc>
         </fileDesc>
         <encodingDesc>
@@ -37,400 +45,370 @@
                     <p>Turned letters are silently corrected.</p>
                 </correction>
                 <normalization>
-                    <p>Original spelling and typography is retained, except that long s and ligatured
-                        forms are not encoded.</p>
+                    <p>Original spelling and typography is retained, except that long s and
+                        ligatured forms are not encoded.</p>
                 </normalization>
             </editorialDecl>
         </encodingDesc>
         <revisionDesc>
-            <list>
-                <item>
-                    <date when="1989-04-12">12 Apr 89</date> Last checked by CAC</item>
-                <item>
-                    <date when="1989-03-01">1 Mar 89</date> LB made new file</item>
-            </list>
-        </revisionDesc> 
+            <list/>
+        </revisionDesc>
     </teiHeader>
     <text>
         <front>
-            <!--   <sourceDesc> MOVE TO HEADER
-                <sourceDescRegest>  
-                <bibl>
-                <hi rend="sup"/>
-                <ref/>
-                </bibl>
-                </sourceDescRegest>    
-                <sourceDescVolltext>    
-                <bibl>
-                <ref/>
-                </bibl>
-                </sourceDescVolltext> 
-                <p/>
-                </sourceDesc> -->
+
+
+            <bibl xmlns="">
+
+                <ref target=""/>
+            </bibl>
+
+
+            <bibl xmlns="">
+                <ref target=""/>
+            </bibl>
+
+            <p xmlns=""/>
+
         </front>
         <body>
-            <msDesc>
-                <msIdentifier>
-                    <settlement>San Marino</settlement>
-                    <repository>Huntington Library</repository>
-                    <idno>MS.El.26.C.9</idno>
-                </msIdentifier>
-                <!--    <class/>    -->
-                <msContents>
-                    <summary>
-                        <!--    <class/>    -->
-                        <legalActor type="recipient">
-                            <!--    <foreign/>    THIS SHOULD ALWAYS BE IN SOME OTHER TAG -->
-                            <persName>
-                                <persName>
-                                    <persName/>
-                                    <placeName/>
-                                </persName>
-                                <placeName/>
-                            </persName>
-                            <orgName>
-                                <placeName/>
-                            </orgName>
-                            <placeName/>
-                            <geogName/>
-                        </legalActor>
-                        <legalActor type="issuer">
-                            <persName>
-                                <persName>
-                                    <placeName/>
-                                    
-                                    <foreign/>
-                                </persName>
-                                <placeName/>
-                                <foreign/>
-                            </persName>
-                            <orgName/>
-                            <placeName/>
-                            <geogName/>
-                        </legalActor>
-                        <hi>
-                            <quote/>
-                        </hi>
-                        <lb/>
-                        <pb/>
-                        <hi rend="sup"/>
-                        <c/>
-                        <ref/>
-                        <quote>
-                            <hi/>
-                            <hi rend="sup"/>
-                            <persName/>
-                            <geogName/>
-                        </quote>
-                        <foreign>
-                            <lb/>
-                            <hi rend="sup"/>
-                            <persName>
-                                <persName/>
-                                <orgName>
-                                    <placeName/>
-                                </orgName>
-                                <surname/>
-                                <roleName/>
-                            </persName>
-                            <orgName/>
-                            <placeName/>
-                            <index/>
-                        </foreign>
+
+
+
+            <bibl xmlns="">
+
+                <ref target=""/>
+            </bibl>
+
+
+            <bibl xmlns="">
+                <ref target=""/>
+            </bibl>
+
+            <p xmlns=""/>
+
+
+
+            <idno xmlns=""/>
+            <msDesc xmlns="">
+
+                <div type="abstract">
+
+                    <legalActor type="recipient">
+                        <foreign/>
                         <persName>
                             <persName>
                                 <persName/>
+                                <placeName/>
                             </persName>
-                            <orgName/>
                             <placeName/>
-                            <roleName/>
-                            <foreign>
-                                <hi rend="sup"/>
-                            </foreign>
                         </persName>
                         <orgName>
                             <placeName/>
                         </orgName>
-                        <placeName>
-                            <foreign/>
-                        </placeName>
+                        <placeName/>
                         <geogName/>
-                        <index>
-                            <!--    <lb/> ONLY OCCURS ONCE IN DATABASE, BUT SHOULD NEVER OCCUR -->
-                        </index>
-                        <legalActor type="witness">
+                    </legalActor>
+                    <legalActor type="issuer">
+                        <persName>
                             <persName>
                                 <placeName/>
-                                <foreign/>
+                            </persName>
+                            <placeName/>
+                            <foreign/>
+                        </persName>
+                        <orgName/>
+                        <placeName/>
+                        <geogName/>
+                        <foreign/>
+                    </legalActor>
+                    <hi>
+                        <quote/>
+                    </hi>
+                    <lb/>
+                    <pb/>
+
+                    <g/>
+                    <ref target=""/>
+                    <quote>
+                        <hi/>
+
+                        <persName/>
+                        <geogName/>
+                    </quote>
+                    <foreign>
+                        <lb/>
+
+                        <persName>
+                            <persName/>
+                            <orgName>
+                                <placeName/>
+                            </orgName>
+                            <surname/>
+                            <roleName/>
+                        </persName>
+                        <orgName/>
+                        <placeName/>
+                        <index/>
+                    </foreign>
+                    <persName>
+                        <persName>
+                            <persName/>
+                        </persName>
+                        <orgName/>
+                        <placeName/>
+                        <roleName/>
+                        <foreign> </foreign>
+                    </persName>
+                    <orgName>
+                        <placeName/>
+                    </orgName>
+                    <placeName>
+                        <foreign/>
+                    </placeName>
+                    <geogName/>
+                    <index>
+                        <lb/>
+                    </index>
+                    <legalActor type="witness">
+                        <persName>
+                            <placeName/>
+                            <foreign/>
+                        </persName>
+                    </legalActor>
+                    <date/>
+                    <dateRange from="" to=""/>
+                    <num/>
+                    <measure>
+                        <num/>
+                    </measure>
+                </div>
+                <issued>
+                    <placeName>
+
+                        <foreign> </foreign>
+                    </placeName>
+                    <date/>
+                    <dateRange from="" to=""> </dateRange>
+                </issued>
+
+                <copyStatus> </copyStatus>
+
+                <settlement/>
+                <rgion/>
+                <country/>
+                <repository/>
+                <ref target=""/>
+                <repository> </repository>
+                <collection/>
+                <idno/>
+                <altIdentifier/>
+
+                <authen>
+                    <authen type="signed">
+                        <legalActor type="notary">
+
+                            <foreign/>
+
+
+                            <quote> </quote>
+                            <persName>
+                                <expan/>
+                            </persName>
+                            <geogName/>
+                        </legalActor>
+                    </authen>
+                    <authDesc>
+                        <seal>
+                            <legalActor type="sigillant"/>
+                            <legend/>
+
+
+
+                        </seal>
+                        <legend> </legend>
+                        <hi/>
+                        <lb/>
+
+                    </authDesc>
+                </authen>
+                <physicalDesc>
+                    <material> </material>
+                    <dimensions>
+                        <width/>
+                        <height/>
+                    </dimensions>
+                    <condition> </condition>
+                    <dedcoDesc>
+                        <p>
+                            <lb/>
+                            <ref target=""/>
+                            <quote/>
+                            <foreign/>
+                            <persName/>
+                            <index/>
+                        </p>
+                    </dedcoDesc>
+                </physicalDesc>
+                <note>
+                    <hi> </hi>
+                    <lb/>
+
+                    <ref target=""/>
+                    <quote> </quote>
+                    <foreign>
+                        <lb/>
+
+                    </foreign>
+                </note>
+                <note type="ownership">
+                    <quote/>
+                </note>
+
+                <zone>
+                    <desc/>
+                </zone>
+                <graphic/>
+
+
+                <witListPar>
+                    <witness>
+                        <copyStatus>
+                            <hi/>
+
+                        </copyStatus>
+
+                        <settlement/>
+                        <ref target=""/>
+                        <repository/>
+                        <collection/>
+                        <idno/>
+                        <altIdentifier/>
+
+                        <authen>
+                            <authen type="signed">
+                                <legalActor type="notary"> </legalActor>
+                            </authen>
+                            <authDesc>
+                                <seal/>
+                            </authDesc>
+                        </authen>
+                        <physicalDesc>
+                            <material/>
+                            <dimensions/>
+                            <condition/>
+                        </physicalDesc>
+                        <note/>
+                        <note type="ownership"/>
+
+                        <graphic/>
+
+                        <lb/>
+
+                        <foreign/>
+                    </witness>
+                </witListPar>
+                <diploDesc>
+                    <listBibl>
+                        <ref target=""/>
+                        <bibl>
+                            <lb/>
+                            <ref target=""/>
+                            <quote/>
+                        </bibl>
+                    </listBibl>
+                    <listBiblEdition type="other">
+                        <ref target=""/>
+                        <bibl>
+
+
+                            <ref target=""/>
+                            <foreign/>
+                            <quote/>
+                        </bibl>
+                    </listBiblEdition>
+                    <listBiblRegest type="regest">
+                        <ref target=""/>
+                        <bibl>
+                            <ref target=""/>
+
+                            <foreign/>
+                        </bibl>
+                    </listBiblRegest>
+
+                    <bibl>
+
+                        <ref target=""/>
+                    </bibl>
+
+                    <listBiblErw type="unknown">
+                        <ref target=""/>
+                        <bibl>
+                            <lb/>
+
+                            <foreign/>
+                        </bibl>
+                    </listBiblErw>
+                    <p>
+                        <bibl> <author>
+                                <persName/>
+                            </author> <foreign/>
+                        </bibl>
+                        <lb/>
+                        <hi/>
+                        <g/>
+                        <ref target=""/>
+                        <quote>
+                            <hi/>
+                            <lb/> </quote>
+                        <foreign>
+                            <hi/> </foreign>
+                        <persName>
+                            <g/>
+                        </persName>
+                        <placeName/>
+                        <geogName/>
+                        <index/>
+                        <legalActor type="witness">
+                            <g/>
+                            <persName>
+                                <g/>
                             </persName>
                         </legalActor>
                         <date/>
-                        <!--    <dateRange/> CONVERT TO DATE, WHICH HAS SAME FUNCTIONALITY -->
-                        <num/>
-                        <measure>
-                            <num/>
-                        </measure>
-                        <issued> 
-                            <placeName>
-                                <hi rend="sup"/>
-                                <foreign>
-                                    <hi rend="sup"/>
-                                </foreign>
-                            </placeName>
-                            <date/>
-                            <!--    <dateRange/> CONVERT TO DATE, WHICH HAS SAME FUNCTIONALITY -->
-                            <hi rend="sup"/>
-                            <!--    <dateRange/> CONVERT TO DATE, WHICH HAS SAME FUNCTIONALITY -->
-                        </issued>
-                        <listWit>
-                            <witness>
-                                <msDesc>
-                                    <msIdentifier>
-                                        <settlement>San Marino</settlement>
-                                        <repository>Huntington Library</repository>
-                                        <idno>MS.El.26.C.9</idno>
-                                    </msIdentifier>
-                                    <copyStatus>
-                                        <hi rend="sup"/>
-                                    </copyStatus>
-                                    <physDesc> <!-- note that physDesc has been moved up to encompass authDesc -->
-                                        <objectDesc> <!-- inserted where physDesc was -->
-                                            <material>
-                                                <hi rend="sup"/>
-                                            </material>
-                                            <dimensions>
-                                                <width/>
-                                                <height/>
-                                            </dimensions>
-                                            <condition>
-                                                <hi rend="sup"/>
-                                            </condition>
-                                        </objectDesc>
-                                        <decoDesc>
-                                            <p>
-                                                <lb/>
-                                                <ref/>
-                                                <quote/>
-                                                <foreign/>
-                                                <persName/>
-                                                <index/>
-                                            </p>
-                                        </decoDesc>
-                                        <authDesc>
-                                            <legalActor type="notary"><!--    <notariusDesc> -->
-                                                <authen type="signed"><!--    <notariusSub> -->
-                                                    <foreign/>
-                                                </authen><!--     </notariusSub> -->
-                                                <!--    <notariusSign/> -->
-                                                <quote>
-                                                    <hi rend="sup"/>
-                                                </quote>
-                                                <persName>
-                                                    <expan/>
-                                                </persName>
-                                                <geogName/>
-                                            </legalActor><!--    </notariusDesc> -->
-                                            <seal>
-                                                <legalActor type="sigillant" />
-                                                <legend/>
-                                                <dimensions /><!--    <sealDimensions/> -->
-                                                <condition /><!--    <sealCondition/> -->
-                                                <hi rend="sup"/>
-                                            </seal>
-                                            <legend>
-                                                <hi rend="sup"/>
-                                            </legend>
-                                            <hi/>
-                                            <lb/>
-                                            <hi rend="sup"/>
-                                        </authDesc>
-                                    </physDesc>
-                                    <p>
-                                        <note>
-                                            <hi>
-                                                <hi rend="sup"/>
-                                            </hi>
-                                            <lb/>
-                                            <hi rend="sup"/>
-                                            <ref/>
-                                            <quote>
-                                                <hi rend="sup"/>
-                                            </quote>
-                                            <foreign>
-                                                <lb/>
-                                                <hi rend="sup"/>
-                                            </foreign>
-                                        </note>
-                                        <note type="production">
-                                            <quote/>
-                                        </note>
-                                        <figure>
-                                            <!--  <surface> figures with surfaces need to be moved to facsimile and then have a reference to them dropped in the original location
-                                                <zone>
-                                                <desc/> not allowed in TEI P5 and no data in the two occurrences in the databsse, so it can be dropped
-                                                </zone>
-                                                <graphic url=""/>
-                                                </surface> -->
-                                        </figure>
-                                    </p>
-                                </msDesc>
-                            </witness>
-                        </listWit>
-                        <listWit>
-                            <witness>
-                                <msDesc>
-                                    <msIdentifier>
-                                        <settlement>San Marino</settlement>
-                                        <repository>Huntington Library</repository>
-                                        <idno>MS.El.26.C.9</idno>
-                                    </msIdentifier>
-                                    <copyStatus>
-                                        <hi/>
-                                        <hi rend="sup"/>
-                                    </copyStatus>
-                                    <physDesc>
-                                        <objectDesc>
-                                            <material/>
-                                            <dimensions/>
-                                            <condition/>
-                                        </objectDesc>
-                                        <authDesc>
-                                            <authen>
-                                                <legalActor type="notary"><!--    <notariusDesc> -->
-                                                    <authen type="signed" /><!--    <notariusSub> -->
-                                                </legalActor>
-                                            </authen>
-                                            <seal/>
-                                        </authDesc>
-                                    </physDesc>
-                                    <p>
-                                        <note/>
-                                        <note type="production"/>
-                                        <figure>
-                                            <graphic url="page1.png"/>
-                                        </figure>
-                                        <lb/>
-                                        <hi rend="sup"/>
-                                        <foreign/>
-                                    </p> <!-- note all these additional paragraphs that need to be added throughout -->
-                                </msDesc>
-                            </witness>
-                        </listWit>
-                        <diploDesc>
-                            <listBibl>
-                                <!-- <ref/> only one example, and it is obviously wrong -->
-                                <bibl>
-                                    <lb/>
-                                    <!-- <ref/> only one example, and it is obviously wrong -->
-                                    <!-- <quote/> people are misusing content-quote for display-quotation-marks. none of the examples are actually quotes -->
-                                </bibl>
-                            </listBibl>
-                            <listBibl type="edition"><!--<listBiblEdition>-->
-                                <!-- <ref/> only one example, and it is obviously wrong -->
-                                <bibl>
-                                    <hi rend="sup"/>
-                                    <anchor/>
-                                    <ref/>
-                                    <foreign/>
-                                    <!-- <quote/> people are misusing content-quote for display-quotation-marks. none of the examples are actually quotes -->
-                                </bibl>
-                            </listBibl>
-                            <listBibl type="regest"><!--<listBiblRegest>-->
-                                <!-- <ref/> only one example, and it is obviously wrong -->
-                                <bibl>
-                                    <ref/>
-                                    <title/>
-                                    <foreign/>
-                                </bibl>
-                            </listBibl>
-                            <listBibl type="facsimile"><!--<listBiblFaksimile>-->
-                                <bibl>
-                                    <hi rend="sup"/>
-                                    <ref/>
-                                </bibl>
-                            </listBibl>
-                            <listBibl type="other">
-                                <!-- <ref/> only one example, and it is obviously wrong -->
-                                <bibl>
-                                    <lb/>
-                                    <hi rend="sup"/>
-                                    <foreign/>
-                                </bibl>
-                            </listBibl>
-                            <p>
-                                <bibl>
-                                    <hi rend="sup"/>
-                                    <author>
-                                        <persName/>
-                                    </author>
-                                    <title/>
-                                    <foreign/>
-                                </bibl>
-                                <lb/>
-                                <hi/>
-                                <c/>
-                                <hi rend="sup"/>
-                                <anchor/>
-                                <ref/>
-                                <quote>
-                                    <hi/>
-                                    <lb/>
-                                    <hi rend="sup"/>
-                                </quote>
-                                <foreign>
-                                    <hi/>
-                                    <hi rend="sup"/>
-                                </foreign>
-                                <persName>
-                                    <c/>
-                                </persName>
-                                <placeName/>
-                                <geogName/>
-                                <index/>
-                                <legalActor type="witness">
-                                    <g/> <!-- g instead of c for our usage? -->
-                                    <persName>
-                                        <c/>
-                                    </persName>
-                                </legalActor>
-                                <date/>
-                                <!--  </p> moved to bottom of div? check; I am just guessing -->
-                                <origDate>
-                                    <hi rend="sup"/>
-                                    <expan/>
-                                </origDate>
-                                <note>
-                                    <lb/>
-                                    <ref/>
-                                    <foreign/>
-                                    <index/>
-                                </note>
-                                <!--  <div type="Notes"> do we really need this div?-->
-                                <note>
-                                    <hi rend="sup"/>
-                                    <bibl/>
-                                </note>
-                                <!--  </div> -->
-                            </p>
-                        </diploDesc>
-                        <!-- <lang_MOM/> replace with Header language element -->
-                    </summary>
-                </msContents>
+                    </p>
+
+
+                    <expan/>
+
+                    <note>
+                        <lb/>
+                        <ref target=""/>
+                        <foreign/>
+                        <index/>
+                    </note>
+                    <div>
+                        <note>
+
+                            <bibl/>
+                        </note>
+                    </div>
+                </diploDesc>
+                <language/>
             </msDesc>
-            <div type="tenor">
+            <div xmlns="" type="tenor">
                 <p>
-                    <diploPart type="intitulatio" />
-                    <diploPart type="datatio" />
+                    <diploPart type="intitulatio"/>
+                    <diploPart type="datatio"/>
                     <hi>
                         <hi/>
-                        <ref/>
+                        <ref target=""/>
                     </hi>
                     <pb/>
                     <lb/>
-                    <hi rend="sup"/>
                     <add>
                         <pb/>
-                        <ref/>
+                        <ref target=""/>
                         <persName/>
                         <placeName/>
                         <index/>
@@ -442,267 +420,252 @@
                     </del>
                     <corr/>
                     <space/>
-                    <c/>
+                    <g/>
                     <handShift/>
-                    <ref/>
+                    <ref target=""/>
                     <note/>
                     <persName/>
                     <placeName/>
                     <index>
-                        <term /><!--     <ref/>  -->
+                        <ref target=""/>
                     </index>
                     <date/>
-                    <!--    <dateRange/> CONVERT TO DATE, WHICH HAS SAME FUNCTIONALITY -->
+                    <dateRange from="" to=""/>
                     <measure/>
-                    <diploPart type="invocatio">
-                        <damage>
-                            <!--    <pict/> need to find a clear instance of this use -->
-                        </damage>
-                    </diploPart>
-                    <diploPart type="intitulatio">
-                        <lb/>
-                        <hi rend="sup"/>
-                        <c/>
-                        <persName>
-                            <expan/>
-                            <placeName/>
-                        </persName>
+                </p>
+                <diploPart type="invocatio">
+                    <damage> </damage>
+                </diploPart>
+                <diploPart type="intitulatio">
+                    <lb/>
+
+                    <g/>
+                    <persName>
+                        <expan/>
                         <placeName/>
-                    </diploPart>
-                    <diploPart type="inscriptio">
-                        <lb/>
-                    </diploPart>
-                    <diploPart type="arenga">
-                        <lb/>
-                        <placeName/>
-                    </diploPart>
-                    <diploPart type="publicatio">
-                        <lb/>
-                        <hi rend="sup"/>
-                        <expan/>
-                        <c/>
-                    </diploPart>
-                    <diploPart type="narratio">
-                        <lb/>
-                        <persName/>
-                        <placeName/>
-                    </diploPart>
-                    <diploPart type="dispositio">
-                        <pb/>
-                        <lb/>
-                        <hi rend="sup"/>
-                        <expan/>
-                        <del/>
-                        <damage/>
-                        <c/>
-                        <ref/>
-                        <persName>
-                            <hi rend="sup"/>
-                            <expan/>
-                            <placeName/>
-                        </persName>
-                        <placeName>
-                            <hi rend="sup"/>
-                            <expan/>
-                        </placeName>
-                        <geogName>
-                            <lb/>
-                        </geogName>
-                        <index/>
-                        <measure>
-                            <lb/>
-                            <expan/>
-                            <num/>
-                        </measure>
-                    </diploPart>
-                    <diploPart type="sanctio">
-                        <lb/>
-                    </diploPart>
-                    <diploPart type="corroboratio">
-                        <!-- <setPhrase>
-                            <expan/>
-                            <persName>
-                            <expan/>
-                            <c/>
-                            </persName>
-                            <placeName>
-                            <hi rend="sup"/>
-                            </placeName>
-                            </setPhrase> -->
-                        <lb/>
-                        <hi rend="sup"/>
-                        <expan/>
-                        <c/>
-                        <persName>
-                            <lb/>
-                            <hi rend="sup"/>
-                            <expan/>
-                        </persName>
-                        <placeName>
-                            <c/>
-                        </placeName>
-                        <legalActor type="witness"/>
-                    </diploPart>
-                    <diploPart type="datatio">
-                        <hi/>
-                        <lb/>
-                        <hi rend="sup"/>
-                        <expan/>
-                        <damage>
-                            <expan/>
-                        </damage>
-                        <c/>
-                        <ref/>
-                        <placeName/>
-                        <date/>
-                    </diploPart>
-                    <diploPart type="subscriptio">
-                        <hi/>
-                        <lb/>
-                        <!-- <pict/> can I drop all of these? -->
-                        <expan/>
-                        <foreign/>
-                        <persName/>
-                    </diploPart>
-                    <authen type="signed"/>
-                    <!-- <setPhrase>
-                        <lb/>
-                        <hi rend="sup"/>
-                        <pict/>
-                        <expan/>
-                        <c/>
-                        <persName>
-                        <lb/>
-                        <expan/>
-                        </persName>
-                        </setPhrase> -->
-                    <hi>
-                        <diploPart type="intitulatio">
-                            <persName>
-                                <expan/>
-                            </persName>
-                        </diploPart>
-                        <hi rend="sup"/>
-                    </hi>
+                    </persName>
+                    <placeName/>
+                </diploPart>
+                <diploPart type="inscriptio">
+                    <lb/>
+                </diploPart>
+                <diploPart type="arenga">
+                    <lb/>
+                    <placeName/>
+                </diploPart>
+                <diploPart type="publicatio">
+                    <lb/>
+
+                    <expan/>
+                    <g/>
+                </diploPart>
+                <diploPart type="narratio">
+                    <lb/>
+                    <persName/>
+                    <placeName/>
+                </diploPart>
+                <diploPart type="dispositio">
                     <pb/>
                     <lb/>
-                    <hi rend="sup"/>
-                    <!-- <pict/> can I drop all of these? -->
+
                     <expan/>
-                    <add/>
-                    <del>
-                        <lb/>
-                    </del>
-                    <damage>
-                        <expan/>
-                    </damage>
-                    <c/>
-                    <ref/>
-                    <quote>
-                        <hi/>
-                        <lb/>
-                        <hi rend="sup"/>
-                        <expan/>
-                        <!-- <hi rend="sup"plied/> straight-up typo  -->
-                        <del/>
-                        <corr/>
-                        <space/>
-                        <damage>
-                            <expan/>
-                        </damage>
-                        <unclear>
-                            <expan/>
-                        </unclear>
-                    </quote>
-                    <foreign>
-                        <lb/>
-                        <hi rend="sup"/>
-                    </foreign>
-                    <note/>
+                    <del/>
+                    <damage/>
+                    <g/>
+                    <ref target=""/>
                     <persName>
-                        <lb/>
+
                         <expan/>
-                        <c/>
-                        <placeName>
-                            <c/>
-                        </placeName>
+                        <placeName/>
                     </persName>
                     <placeName>
-                        <lb/>
-                        <c/>
+
+                        <expan/>
                     </placeName>
                     <geogName>
                         <lb/>
                     </geogName>
                     <index/>
-                    <legalActor type="witness">
-                        <persName/>
-                    </legalActor>
-                    <date/>
-                </p>
-            </div>
-        </body>
-        <back>
-            <p>
+                    <measure>
+                        <lb/>
+                        <expan/>
+                        <num/>
+                    </measure>
+                </diploPart>
+                <diploPart type="sanctio">
+                    <lb/>
+                </diploPart>
+
+
+                <expan/>
+                <persName>
+                    <expan/>
+                    <g/>
+                </persName>
+                <placeName> </placeName>
+
+                <lb/>
+
+                <expan/>
+                <g/>
                 <persName>
                     <lb/>
-                    <hi rend="sup"/>
+
+                    <expan/>
+                </persName>
+                <placeName>
+                    <g/>
+                </placeName>
+                <legalActor type="witness"/>
+
+                <diploPart type="datatio">
+                    <hi/>
+                    <lb/>
+
+                    <expan/>
+                    <damage>
+                        <expan/>
+                    </damage>
+                    <g/>
+                    <ref target=""/>
+                    <placeName/>
+                    <date/>
+                </diploPart>
+
+                <hi/>
+                <lb/>
+
+                <expan/>
+                <foreign/>
+                <persName/>
+
+
+
+                <lb/>
+
+
+                <expan/>
+                <g/>
+                <persName>
+                    <lb/>
+                    <expan/>
+                </persName>
+
+                <hi>
+                    <diploPart type="intitulatio">
+                        <persName>
+                            <expan/>
+                        </persName>
+                    </diploPart>
+
+                </hi>
+                <pb/>
+                <lb/>
+
+
+                <expan/>
+                <add/>
+                <del>
+                    <lb/>
+                </del>
+                <damage>
+                    <expan/>
+                </damage>
+                <g/>
+                <ref target=""/>
+                <quote>
+                    <hi/>
+                    <lb/>
+
+                    <expan/>
+                    <supplied/>
+                    <del/>
+                    <corr/>
+                    <space/>
+                    <damage>
+                        <expan/>
+                    </damage>
+                    <unclear>
+                        <expan/>
+                    </unclear>
+                </quote>
+                <foreign>
+                    <lb/>
+
+                </foreign>
+                <note/>
+                <persName>
+                    <lb/>
+                    <expan/>
+                    <g/>
+                    <placeName>
+                        <g/>
+                    </placeName>
+                </persName>
+                <placeName>
+                    <lb/>
+                    <g/>
+                </placeName>
+                <geogName>
+                    <lb/>
+                </geogName>
+                <index/>
+                <legalActor type="witness">
+                    <persName/>
+                </legalActor>
+                <date/>
+            </div>
+
+            <back xmlns="">
+                <persName>
+                    <lb/>
+
                     <persName/>
                     <placeName/>
                     <foreign/>
                 </persName>
-                <!-- <class/> -->
+
                 <placeName>
-                    <hi rend="sup"/>
+
                     <index/>
-                    <foreign>
-                        <hi rend="sup"/>
-                    </foreign>
+                    <foreign> </foreign>
                 </placeName>
                 <index>
-                    <term><foreign/></term>
+                    <foreign/>
                 </index>
-                <geogName>
-                    <hi rend="sup"/>
-                </geogName>
-            </p>
-            <div type="notes"> <!-- look up use of divNotes in practice -->
-                <note>
-                    <hi>
-                        <hi rend="sup"/>
-                    </hi>
-                    <pb/>
-                    <lb/>
-                    <hi rend="sup"/>
-                    <corr/>
-                    <c/>
-                    <bibl/>
-                    <ref/>
-                    <quote>
-                        <hi rend="sup"/>
-                    </quote>
-                    <foreign>
-                        <hi rend="sup"/>
-                    </foreign>
-                    <persName>
+                <geogName> </geogName>
+                <div>
+                    <note>
+                        <hi> </hi>
                         <pb/>
                         <lb/>
-                        <persName/>
-                        <placeName/>
-                    </persName>
-                    <placeName>
-                        <lb/>
-                    </placeName>
-                    <index>
-                        <!--    <lb/> makes no sense, and I need to check that all index tags have terms -->
-                    </index>
-                    <date/>
-                    <!--    <dateRange/> CONVERT TO DATE, WHICH HAS SAME FUNCTIONALITY -->
-                    <measure>
-                        <pb/>
-                    </measure>
-                </note>
-            </div>
-        </back>
+
+                        <corr/>
+                        <g/>
+                        <bibl/>
+                        <ref target=""/>
+                        <quote> </quote>
+                        <foreign> </foreign>
+                        <persName>
+                            <pb/>
+                            <lb/>
+                            <persName/>
+                            <placeName/>
+                        </persName>
+                        <placeName>
+                            <lb/>
+                        </placeName>
+                        <index>
+                            <lb/>
+                        </index>
+                        <date/>
+                        <dateRange from="" to=""/>
+                        <measure>
+                            <pb/>
+                        </measure>
+                    </note>
+                </div>
+            </back>
+        </body>
     </text>
 </TEI>
