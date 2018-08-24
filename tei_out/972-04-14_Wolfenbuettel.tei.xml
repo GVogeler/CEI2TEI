@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:cei="http://www.monasterium.net/NS/cei">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+        <editor>illuminierteurkunden@gmail.com</editor>
+        <respStmt>
+          <resp>Principal Investigator</resp>
+          <persName><forename>Georg</forename><surname>Vogeler</surname></persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <publisher><orgName ref="http://d-nb.info/gnd/1137284463"
+            corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+            Informationsmodellierung - Austrian Centre for Digital Humanities,
+            Karl-Franzens-Universität Graz</orgName></publisher>
+        <authority><orgName>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</orgName></authority>
+        <distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches Asset
+            Management System</orgName></distributor>
+        <availability>
+          <p>All texts and pictures are protected according to national copyrights and exploitation
+            rights. Furthermore, all rights of publication and duplication of the pictorial
+            reproductions of the documents are held by the respective archive’s proprietor. Any
+            means of publication is therefore bound to above mentioned authorization and
+            infringement is punishable.</p>
+          <p>We would like to make all users aware that addresses, time and duration of access will
+            be stored on our server. The place of jurisdiction for all disputes arising from this
+            agreement is the court nearest to the respective archive.</p>
+          <p>Conditions of use of printed editions and depictions apply in the same way to
+            scientific utilization. Citation according to good scientific practice is therefore
+            expected. (URL, author, archive)</p>
+          <p>When publishing or duplicating research results (including unpublished theses and
+            dissertations) obtained from data provided by Monasterium.Net, we would like to ask
+            every user to pass a free sample copy to the respective holder of the originals
+            (archive).</p>
+        </availability>
+        <pubPlace>Graz</pubPlace>
+        <date>2018-06-13T14:41:52.651Z</date>
+      </publicationStmt>
+      <sourceDesc>
+        <p/>
+        <idno type="Monasterium" xml:id="monasterium"
+          >tag:www.monasterium.net,2011:/charter/IlluminierteUrkundenCimelia/972-04-14_Wolfenbuettel</idno>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Something about IllUrk here.</p>
+      </projectDesc>
+      <editorialDecl>
+        <correction>
+          <p/>
+        </correction>
+        <normalization>
+          <p/>
+        </normalization>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc/>
+    <revisionDesc>
+      <list>
+        <item><date when="2018-06-13">2018-06-13T14:41:52.651Z</date> Last checked by CAC</item>
+      </list>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front>
+      <div>
+
+
+        <bibl/>
+
+
+        <bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</bibl>
+
+
+      </div>
+    </front>
+    <body>
+      <idno>972-04-14_Wolfenbuettel</idno>
+      <msDesc>
+
+        <div type="abstract">
+          <p/>
+        </div>
+        <issued>
+          <placeName/>
+          <date when="9720414">972-04-14</date>
+        </issued>
+
+        <copyStatus/>
+
+
+        <physDesc>
+          <decoDesc>
+            <p/>
+          </decoDesc>
+          <material/>
+          <dimensions/>
+          <condition/>
+        </physDesc>
+        <authDesc>
+          <authen type="signed">
+            <legalActor type="notary"/>
+          </authen>
+          <seal/>
+        </authDesc>
+        <note/>
+
+        <listWit>
+          <witness>
+            <copyStatus/>
+            <physDesc>
+              <material/>
+              <dimensions/>
+              <condition/>
+            </physDesc>
+            <authDesc>
+              <seal/>
+              <authen type="signed">
+                <legalActor type="notary"/>
+              </authen>
+            </authDesc>
+            <note/>
+          </witness>
+        </listWit>
+        <diploDesc>
+          <listBibl type="other">
+            <bibl/>
+          </listBibl>
+          <listBibl type="edition">
+            <bibl/>
+          </listBibl>
+          <listBibl type="regest">
+            <bibl/>
+          </listBibl>
+
+          <bibl/>
+
+          <listBibl type="unknown">
+            <bibl/>
+          </listBibl>
+          <p/>
+
+          <note/>
+        </diploDesc>
+
+      </msDesc>
+      <div type="tenor"/>
+    </body>
+    <back>
+      <div>
+        <persName/>
+        <placeName/>
+        <index>
+          <term/>
+        </index>
+        <div>
+          <note/>
+        </div>
+      </div>
+    </back>
+  </text>
+</TEI>

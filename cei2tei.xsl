@@ -19,49 +19,50 @@
                                 <forename>Georg</forename>
                                 <surname>Vogeler</surname>
                             </persName>
+                        </respStmt>
                     </titleStmt>
                     <publicationStmt>
-                            <publisher>
-                                <orgName ref="http://d-nb.info/gnd/1137284463"
-                                    corresp="https://informationsmodellierung.uni-graz.at">Zentrum
-                                    für Informationsmodellierung - Austrian Centre for Digital
-                                    Humanities, Karl-Franzens-Universität Graz</orgName>
-                            </publisher>
-                            <authority>
-                                <orgName>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</orgName>
-                            </authority>
-                            <distributor>
-                                <orgName ref="https://gams.uni-graz.at">GAMS -
-                                    Geisteswissenschaftliches Asset Management System</orgName>
-                            </distributor>
-                            <availability>
-                                <p>All texts and pictures are protected according to national
-                                    copyrights and exploitation rights. Furthermore, all rights of
-                                    publication and duplication of the pictorial reproductions of
-                                    the documents are held by the respective archive’s proprietor.
-                                    Any means of publication is therefore bound to above mentioned
-                                    authorization and infringement is punishable.</p>
-                                <p>We would like to make all users aware that addresses, time and
-                                    duration of access will be stored on our server. The place of
-                                    jurisdiction for all disputes arising from this agreement is the
-                                    court nearest to the respective archive.</p>
-                                <p>Conditions of use of printed editions and depictions apply in the
-                                    same way to scientific utilization. Citation according to good
-                                    scientific practice is therefore expected. (URL, author,
-                                    archive)</p>
-                                <p>When publishing or duplicating research results (including
-                                    unpublished theses and dissertations) obtained from data
-                                    provided by Monasterium.Net, we would like to ask every user to
-                                    pass a free sample copy to the respective holder of the
-                                    originals (archive).</p>
-                            </availability>
-                            <pubPlace>Graz</pubPlace>
+                        <publisher>
+                            <orgName ref="http://d-nb.info/gnd/1137284463"
+                                corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName>
+                        </publisher>
+                        <authority>
+                            <orgName>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</orgName>
+                        </authority>
+                        <distributor>
+                            <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName>
+                        </distributor>
+                        <availability>
+                            <p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p>
+                            <p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p>
+                            <p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p>
+                            <p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p>
+                        </availability>
+                        <pubPlace>Graz</pubPlace>
                         <date>
                             <xsl:value-of select="//atom:published"/>
                         </date>
                     </publicationStmt>
                     <sourceDesc>
-                        <xsl:for-each select="//cei:sourceDesc | cei:sourceDescRegest | cei:sourceDescVolltext | cei:sourceDescErw">
+                        <xsl:for-each
+                            select="//cei:sourceDesc | cei:sourceDescRegest | cei:sourceDescVolltext | cei:sourceDescErw">
                             <p>
                                 <xsl:value-of select="cei:bibl"/>
                             </p>
@@ -85,9 +86,7 @@
                     </editorialDecl>
                 </encodingDesc>
                 <profileDesc>
-                    <langUsage>
-                        <xsl:apply-templates select="//cei:lang_MOM"/>
-                    </langUsage>
+                    <xsl:apply-templates select="//cei:lang_MOM"/>
                 </profileDesc>
                 <revisionDesc>
                     <list>
@@ -165,9 +164,9 @@
         </diploPart>
     </xsl:template>
     <xsl:template match="cei:auth">
-        <authen>
+        <authDesc>
             <xsl:apply-templates/>
-        </authen>
+        </authDesc>
     </xsl:template>
     <xsl:template match="cei:author">
         <author>
@@ -278,9 +277,18 @@
     <xsl:template match="cei:dateRange">
         <xsl:variable name="from" select="@from"/>
         <xsl:variable name="to" select="@to"/>
-        <date from="{$from}" to="{$to}">
-            <xsl:apply-templates/>
-        </date>
+        <xsl:choose>
+            <xsl:when test="$from = $to">
+                <date when="{$from}">
+                    <xsl:apply-templates/>
+                </date>
+            </xsl:when>
+            <xsl:otherwise>
+                <date from="{$from}" to="{$to}">
+                    <xsl:apply-templates/>
+                </date>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     <xsl:template match="cei:decoDesc">
         <decoDesc>
@@ -412,10 +420,12 @@
         <xsl:variable name="langmom" select="."/>
         <xsl:for-each select="document('lang_MOM.xml')//lang_MOM_entry">
             <xsl:if test="lang_mom[text() = $langmom]">
-                <xsl:for-each select="tokenize(lang_iso, ',')">
-                    <xsl:variable name="token" select="normalize-space(.)"/>
-                    <language ident="{$token}"/>
-                </xsl:for-each>
+                <langUsage>
+                    <xsl:for-each select="tokenize(lang_iso, ',')">
+                        <xsl:variable name="token" select="normalize-space(.)"/>
+                        <language ident="{$token}"/>
+                    </xsl:for-each>
+                </langUsage>
             </xsl:if>
 
         </xsl:for-each>
@@ -515,9 +525,9 @@
         </persName>
     </xsl:template>
     <xsl:template match="cei:physicalDesc">
-        <physicalDesc>
+        <physDesc>
             <xsl:apply-templates/>
-        </physicalDesc>
+        </physDesc>
     </xsl:template>
     <!--    <xsl:template match="cei:pict">
         <pict><xsl:apply-templates/></pict>
@@ -592,9 +602,9 @@
         </seal>
     </xsl:template>
     <xsl:template match="cei:sealDesc">
-        <authDesc>
+        <seal>
             <xsl:apply-templates/>
-        </authDesc>
+        </seal>
     </xsl:template>
     <!--<xsl:template match="cei:setPhrase">
         <setPhrase><xsl:apply-templates/></setPhrase>
@@ -663,9 +673,9 @@
         </width>
     </xsl:template>
     <xsl:template match="cei:witListPar">
-        <witListPar>
+        <listWit>
             <xsl:apply-templates/>
-        </witListPar>
+        </listWit>
     </xsl:template>
     <xsl:template match="cei:witness">
         <witness>
