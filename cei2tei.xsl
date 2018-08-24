@@ -16,8 +16,7 @@
                         <respStmt>
                             <resp>Principal Investigator</resp>
                             <persName>
-                                <forename>Georg</forename>
-                                <surname>Vogeler</surname>
+                                <forename>Georg</forename>abstr <surname>Vogeler</surname>
                             </persName>
                         </respStmt>
                     </titleStmt>
@@ -91,28 +90,43 @@
                 <revisionDesc>
                     <list>
                         <xsl:for-each select="//atom:updated">
-                            <xsl:variable name="date" select="substring-before(., 'T')"/>
-
-                            <item>
+                            <xsl:variable name="date" select="substring-before(., 'T')"/> <item>
                                 <date when="{$date}"><xsl:value-of select="."/></date> Last checked
                                 by CAC</item>
                         </xsl:for-each>
                     </list>
                 </revisionDesc>
-            </teiHeader>
-
-            <text>
+            </teiHeader> <text>
                 <front>
                     <div>
                         <xsl:apply-templates select="//cei:front"/>
                     </div>
                 </front>
                 <body>
+                    <msDesc>
+                        <msIdentifier>
+                            <idno>
+                                <xsl:value-of select="//cei:body/cei:idno"/>
+                            </idno>
+                        </msIdentifier>
+                        <msContents>
+                            <xsl:apply-templates select="//cei:abstract"/>
+                        </msContents>
+                        <physDesc> </physDesc>
+                        <diploDesc>
+                            <xsl:apply-templates select="//cei:diplomaticAnalysis"/>
+                            <xsl:apply-templates select="//cei:issued"/>
+                            <xsl:apply-templates select="//cei:witnessOrig"/>
+                        </diploDesc> 
+                        <xsl:apply-templates select="//cei:chDesc"/> <!-- NEED TO EXCLUDE ITEMS ABOVE! -->
+                    </msDesc>
                     <xsl:apply-templates select="//cei:body"/>
                 </body>
                 <back>
                     <div>
+                        <p>
                         <xsl:apply-templates select="//cei:back"/>
+                        </p>
                     </div>
                 </back>
             </text>
@@ -122,11 +136,11 @@
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="cei:abstract">
-        <div type="abstract">
-            <p>
-                <xsl:apply-templates/>
-            </p>
-        </div>
+            <summary>
+                <p>
+                    <xsl:apply-templates/>
+                </p>
+            </summary>
     </xsl:template>
     <xsl:template match="cei:add">
         <add>
@@ -195,9 +209,7 @@
         </g>
     </xsl:template>
     <xsl:template match="cei:chDesc">
-        <msDesc>
-            <xsl:apply-templates/>
-        </msDesc>
+        <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="cei:cit">
         <cit>
@@ -311,9 +323,7 @@
         </dimensions>
     </xsl:template>
     <xsl:template match="cei:diplomaticAnalysis">
-        <diploDesc>
-            <xsl:apply-templates/>
-        </diploDesc>
+        <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="cei:div | cei:divNotes">
         <div>
@@ -426,9 +436,7 @@
                         <language ident="{$token}"/>
                     </xsl:for-each>
                 </langUsage>
-            </xsl:if>
-
-        </xsl:for-each>
+            </xsl:if> </xsl:for-each>
     </xsl:template>
     <xsl:template match="cei:lb">
         <lb>
@@ -682,9 +690,13 @@
             <xsl:apply-templates/>
         </witness>
     </xsl:template>
-    <!--<xsl:template match="cei:witnessOrig">
-        <witnessOrig><xsl:apply-templates/></witnessOrig>
-    </xsl:template>-->
+    <xsl:template match="cei:witnessOrig">
+        <witness>
+            <msDesc>
+                <xsl:apply-templates/>
+            </msDesc>
+        </witness>
+    </xsl:template>
     <xsl:template match="cei:zone">
         <zone>
             <xsl:apply-templates/>
@@ -707,66 +719,4 @@
         ]
         "/>
 -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </xsl:stylesheet>

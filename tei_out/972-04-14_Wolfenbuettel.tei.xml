@@ -8,7 +8,7 @@
         <editor>illuminierteurkunden@gmail.com</editor>
         <respStmt>
           <resp>Principal Investigator</resp>
-          <persName><forename>Georg</forename><surname>Vogeler</surname></persName>
+          <persName><forename>Georg</forename>abstr <surname>Vogeler</surname></persName>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -79,53 +79,14 @@
       </div>
     </front>
     <body>
-      <idno>972-04-14_Wolfenbuettel</idno>
       <msDesc>
-
-        <div type="abstract">
-          <p/>
-        </div>
-        <issued>
-          <placeName/>
-          <date when="9720414">972-04-14</date>
-        </issued>
-
-        <copyStatus/>
-
-
-        <physDesc>
-          <decoDesc>
-            <p/>
-          </decoDesc>
-          <material/>
-          <dimensions/>
-          <condition/>
-        </physDesc>
-        <authDesc>
-          <authen type="signed">
-            <legalActor type="notary"/>
-          </authen>
-          <seal/>
-        </authDesc>
-        <note/>
-
-        <listWit>
-          <witness>
-            <copyStatus/>
-            <physDesc>
-              <material/>
-              <dimensions/>
-              <condition/>
-            </physDesc>
-            <authDesc>
-              <seal/>
-              <authen type="signed">
-                <legalActor type="notary"/>
-              </authen>
-            </authDesc>
-            <note/>
-          </witness>
-        </listWit>
+        <msIdentifier>
+          <idno>972-04-14_Wolfenbuettel</idno>
+        </msIdentifier>
+        <msContents>
+          <summary><p/></summary>
+        </msContents>
+        <physDesc/>
         <diploDesc>
           <listBibl type="other">
             <bibl/>
@@ -145,21 +106,177 @@
           <p/>
 
           <note/>
+          <issued>
+            <placeName/>
+            <date when="9720414">972-04-14</date>
+          </issued>
+          <witness><msDesc>
+              <copyStatus/>
+
+
+              <physDesc>
+                <decoDesc>
+                  <p/>
+                </decoDesc>
+                <material/>
+                <dimensions/>
+                <condition/>
+              </physDesc>
+              <authDesc>
+                <authen type="signed">
+                  <legalActor type="notary"/>
+                </authen>
+                <seal/>
+              </authDesc>
+              <note/>
+            </msDesc></witness>
         </diploDesc>
 
+        <summary><p/></summary>
+        <issued>
+          <placeName/>
+          <date when="9720414">972-04-14</date>
+        </issued>
+        <witness><msDesc>
+            <copyStatus/>
+
+
+            <physDesc>
+              <decoDesc>
+                <p/>
+              </decoDesc>
+              <material/>
+              <dimensions/>
+              <condition/>
+            </physDesc>
+            <authDesc>
+              <authen type="signed">
+                <legalActor type="notary"/>
+              </authen>
+              <seal/>
+            </authDesc>
+            <note/>
+          </msDesc></witness>
+        <listWit>
+          <witness>
+            <copyStatus/>
+            <physDesc>
+              <material/>
+              <dimensions/>
+              <condition/>
+            </physDesc>
+            <authDesc>
+              <seal/>
+              <authen type="signed">
+                <legalActor type="notary"/>
+              </authen>
+            </authDesc>
+            <note/>
+          </witness>
+        </listWit>
+
+        <listBibl type="other">
+          <bibl/>
+        </listBibl>
+        <listBibl type="edition">
+          <bibl/>
+        </listBibl>
+        <listBibl type="regest">
+          <bibl/>
+        </listBibl>
+
+        <bibl/>
+
+        <listBibl type="unknown">
+          <bibl/>
+        </listBibl>
+        <p/>
+
+        <note/>
+
+
       </msDesc>
+      <idno>972-04-14_Wolfenbuettel</idno>
+
+
+      <summary><p/></summary>
+      <issued>
+        <placeName/>
+        <date when="9720414">972-04-14</date>
+      </issued>
+      <witness><msDesc>
+          <copyStatus/>
+
+
+          <physDesc>
+            <decoDesc>
+              <p/>
+            </decoDesc>
+            <material/>
+            <dimensions/>
+            <condition/>
+          </physDesc>
+          <authDesc>
+            <authen type="signed">
+              <legalActor type="notary"/>
+            </authen>
+            <seal/>
+          </authDesc>
+          <note/>
+        </msDesc></witness>
+      <listWit>
+        <witness>
+          <copyStatus/>
+          <physDesc>
+            <material/>
+            <dimensions/>
+            <condition/>
+          </physDesc>
+          <authDesc>
+            <seal/>
+            <authen type="signed">
+              <legalActor type="notary"/>
+            </authen>
+          </authDesc>
+          <note/>
+        </witness>
+      </listWit>
+
+      <listBibl type="other">
+        <bibl/>
+      </listBibl>
+      <listBibl type="edition">
+        <bibl/>
+      </listBibl>
+      <listBibl type="regest">
+        <bibl/>
+      </listBibl>
+
+      <bibl/>
+
+      <listBibl type="unknown">
+        <bibl/>
+      </listBibl>
+      <p/>
+
+      <note/>
+
+
+
       <div type="tenor"/>
     </body>
     <back>
       <div>
-        <persName/>
-        <placeName/>
-        <index>
-          <term/>
-        </index>
-        <div>
-          <note/>
-        </div>
+        <p>
+          <persName/>
+          <placeName/>
+          <index>
+            <term/>
+          </index>
+          <div>
+            <note/>
+          </div>
+        </p>
       </div>
     </back>
   </text>
