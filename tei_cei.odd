@@ -196,11 +196,13 @@
       </classes>
       <content>
        <alternate minOccurs="1" maxOccurs="unbounded">
+        <elementRef key="copyStatus" />
         <classRef key="model.biblLike" />
         <classRef key="model.pPart.msdesc" />
         <classRef key="model.pLike" />
         <elementRef key="history" />
         <elementRef key="additional" />
+        <elementRef key="issued" />
        </alternate> 
       </content>
      </elementSpec>

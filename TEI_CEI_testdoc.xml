@@ -72,28 +72,8 @@
 
         </front>
         <body>
-
-
-
-            <bibl xmlns="">
-
-                <ref target=""/>
-            </bibl>
-
-
-            <bibl xmlns="">
-                <ref target=""/>
-            </bibl>
-
-            <p xmlns=""/>
-
-
-
-            <idno xmlns=""/>
             <msDesc xmlns="">
-
                 <div type="abstract">
-
                     <legalActor type="recipient">
                         <foreign/>
                         <persName>
@@ -350,9 +330,11 @@
                         </bibl>
                     </listBiblErw>
                     <p>
-                        <bibl> <author>
+                        <bibl>
+                            <author>
                                 <persName/>
-                            </author> <foreign/>
+                            </author>
+                            <foreign/>
                         </bibl>
                         <lb/>
                         <hi/>
@@ -360,9 +342,11 @@
                         <ref target=""/>
                         <quote>
                             <hi/>
-                            <lb/> </quote>
+                            <lb/>
+                        </quote>
                         <foreign>
-                            <hi/> </foreign>
+                            <hi/>
+                        </foreign>
                         <persName>
                             <g/>
                         </persName>
@@ -396,6 +380,24 @@
                 </diploDesc>
                 <language/>
             </msDesc>
+
+
+
+            <bibl xmlns="">
+
+                <ref target=""/>
+            </bibl>
+
+
+            <bibl xmlns="">
+                <ref target=""/>
+            </bibl>
+
+            <p xmlns=""/>
+
+
+
+            <idno xmlns=""/>
             <div xmlns="" type="tenor">
                 <p>
                     <diploPart type="intitulatio"/>
@@ -615,57 +617,56 @@
                 </legalActor>
                 <date/>
             </div>
+        </body>
+        <back>
+            <persName>
+                <lb/>
 
-            <back xmlns="">
-                <persName>
+                <persName/>
+                <placeName/>
+                <foreign/>
+            </persName>
+
+            <placeName>
+
+                <index/>
+                <foreign> </foreign>
+            </placeName>
+            <index>
+                <foreign/>
+            </index>
+            <geogName> </geogName>
+            <div>
+                <note>
+                    <hi> </hi>
+                    <pb/>
                     <lb/>
 
-                    <persName/>
-                    <placeName/>
-                    <foreign/>
-                </persName>
-
-                <placeName>
-
-                    <index/>
+                    <corr/>
+                    <g/>
+                    <bibl/>
+                    <ref target=""/>
+                    <quote> </quote>
                     <foreign> </foreign>
-                </placeName>
-                <index>
-                    <foreign/>
-                </index>
-                <geogName> </geogName>
-                <div>
-                    <note>
-                        <hi> </hi>
+                    <persName>
                         <pb/>
                         <lb/>
-
-                        <corr/>
-                        <g/>
-                        <bibl/>
-                        <ref target=""/>
-                        <quote> </quote>
-                        <foreign> </foreign>
-                        <persName>
-                            <pb/>
-                            <lb/>
-                            <persName/>
-                            <placeName/>
-                        </persName>
-                        <placeName>
-                            <lb/>
-                        </placeName>
-                        <index>
-                            <lb/>
-                        </index>
-                        <date/>
-                        <dateRange from="" to=""/>
-                        <measure>
-                            <pb/>
-                        </measure>
-                    </note>
-                </div>
-            </back>
-        </body>
+                        <persName/>
+                        <placeName/>
+                    </persName>
+                    <placeName>
+                        <lb/>
+                    </placeName>
+                    <index>
+                        <lb/>
+                    </index>
+                    <date/>
+                    <date />
+                    <measure>
+                        <pb/>
+                    </measure>
+                </note>
+            </div>
+        </back>
     </text>
 </TEI>

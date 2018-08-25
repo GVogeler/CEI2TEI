@@ -81,8 +81,12 @@
     <body>
       <msDesc>
         <msIdentifier>
-          <idno>1177-99-99_Paris</idno>
-        </msIdentifier>
+          <settlement>Paris</settlement>, <repository>Archives nationales</repository>
+          <idno>, AE/II/181</idno> (<idno>J/168/2</idno>) und <settlement>Pontoise</settlement>,
+            <repository>Archives départementales du Val-d’Oise</repository>, <idno>9 H 81</idno>
+          <altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/">
+            <idno>1177-99-99_Paris</idno>
+          </altIdentifier></msIdentifier>
         <msContents>
           <summary><p>Chirograph des Mathieu III., Graf von Beaumont und seine Frau Eléonore de
               Vermandois einerseits, und des Abtes Geoffrey von Saint-Martin in Pontoise
@@ -92,8 +96,25 @@
               moines la justice, le past ("pastum"), les couettes ("culcitram"), et les linceuls
               ("linteamina"). </p></summary>
         </msContents>
-        <physDesc/>
+        <physDesc>
+          <decoDesc>
+            <p>An der Teilungslinie des Chirographen eine Federzeichnung eines Gekreuzigten. Die
+              Schrift nimmt auf die unregelmässigen Umrisse der Federzeichnung Rücksicht, die
+              folglich schon vor dem Schreiben des Textes geplant gewesen sein muss.</p>
+            <p>Derzeit ist mir kein weiterer Chirograph bekannt, bei dem nicht Schrift- oder andere
+              Zeichen durchtrennt werden, sondern eine figürliche Darstellung.</p>
+            <p>Martin Roland</p>
+          </decoDesc>
+          <objectDesc>
+            <supportDesc>
+              <support><material/><material/><dimensions/><dimensions/></support>
+              <condition/>
+              <condition/>
+            </supportDesc>
+          </objectDesc>
+        </physDesc>
         <diploDesc>
+          <copyStatus>Original</copyStatus>
           <listBibl type="other">
             <bibl>Bureau, Couper le corps du Christ en deux, 2001/02, S. 153 f. (<ref
                 target="http://zotero.org/groups/257864/items/DTR8TZNK">Volltitel auf
@@ -127,47 +148,18 @@
             <bibl/>
           </listBibl>
           <issued> 1177-99-99 </issued>
-          <witness><msDesc>
-              <copyStatus>Original</copyStatus>
-              <graphic/>
-              <graphic/>
-              <graphic/>
-              <settlement>Paris</settlement>, <repository>Archives nationales</repository>
-              <idno>, AE/II/181</idno> (<idno>J/168/2</idno>) und <settlement>Pontoise</settlement>,
-                <repository>Archives départementales du Val-d’Oise</repository>, <idno>9 H 81</idno>
-              <physDesc>
-                <decoDesc>
-                  <p>An der Teilungslinie des Chirographen eine Federzeichnung eines Gekreuzigten.
-                    Die Schrift nimmt auf die unregelmässigen Umrisse der Federzeichnung Rücksicht,
-                    die folglich schon vor dem Schreiben des Textes geplant gewesen sein muss.</p>
-                  <p>Derzeit ist mir kein weiterer Chirograph bekannt, bei dem nicht Schrift- oder
-                    andere Zeichen durchtrennt werden, sondern eine figürliche Darstellung.</p>
-                  <p>Martin Roland</p>
-                </decoDesc>
-                <material/>
-                <dimensions/>
-                <condition/>
-              </physDesc>
-              <authDesc>
-                <authen type="signed">
-                  <legalActor type="notary"/>
-                </authen>
-                <seal/>
-              </authDesc>
-              <note/>
-              <note type="ownership"/>
-            </msDesc></witness>
         </diploDesc>
-
-
-        <witness><msDesc>
-            <copyStatus>Original</copyStatus>
-            <graphic/>
-            <graphic/>
-            <graphic/>
-            <settlement>Paris</settlement>, <repository>Archives nationales</repository>
-            <idno>, AE/II/181</idno> (<idno>J/168/2</idno>) und <settlement>Pontoise</settlement>,
-              <repository>Archives départementales du Val-d’Oise</repository>, <idno>9 H 81</idno>
+        <authDesc>
+          <authen type="signed">
+            <legalActor type="notary"/>
+          </authen>
+          <seal/>
+        </authDesc>
+        <p><note/></p>
+        <listWit>
+          <witness>
+            <copyStatus/>
+            <msIdentifier/>
             <physDesc>
               <decoDesc>
                 <p>An der Teilungslinie des Chirographen eine Federzeichnung eines Gekreuzigten. Die
@@ -177,27 +169,13 @@
                   andere Zeichen durchtrennt werden, sondern eine figürliche Darstellung.</p>
                 <p>Martin Roland</p>
               </decoDesc>
-              <material/>
-              <dimensions/>
-              <condition/>
-            </physDesc>
-            <authDesc>
-              <authen type="signed">
-                <legalActor type="notary"/>
-              </authen>
-              <seal/>
-            </authDesc>
-            <note/>
-            <note type="ownership"/>
-          </msDesc></witness>
-        <listWit>
-          <witness>
-            <copyStatus/>
-            <msIdentifier/>
-            <physDesc>
-              <material/>
-              <dimensions/>
-              <condition/>
+              <objectDesc>
+                <supportDesc>
+                  <support><material/><material/><dimensions/><dimensions/></support>
+                  <condition/>
+                  <condition/>
+                </supportDesc>
+              </objectDesc>
             </physDesc>
             <authDesc>
               <seal/>
@@ -209,130 +187,7 @@
             <note type="ownership"/>
           </witness>
         </listWit>
-
-        <listBibl type="other">
-          <bibl>Bureau, Couper le corps du Christ en deux, 2001/02, S. 153 f. (<ref
-              target="http://zotero.org/groups/257864/items/DTR8TZNK">Volltitel auf
-            Zotero</ref>)</bibl>
-          <bibl>Zajic, Roland, Dürnstein, 2005, S. 396. Online unter <ref
-              target="http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf"
-              >http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf</ref> (<ref
-              target="http://zotero.org/groups/257864/items/4B5U7UN2">Volltitel auf
-            Zotero</ref>)</bibl>
-          <bibl>Bedos-Rezak, Cutting Edge, 2010, S. 134–161 (mit Abbildung beider Teile). (<ref
-              target="http://zotero.org/groups/257864/items/ZREZ8SHW">Volltitel auf
-            Zotero</ref>)</bibl>
-          <bibl>
-            <ref target="http://www.culture.gouv.fr/public/mistral/caran_fr"
-              >http://www.culture.gouv.fr/public/mistral/caran_fr</ref>: Suchbegriff "AE/II/181"
-            unter "Texte libre" oder "Cote".</bibl>
-        </listBibl>
-        <listBibl type="regest">
-          <bibl/>
-        </listBibl>
-
-        <bibl/>
-
-        <listBibl type="unknown">
-          <bibl/>
-        </listBibl>
-        <p/>
-
-        <note/>
-        <listBibl type="edition">
-          <bibl/>
-        </listBibl>
-
-
       </msDesc>
-
-
-
-
-      <witness>
-        <msDesc>
-          <copyStatus>Original</copyStatus>
-          <graphic/>
-          <graphic/>
-          <graphic/>
-          <settlement>Paris</settlement>, <repository>Archives nationales</repository>
-          <idno>, AE/II/181</idno> (<idno>J/168/2</idno>) und <settlement>Pontoise</settlement>,
-            <repository>Archives départementales du Val-d’Oise</repository>, <idno>9 H 81</idno>
-          <physDesc>
-            <decoDesc>
-              <p>An der Teilungslinie des Chirographen eine Federzeichnung eines Gekreuzigten. Die
-                Schrift nimmt auf die unregelmässigen Umrisse der Federzeichnung Rücksicht, die
-                folglich schon vor dem Schreiben des Textes geplant gewesen sein muss.</p>
-              <p>Derzeit ist mir kein weiterer Chirograph bekannt, bei dem nicht Schrift- oder
-                andere Zeichen durchtrennt werden, sondern eine figürliche Darstellung.</p>
-              <p>Martin Roland</p>
-            </decoDesc>
-            <material/>
-            <dimensions/>
-            <condition/>
-          </physDesc>
-          <authDesc>
-            <authen type="signed">
-              <legalActor type="notary"/>
-            </authen>
-            <seal/>
-          </authDesc>
-          <note/>
-          <note type="ownership"/>
-        </msDesc></witness>
-      <listWit>
-        <witness>
-          <copyStatus/>
-          <msIdentifier/>
-          <physDesc>
-            <material/>
-            <dimensions/>
-            <condition/>
-          </physDesc>
-          <authDesc>
-            <seal/>
-            <authen type="signed">
-              <legalActor type="notary"/>
-            </authen>
-          </authDesc>
-          <note/>
-          <note type="ownership"/>
-        </witness>
-      </listWit>
-
-      <listBibl type="other">
-        <bibl>Bureau, Couper le corps du Christ en deux, 2001/02, S. 153 f. (<ref
-            target="http://zotero.org/groups/257864/items/DTR8TZNK">Volltitel auf
-          Zotero</ref>)</bibl>
-        <bibl>Zajic, Roland, Dürnstein, 2005, S. 396. Online unter <ref
-            target="http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf"
-            >http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf</ref> (<ref
-            target="http://zotero.org/groups/257864/items/4B5U7UN2">Volltitel auf
-          Zotero</ref>)</bibl>
-        <bibl>Bedos-Rezak, Cutting Edge, 2010, S. 134–161 (mit Abbildung beider Teile). (<ref
-            target="http://zotero.org/groups/257864/items/ZREZ8SHW">Volltitel auf
-          Zotero</ref>)</bibl>
-        <bibl>
-          <ref target="http://www.culture.gouv.fr/public/mistral/caran_fr"
-            >http://www.culture.gouv.fr/public/mistral/caran_fr</ref>: Suchbegriff "AE/II/181" unter
-          "Texte libre" oder "Cote".</bibl>
-      </listBibl>
-      <listBibl type="regest">
-        <bibl/>
-      </listBibl>
-
-      <bibl/>
-
-      <listBibl type="unknown">
-        <bibl/>
-      </listBibl>
-      <p/>
-
-      <note/>
-      <listBibl type="edition">
-        <bibl/>
-      </listBibl>
-
 
 
       <div type="tenor"/>

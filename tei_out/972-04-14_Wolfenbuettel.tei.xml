@@ -78,15 +78,30 @@
 
       </div>
     </front>
-    <body><msDesc>
+    <body>
+      <msDesc>
         <msIdentifier>
-          <idno>972-04-14_Wolfenbuettel</idno>
+          <altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/">
+            <idno>972-04-14_Wolfenbuettel</idno>
+          </altIdentifier>
         </msIdentifier>
         <msContents>
           <summary><p/></summary>
         </msContents>
-        <physDesc/>
+        <physDesc>
+          <decoDesc>
+            <p/>
+          </decoDesc>
+          <objectDesc>
+            <supportDesc>
+              <support><material/><material/><dimensions/><dimensions/></support>
+              <condition/>
+              <condition/>
+            </supportDesc>
+          </objectDesc>
+        </physDesc>
         <diploDesc>
+          <copyStatus/>
           <listBibl type="other">
             <bibl/>
           </listBibl>
@@ -105,64 +120,30 @@
           <p/>
 
           <note/>
-          <issued>
-            <placeName/>
-            <date when="9720414">972-04-14</date>
-          </issued>
-          <witness><msDesc>
-              <copyStatus/>
-
-
-              <physDesc>
-                <decoDesc>
-                  <p/>
-                </decoDesc>
-                <material/>
-                <dimensions/>
-                <condition/>
-              </physDesc>
-              <authDesc>
-                <authen type="signed">
-                  <legalActor type="notary"/>
-                </authen>
-                <seal/>
-              </authDesc>
-              <note/>
-            </msDesc></witness>
+          <issued> 972-04-14 </issued>
         </diploDesc>
-
-
-        <issued>
-          <placeName/>
-          <date when="9720414">972-04-14</date>
-        </issued>
-        <witness><msDesc>
+        <authDesc>
+          <authen type="signed">
+            <legalActor type="notary"/>
+          </authen>
+          <seal/>
+        </authDesc>
+        <p><note/></p>
+        <listWit>
+          <witness>
             <copyStatus/>
-
-
+            <msIdentifier/>
             <physDesc>
               <decoDesc>
                 <p/>
               </decoDesc>
-              <material/>
-              <dimensions/>
-              <condition/>
-            </physDesc>
-            <authDesc>
-              <authen type="signed">
-                <legalActor type="notary"/>
-              </authen>
-              <seal/>
-            </authDesc>
-            <note/>
-          </msDesc></witness>
-        <listWit>
-          <witness>
-            <copyStatus/>
-            <physDesc>
-              <material/>
-              <dimensions/>
-              <condition/>
+              <objectDesc>
+                <supportDesc>
+                  <support><material/><material/><dimensions/><dimensions/></support>
+                  <condition/>
+                  <condition/>
+                </supportDesc>
+              </objectDesc>
             </physDesc>
             <authDesc>
               <seal/>
@@ -173,84 +154,9 @@
             <note/>
           </witness>
         </listWit>
-
-        <listBibl type="other">
-          <bibl/>
-        </listBibl>
-        <listBibl type="edition">
-          <bibl/>
-        </listBibl>
-        <listBibl type="regest">
-          <bibl/>
-        </listBibl>
-
-        <bibl/>
-
-        <listBibl type="unknown">
-          <bibl/>
-        </listBibl>
-        <p/>
-
-        <note/>
+      </msDesc>
 
 
-      </msDesc> 972-04-14_Wolfenbuettel <issued>
-        <placeName/>
-        <date when="9720414">972-04-14</date>
-      </issued>
-      <witness>
-        <msDesc>
-          <copyStatus/>
-
-
-          <physDesc>
-            <decoDesc>
-              <p/>
-            </decoDesc>
-            <material/>
-            <dimensions/>
-            <condition/>
-          </physDesc>
-          <authDesc>
-            <authen type="signed">
-              <legalActor type="notary"/>
-            </authen>
-            <seal/>
-          </authDesc>
-          <note/>
-        </msDesc></witness>
-      <listWit>
-        <witness>
-          <copyStatus/>
-          <physDesc>
-            <material/>
-            <dimensions/>
-            <condition/>
-          </physDesc>
-          <authDesc>
-            <seal/>
-            <authen type="signed">
-              <legalActor type="notary"/>
-            </authen>
-          </authDesc>
-          <note/>
-        </witness>
-      </listWit>
-      <listBibl type="other">
-        <bibl/>
-      </listBibl>
-      <listBibl type="edition">
-        <bibl/>
-      </listBibl>
-      <listBibl type="regest">
-        <bibl/>
-      </listBibl>
-      <bibl/>
-      <listBibl type="unknown">
-        <bibl/>
-      </listBibl>
-      <p/>
-      <note/>
       <div type="tenor"/>
     </body>
     <back>
