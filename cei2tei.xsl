@@ -90,13 +90,15 @@
                 <revisionDesc>
                     <list>
                         <xsl:for-each select="//atom:updated">
-                            <xsl:variable name="date" select="substring-before(., 'T')"/> <item>
+                            <xsl:variable name="date" select="substring-before(., 'T')"/>
+                            <item>
                                 <date when="{$date}"><xsl:value-of select="."/></date> Last checked
                                 by CAC</item>
                         </xsl:for-each>
                     </list>
                 </revisionDesc>
-            </teiHeader> <text>
+            </teiHeader>
+            <text>
                 <front>
                     <div>
                         <xsl:apply-templates select="//cei:front"/>
@@ -108,24 +110,33 @@
                             <idno>
                                 <xsl:value-of select="//cei:body/cei:idno"/>
                             </idno>
+                            <xsl:value-of select="//cei:body/cei:archIdentifier"/>
                         </msIdentifier>
                         <msContents>
-                            <xsl:apply-templates select="//cei:abstract"/>
+                            <summary>
+                                <p>
+                                    <xsl:value-of select="//cei:abstract"/>
+                                </p>
+                            </summary>
                         </msContents>
-                        <physDesc> </physDesc>
+                        <physDesc> 
+                        </physDesc>
                         <diploDesc>
                             <xsl:apply-templates select="//cei:diplomaticAnalysis"/>
-                            <xsl:apply-templates select="//cei:issued"/>
+                            <issued>
+                                <xsl:value-of select="//cei:body/cei:chDesc/cei:issued"/>
+                            </issued>
                             <xsl:apply-templates select="//cei:witnessOrig"/>
-                        </diploDesc> 
-                        <xsl:apply-templates select="//cei:chDesc"/> <!-- NEED TO EXCLUDE ITEMS ABOVE! -->
+                        </diploDesc>
+                        <xsl:apply-templates select="//cei:chDesc"/>
+                        <!-- NEED TO EXCLUDE ITEMS ABOVE! -->
                     </msDesc>
                     <xsl:apply-templates select="//cei:body"/>
                 </body>
                 <back>
                     <div>
                         <p>
-                        <xsl:apply-templates select="//cei:back"/>
+                            <xsl:apply-templates select="//cei:back"/>
                         </p>
                     </div>
                 </back>
@@ -136,11 +147,6 @@
         <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="cei:abstract">
-            <summary>
-                <p>
-                    <xsl:apply-templates/>
-                </p>
-            </summary>
     </xsl:template>
     <xsl:template match="cei:add">
         <add>
@@ -342,7 +348,7 @@
     </xsl:template>
     <!-- <xsl:template match="cei:figure">
         <figure><xsl:apply-templates/></figure>
-    </xsl:template>-->
+    </xsl:template> -->
     <xsl:template match="cei:foreign">
         <foreign>
             <xsl:apply-templates/>
@@ -383,7 +389,14 @@
             <xsl:apply-templates/>
         </hi>
     </xsl:template>
-    <xsl:template match="cei:idno">
+    <xsl:template match="cei:witness/cei:archIdentifier">
+        <msIdentifier>
+            <xsl:apply-templates/>
+        </msIdentifier>
+    </xsl:template>
+    <xsl:template match="cei:body/cei:idno">
+    </xsl:template> 
+    <xsl:template match="cei:archIdentifier/cei:idno">
         <idno>
             <xsl:apply-templates/>
         </idno>
@@ -416,10 +429,7 @@
             </term>
         </index>
     </xsl:template>
-    <xsl:template match="cei:issued">
-        <issued>
-            <xsl:apply-templates/>
-        </issued>
+    <xsl:template match="//cei:body/cei:chDesc/cei:issued">
     </xsl:template>
     <xsl:template match="cei:issuer">
         <legalActor type="issuer">
@@ -436,7 +446,8 @@
                         <language ident="{$token}"/>
                     </xsl:for-each>
                 </langUsage>
-            </xsl:if> </xsl:for-each>
+            </xsl:if>
+        </xsl:for-each>
     </xsl:template>
     <xsl:template match="cei:lb">
         <lb>

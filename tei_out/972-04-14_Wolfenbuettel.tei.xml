@@ -78,8 +78,7 @@
 
       </div>
     </front>
-    <body>
-      <msDesc>
+    <body><msDesc>
         <msIdentifier>
           <idno>972-04-14_Wolfenbuettel</idno>
         </msIdentifier>
@@ -132,7 +131,7 @@
             </msDesc></witness>
         </diploDesc>
 
-        <summary><p/></summary>
+
         <issued>
           <placeName/>
           <date when="9720414">972-04-14</date>
@@ -195,16 +194,12 @@
         <note/>
 
 
-      </msDesc>
-      <idno>972-04-14_Wolfenbuettel</idno>
-
-
-      <summary><p/></summary>
-      <issued>
+      </msDesc> 972-04-14_Wolfenbuettel <issued>
         <placeName/>
         <date when="9720414">972-04-14</date>
       </issued>
-      <witness><msDesc>
+      <witness>
+        <msDesc>
           <copyStatus/>
 
 
@@ -241,7 +236,6 @@
           <note/>
         </witness>
       </listWit>
-
       <listBibl type="other">
         <bibl/>
       </listBibl>
@@ -251,18 +245,12 @@
       <listBibl type="regest">
         <bibl/>
       </listBibl>
-
       <bibl/>
-
       <listBibl type="unknown">
         <bibl/>
       </listBibl>
       <p/>
-
       <note/>
-
-
-
       <div type="tenor"/>
     </body>
     <back>
