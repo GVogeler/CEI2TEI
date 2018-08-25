@@ -89,9 +89,6 @@
           <summary><p/></summary>
         </msContents>
         <physDesc>
-          <decoDesc>
-            <p/>
-          </decoDesc>
           <objectDesc>
             <supportDesc>
               <support><material/><material/><dimensions/><dimensions/></support>
@@ -99,6 +96,9 @@
               <condition/>
             </supportDesc>
           </objectDesc>
+          <decoDesc>
+            <p/>
+          </decoDesc>
         </physDesc>
         <diploDesc>
           <copyStatus/>
@@ -130,29 +130,26 @@
         </authDesc>
         <p><note/></p>
         <listWit>
-          <witness>
-            <copyStatus/>
-            <msIdentifier/>
-            <physDesc>
-              <decoDesc>
-                <p/>
-              </decoDesc>
-              <objectDesc>
-                <supportDesc>
-                  <support><material/><material/><dimensions/><dimensions/></support>
-                  <condition/>
-                  <condition/>
-                </supportDesc>
-              </objectDesc>
-            </physDesc>
-            <authDesc>
-              <seal/>
-              <authen type="signed">
-                <legalActor type="notary"/>
-              </authen>
-            </authDesc>
-            <note/>
-          </witness>
+          <witness><msDesc>
+              <msIdentifier>
+                <msIdentifier/>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support><material/><material/><dimensions/><dimensions/></support>
+                    <condition/>
+                    <condition/>
+                  </supportDesc>
+                </objectDesc>
+                <decoDesc>
+                  <p/>
+                </decoDesc>
+              </physDesc>
+              <diploDesc>
+                <copyStatus/>
+              </diploDesc>
+            </msDesc></witness>
         </listWit>
       </msDesc>
 

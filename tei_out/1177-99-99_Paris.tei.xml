@@ -97,6 +97,13 @@
               ("linteamina"). </p></summary>
         </msContents>
         <physDesc>
+          <objectDesc>
+            <supportDesc>
+              <support><material/><material/><dimensions/><dimensions/></support>
+              <condition/>
+              <condition/>
+            </supportDesc>
+          </objectDesc>
           <decoDesc>
             <p>An der Teilungslinie des Chirographen eine Federzeichnung eines Gekreuzigten. Die
               Schrift nimmt auf die unregelmässigen Umrisse der Federzeichnung Rücksicht, die
@@ -105,13 +112,6 @@
               Zeichen durchtrennt werden, sondern eine figürliche Darstellung.</p>
             <p>Martin Roland</p>
           </decoDesc>
-          <objectDesc>
-            <supportDesc>
-              <support><material/><material/><dimensions/><dimensions/></support>
-              <condition/>
-              <condition/>
-            </supportDesc>
-          </objectDesc>
         </physDesc>
         <diploDesc>
           <copyStatus>Original</copyStatus>
@@ -157,35 +157,31 @@
         </authDesc>
         <p><note/></p>
         <listWit>
-          <witness>
-            <copyStatus/>
-            <msIdentifier/>
-            <physDesc>
-              <decoDesc>
-                <p>An der Teilungslinie des Chirographen eine Federzeichnung eines Gekreuzigten. Die
-                  Schrift nimmt auf die unregelmässigen Umrisse der Federzeichnung Rücksicht, die
-                  folglich schon vor dem Schreiben des Textes geplant gewesen sein muss.</p>
-                <p>Derzeit ist mir kein weiterer Chirograph bekannt, bei dem nicht Schrift- oder
-                  andere Zeichen durchtrennt werden, sondern eine figürliche Darstellung.</p>
-                <p>Martin Roland</p>
-              </decoDesc>
-              <objectDesc>
-                <supportDesc>
-                  <support><material/><material/><dimensions/><dimensions/></support>
-                  <condition/>
-                  <condition/>
-                </supportDesc>
-              </objectDesc>
-            </physDesc>
-            <authDesc>
-              <seal/>
-              <authen type="signed">
-                <legalActor type="notary"/>
-              </authen>
-            </authDesc>
-            <note/>
-            <note type="ownership"/>
-          </witness>
+          <witness><msDesc>
+              <msIdentifier>
+                <msIdentifier/>
+              </msIdentifier>
+              <physDesc>
+                <objectDesc>
+                  <supportDesc>
+                    <support><material/><material/><dimensions/><dimensions/></support>
+                    <condition/>
+                    <condition/>
+                  </supportDesc>
+                </objectDesc>
+                <decoDesc>
+                  <p>An der Teilungslinie des Chirographen eine Federzeichnung eines Gekreuzigten.
+                    Die Schrift nimmt auf die unregelmässigen Umrisse der Federzeichnung Rücksicht,
+                    die folglich schon vor dem Schreiben des Textes geplant gewesen sein muss.</p>
+                  <p>Derzeit ist mir kein weiterer Chirograph bekannt, bei dem nicht Schrift- oder
+                    andere Zeichen durchtrennt werden, sondern eine figürliche Darstellung.</p>
+                  <p>Martin Roland</p>
+                </decoDesc>
+              </physDesc>
+              <diploDesc>
+                <copyStatus/>
+              </diploDesc>
+            </msDesc></witness>
         </listWit>
       </msDesc>
 
@@ -198,19 +194,13 @@
           <persName/>
           <placeName>Frankreich</placeName>
           <index>
-            <term indexName="illurk-vocabulary"><xs:attribute
-                xmlns:xs="http://www.w3.org/2001/XMLSchema" name="lemma"
-              >Historiated</xs:attribute>N1: historisiert</term>
+            <term indexName="illurk-vocabulary" key="Historiated">N1: historisiert</term>
           </index>
           <index>
-            <term indexName="illurk-vocabulary"><xs:attribute
-                xmlns:xs="http://www.w3.org/2001/XMLSchema" name="lemma"
-                >ExecutionDraw</xs:attribute>N1: gezeichnet</term>
+            <term indexName="illurk-vocabulary" key="ExecutionDraw">N1: gezeichnet</term>
           </index>
           <index>
-            <term indexName="illurk-vocabulary"><xs:attribute
-                xmlns:xs="http://www.w3.org/2001/XMLSchema" name="lemma">Borders</xs:attribute>N1:
-              Randdekor</term>
+            <term indexName="illurk-vocabulary" key="Borders">N1: Randdekor</term>
           </index>
           <div>
             <note/>
