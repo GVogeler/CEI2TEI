@@ -62,13 +62,17 @@
                     <sourceDesc>
                         <xsl:for-each
                             select="//cei:sourceDesc | cei:sourceDescRegest | cei:sourceDescVolltext | cei:sourceDescErw">
-                            <p>
-                                <xsl:value-of select="cei:bibl"/>
-                            </p>
+                            <xsl:apply-templates select="cei:bibl"/>
                         </xsl:for-each>
-                        <idno type="Monasterium" xml:id="monasterium">
+<!--                        <idno type="Monasterium" xml:id="monasterium">
                             <xsl:value-of select="//atom:id"/>
-                        </idno>
+                        </idno>-->
+                        <listWit>
+                            <xsl:call-template name="original_witness"/>
+                            <xsl:if test="//cei:chDesc/cei:witListPar//*[. != '']">
+                                <xsl:apply-templates select="//cei:chDesc/cei:witListPar"/>
+                            </xsl:if>
+                        </listWit>
                     </sourceDesc>
                 </fileDesc>
                 <encodingDesc>
@@ -99,55 +103,55 @@
                 </revisionDesc>
             </teiHeader>
             <text>
-                <front>
-                    <div>
-                        <xsl:apply-templates select="//cei:front"/>
-                    </div>
-                </front>
+                <xsl:apply-templates select="//cei:front"/>
                 <body>
-                    <msDesc>
-                        <msIdentifier>
-                            <idno>
-                                <xsl:value-of select="//cei:body/cei:idno"/>
-                            </idno>
-                            <xsl:value-of select="//cei:body/cei:archIdentifier"/>
-                        </msIdentifier>
-                        <msContents>
-                            <summary>
-                                <p>
-                                    <xsl:value-of select="//cei:abstract"/>
-                                </p>
-                            </summary>
-                        </msContents>
-                        <physDesc> 
-                        </physDesc>
-                        <diploDesc>
-                            <xsl:apply-templates select="//cei:diplomaticAnalysis"/>
-                            <issued>
-                                <xsl:value-of select="//cei:body/cei:chDesc/cei:issued"/>
-                            </issued>
-                            <xsl:apply-templates select="//cei:witnessOrig"/>
-                        </diploDesc>
-                        <xsl:apply-templates select="//cei:chDesc"/>
-                        <!-- NEED TO EXCLUDE ITEMS ABOVE! -->
-                    </msDesc>
                     <xsl:apply-templates select="//cei:body"/>
                 </body>
-                <back>
-                    <div>
-                        <p>
-                            <xsl:apply-templates select="//cei:back"/>
-                        </p>
-                    </div>
-                </back>
+                <xsl:apply-templates select="//cei:back"/>
             </text>
         </TEI>
     </xsl:template>
+    <xsl:template name="original_witness">
+        <witness>
+            <msDesc>
+                <msIdentifier>
+                    <xsl:apply-templates select="//cei:witnessOrig/cei:archIdentifier"/>
+                    <altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/">
+                        <idno>
+                            <xsl:value-of select="//cei:body/cei:idno"/>
+                        </idno>
+                    </altIdentifier>
+                </msIdentifier>
+                <msContents>
+                            <xsl:apply-templates select="//cei:abstract"/>
+                </msContents>
+                <xsl:apply-templates select="//cei:witnessOrig/cei:physicalDesc"/>
+                <diploDesc>
+                    <xsl:apply-templates select="//cei:witnessOrig/cei:traditioForm"/>
+                    <xsl:apply-templates select="//cei:diplomaticAnalysis"/>
+                    <issued>
+                        <xsl:value-of select="//cei:body/cei:chDesc/cei:issued"/>
+                    </issued>
+                </diploDesc>
+                <xsl:apply-templates select="//cei:witnessOrig/cei:auth"/>
+                <!-- There are  cei:figure tags in witnessOrig that need to be moved to facsimile (no anchors neeeded?) -->
+            </msDesc>
+        </witness>
+    </xsl:template>
     <xsl:template match="cei:front">
-        <xsl:apply-templates/>
+        <front>
+            <div>
+                <xsl:apply-templates select="cei:p"/>
+                <xsl:call-template name="p_in_div"/>
+            </div>
+        </front>
     </xsl:template>
     <xsl:template match="cei:abstract">
-    </xsl:template>
+        <summary>
+            <p>
+                <xsl:apply-templates/>
+            </p>
+        </summary></xsl:template>
     <xsl:template match="cei:add">
         <add>
             <xsl:apply-templates/>
@@ -173,17 +177,17 @@
             <xsl:apply-templates/>
         </collection>
     </xsl:template>
-    <xsl:template match="cei:archIdenfier">
-        <msIdentifier>
-            <xsl:apply-templates/>
-        </msIdentifier>
-    </xsl:template>
     <xsl:template match="cei:arenga">
         <diploPart type="arenga">
             <xsl:apply-templates/>
         </diploPart>
     </xsl:template>
-    <xsl:template match="cei:auth">
+    <xsl:template match="cei:witness/cei:auth">
+        <authDesc>
+            <xsl:apply-templates/>
+        </authDesc>
+    </xsl:template>
+    <xsl:template match="cei:witnessOrig/cei:auth">
         <authDesc>
             <xsl:apply-templates/>
         </authDesc>
@@ -199,7 +203,12 @@
         </availability>
     </xsl:template>
     <xsl:template match="cei:back">
-        <xsl:apply-templates/>
+        <back>
+            <div>
+                <xsl:apply-templates select="cei:p"/>
+                <xsl:call-template name="p_in_div"/>
+            </div>
+        </back>
     </xsl:template>
     <xsl:template match="cei:bibl">
         <bibl>
@@ -215,7 +224,7 @@
         </g>
     </xsl:template>
     <xsl:template match="cei:chDesc">
-        <xsl:apply-templates/>
+        <!--    <xsl:apply-templates/> -->
     </xsl:template>
     <xsl:template match="cei:cit">
         <cit>
@@ -333,7 +342,8 @@
     </xsl:template>
     <xsl:template match="cei:div | cei:divNotes">
         <div>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="cei:p"/>
+            <xsl:call-template name="p_in_div"/>
         </div>
     </xsl:template>
     <xsl:template match="cei:expan">
@@ -389,13 +399,23 @@
             <xsl:apply-templates/>
         </hi>
     </xsl:template>
-    <xsl:template match="cei:witness/cei:archIdentifier">
-        <msIdentifier>
-            <xsl:apply-templates/>
-        </msIdentifier>
+    <xsl:template match="cei:witnessOrig/cei:archIdentifier">
+        <xsl:apply-templates select="cei:country"/>
+        <xsl:apply-templates select="cei:region"/>
+        <xsl:apply-templates select="cei:settlement"/>
+        <xsl:apply-templates select="cei:arch | cei:repository"/>
+        <xsl:apply-templates select="cei:archFond"/>
+        <xsl:apply-templates select="cei:archIdentifier/cei:idno"/>
     </xsl:template>
-    <xsl:template match="cei:body/cei:idno">
-    </xsl:template> 
+    <xsl:template match="cei:witness/cei:archIdentifier">
+        <xsl:apply-templates select="cei:country"/>
+        <xsl:apply-templates select="cei:region"/>
+        <xsl:apply-templates select="cei:settlement"/>
+        <xsl:apply-templates select="cei:arch | cei:repository"/>
+        <xsl:apply-templates select="cei:archFond"/>
+        <xsl:apply-templates select="cei:archIdentifier/cei:idno"/>
+    </xsl:template>
+    <xsl:template match="cei:body/cei:idno"> </xsl:template>
     <xsl:template match="cei:archIdentifier/cei:idno">
         <idno>
             <xsl:apply-templates/>
@@ -414,23 +434,22 @@
     </xsl:template>
     <xsl:template match="cei:index">
         <index>
+            <xsl:if test="@indexName">
+                <xsl:attribute name="indexName">
+                    <xsl:value-of select="@indexName"/>
+                </xsl:attribute>
+            </xsl:if>
             <term>
-                <xsl:if test="@indexName">
-                    <xsl:attribute name="indexName">
-                        <xsl:value-of select="@indexName"/>
-                    </xsl:attribute>
-                </xsl:if>
                 <xsl:if test="@lemma">
-                    <xs:attribute name="lemma">
+                    <xsl:attribute name="key">
                         <xsl:value-of select="@lemma"/>
-                    </xs:attribute>
+                    </xsl:attribute>
                 </xsl:if>
                 <xsl:apply-templates/>
             </term>
         </index>
     </xsl:template>
-    <xsl:template match="//cei:body/cei:chDesc/cei:issued">
-    </xsl:template>
+    <xsl:template match="//cei:body/cei:chDesc/cei:issued"> </xsl:template>
     <xsl:template match="cei:issuer">
         <legalActor type="issuer">
             <xsl:apply-templates/>
@@ -497,7 +516,12 @@
             <xsl:apply-templates/>
         </measure>
     </xsl:template>
-    <xsl:template match="cei:nota | cei:note">
+    <xsl:template match="cei:witness/cei:nota | cei:witnessOrig/cei:nota">
+        <additions>
+            <xsl:apply-templates/>
+        </additions>
+    </xsl:template>
+    <xsl:template match="cei:note">
         <note>
             <xsl:apply-templates/>
         </note>
@@ -543,9 +567,34 @@
             <xsl:apply-templates/>
         </persName>
     </xsl:template>
-    <xsl:template match="cei:physicalDesc">
+    <xsl:template match="cei:witness/cei:physicalDesc">
         <physDesc>
-            <xsl:apply-templates/>
+            <objectDesc>
+                <supportDesc>
+                    <support>
+                        <xsl:apply-templates select="cei:material"/>
+                        <xsl:apply-templates select="cei:dimensions"/>
+                    </support>
+                    <xsl:apply-templates select="cei:condition"/>
+                </supportDesc>
+            </objectDesc>
+            <xsl:apply-templates select="cei:decoDesc"/>
+            <xsl:apply-templates select="cei:witness/cei:nota"/>
+        </physDesc>
+    </xsl:template>
+    <xsl:template match="cei:witnessOrig/cei:physicalDesc">
+        <physDesc>
+            <objectDesc>
+                <supportDesc>
+                    <support>
+                        <xsl:apply-templates select="cei:material"/>
+                        <xsl:apply-templates select="cei:dimensions"/>
+                    </support>
+                    <xsl:apply-templates select="cei:condition"/>
+                </supportDesc>
+            </objectDesc>
+            <xsl:apply-templates select="cei:decoDesc"/>
+            <xsl:apply-templates select="cei:witnessOrig/cei:nota"/>
         </physDesc>
     </xsl:template>
     <!--    <xsl:template match="cei:pict">
@@ -619,12 +668,12 @@
         <seal>
             <xsl:apply-templates/>
         </seal>
-    </xsl:template>
+    </xsl:template><!--
     <xsl:template match="cei:sealDesc">
         <seal>
             <xsl:apply-templates/>
-        </seal>
-    </xsl:template>
+        </seal>-->
+    <!--</xsl:template>-->
     <!--<xsl:template match="cei:setPhrase">
         <setPhrase><xsl:apply-templates/></setPhrase>
     </xsl:template>-->
@@ -665,7 +714,9 @@
     </xsl:template>
     <xsl:template match="cei:tenor">
         <div type="tenor">
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="cei:pTenor"/>
+            <xsl:apply-templates select="cei:p"/>
+            <xsl:call-template name="p_in_div"/>
         </div>
     </xsl:template>
     <xsl:template match="cei:testis">
@@ -673,7 +724,12 @@
             <xsl:apply-templates/>
         </legalActor>
     </xsl:template>
-    <xsl:template match="cei:traditioForm">
+    <xsl:template match="cei:witnessOrig/cei:traditioForm">
+        <copyStatus type="original">
+            <xsl:apply-templates/>
+        </copyStatus>
+    </xsl:template>
+    <xsl:template match="cei:witness/cei:traditioForm">
         <copyStatus>
             <xsl:apply-templates/>
         </copyStatus>
@@ -691,22 +747,36 @@
             <xsl:apply-templates/>
         </width>
     </xsl:template>
-    <xsl:template match="cei:witListPar">
+    <xsl:template match="cei:chDesc/cei:witListPar">
+            <xsl:apply-templates/>
+    </xsl:template>
+<!--    <xsl:template match="cei:witListPar">
         <listWit>
             <xsl:apply-templates/>
-        </listWit>
-    </xsl:template>
+        </listWit>-->
+    <!--</xsl:template>-->
     <xsl:template match="cei:witness">
         <witness>
-            <xsl:apply-templates/>
+            <msDesc>
+                <msIdentifier>
+                    <xsl:apply-templates select="cei:witness/cei:archIdentifier"/>
+                </msIdentifier>
+                <xsl:apply-templates select="cei:physicalDesc"/>
+                <diploDesc>
+                    <xsl:apply-templates select="cei:traditioForm"/>
+                </diploDesc>
+                <xsl:apply-templates select="cei:witness/cei:auth"/>
+                <xsl:apply-templates select="cei:witness/cei:rubrum"/>
+                <xsl:apply-templates select="cei:witness/cei:figure"/>
+            </msDesc>
         </witness>
     </xsl:template>
     <xsl:template match="cei:witnessOrig">
-        <witness>
+        <!--<witness>
             <msDesc>
                 <xsl:apply-templates/>
             </msDesc>
-        </witness>
+        </witness>-->
     </xsl:template>
     <xsl:template match="cei:zone">
         <zone>
@@ -717,17 +787,25 @@
         <xsl:value-of select="."/>
     </xsl:template>
     <!-- add back in when applying to actual files
-    <xsl:template match=
-        "*[not(node())]
-        |
-        *[not(node()[2])
-        and
-        node()/self::text()
-        and
-        not(normalize-space())
-        and
-        not(@*)
-        ]
-        "/>
--->
+    <xsl:template
+        match="
+            *[not(node())]
+            |
+            *[not(node()[2])
+            and
+            node()/self::text()
+            and
+            not(normalize-space())
+            and
+            not(@*)
+            ]
+            "/>
+ -->
+    <xsl:template name="p_in_div">
+        <p>
+            <xsl:for-each select="*[not(cei:pTenor | cei:p)]">
+                <xsl:apply-templates/>
+            </xsl:for-each>
+        </p>
+    </xsl:template>
 </xsl:stylesheet>
