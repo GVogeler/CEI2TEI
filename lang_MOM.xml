@@ -2,102 +2,102 @@
 <lang_Mom_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<lang_MOM_entry>
 		<lang_mom>Deutsch, Latein</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>deutsch</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latein</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsche Version</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsche Fassung</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>deutsche Version</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lateinische Version</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat.</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat. </lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Gaming</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch/Latein</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>französisch </lang_mom>
-		<lang_iso>fra</lang_iso>
+		<lang_iso>fr</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom> Latein</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom> Italienisch</lang_mom>
-		<lang_iso>ita</lang_iso>
+		<lang_iso>it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>(des Originales:) Latein; (der Übersetzung:) Deutsch</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latein</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>(in tschechischer Sprache)</lang_mom>
-		<lang_iso>ces</lang_iso>
+		<lang_iso>cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>hebräisch</lang_mom>
-		<lang_iso>heb</lang_iso>
+		<lang_iso>he</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>de.</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Lat. u. Deutsch.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat., dt.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Ungarisch</lang_mom>
-		<lang_iso>hun</lang_iso>
+		<lang_iso>hu</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latein/Deutsch</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Tschechisch</lang_mom>
-		<lang_iso>ces</lang_iso>
+		<lang_iso>cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Klosterneuburg</lang_mom>
@@ -107,544 +107,544 @@
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>deutsch?</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>deutsch/Latein</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>(des Originales:) Latein, (der Übersetzung:) Deutsch</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latein, Deutsch, Tschechisch</lang_mom>
-		<lang_iso>lat, deu, ces</lang_iso>
+		<lang_iso>la, de, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>tschechisch</lang_mom>
-		<lang_iso>ces</lang_iso>
+		<lang_iso>cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Keine Angabe</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latein, Deutsch</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch; Latein</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latein; Deutsch</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Original: wohl Tschechisch; Deutsch</lang_mom>
-		<lang_iso>ces, deu</lang_iso>
+		<lang_iso>cs, deu</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>(des Briefes von 1762:) Deutsch</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch (?)</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Keine Angabe.</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>wohl Deutsch und Latein (?)</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>10 Pergamentblätter in Papierumschlag</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latein und Deutsch</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch/ Latein</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch, mit Ausnahme der lateinischen Jahresangabe: Anno Domini millesimo quadringentesimo vicesimonono am Ende der Urkunde und dem Kanzleivermerk rechts darunter: d(ominus) dux p(er) se ipsum (gewöhnlich lautete die Formel: Ad mandatum domini ..).</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch mit Ausnahme der lateinischen Jahresangabe: Anno Domini millesimo quadringentesimo vicesimonono am Ende der Urkunden-Abschrift und dem Kanzleivermerk rechts darunter: d(ominus) dux p(er) se ipsum im oberen Teil (gewöhnlich lautete die Formel: Ad mandatum domini ..).</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch mit Ausnahme des lateinischen Kanzleivermerks auf der Plika rechts unten: Ad mandatum domini Imperatoris proprium.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch mit Ausnahme des lateinischen Kanzleivermerks auf der Plika rechts unten: Ad mandatum domini Regis proprium.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch, nur die Beglaubigung durch Notar Muttinger in lateinischer Sprache.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch, die Beglaubigung des Notars Jakob Muttinger in Latein.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch, Beglaubigung des Notars Jakob Muttinger in Latein.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Lateinische Einleitung des Notars Johannes, danach die Verleihung der Freiheitsrechte durch Herzog Heinrich und deren Bestätigung durch Herzog Albrecht in deutscher Sprache, der abschließende Teil wiederum lateinisch.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch, nur Einleitungssatz am Spiegel des Vorderdeckels, Jahresangaben S. 1r und v, 2r sowie 15r jeweils oben, und die Endsumme der Einnahmen am Spiegel des Hinterdeckels lateinisch.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latein, deutsch</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch mit Ausnahme des letzten Satzes, der auf Latein verfasst wurde.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch mit Ausnahme einer später vom Pfarrer in lateinischer Sprache angebrachten Randnotiz, dass der Richter die Entschuldigung nicht richtig widergab und der Beschuldigte den Pfarrer niemals aufgesucht hat, sondern in seiner Hartnäckigkeit verblieben ist.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch, Hinterdeckel aus einer älteren Handschrift lateinisch.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch mit Ausnahme der Schlussbemerkung: "Ita est. Ego Petrus ut supra .. "</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch mit Ausnahme der lateinischen Bestätigung des Notars Jakob Muttinger, dass die Abschrift mit dem Original wörtlich übereinstimmt.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom> Das innere Hölltallehen im Navis</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deusch</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch (bis auf die Jahreszahl)</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Siehe: Urkunde N° 90.</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Lateinische Sprache</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>darumbe so geben die Aussteller den Käufern und ihren Erben disen brief , . . versigilt mit ihres perchmaisters und perchherren insigiln, hern Gerungs des Choln und hern Nichlas in dem Perchhof, und mit hern Dietreichs insigil dez Vrbaetschen, zu den [58] zeiten mu/ensmaister ze Wienne, und mit hern Seyfrits insigil dez Minngangs, die diser sache gezeuge sint mit irn insigiln. ... Geben ze Wienne, nach Christes gepurt dreutzehen hundert jar, darnach in dem neununddreizgisten jar, dez naechsten suntages nach dem ostertage.</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Altserbisch.</lang_mom>
-		<lang_iso>chu</lang_iso>
+		<lang_iso>cu</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Altitalienisch.</lang_mom>
-		<lang_iso>ita</lang_iso>
+		<lang_iso>it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latein; Unterschrift Altserbisch.</lang_mom>
-		<lang_iso>lat, chu</lang_iso>
+		<lang_iso>la, cu</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Die Abschrift vom 18. Jh gibt den Text in der zeitgenössischen russischslawischen Sprache wieder. In den Editionen von Miklosich und Safarik (übernommen von Novakovic in Zakonski spomenici) wurden die Formen der altserbischen Sprache des 14. Jhs. angepasst.</lang_mom>
-		<lang_iso>rus, chu</lang_iso>
+		<lang_iso>ru, cu</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latein?</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>română (grafie chirilică)</lang_mom>
-		<lang_iso>ron-Cyr</lang_iso>
+		<lang_iso>ro-Cyr</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>(A) Latein. - (B) Deutsch.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>A1 Latein. - A2 Deutsch.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>čes.</lang_mom>
-		<lang_iso>ces</lang_iso>
+		<lang_iso>cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>něm.</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat., něm. (insert)</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat. b)</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>čes.(překlad z latiny)</lang_mom>
-		<lang_iso>ces, lat</lang_iso>
+		<lang_iso>cs, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>čes. (překlad z latiny)</lang_mom>
-		<lang_iso>ces, lat</lang_iso>
+		<lang_iso>cs, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>čes. b)</lang_mom>
-		<lang_iso>ces</lang_iso>
+		<lang_iso>cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>něm. a)</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>něm. </lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat. d)</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>česky</lang_mom>
-		<lang_iso>ces</lang_iso>
+		<lang_iso>cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německy</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinský</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>český</lang_mom>
-		<lang_iso>ces</lang_iso>
+		<lang_iso>cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>italsky, latinsky</lang_mom>
-		<lang_iso>ita, lat</lang_iso>
+		<lang_iso>it, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>italsky</lang_mom>
-		<lang_iso>ita</lang_iso>
+		<lang_iso>it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky, německy</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>(italský), latinsky</lang_mom>
-		<lang_iso>ita, lat</lang_iso>
+		<lang_iso>it, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německy, česky</lang_mom>
-		<lang_iso>deu,ces</lang_iso>
+		<lang_iso>de,cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německý</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německy, latinsky</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>cesky</lang_mom>
-		<lang_iso>ces</lang_iso>
+		<lang_iso>cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky, český</lang_mom>
-		<lang_iso>lat, ces</lang_iso>
+		<lang_iso>la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky /německý/</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německy /zajímavý jazyk/</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky a německy z konce 15. stol.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky, česky</lang_mom>
-		<lang_iso>lat, ces</lang_iso>
+		<lang_iso>la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky, italsky</lang_mom>
-		<lang_iso>lat, ita</lang_iso>
+		<lang_iso>la, it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinský, italský</lang_mom>
-		<lang_iso>lat, ita</lang_iso>
+		<lang_iso>la, it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinský, český</lang_mom>
-		<lang_iso>lat, ces</lang_iso>
+		<lang_iso>la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinský, německý</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>český, německý</lang_mom>
-		<lang_iso>ces, deu</lang_iso>
+		<lang_iso>cs, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německý, zdobený zlatým písmem</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německý, zdobený</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německý, latinský</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinský, zdobený zlatými písmeny</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky/česky</lang_mom>
-		<lang_iso>lat, ces</lang_iso>
+		<lang_iso>la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky/český</lang_mom>
-		<lang_iso>lat, ces</lang_iso>
+		<lang_iso>la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>česky?</lang_mom>
-		<lang_iso>ces</lang_iso>
+		<lang_iso>cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>česky, německy</lang_mom>
-		<lang_iso>ces, deu</lang_iso>
+		<lang_iso>cs, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>česky a latinsky</lang_mom>
-		<lang_iso>ces, lat</lang_iso>
+		<lang_iso>cs, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky i česky</lang_mom>
-		<lang_iso>lat, ces</lang_iso>
+		<lang_iso>la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>česky, pouze listina č. 3 latinsky</lang_mom>
-		<lang_iso>ces, lat</lang_iso>
+		<lang_iso>cs, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>chorvatsky</lang_mom>
-		<lang_iso>hrv</lang_iso>
+		<lang_iso>hr</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>česky (insert latinsky)</lang_mom>
-		<lang_iso>ces, lat</lang_iso>
+		<lang_iso>cs, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>česky(latinsky)</lang_mom>
-		<lang_iso>ces, lat</lang_iso>
+		<lang_iso>cs, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německy, inzert česky</lang_mom>
-		<lang_iso>deu, ces</lang_iso>
+		<lang_iso>de, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>česky /latinsky/</lang_mom>
-		<lang_iso>ces, lat</lang_iso>
+		<lang_iso>cs, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německy, latinsky, česky</lang_mom>
-		<lang_iso>deu, lat, ces</lang_iso>
+		<lang_iso>de, la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>italsko-latinsky</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky (něm.)</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky, (2. insert italsky)</lang_mom>
-		<lang_iso>lat, ita</lang_iso>
+		<lang_iso>la, it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>francouzsky</lang_mom>
-		<lang_iso>fra</lang_iso>
+		<lang_iso>fr</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky (insert česky)</lang_mom>
-		<lang_iso>lat, ces</lang_iso>
+		<lang_iso>la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky (inserty německy)</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky, notářské ověření německé</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky (německy)</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německy (insert latinsky)</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německy (insert česky)</lang_mom>
-		<lang_iso>deu, ces</lang_iso>
+		<lang_iso>de, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německy (1. insert latinsky, v 2. insertu část česky)</lang_mom>
-		<lang_iso>deu, lat, ces</lang_iso>
+		<lang_iso>de, la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>listiny 1.-3. latinsky, 4. česky</lang_mom>
-		<lang_iso>lat, ces</lang_iso>
+		<lang_iso>la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německy, inserty latinsky, česky</lang_mom>
-		<lang_iso>deu, lat, ces</lang_iso>
+		<lang_iso>de, la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>něměcky</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky; inzerovaná listina česky</lang_mom>
-		<lang_iso>lat, ces</lang_iso>
+		<lang_iso>la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky, (česky)</lang_mom>
-		<lang_iso>lat, ces</lang_iso>
+		<lang_iso>la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>italsky, (latinsky)</lang_mom>
-		<lang_iso>ita, lat</lang_iso>
+		<lang_iso>it, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky, (italsky)</lang_mom>
-		<lang_iso>lat, ita</lang_iso>
+		<lang_iso>la, it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>česky, insert latinsky</lang_mom>
-		<lang_iso>ces, lat</lang_iso>
+		<lang_iso>cs, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>česky, latinsky</lang_mom>
-		<lang_iso>ces, lat</lang_iso>
+		<lang_iso>cs, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>pergamen</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky a italsky</lang_mom>
-		<lang_iso>lat, ita,</lang_iso>
+		<lang_iso>la, it,</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>česky; ověřovací doložka německy</lang_mom>
-		<lang_iso>ces, deu</lang_iso>
+		<lang_iso>cs, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>česky; část insertů latinsky; 4. insert německy</lang_mom>
-		<lang_iso>ces, lat, deu</lang_iso>
+		<lang_iso>cs, la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německy, insert latinsky</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německy (latinské a české inserty)</lang_mom>
-		<lang_iso>deu, lat, ces</lang_iso>
+		<lang_iso>de, la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latina</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>čeština</lang_mom>
-		<lang_iso>ces</lang_iso>
+		<lang_iso>cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latina a čeština</lang_mom>
-		<lang_iso>lat, ces</lang_iso>
+		<lang_iso>la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latina, čeština</lang_mom>
-		<lang_iso>lat, ces</lang_iso>
+		<lang_iso>la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>němčina</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>čeština, němčina</lang_mom>
-		<lang_iso>ces, deu</lang_iso>
+		<lang_iso>cs, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky (Jan Lucemburský, Zikmund Lucemburský), německy (Václav IV.)</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>česky, německy, latinsky</lang_mom>
-		<lang_iso>cces, deu, lat</lang_iso>
+		<lang_iso>cs, de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německy, (latinsky)</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>čeština, latina, trans.</lang_mom>
-		<lang_iso>ces, lat</lang_iso>
+		<lang_iso>cs, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>němčina, latina, čeština</lang_mom>
-		<lang_iso>deu, lat, ces</lang_iso>
+		<lang_iso>de, la, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latina, čeština, němčina</lang_mom>
-		<lang_iso>lat, ces, deu</lang_iso>
+		<lang_iso>la, cs, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latina a němčina</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>němčina-čeština-latina</lang_mom>
-		<lang_iso>deu, ces, lat</lang_iso>
+		<lang_iso>de, cs, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latina, němčina, čeština</lang_mom>
-		<lang_iso>lat, deu, ces</lang_iso>
+		<lang_iso>la, de, cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>bulharsky</lang_mom>
@@ -652,71 +652,71 @@
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky a německy</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinsky, česky, německy</lang_mom>
-		<lang_iso>lat, ces, deu</lang_iso>
+		<lang_iso>la, cs, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německy a latinsky</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>německo</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>česky a německy</lang_mom>
-		<lang_iso>ces, deu</lang_iso>
+		<lang_iso>cs, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lateinisch</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lateinsch</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt.</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>deutsch </lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>deutsch; lateinisch</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lateinisch, deutsch </lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lateinisch </lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>deutsch, lateinisches Transsumpt</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>deutsch / lateinisch</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>deutsch, lateinisch</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>deutsch und latein</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>deutsch; tschechisch</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Niederdeutsch</lang_mom>
@@ -744,97 +744,97 @@
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt. Perg.</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat. u. dt.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat. Perg.</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat. Pap.</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>.</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Lat.</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lst.</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat. (Bullatica)</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>ital.</lang_mom>
-		<lang_iso>ita</lang_iso>
+		<lang_iso>it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat. u. ital.</lang_mom>
-		<lang_iso>lat, ita</lang_iso>
+		<lang_iso>la, it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>?</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat./ dt.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latein.</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat./dt.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt./lat.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt. u. lat.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>let.</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Dt.</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt,</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt.Perg.</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt-</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat.u. dt. (Insert)</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Pap.</lang_mom>
@@ -850,19 +850,19 @@
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Deutsch [?]</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latein (Littera)</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latein, Littera</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat. / dt.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>niederdeutsch</lang_mom>
@@ -881,11 +881,11 @@
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>französisch</lang_mom>
-		<lang_iso>fra</lang_iso>
+		<lang_iso>fr</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>niederländisch</lang_mom>
-		<lang_iso>nld</lang_iso>
+		<lang_iso>nl</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>niederfränkisch</lang_mom>
@@ -893,89 +893,89 @@
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>italienisch</lang_mom>
-		<lang_iso>ita</lang_iso>
+		<lang_iso>it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lateinisch/spanisch</lang_mom>
-		<lang_iso>lat, spa</lang_iso>
+		<lang_iso>la, es</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>englisch</lang_mom>
-		<lang_iso>eng</lang_iso>
+		<lang_iso>en</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>deutsch/französisch</lang_mom>
-		<lang_iso>deu, fra</lang_iso>
+		<lang_iso>de, fr</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>englisch/lateinisch</lang_mom>
-		<lang_iso>eng, lat</lang_iso>
+		<lang_iso>en, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>italienisch/lateinisch</lang_mom>
-		<lang_iso>ita, lat</lang_iso>
+		<lang_iso>it, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>spanisch</lang_mom>
-		<lang_iso>spa</lang_iso>
+		<lang_iso>es</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat. und it.</lang_mom>
-		<lang_iso>lat, ita</lang_iso>
+		<lang_iso>la, it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>mitteldeutsch</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lateinisch / polnisch</lang_mom>
-		<lang_iso>pat, pol</lang_iso>
+		<lang_iso>la, pl</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lateinisch/griechisch</lang_mom>
-		<lang_iso>lat, gre</lang_iso>
+		<lang_iso>la, el</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>griechisch</lang_mom>
-		<lang_iso>gre</lang_iso>
+		<lang_iso>el</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>singhalesisch / tamil</lang_mom>
-		<lang_iso>tam, sin</lang_iso>
+		<lang_iso>ta, si</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>arabisch / persisch / türkisch</lang_mom>
-		<lang_iso>ara, fas, tur</lang_iso>
+		<lang_iso>ar, fa, tr</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom> Lateinisch </lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom> Deutsch </lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lateinisch, deutsch</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lateinisch und deutsch</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Spanisch</lang_mom>
-		<lang_iso>spa</lang_iso>
+		<lang_iso>es</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Französisch</lang_mom>
-		<lang_iso>fra</lang_iso>
+		<lang_iso>fr</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>jetzt fehlenden Siegeln).</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>. Latein</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Abschrift Pap. (17. Jh.).</lang_mom>
@@ -988,14 +988,14 @@
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Insert lat.</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Or.; Papier; aufgedr. Siegel abgefallen.</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat, Aufzählung der Kleinodien in deutsch</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Or.; Perg., leichter Mäusefraß; mit Siegel.</lang_mom>
@@ -1008,115 +1008,115 @@
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Rahmenurkunde und die ersten 4 Inserte lateinisch, die letzten drei Inserte deutsch</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Rahmenurkunde lat. Inserte teils deutsch teils lateinisch</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Or.; Perg.;: mit besch. Marktsiegel.</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Hebräisch</lang_mom>
-		<lang_iso>heb</lang_iso>
+		<lang_iso>he</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Lateinisch.</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat. und dt.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt. = Ortenburg-Archiv</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>handschriftl. Eintrag des Notars = Ortenburg-Archiv</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>a) lat. b) lat.</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt. und lat.</lang_mom>
-		<lang_iso>ddeu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat.; Chirograph</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat. bzw dt. (Insert)</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat. + dt.</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt. (durch Einschnitte rechtsungültig gemacht)</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt. (durch Einschnitt rechtsungültig gemacht)</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Kerbzettel</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt. II: Ausf.; dt.</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt.;</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>ger</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latger</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>russisch</lang_mom>
-		<lang_iso>rus</lang_iso>
+		<lang_iso>ru</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>schwedisch</lang_mom>
-		<lang_iso>swe</lang_iso>
+		<lang_iso>sv</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lateinisch; deutsch</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>französchisch</lang_mom>
-		<lang_iso>fra</lang_iso>
+		<lang_iso>fr</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>deutsch; russchis</lang_mom>
-		<lang_iso>deu, rus</lang_iso>
+		<lang_iso>de, ru</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Lateinisch</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>deutsch; scwedisch</lang_mom>
-		<lang_iso>deu, swe</lang_iso>
+		<lang_iso>de, sv</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>ebräisch</lang_mom>
-		<lang_iso>heb</lang_iso>
+		<lang_iso>he</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>hebräisch; Lateinisch</lang_mom>
-		<lang_iso>heb, lat</lang_iso>
+		<lang_iso>he, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>plattdeutsch</lang_mom>
@@ -1124,78 +1124,78 @@
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Holländisch</lang_mom>
-		<lang_iso>nld</lang_iso>
+		<lang_iso>nl</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom> </lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>russisch; deutsch</lang_mom>
-		<lang_iso>rus, deu</lang_iso>
+		<lang_iso>ru, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>russisch; lateinisch</lang_mom>
-		<lang_iso>rus, lat</lang_iso>
+		<lang_iso>ru, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Plattdeutsch</lang_mom>
-		<lang_iso>nld</lang_iso>
+		<lang_iso>nl</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Gallego, escritura gótica cursiva.</lang_mom>
-		<lang_iso>glg</lang_iso>
+		<lang_iso>gl</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latină</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Maghiară</lang_mom>
-		<lang_iso>hun</lang_iso>
+		<lang_iso>hu</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latină, maghiară</lang_mom>
-		<lang_iso>lat, hun</lang_iso>
+		<lang_iso>la, hu</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latină/maghiară</lang_mom>
-		<lang_iso>lat, hun</lang_iso>
+		<lang_iso>la, hu</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinski</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latin</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Német</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>G</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>M</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Magyar</lang_mom>
-		<lang_iso>hun</lang_iso>
+		<lang_iso>hu</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>S</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Olasz</lang_mom>
-		<lang_iso>ita</lang_iso>
+		<lang_iso>it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Cseh</lang_mom>
-		<lang_iso>ces</lang_iso>
+		<lang_iso>cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Altpikardisch</lang_mom>
@@ -1203,15 +1203,15 @@
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latino</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latino;</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latino</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Slavic.</lang_mom>
@@ -1219,273 +1219,273 @@
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latin.</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Greek.</lang_mom>
-		<lang_iso>gre</lang_iso>
+		<lang_iso>el</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>(der Abschrift:) Deutsch</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latein+Deutsch</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latein und Deutsch.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>j. łaciński</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Slavonă</lang_mom>
-		<lang_iso>chu</lang_iso>
+		<lang_iso>cu</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Greacă</lang_mom>
-		<lang_iso>gre</lang_iso>
+		<lang_iso>el</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Română</lang_mom>
-		<lang_iso>ron</lang_iso>
+		<lang_iso>ro</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Rusă</lang_mom>
-		<lang_iso>rus</lang_iso>
+		<lang_iso>ru</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Germană</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>dt., lat.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat., ung.</lang_mom>
-		<lang_iso>lat, hun</lang_iso>
+		<lang_iso>la, hu</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>German</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom> Serbian</lang_mom>
-		<lang_iso>srp</lang_iso>
+		<lang_iso>sr</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Hungarian</lang_mom>
-		<lang_iso>hun</lang_iso>
+		<lang_iso>hu</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Old Slavic</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Greek </lang_mom>
-		<lang_iso>gre</lang_iso>
+		<lang_iso>el</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom> Italian</lang_mom>
-		<lang_iso>ita</lang_iso>
+		<lang_iso>it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Serbian.</lang_mom>
-		<lang_iso>srp</lang_iso>
+		<lang_iso>sr</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Text in Italian, signature in Serbian.</lang_mom>
-		<lang_iso>ita, srp</lang_iso>
+		<lang_iso>it, sr</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Italian (originally Serbian).</lang_mom>
-		<lang_iso>ita</lang_iso>
+		<lang_iso>it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Italian (originally Serbian?).</lang_mom>
-		<lang_iso>ita</lang_iso>
+		<lang_iso>it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Italian.</lang_mom>
-		<lang_iso>ita</lang_iso>
+		<lang_iso>it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Latin and Italian.</lang_mom>
-		<lang_iso>lat, ita</lang_iso>
+		<lang_iso>la, it</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nemščina</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinščina / Latein</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinščina</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinšcina</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nemšcina</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinščina; POŠK.</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nemščina, latinščina</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinščina, nemščina</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>latinščina; tiskan formular</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nemški</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>slovenski</lang_mom>
-		<lang_iso>slv</lang_iso>
+		<lang_iso>sl</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>_ ostali jeziki</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>angleški</lang_mom>
-		<lang_iso>eng</lang_iso>
+		<lang_iso>en</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nem.</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nem,</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nem,.</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat. - nem.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nem. </lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom> Neustand</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nem.[dorz.]</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>slov.</lang_mom>
-		<lang_iso>slv</lang_iso>
+		<lang_iso>sl</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>––</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nem.peč.pritlač.</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nem</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nem.,lat.</lang_mom>
-		<lang_iso>deu, lat</lang_iso>
+		<lang_iso>de, la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nem.peč. dorz.</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nam.</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom> lat./ nem. </lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom> lat./nem.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat./nem. </lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>čes. </lang_mom>
-		<lang_iso>ces</lang_iso>
+		<lang_iso>cs</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat./nem.  </lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat.  </lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nem.  </lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat./nem.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nem. lat.</lang_mom>
-		<lang_iso>lat, deu</lang_iso>
+		<lang_iso>la, de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>pritlač. Poruš.</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>lat./lat.</lang_mom>
-		<lang_iso>lat</lang_iso>
+		<lang_iso>la</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>peč.pritlač.</lang_mom>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nemecký</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>maďarský</lang_mom>
-		<lang_iso>hun</lang_iso>
+		<lang_iso>hu</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>maďarsky</lang_mom>
-		<lang_iso>hun</lang_iso>
+		<lang_iso>hu</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>slovenský</lang_mom>
-		<lang_iso>slv</lang_iso>
+		<lang_iso>sl</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>nemecky</lang_mom>
-		<lang_iso>deu</lang_iso>
+		<lang_iso>de</lang_iso>
 	</lang_MOM_entry>
 	<lang_MOM_entry>
 		<lang_mom>Aus einem Copialbuche des Klosters Baumgartenberg vom Jahre 1311.</lang_mom>
