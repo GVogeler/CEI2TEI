@@ -90,6 +90,39 @@
                 </encodingDesc>
                 <profileDesc>
                     <xsl:apply-templates select="//cei:lang_MOM"/>
+                    <textClass>
+                        <!-- have to define a rule for keywords, which don#t have @ as well-->
+                    <xsl:for-each-group select="//cei:index[. != '']" group-by="@indexName">
+                        <xsl:call-template name="keywords"/>
+                    </xsl:for-each-group>
+                    </textClass> 
+                    <xsl:if test="//cei:persName[. != '']|//cei:orgName[. != '']">
+                    <particDesc>
+                        <xsl:if test="//cei:persName[. != '']">
+                        <listPerson>
+                            <xsl:for-each select="//cei:persName[. != '']">
+                                <xsl:call-template name="list_people"/>
+                            </xsl:for-each>
+                        </listPerson> 
+                        </xsl:if>
+                        <xsl:if test="//cei:orgName[. != '']">
+                        <listOrg>
+                            <xsl:for-each select="//cei:orgName[. != '']">
+                                <xsl:call-template name="list_orgs"/>
+                            </xsl:for-each>
+                        </listOrg>  
+                        </xsl:if>
+                    </particDesc>
+                    </xsl:if>
+                    <xsl:if test="//cei:placeName[. != '']">
+                    <settingDesc>
+                        <listPlace>
+                            <xsl:for-each select="//cei:placeName[. != '']">
+                                <xsl:call-template name="list_places"/>
+                            </xsl:for-each>
+                        </listPlace>  
+                    </settingDesc>
+                    </xsl:if>
                 </profileDesc>
                 <revisionDesc>
                     <list>
@@ -103,11 +136,9 @@
                 </revisionDesc>
             </teiHeader>
             <text>
-                <xsl:apply-templates select="//cei:front"/>
                 <body>
                     <xsl:apply-templates select="//cei:body"/>
                 </body>
-                <xsl:apply-templates select="//cei:back"/>
             </text>
         </TEI>
     </xsl:template>
@@ -137,14 +168,6 @@
                 <!-- There are  cei:figure tags in witnessOrig that need to be moved to facsimile (no anchors neeeded?) -->
             </msDesc>
         </witness>
-    </xsl:template>
-    <xsl:template match="cei:front">
-        <front>
-            <div>
-                <xsl:apply-templates select="cei:p"/>
-                <xsl:call-template name="p_in_div"/>
-            </div>
-        </front>
     </xsl:template>
     <xsl:template match="cei:abstract">
         <summary>
@@ -202,10 +225,20 @@
             <xsl:apply-templates/>
         </availability>
     </xsl:template>
-    <xsl:template match="cei:back">
-        <back>
-            <xsl:apply-templates />          
-        </back>
+    <xsl:template match="cei:back/cei:persName">
+        <person>
+            <xsl:apply-templates/>
+        </person>
+    </xsl:template>
+    <xsl:template match="cei:back/cei:placeName">
+        <place>
+            <xsl:apply-templates/>
+        </place>
+    </xsl:template>
+    <xsl:template match="cei:back/cei:orgName">
+        <org>
+            <xsl:apply-templates/>
+        </org>
     </xsl:template>
     <xsl:template match="cei:bibl">
         <bibl>
@@ -343,6 +376,13 @@
             <xsl:call-template name="p_in_div"/>
         </div>
     </xsl:template>
+    <xsl:template match="cei:divNotes">
+        <div>
+            <p>
+                <xsl:apply-templates/>
+            </p>
+        </div>
+    </xsl:template>
     <xsl:template match="cei:expan">
         <expan>
             <xsl:apply-templates/>
@@ -429,10 +469,10 @@
             <xsl:apply-templates/>
         </imprint>
     </xsl:template>
-    <xsl:template match="cei:index [. !='']">
-        <index>
+   <!-- <xsl:template match="cei:index [. !='']">
+        <keywords>
             <xsl:if test="@indexName">
-                <xsl:attribute name="indexName">
+                <xsl:attribute name="scheme">
                     <xsl:value-of select="@indexName"/>
                 </xsl:attribute>
             </xsl:if>
@@ -444,8 +484,8 @@
                 </xsl:if>
                 <xsl:apply-templates/>
             </term>
-        </index>
-    </xsl:template>
+        </keywords>
+    </xsl:template>-->
     <xsl:template match="//cei:body/cei:chDesc/cei:issued"> </xsl:template>
     <xsl:template match="cei:issuer">
         <legalActor type="issuer">
@@ -803,4 +843,64 @@
             </xsl:for-each>
         </p>
     </xsl:template>
+    <xsl:template name="keywords">
+        <keywords>
+            <!--<xsl:if test="@indexName">-->
+                <xsl:attribute name="scheme">
+                    <xsl:value-of select="@indexName"/>
+                </xsl:attribute>
+            <!--</xsl:if>-->
+        <xsl:for-each select="current-group()">
+            <term>
+                <xsl:if test="@lemma">
+                    <xsl:attribute name="key">
+                        <xsl:value-of select="@lemma"/>
+                    </xsl:attribute>
+                </xsl:if>
+                <xsl:apply-templates/>
+            </term>
+        </xsl:for-each>
+          
+        </keywords>
+    </xsl:template>
+    <xsl:template name="list_people">
+        <person>
+            <xsl:if test="@key">
+                <xsl:attribute name="xml:id">
+                    <xsl:value-of select="@key"/>
+                </xsl:attribute>
+            </xsl:if>
+            <persName>
+                <xsl:apply-templates/>
+            </persName>
+        </person>
+    </xsl:template>
+    <xsl:template name="list_orgs">
+        <org>
+            <xsl:if test="@key">
+                <xsl:attribute name="xml:id">
+                    <xsl:value-of select="@key"/>
+                </xsl:attribute>
+            </xsl:if>
+            <orgName>
+                <xsl:apply-templates/>
+            </orgName>
+        </org>
+    </xsl:template>
+    <xsl:template name="list_places">
+        <place>
+            <placeName>
+                <xsl:choose>         
+                <xsl:when test="@type">
+                  <region><xsl:value-of select="."/></region>      
+                </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:apply-templates />
+                    </xsl:otherwise>
+                </xsl:choose>
+           
+            </placeName>
+        </place>
+    </xsl:template>
+    
 </xsl:stylesheet>
