@@ -204,10 +204,7 @@
     </xsl:template>
     <xsl:template match="cei:back">
         <back>
-            <div>
-                <xsl:apply-templates select="cei:p"/>
-                <xsl:call-template name="p_in_div"/>
-            </div>
+            <xsl:apply-templates />          
         </back>
     </xsl:template>
     <xsl:template match="cei:bibl">
@@ -340,7 +337,7 @@
     <xsl:template match="cei:diplomaticAnalysis">
         <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="cei:div | cei:divNotes">
+    <xsl:template match="cei:div"><!--| cei:divNotes -->
         <div>
             <xsl:apply-templates select="cei:p"/>
             <xsl:call-template name="p_in_div"/>
@@ -432,7 +429,7 @@
             <xsl:apply-templates/>
         </imprint>
     </xsl:template>
-    <xsl:template match="cei:index">
+    <xsl:template match="cei:index [. !='']">
         <index>
             <xsl:if test="@indexName">
                 <xsl:attribute name="indexName">
@@ -521,7 +518,7 @@
             <xsl:apply-templates/>
         </additions>
     </xsl:template>
-    <xsl:template match="cei:note">
+    <xsl:template match="cei:note [. != '']">
         <note>
             <xsl:apply-templates/>
         </note>
