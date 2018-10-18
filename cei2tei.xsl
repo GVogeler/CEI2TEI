@@ -122,7 +122,7 @@
                         </idno>
                     </altIdentifier>
                 </msIdentifier>
-                <msContents>
+                <msContents> <!-- change to profileDesc/abstract (need to change content model of abstract to accomodate all of the tags used in regest) -->
                             <xsl:apply-templates select="//cei:abstract"/>
                 </msContents>
                 <xsl:apply-templates select="//cei:witnessOrig/cei:physicalDesc"/>
@@ -750,11 +750,9 @@
     <xsl:template match="cei:chDesc/cei:witListPar">
             <xsl:apply-templates/>
     </xsl:template>
-<!--    <xsl:template match="cei:witListPar">
-        <listWit>
-            <xsl:apply-templates/>
-        </listWit>-->
-    <!--</xsl:template>-->
+  <xsl:template match="cei:witListPar">
+            <xsl:apply-templates/>       
+   </xsl:template>
     <xsl:template match="cei:witness">
         <witness>
             <msDesc>
