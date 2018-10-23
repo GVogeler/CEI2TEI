@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom"><atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1497-06-09_Mailand</atom:id><atom:title/><atom:published>2017-08-11T07:46:03.55Z</atom:published><atom:updated>2017-08-11T07:46:03.55Z</atom:updated><atom:author><atom:email>illuminierteurkunden@gmail.com</atom:email></atom:author><app:control xmlns:app="http://www.w3.org/2007/app"><app:draft>no</app:draft></app:control><atom:content type="application/xml"><cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id=""><cei:front><cei:sourceDesc><cei:sourceDescVolltext><cei:bibl/></cei:sourceDescVolltext><cei:sourceDescRegest><cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl></cei:sourceDescRegest></cei:sourceDesc></cei:front><cei:body><cei:idno id="1497-06-09_Mailand">1497-06-09_Mailand</cei:idno><cei:chDesc><cei:class/><cei:abstract><cei:index indexName="Illurk-Urkundenart">Wappenbrief</cei:index>
+: Maximilian I. verleiht dem Lodovico Sforzas (il Moro) ein Wappen.
+<cei:lb/>
+Dieses wurde vom Herzog nie verwendet und jenen Familienangehörigen weitergegeben, die ihm nicht als Herzog nachfolgen; vgl. Rocculi, S. 215.
+<cei:lb/>
+Quadriert, jeweils die Viper der Visconti mit Herzschild (Reichsadler).
+<cei:lb/>
+Der Text der Urkunde offenbar nicht gesichert. Laurent Hablot geht in seiner (noch unveröffentlichten) Habilitationsschrift davon aus, dass das Diplom dem Massimiliano Sforza (1493–1530), dem Sohn Lodovico il Moros verliehen wurde.
+</cei:abstract><cei:issued><cei:placeName>Füssen (in oppido nostro in faucibus alpium). Ausstattung: Mailand</cei:placeName><cei:dateRange from="14970609" to="14970609">1497-06-09</cei:dateRange></cei:issued><cei:witnessOrig><cei:traditioForm>Original</cei:traditioForm><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1497-06-09_Maximilian-fuer-Ludovico-Sforza_Birago.jpg"/></cei:figure><cei:archIdentifier><cei:settlement>Mailand</cei:settlement>
+, 
+<cei:arch>Archivio di Stato</cei:arch><cei:archFond>, Archivio Visconteo-Sforzesco, Potenze sovrane, scatola 1469, </cei:archFond><cei:idno>n.185</cei:idno>
+(1943- zerstört)</cei:archIdentifier><cei:physicalDesc><cei:decoDesc><cei:p n="Ekphrasis">Die Urkunde wude während dem Zweiten Weltkrieg zerstört. </cei:p><cei:p n="Stil und Einordnung">Es bleiben von ihr nur photographische Abbildungen, wie die von Francesco Malaguzzi Valeri, 
+<cei:quote type="italic">La corte di Ludovico il Moro</cei:quote>
+, vol III, Mailand, 1917, Fig. 178. Von ihm wird die Ausstattung der Urkunde dem „Maestro del libro d´ore di Bona di Savoia“, ein Künstler der heute als Giovanni Pietro Birago bekannt ist, zugeschrieben. Die Urkunde fügt sich exakt in den Abschnitt der Karriere des Künstlers ein, als dieser nach seinem Aufenthalt in Rom nach Mailand zurückkehrt. Eben in diesen Jahren erhält Birago eine Reihe von Aufträgen von Seiten der Sforza, wie zum Beispiel die Wiederaufnahme der Ausstattung des Stundenbuchs (
+<cei:quote type="italic">Libro d’ore</cei:quote>
+) von Bona di Savoia, der Ehefrau Galeazzo Maria Sforzas, welches sich heute in London befindet (British Library, Ms. Add. 34.294), das Frontispiz der 
+<cei:quote type="italic">Sforziada</cei:quote>
+ des Simonetas, übersetzt ins 
+<cei:quote type="italic">Volgare</cei:quote>
+ von Cristoforo Landino in der Ausgabe von Antonio Zarotto aus dem Jahre 1490 (vier Exemplare sind heute in Warschau, Biblioteka Narodowa, Inc. F. 1347; Paris, Bibliothèque nationale de France, Imprimés, Réserve, Vélins 724; London, British Library, Greenville 7251; Firenze, Galleria degli Uffizi, Inv. 843, 4423-30 nur fragmentarisch erhalten; siehe M.L. Evans, 
+<cei:quote type="italic">New Light on the 'Sforziada' Frontespieces of Giovanni Pietro Birago</cei:quote>
+, in: The British Library Journal 13, 1987, 1-2, S. 232-247), die Ausstattung eines weiteren kleinen Stundenbuches in Auftrag gegeben von Ludovico il Moro als Geschenk an Karl VIII von Frankreich (heute in Venedig, Fondazione Cini, Inv. 2502, dazu siehe Cutolo, 
+<cei:quote type="italic">L’«Officium parum Beatae Mariae Virginis» donato da Ludovico il Moro a Carlo VIII re di Francia</cei:quote>
+, Mailand 1947 und Giordana Mariani Canova, 
+<cei:quote type="italic">Miniature dell’Italia settentrionale nella Fondazione Giorgio Cini</cei:quote>
+, Vicenza 1978, S. 70-72), sowie die Ausführung einiger Miniaturen in der Handschrift mit der Grammatica von Donato für Massimiliano Sforza, Sohn von Ludovico il Moro, und einige Gravuren, ebenfalls im Auftrag der Sforza. </cei:p><cei:p n="Stil und Einordnung">Vgl. zu Birago den Eintrag ‘Birago, Giovanni Pietro’, in: Dizionario Biografico degli Italiani, Bd. 10 (1968) und den Eintrag 'Birago, Giovanni Pietro', in: Dizionario biografico dei Miniatori italiani, 2004, S. 104-110, bes. S. 108.).</cei:p><cei:p><cei:ref target="http://www.monasterium.net/mom/IlluminierteUrkundenLombardeiit/1497-06-09_Mailand/charter">[Für Details siehe italienischen Originaltext.]</cei:ref></cei:p><cei:p n="Autorensigle">Laura Alidori (Übersetzung Stephanie Rosenkranz)</cei:p></cei:decoDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:notariusDesc/><cei:sealDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witnessOrig><cei:witListPar><cei:witness><cei:traditioForm/><cei:figure/><cei:archIdentifier/><cei:physicalDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:sealDesc/><cei:notariusDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witness></cei:witListPar><cei:diplomaticAnalysis><cei:listBibl><cei:bibl key="zotero:QFVGF67K">Malaguzzi Valeri, Corte, 3, 1917, S. 157 und 164 (Fig. 178): online: 
+<cei:ref target="https://archive.org/stream/lacortedilodovic1917mala#page/157">https://archive.org/stream/lacortedilodovic1917mala#page/157</cei:ref>
+ bzw. 
+<cei:ref target="https://archive.org/stream/lacortedilodovic1917mala#page/164">https://archive.org/stream/lacortedilodovic1917mala#page/164</cei:ref>
+.  (
+<cei:ref target="http://zotero.org/groups/257864/items/QFVGF67K">Volltitel auf Zotero</cei:ref>
+)</cei:bibl><cei:bibl key="zotero:JV8SXTG4">Pellegrin, Bibliothèque, 1955, S. 410–412, bes. S. 411 (mit älterer Lit.).  (
+<cei:ref target="http://zotero.org/groups/257864/items/JV8SXTG4">Volltitel auf Zotero</cei:ref>
+)</cei:bibl><cei:bibl key="zotero:JFQ6XXUC">Rocculi, Allegoria matrimoniale, 2011, S. 215 (und Fig. 15): online: 
+<cei:ref target="http://www.rocculi.it/files/pdf/11_allegoria-sforza-visconti-aldobrandini.pdf">http://www.rocculi.it/files/pdf/11_allegoria-sforza-visconti-aldobrandini.pdf</cei:ref>
+). (
+<cei:ref target="http://zotero.org/groups/257864/items/JFQ6XXUC http://zotero.org/groups/257864/items/VADBTRGH">Volltitel auf Zotero</cei:ref>
+)</cei:bibl><cei:bibl>Paul Wescher, ‘Birago, Giovanni Pietro’, in: Dizionario Biografico degli Italiani, Volume 10 (1968): online: 
+<cei:ref target="http://www.treccani.it/enciclopedia/giovanni-pietro-birago_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/giovanni-pietro-birago_(Dizionario-Biografico)</cei:ref>
+.</cei:bibl><cei:bibl>L.P. Gnaccolini, 'Birago, Giovanni Pietro', in: 
+<cei:ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/RJC6PBK9">Dizionario biografico dei miniatori italiani, 2004</cei:ref>
+, p. 108.</cei:bibl></cei:listBibl><cei:listBiblRegest><cei:bibl/></cei:listBiblRegest><cei:listBiblFaksimile><cei:bibl/></cei:listBiblFaksimile><cei:listBiblErw><cei:bibl/></cei:listBiblErw><cei:p/><cei:quoteOriginaldatierung/><cei:nota/><cei:listBiblEdition><cei:bibl/></cei:listBiblEdition></cei:diplomaticAnalysis><cei:lang_MOM/></cei:chDesc><cei:tenor/></cei:body><cei:back><cei:persName/><cei:placeName type="Region">HRR</cei:placeName><cei:placeName type="Region">Deutschland</cei:placeName><cei:placeName type="Region">Italien</cei:placeName><cei:placeName type="Region">Lombardei</cei:placeName><cei:index indexName="illurk-vocabulary" lemma="Historiated">N1: historisiert</cei:index><cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: mit zusätzlichen Farben</cei:index><cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1: gemalt</cei:index><cei:index indexName="illurk-vocabulary" lemma="Miniatures">N1: Bildfeld</cei:index><cei:index indexName="illurk-vocabulary" lemma="CoatsOfArms">N1: Wappen</cei:index><cei:divNotes><cei:note/></cei:divNotes><cei:class/></cei:back></cei:text></atom:content></atom:entry>
