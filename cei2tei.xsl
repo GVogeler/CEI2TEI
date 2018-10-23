@@ -14,43 +14,43 @@
                             <xsl:value-of select="//atom:email"/>
                         </editor>
                         <principal>
-                            <persName ref="https://orcid.org/0000-0002-1726-1712">
+                            <persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv">
                                 <forename>Georg</forename> <surname>Vogeler</surname>
                             </persName>
                         </principal>
                         <respStmt>
                             <resp>Project Lead; Art historical description</resp>
-                            <persName>
+                            <persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr">
                                 <forename>Martin</forename> <surname>Roland</surname>
                             </persName>
                         </respStmt>
                         <respStmt>
                             <resp>Art historical description</resp>
-                            <persName>
+                            <persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb">
                                 <forename>Gabriele</forename> <surname>Bartz</surname>
                             </persName>
                         </respStmt>
                         <respStmt>
                             <resp>Diplomatic description</resp>
-                            <persName ref="https://orcid.org/0000-0003-3269-453X">
+                            <persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg">
                                 <forename>Markus</forename> <surname>Gneiß</surname>
                             </persName>
                         </respStmt>
                         <respStmt>
                             <resp>Project Lead; Diplomatic description</resp>
-                            <persName ref="">
+                            <persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az">
                                 <forename>Andreas</forename> <surname>Zajic</surname>
                             </persName>
                         </respStmt>
                         <respStmt>
                             <resp>Digital transformation; modelling</resp>
-                            <persName ref="https://orcid.org/0000-0002-5114-0594">
+                            <persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw">
                                 <forename>Sean</forename> <surname>Winslow</surname>
                             </persName>
                         </respStmt>
                         <respStmt>
                             <resp>Digital transformation</resp>
-                            <persName ref="https://orcid.org/0000-0003-0594-1902">
+                            <persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb">
                                 <forename>Martina</forename> <surname>Bürgermeister</surname>
                             </persName>
                         </respStmt>
