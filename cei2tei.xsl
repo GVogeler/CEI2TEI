@@ -62,9 +62,16 @@
                                 Informationsmodellierung - Austrian Centre for Digital Humanities,
                                 Karl-Franzens-Universität Graz</orgName>
                         </publisher>
-                        <authority>
-                            <orgName>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</orgName>
-                        </authority>
+                        <funder>
+                            <orgName ref="https://www.fwf.ac.at/">
+                                <choice>
+                                    <expan>Fonds zur Förderung der wissenschaftlichen Forschung</expan>
+                                    <abbr>FWF</abbr>
+                                </choice>
+                                </orgName> 
+                            Projekt P 26706-G21 "Illuminierten Urkunden als Gesamtkunstwerk" and
+                            Projekt FWF-ORD84 "Erhalt fachspezifischer Funktionalitäten bei Langzeitarchivierung in einem allgemeinen Datenarchiv für die Geisteswissenschaften."
+                        </funder>
                         <distributor>
                             <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
                                 Asset Management System</orgName>
