@@ -158,6 +158,7 @@
      <moduleRef key="gaiji" except=""/>
      <moduleRef key="certainty" except=""/>
      <moduleRef key="analysis" except=""/>
+     <moduleRef key="corpus"/>
      <elementSpec ident="msDesc" mode="change">
       <content>
        <sequence>
