@@ -4,7 +4,7 @@
     xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"
     exclude-result-prefixes="xs" version="2.0">
     <xsl:template match="/">
-        <xsl:processing-instruction name="xml-model">href="../out/tei_cei.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
+        <xsl:processing-instruction name="xml-model">href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
         <TEI>
             <teiHeader>
                 <fileDesc>
@@ -71,7 +71,7 @@
                             </orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
                             Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
                             Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
-                            Datenarchiv für die Geisteswissenschaften." </funder>
+                            Datenarchiv für die Geisteswissenschaften."</funder>
                     </titleStmt>
                     <publicationStmt>
                         <publisher>
@@ -127,16 +127,12 @@
                 </fileDesc>
                 <encodingDesc>
                     <projectDesc>
-                        <p>Something about IllUrk here.</p>
+                        <p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historica,
+                            art-historica, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p>
                     </projectDesc>
-                    <editorialDecl>
-                        <correction>
-                            <p> </p>
-                        </correction>
-                        <normalization>
-                            <p> </p>
-                        </normalization>
-                    </editorialDecl>
                 </encodingDesc>
                 <profileDesc>
                     <abstract>
@@ -234,7 +230,7 @@
                         <xsl:apply-templates select="//cei:issued"/>
                     </issued>
                 </diploDesc>
-                <xsl:apply-templates select="//cei:witnessOrig/cei:auth"/>
+                <xsl:apply-templates select="//cei:witnessOrig/cei:auth[. != '']"/>
                 <!-- There are  cei:figure tags in witnessOrig that need to be moved to facsimile (no anchors neeeded?) -->
             </msDesc>
         </witness>
@@ -274,16 +270,16 @@
             <xsl:apply-templates/>
         </diploPart>
     </xsl:template>
-    <xsl:template match="cei:witness/cei:auth">
+    <xsl:template match="cei:witness/cei:auth[. != '']">
         <authDesc>
             <xsl:apply-templates/>
-            <xsl:apply-templates select="../cei:sealDesc"/>
+            <xsl:apply-templates select="../cei:sealDesc[. != '']"/>
         </authDesc>
     </xsl:template>
-    <xsl:template match="cei:witnessOrig/cei:auth">
+    <xsl:template match="cei:witnessOrig/cei:auth[. != '']">
         <authDesc>
             <xsl:apply-templates/>
-            <xsl:apply-templates select="../cei:sealDesc"/>
+            <xsl:apply-templates select="../cei:sealDesc[. != '']"/>
         </authDesc>
     </xsl:template>
     <xsl:template match="cei:author">
@@ -418,7 +414,7 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    <xsl:template match="cei:decoDesc">
+    <xsl:template match="cei:decoDesc[. != '']">
         <decoDesc>
             <xsl:apply-templates/>
         </decoDesc>
@@ -633,7 +629,7 @@
     <xsl:template match="cei:notariusSign">
         <authen><xsl:apply-templates/></authen>
     </xsl:template>-->
-    <xsl:template match="cei:notariusDesc">
+    <xsl:template match="cei:notariusDesc[. != '']">
         <authen type="signed">
             <legalActor type="notary">
                 <xsl:apply-templates/>
@@ -788,7 +784,7 @@
             <xsl:apply-templates/>
         </seal>
     </xsl:template>
-    <xsl:template match="cei:sealDesc">
+    <xsl:template match="cei:sealDesc[. != '']">
         <xsl:apply-templates/>
     </xsl:template>
     <!--<xsl:template match="cei:setPhrase">
@@ -999,7 +995,7 @@
         <xsl:variable name="lemma" select="@lemma"/>
         <xsl:attribute name="ref">
             <xsl:value-of
-                select="concat('http://gams.uni-graz.at/skos/scheme/o:epis.',  $indexName, '#', $lemma)"
+                select="concat('http://gams.uni-graz.at/skos/scheme/o:epis.', $indexName, '#', $lemma)"
             />
         </xsl:attribute>
         <xsl:apply-templates/>
