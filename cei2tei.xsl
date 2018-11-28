@@ -628,7 +628,7 @@
     </xsl:template>
     <!-- <xsl:template match="cei:notariusDesc"> 
         <authen><xsl:apply-templates/></authen>
-    </xsl:template> SIX APPEARANCES IN DATA ---- NEEDS TO BE FIXED
+    </xsl:template> SIX APPEARANCES IN DATA ; NEEDS TO BE FIXED
     <xsl:template match="cei:notariusSign"> DOES NOT APPEAR IN DATA
         <authen><xsl:apply-templates/></authen>
     </xsl:template>-->
@@ -649,7 +649,7 @@
             <xsl:apply-templates/>
         </orgName>
     </xsl:template>
-    <xsl:template match="cei:p | cei:pTenor">
+    <xsl:template match="cei:p[. != ''] | cei:pTenor[. != '']">
         <p>
             <xsl:if test="@n != ''">
                 <xsl:attribute name="n">
