@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- BIG FIX NEEDED IN ORDER TO PULL IN versionOf DATA AND CREATE LINKED DOCUMENTS -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:atom="http://www.w3.org/2005/Atom"
     xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"
@@ -128,8 +129,8 @@
                 <encodingDesc>
                     <projectDesc>
                         <p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
-                                Urkunden</ref> project is a cross-disciplinary historica,
-                            art-historica, and digital humanities project which collects illuminated
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
                             medieval charters from all over Europe, publishes them, and explores
                             them in detailed studies.</p>
                     </projectDesc>
@@ -429,11 +430,11 @@
             <xsl:apply-templates/>
         </desc>
     </xsl:template>
-    <!--    <xsl:template match="cei:dimensions">
+   <xsl:template match="cei:dimensions">
         <dimensions>
             <xsl:apply-templates/>
         </dimensions>
-    </xsl:template> TEMPORARILY COMMENTED OUT UNTIL DATA IS CLEANED-->
+    </xsl:template>
     <xsl:template match="cei:diplomaticAnalysis">
         <xsl:apply-templates/>
     </xsl:template>
@@ -520,8 +521,10 @@
         <xsl:apply-templates select="cei:archIdentifier/cei:idno"/>
         <xsl:apply-templates select="cei:altIdentifier"/>
     </xsl:template>
-    <xsl:template match="cei:body/cei:idno"> </xsl:template>
-    <xsl:template match="cei:archIdentifier/cei:idno">
+    <xsl:template match="cei:body/cei:idno"> 
+        <!-- NO CONTENT -->
+    </xsl:template>
+    <xsl:template match="cei:archIdentifier/cei:idno | cei:altIdentifier/cei:idno">
         <idno>
             <xsl:apply-templates/>
         </idno>
@@ -623,10 +626,10 @@
             <xsl:apply-templates/>
         </note>
     </xsl:template>
-    <!-- <xsl:template match="cei:notariusDesc">
+    <!-- <xsl:template match="cei:notariusDesc"> 
         <authen><xsl:apply-templates/></authen>
-    </xsl:template>
-    <xsl:template match="cei:notariusSign">
+    </xsl:template> SIX APPEARANCES IN DATA ---- NEEDS TO BE FIXED
+    <xsl:template match="cei:notariusSign"> DOES NOT APPEAR IN DATA
         <authen><xsl:apply-templates/></authen>
     </xsl:template>-->
     <xsl:template match="cei:notariusDesc[. != '']">

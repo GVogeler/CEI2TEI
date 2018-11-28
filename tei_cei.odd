@@ -665,7 +665,7 @@
      </elementSpec>
      <elementSpec  ident="legend" mode="add">
       <desc>
-      Text written on a seal or as part of a illustration, such as in the heraldry element.
+      Text written on a seal or as part of a illustration, such as in the heraldry element.<!-- Re-do this description. -->
       </desc>
       <classes>
        <memberOf key="att.global"/>
