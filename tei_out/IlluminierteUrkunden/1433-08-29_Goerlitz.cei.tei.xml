@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Görlitz</settlement><repository>Ratsarchiv</repository><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1433-08-29_Goerlitz</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material>Pergament</material><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p>Mittig in Deckfarben eingemalt hochrechteckiges Bildfeld mit
+                                    linksgewendetem, gelehntem Wappenschild.</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Orig. Perg.; kopial</copyStatus>
+                        <listBibl type="other">
+                            <bibl/>
+                        </listBibl>
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        
+                        <p><quote><date>an sandt johanns tag
+                            decollationis.</date></quote></p>
+                        
+                    <issued>
+                        <placeName>Perugia (<foreign>Perusz</foreign>)</placeName>
+                        <date when="14330829">1433-08-29</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.#">Wappenbrief</term>: <legalActor type="issuer">Kaiser
+                            Sigismund</legalActor> verleiht der Stadt
+                            <placeName>Görlitz</placeName> ein
+                            Wappen.<lb/><legalActor type="issuer">Kaiser Sigismund</legalActor> gibt erneut
+                            (<foreign>geben ... von newes</foreign>) dem Rat der Stadt
+                            <placeName>Görlitz</placeName> (<foreign>ratmanne und stad
+                            Gorlitz</foreign>) für die Rolle der Stadt und deren erlittene
+                        Beschädigungen in den Kriegen gegen die Hussiten (<foreign>verdampten
+                            ketzern zu Behemen vil iar bekriget und gröszlich in sulcher anfechtunge
+                            der cristenheit von in beschedigt sein</foreign>) und aufgrund deren
+                        Treue zum christlichen Glauben sowie dem Kaiser gegenüber das Wappen
+                            (<foreign>wapen und cleynat</foreign>), das in der Mitte der
+                        Urkunde farbig eingemalt ist (<foreign>in der mitte gegenwertigen unsers
+                            brieffs gemalet und mit farben eigentlicher
+                        usgestriechen</foreign>). Das Wappen (<foreign>wapen und
+                            schielde</foreign>), das die Stadt durch die Gnade vorangegangener
+                        Kaiser lange Zeit geführt hat, zeigt in rotem Schild mit silbernem Schildfuß
+                        einen silbernen Löwen (<foreign>einen weissen lewen in einem roten
+                            felde, mit einem weissen stucke unden an dem schielde</foreign>). Er
+                        bessert (<foreign>haben ... gebessert</foreign>) es um einen
+                        doppelköpfigen schwarzen Adler in Gold im Vorderfeld des nunmehr gespaltenen
+                        Schildes, im hinteren Feld der bislang geführte silberne Löwe, gebessert um
+                        einen gegabelten Schwanz, goldene Klauen, eine blaue Zunge und eine goldene
+                        Krone (<foreign>in einem schilde einen swartzen adeler mit czwein
+                            haupten in einem gulden oder gelwen felde ... das der adeler in dem
+                            selben felde uff das rechte teil und helfte des schildes steen sal und
+                            der weisse lewe mit einem zwefachen czagel mit einer guldin cronen uff
+                            dem haupte mit einer blauwen czungen und gulden clauwen, drounder am
+                            schilde als der lewe steet ein clein weis stucke, ufft dem andern teile
+                            und helfte des schildes</foreign>), zwischen den beiden Feldern eine
+                        goldene Kaiserkrone, je zur Hälfte in die Felder reichend (<foreign>und
+                            das do czwischen deme adeler und lewe eyne keiserliche crone auch steen
+                            sal, geteilt halb in das guldin ader gelwe feld und halb in das
+                            rote</foreign>), getragen von dem linken Adlerflügel im Vorderfeld
+                        und dem rechten Vorderfuß des Löwen im Hinterfeld (<foreign>und das der
+                            adeler in dem munde mit dem hupote kein der crone dieselbe crone obene
+                            haldin sal und der lewe mit dem rechten fusse mit synen clauwen unden
+                            doran greiffen und dy halden</foreign>); im Oberwappen ein silberner
+                        Stechhelm mit rot-silbernen Helmdecken, darauf ein roter geschlossener Flug
+                        mit goldenen Flindern, belegt mit dem doppelschwänzigen, goldbewehrten,
+                        blaubezungten, goldbekrönten Löwen wie im Wappen (<foreign>mit einer
+                            raten und weissen helmdecken, doruffe zwene rote flogel, dy mit guldin
+                            ader gelwen flettrichin mitsampt der helmdecken sein bespirngit, in
+                            demselben flogeln auch ein weisser lewe mit der crone uff den houpte unt
+                            der czunge und clauwen als im schilde</foreign>). Er bestimmt
+                            (<foreign>meinen, setzen und wollen</foreign>), dass die Stadt
+                        das Wappen fortan überall (<foreign>in allen sachen</foreign>)
+                            <foreign>zu schympf und zu ernst</foreign> auf Bannern und im
+                        Stadtsiegel (<foreign>banyeren, ingesigel</foreign>) und auch
+                        anderswo (<foreign>an andern steten</foreign>) führen, gebrauchen
+                        und genießen darf. Außerdem erlaubt er (<foreign>haben ... gegonnet und
+                            erloubet</foreign>), dass die Stadt fortan alle Urkunden
+                            (<foreign>alle ire brieffe</foreign>) mit grünem oder gelbem
+                        Wachs nach ihrem Gutdünken (<foreign>wie inen das gefellig sein
+                            wirdet</foreign>) ungehindert siegeln darf. Er gebietet allen
+                        geistlichen und weltlichen Fürsten, Grafen, Freien, Edlen, Rittern,
+                        Knechten, Amtleuten, Herolden, Persevanten, Vögten, Richtern,
+                        Bürgermeistern, Räten und Gemeinden aller Städte, Märkte und Dörfer sowie
+                        allen seinen sowie des Heiligen Römischen Reichs und der Böhmischen Krone
+                        Untertanen unter Androhung schwerer Ungnade, die Stadt nicht in der Führung
+                        des Wappens zu behindern.<lb/>Daniel Maier</p></abstract><textClass/></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1433-08-29_Goerlitz-3.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1433-08-29_Goerlitz-4.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1433-08-29_Sigismund-Wappen-fuer-Goerlitz-ORIGINAL-Verlust.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1433-08-29_Kopie-wohl-1536_Sigismund-Wappen-Goerlitz.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1433-08-29_Kopie-wohl-1536_Sigismund-Wappen-Goerlitz_Ratsarchiv Görlitz sub dato (271215)_Ausschnitt_Photo-Alexandra-Kaar.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1433-08-29_Kopie-wohl-1536_Sigismund-Wappen-Goerlitz_Ratsarchiv Görlitz sub dato (271215)_Photo-Alexandra-Kaar.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1433-08-29_Kopie-wohl-1536_Sigismund-Wappen-Goerlitz_Ratsarchiv Görlitz sub dato (271215)_Siegel_Photo-Alexandra-Kaar.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1433-08-29_Kopie-wohl-1536_Sigismund-Wappen-Goerlitz_Ratsarchiv Görlitz sub dato (271215)_verso_Photo-Alexandra-Kaar.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

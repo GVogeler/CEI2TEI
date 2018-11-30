@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Mailand</settlement><repository>Archivio di Stato</repository><collection>Archivio Visconteo-Sforzesco, Potenze sovrane, scatola 1469, </collection><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1497-07-23_Mailand</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+        <p n="Ekphrasis">Gerahmtes Bildfeld mit Deckfarbenmalerei. Zentral das neu verliehene
+         Wappen, gehalten von zwei seitlich stehenden Engeln.<lb/>Die Urkunde wurde während des
+         Zweiten Weltkriegs zerstört. </p>
+        <p n="Stil und Einordnung">Von der zu behandelnden Urkunde sind nur photographische
+         Detailabbildungen der Wappenminiatur erhalten, wie die von Francesco Malaguzzi Valeri,
+          <quote>La corte di Ludovico il Moro</quote>, vol III, Mailand, 1917,
+         Fig. 178, publizierte, erhalten. <lb/><lb/>Von ihm wird die Ausstattung der Urkunde
+         dem „Maestro del libro d´ore di Bona di Savoia“, ein Künstler der heute als Giovanni Pietro
+         Birago bekannt ist, zugeschrieben. <lb/>Die Urkunde fügt sich exakt in den Abschnitt
+         der Karriere des Künstlers ein, als dieser nach seinem Aufenthalt in Rom nach Mailand
+         zurückkehrte. Eben in diesen Jahren erhielt Birago eine Reihe von Aufträgen von Seiten der
+         Sforza, wie zum Beispiel die Wiederaufnahme der Ausstattung des Stundenbuchs (<quote>Libro d’ore</quote> ) von Bona di Savoia, der Ehefrau Galeazzo Maria
+         Sforzas, welches sich heute in London befindet (British Library, Ms. Add. 34.294), das
+         Frontispiz der <quote>Sforziada</quote> des Simonetas, übersetzt ins
+          <quote>Volgare</quote> von Cristoforo Landino in der Ausgabe von
+         Antonio Zarotto aus dem Jahre 1490 (vier Exemplare sind heute in Warschau, Biblioteka
+         Narodowa, Inc. F. 1347; Paris, Bibliothèque nationale de France, Imprimés, Réserve, Vélins
+         724; London, British Library, Greenville 7251; Firenze, Galleria degli Uffizi, Inv. 843,
+         4423-30 nur fragmentarisch erhalten; siehe M.L. Evans, <quote>New Light
+          on the 'Sforziada' Frontespieces of Giovanni Pietro Birago</quote>, in: The British
+         Library Journal 13, 1987, 1-2, S. 232-247), die Ausstattung eines weiteren kleinen
+         Stundenbuches in Auftrag gegeben von Ludovico il Moro als Geschenk an Karl VIII. von
+         Frankreich (heute in Venedig, Fondazione Cini, Inv. 2502, dazu siehe Cutolo, <quote>L’«Officium parum Beatae Mariae Virginis» donato da Ludovico il Moro a Carlo
+          VIII re di Francia</quote> , Mailand 1947 und Giordana Mariani Canova, <quote>Miniature dell’Italia settentrionale nella Fondazione Giorgio
+          Cini</quote> , Vicenza 1978, S. 70-72), sowie die Ausführung einiger Miniaturen in der
+         Handschrift mit der Grammatica von Donato für Massimiliano Sforza, Sohn von Ludovico il
+         Moro, und einige Gravuren, ebenfalls im Auftrag der Sforza. </p>
+        <p n="Stil und Einordnung">Vgl. zu Birago den Eintrag ‘Birago, Giovanni Pietro’, in:
+         Dizionario Biografico degli Italiani, Bd. 10 (1968) und den Eintrag 'Birago, Giovanni
+         Pietro', in: Dizionario biografico dei Miniatori italiani, 2004, S. 104-110, bes. S.
+         108.).</p>
+        <p>
+         <lb/>
+         <ref target="http://www.monasterium.net/mom/IlluminierteUrkundenLombardeiit/1497-06-09_Mailand/charter">[Link zum italienischen Originaltext von Laura Alidori]</ref>
+        </p>
+        <p n="Autorensigle">Laura Alidori (Übersetzung Stephanie Rosenkranz) und Martin
+         Roland</p>
+       </decoDesc></physDesc><diploDesc><copyStatus type="original">Original zerstört. Eine kopiale Überlieferung, Mailand, Archivio di Stato,
+       Archivio Visconteo-Sforzesco, Pot est alem, cart 584.</copyStatus>
+      <listBibl type="other">
+       <bibl>Malaguzzi Valeri, Corte, 3, 1917, S. 157 und 164 (Fig. 178):
+        online: <ref target="https://archive.org/stream/lacortedilodovic1917mala#page/157">https://archive.org/stream/lacortedilodovic1917mala#page/157</ref> bzw. <ref target="https://archive.org/stream/lacortedilodovic1917mala#page/164">https://archive.org/stream/lacortedilodovic1917mala#page/164</ref> . ( <ref target="http://zotero.org/groups/257864/items/QFVGF67K">Volltitel auf Zotero</ref>
+        )</bibl>
+       <bibl>Pellegrin, Bibliothèque, 1955, S. 410–412, bes. S. 411 (mit
+        älterer Lit.). ( <ref target="http://zotero.org/groups/257864/items/JV8SXTG4">Volltitel
+         auf Zotero</ref> )</bibl>
+       <bibl>Rocculi, Allegoria matrimoniale, 2011, S. 215 (und Fig. 15):
+        online: <ref target="http://www.rocculi.it/files/pdf/11_allegoria-sforza-visconti-aldobrandini.pdf">http://www.rocculi.it/files/pdf/11_allegoria-sforza-visconti-aldobrandini.pdf</ref> ).
+        ( <ref target="http://zotero.org/groups/257864/items/JFQ6XXUC http://zotero.org/groups/257864/items/VADBTRGH">Volltitel auf Zotero</ref> )</bibl>
+       <bibl>Paul Wescher, ‘Birago, Giovanni Pietro’, in: Dizionario Biografico degli Italiani,
+        Volume 10 (1968): online: <ref target="http://www.treccani.it/enciclopedia/giovanni-pietro-birago_(Dizionario-Biografico)/">http://www.treccani.it/enciclopedia/giovanni-pietro-birago_(Dizionario-Biografico)</ref>
+        .</bibl>
+       <bibl>vgl. RI XIV 2/1-2 (1993), Nr. 5009: online: <ref target="http://www.regesta-imperii.de/id/1497-06-05_1_0_14_2_0_1348_5009">http://www.regesta-imperii.de/id/1497-06-05_1_0_14_2_0_1348_5009</ref></bibl>
+       <bibl>RI XIV 2/1-2 (1993), Nr. 5101: online: <ref target="http://www.regesta-imperii.de/id/1497-07-23_2_0_14_2_0_1441_5101">http://www.regesta-imperii.de/id/1497-07-23_2_0_14_2_0_1441_5101</ref></bibl>
+       <bibl>L.P. Gnaccolini, 'Birago, Giovanni Pietro', in: <ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/RJC6PBK9">Dizionario biografico dei miniatori italiani, 2004</ref> , p. 108.</bibl>
+       <bibl>Roland, Medieval Grants of Arms, 2018, S. 153f. (<ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/XSG7BYA7">Volltitel auf Zotero</ref>)</bibl>
+       <bibl>Manfred Holleger sei sehr herzlich gedankt für die kritische Durchsicht dieses
+        Eintrages.</bibl>
+      </listBibl>
+      <listBibl type="regest">
+       <bibl/>
+      </listBibl>
+      
+       <bibl/>
+      
+      <listBibl type="unknown">
+       <bibl/>
+      </listBibl>
+      <p n="msDesc/history">Im Zweiten Weltkrieg zerstört.</p>
+      <p>Offenbar wurde im Verhandlungsprozess ein Wortlaut vereinbart, den den Mailänder
+       Gesannten nach Mailand übermittelten. Die Urkunde sollte Füssen 1497 Juni 5 datiert sein
+       (kopial überliefert: Mailand Archivio di Stato, Archivio Sforz, pot sovr, cart 1469, fol. 181
+       ff.) (vgl. RI XIV, 2, Nr. 5009). Ein inhaltsgleiches Konzept mit freiem Platz für die
+       Wappenzeichnung ist in den herzoglichen Registern erhalten: ASM, ducali-reg 62, fol. 37 ff.
+       <lb/>Kopial ist das Stück in ASM, ASforz, pot est, alem, cart 584, überliefert.
+       <lb/>Auch in Bezug auf den Inhalt gab es Probleme. Maximilian plante offenbar dem Herzog
+       selbst ein neues Wappen zu verleihen. Dies lässt ein Schreiben des Herzogs von 1497 Juli 10
+       vermuten, in dem er dem König versichert, dass er das neue Schlangenwappen nicht, wie man dem
+       König irrtümlich mitgeteilt habe, statt des ihm bei der Übergabe des Herzogtums gewährten
+       verwenden wolle, sondern es für seine rechtmässigen Söhne wünsche, die nicht das Herzogtum
+       erlangen. (vgl. RI XIV, 2, Nr. 5101)<lb/>Den RI war das nun zerstörte Original offenbar
+       nicht bekannt.<lb/>Martin Roland (mit Korrekturen von Manfred Holleger)</p>
+      
+      
+      <listBibl type="edition">
+       <bibl/>
+      </listBibl>
+     <issued>
+      <placeName>Imst (Ausstattung: Mailand)</placeName>
+      <date when="14970723">1497-07-23</date>
+     </issued></diploDesc><authDesc>
+       
+       
+      </authDesc></msDesc></witness>
+      <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+     </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Wappenbrief</term>: König
+      Maximilian I. gestattet dem Ludovico Maria Sforza, Herzog von Mailand, zum Dank für seine
+      Treue gegenüber König und Reich, dass alle seine legitimen Söhne, auch die nichtregierenden,
+      folgendes, hier abgebildetes Wappen führen dürfen: das silberne Feld soll durch zwei schwarze
+      Linien in Kreuzesform geteilt sein. Im Mittelfeld soll es den kaiserliche Adler zeigen und in
+      den vier Eckfeldern einzelne Schlangen wie im Herzogswappen. Die legitimen Nachkommen sollen
+      dieses Wappen auf ihren Fahnen, Waffen, Siegeln, Gebäuden etc. für ewige Zeiten führen dürfen.
+      (vgl. RI XIV, Nr. 5009 und 5101).</p></abstract><textClass><keywords scheme="Illurk-Urkundenart"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Wappenbrief</term></keywords><keywords scheme="illurk-vocabulary"><term key="Historiated" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Historiated">N1: historisiert</term><term key="WithAdditionalColours" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#WithAdditionalColours">N1: mit zusätzlichen
+     Farben</term><term key="ExecutionPainted" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#ExecutionPainted">N1: gemalt</term><term key="Miniatures" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Miniatures">N1: Bildfeld</term><term key="CoatsOfArms" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#CoatsOfArms">N1: Wappen</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>HRR</region></placeName></place><place><placeName><region>Deutschland</region></placeName></place><place><placeName><region>Italien</region></placeName></place><place><placeName><region>Lombardei</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1497-06-09_Maximilian-fuer-Ludovico-Sforza_Birago.jpg"/></facsimile><text><body>
+    
+    
+    <div type="tenor"><p/></div>
+   </body></text></TEI>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Stuttgart</settlement><repository>Landesarchiv Baden-Württemberg, Hauptstaatsarchiv
+                                Stuttgart</repository><collection>H 52</collection><collection>Bemalte Urkunden</collection><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1332-10-27_Stuttgart</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material>Pergament</material><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</term>:
+                                    Historisierte Initiale U(niversis) zu Textbeginn und zwei
+                                    Bildfelder auf den Bildrändern aussen. Drei weitere vergrösserte
+                                    Initialen in der ersten Zeile – die erste im Binnenfeld
+                                    historisiert – sowie drei weitere vergrösserte einzeilige
+                                    Initialen im Textblock, die beiden anderen mit Dornblattranken
+                                    im Binnenfeld. Im Text drei vergrösserte einzeilige Initialen
+                                    der gleichen Art. Doppellinien am Rand, die jedoch für die
+                                    Bildfelder, die schmaler sind, nicht genutzt wurden. Alle
+                                    Initialen sind von einem eckigen Initialfeld
+                                    umschlossen.</p>
+                                <p n="Ekphrasis">Neun Zeilen hohe historisierte Initiale zu
+                                    Textbeginn: in Feder gezeichnet und mit Deckfarben koloriert. Im
+                                    Binnenfeld eine gekrönte stehende Maria mit Kind, und einer
+                                    Blume (Blumenzepter?), oberhalb bezeichnet: „Sancta Maria
+                                    virgo“. Vor weissem quadrierten Grund. Der Buchstabenschaft
+                                    links mit stehendem Petrus mit Schlüssel (oberhalb bezeichnet:
+                                    „Sanctus Petrus“), rechts mit stehendem Jakob mit Hut,
+                                    Pilgerstab und -tasche (oberhalb bezeichnet: „Sanctus Jacobus“).
+                                    Die Initiale gerahmt, der Balkenstrich links in eine Kreuzblume
+                                    auslaufend. Unterhalb der Initiale, rechteckig gerahmt, ein
+                                    stehender Bischof mit Nimbus und Schriftband, bezeichnet:
+                                    „Ratificamus et co(n)f(irmamus)“. Im rechten Rand gegenüber die
+                                    stehende Katharina mit dem Rad. (U)n(iversis) in die untere
+                                    Zeile hineinragend, gerahmt und mit einem Bischof im Binnenfeld,
+                                    zwei weitere Initialen gerahmt und mit Dornblattranken. Im Text
+                                    drei einzeilige Initialen der gleichen Art. Doppellinien am
+                                    Rand, die jedoch für die Bildfelder, die schmaler sind, nicht
+                                    genutzt wurden.</p>
+                                <p n="Stil und Einordnung">Das <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Layout">Layout</term>
+                                    des Ablasses für Hohenberg stellt eine interessante Variante des
+                                        <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Rahmentyp">Rahmentyps</term> dar, die sich fortan häufiger finden
+                                    lässt: Anstelle des das Textfeld umrahmenden Bildstreifens
+                                    konnte man offenbar – wie aus einem Baukasten – auch einzelne
+                                    Elemente auswählen.</p>
+                                <p n="Stil und Einordnung">Seit 1329 kann man eine <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#IkonographischeDiversifizierung">ikonographische
+                                        Diversifizierung</term> bei der Illuminierung von
+                                    Sammelablässen beobachten. Hier ist interessant, dass mit
+                                    Jakobus auf das Patrozinium der begünstigten Kirche hingewiesen
+                                    wird, die anderen Heiligen wie auch Maria aber keine
+                                    herausgehobene Rolle im Text spielen. Selbst wenn der
+                                    Augenschein eine Individualisierung des Ablasses vermuten lässt,
+                                    ist er letztlich nur mit der Darstellung von Jakobus spezifisch. </p>
+                                <p n="Stil und Einordnung">Dass der konfirmierende Bischof im
+                                    BIldfeld unter der Initiale mit Nimbus dargestellt wurde, muss
+                                    wohl als Versehen gewertet werden. Dass jedoch im „n“, dem
+                                    zweiten Buchstaben der ersten Zeile, im Binnenfeld ein Bischof
+                                    ohne Nimbus dargestellt ist, ist ungewöhnlich; vielleicht sollte
+                                    dieses Figürchen den Lokalbischof meinen? Schon einmal, <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1331-02-26_Baltimore/charter">1331 Februar 26 für Albi</ref>, tauchte ein Bischof in
+                                    einer kleinen Initiale auf; dort freilich in der – zeitgleich –
+                                    auf die Urkunde geschriebenen Konfirmierung des
+                                    Bischofs.</p>
+                                <p n="Stil und Einordnung">Für die <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1330-10-08_Darmstadt/charter">Forstwaldkapelle</ref> (1330 Oktober 8) trat zum ersten
+                                    Mal diese <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Vorlage">Vorlage</term> für eine stehende Maria mit Kind auf,
+                                    sie begegnet auch im Ablass für <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1332-06-16_Wels/charter">Wels</ref> (1332 Juni 16). Dieser <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Vorlage">Vorlage</term> folgt auch die Darstellung für
+                                    Hohenberg; sie kann als bisher gelungenste Ausführung gelten.
+                                    Der bestätigende Bischof mit dem Schriftband – dort richtig ohne
+                                    Nimbus – findet sich nach derselben Vorlage in <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1332-09-01_Zuerich/charter">1332 September 1 für das Münster in
+                                    Zürich</ref>.</p>
+                                <p n="Stil und Einordnung">An der Malerei ist der reiche
+                                    Gebrauch von Weiss auffällig, was im Kanon der sonst nach
+                                    plakativer Fernwirkung strebenden Illuminierung von Avignoner
+                                    Sammelindulgenzen ungewöhnlich ist. Dieser Illuminator benutzt
+                                    zwar die <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Vorlage">Vorlagen</term> der <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                                        Bischofsammelindulgenzen</term>, unterscheidet sich
+                                    aber durch seine differenzierte Zeichenweise von den meisten
+                                    anderen Malern. Insbesondere seine Textinitialen lassen an einen
+                                    Buchmaler denken, der stärker mit „klassischer“ Buchmalerei
+                                    vertraut ist.</p>
+                                <p n="Autorensigle">Gabriele Bartz, Martin Roland</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <listBibl type="other">
+                            <bibl>Homburger, von Steiger, Zwei
+                                Ablassbriefe in Bern, 1957, S. 151. (<ref target="http://zotero.org/groups/257864/items/26FJWVDS">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>
+                                <ref target="http://www.landesarchiv-bw.de/plink/?f=1-324596">http://www.landesarchiv-bw.de/plink/?f=1-324596</ref>
+                            </bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName>Avignon</placeName>
+                        <date when="13321027">1332-10-27</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            Es werden zwar nur elf Aussteller genannt, die Plica weist
+                                jedoch Löcher für 12 Siegel auf. Sieben Siegel sind noch erhalten
+                                (teilweise beschädigt), ansonsten nur noch Reste der Seidenfäden.
+                                Zwischen dem sechsten und dem siebenten Siegel dürfte das Siegel
+                                eines Vidimus befestigt worden sein (abgefallen und der Vermerk auf
+                                der Plica nicht mehr lesbar).
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz</term> (11 Aussteller) für die Jakobskirche
+                        auf dem Hohenberg [bei Ellwangen]:<lb/>Erzbischof
+                                <legalActor type="issuer"><placeName>Guillelmus
+                                von Bar</placeName></legalActor> (<quote>Antibarensis</quote>) und die Bischöfe <legalActor type="issuer"><persName>Johannes von
+                            Terralba</persName></legalActor> (<quote>Terrealbensis</quote>), <legalActor type="issuer"><persName>Bonifatius von
+                            Krbava</persName></legalActor> (<quote>Corbaviensis</quote>), <legalActor type="issuer"><persName>Johannes von
+                            Verden</persName></legalActor> (<quote>Verdensis</quote>), <legalActor type="issuer"><persName>Vitalis von
+                            Ajacco</persName></legalActor> (<quote>Adiacensis</quote>), <legalActor type="issuer"><persName>Vinzenz von
+                            Mariana</persName></legalActor> (<quote>Maranensis</quote>), <legalActor type="issuer"><persName>Johannes von
+                            Serbien</persName></legalActor> (<quote>Serbiensis</quote>), <legalActor type="issuer"><persName>Angelus von
+                            Accia</persName></legalActor> (<quote>Acciensis</quote>), <legalActor type="issuer"><persName>Natusbene von
+                                Avellino</persName></legalActor> (<quote>Avilanensis</quote>), <legalActor type="issuer"><persName>Raphael von
+                            Nebbio</persName></legalActor> (<quote>Nebiensis</quote>) und <legalActor type="issuer"><persName>Petrus von Monte
+                                Marano</persName></legalActor> (<quote>Montismarani</quote>) erteilen all jenen einen Ablass von 40 Tagen
+                            (<quote>miseridorditer in Domino
+                        relaxamus</quote>), die die in der Diözese Würzburg gelegene Kirche St.
+                        Jakob auf dem Hohenberg (<quote>ecclesia sancti Jacobi
+                            apostoli in alto monte</quote>) reumütig und nach Ablegung der
+                        Beichte an bestimmten Festtagen und in der jeweiligen Oktav besuchen und
+                        dort Abend- und Morgenmessen oder welchen Gottesdiensten auch immer
+                        beiwohnen, und zwar an den Festtagen des Patrons der Kirche [St. Jakob], zu
+                        Weihnachten, zu den Festen der Beschneidung und der Erscheinung des Herrn,
+                        am Karfreitag (<quote>Parasceves</quote>), zu Ostern,
+                        Christi Himmelfahrt, Pfingsten, Fronleichnam, am Kreuzauffindungstag, am
+                        Kreuzerhöhungstag, an allen Marienfeiertagen, zu den Festen der Geburt und
+                        der Enthauptung Johannes' des Täufers, am Peter- und Paulstag, zu allen
+                        Apostel- und Evangelistenfesten, an den Feiertagen des heiligen Stephan, des
+                        heiligen Laurenz, des heiligen Clemens, des heiligen Vinzenz, des heiligen
+                        Vitus, des heiligen Georg, des heiligen Martin, des heiligen Nikolaus, des
+                        heiligen Gregor, des heiligen Augustinus, des heiligen Benedikt, des
+                        heiligen Gallus, des heiligen Dominikus, der heiligen Maria Magdalena, der
+                        heiligen Katharina, der heiligen Margarete, der heiligen Lucia, der heiligen
+                        Agnes, der heiligen Agathe, der heiligen Dorothea, der heiligen Scholastika,
+                        am Festtag <quote>Undecim milium Virginum</quote> [21.
+                        Oktober], an den <quote>Dies rogationum</quote>
+                        [Montag, Dienstag und Mittwoch nach dem fünften Sonntag nach Ostern], zu
+                        Allerheiligen, zu Allerseelen, am Kirchweihtag und an jedem Sonntag. Weiters
+                        wird all jenen ein Ablass gewährt, die für den Bau, die Beleuchtung und die
+                        sonstige Ausstattung der Kirche aufkommen, im Angesicht des Todes der Kirche
+                        ein gewisses Vermögen vermachen und die beim Läuten der Abendglocke drei
+                        Ave-Maria beten.<lb/>Markus Gneiss </p></abstract><textClass><keywords scheme="Illurk-Urkundenart"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz</term></keywords><keywords scheme="IllUrkGlossar"><term key="HistorisierteAvignonerBischofsammelindulgenz" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</term><term key="Layout" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Layout">Layout</term><term key="Rahmentyp" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Rahmentyp">Rahmentyps</term><term key="IkonographischeDiversifizierung" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#IkonographischeDiversifizierung">ikonographische
+                                        Diversifizierung</term><term key="Vorlage" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Vorlage">Vorlage</term><term key="Vorlage" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Vorlage">Vorlage</term><term key="Vorlage" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Vorlage">Vorlagen</term><term key="WerkstattderAvignonerBischofsammelindulgenzen" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                                        Bischofsammelindulgenzen</term></keywords><keywords scheme="illurk-vocabulary"><term key="Historiated" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Historiated">N1:
+                    historisiert</term><term key="Initials" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Initials">N1: Initiale</term><term key="Borders" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Borders">N1: Randdekor</term><term key="WithAdditionalColours" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#WithAdditionalColours">N1: Mit
+                    zusätzlichen Farben</term><term key="ExecutionPainted" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#ExecutionPainted">N1:
+                    gemalt</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Frankreich (Kurie)</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1332-10-27_fuer-st-Jakob-in-Hohenberg_labw_1-324596-1_klein.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1332-10-27_fuer-st-Jakob-in-Hohenberg_labw_1-324596-1_U-Init-1.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1332-10-27_fuer-st-Jakob-in-Hohenberg_labw_1-324596-1_U-Init-1_zweite-Init.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

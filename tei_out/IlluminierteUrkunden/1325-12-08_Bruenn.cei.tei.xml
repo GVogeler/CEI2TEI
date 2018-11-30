@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Brünn (Brno)</settlement><repository>Moravský zemský archiv</repository><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1325-12-08_Bruenn</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material>Pergament</material><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#IlluminierteAvignonerBischofsammelindulgenz">Illuminierte Avignoner Bischofsammelindulgenz</term>:
+                                    Dreizeilige in den oberen Rand ragende Initiale U(niversis) zu
+                                    Textbeginn, verlängerte Schrift (Elongata) in der ersten
+                                    Textzeile und zwei vergrösserte einzeilige Initialen im
+                                    Textblock, eine davon mit Frontalgesicht.</p>
+                                <p n="Ekphrasis">Drei Zeilen hohe historisierte Initiale: in
+                                    Tintenfarbe, ohne Kolorierung. Im Binnenfeld Vera Ikon.
+                                    Buchstabenkörper ornamental und floral ausgestaltet. Einzeilige
+                                    Initiale P(ia) im Textblock mit bärtigem Gesicht.</p>
+                                <p n="Stil und Einordnung">Diese Initiale kombiniert zwei
+                                    Gestaltungen für die Eingangsinitiale bei Sammelablässen: Die
+                                    Kreisform für den Buchstabenkörper ist seit <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1314-04-01_Aufbewahrungsort-unbekannt/charter">1314 April 1 für Kiechlinsbergen</ref> vom Zeichner der
+                                    kreisförmigen U-Initiale verwendet worden, die <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#VeraIkon">Vera
+                                        Ikon</term> im Binnenfeld war bereits für <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1323-05-11_Amiens/charter">Saint Martin in Picquingy</ref> (1323 Mai 11)
+                                    ausprobiert worden. Während dort noch eine gewisse Unsicherheit
+                                    bei der Gestaltung des Gesichts zu beobachten ist, findet man
+                                    hier einen piktogrammartigen Typus vor: Dieser Zeichner arbeitet
+                                    die Spitzen von Haar und Bart pointiert heraus, das Gesicht wird
+                                    lediglich durch Augen mit grossen Pupillen und einem dunklen
+                                    Mund bestimmt. Der Nimbus ist nicht ganz als Kreuznimbus
+                                    charakterisiert, denn unten fehlt eine weitere Abteilung. Der
+                                    Ausführende ist der <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#ZeichnermitdenMasswerkmotiven">Zeichner mit den
+                                        Masswerkmotiven</term>. Man erkennt ihn an den Blumen
+                                    an den Ausläufern und am bärtigen Gesicht. Die Synthese von
+                                    vorgefundenen und neuen Gestaltungsprinzipien wird man in der
+                                        <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                                        Bischofsammelindulgenzen</term> immer wieder beobachten
+                                    können.</p>
+                                <p n="Autorensigle">Martin Roland, Gabriele Bartz</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <listBibl type="other">
+                            <bibl>Švábenský, E 9 Cisterciačky Brno, 1954.
+                                    (<ref target="http://zotero.org/groups/257864/items/FFKRJT9V">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Roland, Zajic, Illuminierte Urkunden,
+                                2013, S. 321, online:<ref target="http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf">
+                                    http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf</ref>
+                                    (<ref target="http://zotero.org/groups/257864/items/BH99RHAK">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>
+                                <ref target="http://www.mom-ca.uni-koeln.de/mom/CZ-MZA/E09/1325_XII_08/charter">http://www.mom-ca.uni-koeln.de/mom/CZ-MZA/E09/1325_XII_08/charter</ref>
+                            </bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Arenga (Incipit): <quote>Pia mater ecclesia ...
+                            .</quote></p>
+                        <p>Markus Gneiss</p>
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName>Avignon</placeName>
+                        <date when="13251208">1325-12-08</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            16 Siegelschnüre (Seide), davon noch 15 mit einem Siegel
+                                (rotes Wachs). Das Siegel des bestätigenden Bischofs von Ölmütz
+                                (rotes Wachs) an Pergamentpressel.
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz
+                        </term>(16 Aussteller<term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">)</term> für die Kloster[kirche] von Marien-Saal in
+                        Alt-Brünn:<lb/>Patriarch <legalActor type="issuer"><persName>Dominikus von
+                            Grado</persName></legalActor> (<quote>Gradensis</quote>) und die Bischöfe <legalActor type="issuer"><persName>Nikolaus von
+                            Argos</persName></legalActor> (<quote>Argoricensis</quote>), <legalActor type="issuer"><persName>Matthäus von
+                            Beirut</persName></legalActor> (<quote>Beritensis</quote>), <legalActor type="issuer"><persName>Gregorius von
+                                Belluno-Feltre</persName></legalActor> (<quote>Feltrensis</quote>), <legalActor type="issuer"><persName>Marinus von
+                            Coron</persName></legalActor> (<quote>Coronensis</quote>), <legalActor type="issuer"><persName>Guilellmus von Civitatis
+                                Castellana</persName></legalActor> (<quote>Civitatis Castelle</quote>), <legalActor type="issuer"><persName>Franziskus von
+                                Perugia</persName></legalActor> (<quote>Perusinus</quote>), <legalActor type="issuer"><persName>Heinrich von
+                            Lübeck</persName></legalActor> (<quote>Lubicensis</quote>), <legalActor type="issuer"><persName>Robertus von
+                                Clonfert</persName></legalActor> (<quote>Clonfertensis</quote>), <legalActor type="issuer"><persName>Thomas von
+                            Sutri</persName></legalActor> (<quote>Sutrini</quote>), <legalActor type="issuer"><persName>Chrysogonus von
+                                Sebenico</persName></legalActor> (<quote>Sibinicensis</quote>), <legalActor type="issuer"><persName>Rogerus von
+                            Ross</persName></legalActor> (<quote>Roscensis</quote>), <legalActor type="issuer"><persName>Karolus von
+                            Maronia</persName></legalActor> (<quote>Maronensis</quote>), <legalActor type="issuer"><persName>Stephan von
+                            Lebus</persName></legalActor> (<quote>Lubucensis</quote>), <legalActor type="issuer"><persName>Johannes von
+                                Roeskilde</persName></legalActor> (<quote>Roskildensis</quote>) und <legalActor type="issuer"><persName>Jordanus von
+                            Acerno</persName></legalActor> (<quote>Acernensis</quote>) erteilen all jenen einen Ablass von 40 Tagen
+                            (<quote>misericorditer in Domino
+                        relaxamus</quote>), die die in der Diözese Olmütz gelegene
+                        Kloster[kirche] von Marien-Saal (<quote>monasterium Aule
+                            sancte Marie</quote>) in Alt–Brünn an bestimmten Festtagen und –
+                        soweit gegeben – in der jeweiligen Oktav reumütig und nach Ablegung der
+                        Beichte besuchen und dort Messen, Begräbnissen und sonstigen Feierlichkeiten
+                        beiwohnen, und zwar zu Weihnachten, zu den Festen der Beschneidung und der
+                        Erscheinung des Herrn, am Karfreitag, zu Ostern, Christi Himmelfahrt,
+                        Pfingsten, am Dreifaltigkeitstag, zu Fronleichnam, an allen
+                        Marienfeiertagen, am Peter- und Paulstag, zu allen Apostel- und
+                        Evangelistenfesten, am Kreuzauffindungstag, am Kreuzerhöhungstag, an den
+                        Feiertagen des heiligen Johannes des Täufers, des heiligen Erzengels
+                        Michael, des heiligen Stephan, des heiligen Laurenz, des heiligen Georg, des
+                        heiligen Vitus, des heiligen Wenzel, der heilge Adalbert, <quote>Decem milium Militum</quote> [22. Juni], des heiligen
+                        Blasius, des heiligen Vinzenz, des heiligen Dionysius, des heiligen
+                        Nikasius, des heiligen Christophorus, des heiligen Mauritius und seiner
+                        Gefährten, des heiligen Martin, des heiligen Nikolaus, des heiligen Eligius,
+                        des heiligen Leodegar, des heiligen Benedikt, des heiligen Bernhard, des
+                        heiligen Leonhard, des heiligen Prokop, des heiligen Antonius, des heiligen
+                        Ambrosius, des heiligen Gregor, des heiligen Hieronymus, des heiligen
+                        Augustinus, der heiligen Maria Magdalena, der heiligen Katharina, der
+                        heiligen Margarete, der heiligen Odilia, der heiligen Agnes, der heiligen
+                        Dorothea, der heiligen Anna, der heiligen Lucia, der heiligen Barbara, der
+                        11 000 Jungfrauen [21. Oktober], der heiligen Elisabeth, der heiligen
+                        Ludmilla, der heiligen Anastasia und der heiligen Scholastica sowie zu
+                        Allerheiligen, an allen ersten Sonntagen im Monat, im Advent und an den
+                        Samstagen, an denen zu Ehren Gottes und der heiligen Maria eine Messe in der
+                        Kloster[kirche] gehalten wird. Weiters wird all jenen Ablass gewährt, die
+                        beim Abendläuten drei Vater-Unser mit einem Engelsgruss beten, die im
+                        Angesicht des Todes dem Kloster ein gewisses Vermögen vermachen, die für den
+                        Bau, die Beleuchtung und die sonstige Ausstattung der Kirche oder des
+                        Diözesanortes aufkommen.<lb/><lb/>1325 Dezember 8,
+                        Brünn<lb/>Bischof <legalActor type="issuer"><persName>Konrad von
+                                Olmütz</persName></legalActor> bestätigt (<quote>ratificamus et approbamus</quote>) die obige Indulgenz
+                        und fügt weitere 40 Tage Ablass hinzu.<lb/>Markus Gneiss </p></abstract><textClass><keywords scheme="Illurk-Urkundenart"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz
+                        </term><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">)</term></keywords><keywords scheme="IllUrkGlossar"><term key="IlluminierteAvignonerBischofsammelindulgenz" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#IlluminierteAvignonerBischofsammelindulgenz">Illuminierte Avignoner Bischofsammelindulgenz</term><term key="VeraIkon" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#VeraIkon">Vera
+                                        Ikon</term><term key="ZeichnermitdenMasswerkmotiven" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#ZeichnermitdenMasswerkmotiven">Zeichner mit den
+                                        Masswerkmotiven</term><term key="WerkstattderAvignonerBischofsammelindulgenzen" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                                        Bischofsammelindulgenzen</term></keywords><keywords scheme="illurk-vocabulary"><term key="Initials" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Initials">N1: Initiale</term><term key="Historiated" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Historiated">N1:
+                    historisiert</term><term key="ExecutionDraw" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#ExecutionDraw">N1:
+                    gezeichnet</term><term key="figural" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#figural">N2: figürlich</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Frankreich (Kurie)</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1325-12-08_maria-saal-in-bruenn.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1325-12-08_maria-saal-in-bruenn-.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1325-12-08_maria-saal-in-bruenn_detail.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

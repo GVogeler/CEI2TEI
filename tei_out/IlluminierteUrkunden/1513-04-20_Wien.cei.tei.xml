@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Wien</settlement><repository>Stadt- und
+                Landesarchiv</repository><collection>Hauptarchiv-Urkunden</collection><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1513-04-20_Wien</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material>Pergament</material><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                <p n="Ekphrasis">Name des Erstausstellers in stark vergrösserter Capitalis mit
+                  goldenen, hellvioletten und blauen Buchstaben; die Initiale R(aphael) in der
+                  linken oberen Ecke des Pergaments und noch deutlich grösser als der Textanschluss.
+                  In den Binnenfeldern schwarzes Fleuronnée. Dreiseitige Bordüre aus locker
+                  angeordneten Akanthusranken und Renaissance-Kandelabern (rechts). In die Bordüre
+                  ist oben mittig das Papstwappen (Medici) in einem Lorbeerkranz, die Wappen Wiens
+                  (Reichsadler und Kreuz) (links unter der Initiale) und das Wappen des Impetrators
+                  (Heuperger) rechts integriert. Die Wappen jeweils von Putti gehalten
+                  (Wappenhalter). </p>
+                <p n="Stil und Einordnung">Der hier vorliegende Kardinalsammelablass wurde,
+                  trotz der auch in Rom üblichen Verwendung von Capitalis für den Namen des
+                  Erstausstellers zwar an der Kurie mundiert und besiegelt, die künstlerische
+                  Ausstattung wurde jedoch erst vom Empfänger beauftragt. Matthias Heuperger
+                  bediente sich eines Malers, der in weiteren Urkunden (und wohl auch in einem
+                  monumentalen Urbar) festzustellen ist. Auch die Ausstattung des Bruderschaftsbuch
+                  der Gottsleichnamsbruderschaft zu St. Stephan, bei der Heuperger einer der
+                  Zechmeister war, gehört in dasselbe Umfeld (siehe <ref target="http://images.monasterium.net/illum/IllUrk/DAW_Fronleichnamsbruderschaft_St. Stephan_fol1r.jpeg">Diözesanarchiv Wien, Bruderschaftsbuch der Gottsleichnamsbruderschaft, fol.
+                    1r</ref>).</p>
+                <p n="Stil und Einordnung">Die verwendeten Formen kombinieren den langfingerigen
+                  Akanthus, der im Grunde auf spätgotische Augsburger Vorbilder aufbaut mit
+                  Renaissanceformen. Der Buchmaler hat in Wien noch zwei weitere Urkunden
+                  ausgestattet; dazu siehe bei: 1513 Februar 13, Bruderschaftsbrief der Wiener
+                  Kaufleute (Nürnberg, Germanisches Nationalmuseum [GNM], Historisches Archiv,
+                  Pergamenturkunde sub dato: <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1513-02-13_Nuernberg/my-charter">http://monasterium.net/mom/IlluminierteUrkunden/1513-02-13_Nuernberg/my-charter</ref>). </p>
+                <p n="Autorensigle">Martin Roland</p>
+              </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+            <listBibl type="other">
+              <bibl/>
+              <bibl>Berg, Ablaßurkunde, 1992. (<ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/U98WVDZT">Volltitel auf Zotero</ref>)</bibl>
+              <bibl>Gneiss, Ablassbrief, 2016. (<ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/UTT8XMZ4/">Volltitel auf Zotero</ref>)</bibl>
+              <bibl>Roland, Funktion, 2017, Kap. 3c. (Volltitel auf
+                  Zotero)</bibl>
+            </listBibl>
+            <listBibl type="edition">
+              <bibl/>
+            </listBibl>
+            <listBibl type="regest">
+              <bibl/>
+            </listBibl>
+            
+              <bibl/>
+            
+            <listBibl type="unknown">
+              <bibl/>
+            </listBibl>
+            
+            
+            
+          <issued>
+            <placeName>Rom</placeName>
+            <date when="15130413">1513-04-20</date>
+          </issued></diploDesc><authDesc>
+              
+              Alle Siegel abgefallen, nur mehr die Hanfschnüre
+                erhalten.
+            </authDesc></msDesc></witness>
+            <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+          </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.#">Kardinalsammelindulgenz</term> (10 Aussteller) für die Erasmus- und
+            Helenenkapelle in Wien:<lb/>Die Kardinalbischöfe <persName>Raphael von
+              Ostia</persName> (<foreign>Ostiensis</foreign>) und
+              <persName>Dominikus von Porto-Santa Rufina</persName>
+              (<foreign>Portuensis</foreign>) sowie die Kardinalpriester
+              <persName>Nikolaus von Santa Prisca</persName>), <foreign>tituli sancte
+              Prisce</foreign>), <persName>Adrianus von San Crisogono</persName>
+              (<foreign>tituli sancti Grisogoni</foreign>), <persName>Franziskus von
+              Santi Giovanni e Paolo</persName> (<foreign>tituli sanctorum Johannis et
+              Pauli</foreign>), <persName>Leonardus von Santa Susanna</persName>
+              (<foreign>tituli sancte Susanne</foreign>), <persName>Petrus von
+              Sant'Eusebio</persName> [all'Esquilino] (<foreign>tituli sancti
+              Eusebii</foreign>), <persName>Christophorus von Santa Prassede</persName>
+              (<foreign>tituli sancte Praxedis</foreign>) und die Kardinaldiakone
+              <persName>Alexander von Sant'Eustachio</persName> (<foreign>sancti
+              Eustachii</foreign>) und <persName>Alfonsus von San Teodoro [al
+              Palatino]</persName> (<foreign>sancti Teodori</foreign>) erteilen all
+            jenen einen Ablass von 100 Tagen (<foreign>misericorditer in Domino
+              relaxamus</foreign>), die die Erasmus- und Helenenkapelle auf dem Friedhof der
+            Wiener [Stephans-]Kirche (<foreign>capella sanctorum Erasmi et Helene in cimiterio
+              ecclesie Wienensis</foreign>), der der Wiener Bürger <persName>Matthäus
+              Heuperger</persName> (<foreign>Mathias Heuperger civis
+            Wienensis</foreign>) besondere Verehrung zollt, reumütig und nach Ablegung der
+            Beichte besuchen, und zwar an den Feiertagen des heiligen Virgil, der heiligen Anna, der
+            heiligen Helena, zu Allerseelen und am Weihetag der Kapelle, jeweils täglich zwischen
+            der ersten und der zweiten Vesper. Weiters wird all jenen ein Ablass gewährt, die für
+            die bauliche Instandhaltung der Kapelle und deren Ausstattung mit liturgischem Gerät
+            aufkommen.<lb/>Markus Gneiss</p></abstract><textClass><keywords scheme="IllUrk-Urkundenart"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.#">Kardinalsammelindulgenz</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Italien (Kurie)</region></placeName></place><place><placeName><region>HRR (Österreich)</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1513-04-20_WStLA-HA-Urkunden_6015_r-.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1513-04-20_WStLA-HA-Urkunden_6015_r[1].jpg"/></facsimile><text><body>
+        
+        
+        <div type="tenor"><p/></div>
+      </body></text></TEI>

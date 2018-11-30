@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Erfurt</settlement><repository>Stadtarchiv</repository><altIdentifier><settlement>Magdeburg</settlement><repository>Staatsarchiv</repository><idno>Erfurt
+                                    A XLVII Nr.
+                            1</idno></altIdentifier><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1160_Erfurt</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis">Doppelte rote Rahmenlinie golden gefüllt;
+                                    goldene Satzmajuskeln mit roten Umrisslinien.</p>
+                                <p n="Stil und Einordnung">Schrift und Satzmajuskeln weisen
+                                    eindeutig auf das Buchwesen und nicht das Urkundenwesen als
+                                    Grundlage der Gestaltung hin. </p>
+                                <p n="Stil und Einordnung">Historisch ist das Dokument von
+                                    Bedeutung, weil es einerseits den jüdischen Mitbürgern eine sie
+                                    nicht diskriminierende Rechtsstellung im Prozess einräumt (viele
+                                    spätere Judeneide sind von diskriminierenden und
+                                    vorverurteilenden Formulierungen durchsetzt) und andererseits
+                                    weil es als ältestes deutschsprachiges Dokument gilt, das die
+                                    Rechtsstellung von Juden in einer Stadt beschreibt. </p>
+                                <p n="Stil und Einordnung">Das Schriftstück ist nicht datiert.
+                                    Fixpunkt sind die Amtszeiten Erzbischofs Konrads von Mainz,
+                                    1161–1165 und 1183–1200. Mit grosser Wahrscheinlichkeit fällt
+                                    die Abfassung des Judeneides in Konrads zweite Amtszeit, ist
+                                    also zwischen 1183 und 1200 formuliert worden.<lb/>Schrift
+                                    und Dekorformen können von einer zuerst von Arthur Haselhoff
+                                    definierten 'Thüringisch-sächsischen Malerschule des 13.
+                                    Jahrhunderts' abgeleitet werden. Daraus ergibt sich eine
+                                    Datierung des vorliegenden Objekts um 1210/30. Wegen des
+                                    Stadtsiegels ist eine Entstehung in Erfurt
+                                    wahrscheinlich.</p>
+                                <p n="Autorensigle">Martin Roland</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <listBibl type="other">
+                            <bibl>VL2, Bd. 2 (1980), Sp. 574–576 (Ruth Schmidt-Wiegand); mit
+                                ausführlichen Literaturangaben. (<ref target="http://zotero.org/groups/257864/items/8JSA3JD7">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Mainzer Urkundenbuch, Bd. 2, 1971, S.
+                                1096 f., Nr. 672. (<ref target="http://zotero.org/groups/257864/items/BIW3PI6Q">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>UB Stadt Erfurt, Bd. 1, 1889, S. 23, Nr.
+                                51. (<ref target="http://zotero.org/groups/257864/items/VWTUMIQH">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Corpus altdeutscher Originalurkunden: <ref target="http://tcdh01.uni-trier.de/cgi-bin/iCorpus/CorpusIndex.tcl?hea=qf%26nav=%26for=qfcoraltdu%26cnt=qfcoraltdu%26xid=CW10001">http://tcdh01.uni-trier.de/cgi-bin/iCorpus/CorpusIndex.tcl?hea=qf&amp;nav=&amp;for=qfcoraltdu&amp;cnt=qfcoraltdu&amp;xid=CW10001</ref></bibl>
+                            <bibl><ref target="http://www.handschriftencensus.de/werke/101">http://www.handschriftencensus.de/werke/101</ref> (mit
+                                ausführlichen Literaturangaben)</bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Das erhaltene Schrift-Objekt, das die Aussage eines jüdischen
+                            Mitbürgers in Gerichtsverfahren ermöglichte, ist - trotz seines ganz
+                            bewusst urkundlichem Aussehen - keineswegs eine Urkunde, die Recht
+                            schriftlich setzt, sondern eine mediale Aussage. <lb/>Dies wird
+                            schon dadurch deutlich, dass der Erzbischof als Autor des Textes
+                            (genannt in der letzten [!] Textzeile) und die Stadt Erfurt als die
+                            Inhaberin des Siegels nicht übereinstimmen. <lb/><lb/>Vielmehr
+                            ist zu vermuten, dass das vorliegende Objekt für ein ganz spezifisches
+                            Ereignisses (Prozess) in Erfurt angefertigt wurde. Dafür wurde ein für
+                            alle drei Parteien (Erzbistum, Stadt und jüdische Gemeinde)
+                            identitätsstiftendes Stück geschaffen. Es sieht wie eine Urkunde aus und
+                            mag während der Eidesleistung performative Funktionen gehabt haben, der
+                            Rechtsakt, das Schwören des Eides, wurde jedoch durch gesprochenes Wort
+                            und performatives Handeln vollzogen.<lb/> Dass das Stück den
+                            Anschein einer Urkunde erwecken will, belegt, dass man die
+                            rechtssichernde Kraft von Urkunden hoch schätzte und diese durch die
+                            Optik evozieren wollte. </p>
+                        <p>Martin Roland</p>
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName/>
+                        <date from="11619999" to="12309999">Eidesformel: 1161, nach; 1200,
+                            vor -- das Objekt: Erfurt, um 1210/30</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p>Mittelhochdeutsche Eidesformel für Personen jüdischen Glaubens,
+                        gegeben von (Erz-)Bischof Konrad [I. von Wittelsbach] von Mainz [1161–1165;
+                        1183–1200], behängt mit dem Siegel der Stadt Erfurt (Erfurter
+                        Judeneid).<lb/>Martin Roland </p></abstract><textClass><keywords scheme="illurk-vocabulary"><term key="WithAdditionalColours" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#WithAdditionalColours">N1:
+                    Farbe</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>HRR (Deutschland)</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1160_nach__Erfurter-Judeneid_Erfurt-StA_0-0%20A%20XLVII%201.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1160_nach__Erfurter-Judeneid%20001.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

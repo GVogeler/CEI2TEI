@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Privatbesitz</settlement><settlement>(ehem. Reiss &amp; Sohn, </settlement><settlement>)</settlement><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1331-02-02_Privatbesitz-ehem-Reiss--Sohn</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material>Pergament</material><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</term>:
+                                    Historisierte Initiale U(niversis) zu Textbeginn und drei
+                                    weitere vergrösserte Initialen in der ersten Zeile sowie zwei
+                                    einzeilige Initialen mit Aussparungen im Textblock. </p>
+                                <p n="Ekphrasis">Sechs Zeilen hohe historisierte Initiale zu
+                                    Textbeginn: in Feder vorgezeichnet und mit Farben ausgemalt
+                                    (kolorierte Federzeichnung). Im Binnenfeld <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Christusbueste">Christusbüste</term> mit erhobenen Händen. Der
+                                    Buchstabenkörper links ornamental mit rautenförmigen
+                                    Aussparungen, rechts in stilisierten Masswerkmotiven. Die
+                                    kolorierten Buchstaben der ersten Zeile mit einem aus einer
+                                    Scheibe hochwachsendem floralem Dreiblattmotiv, Blattmotiv und
+                                    Fischen.</p>
+                                <p n="Stil und Einordnung">Bei dem Ablass für die Marienkirche
+                                    im Fleimstal handelt es sich um eine Arbeit des <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#ZeichnermitdenMasswerkmotiven">Zeichners mit den
+                                        Masswerkmotiven</term>, dessen Werke man am längsten in
+                                    der <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                                        Bischofsammelindulgenzen</term> nachweisen kann. Bei
+                                    dieser Urkunde hat er wieder einmal vergessen, die Wundmale auf
+                                    die Hände zu malen. Die gleiche Dekoration des rechten Schaftes
+                                    findet sich auch in den beiden Urkunden <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1331-04-30_Mailand/charter">1331 April 30 für Mailand</ref> und <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1331-04-30_Linz/charter">Waldhausen</ref>, doch hat er hier den üblichen
+                                    Farbklang aus Rot und Grün gewählt, während er dort die
+                                    Kombination aus Rot und Lila verwendete. Ungewöhnlich ist hier
+                                    das Rautenmuster im linken Schaft.</p>
+                                <p n="Autorensigle">Gabriele Bartz</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <listBibl type="other">
+                            <bibl>
+                                <ref target="https://www.reiss-sohn.de/frame_buch.php?page=585&amp;lang=deu">https://www.reiss-sohn.de/frame_buch.php?page=585&amp;lang=deu</ref>
+                            </bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Kommentar:</p>
+                        <p>Diese Sammelindulgenz zeichnet sich durch ein etwas reduziertes
+                            Formular aus. Die Reduktion erfolgt weniger bei den Ablassbedingungen,
+                            sondern mehrheitlich bei den genannten Festtagen im Kirchenjahr, an
+                            denen der Ablass gewonnen werden kann; auch die Oktav wird nicht
+                            explizit erwähnt.</p>
+                        <p>Bemerkenswert ist die deutliche Berücksichtigung von regionaler
+                            Heiligenverehrung: Die Feiertage des heilige Vigilius (von Trient, 26.
+                            Juni) und seiner Mutter Maxentia (30. April) finden sich unter den
+                            genannten Ablasstagen.</p>
+                        <p>Markus Gneiss</p>
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName>Avignon</placeName>
+                        <date when="13310202">1331-02-02</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            14 Seidenschnüre noch erhalten, ebenso wie Reste von zwei
+                                Siegeln
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz
+                        </term>(17 Aussteller) für die Marienkirche im
+                        Fleimstal/Südtirol:<lb/>Erzbischof <legalActor type="issuer"><persName>Guillelmus von
+                            Bar</persName></legalActor> (<quote>Antibarensis</quote>) und die Bischöfe <legalActor type="issuer"><persName>Heinrich von
+                            Isernia</persName></legalActor> (<quote>Ysinensis</quote>), <legalActor type="issuer"><persName>Antonius von
+                            Sagona</persName></legalActor> (<quote>Saguonensis</quote>), <legalActor type="issuer"><persName>Petrus von
+                            Strongoli</persName></legalActor> (<quote>Stragulensis</quote>), <legalActor type="issuer"><persName>Salmannus von
+                            Worms</persName></legalActor> (<quote>Wormaciensis</quote>), <legalActor type="issuer"><persName>Jordanus von
+                            Bobbio</persName></legalActor> (<quote>Bobiensis</quote>), <legalActor type="issuer"><persName>Johannes von
+                            Cassano</persName></legalActor> (<quote>Cassanensis</quote>), <legalActor type="issuer"><persName>Vinzenz von
+                            Nebbio</persName></legalActor> (<quote>Nebiensis</quote>), <legalActor type="issuer"><persName>Jordanus von
+                            Acerno</persName></legalActor> (<quote>Acornensis</quote>), <legalActor type="issuer"><persName>Johannes von
+                            Serbien</persName></legalActor> (<quote>Serbiensis</quote>), <legalActor type="issuer"><persName>Radulfus von
+                            Down</persName></legalActor> (<quote>Dunensis</quote>), <legalActor type="issuer"><persName>Vinzenz von
+                            Mariana</persName></legalActor> (<quote>Marcensis</quote>), <legalActor type="issuer"><persName>Thomas von
+                            Lavata</persName></legalActor> (<quote>Laveriensis</quote>, unsicher, aus Eubel nicht lokalisierbar),
+                                <legalActor type="issuer"><persName>Angelus
+                                von Grosseto</persName></legalActor> (<quote>Grossitani</quote>), <legalActor type="issuer"><persName>Meletius von
+                                Gallipoli</persName></legalActor> (<quote>Gallipolitani</quote>), <legalActor type="issuer"><persName>Bonifatius von
+                            Sulcis</persName></legalActor> (<quote>Sulcitanensis</quote>) und <legalActor type="issuer"><persName>Rudolfus von
+                            Cyzicus</persName></legalActor> (<quote>Cyriquensis</quote>) erteilen all jenen einen Ablass von 40 Tagen
+                            (<quote>misericorditer in Domino
+                        relaxamus</quote>), die die in der Diözese Trient gelegene Pfarrkirche
+                        St. Marien im Fleimstal (<quote>ecclesia parochialis sive
+                            plebania sancte Marie de valle Flemis</quote>) reumütig und nach
+                        Ablegung der Beichte an bestimmten Festtagen besuchen und dort öffentlichen
+                        Morgen- und Abendmessen oder welchen Messen auch immer beiwohnen, und zwar
+                        an allen Marienfeiertagen, zu Weihnachten, zu den Festen der Beschneidung
+                        und der Erscheinung des Herrn, Ostern, Pfingsten, Fronleichnam, am Feiertag
+                        des heiligen Johannes des Täufers und des heiligen Evangelisten Johannes, am
+                        Peter- und Paulstag, zu allen Apostelfesten, an den Feiertagen des heiligen
+                        Vigilius, der heiligen Maria Magdalena, der heiligen Katharina, der heiligen
+                        Maxienti, der heiligen Juliane, am Kirchweihtag und zu Allerheiligen.
+                        Weiters wird all jenen Ablass gewährt, die für den Bau, die Beleuchtung und
+                        die sonstige Ausstattung der Kirche aufkommen, die der Kirche entweder
+                        testamentarisch oder auf anderen Wegen Gold-, Silber- oder Kleidungsspenden
+                        zukommen lassen, die beim Läuten der Abendglocke drei Ave-Maria beten, die
+                        dem Priester beim Versehgang folgen und die am Friedhof der Kirche
+                        umhergehen und dort für die Verstorbenen beten.<lb/><lb/>Bestätigung
+                        durch einen Bischof, leider auch in Lupeneinstellung nicht
+                        lesbar.<lb/>Markus Gneiss </p></abstract><textClass><keywords scheme="Illurk-Urkundenart"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz
+                        </term></keywords><keywords scheme="IllUrkGlossar"><term key="HistorisierteAvignonerBischofsammelindulgenz" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</term><term key="Christusbueste" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Christusbueste">Christusbüste</term><term key="ZeichnermitdenMasswerkmotiven" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#ZeichnermitdenMasswerkmotiven">Zeichners mit den
+                                        Masswerkmotiven</term><term key="WerkstattderAvignonerBischofsammelindulgenzen" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                                        Bischofsammelindulgenzen</term></keywords><keywords scheme="illurk-vocabulary"><term key="Historiated" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Historiated">N1:
+                    historisiert</term><term key="Initials" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Initials">N1: Initiale</term><term key="WithAdditionalColours" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#WithAdditionalColours">N1: Mit
+                    zusätzlichen Farben</term><term key="ExecutionPainted" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#ExecutionPainted">N1:
+                    gemalt</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Frankreich (Kurie)</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1331-02-02_Marienkirche_Fleimstal_ReissuSohn_2015_Nr585.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1331-02-02_Marienkirche_Fleimstal_ReissuSohn_2015_Nr585_d.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

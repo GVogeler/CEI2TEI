@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Brügge (Brugge/Bruges)</settlement><repository>Onze-Lieve-Vrouw-Ter-Potterie</repository><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1354-99-99_Bruegge</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</term>:
+                                    Historisierte Initiale U(niversis) zu Textbeginn, oberhalb des
+                                    Textblocks Bildstreifen mit Figuren, links ebenfalls Figuren und
+                                    eine Dornblattranke. Vier weitere vergrösserte Initialen in der
+                                    ersten Zeile, tintenfarbig mit rotem Dekor (auch in den Spatien
+                                    zwischen den Worten).</p>
+                                <p n="Ekphrasis">Zehn Zeilen hohe historisierte Initiale: mit
+                                    Deckfarben (und Gold?) gemalt. Im Binnenfeld frontal
+                                    apokalyptischer Weltenherrscher mit von seinem Mund ausgehenden
+                                    Lilienzepter und Schwert (Christustyp) flankiert von zwei
+                                    Posaunen blasenden Engeln; auf der Erde entsteigen Menschen
+                                    ihren Gräbern. Die Buchstabenschäfte mit Monstern und Tieren in
+                                    weissem Camaieu auf Blau. Das Initial- und das Binnenfeld in
+                                    feinem kariertem Mustergrund. Links der Initiale Michael als
+                                    Drachentöter mit auslaufendem Dornblattdekor. Auf dem
+                                    Initialfeld Verteilung von Speisen an Kranke. Bei den anderen
+                                    drei Darstellungen wird es sich wohl auch um Tätigkeiten der
+                                    Krankenpflege handeln, doch ist das angesichts der schlechten
+                                    Abbildung nicht genauer auszumachen (<term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#DekorationbeimEmpfaenger">Dekoration beim Empfänger</term>). </p>
+                                <p n="Stil und Einordnung">Seit der letzten, bisher bekannten
+                                    Indulgenz mit Illumierungen der <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                                        Bischofsammelindulgenzen</term> für die <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1348-03-03_Laibach/charter">Nürnberg 1348 März 5</ref> muss man annehmen, dass die
+                                    Werkstatt ihre Tätigkeit – vielleicht wegen der wütenden Pest –
+                                    eingestellt hat. Der Ablass für das Spital von
+                                    Onze-Lieve-Vrouw-Ter-Potterie dürfte nicht in Avignon entstanden
+                                    sein, selbst wenn dort auch Buchmalerwerkstätten vergleichbare
+                                    Aufträge annahmen (z. B. <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1353-11-12_Marburg/charter">1353 November 12 für Fulda</ref>).</p>
+                                <p n="Stil und Einordnung">Das nahezu quadratische Initialfeld
+                                    ist gänzlich in den Textspiegel integriert. Auch die Avignoner
+                                    Werkstatt kannte den Christus als Weltenrichter, zuletzt bei
+                                        <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1342-01-02_Muenster/charter">1342 Jänner 2 für Fröndenberg</ref> (vgl. <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#IkonographischeDiversifizierung">ikonographische
+                                        Diversifizierung</term>), doch zeigt der Vergleich,
+                                    dass es sich hier um eine andere Darstellungsweise handelt: dem
+                                    Weltenherrscher schweben Lilienzepter und Schwert vor dem Mund
+                                    und die Engel blasen die Posaune. All dieses weist auf die
+                                    Illustration der Johannes-Apokalypse. Michael als Drachentöter
+                                    ist wie eine Drolerie am linken Rand untergebracht. Für die
+                                    Darstellungen zur Krankenpflege hat man einen grün gezackten
+                                    Bodenstreifen angebracht, der sich an einer Linierung zu
+                                    orientieren scheint, die die erste Zeile oben beschliesst, so
+                                    dass die vergrösserten Initialen diesen Bodenstreifen teils
+                                    unterbrechen, teils zu Hügeln darin führen. Nicht unbedingt
+                                    wegen der dadurch klaren Ausrichtung der Malerei auf den
+                                    Empfängerort, sondern wegen der feinen Malweise, auch mit dem
+                                    feinen quadrierten Grund, und dem elaborierten Figurenstil wird
+                                    es sich wohl um eine <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#DekorationbeimEmpfaenger">Dekoration beim
+                                        Empfänger</term> handeln. Die Figürchen auf der
+                                    Initiale sind allerdings sehr ähnlich auf dem <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1345-11-28_Udine/charter">Stück für Cividale</ref> (1345 November 28). Die
+                                    kleinteilige Darstellung der zu verteilenden Speisen freilich
+                                    zeigt dann doch ein anderes Temperament.</p>
+                                <p n="Stil und Einordnung">Angesichts der wenigen erhaltenen
+                                    flämischen Buchmalereien der Zeit hat der Ablass für das
+                                    Hospital in Brügge einen unschätzbaren Wert; Smeyers (1999, S.
+                                    195) sah die Malerei als „ein frühes herausragendes Beispiel
+                                    Brügger Miniaturkunst“.</p>
+                                <p n="Autorensigle">Gabriele Bartz, Martin Roland</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <listBibl type="other">
+                            <bibl>Oliver, Herkenrode, 1995, S. 190, 200,
+                                Abb. 3. (<ref target="http://zotero.org/groups/257864/items/B6BZ589J">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Smeyers et al., Naer natueren ghelike,
+                                1993, S. 84. (<ref target="http://zotero.org/groups/257864/items/CPN76BZ4">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Smeyers, Flämische Buchmalerei, 1999, S. 195. (<ref target="http://zotero.org/groups/257864/items/AM37BUQK">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Manzari, Miniatura ad Avignone, 2006, S.
+                                354f. (<ref target="http://zotero.org/groups/257864/items/4PQHP9IU">Volltitel auf Zotero</ref>)</bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName>Avignon und Brügge (Ausstattung)</placeName>
+                        <date when="13549999">1354-99-99</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz</term> für Brügge, Spital von
+                        Onze-Lieve-Vrouw-Ter-Potterie.</p></abstract><textClass><keywords scheme="Illurk-Urkundenart"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz</term></keywords><keywords scheme="IllUrkGlossar"><term key="HistorisierteAvignonerBischofsammelindulgenz" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</term><term key="DekorationbeimEmpfaenger" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#DekorationbeimEmpfaenger">Dekoration beim Empfänger</term><term key="WerkstattderAvignonerBischofsammelindulgenzen" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                                        Bischofsammelindulgenzen</term><term key="IkonographischeDiversifizierung" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#IkonographischeDiversifizierung">ikonographische
+                                        Diversifizierung</term><term key="DekorationbeimEmpfaenger" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#DekorationbeimEmpfaenger">Dekoration beim
+                                        Empfänger</term></keywords><keywords scheme="illurk-vocabulary"><term key="Initials" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Initials">N1: Initiale</term><term key="Historiated" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Historiated">N1:
+                    historisiert</term><term key="Borders" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Borders">N1: Randdekor</term><term key="WithAdditionalColours" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#WithAdditionalColours">N1: Mit
+                    zusätzlichen Farben</term><term key="ExecutionPainted" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#ExecutionPainted">N1:
+                    gemalt</term><term key="DD-nh-Initials" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#DD-nh-Initials">N2:
+                    Initiale</term><term key="zoomorphic" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#zoomorphic">N2: zoomorph</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Frankreich (Kurie)</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1354_Bruegge-potterie.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1354_Bruegge-potterie-.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1354_Bruegge_potterie_Bruegge_det.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

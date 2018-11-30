@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Ala</settlement><repository>Pfarrarchiv</repository><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1342-08-06_Ala</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</term>:
+                                    Historisierte Initiale U(niversis) zu Textbeginn ausgerissen.
+                                    Unterhalb der Initiale die stehende Figur des hl. Valentin mit
+                                    Buch, bezeichnet: „Sanctus Valentin(us)“. Weitere vergrösserte
+                                    Initialen mit farbigen Blattwerkaussparungen in der ersten
+                                    Zeile, Versalien im Textblock hellgrün (?) angestrichen.</p>
+                                <p n="Stil und Einordnung">Der Ablass für die Valentinskapelle
+                                    von Ala stelllt eine Steigerung der einfachen Ausführung dar
+                                    (vgl. <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Rahmentyp">Rahmentyp</term>). Gleichzeitig belegt er, dass auch
+                                    die älteren Mitarbeiter der <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                                        Bischofsammelindulgenzen</term> sich schon früh des
+                                    neuen <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Layout">Layouts</term> bedienen, das im bisher bekannten
+                                    Material der neue Mitarbeiter 1342 April 12 für Pusarnitz
+                                    vorgelegt hat, und bei dem die Heiligen am Rand ohne ein
+                                    Bildfeld erscheinen.</p>
+                                <p n="Stil und Einordnung">Anhand der erhaltenen Reste gelingt
+                                    der Vergleich mit 1343 April 4 für Tidichem, denn auch dort wird
+                                    das Initialfeld unten aus einem aus schwarzem Grund ausgesparten
+                                    Blatt gebildet und die Faltengrate werden mit breitem Pinsel
+                                    aufgetragen.</p>
+                                <p n="Stil und Einordnung">Von den minimalen Resten der
+                                    Ornamentik der Initiale und der Modellierung des hl. Valentin
+                                    den qualitätvolleren Ablässen des Jahres 1342
+                                    zuzuordnen.</p>
+                                <p n="Autorensigle">Martin Roland, Gabriele Bartz</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <listBibl type="other">
+                            <bibl><ref target="http://www.trentinocultura.net/asp_cat/main.asp?IDProspettiva=72&amp;TipoVista=Scheda%26IdObj=2078407%26Pag=2%26IdSel=2">http://www.trentinocultura.net/asp_cat/main.asp?IDProspettiva=72&amp;TipoVista=Scheda&amp;IdObj=2078407&amp;Pag=2&amp;IdSel=2</ref>
+                                (Link kaputt)</bibl>
+                            <bibl>Dogheria, Due lettere d'indulgenza,
+                                2004/05, S. 23–34. (<ref target="http://zotero.org/groups/257864/items/VZ3X4VW7">Volltitel auf Zotero</ref>)</bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Arenga: Die Überreste lassen auf die Arenga <foreign>Splendor
+                                paterne glorie</foreign> schließen.</p>
+                        <p>Die Kapelle/Kirche zu Ala (Trentino/Südtirol) wurde <ref target="https://necrologie.corrierealpi.gelocal.it/chiese/provincia-98-trento/citta-96-ala/7591-chiesa-di-san-valentino/notizie-storiche#tab">im Jahr 1329 geweiht</ref>. Wenige Jahre später erbat offenbar
+                            der örtliche Priester Bonaventura einen Sammelablass in Avginon. Der
+                            Ablass an sich geht über das für diese Zeit übliche Formular nicht
+                            hinaus. Neben den noch lesbaren Ablassgelegenheiten ist anzunehmen, dass
+                            auch am Tag des heiligen Valentin ein Ablass gewonnen werden konnte.
+                            Ebenso werden mit Sicherheit Tage wie Weihnachten, die Feste der
+                            Beschneidung und der Erscheinung des Herrn u. ä. - dem Standarddiktat
+                            entsprechend - im Urkundentext genannt worden sein. Die
+                            Abglassbedingungen abseits der Heiligen- und Festtage sind freilich noch
+                            vollständig erhalten geblieben und entsprechen dem damaligen Usus der
+                            Kanzlei. Der Petent wird namentlich angeführt; auch ein Gebet für diesen
+                            kann einen Ablass bringen.<lb/>Markus Gneiss</p>
+                        <p>Weihnachten, zu den Festen der Beschneidung und der Erscheinung des
+                            Herrn</p>
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName>Avignon</placeName>
+                        <date when="13420806">1342-08-06</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p>Fragment einer <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz</term> für Valentinskapelle in Ala
+                        (unbekannte Aussteller-Zahl):<lb/> Die Bischöfe [Text fehlt]
+                                <legalActor type="issuer"><persName>Petrus von
+                                Cagli</persName></legalActor>
+                            (<foreign>Calliensis</foreign>), <legalActor type="issuer"><persName>Thomas von Knin</persName></legalActor>
+                            (<foreign>Tiniensis</foreign>), <legalActor type="issuer"><persName>Matthäus
+                                    <foreign>Organcensis</foreign></persName></legalActor>
+                        [...], [?] von Xanthi (<foreign>Sanchiensis</foreign>),
+                                <legalActor type="issuer"><persName>Vinzenz von
+                                Mariana</persName></legalActor>
+                            (<foreign>Marinensis</foreign>), <legalActor type="issuer"><persName>Nikolaus von
+                            Nezero</persName></legalActor>
+                            (<foreign>Nazariensis</foreign>) [...] erteilen all jenen einen
+                        Ablass von 40 Tagen (<foreign>misercorditer in Domino
+                            relaxamus</foreign>), die die Valentinskapelle in
+                            <placeName>Ala</placeName> an bestimmten Festtagen und - soweit
+                        gegeben - in der jeweiligen Oktav reumütig und nach Ablegung der Beichte
+                        besuchen und dort Messfeierlichkeiten sowie Begräbnissen beiwohnen, und zwar
+                        [...] zu Christi Himmelfahrt, Pfingsten, am Dreifaltigkeitstag [...] an
+                        allen Marienfeiertagen, zu den Festen der Geburt und der Enthauptung des
+                        heiligen Johannes des Täufers, am Peter- und Paulstag, zu allen Apostel- und
+                        Evangelistenfesten, zu Allerheiligen, zu Allerseelen, am Weihetag der
+                        Kapelle, an den Feiertagen des heiligen Stephan, des heiligen Laurenz, des
+                        heiligen Georg, des heiligen Martin, des heiligen Nikolaus, des heiligen
+                        Augustinus, der heiligen Maria Magdalena, der heiligen Katharina, der
+                        heiligen Margarete sowie an jedem Sonntag. Weiters wird all jenen Ablass
+                        gewährt, die den Priester beim Versehgang begleiten, die beim Abendläuten
+                        mit gebeugten Knien drei Ave Maria beten, die für den Bau, die Beleuchtung
+                        und die sonstige Ausstattung der genannten Kapelle aufkommen, die derselben
+                        entweder testamentarisch oder auf anderen Wegen Gold-, Silber- und
+                        Kleidungsspenden oder andere Notwendigkeiten zukommen lassen sowie jenen,
+                        die für den Priester Bonaventura <foreign>de Raveredo</foreign>
+                        Gebete sprechen.<lb/>Markus Gneiss</p></abstract><textClass><keywords scheme="Illurk-Urkundenart"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz</term></keywords><keywords scheme="IllUrkGlossar"><term key="HistorisierteAvignonerBischofsammelindulgenz" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</term><term key="Rahmentyp" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Rahmentyp">Rahmentyp</term><term key="WerkstattderAvignonerBischofsammelindulgenzen" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                                        Bischofsammelindulgenzen</term><term key="Layout" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Layout">Layouts</term></keywords><keywords scheme="illurk-vocabulary"><term key="Historiated" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Historiated">N1:
+                    historisiert</term><term key="Initials" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Initials">N1: Initiale</term><term key="Borders" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Borders">N1: Randdekor</term><term key="WithAdditionalColours" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#WithAdditionalColours">N1: Mit
+                    zusätzlichen Farben</term><term key="ExecutionPainted" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#ExecutionPainted">N1:
+                    gemalt</term></keywords></textClass></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1342-08-06_f-Valentinskapelle-in-Ala.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1342-08-06_f-Valentinskapelle-in-Ala_det-1.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1342-08-06_f-Valentinskapelle-in-Ala_det-2.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1342-08-06_f-Valentinskapelle-in-Ala_verso.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

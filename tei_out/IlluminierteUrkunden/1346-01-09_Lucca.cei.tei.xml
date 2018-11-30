@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Lucca</settlement><repository>Archivio di
+                                Stato,</repository><collection>Diplomatico</collection><collection>Bigazzi (acquisto</collection><altIdentifier><idno>mazzo n.
+                                431</idno></altIdentifier><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1346-01-09_Lucca</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material>Pergament</material><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc><p n="Ekphrasis"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#UnilluminierteAvignonerBischofsammelindulgenz">Unilluminierte Avignoner
+                                    Bischofsammelindulgenz</term>: Drei vergrösserte Initialen
+                                    in der ersten Zeile und vier vergrösserte einzeilige Initialen
+                                    im Textblock, einige Initialen mit Gesichtern.</p><p n="Ekphrasis">Sechs Zeilen hoher Freiraum für die Initiale
+                                    U(niversis) zu Textbeginn.</p><p n="Stil und Einordnung">Vorgeschriebenes Formular, in das die individualisierenden
+                                    Daten später (von anderer Hand?) eingetragen wurden. Der
+                                    Schreiber formt die grossen Initialen charakteristisch mit
+                                    Spitzen in der Buchstabenmitte; etwas Ähnliches hat man bereits
+                                        <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1345-04-11_Privatbesitz/charter">1345 April 11 für Flaschberg</ref>, <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1345-05-13_Stuttgart/charter">1345 Mai 13 für Schwäbisch Gmünd</ref>, <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1345-11-28_Udine/charter">1345 November 28 für die Flagellanten von
+                                        Cividale</ref> und <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1345-12-05_Stuttgart/charter">1345 Dezember 6 für Unlingen</ref> gesehen. Doch zeigen
+                                    die unterschiedlichen Schriften beim Text bei den genannten
+                                    Beispielen, dass es sich nicht um denselben Schreiber handeln
+                                    wird. </p><p n="Stil und Einordnung">Schon in der
+                                    Frühzeit der Avignoner Bischofsammelindulgenzen hat man den Text
+                                    gerne mit Gesichtern geziert (siehe z. B. einige Arbeiten des
+                                    Zeichners mit den Masswerkmotiven), doch auch <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1345-10-18_Imola/charter">1345 Oktober 18 für Imola</ref> hatte der Schreiber
+                                    diesen zusätzlichen Schmuck angebracht.</p><p n="Stil und Einordnung">Offenbar bestand auch für die Urkunden,
+                                    denen man am Heimatort Dekoration geben lassen wollte, eine
+                                    Wahlmöglichkeit: Für S. Stefano di Pescia hatte man wohl vor,
+                                    auch die U-Initiale zuhause schreiben zu lassen, <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1343-06-07_London/charter">1343 Juni 7 für den Orden vom hl. Grab</ref> hat man
+                                    die Initiale in Avignon schreiben lassen. Das lässt umgekehrt
+                                    den Rückschluss zu, dass die <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1343-05-05_Paris/charter">1343 Mai 5 für Verona</ref> – wenn man keine
+                                    umfänglichen Rasuren durchgeführt hat – aus Avignon ohne die
+                                    vergrösserten Initialen in der ersten Zeile kam, während man wie
+                                        <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1343-05-06_Nuernberg/charter">1343 Mai 6 für Herlanzhofen</ref>, sogar eine Version
+                                    ohne den Text der ersten Zeile ordern konnte.</p><p n="Autorensigle">Gabriele Bartz, Martin
+                                Roland</p></decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <listBibl type="other">
+                            <bibl><ref target="http://www.archiviodistatoinlucca.beniculturali.it/ips/nodes/804422?open=%2FD%5b01%5d%2FD%5b01%5dD%5b01%5d%2FD%5b01%5dD%5b01%5dD%5b001%5d%2F%26tab=Diplomatico">http://www.archiviodistatoinlucca.beniculturali.it/ips/nodes/804422?open=%2FD[01]%2FD[01]D[01]%2FD[01]D[01]D[001]%2F&amp;tab=Diplomatico</ref>
+                                (Oktober 2015)</bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Kommentar:</p>
+                        <p>Arenga (Incipit): <quote>Splendor paterni luminis
+                                ... .</quote></p>
+                        <p>Diese Indulgenz enthält bemerkenswerterweise neben der weitgehend
+                            üblichen Bestätigung durch den Lokalbischof auch eine Bestätigung des
+                            Bischofs von Brugnato.</p>
+                        <p>Markus Gneiss</p>
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName>Avignon</placeName>
+                        <date when="13460109">1346-01-09</date>
+                    </issued></diploDesc><authDesc>alle
+                                abgefallen.</authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz</term> (16 Aussteller) für den
+                        Dorothea-Altar in S. Stefano di Pescia, Diozese Lucca:<lb/>Die Bischöfe
+                                <legalActor type="issuer"><persName>Manfredus
+                                von Ajaccio</persName></legalActor> (<quote>Aiacensis</quote>; laut Eubel zu dieser Zeit nicht mehr im Amt,
+                        sein Nachfolger: Bernardus), <legalActor type="issuer"><persName>Franziskus von
+                            Vregen</persName></legalActor> (<quote>Vrehensis</quote>), <legalActor type="issuer"><persName>Heinricus von
+                            Budua</persName></legalActor> (<quote>Buduanensis</quote>),
+                                <legalActor type="issuer"><persName>Johannes</persName></legalActor><quote>Arscarensis</quote> [?], <legalActor type="issuer"><persName>Petrus von
+                            Lesina</persName></legalActor> (<quote>Lexinensis</quote>), <legalActor type="issuer"><persName>Thomas von Knin</persName></legalActor>
+                            (<quote>Tiniensis</quote>),
+                                <legalActor type="issuer"><persName>Amedeus von
+                                Lango</persName></legalActor> (<quote>Langonensis</quote>),
+                                <legalActor type="issuer"><persName>Georgius</persName></legalActor><quote>Cipriensis</quote> [?],
+                                <legalActor type="issuer"><persName>Gregorius
+                            von</persName></legalActor><quote>Salunensis</quote> (= <quote>Salvinensis</quote>; Lage
+                        nicht genau bestimmt), <legalActor type="issuer"><persName>Nikolaus von Accia</persName></legalActor> (<quote>Acciensis</quote>), <legalActor type="issuer"><persName>Gregorius von
+                            Oppido</persName></legalActor> (<quote>Oppidensis</quote>), <legalActor type="issuer"><persName>Marinus von
+                                Stagno</persName></legalActor> (<quote>Stagnensis</quote>), <legalActor type="issuer"><persName>Antonius von
+                            Trabzon</persName></legalActor> (<quote>Trapesundensis</quote>), <legalActor type="issuer"><persName>Petrus von
+                            Cagli</persName></legalActor> (<quote>Calliensis</quote>), <legalActor type="issuer"><persName>Avancius von
+                            Xanthi</persName></legalActor> (<quote>Sanchiensis</quote>) und <legalActor type="issuer"><persName>Paulus von
+                                Soazzo</persName></legalActor> (<quote>Suanensis</quote>) erteilen all jenen einen Ablass von 40 Tagen
+                            (<quote>misericorditer in Domino
+                        relaxamus</quote>), die den in der Diözese Lucca gelegenen Altar der
+                        heiligen Dorothea in der Kirche S. Stefano di Pescia (<quote>altare sancte Dorotee in ecclesia sancti Stephani de
+                            Piscia, Lucani diocesis</quote>) an bestimmten Festtagen und –
+                        soweit gegeben – in der jeweiligen Oktav reumütig und nach Ablegung der
+                        Beichte besuchen und dort Morgen- und Abendmessen oder welchen
+                        Messfeierlichkeiten auch immer beiwohnen, und zwar am Feiertag der Patronin
+                        des Altars, zu Weihnachten, zu den Festen der Beschneidung und der
+                        Erscheinung des Herrn, am Karfreitag, zu Ostern, Christi Himmelfahrt,
+                        Pfingsten, am Dreifaltigkeitstag, zu Fronleichnam, am Kreuzauffindungstag,
+                        am Kreuzerhöhungstag, am Feiertag des heiligen Erzengels Michael, an allen
+                        Marienfeiertagen, zu den Festen der Geburt und der Enthauptung des heiligen
+                        Johannes des Täufers, am Peter- und Paulstag, zu allen Apostel- und
+                        Evangelistenfesten, zu Allerheiligen, zu Allerseelen, am Weihetag des
+                        Altars, an den Feiertagen des heiligen Stephan, des heiligen Laurenz, des
+                        heiligen Georg, des heiligen Nikolaus, des heiligen Urban, des heiligen
+                        Antonius, der heiligen Maria Magdalena, der heiligen Katharina, der heiligen
+                        Margarete sowie an allen Sonntagen. Weiters wird all jenen Ablass gewährt,
+                        die den Priester beim Versehgang begleiten, die beim Abendläuten mit
+                        gebeugten Knien drei Ave Maria beten, die für den Bau, die Beleuchtung und
+                        die sonstige Ausstattung des Altars aufkommen, die dem Altar entweder
+                        testamentarisch oder auf anderen Wegen Gold-, Silber- oder Kleidungsspenden
+                        zukommen lassen sowie jenen, die für die Gesundheit des Impetranten der
+                        vorliegenden Indulgenz <quote>Gualterotti Marchy de
+                            Boyano</quote>, solange dieser lebt, und für dessen Seele, wenn er
+                        gestorben ist, und für die Seelen aller gläubigen Verstorbenen Gebete
+                        sprechen.<lb/><lb/>1347 Jänner 12, s.l.<lb/>Bischof
+                                <legalActor type="issuer"><persName>Guillelmus von
+                            Lucca</persName></legalActor> bestätigt die obige Indulgenz und fügt
+                        weitere 40 Tage Ablass hinzu.<lb/><lb/>1349 Jänner [?, verblasst]
+                        25, s.l.<lb/>Bischof <legalActor type="issuer"><persName>Tropetus von
+                            Brugnato</persName></legalActor> bestätigt die obige Indulgenz und
+                        fügt weitere 40 Tage Ablass hinzu.<lb/>Markus Gneiss </p></abstract><textClass><keywords scheme="Illurk-Urkundenart"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz</term></keywords><keywords scheme="IllUrkGlossar"><term key="UnilluminierteAvignonerBischofsammelindulgenz" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#UnilluminierteAvignonerBischofsammelindulgenz">Unilluminierte Avignoner
+                                    Bischofsammelindulgenz</term></keywords><keywords scheme="illurk-vocabulary"><term key="DD-nh-Initials" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#DD-nh-Initials">N2:
+                    Initiale</term><term key="figural" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#figural">N2: figürlich</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Frankreich (Kurie)</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1346-01-09_Ablass-fuer-S-Stefano-di-Pescia.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

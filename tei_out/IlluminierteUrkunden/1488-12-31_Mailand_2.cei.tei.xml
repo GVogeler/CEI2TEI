@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2017-11-08T14:30:02.687Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Mailand</settlement><repository>Archivio di Stato di Milano</repository><collection>Diplomi e Dispacci Sovran</collection><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1488-12-31_Mailand_2</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis">Sehr charakteristisch vegetabil ausgeformte
+                                    Deckfarbeninitiale J(oannes) auf Goldgrund links in die Randzone
+                                    gerückt. Mittig oben das herzogliche Wappen und Bilddevisen.
+                                    <lb/>Oberhalb des Schriftspiegels das gekrönte herzogliche
+                                    Wappen, das Monogramm (IO GZ MA DUX MLI SEXTUS) und
+                                    Bilddevisen.</p>
+                                <p n="Stil und Einordnung">Zum Buchmaler siehe bei der reicher
+                                    ausgestatteten <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1488-12-31_Mailand_1/charter">Erstausfertigung</ref>; dort auch weitere Werke
+                                    derselben Hand. </p>
+                                <p n="Autorensigle">Martin Roland</p>
+                                <p><ref target="http://monasterium.net/mom/IlluminierteUrkundenLombardeiit/1488-12-31_Mailand_2/charter">Siehe auch die italienische Beschreibung von laura
+                                        Alidori</ref>.</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <listBibl type="other">
+                            <bibl>Baldissarro, Documenti miniati, 1981, S.13 (mit Abb.).
+                                    (<ref target="http://zotero.org/groups/257864/items/685NKDZR">Volltitel auf Zotero</ref>)</bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Zweitausfertigung (zur Erstausfertigung siehe <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1488-12-31_Mailand_1/charter">http://monasterium.net/mom/IlluminierteUrkunden/1488-12-31_Mailand_1/charter</ref>).<lb/>Nach
+                            der Datatio von anderer Hand angefügt: <quote> duplicatum sub die
+                                1492.augusti .xvii</quote>.<lb/> Ob es sich bei dem
+                            vorliegenden Stück nun um eine Zweitausfertigung aus dem Jahr 1488
+                            handelt, die 1492 ein weiteres Mal ausgefertigt wurde, oder ob das
+                            vorliegende Stück 1492 August 17 zu datieren ist, muss vorerst offen
+                            bleiben. </p>
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName>Vigevano</placeName>
+                        <date from="14881231" to="14920817">1488-12-31</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p>Gian Galeazzo Maria Sforza, Herzog von Mailand, bestätigt die
+                        Privilegien des Klosters Santa Maria delle Grazie OP in Mailand, welche
+                        Bianca Maria und Galeazzo Maria Sforza gewährt hatten (1466 April 16).
+                        <lb/> Enrico Scaccabarozzi </p></abstract><textClass><keywords scheme="illurk-vocabulary"><term key="Historiated" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Historiated">N1:
+                    historisiert</term><term key="Initials" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Initials">N1: Initiale</term><term key="WithAdditionalColours" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#WithAdditionalColours">N1: mit
+                    zusätzlichen Farben</term><term key="ExecutionPainted" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#ExecutionPainted">N1:
+                    gemalt</term><term key="Borders" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Borders">N1: Randdekor</term><term key="CoatsOfArms" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#CoatsOfArms">N1: Wappen</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Italien</region></placeName></place><place><placeName><region>Lombardei</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2017-11-08">2017-11-08T14:30:02.687Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1488-12-31_Vigevano_GaleazzoMaria-Sforza-Grazie-a.JPG"/><graphic url="http://images.monasterium.net/illum/IllUrk/1492-08-17_kopia-v-1488-12-31_Gian-Galeazzo-Sforza-fuer-S-M-della-Grazia_Milano-Archivio-dello-stato-Fondo-di-religione-p-a-c1398_bearb-1.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1492-08-17_det.JPG"/><graphic url="http://images.monasterium.net/illum/IllUrk/1492-08-17_Kopie-von-1488-12-31_Vigevano_GaleazzoMaria-Sforza-Grazie-a (2).JPG"/><graphic url="http://images.monasterium.net/illum/IllUrk/1492-08-17_Kop-v-1488-12-31_Gian-Galeazzo-Sforza-fuer-S-M-della-Grazia_Milano-Archivio-dello-stato-Fondo-di-religione-p-a-c1398_SAM_6296 (2).JPG"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

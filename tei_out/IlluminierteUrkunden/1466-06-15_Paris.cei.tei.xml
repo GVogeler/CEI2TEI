@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Paris</settlement><repository>Archives nationales</repository><altIdentifier><idno>P 338B, no
+                                913</idno></altIdentifier><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1466-06-15_Paris</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis">Fol. 1r mit grosser historisierter
+                                    Deckfarbeninitiale und Bordüre um den Schriftspiegel. Die blaue
+                                    Initiale mit einer goldenen Blattranke mit spitz auslaufenden
+                                    Enden, die um einen Stab gewickelt ist. Im Binnenfeld die
+                                    heraldischen Zeichen René d’Anjous (so von 1453–1466: Ungarn,
+                                    Anjou [alt], Jerusalem, Bar; Herzschild: Anjou [neu]: armes de
+                                    France, de Bar, de Hongrie et la croix de Jérusalem) von einer
+                                    Krone überhöht, die von zwei Edelsteinen flankiert wird. Das
+                                    Initialfeld rotviolett, in den Zwickeln naturalistische Blüten.
+                                    Die Deckfarbenranke mit blauem und goldenen (Akanthus-)Blättern
+                                    und einzelnen zoomorphen und figürlichen Motiven (Jäger). Im Bas
+                                    de page die Wappen des Empfängers: Links als Tuch einer
+                                    quadratischen Fahne, die von unten in das Bas de page ragt,
+                                    Beaupréau (bannière carrée attachée à sa hampe et portant sur
+                                    fond d'or cinq fusées de gueules en fasce avec sept croisettes
+                                    d'azur enhendées) und links als gewöhnlicher Schild
+                                    Montespedon.</p>
+                                <p n="Stil und Einordnung">Der Künstler konnte, wie Hablot
+                                    betont, bisher nicht identifiziert werden, ist jedoch mit
+                                    grosser Sicherheit am Hof Renés zu vermuten. </p>
+                                <p n="Autorensigle">Autor</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <listBibl type="other">
+                            <bibl>Dupont, Trois chartes à vignettes, 1884,
+                                S. 193. (<ref target="http://zotero.org/groups/257864/items/CSHKAQ88">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Mérindol, Roi René, 1987, S. 63, Nr. 44.
+                                    (<ref target="http://zotero.org/groups/257864/items/V3DVHKMI">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Splendeur de l'enluminure, 2009, S. 248
+                                f. Kat.-Nr. 13 (Laurent Hablot). (<ref target="http://zotero.org/groups/257864/items/ZMFUZ4NI">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Archim notice 03884:</bibl>
+                            <bibl><ref target="http://www.culture.gouv.fr/public/mistral/caran_fr">http://www.culture.gouv.fr/public/mistral/caran_fr?</ref>:
+                                Suchbegriff "AE/II/481/A" unter "Cote" eingeben.</bibl>
+                            <bibl>
+                                <ref target="http://www.culture.gouv.fr/Wave/image/archim/Pages/03883.htm">http://www.culture.gouv.fr/Wave/image/archim/Pages/03883.htm</ref>
+                            </bibl>
+                            <bibl><ref target="http://www.culture.gouv.fr/Wave/image/archim/0008/dafanch06_a200152n00002_2.htm">http://www.culture.gouv.fr/Wave/image/archim/0008/dafanch06_a200152n00002_2.htm</ref>
+                                (Bild)</bibl>
+                            <bibl><ref target="http://www.culture.gouv.fr/Wave/image/archim/Pages/03883.htm">http://www.culture.gouv.fr/Wave/image/archim/Pages/03883.htm</ref>
+                                (Bild; fol. 1r–5v [nicht das Textende]).</bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Das Libell (40 Blätter) war ursprünglich besiegelt.</p>
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName/>
+                        <date when="14660615">1466-06-15</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p>Lehenseid (Aveu) des Jean de Montespedon, genannt Houaste, an René
+                        d’Anjou für seine Herrschaft Beaupréau.<lb/>Aveu de 1466 rendu à roi
+                        René par Jean de Montespedon, dit Houaste, baron de Beaupréau
+                        (maine-et-Loire), seigneur de Beauvoir, de Basoges et de Montis, conseiller
+                        et chambellan du roi et son bailli de Rouen, pour sa terre de Beaupréau
+                        située en Anjou. <lb/></p></abstract><textClass><keywords scheme="illurk-vocabulary"><term key="" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#">N1: mit zusätzlicher
+                    Farbe</term><term key="Historiated" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Historiated">N1:
+                    historisiert</term><term key="CoatsOfArms" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#CoatsOfArms">N1: Wappen</term><term key="Initials" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Initials">N1: Initiale</term><term key="Borders" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Borders">N1: Randdekor</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Frankreich</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1466-06-15_Rene-d-Anjou_Arch-nat_dafanch06_a200152n00002_2.jpg"/><graphic url="http://commons.wikimedia.org/wiki/File:Aveu_René_3.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

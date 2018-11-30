@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Wien</settlement><repository>Archiv
+                                des Schottenstifts Wien</repository><altIdentifier><collection>Scr. 24
+                                    A</collection><idno>Nr. 1b</idno></altIdentifier><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1335-03-22_Wien</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material>Pergament</material><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</term>:
+                                    Historisierte Initiale U(niversis) zu Textbeginn, die drei
+                                    weiteren vergrösserten Initialen der ersten Zeile mit zwischen
+                                    Farbflächen ausgesparter Blattranke. Zwei farbig markierte
+                                    vergrösserte einzeilige Initialen im Textblock. </p>
+                                <p n="Ekphrasis">Sechs Zeilen hohe, über die erste Zeile
+                                    hinausgehende historisierte Initiale zu Textbeginn: in Feder
+                                    vorgezeichnet und mit deckendem Rot, Grün, Ocker und Blaugrau
+                                    sowie Weiss ausgemalt. Im Binnenfeld stehender Heiliger mit
+                                    Palmzweig (als allgemeines Attribut eines Märtyrers oder als
+                                    spezifisches Kennzeichen des hl. Pankraz?), vor blaugrauem
+                                    kariertem Mustergrund. Die Zwickel des Initialfeldes ocker
+                                    gefüllt. Linierung aussen und oben am Rand. </p>
+                                <p n="Stil und Einordnung">Vorgezeichnet ist ein Rahmen, der
+                                    offenbar anzeigt, wo seitlich und oberhalb des Textes weiterer
+                                    Buchschmuck hätte ausgeführt werden können, wie dies bei
+                                    Ablässen des <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Rahmentyp">Rahmentyps</term> zu beobachten
+                                    ist.</p>
+                                <p n="Stil und Einordnung">Angesichts der seit 1329 zu
+                                    beobachtenden <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#IkonographischeDiversifizierung">ikonographischen
+                                        Diversifizierung</term> bei den Avignoner
+                                    Sammelablässen ist ein stehender Heiliger im Binnenfeld nichts
+                                    Erstaunliches mehr; <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1331-05-12_Wien/charter">1331 Mai 12 für St. Laurenz</ref> konnte man im bisher
+                                    bekannten Material erstmals einen Patroziniumsheiligen im
+                                    Binnenfeld beobachten. Zwar sind die Attribute des hl.
+                                    Pankratius nicht besonders spezifisch (Herzogshut und Schwert),
+                                    doch hat man sich hier wenig Mühe gemacht, indem man ihn
+                                    lediglich mit einer Märtyrerpalme auszeichnete. Sein Gewand
+                                    unterscheidet sich nur wenig von der <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Vorlage">Vorlage</term> der häufiger verwendeten Bischofsfigur.
+                                    Eine ganz ähnliche Figur hat man auch <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1336_Freiburg/charter">1336 für Münichweiler</ref> verwendet.</p>
+                                <p n="Autorensigle">Martin Roland, Gabriele Bartz</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <listBibl type="other">
+                            <bibl>Hauswirth, Urkunden Schottenkloster,
+                                1859, Nr. 179. (<ref target="http://zotero.org/groups/257864/items/UB9WJMI6">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Delehaye, 45, 1927, S. 335. (<ref target="http://zotero.org/groups/257864/items/MQ77XQ4V">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Roland, Zajic, Illuminierte Urkunden,
+                                2013, S. 327, online:<ref target="http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf">
+                                    http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf</ref>
+                                    (<ref target="http://zotero.org/groups/257864/items/BH99RHAK">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>
+                                <ref target="http://www.mom-ca.uni-koeln.de/mom/AT-StiAScho/SchottenOSB/1335_III_22/charter">http://www.mom-ca.uni-koeln.de/mom/AT-StiAScho/SchottenOSB/1335_III_22/charter</ref>
+                            </bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Kommentar:</p>
+                        <p>Es handelt sich hier um die Pankrazkapelle (Wien 1, Am Hof 4,
+                            Naglergasse 24), die wahrscheinlich anlässlich der Errichtung der
+                            babenbergischen Residenz in Wien um 1155/1156 entstanden ist. Die
+                            Kapelle wurde offiziell seit 1263 den Schotten in Wien zur Betreuung
+                            übergeben, jedoch erfolgte erst 1340 deren Inkorporation in das
+                            Schottenstift. 1461 fand auf Befehl von Papst Pius II. die erneute
+                            Inkorporation in das Schottenstift statt (siehe dazu Perger, Brauneis,
+                            Kirchen, 1977, S. 123f.; Czeike, Lexikon Wien 4, 1995, S. 485.</p>
+                        <p>Für die <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1328-05-12_Wien/charter">Pankrazkapelle</ref> ist ein weiterer Sammelablass bekannt
+                            (1328 Mai 12), der sich ebenfalls im Stiftsarchiv der Schotten befindet.
+                            Im Gegensatz zu der älteren Indulgenz wird die Reihe der Feiertage, an
+                            denen Ablass erlangt werden kann, unter anderem durch den
+                            Dreifaltigkeitstag erweitert, auch bei den erwähnten Heiligentagen
+                            finden sich Unterschiede. Die Ablassgelegenheiten betreffen bei der
+                            älteren Urkunde nur den Besuch der Kapelle und die Unterstützung des
+                            Baus und der Ausstattung. Beim jüngeren Stück werden diese Gelegenheiten
+                            deutlich erweitert.</p>
+                        <p n="Autorensigle">Markus Gneiss</p>
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName>Avignon</placeName>
+                        <date when="13350322">1335-03-22</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            neun bruchstückhaft erhalten, der Rest
+                                abgefallen.
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz
+                            (</term>12 Aussteller) für die Pankrazkapelle am Hof in
+                        Wien:<lb/>Die Bischöfe <legalActor type="issuer"><persName>Gorzias von
+                                Belluno-Feltre</persName></legalActor> (<quote>Feltrensis et Beluensis</quote>), <legalActor type="issuer"><persName>Almanus von
+                            Soana</persName></legalActor> (<quote>Suanensis</quote>), <legalActor type="issuer"><persName>Philipp von
+                            Salona</persName></legalActor> (<quote>Salonensis</quote>), <legalActor type="issuer"><persName>Nikolaus von
+                                Karpathos</persName></legalActor> (<quote>Scarpatensis</quote>), <legalActor type="issuer"><persName>Andreas von
+                            Coron</persName></legalActor> (<quote>Coronensis</quote>), <legalActor type="issuer"><persName>Galganus von
+                            Aléria</persName></legalActor> (<quote>Aleriensis</quote>), <legalActor type="issuer"><persName>Johannes von
+                            Senj</persName></legalActor> (<quote>Signensis</quote>), <legalActor type="issuer"><persName>Bernardus von
+                                Dschordschan</persName></legalActor> (<quote>Diagorganensis</quote>), <legalActor type="issuer"><persName>Matthäus von
+                            Bagnorea</persName></legalActor> (<quote>Balneoracensis</quote>), <legalActor type="issuer"><persName>Angelus von
+                            Grosseto</persName></legalActor> (<quote>Grossitani</quote>),
+                                <legalActor type="issuer"><persName>Thomas</persName></legalActor><quote>Dulanensis</quote> (aus Eubel nicht lokalisierbar) und
+                                <legalActor type="issuer"><persName>Guillelmus
+                                von Täbris</persName></legalActor> (<quote>Taurisiensis</quote>) erteilen all jenen einen Ablass von 40 Tagen
+                            (<quote>misericorditer in Domino
+                        relaxamus</quote>), die die in der Diözese Passau gelegene
+                        St.-Pankraz-Kapelle (<quote>capella sancti
+                            Pangracii</quote>) am Herzogshof in Wien (<quote>in curia ducis Austrie in opido in Wienna</quote>) reumütig und
+                        nach Ablegung der Beichte an bestimmten Festtagen und – soweit gegeben – in
+                        der jeweiligen Oktav besuchen und dort Morgen- und Abendmessen oder welchen
+                        Messfeierlichkeiten auch immer beiwohnen, und zwar am Festtag des Patrons
+                        der Kapelle [des heiligen Pankraz], am Weihetag der Kapelle, zu Weihnachten,
+                        zu den Festen der Beschneidung und der Erscheinung des Herrn, am Karfreitag,
+                        zu Ostern, Christi Himmelfahrt, Pfingsten, am Dreifaltigkeitstag, zu
+                        Fronleichnam, am Kreuzauffindungstag, am Kreuzerhöhungstag, an allen
+                        Marienfeiertagen, am Feiertag des Erzengels Michael, zu den Festen der
+                        Geburt und der Enthauptung Johannes' des Täufers, am Peter- und Paulstag, zu
+                        allen Apostel- und Evangelistenfesten, an den Feiertagen des heiligen
+                        Stephan, des heiligen Laurenz, des heiligen Vinzenz, des heiligen Pankraz,
+                        des heiligen Martin, des heiligen Nikolaus, des heiligen Gregor, des
+                        heiligen Augustinus, des heiligen Ambrosius, des heiligen Hieronymus, des
+                        heiligen Lambert, der heiligen Maria Magdalena, der heiligen Katharina, der
+                        heiligen Margarete, der heiligen Cäcilie, der heiligen Lucia, der heiligen
+                        Agathe, der heiligen Agnes, der heiligen Barbara, der 11 000 Jungfrauen, zu
+                        Allerheiligen, zu Allerseelen und an jedem Sonntag. Weiters wird all jenen
+                        ein Ablass gewährt, die dem Priester beim Versehgang folgen, beim Läuten der
+                        Abendglocke drei Ave-Maria beten, für die verstorbenen Seelen am Friedhof
+                        der Kapelle ein Gebet sprechen und für den Bau, die Beleuchtung und die
+                        sonstige Ausstattung der Kapelle aufkommen.<lb/><lb/>1335 August 3,
+                        s.l.<lb/>Bischof <legalActor type="issuer"><persName>Albert von
+                                Passau</persName></legalActor> bestätigt (<quote>confirmamus</quote>) diese Indulgenz und fügt weitere
+                        40 Tage Ablass hinzu.<lb/>Markus Gneiss </p></abstract><textClass><keywords scheme="Illurk-Urkundenart"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz
+                            (</term></keywords><keywords scheme="IllUrkGlossar"><term key="HistorisierteAvignonerBischofsammelindulgenz" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</term><term key="Rahmentyp" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Rahmentyp">Rahmentyps</term><term key="IkonographischeDiversifizierung" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#IkonographischeDiversifizierung">ikonographischen
+                                        Diversifizierung</term><term key="Vorlage" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Vorlage">Vorlage</term></keywords><keywords scheme="illurk-vocabulary"><term key="Historiated" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Historiated">N1:
+                    historisiert</term><term key="Initials" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Initials">N1: Initiale</term><term key="WithAdditionalColours" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#WithAdditionalColours">N1: Mit
+                    zusätzlichen Farben</term><term key="ExecutionPainted" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#ExecutionPainted">N1:
+                    gemalt</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Frankreich (Kurie)</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1335-03-22_K.._MOM-Bilddateien._%7ESchottenjpgweb._%7EStAS__13350322%5b1%5d.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1335-03-22_Schottenj_detail.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1496-08-11_Braunschweig</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"
+                            <cei:lb/>Bearbeitungsstand: MITTEL</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1496-08-11_Braunschweig">1496-08-11_Braunschweig</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract>Ablassverkündigung für Ablässe am Festtag des hl. Rochus für die
+                        Bruderschaft des hl. Rochus beheimatet in der Kirche der Karmeliten in
+                        Paris. Genannt wird ein Ablass von 40 Tagen des Pariser Bischofs und ein
+                        Kardinalsammelablass (je 100 Tage pro Aussteller), von dem als ein
+                        Aussteller der „cardinal de gurce“ genannt wird. Zudem wird auf eine
+                        Reliquie des Heiligen (ein Finger) verwiesen. <cei:lb/></cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Paris (Druck Jean Tréperel)</cei:placeName>
+                        <cei:dateRange from="14960811" to="14960811">1496-08-11 nach</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic url="http://diglib.hab.de/drucke/ed000004/000001.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1496-08-11_nach_Confrerie-de-saint-Roch-eglise-des-carmes-Paris_DRUCK-Detail.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1496-08-11_nach_Confrerie-de-saint-Roch-eglise-des-carmes-Paris_DRUCK-total.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1496-08-11_nach_Confrerie-de-saint-Roch-eglise-des-carmes-Paris_DRUCK-total.png"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1496-08-11_nach_Confrerie-de-saint-Roch-eglise-des-carmes-Paris_DRUCK.png"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Braunschweig</cei:settlement><cei:arch>Stadtbibliothek</cei:arch>
+                            <cei:idno>Einbl. 21</cei:idno> ----
+                                <cei:settlement>Braunschweig</cei:settlement><cei:arch>Herzog Anton
+                                Ulrich-Museum</cei:arch><cei:idno>XV. Einbl. WB
+                                    3.27</cei:idno>(ehem.<cei:altIdentifier><cei:settlement>Wolfenbüttel</cei:settlement><cei:arch>Herzog
+                                    August-Bibliothek</cei:arch></cei:altIdentifier>)</cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma="Druck">Einblattdruck</cei:index>: Typendruck mit
+                                    Holzschnitt im oberen Drittel und dem Text unteren Bereich. </cei:p>
+                                <cei:p n="Ekphrasis">Unter dem typographischen Titel „aux carmes de
+                                    paris“ ein zentraler queroblonger Holzschnitt mit dem hl. Rochus
+                                    (im Schnitt: <cei:quote type="italic">s Roch</cei:quote>) in der
+                                    Mitte, der auf eine Pestbeule auf seinem Oberschenkel weist und
+                                    mit der anderen Hand sich auf einen Stab stützt. Links von ihm
+                                    ein kleinerer Engel, der ebenfalls auf die Wunde weist und
+                                    rechts vor dem Heiligen ein sitzender Hund. Rechts hinter dem
+                                    Hund, auf der Horizontlinie kniend ein Mitglied der Bruderschaft
+                                    mit gefalteten Händen. </cei:p>
+                                <cei:p n="Ekphrasis">Die Figuren sind von zwei seitlichen Säulen
+                                    umgeben; das Terrain ist vollfarbig mit ausgesparten Pflanzen. </cei:p>
+                                <cei:p n="Ekphrasis">Seitlich, um 90° gedreht zwei Holzschnitte mit
+                                    mehreren Halbfiguren. Ob die nackte männliche Figur, die einen
+                                    Ring vorzeigt, vielleicht als Hiob zu deuten sein könnte, der
+                                    von seiner Frau angeklagt wird und den seine drei Freunde mit
+                                    Musik (Mandorline, Psalterium) aufzuheitern suchen, bedarf noch
+                                    weiterer Studien. Links, um 180° gedreht eine Szene mit
+                                    Gerüsteten, die eine Herde wegtreiben (auch eine Hiob-Szene?).
+                                    Weiters ober- und unterhalb der Hauptszene ganz schmale
+                                    unfigürliche Bordürenstreifen (ein weiterer rechts).</cei:p>
+                                <cei:p n="Stil und Einordnung">Die Holzschnitte gehen auf
+                                    erstaunlich unterschiedliche Quellen zurück. Die Bordüren gehen
+                                    auf einen unter dem Namen„Meister der mer des histoires“
+                                    zusammengefassten Schneider zurück, ein Druck aus Lyon (J.
+                                    DuPré; Du Pré, 1491). Aus dieser Quelle stammt wohl auch die
+                                    Anregung für die gedrehten Säulen des zentralen Holzschnitts. </cei:p>
+                                <cei:p n="Stil und Einordnung">Die Figuren der Hauptszene hingegen
+                                    wiederholen bis in Details den Titelschnitt von Franciscus
+                                    Diedus, Vita Beati Rochi, Paris, Jean Tréperel, 1495: <cei:ref target="http://alfama.sim.ucm.es/dioscorides/consulta_libro.asp?ref=X531439991%26idioma=0">http://alfama.sim.ucm.es/dioscorides/consulta_libro.asp?ref=X531439991&amp;idioma=0</cei:ref>;
+                                    URL bitte in ein gesondertes Fenster kopieren). </cei:p>
+                                <cei:p n="Stil und Einordnung">Die Datierung des Drucks ist
+                                    problematisch: Einerseits ist aus einer barocken Quelle die
+                                    Datierung des angekündigten Ablasses des Bischofs von Paris
+                                    bekannt: Première institution de la confrérie de S. Roch et S.
+                                    Sébastien, fondée et érigée en l'église du grand couvent des R.
+                                    R. Pères Carmes, par frère Jean d'Arras, religieux au dit
+                                    couvent (...) en l'an 1496, autorisée et confirmée par
+                                    reverendissime Messire Jean, évêque de Paris le 11 jour d'août
+                                    1496 et René du Bellay vicaire général (...) avec la bulle de
+                                    nos Saints pères les papes Clement VIII et Urbain VIII: <cei:ref target="https://books.google.at/books/about/Première_institution_de_la_confrérie_d.html?id=7JRCygAACAAJ">https://books.google.at/books/about/Première_institution_de_la_confrérie_d.html?id=7JRCygAACAAJ
+                                    </cei:ref></cei:p>
+                                <cei:p n="Stil und Einordnung">Eine weitere Absicherung der Terminus
+                                    post quem stellt der Kardinalsammelablass dar, der als zweiter
+                                    in dem Einblattdruck erwähnt wird. Als einer der Aussteller wird
+                                    „cardinal de gurce“ genannt. Das bezieht sich auf Raimundus
+                                    Peraudi, der ab 1486 Ablasskommissar in Frankreich war, dann in
+                                    ähnlichen Funktionen in Deutschland wirkte. 1491 wurde er auf
+                                    Betreiben Kaiser Friedrichs III. zum Bischof von Gurk ernannt,
+                                    1493 zum Kardinaldiakon von Santa Maria Nuova in Cosmedin. Dass
+                                    er der Erstaussteller einer Kardinalsammelindulgenz fungiert
+                                    haben soll, ist wegen seines Ranges als Kardinaldiakon höchst
+                                    unwahrscehinlich, denn die Aussteller werden ihrem Rang gemäss
+                                    gereiht, zuerst demnach die Kardinalbischöfe. Peraudi wurde zwar
+                                    1499 zum Kardinalpriester, doch auch in dieser Funktion ist er
+                                    als Erstaussteller unwahrscheinlich. Dass er hier genannt wird,
+                                    muss wohl mit einer heute nicht mehr nachvollziehbaren
+                                    persönlichen Beziehung zu tun haben. </cei:p>
+                                <cei:p n="Stil und Einordnung">Das Stück ist keine illuminierte
+                                    Urkunde. Dass es wie die vielleicht ein Jahrzehnt ältere
+                                    Ablassankündigung für Reims qualitätvolle Holzschnitte aufweist,
+                                    kann nicht darüber hinwegtäuschen, dass die Ankündigungen hier
+                                    (im Unterschied zu Reims) gar keine Elemente von Urkunden mehr
+                                    tradieren, sondern tatsächlich als Werbeplakate zu verstehen
+                                    sind (zur zwiespältigen Stellung des Stückes für Reims siehe
+                                    dort: <cei:ref target="http://www.monasterium.net/mom/IlluminierteUrkunden/1482-10-17_Reims-Paris/charter">1482, Oktober 17</cei:ref>, vor [?]). </cei:p>
+                                <cei:p n="Autorensigle">Martin Roland</cei:p>
+                            </cei:decoDesc>
+                            <cei:material/>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc/>
+                        </cei:auth>
+                        <cei:nota/>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl key="zotero:JK8UW4N5">Schreiber, Pestblätter, 1901, Nr. 25.
+                                    (<cei:ref target="http://zotero.org/groups/257864/items/3M5P5P4D">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Gaston, Images, 1909, S. XLVI-L und 12, Nr. 35. (<cei:ref target="http://zotero.org/groups/257864/items/ENETHFJQ">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Fournier, Affiches, 1923, S. 120. (<cei:ref target="http://zotero.org/groups/257864/items/ZEW8DZZT">Volltitel auf Zotero</cei:ref>) Fournier datiert nach 1493
+                                September 20. </cei:bibl>
+                            <cei:bibl>Schreiber, Nr. 1668 (<cei:ref target="http://zotero.org/groups/257864/items/JK8UW4N5">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:API2PXH9">VE15, Bd. 1, S. 42, Negativliste Nr. 67:
+                                da in Frankreich gedruckt. (<cei:ref target="http://zotero.org/groups/257864/items/API2PXH9">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Roland, Masse und Individualität, 2018, S. 304. (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/N5YAUX3B/">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl/>
+                            <cei:bibl>GW 106: <cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW00106.htm">http://www.gesamtkatalogderwiegendrucke.de/docs/GW00106.htm</cei:ref></cei:bibl>
+                            <cei:bibl>
+                                <cei:ref target="https://data.cerl.org/istc/ii00064020">https://data.cerl.org/istc/ii00064020</cei:ref>
+                            </cei:bibl>
+                            <cei:bibl>
+                                <cei:ref target="http://diglib.hab.de/drucke/ed000004/start.htm">http://diglib.hab.de/drucke/ed000004/start.htm</cei:ref>
+                            </cei:bibl>
+                            <cei:bibl>
+                                <cei:ref target="http://kk.haum-bs.de/?id=XV-einbl-wb3-0027">http://kk.haum-bs.de/?id=XV-einbl-wb3-0027</cei:ref>
+                            </cei:bibl>
+                            <cei:bibl><cei:ref target="http://www.virtuelles-kupferstichkabinett.de">http://www.virtuelles-kupferstichkabinett.de</cei:ref>:
+                                Suchbegriff "carmes de Paris"</cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p>Druck: Typendruck mit Holzschnitt.</cei:p>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">Frankreich</cei:placeName>
+                <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1:
+                    historisiert</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="Miniatures">N1: Bildfeld</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="Print">Druck</cei:index>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

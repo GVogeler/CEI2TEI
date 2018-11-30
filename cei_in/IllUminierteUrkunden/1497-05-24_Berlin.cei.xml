@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1497-05-24_Berlin</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1497-05-24_Berlin">1497-05-24_Berlin</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract>(Gian-) Francesco Gonzaga [II.], Markgraf von Mantua, befreit
+                        alle, die den Monte di Pietà von Mantua durch Schenkungen, Erbschaften oder
+                        anderen Geldzuwendungen sowie durch Überlassung von Immobilien oder
+                        beweglichen Gütern fördern oder Geld aus der Einruchtung beheben, von allen
+                        Steuern, Abgaben und Gebühren (<cei:quote>a quibuscumque datiis et eorum
+                            solutionibus pro quibuscumque bonis immobilibus seu mobilibus aut se
+                            moventibus exemptum et exemptos</cei:quote>).<cei:lb/>(Martin Roland
+                        nach Andreas Zajic)</cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Mantua</cei:placeName>
+                        <cei:dateRange from="14970524" to="14970524">1497-05-24</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1497-05-24-Mantua_Francesco-Gonzaga-fuer-Monte-di-Pieta_Berlin-Cu-Stich-Kab.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Berlin</cei:settlement>,
+                                <cei:arch>Staatliche Museen zu Berlin,
+                                Kupferstichkabinett</cei:arch>, <cei:idno>Min.
+                            6208</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis">Intitulatio in Capitalis (1. Zeile),
+                                    herausgerückte, stark vergrösserte Initiale F(ranciscus) als
+                                    historisierte Deckfarbeninitiale ohne farbigem Binnen- und
+                                    Initialfeld. Der Buchstabenkörper mit Renaissance-Ornamentik,
+                                    einem Adlerkopf als oberen Abschluss und floralen Fortsätzen.
+                                    Zwischen den beiden Balken des F ein Medaillon mit einem auf der
+                                    hinteren Platte des Sarkophags sitzender Schmerzensmann von
+                                    einem goldenen Kreuz hinterblendet. Der untere Abschluss der
+                                    Initiale dreht sich zu einem Medaillon ein, das drei Figuren
+                                    zeigt, die den „monte di Pietà“ tragen. Oberhalb des Textes die
+                                    nicht dekorierte Devise des Ausstellers: <cei:quote>De consensu
+                                        nostro</cei:quote> (bei den drei unten genannten Urkunden
+                                    von 1497/98 jeweils auf einer <cei:quote>Tabula
+                                        ansata</cei:quote> bzw. einem Schriftband). </cei:p>
+                                <cei:p n="Stil und Einordnung">Die Ikonographie verweist
+                                    offensichtlich auf den Empfänger. Der sitzende Schmerzensmann
+                                    findet sich etwa in einem (freilich deutlich späteren) Relief an
+                                    der Fassade des Palazzo Monte di Pietà in Rom (<cei:ref target="http://www.infinitoweb.it/?p=683">http://www.infinitoweb.it/?p=683</cei:ref>). Ob die
+                                    Bilddevise mit dem von drei Engeln getragenen Berg auf die
+                                    Institution Monte di Pietà zu beziehen ist (Gneiss, Zajic, S.
+                                    55), oder, wie Beatrice Alai vorschlägt, als "impresa
+                                    gonzaghesca dello 'scoglio'" zu interpretieren ist, muss derzeit
+                                    unentschieden bleiben. </cei:p>
+                                <cei:p n="Stil und Einordnung">Die Initiale steht in einer derzeit
+                                    ab 1485 nachweisbaren Tradition prunkvoller Urkunden vom
+                                    Mantuaner Hof. Die frühen Stücke zeigen keine stilistischen
+                                    Zusammenhänge. Dies ändert sich freilich nun, denn die Urkunden
+                                    von <cei:ref target="http://www.monasterium.net/mom/IlluminierteUrkunden/1497-11-10_Mailand/charter">1497 November 10</cei:ref>, <cei:ref target="http://www.monasterium.net/mom/IlluminierteUrkunden/1498-02-14_Mailand/charter">1498 Februar 14</cei:ref> und <cei:ref target="http://www.monasterium.net/mom/IlluminierteUrkunden/1498-03-09_Mailand/charter">1498 März 9</cei:ref> sind offenkundig derselben Hand
+                                    zuzuweisen, die auch das Berliner Stück ausgemalt hat. Dies
+                                    zeigt, dass ein Künstler für die Kanzlei mehrfach tätig war.
+                                    Dieser Umstand macht wahrscheinlich, dass der Impuls für die
+                                    malerische Ausstattung von dem Aussteller ausging. Da die
+                                    anderen Stücke alle ohne historisierten Dekor auskommen, mag die
+                                    Initiative zur figürlichen Ausstattung jedoch auf eine Bitte des
+                                    Empfängers zurückgehen. </cei:p>
+                                <cei:p n="Stil und Einordnung">Die Werke des Domenico
+                                    Morone<cei:lb/>Als Buchmaler wird vom Berliner
+                                    Kupferstichkabinett, den Forschungen von Hans Joachim Eberhardt
+                                    folgend, der aus Verona stammende Domenico Morone (1442–1517)
+                                    namhaft gemacht (zu diesem zusammenfassend Enrico Maria Guzzo im
+                                    Dizionario biografico degli Italiani, Bd. 77 [2012]: <cei:ref target="http://www.treccani.it/enciclopedia/domenico-morone_%28Dizionario-Biografico%29/">http://www.treccani.it/enciclopedia/domenico-morone_%28Dizionario-Biografico%29/</cei:ref>).
+                                    Morone ist als Monumentalmaler nachweisbar. Die ihn
+                                    zugeschriebenen Buchmalereien (z. B. New York, Metropolitan
+                                    Museum, 1975.1.2483) untersuchte <cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/RPJZC9S3">Eberhardt, Nuovi studi, 1986</cei:ref>. Eberhardt, Domenico
+                                    Morone, 2007, nennt auch die hier vorgestellte Urkunde (S.
+                                    271f.) und schreibt dem Maler auch die nachträgliche Ausstattung
+                                    von <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1474-04-04_Mantua/charter">1474 April 4</cei:ref> zu. <cei:lb/>Der hier beschriebene
+                                    Werkblock wurde auch Martino da Modena zugeschrieben (zu den
+                                    wechselnden Zuschreibungen vgl. <cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/UV6BPCPS">Treasures of a Lost Art, 2003</cei:ref>, S. 137, Nr. 66:
+                                    Mirella Levi d‘Ancona). Zuletzt hat Beatrice Alai, der ich sehr
+                                    herzlich für den kollegialen Gedankenaustausch danke, die Morone
+                                    zugeordneten, aus Chorbüchern ausgeschnittenen Initialen und
+                                    Fresken in der Bibliothek von San Bernardino in Verona einem
+                                    "Maestro della Libreria Sagramoso", der von Luciano Bellosi aus
+                                    dem Oeuvre Morones herausgelöst wurde, zugeschrieben.
+                                    <cei:lb/>Unabhängig von diesen Problemen, ist die stilistische
+                                    Übereinstimmung der Ornamentik der 1497/98 datierten Urkunden
+                                    vollkommen eindeutig. </cei:p>
+                                <cei:p n="Stil und Einordnung">Der Figurenstil der Urkunde in Berlin
+                                    mit seinen beiden Medaillons ist von kleinen Figuren geprägt und
+                                    ist so zwar mit einigen Tafelmalereien Morones, die ebenfalls
+                                    viele kleine Figuren auf weiten Plätzen zeigen, artverwandt,
+                                    aber ganz verschieden von den grossformatigen Gestalten, die
+                                    jene Chorbücher prägten, deren ausgeschnittenen Initialen das
+                                    Kernstück des Morone zugewiesenen buchmalerischen Oeuvres bilden
+                                    (dazu bei der Urkunde von 1474). <cei:lb/>Eine erstaunliche
+                                    ikonographische (besser motivliche) Parallele ist zwischen einer
+                                    Predellentafel mit Szenen aus dem Leben des hl. Blasius (San
+                                    Biagio) (Vicenza, Musei civici, A 162: <cei:ref target="http://www.museicivicivicenza.it/it/mcp/opera.php/9804">http://www.museicivicivicenza.it/it/mcp/opera.php/9804</cei:ref>)
+                                    und dem "Monte di Pietà" der Urkunde festzustellen: Jeweils ist
+                                    ein kegelförmiger Berg zu sehen, um den sich ein Weg zum Gipfel
+                                    windet. Diese Tafel wird in der Museumsdatenbank dem Maestro
+                                    della Libreria Sagramoso zugeschrieben (ursprünglich Domenico
+                                    Morone zugeordnet). <cei:lb/>Die Ornamentik ist in der ganzen
+                                    Werkgruppe durchaus verwandt, ob dies jedoch einer einzigen Hand
+                                    zuzuordnen ist, bedarf noch weiterer Studien.</cei:p>
+                                <cei:p/>
+                                <cei:p n="Autorensigle">Martin Roland</cei:p>
+                            </cei:decoDesc>
+                            <cei:material/>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc>Abgefallenes aufgedrücktes rotes
+                                Wachssiegel</cei:sealDesc>
+                        </cei:auth>
+                        <cei:nota/>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl>Museumsdatenbank: <cei:ref target="http://www.smb-digital.de/eMuseumPlus?service=ExternalInterface%26module=collection%26objectId=935913%26viewType=detailView">http://www.smb-digital.de/eMuseumPlus?service=ExternalInterface&amp;module=collection&amp;objectId=935913&amp;viewType=detailView</cei:ref></cei:bibl>
+                            <cei:bibl>Eberhardt, Domenico Morone, 2007, S.271f. (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/29DSX8E6">Vollzitat auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Eberhardt, Quattrocento maturo, 2011, S. 186-191 (zu Morone;
+                                Urkunde S. 188-190). (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/N2CUZYBL">Vollzitat auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Gneiss, Zajic, Imagery, 2015, S. 54-56 und Abb. 14: <cei:ref target="http://hdl.handle.net/11222.digilib/136250">http://hdl.handle.net/11222.digilib/136250</cei:ref> (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/KBV5LSHP">Vollzitat auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Beatice Alai, Le miniature italiane ritagliate del
+                                Kupfertsichkabinett di Berlino. Per una genesi ed un catalogo della
+                                collezione (in Vorbereitung). </cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p>Links unten Notiz des Mundators (Schreibers): <cei:quote>Diomedes
+                                Tridapalus secretarius visa supplicatione signata opportune sub die
+                                17 Marcii 1497 scripsit</cei:quote>.<cei:lb/>Ste(phanus)
+                            Archi(res)b(yte)r<cei:lb/>Hermolanus<cei:lb/>Antonius<cei:lb/><cei:lb/>Antimachus.<cei:lb/>Gneiss,
+                            Zajic, S. 55, identifizieren die neben dem Markgräflichen Sekretär
+                            Genannten mit Stfano Guidotti, Hermolaus Donatus sowie mit Marcantonio
+                            Antimaco.</cei:p>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">Italien</cei:placeName>
+                <cei:placeName type="Region">Lombardei</cei:placeName>
+                <cei:index indexName="illurk-vocabulary" lemma="Historiated"/>
+                <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours"/>
+                <cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted"/>
+                <cei:index indexName="illurk-vocabulary" lemma="Initials"/>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

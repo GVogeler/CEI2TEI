@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Vorau</settlement><repository>Stiftsarchiv</repository><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1453-06-17_Vorau</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material>Pergament</material><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis">Mittig in Deckfarben eingemalt hochrechteckiges
+                                    Bildfeld mit Wappenschild.<lb/></p>
+                                <p n="Stil und Einordnung">Ob die Malerei im Umfeld des
+                                    habsburgischen Hofes entstand, oder aber vom Empfänder
+                                    ausgeführt wurde, ist nur mit kunsthistorischen Mitteln zu
+                                    entscheiden, da beide Varianten bei Wappenbriefen vorkommen
+                                    können. Vergleiche mit Produkten der Buchmalerei sind schwierig,
+                                    da hier die im Dekor von Büchern so charakteristischen Ranken,
+                                    die den Randbereich füllen, fehlen. <lb/>Als Vergleich
+                                    bietet sich das Chorbuch <ref target="http://manuscripta.at/m1/hs_detail.php?ID=7156">Cod.
+                                        254</ref> der Stiftsbibliothek an (<ref target="http://www.cantusplanus.at/RISM_A-VOR254">Digitalisat</ref>), das, gemäss eines Colophons (fol.
+                                    263v), 1454 in und für Vorau entstand (<ref target="http://manuscripta.at/_scripts/php/cat2pdf.php?cat=CMDA7&amp;ms_code=AT7900-254">link</ref>). Im unteren Binnenfeld der Ad te
+                                    levavi-Initiale (fol. 1r) wird das (neu verliehene) Wappen
+                                    dargestellt. Die Kralle im unten Wappenfeld (Familienwappen
+                                    Prannbeck [Prombeck]) fehlt freilich. Die stämmigen Figuren und
+                                    die einfach gezeichneten Falten zeigen dasselbe Niveau. Paul
+                                    Buberl, Die illuminierten Handschriften in Steiermark 1: Die
+                                    Stiftsbibliotheken zu Admont und Vorau (Beschreibendes
+                                    Verzeichnis der illuminierten Handschriften in Österreich 4/1,
+                                    ed. Franz Wickhoff). Leipzig 1911, <ref target="https://digitalesammlungen.uni-weimar.de/viewer/fullscreen/PPN671982427/286/">S. 224-228</ref>, schliesst diese Handschrift und
+                                        <ref target="http://www.cantusplanus.at/RISM_A-VOR255">Cod. 255</ref> und <ref target="http://www.cantusplanus.at/RISM_A-VOR260">Cod.
+                                        260</ref> zu einer Gruppe zusammen; anzuschliessen ist
+                                    wohl auch noch <ref target="http://www.cantusplanus.at/RISM_A-VOR253">Cod.
+                                        253</ref>. </p>
+                                <p n="Autorensigle">Martin Roland</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Orig. Perg.</copyStatus>
+                        <listBibl type="other">
+                            <bibl/>
+                        </listBibl>
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        
+                        <p><quote><date>an suntag nach sannd Veits
+                            tag.</date></quote></p>
+                        
+                    <issued>
+                        <placeName>Graz (<foreign>Greͣtz</foreign>)</placeName>
+                        <date when="14530617">1453-06-17</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            Wachsfarbenes Majestätssiegel (beschädigt) an rot-grüner
+                                Seidenschnur.
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.#">Wappenbrief</term>: <legalActor type="issuer">Kaiser Friedrich
+                            III.</legalActor> verleiht dem Stift
+                            <placeName>Vorau</placeName> ein
+                            Wappen.<lb/><legalActor type="issuer">Kaiser Friedrich [III.]</legalActor> gibt
+                        und verleiht (<foreign>geben und verleihen</foreign>) von
+                        kaiserlicher Macht und als Landesfürst dem Stift
+                            <placeName>Vorau</placeName> (<foreign>Varaw</foreign>)
+                        auf Bitten des <foreign>ersam geistlich andechtigen</foreign>
+                        Propstes <persName>Leonhard</persName> [von
+                            <placeName>Horn</placeName>]
+                            (<foreign>Lienhart</foreign>) angesichts der Stiftung der
+                        vorangegangenen österreichischen Fürsten, für das ordentliche geistliche
+                        Leben des Propstes und des Konvents und aufgrund seiner Gewogenheit dem
+                        Stift gegenüber ein Wappen (<foreign>den mangel und abganng aigens
+                            wappens, so sy und ir gotshaus untzher gehabt haben</foreign>),
+                        nachdem das Stift bisher kein eigenes geführt hat (<foreign>den mangel
+                            und abganng aigens wappens, so sy und ir gotshaus untzher gehabt
+                            haben</foreign>), das sie als Siegel und für andere Bedürfnisse
+                            (<foreign>notduͤrften</foreign>) gebrauchen hätten können,
+                        sondern lediglich ein Bildnis der Auferstehung Christi mit dem heiligen
+                        Apostel Thomas als solches gebraucht hat (<foreign>unsers herren
+                            uͤrstennd und dabey sannd Thomas des heiligen zwelfboten, des bemelten
+                            irs goczhaus haubtherren, bildnuss, als sy und ir convent der in irn
+                            insigeln bisher genuͤtzt und gebraucht hieten</foreign>). Der
+                        vorangegangene Propst, <persName>Andreas Prannbeck</persName>
+                            (<foreign>Anndree Prannpekch</foreign>), hat bisher dafür sein
+                        Familiensiegel (<foreign>sein und seins geslechtes und namens
+                            wappen</foreign>) benützt, nämlich in Gold ein schwarzer halber Flug
+                        mit Fuß (<foreign>ain swartze fluͤg mit aim fuͦss in ainem goldvarben
+                            veld</foreign>). Nachdem dieses nach dem Aussterben der Familie an
+                        den Aussteller heimgefallen ist (<foreign>uns als lanndesfuͤrsten ledig
+                            worden</foreign>), wird ihnen nun gestattet, ihr bisheriges
+                        Siegelbild mit jenem der Familie Prannbeck in einem Schild zu führen
+                            (<foreign>nun hinfuͤr in ainem schilt gefuͤrn, nuͤtzen und
+                            gebrauchen moͤchten</foreign>), wie es in der Mitte der Urkunde
+                        farbig eingemalt ist (<foreign>als das hieinn aigentlich gemalt und mit
+                            varben ausgestrichen</foreign>). Er bestimmt (<foreign>mainen,
+                            setzen und wellen</foreign>), dass Propst
+                            <persName>Leonhard</persName> und alle seine Nachfolger das
+                        Wappen fortan für alle ihre Bedürfnisse, in Siegeln, Petschaften und allen
+                        anderen ehrbaren Angelegenheiten (<legalActor type="issuer">notduͦrfften, in insigeln,
+                            pedschaden und zu allen anndern erbern sachen</legalActor>) ungehindert
+                        benützen und gebrauchen dürfen. Er gebietet allen geistlichen und weltlichen
+                        Fürsten, Hauptleuten, Landvögten, Grafen, Freien, Herren, Rittern, Knechten,
+                        Statthaltern, Vizedomen, Herolden, Persevanten, Pflegern, Burggrafen,
+                        Schultheißen, Bürgermeistern, Richtern, Räten, Bürgern, Gemeinden sowie
+                        allen seinen, des Heiligen Römischen Reichs und der Erblande gegenwärtigen
+                        und künftigen Untertanen und Getreuen aller Stände (<foreign>was wesen,
+                            stannd oder wirdikait die seien</foreign>), den Propst und seine
+                        Nachkommen sowie das Stift in der Benützung und im Gebrauch des Wappens
+                        nicht zu behindern.<lb/>(<foreign>an Suntag nach sannd Veits
+                            tag</foreign>)<lb/>Daniel Maier</p></abstract><textClass/><settingDesc><listPlace><place><placeName><region>HRR</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1453-06-17_fIII_wappen-Vorau.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

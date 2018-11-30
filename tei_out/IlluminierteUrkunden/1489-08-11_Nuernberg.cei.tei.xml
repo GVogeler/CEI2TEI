@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Nürnberg</settlement><repository>Stadtarchiv</repository><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1489-08-11_Nuernberg</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material>Pergament</material><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p>Mittig in Deckfarben eingemalt hochrechteckiges Bildfeld mit
+                                    linksgewendetem, gelehntem Wappenschild.</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Orig. Perg.</copyStatus>
+                        <listBibl type="other">
+                            <bibl/>
+                        </listBibl>
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Arenga: <foreign>Wiewol wir aller und ÿeglicher unnser und des
+                                heiligen reichs underthanen und getrewen ere, nütz und besstes zuͦ
+                                furdern geneigt, ÿedoch sein wir mer begirlicher gegen denen, die
+                                sich gegen unns und dem heiligen reiche in getrewer gehorsamer
+                                dinstperkeit für ander redlich erzeigen, halten und beweisen, sÿ mit
+                                unnsern keÿserlichen gnaden zuͦ begaben</foreign>.</p>
+                        <p><quote><date>am eilften tag des moneds
+                            augusti.</date></quote></p>
+                        
+                    <issued>
+                        <placeName>Portenau
+                            (<foreign>Portenaw</foreign>)</placeName>
+                        <date when="14890811">1489-08-11</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            Majestätssiegel (Posse xy) an roter
+                                Seidenschnur
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.#">Wappenbrief</term>: <legalActor type="issuer">Kaiser
+                                <persName>Friedrich III.</persName></legalActor> bessert
+                                <legalActor type="recipient"><persName>Fritz
+                            Nützel</persName></legalActor> das
+                            Wappen.<lb/><legalActor type="issuer">Kaiser <persName>Friedrich
+                                [III.]</persName></legalActor> verändert und bessert
+                            (<foreign>verenndern, verkeren, zieren, pessern</foreign>) dem
+                                <legalActor type="recipient"><persName>Fritz
+                            Nützel</persName></legalActor> (<foreign>Fritz
+                            Nuͤtzel</foreign>) für dessen Ehrbarkeit, Redlichkeit, gute Sitten,
+                        Tugend und Vernunft, für die der Empfänger bekannt ist, sowie die
+                        vergangenen und zukünftigen treuen Dienste an Kaiser und Reich dessen
+                        erbliches Wappen (<foreign>wappen unnd cleinet</foreign>), wie er
+                        und seine Vorfahren es bisher geführt haben (<foreign>sein voreltern und
+                            er bisher gefuͤrt und gebrauͦcht haben</foreign>), nämlich in
+                        goldenem Schild ein schwarzer Schrägrechtsbalken, belegt mit drei goldenen
+                        Lilien; im Oberwappen ein silberner Stechhelm mit schwarz-goldenen
+                        Helmdecken und einem schwarz-goldenen Helmwulst, darauf ein goldbekleideter
+                        und schwarzbärtiger Mannesrumpf mit einem schwarzen Hut, belegt mit drei
+                        goldenen Lilien wie im Wappen (<foreign>ein gelber schilde, darinne von
+                            dem obern vordern bis in das under hinder ecke ein swartze leÿsten,
+                            darinne nacheinander dreÿ weiss lilien, und auf dem schilde einen helm
+                            mit einer gelben und swartzen helmdecken und einer umgewuͤnden pinden
+                            derselben farben gezieret, darauf ein manndsprustpild on arm mit einem
+                            swartzen bart, in gelb beclaidet, habende auf seinem haupt einen gelben
+                            huͦt mit einem swartzen uͤberstulp, darinne dreÿ weiss lilien
+                            nacheinander</foreign>), indem er die silbernen Lilien vergoldet
+                            (<foreign>in gelb verenndert und verkert</foreign>) und die
+                        Helmkleinodien mit einem Buschen aus schwarz-goldenen Straußenfedern auf dem
+                        Hut ziert (<foreign>das cleinete auf dem helm mit einem busch von
+                            swartzen und gelben strauͦssenfedern in dem uͤberstulp des
+                            huͦts</foreign>), wie es in der Mitte der Urkunde farbig eingemalt
+                        ist (<foreign>in mitte disz gegenwuͤrtigen unnsers keӱserlichen briefs
+                            gemalet und mit farben eigenntlicher auszgestrichen</foreign>). Er
+                        gestattet (<foreign>goͤnnen und erlauͦben</foreign>) dem Empfänger,
+                        das Wappen nun so gebessert zu führen und bestimmt (<foreign>meinen,
+                            setzen und wellen</foreign>), dass der Begünstigte und alle
+                        ehelichen Erben das Wappen in allen ehrlichen redlichen Angelegenheiten und
+                        Geschäften (<foreign>sachen und geschefften</foreign>)
+                            <foreign>zuͦ schimpf und zuͦ ernnst</foreign>, im Krieg, in
+                        Kämpfen, Lanzenstechen, Gefechten, auf Bannern, Zelten, Aufschlägen, in
+                        Siegeln, Petschaften, Kleinodien und auf Begräbnissen (<foreign>in
+                            streitten, kempfen, gestechen, gevechten, panirn, gezelden, aufslagen,
+                            innsigeln, pettschatten, cleinetten, begrebdnuͤssen</foreign>) und
+                        auch sonst überall (<foreign>an allen ennden</foreign>) nach ihrem
+                        Bedürfnis, Willen und Wunsch (<foreign>notdurfften, willen und
+                            wolgefallen</foreign>) führen dürfen, wie es andere seine und des
+                        Heiligen Römischen Reichs Wappengenossen
+                            (<foreign>wappensgenoslewte</foreign>) durch Recht oder
+                        Gewohnheit (<foreign>von recht oder gewonheit</foreign>) ungehindert
+                        tun. Er gebietet allen geistlichen und weltlichen Kurfürsten, Fürsten,
+                        Prälaten, Grafen, Freien, Herren, Knechten, Hauptleuten, Vizedomen, Vögten,
+                        Pflegern, Verwesern, Amptleuten, Schultheißen, Bürgermeistern, Richtern,
+                        Räten, Wappenkönigen, Herolden, Persevanten, Bürgern und Gemeinden und auch
+                        sonst allen seinen und des Heiligen Römischen Reichs Untertanen und Getreuen
+                        aller Stände (<foreign>in was wirden, stattes oder wesens die
+                            sein</foreign>) unter Androhung schwerer Ungnade sowie einer Strafe
+                        von zwanzig Mark lötigen Goldes, die je zur Hälfte an die Reichskammer und
+                        an den Betroffenen zu zahlen ist, den Begünstigten und alle Erben in der
+                        Führung und Gebrauch des verliehenen Wappens und aller Gnaden und Freiheiten
+                        nicht zu behindern.<lb/>Daniel Maier</p></abstract><textClass/></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1489-08-11-FIII-fuer-Nuetzel_E56_I_201_3.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1482-10-15_Wien</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material>Pergament</material><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p>Mittig hochrechteckiges Bildfeld freigelassen.</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Orig. Perg.</copyStatus>
+                        <listBibl type="other">
+                            <bibl/>
+                        </listBibl>
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Arenga: <foreign>Wiewol wir aus angebornner guͤt und kaiserlicher
+                                wierde, dartzuͦ wir von gott dem allmechtigen koͤmen, begirlich
+                                sein, unser und des heiligen reichs undertan umb ir guͤt tatt zu
+                                erheben und zu fuͤrdern, so ist doch unser gemuͤet auch genaigt und
+                                zÿmbt uns wol, den, so zu solhem erheben nicht truͤglich sein, unser
+                                sonnderr kaiserliche hilff und gewalltsam mitzetailn und dartzuͦ
+                                schikhlich ze machen.</foreign></p>
+                        <p><quote><date>an eritag vor sannd Gallen
+                            tag.</date></quote></p>
+                        
+                    <issued>
+                        <placeName>Wien (<foreign>Wienn</foreign>)</placeName>
+                        <date when="14821015">1482-10-15</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            Wachsfarbenes Majestätssiegel (Posse xy) an roter
+                                Seidenschnur.
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p>Adels- und <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.#">Wappenbrief</term>: <legalActor type="issuer">Kaiser
+                                <persName>Friedrich III.</persName></legalActor> erhebt
+                                <legalActor type="recipient"><persName>Wolf von
+                            Gmünd</persName></legalActor> in den Adelsstand, legitimiert ihn,
+                        bestätigt sein Erbe und verleiht ihm ein Wappen.<lb/><legalActor type="issuer">Kaiser
+                                <persName>Friedrich [III.]</persName></legalActor> verleiht,
+                        gibt und bestätigt (<foreign>verlihen, geben, confirmirn, bevessten und
+                            besteͣtten</foreign>) als regierender Herr und Landesfürst in
+                            <geogName>Österreich</geogName> dem
+                                <legalActor type="recipient"><persName>Wolf</persName></legalActor>
+                            (<foreign>Wolff</foreign>), Sohn des obersten Truchsessen in
+                            <geogName>Österreich</geogName> (<foreign>obrister
+                            druͦgseͣss in Oͤsterreich</foreign>), <persName>Wilhelm von
+                            Puchheim</persName> (<foreign>Wilhaͤlm von
+                            Puͦchaim</foreign>), sowie dessen männlichen Erben auf Bitten des
+                        Vaters und für die Dienste, die dieser und alle Vorfahren am Kaiser und
+                        dessen Vorgängern geleistet haben und künftig leisten werden, das dem
+                                <legalActor type="recipient"><persName>Wolf</persName></legalActor>
+                        bestimmte Erbe auf Schloss und Stadt <placeName>Gmünd</placeName>
+                            (<foreign>Gmuͤnd</foreign>), der Herrschaft
+                            <placeName>Rosenau</placeName>
+                            (<foreign>Rosenawͦ</foreign>) und den Satz Gmünd auf der
+                        Herrschaft Schrems (<foreign>Schrems</foreign>) (gemeͣcht und
+                        verschreibung, so im der obbenannt sein vatter auf denselben sein
+                        gesloͤssen, stat und herschefften tan hat), nachdem er ihn, um den Adel im
+                        Fürstentum zu mehren (<foreign>damit die manschafft und der adel in
+                            unnserm fuͤrstentuͦmb Oͤsterreich despast gemeret werde</foreign>),
+                        legitimiert hat (<foreign>geewigt, die unteuͤglichkeit seiner gebuͤerde
+                            ganntz abtan</foreign>), weiters den Namen
+                                <legalActor type="recipient"><persName>Wolf von
+                            Gmünd</persName></legalActor> (<foreign>Wolff von
+                            Gmuͤnd</foreign>), den Adelstitel (<foreign>zu ainem des adels
+                            von newͦem geschopht und gemacht</foreign>) sowie ihm und seinen
+                        männlichen Erben ein Wappen (<foreign>wappen und klaӱned</foreign>)
+                        verliehen hat, wie es in der Mitte der Urkunde farbig eingemalt ist
+                            (<foreign>in der mitte dises unsers kaiserlichen briefs mit varben
+                            aigenntlicher ausgestrichen und gemalt</foreign>), nämlich in
+                        silbernem Schild ein roter Balken, belegt mit einem goldgekrönten goldenen
+                        Löwen mit ausgestreckter Zunge; im Oberwappen ein gekrönter Turnierhelm mit
+                        rot-silbernen Helmdecken, daraus entspringend ein silberner Flug, belegt mit
+                        dem Löwen wie im Wappen (<foreign>ain schillt von silbervarb, in des
+                            mitte twerchs ain rotte leÿssten, und aus dem gruͤnnde desselben schilts
+                            ain goldvarber leb, nach dem schillt uͤber egk auf in klÿm geschickt,
+                            mit geelfennder zuͦnngen, gekroͤnet mit ainer kron derselben seiner
+                            varb, darauf ain gekroͤntter tuͤrnirhelbm, getzieret mit seiner
+                            helbmdeckh, silbervarb und rot, daraus entspringennde ain fluͦg, der der
+                            varb des beruͤrten schilts, darinn ain leb, der varb wie in demselben
+                            schilt</foreign>). Er bestimmt (<foreign>mainen, setzen und
+                            ordnen</foreign>), dass der Begünstigte und alle Erben fortan von
+                        allen Geistlichen und Weltlichen als Adelige (<foreign>des adels und
+                            edel lewͦt</foreign>) genannt und geschrieben werden sollen, mit der
+                        Befähigung, Lehen zu empfangen, Lehens- und andere Gerichtsbarkeiten mit
+                        anderen seinen, des Heiligen Römischen Reichs und der Erblande
+                        Wappengenossen und rittermäßigen Leuten zu besitzen sowie Urteile und Recht
+                        sprechen (<foreign>auch lehen ze hallten, ze tragen, lehen und annder
+                            gericht mit unnsern und des reichs und besonnder unserr erblichen lannde
+                            rechtgebornen wappengenossen und rittermessigen lewͦten zu besitzen,
+                            urtail mit in ze schopffen und recht ze sprechen, teuͤglich,
+                            empheͣnnkhlich und genuͤgsam sein</foreign>). Außerdem darf er das
+                        Wappen fortan in allen ehrlichen, redlichen und ritterlichen Angelegenheiten
+                            (<foreign>sachen und gescheͣfften</foreign>) <foreign>zu
+                            schimpff und zu ernnst</foreign>, außerdem im Krieg, auf Bannern,
+                        Zelten, Begräbnissen, Aufschlägen, in Siegeln, Petschaften und Kleinodien
+                            <foreign>(in streitten, panÿrn, getzellten, begrebnuͦssen und
+                            aufslahen, auch in innsigeln, petschadten und klaineden</foreign>)
+                        und auch sonst überall (an allen enndenn) nach ihren Bedürfnissen und
+                        Wünschen (<foreign>nottuͤrfften und wolgevallen</foreign>) führen
+                        und sich in geistlichen und weltlichen Ständen und Angelegenheiten
+                            (<foreign>stennden und sachen</foreign>) bewegen, mit allen
+                        Ehren, Rechten, Freiheiten, Gnaden, Vorteilen, Gewohnheiten, Bräuchen
+                            (<foreign>herkoͤmen</foreign>) und Gerechtigkeiten, wie sie
+                        andere Adelige durch Recht oder Gewohnheit (<foreign>von rechtens oder
+                            gewonheit</foreign>) haben. Der Bestünstigte soll auch Schloss,
+                        Stadt und Herrschaft <placeName>Gmünd</placeName> nach den
+                        Bestimmungen des Erbes innehaben. Zusätzlich erlaubt
+                            (<foreign>verguͦnnen und erlauben</foreign>) er dem Empfänger,
+                        künftig bei Weltlichen wie Geistlichen alle Handfesten, Urkunden und Missive
+                        ungehindert mit rotem Wachs zu petschieren oder zu siegeln (<foreign>all
+                            ir hanntfesst, briefe und missive mit rottem wachs under irn petschadten
+                            oder innsigeln verferttigen, und das gegen geistlichen und
+                            welltlichen</foreign>). Er gebietet allen <foreign>erwirdigen,
+                            hochgebornen, wolgeborn, ersamen und edlen</foreign> geistlichen und
+                        weltlichen Kurfürsten, Fürsten, Grafen, Freien, Herern, Rittern, Knechten,
+                        Hauptleuten, Amtleuten, Landvögten, Vögten, Pflegern, Verwesern, Vizedomen,
+                        Hofrichtern, Lehenrichtern, Landrichtern, Stadtrichtern, Bürgermeistern,
+                        Schultheißen, Schöffen, Richtern, Räten, Wappenkönigen, Herolden,
+                        Persevanten, Bürgern und Gemeinden sowie allen anderen seines, des Heiligen
+                        Römischen Reichs und der Erblande Untertanen und Getreuen unter Androhung
+                        schwerer Ungnade sowie einer Strafe von fünfzig Mark lötigen Goldes, die je
+                        zur Hälfte in die fürstliche Kammer und an die Betroffenen zu zahlen ist,
+                        den Begünstigten in seiner Führung und Benützung seiner Legitimation,
+                        Namensgebung, seines Adelsstand, Wappens und Rotwachsprivilegs nicht zu
+                        behindern.<lb/><lb/>Daniel Maier</p></abstract><textClass/></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1482-10-15_F-III-fuer Wolf-von-Gmuend_nicht-ausgemaltHHStA_AUR.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

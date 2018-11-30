@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Clermont-Ferrand</settlement><repository>Archives départementales du Puy-de-Dôme</repository><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1021-10-14_Puy-de-Dome</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material>Pergament</material><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis">Eine Ausstellerbüste vor dem Kreuzzeichen
+                                    (Chrismon) am Beginn des Urkundentextes. Erste Zeile in
+                                    Majuskeln. </p>
+                                <p n="Stil und Einordnung">Die Urkunde wirkt unscheinbar. Das
+                                    aus Kreuzzeichen aufgebaute Chrismon ist ganz typisch, auch für
+                                    Privaturkunden wie diese. Die Büste davor, wohl der "Schenker",
+                                    ist jedoch ganz und gar ungewöhnlich. Er macht aus dieser
+                                    Urkunde die älteste illuminierte Urkunde Frankreichs mit einer
+                                    historisierten, das heisst auf den Inhalt bezogenen
+                                    Darstellung.</p>
+                                <p>Brunel (Entre art et pouvoir, 2013, S. 44) war der Ansicht,
+                                    dass es sich bei der Büste tatsächlich um den verstorbenen
+                                    Stifter Raoul handelt. Der ungewöhnliche Inhalt hätte diese
+                                    Darstellung hervorgerufen. Die nächste, uns bekannte
+                                    französische Urkunde mit einer Historisierung ist erst <ref target="http://monasterium.net/mom/IlluminierteUrkundenFrankreich/1260-11-99/charter">1260 November</ref>.</p>
+                                <p n="Autorensigle">Martin Roland, Gabriele Bartz</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <listBibl type="other">
+                            <bibl>Guyotjeannin, Images, 2005, S. 21 f. (mit Abb. auf S. 20).
+                                    (<ref target="http://zotero.org/groups/257864/items/AVV9JTG8">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Lauranson-Rosaz, Bréviaire, 2008, bes. S. 241-243. (<ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/UAVNU9TV/">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Guyotjeannin, Penuria scriptorum, 1997,
+                                S. 24–26, 42–44, mit Abb. auf S. 4. (<ref target="http://zotero.org/groups/257864/items/IDP7I5CM">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Brunel, Entre art et pouvoir, 2013, S. 44. (<ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/NCP7UKPM/q/brunel">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Acte n°3701 dans Chartes originales antérieures à 1121
+                                conservées en France , Cédric Giraud, Jean-Baptiste Renault et
+                                Benoît-Michel Tock, éds., Nancy : Centre de Médiévistique Jean
+                                Schneider; éds électronique : Orléans : Institut de Recherche et
+                                d'Histoire des Textes, 2010. (Telma). En abrégé, citer: Charte
+                                Artem/CMJS n°3701[En ligne]: <ref target="http://www.cn-telma.fr/originaux/charte3701/">http://www.cn-telma.fr/originaux/charte3701/</ref> (mit
+                                Transkription von M.-J. Gasse).<ref target="http://www.cn-telma.fr/originaux/charte3701/">http://www.cn-telma.fr/originaux/charte3701/</ref></bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Das Stück beinhaltet zwei Rechtsgeschäfte. Zum einen geht es um die
+                            testamentarische Verfügung von Radulfus, zum anderen - und hierin liegt
+                            wohl der eigentliche Grund für die Niederschrift - um die Weitergabe der
+                            an das Kathedralkapitel von Clermont vererbten Güter an einen Verwandten
+                            des Verstorbenen. Der Schreiber, der sich am Ende des Stücks auch selbst
+                            nennt (<foreign>Druitramnus scripsit</foreign>), wählt jedoch
+                            eine überaus bemerkenswerte Form der Beurkundung aus.</p>
+                        <p>Am Beginn wird in einer Art Memorialnotiz bekannt gegeben, dass der
+                            Stifter an den 5. Nonen des März verstorben ist. Danach folgt
+                            offenkundig ein Insert der Urkunde bzw. des Testaments des Radulfus.
+                            Auch die Arenga, die sich auf den Codex Theodosianus bezieht und eine
+                            Vergesslichkeitsarenga darstellt, dürfte zur ursprünglichen Urkunde des
+                            Radulfus gehören, da die Überleitung zur Intitulatio mit
+                                <foreign>quapropter</foreign> direkt Bezug darauf nimmt. Der
+                            in der Arenga getätigte Verweis auf den Codex Theodosianus hat bereits
+                            breiteres Interesse in der Forschung gefunden, vgl. Lauranson-Rosaz,
+                            Bréviaire, 2008. </p>
+                        <p>Markus Gneiss</p>
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName/>
+                        <date when="10211014">1021-10-14</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            kein Siegel, jedoch wird im Text auch keines
+                                ankündigt.
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p> Bischof Etienne [IV. von Clermont]
+                            (<foreign>Stephanus</foreign>) und das Kathedralkapitel von
+                        Clermont übergeben Bernard, dem Neffen (<foreign>nepoti
+                            sui</foreign>) des Abtes und Diakons (<foreign>abba et
+                            levita</foreign>) Raoul (<foreign>Radulfus</foreign>), ein
+                        Gut in der <foreign>villa Pressagio</foreign>, nämlich einige Felder
+                        und ein Herrenhaus (<foreign>capud mansio</foreign>), das davor vom
+                        genannten, nun jedoch verstorbenen Abt dem Kathedralkapitel von Clermont
+                            (<foreign>ad chanonicis beate Mariae Arverne sedis et beatorum
+                            martyrum Agricola atque Vitalis</foreign>) in Gegenwart des
+                        genannten Bischofs, des Vogts Itier, des Abtes Arbert und einiger Vertreter
+                        des genannten Kapitels testamentarisch vermacht worden ist. Die Übergabe an
+                        Bernard erfolgt unter der Bedingung, dass dieser dem Kapitel einen Mansen
+                        von dem Gut überlässt und eine jährliche Abgabe leistet. Am Beginn der
+                        Urkunde wird bekannt gegeben, dass Raoul am 3. März verstorben
+                        ist.<lb/>Markus Gneiss</p></abstract><textClass><keywords scheme="illurk-vocabulary"><term key="Historiated" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Historiated">N1:
+                    historisiert</term><term key="ExecutionDraw" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#ExecutionDraw">N1:
+                    gezeichnet</term><term key="Display-Script-calligraphic-with-decorative-character" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Display-Script-calligraphic-with-decorative-character">N2: Zierschrift
+                    (Auszeichnungsschrift)</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Frankreich</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1021-10-14_Clermont_Guy-1997.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1021-10-14_Clermont_Detail.jpeg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1021-10-14_Clermont.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

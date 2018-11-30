@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Zwettl</settlement><repository>Stiftsarchiv</repository><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1492-11-15_Zwettl</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material>Papier</material><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Kop. Pap.</copyStatus>
+                        <listBibl type="other">
+                            <bibl/>
+                        </listBibl>
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Arenga: <foreign>Wie wol wir aller und yeglicher unnser und des
+                                heilgen reichs undertanen und getrewen ere, stand und nutz zu
+                                fuerdern und zu meren genaigt, so sey wir doch merer begierlicher
+                                gegen denen, die sich gegen unns, dem heiligen reich und unnserm
+                                loblichen haws Osterreich in getrewer dinstperkait und fur anndern
+                                redlichen erzaigen und beweisen, sy in noch hoͤhre ere und stand zu
+                                erheben</foreign>.</p>
+                        <p><quote><date>am fünfzehenten tag des moneds
+                            november.</date></quote></p>
+                        
+                    <issued>
+                        <placeName>Linz (<foreign>Lintz</foreign>)</placeName>
+                        <date when="14921115">1492-11-15</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p>Adels- und <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.#">Wappenbrief</term>: <legalActor type="issuer">Kaiser
+                                <persName>Friedrich III.</persName></legalActor> erhebt
+                                <legalActor type="recipient"><persName>Hans</persName></legalActor>,
+                                <legalActor type="recipient"><persName>Sigmund</persName></legalActor>,
+                                <legalActor type="recipient"><persName>Wolfgang</persName></legalActor>
+                        und <legalActor type="recipient"><persName>Stefan
+                            Rehwein</persName></legalActor> in den Adelsstand und verleiht
+                        ihnen ein Wappen.<lb/><legalActor type="issuer">Kaiser <persName>Friedrich
+                                [III.]</persName></legalActor> erhebt (<foreign>erlychen,
+                            wirdigen, edlmachen</foreign>) mit wohlbedachtem Mut, gutem Rat und
+                        rechtem Wissen seinen Diener (<foreign>diner</foreign>
+                            (<foreign>Hanns Raͤchwein</foreign>), dessen Brüder
+                            <legalActor type="recipient">Sigmund</legalActor>
+                            (<foreign>Sigmunden</foreign>),
+                            <legalActor type="recipient">Wolfgang</legalActor>
+                            (<foreign>Wolfgangen</foreign>) und
+                            <legalActor type="recipient">Stefan</legalActor>
+                            (<foreign>Steffan</foreign>) sowie alle ehelichen Erben für die
+                        vergangenen und künftigen treuen Dienste des Erstgenannten an Kaiser, Reich
+                        und Haus Österreich in den Adelsstand und gleicht und fügt
+                            (<foreign>geleichen und zuefuͤegen</foreign>) sie seinen und des
+                        Heiligen Römischen Reichs Adeligen und Rittermäßigen hinzu (<foreign>der
+                            geselschafft unnser und des heiligen reichs recht gepornnen edeln und
+                            rittermässigen lewͦten</foreign>). Außerdem bestätigt er ihnen ihr
+                        erbliches Wappen (<foreign>wappen und kleinate</foreign>), nämlich
+                        in silbernem Schild vom hinteren Unter- zum vorderen Obereck wachsend ein
+                        abgeschnittener Weinstock seiner natürlichen Farbe mit vier gestreckten und
+                        zwei gebogenen Ästen, an jedem ein grünes Blatt und eine blaue Weintraube;
+                        im Oberwappen ein Helm mit silbern-blauen Helmdecken, darauf ein offener
+                        Flug, darin vom hinteren Unter- zum vorderen Obereck wachsend ein Weinstock
+                        mit Ästen, Blättern und Trauben in natürlichen Farben (<foreign>einen
+                            weissen schilde, darinnen von dem hindern unndern bis in das vorder ober
+                            egke ein abgeschniten weinstokch seiner natuͤrlichen varben mit vier
+                            abgeschniten, auch zwayer gepogenen essten, an yedem ein gruen plat und
+                            ain plab weintrawbn hangend, von auf dem schillde einen hellm mit einer
+                            weissen und plaben helmdegken geziert, darauf aine zwifache aufgetane
+                            fluͤg, darinnen auch van dem hindern unndern bis in das vorder ober egke
+                            ein abgesniter weinstokch mit essten, pletern und weintrauben von varben
+                            und sunst allemassen geschikht als im schillde</foreign>), und
+                        bessert (<foreign>verenndern, verkheren, zieren und
+                            pessern</foreign>) es, indem er den Schild und den Flug auf dem Helm
+                        vergoldet und den Helm mit einem rot-goldenen Helmwulst krönt
+                            (<foreign>den schilld, auch die fluͤg auf dem helm in gelbe
+                            veraͤnndert und verkhert, und dem helm in dem selben wappen und
+                            kleineten mit einer roten und gelben gewunden fliegenden
+                            pinden</foreign>), wie es in der Mitte der Urkunde farbig eingemalt
+                        ist (<foreign>in mitte diss gegenburtigen unsers kaiserlichen briefs
+                            gemalt und mit farben aiygentlichen awsgestrichen</foreign>). Er
+                        gestattet (<foreign>haben ... gegunnet und erlaubt</foreign>) ihnen,
+                        das Wappen in dieser neuen Form zu führen. Er bestimmt (<foreign>meinen,
+                            setzen und wellen</foreign>), dass die Begünstigten und alle Erben
+                        fortan als Rittermäßige genannt, geschrieben und für solche gehalten werden,
+                        mit allen Gnaden, Freiheiten, Privilegien, Ehren, Würden, Vorteilen,
+                        Bräuchen, Rechten und Gerechtigkeiten in geistlichen und weltlichen
+                        Angelegenheiten, sowie der Lehens- und Gerichtsbarkeit und der Fähigkeit,
+                        Urteile zu sprechen (<foreign>alle und yeglich gnad, freyhait,
+                            privilegia, ere und wierde, vortail, gewonhait, recht und gereichtigkait
+                            in geistlichen und weltlichen stennden und sachen, mit lehen halten,
+                            tragen, emphahen und aufnemen, lehen, gericht und recht zu befugen,
+                            urtail zu sprechen</foreign>). Außerdem dürfen sie das Wappen in
+                        allen ehrlichen und redlichen Angelegenheiten und Geschäften
+                            (<foreign>sachen und geschefften</foreign>) <foreign>zu
+                            schimph und zu ernnst</foreign>, im Krieg, in Kämpfen,
+                        Lanzenstechen, Gefechten, auf Bannern, Zelten, Aufschlägen, in Siegeln,
+                        Petschaften, Kleinodien und auf Begräbnissen (<foreign>in streiten,
+                            kempphen, gestechen, gefechten, paniern, gezellten, aufslahen, insigeln,
+                            petschaden, cleineten, begrebnuͤssen</foreign>) führen, wie es
+                        andere seine und des Heiligen Römischen Reichs rechtmäßig geborene Ritter
+                        und Wappengenossen (<foreign>edl mittermässig und
+                            wappensgenos</foreign>) durch Recht oder Gewohnheit
+                            (<foreign>von recht oder gewonhait</foreign>) [ungehindert] tun.
+                        Er gebietet allen geistlichen und weltlichen Kurfürsten, Fürsten, Grafen,
+                        Freien, Herren, Rittern, Knechten, Hauptleuten, Vizedomen, Vögten, Pflegern,
+                        Verwesern, Amtleuten, Schultheißen, Bürgermeistern, Richtern, Räten,
+                        Wappenkönigen, Herolden, Persevanten, Bürgern und Gemeinden und auch sonst
+                        allen seinen und des Heiligen Römischen Reichs Untertanen und Getreuen aller
+                        Stände (<foreign>in was wirden, states ader wesens die
+                            sein</foreign>) und bestimmt (<foreign>wellen</foreign>),
+                        dass sie die Begünstigten und alle Erben unter Androhung schwerer Ungnade
+                        sowie einer Strafe von vierzig Mark lötigen Goldes, die je zur Hälfte an die
+                        Reichskammer und an die Betroffenen zu zahlen ist, in der Führung und im
+                        Gebrauch ihres Wappens nicht behindern, noch dies irgendjemandem zu
+                        gestatten dürfen. Die Urkunde beschadet nicht die ältere Führung identischer
+                        Wappen durch
+                                            andere.<lb/><legalActor type="recipient"><persName><persName><persName><persName>Hans
+                                            Rehwein</persName></persName></persName></persName></legalActor>Daniel
+                        Maier</p></abstract><textClass/></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1492-11-15, Linz.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1492-11-15b, Linz.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Paris</settlement><settlement>Paris</settlement><settlement>Paris, </settlement><repository>Archives nationales</repository><repository>Archives
+                                nationales</repository><repository>Archives
+                                nationales</repository><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1364-06-99_Paris-Paris-Paris</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material>Pergament</material><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis">Für die stark vergrösserte, und somit weit in
+                                    den oberen Rand der Urkunde reichende Federzeichnungsinitiale
+                                    K(arolus), hat der Schreiber bloss zwei Zeilen ausgespart. Der
+                                    Buchstabenkörper mit ausgespartem Wellenband im Schaft und
+                                    ausgesparten Herzblättern im Bogen und der Cauda. Der Balken
+                                    durch eine horizontale Linie oben abgeschlossen, deren
+                                    aufgebogene Enden als dünn gezeichnete Greifen- und Drachenköpfe
+                                    gebildet sind. Vom unteren Ende des Schaftes reicht ein
+                                    gezeichneter Fortsatz in den linken Rand, der mit
+                                    Silhouette-Trifolietten und Eicheln besetzt ist. </p>
+                                <p n="Ekphrasis">Die Initiale N(otum) mit ausgesparten, halben
+                                    Fleurs-de-lys, die Initiale C(harles), ebenfalls noch in der
+                                    ersten Zeile, mit zwei ausgesparten, gespiegelten Blattmotiven. </p>
+                                <p n="Stil und Einordnung">Der Schreiber wie der Zeichner der
+                                    Initialen ist der gleiche wie <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1362-09-99_Paris/charter">1362 September</ref> (Archives nationales, K 49 C, no
+                                    71). Man vergleiche die charakteristischen Motive aus drei
+                                    Scheiben (Trifolietten). Während für das „J“ der Urkunde des
+                                    Jean le Bon keine Vorkehrungen im Schriftspiegel getroffen
+                                    werden mussten, da dieser Buchstabe davor gesetzt wird, hat er
+                                    beim „K“ hier eine zwei Zeilen hohe Fläche frei gelassen.
+                                    Während diese Eingangsinitiale in ihrer Grösse harmonisch wirkt,
+                                    sind die beiden anderen recht schmal, was besonders beim „C“ zu
+                                    beobachten ist. Es ist fraglich, ob darin eine Eigenart des
+                                    Schreibers liegt oder ob er sich neuen Anfordungen stellt, derer
+                                    er noch nicht ganz entsprechen kann. Nur zurückhaltend werden
+                                    die Fleurs-de-lys eingesetzt; gleichwohl sind sie als Zeichen
+                                    des französischen Königtums unverkennbar.</p>
+                                <p n="Stil und Einordnung">Dieselbe Hand ist offensichtlich auch
+                                    für den Buchstabenkörper (und die Schrift?) jener Urkunde vom
+                                        <ref target="monasterium.net/mom/IlluminierteUrkunden/1364-07-99_Paris/charter">Juli 1364</ref> (Paris, Archives nationales,
+                                    AE//III/383) verantwortlich, deren historisierter Dekor sie zum
+                                    Ausgangspunkt der Entwicklung der illuminierten Urkunden König
+                                    Charles’ V macht.</p>
+                                <p n="Autorensigle">Gabriele Bartz</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <listBibl type="other">
+                            <bibl>Tardif, Monuments, 1866, S. 396, Nr.
+                                1428. (<ref target="http://zotero.org/groups/257864/items/V286ZHPC">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Brunel, Images, 2005, S. 119–124, Nr. 15. <ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/RJ37NJMN">(Volltitel auf Zotero</ref>) </bibl>
+                            <bibl>Trésor des chartes, 2007, Nr. 129, Abb.
+                                S. 102. (<ref target="http://zotero.org/groups/257864/items/XZ35ZUGR">Volltitel auf Zotero</ref>)</bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Siegel: abgefallen.</p>
+                        <p>Vermerke</p>
+                        <p>- auf der Plica: (links)<quote> Per regem in
+                                consilio suo, Ogier</quote>; (rechts) <quote>Visa</quote>, <quote>Collata facta
+                                est.</quote></p>
+                        <p>- Rückseite (14. Jahrhundert) <quote>Publiees en
+                                jugement ou Chastellet de Paris le lundi XVIIe jour de septembre mil
+                                CCC LX et dix“; Lebègue; La sauvegarde du roy present,
+                                Loncchamp.</quote></p>
+                        <p>Kommentar:</p>
+                        <p>Charles V. wurde am 19. Mai 1364 in Reims zum König gesalbt, die
+                            Urkunde stellt somit wohl das älteste erhaltene illuminierte Stück aus
+                            seiner Königszeit dar. Schon seit der Gründung der Abtei durch Isabelle
+                            de France zwischen 1255 und 1259 hatte die königliche Familie eine enge
+                            Beziehung zu diesem Kloster, was sich auch in laufend neuausgestellten
+                            Privilegienbestätigungen ausdrückt.</p>
+                        <p>Markus Gneiss</p>
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName>Paris</placeName>
+                        <date when="13640699">1364-06-99</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p>König Charles [V., (le Sage)] von Frankreich bestätigt (<quote>volumus, laudamus, approbamus auctoritateque nostra regia
+                        </quote>[…] <quote>confirmamus</quote>) den hier
+                        inserierten, von ihm selbst als französischer Regent, Herzog der Normandie
+                        und Dauphin von Viennois im August 1359 für die Klarissenabtei von Longchamp
+                            (<quote>Lonc Champ prez de Paris</quote>)
+                        ausgestellten Schutzbrief.<lb/>Markus Gneiss </p></abstract><textClass><keywords scheme="illurk-vocabulary"><term key="DD-nh-Initials" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#DD-nh-Initials">N2:
+                    Initiale</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Frankreich</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1364-06-99_Karl_V_betaetigt_die_Sicherheitsbriefe_die_er_mit_der_Zisterziensterabtei.jpeg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1364-06-99_Karl_V_betaetigt_die_Sicherheitsbriefe_die_er_mit_der_Zisterziensterabtei_Detail.jpeg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

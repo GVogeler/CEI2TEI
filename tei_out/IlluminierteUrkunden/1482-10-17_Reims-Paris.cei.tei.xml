@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Reims</settlement><settlement>Paris</settlement><repository>Bibliothèque municipale</repository><repository>Bibliothèque nationale de France</repository><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1482-10-17_Reims-Paris</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Druck">Einblattdruck</term>: Typendruck;
+                                    oberhalb des Textes ein einfach gerahmter Holzschnitt mit
+                                    thronender Madonna mit Kind (links), zentral mit gekreuzten
+                                    päpstlichen Schlüsseln überhöht von einer Tiara und rechts mit
+                                    einem gekrönten drei Lilien Schild; darunter die Zeile „Le grant
+                                    pardon de nostre dame de Rains“. Diese Zeile in den Holzblock
+                                    der Darstellung geschnitten, kein Typendruck wie der unterhalb
+                                    anschliessende Text. </p>
+                                <p n="Stil und Einordnung">Der Schneider hat den Text nicht gut
+                                    kalkuliert und der Zeichenabstand wird am Ende enger; dass
+                                    „Reins“ statt wie im typographischen Text „Reims“ steht, wird
+                                    wohl auch mit der Notwendigkeit zu schaffen haben, dass kein
+                                    Platz mehr zur Verfügung stand. </p>
+                                <p n="Stil und Einordnung">Als Drucker des französisch
+                                    sprachigen Ablassbriefes wurde zuerst Jean Dupré (Du Pré) in
+                                    Paris benannt (Claudin, Fournier). Nach Claudin handelt es sich
+                                    um den ersten in Frankreich gedrucken Ablassbrief. Im GW und im
+                                    ISTC wird der Ablass jedoch dem Guy Marchant
+                                    zugeschrieben.</p>
+                                <p n="Stil und Einordnung">Die verwendete Drucktype des Pariser
+                                    Druckers Guy Marchant (Type 3:105/106G) ist von 1482 bis 1500
+                                    nachweisbar: <ref target="http://tw.staatsbibliothek-berlin.de/ma00808">http://tw.staatsbibliothek-berlin.de/ma00808</ref>. Das
+                                    hier behandelte Stück (1482) datiert deutlich vor der ab 1488
+                                    nachweisbaren Verwendung der Type. Daraus ergibt sich
+                                    beträchtliche Unsicherheit in Bezug auf den Entstehungszeitpunkt
+                                    des Drucks. </p>
+                                <p n="Stil und Einordnung">Einen weiteren Widerspruch stellt die
+                                    Verwendung des Stückes dar. Einerseits ist es eine klassische
+                                    Ablassverkündigung, also genau genommen keine Urkunde
+                                    (vergleiche etwa das ebenfalls mit Holzschnitten versehene Stück
+                                    für die Pariser Rochusbruderschaft; <ref target="http://www.monasterium.net/mom/IlluminierteUrkunden/1496-08-11_Braunschweig-Braunschweig/charter">nach 1496 August 11</ref>), andererseits wird die
+                                    Unterschrift von Notaren und eine Besiegelung mit dem Siegel des
+                                    Reimser Kapitels angekündigt. Dieser letzte Absatz ist aber
+                                    insoferne problematisch, als zwar von einem Vidimus gesprochen
+                                    wird, der überlieferte Text aber keines ist.</p>
+                                <p n="Autorensigle">Martin Roland</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <listBibl type="other">
+                            <bibl>Claudin, Imprimerie en France, 1915, Bd.
+                                1, S. 220–222 (mit Tafel). (<ref target="http://zotero.org/groups/257864/items/XR5QMAZT">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Einblattdrucke, 1914. (<ref target="http://zotero.org/groups/257864/items/6RB7KV9X">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Fournier, Affiches, 1923, S. 120
+                                (weitere Beispiele nach 1500). (<ref target="http://zotero.org/groups/257864/items/ZEW8DZZT">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Neveux und Dacier, Richesses, 1932, Band
+                                2, S. 113 und Tafel XXIX. (<ref target="http://zotero.org/groups/257864/items/MVN6M2P2">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Trésors de la Bibliothèque Municipale de Reims, 1978, Nr. 66.
+                                    <ref target="http://zotero.org/groups/257864/items/XWIS74QS">(Volltitel auf Zotero)</ref></bibl>
+                            <bibl>Arnoult, Bibliothèques de la région
+                                Champagne-Ardenne, 1979, S. 848. (<ref target="http://zotero.org/groups/257864/items/Q3Z5KM7P">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>VE15, Bd. 1, S. 42, Negativliste Nr. 68: da in Frankreich
+                                gedruckt. (<ref target="http://zotero.org/groups/257864/items/API2PXH9">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Paris, capitale des livres, 2007, S. 74. <ref target="http://zotero.org/groups/257864/items/Q4GFK53A">(Volltitel auf Zotero)</ref></bibl>
+                            <bibl>Roland, Masse und Individualität, 2018, S. 304. (<ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/N5YAUX3B/">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl/>
+                            <bibl>Gesamtkatalog der Wiegendrucke: <ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW00107.htm">http://www.gesamtkatalogderwiegendrucke.de/docs/GW00107.htm</ref></bibl>
+                            <bibl>Incunabula Short Title Catalogue (ISTC): <ref target="http://istc.bl.uk/search/record.html?istc=ii00064045">http://istc.bl.uk/search/record.html?istc=ii00064045</ref></bibl>
+                            <bibl>
+                                <ref target="http://www.bm-reims.fr/Exploitation/Infodoc/digitalcollections/viewerpopup.aspx?seid=B514546101_INC_0195">http://www.bm-reims.fr/Exploitation/Infodoc/digitalcollections/viewerpopup.aspx?seid=B514546101_INC_0195</ref>
+                            </bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Der letzte Absatz sagt, der Papst wünsche, dass von zwei Notaren
+                            unterschriebene und vom Kapitel von Reims gesiegelte Originale (Vidimus)
+                            wie das vorliegende (welches freilich keineswegs als Vidimus zu
+                            bezeichnen ist), ausgegeben werden. Das vorliegende Blatt ist weder
+                            unterfertigt noch gesiegelt. </p>
+                        <p>Die Datierung ergibt sich aus dem im ersten Absatz genannten Jahr
+                            (1482), ab dem dieser Ablass gelten soll. Neveux und Dacier, Richesses,
+                            1932, Band 2, S. 113 geben den 17. Oktober 1482 als Beginn der
+                            Ablasskampagne an. </p>
+                        <p>Druck: Typendruck mit Holzschnitt.</p>
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName>Paris (Druck)</placeName>
+                        <date when="14821017">1482-10-17 nach</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p>Ablass Papst Nikolaus' V. für Notre Dame in Reims, erweitert von
+                        Papst Pius' II. zu gewinnen am Fest des hl. Lukas (Le Grand Pardon de Notre
+                        Dame de Reims).<lb/></p></abstract><textClass><keywords scheme="IllUrkGlossar"><term key="Druck" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Druck">Einblattdruck</term><term key="Druck" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Druck">Druck</term></keywords><keywords scheme="illurk-vocabulary"><term key="Historiated" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Historiated">N1:
+                    historisiert</term><term key="CoatsOfArms" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#CoatsOfArms">N1: Wappen</term><term key="Display-Script-calligraphic-with-decorative-character" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Display-Script-calligraphic-with-decorative-character">N2: Zierschrift
+                    (Auszeichnungsschrift)</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Frankreich</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1482-10-17_Pius-II-Ablass-fuer-ND-Reims-Druck-Du-Pre-Paris---.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1482-10-17_Pius-II-Ablass-fuer-ND-Reims-Druck-Du-Pre-Paris---.png"/><graphic url="http://images.monasterium.net/illum/IllUrk/1482-10-17_Pius-II-Ablass-fuer-ND-Reims-Druck-Du-Pre-Paris.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

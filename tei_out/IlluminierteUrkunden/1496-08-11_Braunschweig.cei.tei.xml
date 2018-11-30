@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Braunschweig</settlement><settlement>Braunschweig</settlement><repository>Stadtbibliothek</repository><repository>Herzog Anton
+                                Ulrich-Museum</repository><altIdentifier><settlement>Wolfenbüttel</settlement><repository>Herzog
+                                    August-Bibliothek</repository></altIdentifier><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1496-08-11_Braunschweig</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Druck">Einblattdruck</term>: Typendruck mit
+                                    Holzschnitt im oberen Drittel und dem Text unteren Bereich. </p>
+                                <p n="Ekphrasis">Unter dem typographischen Titel „aux carmes de
+                                    paris“ ein zentraler queroblonger Holzschnitt mit dem hl. Rochus
+                                    (im Schnitt: <quote>s Roch</quote>) in der
+                                    Mitte, der auf eine Pestbeule auf seinem Oberschenkel weist und
+                                    mit der anderen Hand sich auf einen Stab stützt. Links von ihm
+                                    ein kleinerer Engel, der ebenfalls auf die Wunde weist und
+                                    rechts vor dem Heiligen ein sitzender Hund. Rechts hinter dem
+                                    Hund, auf der Horizontlinie kniend ein Mitglied der Bruderschaft
+                                    mit gefalteten Händen. </p>
+                                <p n="Ekphrasis">Die Figuren sind von zwei seitlichen Säulen
+                                    umgeben; das Terrain ist vollfarbig mit ausgesparten Pflanzen. </p>
+                                <p n="Ekphrasis">Seitlich, um 90° gedreht zwei Holzschnitte mit
+                                    mehreren Halbfiguren. Ob die nackte männliche Figur, die einen
+                                    Ring vorzeigt, vielleicht als Hiob zu deuten sein könnte, der
+                                    von seiner Frau angeklagt wird und den seine drei Freunde mit
+                                    Musik (Mandorline, Psalterium) aufzuheitern suchen, bedarf noch
+                                    weiterer Studien. Links, um 180° gedreht eine Szene mit
+                                    Gerüsteten, die eine Herde wegtreiben (auch eine Hiob-Szene?).
+                                    Weiters ober- und unterhalb der Hauptszene ganz schmale
+                                    unfigürliche Bordürenstreifen (ein weiterer rechts).</p>
+                                <p n="Stil und Einordnung">Die Holzschnitte gehen auf
+                                    erstaunlich unterschiedliche Quellen zurück. Die Bordüren gehen
+                                    auf einen unter dem Namen„Meister der mer des histoires“
+                                    zusammengefassten Schneider zurück, ein Druck aus Lyon (J.
+                                    DuPré; Du Pré, 1491). Aus dieser Quelle stammt wohl auch die
+                                    Anregung für die gedrehten Säulen des zentralen Holzschnitts. </p>
+                                <p n="Stil und Einordnung">Die Figuren der Hauptszene hingegen
+                                    wiederholen bis in Details den Titelschnitt von Franciscus
+                                    Diedus, Vita Beati Rochi, Paris, Jean Tréperel, 1495: <ref target="http://alfama.sim.ucm.es/dioscorides/consulta_libro.asp?ref=X531439991%26idioma=0">http://alfama.sim.ucm.es/dioscorides/consulta_libro.asp?ref=X531439991&amp;idioma=0</ref>;
+                                    URL bitte in ein gesondertes Fenster kopieren). </p>
+                                <p n="Stil und Einordnung">Die Datierung des Drucks ist
+                                    problematisch: Einerseits ist aus einer barocken Quelle die
+                                    Datierung des angekündigten Ablasses des Bischofs von Paris
+                                    bekannt: Première institution de la confrérie de S. Roch et S.
+                                    Sébastien, fondée et érigée en l'église du grand couvent des R.
+                                    R. Pères Carmes, par frère Jean d'Arras, religieux au dit
+                                    couvent (...) en l'an 1496, autorisée et confirmée par
+                                    reverendissime Messire Jean, évêque de Paris le 11 jour d'août
+                                    1496 et René du Bellay vicaire général (...) avec la bulle de
+                                    nos Saints pères les papes Clement VIII et Urbain VIII: <ref target="https://books.google.at/books/about/Première_institution_de_la_confrérie_d.html?id=7JRCygAACAAJ">https://books.google.at/books/about/Première_institution_de_la_confrérie_d.html?id=7JRCygAACAAJ
+                                    </ref></p>
+                                <p n="Stil und Einordnung">Eine weitere Absicherung der Terminus
+                                    post quem stellt der Kardinalsammelablass dar, der als zweiter
+                                    in dem Einblattdruck erwähnt wird. Als einer der Aussteller wird
+                                    „cardinal de gurce“ genannt. Das bezieht sich auf Raimundus
+                                    Peraudi, der ab 1486 Ablasskommissar in Frankreich war, dann in
+                                    ähnlichen Funktionen in Deutschland wirkte. 1491 wurde er auf
+                                    Betreiben Kaiser Friedrichs III. zum Bischof von Gurk ernannt,
+                                    1493 zum Kardinaldiakon von Santa Maria Nuova in Cosmedin. Dass
+                                    er der Erstaussteller einer Kardinalsammelindulgenz fungiert
+                                    haben soll, ist wegen seines Ranges als Kardinaldiakon höchst
+                                    unwahrscehinlich, denn die Aussteller werden ihrem Rang gemäss
+                                    gereiht, zuerst demnach die Kardinalbischöfe. Peraudi wurde zwar
+                                    1499 zum Kardinalpriester, doch auch in dieser Funktion ist er
+                                    als Erstaussteller unwahrscheinlich. Dass er hier genannt wird,
+                                    muss wohl mit einer heute nicht mehr nachvollziehbaren
+                                    persönlichen Beziehung zu tun haben. </p>
+                                <p n="Stil und Einordnung">Das Stück ist keine illuminierte
+                                    Urkunde. Dass es wie die vielleicht ein Jahrzehnt ältere
+                                    Ablassankündigung für Reims qualitätvolle Holzschnitte aufweist,
+                                    kann nicht darüber hinwegtäuschen, dass die Ankündigungen hier
+                                    (im Unterschied zu Reims) gar keine Elemente von Urkunden mehr
+                                    tradieren, sondern tatsächlich als Werbeplakate zu verstehen
+                                    sind (zur zwiespältigen Stellung des Stückes für Reims siehe
+                                    dort: <ref target="http://www.monasterium.net/mom/IlluminierteUrkunden/1482-10-17_Reims-Paris/charter">1482, Oktober 17</ref>, vor [?]). </p>
+                                <p n="Autorensigle">Martin Roland</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <listBibl type="other">
+                            <bibl>Schreiber, Pestblätter, 1901, Nr. 25.
+                                    (<ref target="http://zotero.org/groups/257864/items/3M5P5P4D">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Gaston, Images, 1909, S. XLVI-L und 12, Nr. 35. (<ref target="http://zotero.org/groups/257864/items/ENETHFJQ">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Fournier, Affiches, 1923, S. 120. (<ref target="http://zotero.org/groups/257864/items/ZEW8DZZT">Volltitel auf Zotero</ref>) Fournier datiert nach 1493
+                                September 20. </bibl>
+                            <bibl>Schreiber, Nr. 1668 (<ref target="http://zotero.org/groups/257864/items/JK8UW4N5">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>VE15, Bd. 1, S. 42, Negativliste Nr. 67:
+                                da in Frankreich gedruckt. (<ref target="http://zotero.org/groups/257864/items/API2PXH9">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Roland, Masse und Individualität, 2018, S. 304. (<ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/N5YAUX3B/">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl/>
+                            <bibl>GW 106: <ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW00106.htm">http://www.gesamtkatalogderwiegendrucke.de/docs/GW00106.htm</ref></bibl>
+                            <bibl>
+                                <ref target="https://data.cerl.org/istc/ii00064020">https://data.cerl.org/istc/ii00064020</ref>
+                            </bibl>
+                            <bibl>
+                                <ref target="http://diglib.hab.de/drucke/ed000004/start.htm">http://diglib.hab.de/drucke/ed000004/start.htm</ref>
+                            </bibl>
+                            <bibl>
+                                <ref target="http://kk.haum-bs.de/?id=XV-einbl-wb3-0027">http://kk.haum-bs.de/?id=XV-einbl-wb3-0027</ref>
+                            </bibl>
+                            <bibl><ref target="http://www.virtuelles-kupferstichkabinett.de">http://www.virtuelles-kupferstichkabinett.de</ref>:
+                                Suchbegriff "carmes de Paris"</bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        <p>Druck: Typendruck mit Holzschnitt.</p>
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName>Paris (Druck Jean Tréperel)</placeName>
+                        <date when="14960811">1496-08-11 nach</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p>Ablassverkündigung für Ablässe am Festtag des hl. Rochus für die
+                        Bruderschaft des hl. Rochus beheimatet in der Kirche der Karmeliten in
+                        Paris. Genannt wird ein Ablass von 40 Tagen des Pariser Bischofs und ein
+                        Kardinalsammelablass (je 100 Tage pro Aussteller), von dem als ein
+                        Aussteller der „cardinal de gurce“ genannt wird. Zudem wird auf eine
+                        Reliquie des Heiligen (ein Finger) verwiesen. <lb/></p></abstract><textClass><keywords scheme="IllUrkGlossar"><term key="Druck" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Druck">Einblattdruck</term></keywords><keywords scheme="illurk-vocabulary"><term key="Historiated" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Historiated">N1:
+                    historisiert</term><term key="Miniatures" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Miniatures">N1: Bildfeld</term><term key="Print" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Print">Druck</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Frankreich</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://diglib.hab.de/drucke/ed000004/000001.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1496-08-11_nach_Confrerie-de-saint-Roch-eglise-des-carmes-Paris_DRUCK-Detail.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1496-08-11_nach_Confrerie-de-saint-Roch-eglise-des-carmes-Paris_DRUCK-total.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1496-08-11_nach_Confrerie-de-saint-Roch-eglise-des-carmes-Paris_DRUCK-total.png"/><graphic url="http://images.monasterium.net/illum/IllUrk/1496-08-11_nach_Confrerie-de-saint-Roch-eglise-des-carmes-Paris_DRUCK.png"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

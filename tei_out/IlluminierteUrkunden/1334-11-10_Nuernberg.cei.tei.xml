@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><settlement>Nürnberg</settlement><repository>Germanisches Nationalmuseum (GNM)</repository><collection>Historisches Archiv</collection><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1334-11-10_Nuernberg</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material>Pergament</material><dimensions>77,6 x 61 cm</dimensions></support><condition/></supportDesc></objectDesc><decoDesc>
+                                <p n="Ekphrasis"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</term>:
+                                    Historisierte Initiale U(niversis) zu Textbeginn, seitlich des
+                                    Schriftspiegels am Rand je ein, oben drei Bildfelder, die sich
+                                    zu einem den Text umfangenen Rahmen fügen (<term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Rahmentyp">Rahmentyp</term>). Drei weitere vergrösserte Initialen
+                                    in der ersten Zeile mit Aussparungen vor farbigen Gründen in den
+                                    Binnenfeldern sowie zwei vergrösserte, farbig markierte
+                                    Lombarden im Textblock. </p>
+                                <p n="Ekphrasis">Sechs Zeilen hohe, links und weit über die
+                                    erste Zeile herausragende historisierte Initiale zu Textbeginn:
+                                    in Feder gezeichnet und mit Deckfarben koloriert (rot, lila,
+                                    gelb, grün, ocker und braun). Im Binnenfeld eine stehende
+                                    gekrönte Maria mit Kind und in rechten Hand eine Blume, vor
+                                    kariertem Mustergrund. Der Buchstabenschaft links mit stehender
+                                    Katharina mit Palme und Rad, rechts ein kniender Kleriker mit
+                                    Schriftband in Händen („Mater Dei memento mei“). Der Buchstabe
+                                    ragt nach links in den Rand hinaus, wobei die innere Begrenzung
+                                    des Bogens in etwa am Textspiegel ansetzt. Die Initiale ist von
+                                    einem Initialfeld umgeben, das aus mehreren Farbflächen besteht,
+                                    die mit schwarzem Filigran (mit Sihouetteblättern) gefüllt ist.
+                                    Unterhalb der Initiale in einem Bildfeld stehend ein nimbierter
+                                    Bischof. Oberhalb des Textfelds, anschliessend an die
+                                    U-Initiale, Bildstreifen mit drei Büsten: Petrus, Christus,
+                                    Paulus. Der rechte Rand als Bildstreifen mit stehendem Johannes
+                                    d. T. mit Lamm-Gottes-Scheibe unter einer Spitzarkade. </p>
+                                <p n="Stil und Einordnung">Seit 1329 kann man eine <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#IkonographischeDiversifizierung">ikonographische
+                                        Diversifizierung</term> bei der Illuminierung von
+                                    Sammelablässen beobachten. Die hier dargestellten Heiligen wird
+                                    man jedoch nur mit Mühe dem Patrozinium der Kirche – der hl.
+                                    Martin – zuordnen können. Stattdessen scheint es sich um ein
+                                    Standardbildprogramm zu handeln.</p>
+                                <p n="Stil und Einordnung"> Der Buchmaler (<term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Zeichner4derChristusbuesten">Zeichner 4 der
+                                        Christusbüsten</term>) hat seine eigene Lösung für den
+                                        <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Rahmentyp">Rahmentyp</term> gefunden, die einen Farbstreifen
+                                    oberhalb der U-Initiale in die Rahmenleiste einbaut: Was sich
+                                    bei <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1332-10-15_Lahnstein/charter">1332 Oktober 15 für Lahnstein</ref>, <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1333-05-31_Muenster/charter">1333 Mai 31 für das Kloster Schildesche</ref>, <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1333-12-19_Sterzing-Vipiteno/charter">1333 Dezember 19 für Sterzing</ref> und <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1333-12-20_Freiberg-Sachsen/charter">1333 Dezember 20 für Freiberg (Sachsen)</ref> noch wie
+                                    eine Notlösung ausnahm, entpuppt sich im Ablass für Halberstatt
+                                    als eine Vorlage, denn es ist unwahrscheinlich, dass er diesen
+                                    „Fehler“ wieder begehen würde (vgl. <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Layout">Layout</term>). Da hier rechts nur ein Heiliger verlangt
+                                    war, hat er den oberen Streifen wie <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1334-06-24_Klagenfurt/charter">1334 Juni 24 für Stein</ref> verbreitert, sodass rechts
+                                    das Bildfeld auf Höhe der ersten Zeile ansetzt.</p>
+                                <p n="Stil und Einordnung">Wegen der verwendeten <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Vorlage">Vorlagen</term> für die Figuren, doch auch wegen der
+                                    Farbgestaltung passt der Ablass für Stein am besten zum
+                                    Vergleich. Dabei ist gut zu sehen, wie die Entwurfszeichnungen
+                                    (vgl. <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Vorlage">Vorlage</term>) variiert wurden: Maria und das Kind
+                                    sind in den Farben anders und aufwendiger in den Falten
+                                    gestaltet, Katharina ist aus der gleichen Zeichnung entwickelt.
+                                    Der Bittsteller ist ebenfalls gut mit Stein zu vergleichen, doch
+                                    hat man dort anstelle eines normalen einen Pelerinenärmel
+                                    gezeichnet. Die Schüsselfalten am Boden, die das Knien letztlich
+                                    unwahrscheinlich machen, sind besonders
+                                    charakteristisch.</p>
+                                <p n="Stil und Einordnung">Aufgrund der Ähnlichkeit des
+                                    Rankenwerks und der allseits auftretenden Kussmünder wird der
+                                        <term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Zeichner4derChristusbuesten">Zeichner 4 der
+                                        Christusbüsten</term> auch für diese Illuminierung
+                                    verantwortlich sein. Die Gruppierung der Urkunden unter einen
+                                    Malernamen ist als Versuch zu sehen; gleichzeitig ist zu
+                                    überlegen, ob nicht in der Werkstatt der Avignoner
+                                    Bischofsammelindulgenzen eine Arbeitsteilung praktiziert wurde,
+                                    bei der mehrere Maler an einer Illumination gearbeitet
+                                    haben.</p>
+                                <p>Für St. Martin in Halberstadt ist bereits <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1285-09-20_Magdeburg/charter">1285 September 20</ref> eine Indulgenz ausgestellt
+                                    worden (Dort auch eine Auflistung sämtlicher, bisher bekannter
+                                    Ablassurkunden für Halberstadt). </p>
+                                <p n="Autorensigle"> Gabriele Bartz, Martin Roland</p>
+                            </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+                        <p>Auf der Vorderseite keine ersichtlich, kein Bild der Rückseite
+                            vorhanden.</p>
+                        <listBibl type="other">
+                            <bibl>Wattenbach, Zwei Indulgenzbriefe, 1884/
+                                1886. (<ref target="http://zotero.org/groups/257864/items/EIQZJ8UU">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Delehaye, 45, 1927, S. 335. (<ref target="http://zotero.org/groups/257864/items/MQ77XQ4V">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl>Homburger, von Steiger, Zwei
+                                Ablassbriefe in Bern, 1957, S. 149 (Anm. 18), 152 (Anm. 41, Nr. 4).
+                                    (<ref target="http://zotero.org/groups/257864/items/26FJWVDS">Volltitel auf Zotero</ref>)</bibl>
+                            <bibl/>
+                            <bibl>
+                                http://ha.gnm.de/objekt_start.fau?prj=HA-ifaust=Historisches+Archiv=20237
+                            </bibl>
+                        </listBibl>
+                        <listBibl type="regest">
+                            <bibl/>
+                        </listBibl>
+                        
+                            <bibl/>
+                        
+                        <listBibl type="unknown">
+                            <bibl/>
+                        </listBibl>
+                        
+                        
+                        
+                        <listBibl type="edition">
+                            <bibl/>
+                        </listBibl>
+                    <issued>
+                        <placeName>Avignon</placeName>
+                        <date when="13341110">1334-11-10</date>
+                    </issued></diploDesc><authDesc>
+                            
+                            Alle Siegel abgefallen
+                        </authDesc></msDesc></witness>
+                        <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+                    </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz</term> (16 Aussteller) für die
+                        Martinskirche in Halberstadt:<lb/>Die Bischöfe <legalActor type="issuer"><persName>Gorzias von
+                                Belluno-Feltre</persName></legalActor> (<quote>Feltrensis et
+                            Beluensis</quote>), <legalActor type="issuer"><persName>Johannes von
+                            Terralba</persName></legalActor>
+                            (<quote>Terrealbensis</quote>), <legalActor type="issuer"><persName>Alamannus von
+                            Soana</persName></legalActor> (<quote>Suanensis</quote>),
+                                <legalActor type="issuer"><persName>Jordanus von
+                                Bobbio</persName></legalActor>
+                        (<quote>Bobiensis</quote>), <legalActor type="issuer"><persName>Angelus von
+                            Grosseto</persName></legalActor>
+                        (<quote>Grossitani</quote>), <legalActor type="issuer"><persName>Thomas von
+                            Dulcigno</persName></legalActor>
+                        (<quote>Dulcinensis</quote>), <legalActor type="issuer"><persName>Andreas von
+                            Coron</persName></legalActor> (<quote>Coronensis</quote>),
+                                <legalActor type="issuer"><persName>Guillelmus
+                                von Täbris</persName></legalActor>
+                            (<quote>Taurisiensis</quote>), <legalActor type="issuer"><persName>Bernardus von
+                                Dschordschan</persName></legalActor>
+                            (<quote>Diagorganensis</quote>), <legalActor type="issuer"><persName>Nikolaus von
+                                Karpathos</persName></legalActor>
+                            (<quote>Scarpatensis</quote>), <legalActor type="issuer"><persName>Galganus von
+                            Aleria</persName></legalActor> (<quote>Aleriensis</quote>),
+                                <legalActor type="issuer"><persName>Philipp von
+                                Salona</persName></legalActor>
+                            (<quote>Salonensis</quote>), <legalActor type="issuer"><persName>Arnaldus von
+                            Segni</persName></legalActor> (<quote>Signini</quote>),
+                                <legalActor type="issuer"><persName>Thomas von
+                                Knin</persName></legalActor> (<quote>Tiniensis</quote>),
+                                <legalActor type="issuer"><persName>Petrus von
+                                Monte Marano</persName></legalActor>
+                            (<quote>Montismarani</quote>) und <legalActor type="issuer"><persName>Bonifatius von
+                            Krbava</persName></legalActor> (<quote>Corbaviensis</quote>)
+                        erteilen all jenen einen Ablass von 40 Tagen (<quote>misericorditer in
+                            Domino relaxamus</quote>), die die Kirche des heiligen Bischofs
+                        Martin in Halberstadt (<quote>ecclesia sancti Martini episcopi et
+                            confessoris civitatis Halberstadensis</quote>) an bestimmten
+                        Festtagen und – soweit gegeben – in der jeweiligen Oktav besuchen, und zwar
+                        an allen Marienfeiertagen, an den Feiertagen aller Heiligen, denen ein Altar
+                        in dieser Kirche geweiht ist, am Kirchweihtag, zu Weihnachten, zu den Festen
+                        der Beschneidung und der Erscheinung des Herrn, am Karfreitag, zu Ostern,
+                        Christi Himmelfahrt, Pfingsten, am Dreifaltigkeitstag, zu Fronleichnam, am
+                        Kreuzauffindungstag, am Kreuzerhöhungstag, an den Feiertagen des heiligen
+                        Johannes des Täufers, am Peter- und Paulstag, zu allen Apostel- und
+                        Evangelistenfesten, an den Feiertagen des heiligen Stephan, des heiligen
+                        Laurenz, des heiligen Vinzenz, des heiligen Martin, des heiligen Nikolaus,
+                        des heiligen Gregor, des heiligen Augustinus, des heiligen Ambrosius, des
+                        heiligen Hieronymus, der heiligen Maria Magdalena, der heiligen Katharina,
+                        der heiligen Margarete, der heiligen Cäcilie, der heiligen Lucia, der
+                        heiligen Agathe, der heiligen Agnes, der 11 000 Jungfrauen, zu
+                        Allerheiligen, zu Allerseelen, an allen Sonntagen sowie an an allen
+                        Samstagen. Weiters wird all jenen Ablass gewährt, die en Priester beim
+                        Versehgang begleiten, die beim Abendläuten mit gebeugten Knien drei
+                        Ave-Maria beten, die für den Bau, die Beleuchtung und die sonstige
+                        Ausstattung der Kirche aufkommen, die der Kirche entweder testamentarisch
+                        oder auf anderen Wegen Gold-, Silber- oder Kleidungsspenden zukommen lassen,
+                        die beim Umgang am Friedhof der Kirche für die Seelen der dort liegenden und
+                        aller anderen Verstorbenen beten sowie denen, die ihre Grabstätte auf diesem
+                        Friedhof wählen.<lb/><lb/>s. d., s. l.<lb/>Bischof
+                                <legalActor type="issuer"><persName>Albert [wahrscheinlich II.] von
+                                Halberstadt</persName></legalActor> bestätigt
+                            (<quote>admittimus, consentimus ipsasque confirmantes auctoritate
+                            nostra ordinaria approbamus</quote>) die obige Indulgenz und fügt
+                        weitere 40 Tage Ablass hinzu.<lb/>Markus Gneiss </p></abstract><textClass><keywords scheme="Illurk-Urkundenart"><term ref="http://gams.uni-graz.at/skos/scheme/o:epis.2386#">Bischofsammelindulgenz</term></keywords><keywords scheme="IllUrkGlossar"><term key="HistorisierteAvignonerBischofsammelindulgenz" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</term><term key="Rahmentyp" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Rahmentyp">Rahmentyp</term><term key="IkonographischeDiversifizierung" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#IkonographischeDiversifizierung">ikonographische
+                                        Diversifizierung</term><term key="Zeichner4derChristusbuesten" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Zeichner4derChristusbuesten">Zeichner 4 der
+                                        Christusbüsten</term><term key="Rahmentyp" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Rahmentyp">Rahmentyp</term><term key="Layout" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Layout">Layout</term><term key="Vorlage" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Vorlage">Vorlagen</term><term key="Vorlage" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Vorlage">Vorlage</term><term key="Zeichner4derChristusbuesten" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2379#Zeichner4derChristusbuesten">Zeichner 4 der
+                                        Christusbüsten</term></keywords><keywords scheme="illurk-vocabulary"><term key="Historiated" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Historiated">N1:
+                    historisiert</term><term key="Initials" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Initials">N1: Initiale</term><term key="Borders" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Borders">N1: Randdekor</term><term key="WithAdditionalColours" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#WithAdditionalColours">N1: Mit
+                    zusätzlichen Farben</term><term key="ExecutionPainted" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#ExecutionPainted">N1:
+                    gemalt</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Frankreich (Kurie)</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1334-11-10_Halberstadt_Nuernberg_GNM_Pergamenturk.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1334-11-10_Halberstadt_U-Init.jpg"/></facsimile><text><body>
+                
+                
+                <div type="tenor"><p/></div>
+            </body></text></TEI>

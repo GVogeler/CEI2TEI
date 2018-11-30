@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"?><TEI xmlns:atom="http://www.w3.org/2005/Atom" xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"><teiHeader><fileDesc><titleStmt><title>Title</title><editor>illuminierteurkunden@gmail.com</editor><principal><persName ref="https://orcid.org/0000-0002-1726-1712" xml:id="gv"><forename>Georg</forename><surname>Vogeler</surname></persName></principal><respStmt><resp>Project Lead; Art historical description</resp><persName ref="https://orcid.org/0000-0002-9503-7097" xml:id="mr"><forename>Martin</forename><surname>Roland</surname></persName></respStmt><respStmt><resp>Art historical description</resp><persName ref="https://orcid.org/0000-0002-8406-0785" xml:id="gb"><forename>Gabriele</forename><surname>Bartz</surname></persName></respStmt><respStmt><resp>Diplomatic description</resp><persName ref="https://orcid.org/0000-0003-3269-453X" xml:id="mg"><forename>Markus</forename><surname>Gneiß</surname></persName></respStmt><respStmt><resp>Project Lead; Diplomatic description</resp><persName ref="https://orcid.org/0000-0002-1967-6022" xml:id="az"><forename>Andreas</forename><surname>Zajic</surname></persName></respStmt><respStmt><resp>Digital transformation; modelling</resp><persName ref="https://orcid.org/0000-0002-5114-0594" xml:id="sw"><forename>Sean</forename><surname>Winslow</surname></persName></respStmt><respStmt><resp>Digital transformation</resp><persName ref="https://orcid.org/0000-0003-0594-1902" xml:id="mb"><forename>Martina</forename><surname>Bürgermeister</surname></persName></respStmt><funder><orgName ref="https://www.fwf.ac.at/"><choice><expan>Fonds zur Förderung der wissenschaftlichen
+                                        Forschung</expan><abbr>FWF</abbr></choice></orgName> Projekt P 26706-G21 "Illuminierten Urkunden als
+                            Gesamtkunstwerk" and Projekt FWF-ORD84 "Erhalt fachspezifischer
+                            Funktionalitäten bei Langzeitarchivierung in einem allgemeinen
+                            Datenarchiv für die Geisteswissenschaften."</funder></titleStmt><publicationStmt><publisher><orgName ref="http://d-nb.info/gnd/1137284463" corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                Informationsmodellierung - Austrian Centre for Digital Humanities,
+                                Karl-Franzens-Universität Graz</orgName></publisher><distributor><orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                                Asset Management System</orgName></distributor><availability><p>All texts and pictures are protected according to national copyrights
+                                and exploitation rights. Furthermore, all rights of publication and
+                                duplication of the pictorial reproductions of the documents are held
+                                by the respective archive’s proprietor. Any means of publication is
+                                therefore bound to above mentioned authorization and infringement is
+                                punishable.</p><p>We would like to make all users aware that addresses, time and
+                                duration of access will be stored on our server. The place of
+                                jurisdiction for all disputes arising from this agreement is the
+                                court nearest to the respective archive.</p><p>Conditions of use of printed editions and depictions apply in the
+                                same way to scientific utilization. Citation according to good
+                                scientific practice is therefore expected. (URL, author,
+                                archive)</p><p>When publishing or duplicating research results (including
+                                unpublished theses and dissertations) obtained from data provided by
+                                Monasterium.Net, we would like to ask every user to pass a free
+                                sample copy to the respective holder of the originals (archive).</p></availability><pubPlace>Graz</pubPlace><date>2018-10-25T06:51:55.661Z</date></publicationStmt><sourceDesc><listWit><witness><msDesc><msIdentifier><altIdentifier><settlement>London</settlement>
+        <repository>Chiswick Auctions</repository>
+        <idno>2015 Sept 30, lot 48 (£ 5800.-)</idno></altIdentifier><altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/"><idno>1443-03-20_London</idno></altIdentifier></msIdentifier><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc><decoDesc>
+        <p n="Ekphrasis">Deckfarbeninitiale F(ilippus) im goldenen Initialfeld in Form eines
+         Schildes mit der sich vom silbernen Binnenfeld abhebenden gold bekrönten, blauen
+         Visconti-Schlange (biscia viscontea) um den Querbalken des rosafarbenen Buchstabenkörpers
+         gewunden und den roten Knaben verschlingend – hier dargestellt als bärtiger Mann mit zum
+         Himmel gestreckten Armen. Von der Initiale gehen rosa-, blau- und grünblättrige Ranken aus.
+         Entlang der vier Ränder verläuft ein vegetabiler Fries. Zentral über dem Schriftspiegel ist
+         das Wappen der Sforza dargestellt, darüber <quote>capitergium</quote>
+         mit Krone und <quote>piumai</quote> . Zu beiden Seiten des Wappens
+         die Initialen FI und MA von Filippo Maria Sforza. Unter der Initiale befindet sich ein
+         weiteres Wappen, das sich auf die Familie Alessandrina der Firuffini bezieht, deren
+         Mitglied Domencio Firuffini als Sekretär des Herzogs auch im Text der Urkunde genannt wird
+         („Dominicum Firuffinum secretarium“ – siehe hierzu Sulle famiglie nobili della monarchia di
+         Savoia, Torino 1841, Band I, S. 753). </p>
+        <p n="Stil und Einordnung">Die Urkunde wurde im Rahmen einer Versteigerung verkauft,
+         deren Katalog man entnehmen kann, dass es sich hierbei möglicherweise um ein Werk des
+         „Hippolyta Master“ handeln dürfte („possibily illuminated by the Hippolyta Master“ –
+         Chiswick auction, Fine printed books and manuscripts, 30 September 2015, Nr. 48). Die
+         Ausstattung ist in Wirklichkeit das Werk des „Maestro delle Vitae Imperatorum“, einem zu
+         dieser Zeit vielfach von der herzoglichen Kanzlei beauftragten Buchmaler (siehe
+         Beschreibung Urkunde <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1427-02-12_Turin-Torino/charter">1427 Februar 12</ref> , für Auflistung der für die herzogliche Kanzlei ausgestatteten
+         Urkunden siehe <ref target="http://monasterium.net/mom/IlluminierteUrkunden/1443-11-12_Mailand/charter">1443
+          November 12</ref> ). Besonders die ausdruckstarke Mimik des Knaben erinnert an
+         Urkunden, wie z.B. 1440 August 04 und 1442 Mai 23, während die erhobenen Arme – als würde
+         er um Hilfe bitten – auf die Darstellungen in den Urkunden 1437 August 3 und 1437 September
+         14 verweisen. </p>
+        <p>
+         <ref target="http://www.monasterium.net/mom/IlluminierteUrkundenLombardeiit/1443-03-20_London/charter">[Für Details siehe italienischen Originaltext.]</ref>
+        </p>
+        <p n="Autorensigle">Laura Alidori (Übersetzung Stephanie Rosenkranz)</p>
+       </decoDesc></physDesc><diploDesc><copyStatus type="original">Original</copyStatus>
+      <listBibl type="other">
+       <bibl>Chiswick Auctions, Fine printed books and manuscrits, 30 settembre 2015 Lot 48:
+        MANUSCRIPT, possibly illuminated by the Hippolyta Master (fl.1440-75) - a fine 15th-century
+        illuminated manuscript grant of land in Latin, on vellum, in a small but elegant cursive
+        hand, with a highly elaborate "biscione" initial and the coats-of-arms of Milan, a further
+        unidentified coat of arms floral designs, all in vivid colours and heightened in gilt,
+        approximately 280 x 770, framed and glazed. A typed note on the verso of the frame states:
+        "Filipino Maria Visconti, duke of Milan. Grant of land 'inter vinos prata [?]et Molendina
+        nostra to Feroffinus Secretanus, and his heirs, Milan 20 March 1443. Possibly illuminated by
+        the Hippolyta Master, the court illuminator." <ref target="https://deref-gmx.net/mail/client/iDtC9JqoMLU/dereferrer/?redirectUrl=http%3A%2F%2Fchiswickauctions.co.uk%2Flot%2F150930-lot-48%2F">http://chiswickauctions.co.uk/lot/150930-lot-48/</ref> (bitte in eigenem Fenster
+        öffnen)</bibl>
+       <bibl><ref target="https://deref-gmx.net/mail/client/Ey06K9NuqaQ/dereferrer/?redirectUrl=https%3A%2F%2Fwww.the-saleroom.com%2Fen-gb%2Fauction-catalogues%2Fchiswick-auctions%2Fcatalogue-id-srchis10140%2Flot-099df702-92ce-446b-8493-a51d00b94d96">https://www.the-saleroom.com/en-gb/auction-catalogues/chiswick-auctions/catalogue-id-srchis10140/lot-099df702-92ce-446b-8493-a51d00b94d96</ref>
+        (bitte in eigenem Fenster öffnen)</bibl>
+      </listBibl>
+      <listBibl type="regest">
+       <bibl/>
+      </listBibl>
+      
+       <bibl/>
+      
+      <listBibl type="unknown">
+       <bibl/>
+      </listBibl>
+      
+      
+      
+      <listBibl type="edition">
+       <bibl/>
+      </listBibl>
+     <issued>
+      <placeName>Mailand</placeName>
+      <date when="14430320">1443-03-20</date>
+     </issued></diploDesc><authDesc>
+       
+       
+      </authDesc></msDesc></witness>
+      <witness><msDesc><msIdentifier/><physDesc><objectDesc><supportDesc><support><material/><dimensions/></support><condition/></supportDesc></objectDesc></physDesc><diploDesc><copyStatus/></diploDesc></msDesc></witness>
+     </listWit></sourceDesc></fileDesc><encodingDesc><projectDesc><p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                                Urkunden</ref> project is a cross-disciplinary historical,
+                            art-historical, and digital humanities project which collects illuminated
+                            medieval charters from all over Europe, publishes them, and explores
+                            them in detailed studies.</p></projectDesc></encodingDesc><profileDesc><abstract><p>Filippo Maria Visconti, Herzog von Mailand, schenkt Domenico Faruffino,
+      herzoglicher Sekretär, und seinen Nachkommen Güter im Gebiet von Vigevano als Besitz/zur
+      freien Verfügung (?).<lb/> Enrico Scaccabarozzi </p></abstract><textClass><keywords scheme="illurk-vocabulary"><term key="Historiated" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Historiated">N1: historisiert</term><term key="Initials" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Initials">N1: Initiale</term><term key="WithAdditionalColours" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#WithAdditionalColours">N1: mit zusätzlichen
+     Farben</term><term key="ExecutionPainted" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#ExecutionPainted">N1: gemalt</term><term key="Borders" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#Borders">N1: Randdekor</term><term key="CoatsOfArms" ref="http://gams.uni-graz.at/skos/scheme/o:epis.2383#CoatsOfArms">N1: Wappen</term></keywords></textClass><settingDesc><listPlace><place><placeName><region>Italien</region></placeName></place><place><placeName><region>Lombardei</region></placeName></place></listPlace></settingDesc></profileDesc><revisionDesc><list><item><date when="2018-10-25">2018-10-25T06:51:55.661Z</date> Last
+                                    checked by CAC</item></list></revisionDesc></teiHeader><facsimile><graphic url="http://images.monasterium.net/illum/IllUrk/1443-03-20_Chiswick-150930-lot48-01.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1443-03-20_Chiswick-150930-lot48-03.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1443-03-20_Chiswick-150930-lot48-04.jpg"/><graphic url="http://images.monasterium.net/illum/IllUrk/1443-03-20_Chiswick-150930-lot48-05.jpg"/></facsimile><text><body>
+    
+    
+    <div type="tenor"><p/></div>
+   </body></text></TEI>
