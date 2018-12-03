@@ -70,8 +70,9 @@
          list "Erzbischöfe Johannes von Edessa (Eddessiensis) und Pontius von Seleucia
          (Seleuciensis)", Pontius von Seleucia (Seleuciensis) would be marked as a persName and the
          title of Archbishop of Seleucia in Isauria would be indicated as a roleName in the
-         personography. If the dates of incumbancy are known, they could be indicated through
-         attributes of the <ref
+         personography. Seleucia in Istaria is here an orgName, which should be indicated in the org
+         list as the Archbishopric of Seleucia in Isauria (titular). If the dates of incumbancy are known,
+         they could be indicated through attributes of the <ref
           target="http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-att.datable.html2"
           >att.datable class</ref>.</item>
         <item>Geographic names, when they appear outside of personal names and titles, should be
@@ -81,10 +82,10 @@
          names are marked up even when, as in the case of the Archbishopric of Seleucia in Isauria,
          the geographic element of the roleName is titular. In this case, the type attribute may be
          used to express this, as in <egXML xmlns="http://www.tei-c.org/ns/Examples">
-          <roleName type="catholic">
-           Archbishop
-           <nameLink>of</nameLink>
-           <placeName type="see,titular" ref="http://sws.geonames.org/300808/about.rdf,https://www.wikidata.org/wiki/Q1727060">Seleucia in Isauria</placeName>
+          <roleName type="catholic"> Archbishop <nameLink>of</nameLink>
+           <placeName type="see,titular"
+            ref="http://sws.geonames.org/300808/about.rdf,https://www.wikidata.org/wiki/Q1727060"
+            >Seleucia in Isauria</placeName>
           </roleName>
          </egXML>.</item>
         <item>A ref atribute with a link to a local typology or to <ref
@@ -95,8 +96,8 @@
          Seleucia, and the Wikidata reference is to entry for the titular see.</item>
        </list>
       </item>
-     <item>transcr: </item>
-     <item>textcrit: </item>
+      <item>transcr: </item>
+      <item>textcrit: </item>
       <item>figures: </item>
       <item>msdescription: <list>
         <item>Documents should, as much as possible, be treated as examples of manuscripts,
@@ -183,8 +184,7 @@
        </sequence>
       </content>
      </elementSpec>
-     <elementSpec ident="diploDesc"
-      mode="add">
+     <elementSpec ident="diploDesc" mode="add">
       <desc>Contains a diplomatic description and analysis of a document, including bibliographic
        references to studies; formal criticism of content and textual/legal form (physical form is
        physDesc); and discussions of transmission and authenticiy.</desc>
@@ -198,26 +198,27 @@
       </classes>
       <content>
        <alternate minOccurs="1" maxOccurs="unbounded">
-        <elementRef key="copyStatus" />
-        <classRef key="model.biblLike" />
-        <classRef key="model.pPart.msdesc" />
-        <classRef key="model.pLike" />
-        <elementRef key="history" />
-        <elementRef key="additional" />
-        <elementRef key="issued" />
-       </alternate> 
+        <elementRef key="copyStatus"/>
+        <classRef key="model.biblLike"/>
+        <classRef key="model.pPart.msdesc"/>
+        <classRef key="model.pLike"/>
+        <elementRef key="history"/>
+        <elementRef key="additional"/>
+        <elementRef key="issued"/>
+       </alternate>
       </content>
      </elementSpec>
-     <elementSpec ident="authen"
-      mode="add">
-      <desc>Description of an element that is used to authenticate a document. Specifically, elements that would be intended, from a juridical perspective, to be authenticating. 
-       May contain a forged element, in which case the forgery should be noted and certainty marked.</desc>
+     <elementSpec ident="authen" mode="add">
+      <desc>Description of an element that is used to authenticate a document. Specifically,
+       elements that would be intended, from a juridical perspective, to be authenticating. May
+       contain a forged element, in which case the forgery should be noted and certainty
+       marked.</desc>
       <classes>
        <memberOf key="att.dateable"/>
        <memberOf key="att.global"/>
        <memberOf key="att.typed"/>
        <memberOf key="model.inter"/>
-      </classes>      
+      </classes>
       <content>
        <alternate minOccurs="0" maxOccurs="unbounded">
         <classRef key="model.pPart.msdesc"/>
@@ -240,66 +241,54 @@
           <desc>Distinctive textual formulae that authenticate document.</desc>
          </valItem>
          <valItem ident="split">
-          <desc>Shared-medium documents and items that have been separated in a distinct and reconstructable way.</desc>
+          <desc>Shared-medium documents and items that have been separated in a distinct and
+           reconstructable way.</desc>
          </valItem>
          <valItem ident="digital">
-          <desc>Purely-digital authenticating elements. Anything that is a digital copy of a physical element is not this type.</desc>
+          <desc>Purely-digital authenticating elements. Anything that is a digital copy of a
+           physical element is not this type.</desc>
          </valItem>
          <valItem ident="notarized">
-          <desc>Notarization as a legal act with varying regional practices, which may include stamping, embossing, attached materials, signatures, or attestations. 
-           Apostilles are considered a type of notarization for this category.
-          </desc>
+          <desc>Notarization as a legal act with varying regional practices, which may include
+           stamping, embossing, attached materials, signatures, or attestations. Apostilles are
+           considered a type of notarization for this category. </desc>
          </valItem>
          <valItem ident="nonattached">
-          <desc>
-           Any authenticating element which is not now and was never attached to the document. Registration, certification, duplicates in archives.
-          </desc>
+          <desc> Any authenticating element which is not now and was never attached to the document.
+           Registration, certification, duplicates in archives. </desc>
          </valItem>
          <valItem ident="biometrics">
-          <desc>
-           Biometric info used to establish authentic identity of the document owner/maker/issuer.
-          </desc>
+          <desc> Biometric info used to establish authentic identity of the document
+           owner/maker/issuer. </desc>
          </valItem>
          <valItem ident="token">
-          <desc>
-           External tokens used to establish the authenticity or authority of the sender or issuer.
-          </desc>
+          <desc> External tokens used to establish the authenticity or authority of the sender or
+           issuer. </desc>
          </valItem>
          <valItem ident="signed">
-          <desc>
-           Any kind of signature, subscription, or signing mark.
-          </desc>
+          <desc> Any kind of signature, subscription, or signing mark. </desc>
          </valItem>
          <valItem ident="mark">
-          <desc>
-           Any kind of non-signging mark, such as a hallmark or a trademark.
-          </desc>
+          <desc> Any kind of non-signging mark, such as a hallmark or a trademark. </desc>
          </valItem>
          <valItem ident="stamp">
-          <desc>
-           Both inked and adhesive stamps.
-          </desc>
+          <desc> Both inked and adhesive stamps. </desc>
          </valItem>
          <valItem ident="split">
-          <desc>
-           Any item where a shared medium has been split in a way that can be recombined to demonstrate authenticity. 
-           Chirographs, tallies, indentures.
-          </desc>
+          <desc> Any item where a shared medium has been split in a way that can be recombined to
+           demonstrate authenticity. Chirographs, tallies, indentures. </desc>
          </valItem>
          <valItem ident="endorsement">
-          <desc>
-           Writing on the document by someone is a position of authority, establishing its authenticity or authroity.
-          </desc>
+          <desc> Writing on the document by someone is a position of authority, establishing its
+           authenticity or authroity. </desc>
          </valItem>
          <valItem ident="medium">
-          <desc>
-           Special or controlled materials used to establish authenticity and convey authority. Banknote paper, magnetic stripes, RFID chips.
-          </desc>
+          <desc> Special or controlled materials used to establish authenticity and convey
+           authority. Banknote paper, magnetic stripes, RFID chips. </desc>
          </valItem>
          <valItem ident="packaging">
-          <desc>
-           Elements of packaging which correspond to authenticity or establish that it has not been tampered with from some authoritative time frame.
-          </desc>
+          <desc> Elements of packaging which correspond to authenticity or establish that it has not
+           been tampered with from some authoritative time frame. </desc>
          </valItem>
         </valList>
        </attDef>
@@ -321,7 +310,7 @@
         <elementRef key="lb"/>
        </alternate>
       </content>
-     </elementSpec>     
+     </elementSpec>
      <elementSpec module="msdescription" ident="seal" mode="change">
       <content>
        <alternate minOccurs="0" maxOccurs="unbounded">
@@ -332,11 +321,11 @@
         <elementRef key="condition"/>
        </alternate>
       </content>
-     </elementSpec>    
+     </elementSpec>
      <elementSpec module="msdescription" ident="objectDesc" mode="change">
       <content>
-       <alternate  minOccurs="1" maxOccurs="unbounded">
-        <classRef key="model.pLike" />
+       <alternate minOccurs="1" maxOccurs="unbounded">
+        <classRef key="model.pLike"/>
         <classRef key="model.pPart.msdesc"/>
         <elementRef key="supportDesc"/>
         <elementRef key="layoutDesc"/>
@@ -344,10 +333,8 @@
        </alternate>
       </content>
      </elementSpec>
-     <elementSpec  ident="legalActor" mode="add">
-      <desc>
-       Persons or organizations party to or otherwise mentioned in a an act or contract.
-      </desc>
+     <elementSpec ident="legalActor" mode="add">
+      <desc> Persons or organizations party to or otherwise mentioned in a an act or contract. </desc>
       <classes>
        <memberOf key="att.global"/>
        <memberOf key="att.typed"/>
@@ -356,8 +343,8 @@
       </classes>
       <content>
        <alternate minOccurs="0" maxOccurs="unbounded">
-        <classRef key="model.correspActionPart" />
-        <macroRef key="macro.specialPara" />
+        <classRef key="model.correspActionPart"/>
+        <macroRef key="macro.specialPara"/>
        </alternate>
       </content>
       <attList>
@@ -365,81 +352,76 @@
         <valList type="closed">
          <valItem ident="issuer">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?16">VID 16</ref>. 
-           The party whose authority issues the document.
-           A lord or judge issuing a ruling is the issuer.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?16">VID 16</ref>. The party whose
+           authority issues the document. A lord or judge issuing a ruling is the issuer. </desc>
          </valItem>
          <valItem ident="recipient">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?17">VID 17</ref>. 
-           The party to whom the act of the document is addressed.</desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?17">VID 17</ref>. The party to whom the
+           act of the document is addressed.</desc>
          </valItem>
          <valItem ident="beneficiary">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?17">VID 17</ref>. 
-           In some cases, the party to whom the act of the document is addressed is not the party whose benefit is intended, in which case the latter should be marked as the beneficiary.</desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?17">VID 17</ref>. In some cases, the party
+           to whom the act of the document is addressed is not the party whose benefit is intended,
+           in which case the latter should be marked as the beneficiary.</desc>
          </valItem>
          <valItem ident="witness">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?263">VID 263</ref>. 
-           Someone who stands as a legal witness of the act, generally through subscription.
-           When something is done in the presence of a judge, the judge is marked as a witness.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?263">VID 263</ref>. Someone who stands as
+           a legal witness of the act, generally through subscription. When something is done in the
+           presence of a judge, the judge is marked as a witness. </desc>
          </valItem>
          <valItem ident="notary">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?273">VID 273</ref>.
-           Someone who is a professional redactor of acts, with a legal authority in their preparation. 
-           May be the same person as, but separate conceptually from the scribe, who does not bear a legal role in the act.</desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?273">VID 273</ref>. Someone who is a
+           professional redactor of acts, with a legal authority in their preparation. May be the
+           same person as, but separate conceptually from the scribe, who does not bear a legal role
+           in the act.</desc>
          </valItem>
          <valItem ident="promisor">
-          <desc>
-           The party of a contract who makes a promise.
-           All kinds of promisors are meant, which may include lessors/lessees, contractors, debtors, etc.
-          </desc>
+          <desc> The party of a contract who makes a promise. All kinds of promisors are meant,
+           which may include lessors/lessees, contractors, debtors, etc. </desc>
          </valItem>
          <valItem ident="promisee">
-          <desc>
-           The party of a contract who is on the receiving end a promise.
-           May also be a promisor where there is a mutual trade. 
-          </desc>
+          <desc> The party of a contract who is on the receiving end a promise. May also be a
+           promisor where there is a mutual trade. </desc>
          </valItem>
          <valItem ident="intervenor">
-          <desc>
-           cf. <ref target="http://www.cei.lmu.de/VID/VID.php?66">VID 66</ref>. 
-           A party who joins a legal process by the authority of the judicial system, who is not (originally) party to the contract.
-           May be used for legal intervenors, advocates, procurators, accusers (where said are not recipients or beneficiaries), petitioners/sponsors who are not recipients or beneficiaries of the resulting act, judges (where they are not acting as issuers or witnesses), guarantors, etc.
-          </desc>
+          <desc> cf. <ref target="http://www.cei.lmu.de/VID/VID.php?66">VID 66</ref>. A party who
+           joins a legal process by the authority of the judicial system, who is not (originally)
+           party to the contract. May be used for legal intervenors, advocates, procurators,
+           accusers (where said are not recipients or beneficiaries), petitioners/sponsors who are
+           not recipients or beneficiaries of the resulting act, judges (where they are not acting
+           as issuers or witnesses), guarantors, etc. </desc>
          </valItem>
          <valItem ident="sigillant">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?503">VID 503</ref>. 
-           The owner of a seal.</desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?503">VID 503</ref>. The owner of a
+           seal.</desc>
          </valItem>
          <valItem ident="third">
-          <desc>
-           A third-party is anyone who is not a party to a contract or act but might be affected or involved.
-          </desc>
+          <desc> A third-party is anyone who is not a party to a contract or act but might be
+           affected or involved. </desc>
          </valItem>
-       </valList>
+        </valList>
        </attDef>
       </attList>
      </elementSpec>
-     <elementSpec ident="diploPart"
-      mode="add">
-      <desc>
-       An element identifying the various conventional elements of documentary instruments. This refers to the intellectual content of the text; generic solutions should be used if the needs of an individual project require devisions on set phrases or other segments of text.
-       The list contains and may be extended with clauses which overlap in their meanings, to meet the specific legal context of the act. 
-       Using the existing categories, where possible, increases the cross-comparative functionality of the total corpus, and is encouraged.
-      </desc>
+     <elementSpec ident="diploPart" mode="add">
+      <desc> An element identifying the various conventional elements of documentary instruments.
+       This refers to the intellectual content of the text; generic solutions should be used if the
+       needs of an individual project require devisions on set phrases or other segments of text.
+       The list contains and may be extended with clauses which overlap in their meanings, to meet
+       the specific legal context of the act. Using the existing categories, where possible,
+       increases the cross-comparative functionality of the total corpus, and is encouraged. </desc>
       <classes>
        <memberOf key="att.global"/>
        <memberOf key="att.typed"/>
        <memberOf key="model.inter"/>
       </classes>
       <content>
-       <alternate  minOccurs="1" maxOccurs="unbounded">
+       <alternate minOccurs="1" maxOccurs="unbounded">
         <macroRef key="macro.phraseSeq"/>
         <classRef key="model.inter"/>
        </alternate>
@@ -448,126 +430,119 @@
        <attDef ident="type" mode="replace">
         <valList type="closed">
          <valItem ident="protocol">
-          <desc>
-           The opening protocol contains formulaic information invoking divine aid, naming the issuer and addressee, conveying greetings. 
-           Generally a superset of the invocatio, intitulatio, inscriptio, and salutatio.
-          </desc>
+          <desc> The opening protocol contains formulaic information invoking divine aid, naming the
+           issuer and addressee, conveying greetings. Generally a superset of the invocatio,
+           intitulatio, inscriptio, and salutatio. </desc>
          </valItem>
          <valItem ident="contextus">
-          <desc>
-           Also called corpus. The main content relating to the particulars of the act. 
-           Generally a superset of the arenga, publicatio, narratio, dispositio, clausulae, and sanctio.
-          </desc>
+          <desc> Also called corpus. The main content relating to the particulars of the act.
+           Generally a superset of the arenga, publicatio, narratio, dispositio, clausulae, and
+           sanctio. </desc>
          </valItem>
          <valItem ident="eschatocol">
-          <desc>
-           The closing protocol includes formulaic information relating to completion of the document. Generally a superset of the subscriptio, corroboratio, datatio, and appreciatio.</desc>
+          <desc> The closing protocol includes formulaic information relating to completion of the
+           document. Generally a superset of the subscriptio, corroboratio, datatio, and
+           appreciatio.</desc>
          </valItem>
          <valItem ident="apprecatio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?251">VID 251</ref>.
-           A solemn ending clause, indicating the achievement of the act, such as 'Fiat. Fiat. Amen.'
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?251">VID 251</ref>. A solemn ending
+           clause, indicating the achievement of the act, such as 'Fiat. Fiat. Amen.' </desc>
          </valItem>
          <valItem ident="arenga">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?196">VID 196</ref>.
-           Sometimes called the exordium, preamble, or proem, the arenga is a 'rhetorical preparation for the burden of communication' (Boyle, 97.) which may be particular to the document or wholly formulaic, unlinked in content to the actual act.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?196">VID 196</ref>. Sometimes called the
+           exordium, preamble, or proem, the arenga is a 'rhetorical preparation for the burden of
+           communication' (Boyle, 97.) which may be particular to the document or wholly formulaic,
+           unlinked in content to the actual act. </desc>
          </valItem>
          <valItem ident="benedictio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?245">VID 245</ref>.
-           The benediction clause contains a blessing.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?245">VID 245</ref>. The benediction clause
+           contains a blessing. </desc>
          </valItem>
          <valItem ident="clausulae">
-          <desc>
-           Clause of qualifiers, exceptions, prohibitions, and obligations relating to the act.
-          </desc>
+          <desc> Clause of qualifiers, exceptions, prohibitions, and obligations relating to the
+           act. </desc>
          </valItem>
          <valItem ident="corroboratio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?246">VID 246</ref>.
-           Also known as the ratification clause, the clause of corroboration connects the words of the charter to the effective elements of its validity, whether signature, seal, or promulgation.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?246">VID 246</ref>. Also known as the
+           ratification clause, the clause of corroboration connects the words of the charter to the
+           effective elements of its validity, whether signature, seal, or promulgation. </desc>
          </valItem>
          <valItem ident="datatio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?561">VID 561</ref>.
-           The dating clause gives the date of the issuance of the charter, by any dating system.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?561">VID 561</ref>. The dating clause
+           gives the date of the issuance of the charter, by any dating system. </desc>
          </valItem>
          <valItem ident="dispositio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?198">VID 198</ref>.
-           Also known as the conveyance clause, the dispositive clause is the essential or effective clause of the charter, which describes the property or honor to be conveyed, its burndens, conditions, and limitations, and conveys the same.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?198">VID 198</ref>. Also known as the
+           conveyance clause, the dispositive clause is the essential or effective clause of the
+           charter, which describes the property or honor to be conveyed, its burndens, conditions,
+           and limitations, and conveys the same. </desc>
          </valItem>
          <valItem ident="inscriptio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?192">VID 192</ref>.
-           Also known as the address, the part of the document that gives the name, titles, and addresses the qualities of the addressee or recipient of the act.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?192">VID 192</ref>. Also known as the
+           address, the part of the document that gives the name, titles, and addresses the
+           qualities of the addressee or recipient of the act. </desc>
          </valItem>
          <valItem ident="intercessio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?328">VID 328</ref>.
-           An intercession clause describes the intervention of a third to support a petition.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?328">VID 328</ref>. An intercession clause
+           describes the intervention of a third to support a petition. </desc>
          </valItem>
          <valItem ident="intitulatio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?187">VID 187</ref>.
-           Also known as the superscriptio or the persona salutans, the part of the document which gives the namme of the issuer and his/her titles.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?187">VID 187</ref>. Also known as the
+           superscriptio or the persona salutans, the part of the document which gives the namme of
+           the issuer and his/her titles. </desc>
          </valItem>
          <valItem ident="invocatio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?185">VID 185.</ref>.
-           A clause calling upon God or a saint, for divine protection or witness.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?185">VID 185.</ref>. A clause calling upon
+           God or a saint, for divine protection or witness. </desc>
          </valItem>
          <valItem ident="narratio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?197">VID 197</ref>.
-           The narration clause states the case of gives the circumstances or context leading up to the issuance of the act.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?197">VID 197</ref>. The narration clause
+           states the case of gives the circumstances or context leading up to the issuance of the
+           act. </desc>
          </valItem>
          <valItem ident="notificatio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?196">VID 196</ref>.
-           The publication, promulgation, or notfication clause addresses itself to all those concerned in the act, as parties or readers.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?196">VID 196</ref>. The publication,
+           promulgation, or notfication clause addresses itself to all those concerned in the act,
+           as parties or readers. </desc>
          </valItem>
          <valItem ident="rogatio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?326">VID 326</ref>.
-            Clause expressing request for formal documentation.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?326">VID 326</ref>. Clause expressing
+           request for formal documentation. </desc>
          </valItem>
          <valItem ident="publicatio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?196">VID 196</ref>.
-           See notificatio.</desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?196">VID 196</ref>. See
+           notificatio.</desc>
          </valItem>
          <valItem ident="salutatio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?194">VID 194</ref>.
-           A clause expressing greetings, usually at the beginning of the document. 
-           A subtype of this is the salutatio finale or final salutation (VID 253), which comes at the end of the document.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?194">VID 194</ref>. A clause expressing
+           greetings, usually at the beginning of the document. A subtype of this is the salutatio
+           finale or final salutation (VID 253), which comes at the end of the document. </desc>
          </valItem>
          <valItem ident="sanctio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?237">VID 237</ref>.
-           Also known as a penal clause. Defines penalties for breach of act.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?237">VID 237</ref>. Also known as a penal
+           clause. Defines penalties for breach of act. </desc>
          </valItem>
          <valItem ident="subscriptio">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?254">VID 254</ref>.
-           Part of the act containing the signatures of the principals, witnesses, officials, and notaries involved.</desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?254">VID 254</ref>. Part of the act
+           containing the signatures of the principals, witnesses, officials, and notaries
+           involved.</desc>
          </valItem>
         </valList>
        </attDef>
@@ -581,36 +556,34 @@
         </datatype>
         <valList type="closed">
          <valItem ident="production">
-          <desc>Notes made in the context of the original production of the document, whether by the scribe, officials, or the original chancellery or issuer.</desc>
+          <desc>Notes made in the context of the original production of the document, whether by the
+           scribe, officials, or the original chancellery or issuer.</desc>
          </valItem>
          <valItem ident="ownership">
-          <desc>
-           Notes made as part of ownership, sale, or archiving. Ownership notes, summaries on the dorse, etc.</desc>
+          <desc> Notes made as part of ownership, sale, or archiving. Ownership notes, summaries on
+           the dorse, etc.</desc>
          </valItem>
          <valItem ident="personal">
-          <desc>
-           Notes made by end-users for their own use. Pen-trials, notes on content, highlighting, etc.</desc>
+          <desc> Notes made by end-users for their own use. Pen-trials, notes on content,
+           highlighting, etc.</desc>
          </valItem>
          <valItem ident="impersonal">
-          <desc>
-           Notes made for the benefit of another party. Corrections, comments, feedback, etc.</desc>
+          <desc> Notes made for the benefit of another party. Corrections, comments, feedback,
+           etc.</desc>
          </valItem>
          <valItem ident="structural">
-          <desc>
-           Annotations that improve the structure of the text or give general directions for its use.
-           Indices, instructions (e.g. for the order of readings), glosses, technical notes, etc.
-          </desc>
+          <desc> Annotations that improve the structure of the text or give general directions for
+           its use. Indices, instructions (e.g. for the order of readings), glosses, technical
+           notes, etc. </desc>
          </valItem>
         </valList>
        </attDef>
       </attList>
      </elementSpec>
-     <elementSpec  ident="copyStatus" mode="add">
-      <desc>
-       The status of the document as an original or a copy. 
-       Equivalent to the former CEI traditioForm. 
-       Can occur multiple times in different msItems, to represent, for example, a copy of a document which is in an original of a promulgation of the first document.
-      </desc>
+     <elementSpec ident="copyStatus" mode="add">
+      <desc> The status of the document as an original or a copy. Equivalent to the former CEI
+       traditioForm. Can occur multiple times in different msItems, to represent, for example, a
+       copy of a document which is in an original of a promulgation of the first document. </desc>
       <classes>
        <memberOf key="att.global"/>
        <memberOf key="att.typed"/>
@@ -624,37 +597,33 @@
         <valList type="closed">
          <valItem ident="original">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?42">VID 42</ref>. 
-           An original copy is one that carries the first definitive form that would have force of the contained act.
+           <ref target="http://www.cei.lmu.de/VID/VID.php?42">VID 42</ref>. An original copy is one
+           that carries the first definitive form that would have force of the contained act.
           </desc>
          </valItem>
          <valItem ident="copy">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?53">VID 53</ref>. 
-           cf. VID 54–63, 65, 67–69, 74.
-           A copy of a document is a reproduction of the original.
-          </desc>
+           <ref target="http://www.cei.lmu.de/VID/VID.php?53">VID 53</ref>. cf. VID 54–63, 65,
+           67–69, 74. A copy of a document is a reproduction of the original. </desc>
          </valItem>
          <valItem ident="draft">
           <desc>
-           <ref target="http://www.cei.lmu.de/VID/VID.php?349">VID 349</ref>. 
-           A draft is any version of the document before the first definitive form that has force of the contained act.
+           <ref target="http://www.cei.lmu.de/VID/VID.php?349">VID 349</ref>. A draft is any version
+           of the document before the first definitive form that has force of the contained act.
           </desc>
          </valItem>
          <valItem ident="unknown">
-          <desc>
-           When no definitive classification of the document can be made into one of the other three categories.
-           Differs from simply leaving the type off by making a statement that the subject was inspected and determined to be unknown, rather than not having been inspected at all.
-          </desc>
+          <desc> When no definitive classification of the document can be made into one of the other
+           three categories. Differs from simply leaving the type off by making a statement that the
+           subject was inspected and determined to be unknown, rather than not having been inspected
+           at all. </desc>
          </valItem>
         </valList>
        </attDef>
       </attList>
      </elementSpec>
-     <elementSpec  ident="issued" mode="add">
-      <desc>
-       Official date and/or place of issue for the act. 
-      </desc>
+     <elementSpec ident="issued" mode="add">
+      <desc> Official date and/or place of issue for the act. </desc>
       <classes>
        <memberOf key="att.global"/>
        <memberOf key="model.inter"/>
@@ -663,9 +632,9 @@
        <macroRef key="macro.specialPara"/>
       </content>
      </elementSpec>
-     <elementSpec  ident="legend" mode="add">
-      <desc>
-      Text written on a seal or as part of a illustration, such as in the heraldry element.<!-- Re-do this description. -->
+     <elementSpec ident="legend" mode="add">
+      <desc> Text written on a seal or as part of a illustration, such as in the heraldry
+       element.<!-- Re-do this description. -->
       </desc>
       <classes>
        <memberOf key="att.global"/>
