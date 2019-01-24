@@ -10,7 +10,7 @@
             <teiHeader>
                 <fileDesc>
                     <titleStmt>
-                        <title>Title</title>
+                        <title/>
                         <editor>
                             <xsl:value-of select="//atom:email"/>
                         </editor>
@@ -84,6 +84,9 @@
                         <distributor>
                             <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
                                 Asset Management System</orgName>
+                            <idno type="PID" resp="https://illuminierte-urkunden.uni-graz.at/">
+                                    o:cord.IU.<xsl:value-of select="//cei:body/cei:idno"/>
+                            </idno>
                         </distributor>
                         <availability>
                             <p>All texts and pictures are protected according to national copyrights
@@ -106,18 +109,24 @@
                                 sample copy to the respective holder of the originals (archive).</p>
                         </availability>
                         <pubPlace>Graz</pubPlace>
-                        <date>
-                            <xsl:value-of select="//atom:published"/>
-                        </date>
+                        <!--<date>
+                            <xsl:value-of select="//today"/>   hOW TO MAKE THIS STABLE ACROSS Multiple Imports?
+                        </date>-->
                     </publicationStmt>
                     <sourceDesc>
+                        <bibl>Originally converted to TEI based upon a CEI file from <ref target="http://monasterium.net/">Monasterium</ref>, 
+                            <idno type="Monasterium">
+                                <xsl:value-of select="//atom:id"/>
+                            </idno>, created on <date>
+                                <xsl:value-of select="//atom:published"/>
+                            </date> and last updated on <date>
+                                <xsl:value-of select="//atom:updated"/>
+                            </date>. 
+                        </bibl>
                         <xsl:for-each
                             select="//cei:sourceDesc | cei:sourceDescRegest | cei:sourceDescVolltext | cei:sourceDescErw">
                             <xsl:apply-templates select="cei:bibl"/>
                         </xsl:for-each>
-                        <!--                        <idno type="Monasterium" xml:id="monasterium">
-                            <xsl:value-of select="//atom:id"/>
-                        </idno>-->
                         <listWit>
                             <xsl:call-template name="original_witness"/>
                             <xsl:if test="//cei:chDesc/cei:witListPar//*[. != '']">
@@ -130,9 +139,9 @@
                     <projectDesc>
                         <p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
                                 Urkunden</ref> project is a cross-disciplinary historical,
-                            art-historical, and digital humanities project which collects illuminated
-                            medieval charters from all over Europe, publishes them, and explores
-                            them in detailed studies.</p>
+                            art-historical, and digital humanities project which collects
+                            illuminated medieval charters from all over Europe, publishes them, and
+                            explores them in detailed studies.</p>
                     </projectDesc>
                 </encodingDesc>
                 <profileDesc>
@@ -188,7 +197,8 @@
                     </xsl:if>
                 </profileDesc>
                 <revisionDesc>
-                    <xsl:if test="//atom:updated">
+                    <!-- Use revisionDesc only for changes to TEI file. atom:updated is referenced in sourceDesc. Need a way to track changes across imports to this space.
+                       <xsl:if test="//atom:updated">
                         <list>
                             <xsl:for-each select="//atom:updated">
                                 <xsl:variable name="date" select="substring-before(., 'T')"/>
@@ -197,7 +207,7 @@
                                     checked by CAC</item>
                             </xsl:for-each>
                         </list>
-                    </xsl:if>
+                    </xsl:if>-->
                 </revisionDesc>
             </teiHeader>
             <xsl:if test="//cei:graphic[@url != '']">
@@ -217,11 +227,6 @@
             <msDesc>
                 <msIdentifier>
                     <xsl:apply-templates select="//cei:witnessOrig/cei:archIdentifier"/>
-                    <altIdentifier resp="https://illuminierte-urkunden.uni-graz.at/">
-                        <idno>
-                            <xsl:value-of select="//cei:body/cei:idno"/>
-                        </idno>
-                    </altIdentifier>
                 </msIdentifier>
                 <xsl:apply-templates select="//cei:witnessOrig/cei:physicalDesc"/>
                 <diploDesc>
@@ -443,7 +448,7 @@
             <xsl:apply-templates/>
         </desc>
     </xsl:template>
-   <xsl:template match="cei:dimensions">
+    <xsl:template match="cei:dimensions">
         <dimensions>
             <xsl:apply-templates/>
         </dimensions>
@@ -534,7 +539,7 @@
         <xsl:apply-templates select="cei:archIdentifier/cei:idno"/>
         <xsl:apply-templates select="cei:altIdentifier"/>
     </xsl:template>
-    <xsl:template match="cei:body/cei:idno"> 
+    <xsl:template match="cei:body/cei:idno">
         <!-- NO CONTENT -->
     </xsl:template>
     <xsl:template match="cei:archIdentifier/cei:idno | cei:altIdentifier/cei:idno">
@@ -629,10 +634,8 @@
             <xsl:apply-templates/>
         </measure>
     </xsl:template>
-    <xsl:template match="cei:witness/cei:nota | cei:witnessOrig/cei:nota">
-        <additions>
-            <xsl:apply-templates/>
-        </additions>
+    <xsl:template match="cei:nota">
+        <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="cei:note[. != '']">
         <note>
@@ -697,7 +700,11 @@
                 </supportDesc>
             </objectDesc>
             <xsl:apply-templates select="cei:decoDesc"/>
-            <xsl:apply-templates select="cei:witness/cei:nota"/>
+            <xsl:if test="parent::*//cei:nota[. != '']">
+                <additions>
+                    <xsl:apply-templates select="parent::*//cei:nota"/>
+                </additions>
+            </xsl:if>
         </physDesc>
     </xsl:template>
     <xsl:template match="cei:witnessOrig/cei:physicalDesc">
@@ -712,7 +719,11 @@
                 </supportDesc>
             </objectDesc>
             <xsl:apply-templates select="cei:decoDesc"/>
-            <xsl:apply-templates select="cei:witnessOrig/cei:nota"/>
+            <xsl:if test="parent::*//cei:nota[. != '']">
+                <additions>
+                    <xsl:apply-templates select="parent::*//cei:nota"/>
+                </additions>
+            </xsl:if>
         </physDesc>
     </xsl:template>
     <!--    <xsl:template match="cei:pict">
