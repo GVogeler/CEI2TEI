@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- BIG FIX NEEDED IN ORDER TO PULL IN versionOf DATA AND CREATE LINKED DOCUMENTS -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:atom="http://www.w3.org/2005/Atom"
-    xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"
-    exclude-result-prefixes="xs" version="2.0">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns="http://www.tei-c.org/ns/1.0" 
+    xmlns:cei="http://www.monasterium.net/NS/cei"
+    xmlns:xalan="http://xml.apache.org/xslt"
+    exclude-result-prefixes="xs" 
+    version="2.0">
+    <xsl:output method="xml" indent="yes" xalan:indent-amount="4"/>
     <xsl:template match="/">
         <xsl:processing-instruction name="xml-model">href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
         <TEI>
