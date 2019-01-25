@@ -116,7 +116,7 @@
                     <sourceDesc>
                         <bibl>Originally converted to TEI based upon a CEI file from <ref target="http://monasterium.net/">Monasterium</ref>, 
                             <idno type="Monasterium">
-                                <xsl:value-of select="//atom:id"/>
+                                <xsl:value-of select="substring-after(//atom:id, 'tag:www.monasterium.net,2011:/charter/')"/>
                             </idno>, created on <date>
                                 <xsl:value-of select="//atom:published"/>
                             </date> and last updated on <date>
@@ -521,28 +521,28 @@
             <xsl:apply-templates/>
         </hi>
     </xsl:template>
-    <xsl:template match="cei:witnessOrig/cei:archIdentifier">
+    <xsl:template match="cei:witnessOrig/cei:archIdentifier" mode="arch">
         <xsl:apply-templates select="cei:country"/>
         <xsl:apply-templates select="cei:region"/>
         <xsl:apply-templates select="cei:settlement"/>
         <xsl:apply-templates select="cei:arch | cei:repository"/>
         <xsl:apply-templates select="cei:archFond"/>
-        <xsl:apply-templates select="cei:archIdentifier/cei:idno"/>
+        <xsl:apply-templates select="cei:idno"/>
         <xsl:apply-templates select="cei:altIdentifier"/>
     </xsl:template>
-    <xsl:template match="cei:witness/cei:archIdentifier">
+    <xsl:template match="cei:witness/cei:archIdentifier" mode="arch">
         <xsl:apply-templates select="cei:country"/>
         <xsl:apply-templates select="cei:region"/>
         <xsl:apply-templates select="cei:settlement"/>
         <xsl:apply-templates select="cei:arch | cei:repository"/>
         <xsl:apply-templates select="cei:archFond"/>
-        <xsl:apply-templates select="cei:archIdentifier/cei:idno"/>
+        <xsl:apply-templates select="cei:idno"/>
         <xsl:apply-templates select="cei:altIdentifier"/>
     </xsl:template>
     <xsl:template match="cei:body/cei:idno">
-        <!-- NO CONTENT -->
+        <!-- NOT IN USE -->
     </xsl:template>
-    <xsl:template match="cei:archIdentifier/cei:idno | cei:altIdentifier/cei:idno">
+    <xsl:template match="cei:idno" mode="arch">
         <idno>
             <xsl:apply-templates/>
         </idno>
@@ -700,7 +700,7 @@
                 </supportDesc>
             </objectDesc>
             <xsl:apply-templates select="cei:decoDesc"/>
-            <xsl:if test="parent::*//cei:nota[. != '']">
+            <xsl:if test="./../cei:nota[. != '']">
                 <additions>
                     <xsl:apply-templates select="parent::*//cei:nota"/>
                 </additions>
