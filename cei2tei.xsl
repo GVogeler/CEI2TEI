@@ -90,7 +90,7 @@
                             <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
                                 Asset Management System</orgName>
                             <idno type="PID" resp="https://illuminierte-urkunden.uni-graz.at/">
-                                    o:cord.IU.<xsl:value-of select="//cei:body/cei:idno"/>
+                                o:cord.IU.<xsl:value-of select="concat(replace(substring-before(//cei:body/cei:idno, '_'), '-', ''), '_', substring-after(//cei:body/cei:idno, '_'))"/>
                             </idno>
                         </distributor>
                         <availability>
@@ -1018,16 +1018,16 @@
     <xsl:template name="vocab_uri">
         <xsl:variable name="indexName">
             <xsl:choose>
-                <xsl:when test="@indexName = 'IllUrkGlossar'">2379</xsl:when>
-                <xsl:when test="@indexName = 'Illurk-Urkundenart'">2386</xsl:when>
-                <xsl:when test="@indexName = 'illurk-vocabulary'">2383</xsl:when>
+                <xsl:when test="@indexName = 'IllUrkGlossar'">2483</xsl:when>
+                <!--<xsl:when test="@indexName = 'Illurk-Urkundenart'">2386</xsl:when>-->
+                <xsl:when test="@indexName = 'illurk-vocabulary'">2484</xsl:when>
                 <xsl:otherwise> </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
         <xsl:variable name="lemma" select="@lemma"/>
         <xsl:attribute name="ref">
             <xsl:value-of
-                select="concat('http://gams.uni-graz.at/skos/scheme/o:epis.', $indexName, '#', $lemma)"
+                select="concat('http://gams.uni-graz.at/skos/scheme/o:cord.', $indexName, '#', $lemma)"
             />
         </xsl:attribute>
         <xsl:apply-templates/>
