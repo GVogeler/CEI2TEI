@@ -201,8 +201,8 @@
                         </settingDesc>
                     </xsl:if>
                 </profileDesc>
-                <revisionDesc>
-                    <!-- Use revisionDesc only for changes to TEI file. atom:updated is referenced in sourceDesc. Need a way to track changes across imports to this space.
+                <!-- <revisionDesc>
+                Use revisionDesc only for changes to TEI file. atom:updated is referenced in sourceDesc. Need a way to track changes across imports to this space.
                        <xsl:if test="//atom:updated">
                         <list>
                             <xsl:for-each select="//atom:updated">
@@ -212,8 +212,8 @@
                                     checked by CAC</item>
                             </xsl:for-each>
                         </list>
-                    </xsl:if>-->
-                </revisionDesc>
+                    </xsl:if>
+                </revisionDesc>-->
             </teiHeader>
             <xsl:if test="//cei:graphic[@url != '']">
                 <facsimile>
@@ -526,13 +526,13 @@
             <xsl:apply-templates/>
         </hi>
     </xsl:template>
-    <xsl:template match="cei:witnessOrig/cei:archIdentifier" mode="arch">
+    <xsl:template match="cei:witnessOrig/cei:archIdentifier">
         <xsl:apply-templates select="cei:country"/>
         <xsl:apply-templates select="cei:region"/>
         <xsl:apply-templates select="cei:settlement"/>
         <xsl:apply-templates select="cei:arch | cei:repository"/>
         <xsl:apply-templates select="cei:archFond"/>
-        <xsl:apply-templates select="cei:idno"/>
+        <xsl:apply-templates select="cei:idno"  mode="arch"/>
         <xsl:apply-templates select="cei:altIdentifier"/>
     </xsl:template>
     <xsl:template match="cei:witness/cei:archIdentifier" mode="arch">
@@ -541,7 +541,7 @@
         <xsl:apply-templates select="cei:settlement"/>
         <xsl:apply-templates select="cei:arch | cei:repository"/>
         <xsl:apply-templates select="cei:archFond"/>
-        <xsl:apply-templates select="cei:idno"/>
+        <xsl:apply-templates select="cei:idno" mode="arch"/>
         <xsl:apply-templates select="cei:altIdentifier"/>
     </xsl:template>
     <xsl:template match="cei:body/cei:idno">
