@@ -268,7 +268,6 @@
                         <xsl:value-of select="@type"/>
                     </xsl:attribute>
                 </xsl:if>
-                <xsl:apply-templates/>
             <xsl:apply-templates/>
         </altIdentifier>
     </xsl:template>
@@ -543,22 +542,22 @@
         <xsl:apply-templates select="cei:settlement"/>
         <xsl:apply-templates select="cei:arch | cei:repository"/>
         <xsl:apply-templates select="cei:archFond"/>
-        <xsl:apply-templates select="cei:idno"  mode="arch"/>
+        <xsl:apply-templates select="cei:idno"/>
         <xsl:apply-templates select="cei:altIdentifier"/>
     </xsl:template>
-    <xsl:template match="cei:witness/cei:archIdentifier" mode="arch">
+    <xsl:template match="cei:witness/cei:archIdentifier">
         <xsl:apply-templates select="cei:country"/>
         <xsl:apply-templates select="cei:region"/>
         <xsl:apply-templates select="cei:settlement"/>
         <xsl:apply-templates select="cei:arch | cei:repository"/>
         <xsl:apply-templates select="cei:archFond"/>
-        <xsl:apply-templates select="cei:idno" mode="arch"/>
+        <xsl:apply-templates select="cei:idno"/>
         <xsl:apply-templates select="cei:altIdentifier"/>
     </xsl:template>
     <xsl:template match="cei:body/cei:idno">
         <!-- NOT IN USE -->
     </xsl:template>
-    <xsl:template match="cei:idno" mode="arch">
+    <xsl:template match="cei:idno">
         <idno>
             <xsl:apply-templates/>
         </idno>
