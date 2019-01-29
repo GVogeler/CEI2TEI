@@ -151,7 +151,7 @@
                     <listPrefixDef>
                         <prefixDef ident="zotero" matchPattern="([a-z]+[a-z0-9]*)"
                             replacementPattern="http://zotero.org/groups/257864/items/$1">
-                            <p part="N"> Private URIs using the <code>bibl</code> prefix can be
+                            <p part="N"> Private URIs using the bibl prefix can be
                                 expanded to form URIs which retrieve the relevant bibliographical
                                 reference from Zotero.
                             </p>
@@ -539,7 +539,7 @@
             </xsl:choose>
         </xsl:variable>
         <height>
-            <xsl:if test="$unit">
+            <xsl:if test="$unit[. != '']">
                 <xsl:attribute name="unit" select="$unit"/>
             </xsl:if>
             <xsl:apply-templates/>
@@ -776,7 +776,7 @@
     <xsl:template match="cei:quote">
         <quote>
             <xsl:if test="@type[. = 'italic']">
-                <xsl:attribute name="rend" select="italic"/>
+                <xsl:attribute name="rend">italic</xsl:attribute>
             </xsl:if>
             <xsl:apply-templates/>
         </quote>
@@ -946,7 +946,7 @@
             </xsl:choose>
         </xsl:variable>
         <width>
-            <xsl:if test="$unit">
+            <xsl:if test="$unit[. != '']">
                 <xsl:attribute name="unit" select="$unit"/>
             </xsl:if>
             <xsl:apply-templates/>
