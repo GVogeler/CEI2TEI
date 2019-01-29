@@ -1,0 +1,125 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1556-06-12_Marburg</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:link rel="versionOf" ref="tag:www.monasterium.net,2011:/charter/DE-HStAMa/UrkHersfeld/1570"/>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1556-06-12_Marburg">1556-06-12_Marburg</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract>Papst Paul IV. befiehlt dem Konvent von Hersfeld, den nach dem Tod
+                        Abt Kraft [Myles] kanonisch gewählten und vom Papst bestätigten neuen Abt
+                        von Hersfeld, Michael [Landgraf], den schuldigen Gehorsam zu leisten. </cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Rom</cei:placeName>
+                        <cei:dateRange from="15560612" to="15560612">1556-06-12</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure/>
+                        <cei:archIdentifier><cei:settlement>Marburg</cei:settlement><cei:arch>Hessisches Staatsarchiv</cei:arch><cei:archFond>Bestand Urk 56
+                            (Kloster Hersfeld)</cei:archFond><cei:idno>Nr. 1570</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis">Stark vergrösserte Federzeichnungsinitialen
+                                    (vor allem P[aulus] und d[ilectis]) mit teilweise ganz floralem
+                                    Buchstabenkörper. </cei:p>
+                                <cei:p n="Stil und Einordnung">Die Urkunde steht als Vertreter des
+                                    neuen Dekorationstyps bei Papsturkunden, der bis ins 20.
+                                    Jahrhundert beibehalten werden wird. Aus der Initiale zu Beginn
+                                    und weiteren Buchstaben der ersten zeile werden werden florale
+                                    Zierformen generiert, die Lesbarkeit wird stark zurückgedrängt.
+                                    Dies gilt in weiterer Folge auch für die Kontextschrift, die auf
+                                    Exklusivität setzt und die Lesbarkeit bewusst vernachlässigt. </cei:p>
+                                <cei:p n="Autorensigle">Martin Roland</cei:p>
+                            </cei:decoDesc>
+                            <cei:material/>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc/>
+                        </cei:auth>
+                        <cei:nota/>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl>
+                                <cei:ref target="https://arcinsys.hessen.de/arcinsys/detailAction.action?detailid=v1608659">https://arcinsys.hessen.de/arcinsys/detailAction.action?detailid=v1608659</cei:ref>
+                            </cei:bibl>
+                            <cei:bibl>
+                                <cei:ref target="http://www.mom-ca.uni-koeln.de/mom/DE-HStAMa/UrkHersfeld/1570/charter">http://www.mom-ca.uni-koeln.de/mom/DE-HStAMa/UrkHersfeld/1570/charter</cei:ref>
+                            </cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p/>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">Italien (Kurie)</cei:placeName>
+                <cei:index/>
+                <cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials"/>
+                <cei:index indexName="illurk-vocabulary" lemma="Display-Script-calligraphic-with-decorative-character"/>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

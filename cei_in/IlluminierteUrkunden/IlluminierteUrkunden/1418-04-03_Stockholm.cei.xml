@@ -1,0 +1,160 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1418-04-03_Stockholm</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl/>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1418-04-03_Stockholm">1418-04-03_Stockholm</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract>Papst Martin V. für das Kloster Vadstena</cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Konstanz</cei:placeName>
+                        <cei:dateRange from="14180403" to="14180403">1418-04-03</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure/>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1418-04-03_Martin-V_Jo.-de-Nursia_Schwed-Reichsarchiv.png"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1418-04-03_Martin-V_fuer Vadstena_Jo-de-Nursia_det1.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1418-04-03_Martin-V_fuer Vadstena_Jo-de-Nursia_det2.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="https://sok.riksarkivet.se/bildvisning/Sdhk_19066alt1.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Stockholm</cei:settlement><cei:arch>Reichsarchiv</cei:arch><cei:idno>RA
+                            0101</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis">Kalligraphische Ausgestaltung der ersten Zeile;
+                                    drei einzeilige Lombarden im Text mit minimalem
+                                    Fleuronnée.</cei:p>
+                                <cei:p n="Ekphrasis">Der Papstname in Elongata-artig verlängerter
+                                    Schrift, die Initiale M(artinus) stark vergrössert und in
+                                    Lombardenform. Aus dem Buchstabenkörper ornamentale
+                                    Aussparungen, aus dem Mittelschaft eine Säule, die auf den
+                                    Aussteller verweist, der aus der Familie Colonna stammt.
+                                    Fadenfortsätze, die mit Trifolien enden. Die Schäfte von
+                                    s(ervus) und s(ervorum) stark verlängert und ornamental
+                                    angereichert. Der Beginn des Haupttextes D(ilectus) als
+                                    vergrösserte Lombarde mit Fleuronnée im Binnenfeld. </cei:p>
+                                <cei:p n="Stil und Einordnung">Die Verbindung des graphischen Dekors
+                                    der ersten Zeile mit jenem der Lombarden im Text lässt vermuten,
+                                    das der Scriptor (Johannes de Nursia) auch für den Dekor
+                                    verantwortlich war. Dies wird durch weitere so bezeichnete Werke
+                                    bestätigt: <cei:lb/><cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1418-01-25_Heidelberg/charter">http://monasterium.net/mom/IlluminierteUrkunden/1418-01-25_Heidelberg/charter</cei:ref>
+                                        (<cei:foreign>Littera cum filo
+                                        canapis</cei:foreign>)<cei:lb/><cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1424-01-04_Linz/charter">http://monasterium.net/mom/IlluminierteUrkunden/1424-01-04_Linz/charter</cei:ref>
+                                    (ebenfalls mit Säule)<cei:lb/><cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1429-05-26_Klagenfurt/charter">http://monasterium.net/mom/IlluminierteUrkunden/1429-05-26_Klagenfurt/charter</cei:ref><cei:lb/><cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1433-05-26_Marburg/charter">http://monasterium.net/mom/IlluminierteUrkunden/1433-05-26_Marburg/charter</cei:ref><cei:lb/><cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1434-05-13_Heidelberg/charter">http://monasterium.net/mom/IlluminierteUrkunden/1434-05-13_Heidelberg/charter</cei:ref>.</cei:p>
+                                <cei:p n="Stil und Einordnung">Urkunden Papst Martins V., die mit
+                                    einer Säule "personalisiert" sind, gibt einige. Die erste wurde
+                                    am Tag seine Intronisation (<cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1417-11-21_Nantes/charter">1417 November 21</cei:ref>) ausgestellt; dort alle weiteren
+                                    Nachweise.</cei:p>
+                                <cei:p n="Autorensigle">Martin Roland</cei:p>
+                            </cei:decoDesc>
+                            <cei:material/>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc/>
+                        </cei:auth>
+                        <cei:nota/>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl>Svenskt diplomatarium från och med år 1401 ; Bd. 3, 1902, S.
+                                311, Nr. 2458 (<cei:ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/CD7EBHQP">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Diplomatarium Suecanum (SDHK), nr 19066: <cei:ref target="https://sok.riksarkivet.se/dokument/sdhk/19066.pdf">https://sok.riksarkivet.se/dokument/sdhk/19066.pdf</cei:ref></cei:bibl>
+                            <cei:bibl>
+                                <cei:ref target="https://sok.riksarkivet.se/bildvisning/Sdhk_19066alt1.jpg">https://sok.riksarkivet.se/bildvisning/Sdhk_19066alt1.jpg</cei:ref>
+                            </cei:bibl>
+                            <cei:bibl>
+                                <cei:ref target="https://sok.riksarkivet.se/?ValdSortering=DatumStigande&amp;PageSize=20=1418=true=False=6=post=undefined%3ac%7c=sdhk_19066#tab">https://sok.riksarkivet.se/?ValdSortering=DatumStigande=20=1418=true=False=6=post=undefined%3ac%7c=sdhk_19066#tab</cei:ref>
+                            </cei:bibl>
+                            <cei:bibl>Krafft, Papsturkunde, 2005, S. 942f (mit Anm.) (<cei:ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/5JSCB8KS">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Krafft, Illustrationen, 2011, S. 58 (Anm. 39): online:
+                                    <cei:ref target="http://www.digizeitschriften.de/dms/img/?PPN=PPN345858735_0067&amp;DMDID=DMDLOG_0009">http://www.digizeitschriften.de/dms/img/?PPN=PPN345858735_0067=DMDLOG_0009</cei:ref>
+                                    (<cei:ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/RV4RR6RC">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p>Mundator: <cei:quote>Jo. de Nursia</cei:quote> (Johannes de Nursia)
+                                (<cei:ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/8DAAEVPU">Frenz, Reduzierung, 1976</cei:ref>, S. 260).<cei:lb/>Johannes de
+                            Nursia wird von Franz, Conspectus: <cei:ref target="http://www.phil.uni-passau.de/fileadmin/dokumente/lehrstuehle/frenz/RORC/littera_I.pdf">http://www.phil.uni-passau.de/fileadmin/dokumente/lehrstuehle/frenz/RORC/littera_I.pdf</cei:ref>,
+                            erwähnt: Er ist von 1410 bis 1434 als Scriptor nachweisbar und zudem als
+                            Ausculator und Abbreviator.</cei:p>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:class/>
+                <cei:persName/>
+                <cei:placeName type="Region">HRR (Kurie)</cei:placeName>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:index indexName="illurk-vocabulary" lemma="Fleuronne"/>
+                <cei:index indexName="illurk-vocabulary" lemma="Historiated"/>
+                <cei:index indexName="illurk-vocabulary" lemma="Display-Script-calligraphic-with-decorative-character"/>
+                <cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials"/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

@@ -1,0 +1,187 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1507-02-20_Wien</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1507-02-20_Wien">1507-02-20_Wien</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract><cei:index indexName="IllUrk-Urkundenart">Kardinalsammelindulgenz</cei:index> (6 Aussteller) für St. Hieronymus
+                        in Wien:<cei:lb/>Kardinalbischof <cei:persName>Oliverus von
+                            Ostia</cei:persName> (<cei:foreign>Ostiensis</cei:foreign>), die
+                        Kardinalpriester <cei:persName>Guillelmus von Santa Prudenziana
+                            </cei:persName>(<cei:foreign>tituli sancte Pudentiane</cei:foreign>
+                        [!]), <cei:persName>Bernhardus von Santa Croce in Gerusalemme</cei:persName>
+                            (<cei:foreign>tituli sancte Crucis in Jerusalem)</cei:foreign> sowie die
+                        Kardinaldiakone <cei:persName>Julianus von Sant'Angelo [in
+                            Pescheria]</cei:persName> (<cei:foreign>tituli sancti
+                            Angeli</cei:foreign>), <cei:persName>Amaneus von San Nicola in
+                            Carcere</cei:persName> (<cei:foreign>sancti Nicolai in
+                            Carceretulliano</cei:foreign>) und <cei:persName>Karolus von Santi Vito
+                            et Modesto in Macello Martyrum</cei:persName> (<cei:foreign>sanctorum
+                            Viti et Modesti in Macello Martirum</cei:foreign>) erteilen all jenen
+                        einen Ablass von 100 Tagen (<cei:foreign>misericorditer in Domino
+                            relaxamus</cei:foreign>), die der Klosterkirche des heiligen Hieronymus
+                        der Büsserinnen in <cei:placeName>Wien</cei:placeName>
+                            (<cei:foreign>ecclesia monasterii sancti Jeronimi sororum de penitentia
+                            Viennensis</cei:foreign>), der der Lizentiat beider Rechte und Syndikus
+                        desselben Klosters, <cei:persName>Michael Apfelpeck</cei:persName>
+                            (<cei:foreign>magister Michael Apfelpegk, utriusque iuris licentiatus ac
+                            dicti monasterii sindicus</cei:foreign>), besondere Verehrung zollt und
+                        für die derselbe die vorliegende Urkunde erbeten hat, reumütig und nach
+                        Ablegung der Beichte besuchen, und zwar zu Ostern, Mariä Himmelfahrt, an den
+                        Feiertagen der heiligen Maia Magdalena und des heiligen Hieronymus, der
+                        Patron dieser Kirche ist, sowie am Kirchweihtag, jeweils täglich zwischen
+                        der ersten und der zweiten Vesper. Weiters wird all jenen ein Ablass
+                        gewährt, die für die bauliche Instandhaltung der Kirche und deren
+                        Ausstattung mit liturgischem Gerät aufkommen.<cei:lb/>Markus
+                        Gneiss</cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Bologna</cei:placeName>
+                        <cei:dateRange from="15070220" to="15070220">1507-02-20</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1507-02-20_Kardinalssammelablass-fuer-St-Hieronymus_OFM-Wien_SAM_6197.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1507-02-20_Kardinalssammelablass-fuer-St-Hieronymus_OFM-Wien_SAM_6198.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1507-02-20_Kardinalssammelablass-fuer-St-Hieronymus_OFM-Wien_SAM_6199.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1507-02-20_Kardinalssammelablass-fuer-St-Hieronymus_OFM-Wien_SAM_6200.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1507-02-20_Kardinalssammelablass-fuer-St-Hieronymus_OFM-Wien_SAM_6201.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1507-02-20_Kardinalssammelablass-fuer-St-Hieronymus_OFM-Wien_SAM_6202.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1507-02-20_Kardinalssammelablass-fuer-St-Hieronymus_OFM-Wien_SAM_6203.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1507-02-20_Kardinalssammelablass-fuer-St-Hieronymus_OFM-Wien_SAM_6196.JPG"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Wien</cei:settlement><cei:arch>Archiv
+                                des Franziskanerkonvents</cei:arch><cei:archFond>Schuba
+                                14</cei:archFond> (neu) (cista 49 [alt])<cei:ref>Faszikel
+                                B</cei:ref><cei:idno> Nr. 5 </cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p>Erstaussteller in farbigen Capitalis-Buchstaben; in der
+                                    Initiale O(liverius) das Wappen des erstausstellenden Kardinals
+                                        <cei:ref target="https://en.wikipedia.org/wiki/Oliviero_Carafa">Oliverius Caraffa</cei:ref>. Oberhalb des Schriftspiegels
+                                    und links davon lockerer Randdekor mit Renaissance-Formen. Oben
+                                    mittig Medaillon mit Papstwappen (<cei:ref target="https://de.wikipedia.org/wiki/Julius_II.">Julius II.
+                                        della Rovere</cei:ref>).</cei:p>
+                            </cei:decoDesc>
+                            <cei:material>Pergament</cei:material>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc>Von ursprünglich sechs anhängenden Siegeln der Aussteller
+                                eines abgefallen.</cei:sealDesc>
+                        </cei:auth>
+                        <cei:nota>Rechts auf der Plica Schreibervermerk: <cei:foreign>J.
+                                Corsius</cei:foreign> [?]; links unter der Plica zuerst
+                            Komputierungsvermerk (<cei:foreign>febr. D. de Valle duodecim [grossi]
+                                tur[onenses]</cei:foreign>), darunter Expeditionsvermerk
+                                (<cei:foreign>C. de Epiphaniis</cei:foreign>)<cei:lb/>Auf der
+                            Rückseite nochmalige Unterschrift des expedierenden
+                            Pönitentiarie-Prokurators: <cei:foreign>C. de
+                            Epiphaniis</cei:foreign></cei:nota>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl/>
+                        </cei:listBibl>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p>Die vorliegende Urkunde stellt ein standardmäßige
+                            Kardinalsammelindulgenz dar, wie sie seit 1473 - also seitdem die
+                            Pönitentiarie-Prokuratoren für die Anfertigung und die Expedition der
+                            Stücke zuständig waren - üblich ist. Sie enthält die
+                                Einheitsarenga<cei:foreign> Quanto frequentius</cei:foreign>, die
+                            seit etwa 1455 üblichen fünf Ablasstage (darunter als fünften den
+                            Kirchweihtag) und die üblichen sonstigen Ablassbedingungen, die mit
+                            finanzieller und materieller Unterstützung zusammenhängen. Der Petent
+                            wird zweimal genannt: einmal in der Narratio und einmal in der
+                            Dispositio.</cei:p>
+                        <cei:p>Michael Apfelpeck, der das vorliegende Stück erbittet, stammt aus
+                            einer Regensburger Familie, ist 1506 als Notar in Wien und später als
+                            Regensburger Domherr bezeugt; zu ihm siehe die Ausführungen von <cei:ref target="http://www.univie.ac.at/paecht-archiv-wien/dateien/Quellen-St-Hieronymus-Wien.html">Martin Roland zum Büsserinnenhaus</cei:ref> (unter 1507 Februar
+                            20).</cei:p>
+                        <cei:p>Markus Gneiss</cei:p>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:class/>
+                <cei:persName/>
+                <cei:placeName type="Region">Italien (Kurie)</cei:placeName>
+                <cei:placeName type="Region">Kurie</cei:placeName>
+                <cei:index/>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

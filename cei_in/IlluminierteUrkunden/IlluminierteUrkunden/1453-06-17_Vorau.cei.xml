@@ -1,0 +1,187 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1453-06-17_Vorau</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1453-06-17_Vorau">1453-06-17_Vorau</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract><cei:index>Wappenbrief</cei:index>: <cei:issuer>Kaiser Friedrich
+                            III.</cei:issuer> verleiht dem Stift
+                            <cei:placeName>Vorau</cei:placeName> ein
+                            Wappen.<cei:lb/><cei:issuer>Kaiser Friedrich [III.]</cei:issuer> gibt
+                        und verleiht (<cei:foreign>geben und verleihen</cei:foreign>) von
+                        kaiserlicher Macht und als Landesfürst dem Stift
+                            <cei:placeName>Vorau</cei:placeName> (<cei:foreign>Varaw</cei:foreign>)
+                        auf Bitten des <cei:foreign>ersam geistlich andechtigen</cei:foreign>
+                        Propstes <cei:persName>Leonhard</cei:persName> [von
+                            <cei:placeName>Horn</cei:placeName>]
+                            (<cei:foreign>Lienhart</cei:foreign>) angesichts der Stiftung der
+                        vorangegangenen österreichischen Fürsten, für das ordentliche geistliche
+                        Leben des Propstes und des Konvents und aufgrund seiner Gewogenheit dem
+                        Stift gegenüber ein Wappen (<cei:foreign>den mangel und abganng aigens
+                            wappens, so sy und ir gotshaus untzher gehabt haben</cei:foreign>),
+                        nachdem das Stift bisher kein eigenes geführt hat (<cei:foreign>den mangel
+                            und abganng aigens wappens, so sy und ir gotshaus untzher gehabt
+                            haben</cei:foreign>), das sie als Siegel und für andere Bedürfnisse
+                            (<cei:foreign>notduͤrften</cei:foreign>) gebrauchen hätten können,
+                        sondern lediglich ein Bildnis der Auferstehung Christi mit dem heiligen
+                        Apostel Thomas als solches gebraucht hat (<cei:foreign>unsers herren
+                            uͤrstennd und dabey sannd Thomas des heiligen zwelfboten, des bemelten
+                            irs goczhaus haubtherren, bildnuss, als sy und ir convent der in irn
+                            insigeln bisher genuͤtzt und gebraucht hieten</cei:foreign>). Der
+                        vorangegangene Propst, <cei:persName>Andreas Prannbeck</cei:persName>
+                            (<cei:foreign>Anndree Prannpekch</cei:foreign>), hat bisher dafür sein
+                        Familiensiegel (<cei:foreign>sein und seins geslechtes und namens
+                            wappen</cei:foreign>) benützt, nämlich in Gold ein schwarzer halber Flug
+                        mit Fuß (<cei:foreign>ain swartze fluͤg mit aim fuͦss in ainem goldvarben
+                            veld</cei:foreign>). Nachdem dieses nach dem Aussterben der Familie an
+                        den Aussteller heimgefallen ist (<cei:foreign>uns als lanndesfuͤrsten ledig
+                            worden</cei:foreign>), wird ihnen nun gestattet, ihr bisheriges
+                        Siegelbild mit jenem der Familie Prannbeck in einem Schild zu führen
+                            (<cei:foreign>nun hinfuͤr in ainem schilt gefuͤrn, nuͤtzen und
+                            gebrauchen moͤchten</cei:foreign>), wie es in der Mitte der Urkunde
+                        farbig eingemalt ist (<cei:foreign>als das hieinn aigentlich gemalt und mit
+                            varben ausgestrichen</cei:foreign>). Er bestimmt (<cei:foreign>mainen,
+                            setzen und wellen</cei:foreign>), dass Propst
+                            <cei:persName>Leonhard</cei:persName> und alle seine Nachfolger das
+                        Wappen fortan für alle ihre Bedürfnisse, in Siegeln, Petschaften und allen
+                        anderen ehrbaren Angelegenheiten (<cei:issuer>notduͦrfften, in insigeln,
+                            pedschaden und zu allen anndern erbern sachen</cei:issuer>) ungehindert
+                        benützen und gebrauchen dürfen. Er gebietet allen geistlichen und weltlichen
+                        Fürsten, Hauptleuten, Landvögten, Grafen, Freien, Herren, Rittern, Knechten,
+                        Statthaltern, Vizedomen, Herolden, Persevanten, Pflegern, Burggrafen,
+                        Schultheißen, Bürgermeistern, Richtern, Räten, Bürgern, Gemeinden sowie
+                        allen seinen, des Heiligen Römischen Reichs und der Erblande gegenwärtigen
+                        und künftigen Untertanen und Getreuen aller Stände (<cei:foreign>was wesen,
+                            stannd oder wirdikait die seien</cei:foreign>), den Propst und seine
+                        Nachkommen sowie das Stift in der Benützung und im Gebrauch des Wappens
+                        nicht zu behindern.<cei:lb/>(<cei:foreign>an Suntag nach sannd Veits
+                            tag</cei:foreign>)<cei:lb/>Daniel Maier</cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Graz (<cei:foreign>Greͣtz</cei:foreign>)</cei:placeName>
+                        <cei:dateRange from="14530617" to="14530617">1453-06-17</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Orig. Perg.</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1453-06-17_fIII_wappen-Vorau.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Vorau</cei:settlement><cei:arch>Stiftsarchiv</cei:arch><cei:idno>274</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis">Mittig in Deckfarben eingemalt hochrechteckiges
+                                    Bildfeld mit Wappenschild.<cei:lb/></cei:p>
+                                <cei:p n="Stil und Einordnung">Ob die Malerei im Umfeld des
+                                    habsburgischen Hofes entstand, oder aber vom Empfänder
+                                    ausgeführt wurde, ist nur mit kunsthistorischen Mitteln zu
+                                    entscheiden, da beide Varianten bei Wappenbriefen vorkommen
+                                    können. Vergleiche mit Produkten der Buchmalerei sind schwierig,
+                                    da hier die im Dekor von Büchern so charakteristischen Ranken,
+                                    die den Randbereich füllen, fehlen. <cei:lb/>Als Vergleich
+                                    bietet sich das Chorbuch <cei:ref target="http://manuscripta.at/m1/hs_detail.php?ID=7156">Cod.
+                                        254</cei:ref> der Stiftsbibliothek an (<cei:ref target="http://www.cantusplanus.at/RISM_A-VOR254">Digitalisat</cei:ref>), das, gemäss eines Colophons (fol.
+                                    263v), 1454 in und für Vorau entstand (<cei:ref target="http://manuscripta.at/_scripts/php/cat2pdf.php?cat=CMDA7&amp;ms_code=AT7900-254">link</cei:ref>). Im unteren Binnenfeld der Ad te
+                                    levavi-Initiale (fol. 1r) wird das (neu verliehene) Wappen
+                                    dargestellt. Die Kralle im unten Wappenfeld (Familienwappen
+                                    Prannbeck [Prombeck]) fehlt freilich. Die stämmigen Figuren und
+                                    die einfach gezeichneten Falten zeigen dasselbe Niveau. Paul
+                                    Buberl, Die illuminierten Handschriften in Steiermark 1: Die
+                                    Stiftsbibliotheken zu Admont und Vorau (Beschreibendes
+                                    Verzeichnis der illuminierten Handschriften in Österreich 4/1,
+                                    ed. Franz Wickhoff). Leipzig 1911, <cei:ref target="https://digitalesammlungen.uni-weimar.de/viewer/fullscreen/PPN671982427/286/">S. 224-228</cei:ref>, schliesst diese Handschrift und
+                                        <cei:ref target="http://www.cantusplanus.at/RISM_A-VOR255">Cod. 255</cei:ref> und <cei:ref target="http://www.cantusplanus.at/RISM_A-VOR260">Cod.
+                                        260</cei:ref> zu einer Gruppe zusammen; anzuschliessen ist
+                                    wohl auch noch <cei:ref target="http://www.cantusplanus.at/RISM_A-VOR253">Cod.
+                                        253</cei:ref>. </cei:p>
+                                <cei:p n="Autorensigle">Martin Roland</cei:p>
+                            </cei:decoDesc>
+                            <cei:material>Pergament</cei:material>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc>Wachsfarbenes Majestätssiegel (beschädigt) an rot-grüner
+                                Seidenschnur.</cei:sealDesc>
+                        </cei:auth>
+                        <cei:nota/>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl/>
+                        </cei:listBibl>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p/>
+                        <cei:quoteOriginaldatierung>an suntag nach sannd Veits
+                            tag.</cei:quoteOriginaldatierung>
+                        <cei:nota/>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:class/>
+                <cei:persName/>
+                <cei:placeName type="Region">HRR</cei:placeName>
+                <cei:index indexName="illurk-vocabulary" lemma="CoatsOfArms"/>
+                <cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted"/>
+                <cei:index indexName="illurk-vocabulary" lemma="Historiated"/>
+                <cei:index indexName="illurk-vocabulary" lemma="Miniatures"/>
+                <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours"/>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

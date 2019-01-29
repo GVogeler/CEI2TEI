@@ -1,0 +1,186 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1438-10-14_Braunschweig</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1438-10-14_Braunschweig">1438-10-14_Braunschweig</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract><cei:index>Wappenbrief</cei:index>: <cei:issuer>König
+                                <cei:persName>Albrecht II.</cei:persName></cei:issuer> bestätigt der
+                            <cei:recipient>Stadt
+                            <cei:placeName>Braunschweig</cei:placeName></cei:recipient> das
+                            Wappen.<cei:lb/><cei:issuer>König <cei:persName>Albrecht
+                                [II.]</cei:persName></cei:issuer> gibt und bestätigt
+                            (<cei:foreign>geben, bestetigen und confirmiren</cei:foreign>) mit
+                        wohlbedachtem Mut, gutem Rat, rechtem Wissen und aus besonderer Gnade
+                            <cei:recipient>Bürgermeister, Rat und Bürgern der Stadt
+                                <cei:placeName>Braunschweig</cei:placeName></cei:recipient>
+                            (<cei:foreign>Brunswig</cei:foreign>) auf deren Bitte und aufgrund der
+                        treuen Dienste, die sie und ihre Vorfahren an König und Reich vollbracht
+                        haben und künftig vollbringen werden, ein Wappen (<cei:foreign>wapen und
+                            kleynod</cei:foreign>), wie das in der Mitte der Urkunde farbig
+                        eingemalt ist (<cei:foreign>in der mitte diss genwertigen unsers brieffs
+                            gemalet und mit farbe eigentlicher usgestriechen sin</cei:foreign>). Das
+                        Wappenbild, in Silber ein roter Löwe (<cei:foreign>einen wissen schilt und
+                            darinn einen erhaben roten lewen mit eynem ufgeworffen tzagel uber sich
+                            uber des lewen rucke gestrecket</cei:foreign>), hätten die Empfänger
+                        schon lange (<cei:foreign>vor langen zyten und lenger dann in menschen
+                            gedechtniss</cei:foreign>) auf Wappen und Bannern (<cei:foreign>wapen
+                            und banyr</cei:foreign>) <cei:foreign>zu schimphe und zu
+                            ernste</cei:foreign> geführt. Er bestimmt (<cei:foreign>meynen, setzen
+                            und wollen</cei:foreign>), dass sie dieses Wappen im Feld und überall
+                            (<cei:foreign>an allen Enden</cei:foreign>) <cei:foreign>zu schimphe, zu
+                            ernste und zu herenschildes rechte, iren lehenrechten zu
+                            folgen</cei:foreign>, führen dürfen, jedoch ohne Beeinträchtigung jener,
+                        die das gleiche Wappen führen. Er gebietet allen geistlichen und weltlichen
+                        Fü[rsten, Grafen], Herren, Rittern, Knechten, Städten und Gemeinden sowie
+                        allen seinen und des Heiligen Römischen Reichs Untertanen unter Androhung
+                        schwerer Ungnade, die Empfänger in der Führung und Benützung ihres Wappens
+                            (<cei:foreign>wapen, kleynod und herschilde</cei:foreign>) nicht zu
+                            behindern.<cei:lb/>(<cei:foreign>uff mitwechen vor sant Gallen des
+                            heiligen abs tage</cei:foreign>)<cei:lb/>Daniel Maier</cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Prag (<cei:foreign>Prage</cei:foreign>)</cei:placeName>
+                        <cei:dateRange from="14381014" to="14381014">1438-10-14
+                            (15?)</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1438-10-14_Albrecht-II_Wappenbrief_Braunschweig_8.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1438-10-14_Albrecht-II_Wappenbrief_Braunschweig_1.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1438-10-14_Albrecht-II_Wappenbrief_Braunschweig_2.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1438-10-14_Albrecht-II_Wappenbrief_Braunschweig_3.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1438-10-14_Albrecht-II_Wappenbrief_Braunschweig_4.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1438-10-14_Albrecht-II_Wappenbrief_Braunschweig_5.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1438-10-14_Albrecht-II_Wappenbrief_Braunschweig_6.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1438-10-14_Albrecht-II_Wappenbrief_Braunschweig_7.JPG"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1438-10-14_Albrecht-II_Wappenbrief_Braunschweig-.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1438-10-14_Wappenbrief_Braunschweig--.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1438-10-14_Wappenbrief_Braunschweig.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1438-10-14_Wappenbrief_Braunschweig_Detail.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:arch>Stadtarchiv</cei:arch>
+                                <cei:settlement>Braunschweig</cei:settlement>, A I 1:
+                            712</cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p>Zentrales Bildfeld mit Wappen und Fahne als Oberwappen. Das
+                                    Bildfeld ist breit altrosa gerahmt, der blaue Grund weist
+                                    Filigrandekor auf.</cei:p>
+                            </cei:decoDesc>
+                            <cei:material>Pergament</cei:material>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc>Wachsfarbenes Majestätssiegel an golden-schwarzer
+                                Seidenschnur.</cei:sealDesc>
+                        </cei:auth>
+                        <cei:nota>Rechts auf der Plica: <cei:foreign>Ad mandatum domini regis
+                                d(omi)no G. Cancell(ario) referente Theodericus
+                                Ebbracht(er)</cei:foreign></cei:nota>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl>Garzmann, Wappenbrief, 1993 (mit. Abb.) (<cei:ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/EZAXJGXA">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>
+                                <cei:ref target="http://www.regesta-imperii.de/regesten/12-1-0-albrecht/nr/1438-10-14_1_0_12_1_0_436_401.html">http://www.regesta-imperii.de/regesten/12-1-0-albrecht/nr/1438-10-14_1_0_12_1_0_436_401.html</cei:ref>
+                            </cei:bibl>
+                            <cei:bibl>
+                                <cei:ref target="http://www.stadtgeschichte-ffm.de/artikel/landgraf.html">http://www.stadtgeschichte-ffm.de/artikel/landgraf.html</cei:ref>
+                            </cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p/>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">HRR (Deutschland)</cei:placeName>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+                <cei:index/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

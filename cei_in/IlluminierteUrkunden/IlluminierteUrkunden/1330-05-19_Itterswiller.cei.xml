@@ -1,0 +1,196 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1330-05-19_Itterswiller</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"
+                            <cei:lb/>Bearbeitungsstand: MITTEL</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1330-05-19_Itterswiller">1330-05-19_Itterswiller</cei:idno>
+                <cei:chDesc><cei:abstract><cei:index indexName="Illurk-Urkundenart"
+                            >Bischofsammelindulgenz</cei:index> (20 Aussteller) für St. Remigius in
+                        Itterswiller [Elsass]:<cei:lb/>Erzbischof <cei:issuer><cei:persName
+                                key="P_Guillelmus_Bar_1324">Guillelmus von
+                            Bar</cei:persName></cei:issuer>
+                        (<cei:foreign>Antibarensis</cei:foreign>) sowie die Bischöfe
+                                <cei:issuer><cei:persName key="P_Benedikt_Cardica_1330">Benedikt von
+                                Cardica</cei:persName></cei:issuer>
+                            (<cei:foreign>Cardicensis</cei:foreign>), <cei:issuer><cei:persName
+                                key="P_Meletius_Gallipoli_1327">Meletius von
+                                Gallipoli</cei:persName></cei:issuer>
+                            (<cei:quote>Gallipolitani</cei:quote>), <cei:issuer><cei:persName>Thomas
+                                    <cei:foreign>Simiscantensis</cei:foreign></cei:persName></cei:issuer>
+                        [?], <cei:issuer><cei:persName key="P_Jordanus_Colombo_false">Jordanus von
+                                Colombo</cei:persName></cei:issuer>
+                            (<cei:foreign>Columbensis</cei:foreign>), <cei:issuer><cei:persName
+                                key="P_Bernardus_Dschordschan_1329">Bernardus von
+                                Dschordschan</cei:persName></cei:issuer>
+                            (<cei:foreign>Diagorganensis</cei:foreign>), <cei:issuer><cei:persName
+                                key="P_Sergius_Kotor_1328">Sergius von
+                            Kotor</cei:persName></cei:issuer> (Chatarensis),
+                                <cei:issuer><cei:persName key="P_Radulfus_Down_1328">Radulfus von
+                                Down</cei:persName></cei:issuer>
+                            (<cei:foreign>Dunensis</cei:foreign>), <cei:issuer><cei:persName
+                                key="P_Madius_Duvno_1327">Madius von
+                            Duvno</cei:persName></cei:issuer>
+                        (<cei:foreign>Demitensis</cei:foreign>), <cei:issuer><cei:persName
+                                key="P_Johannes_Caorle_1308">Johannes von
+                            Caorle</cei:persName></cei:issuer>
+                            (<cei:foreign>Caprulanensis</cei:foreign>), <cei:issuer><cei:persName
+                                key="P_Vinzenz_Patti_1342">Vinzenz von
+                            Mariana</cei:persName></cei:issuer>
+                            (<cei:foreign>Mariensis</cei:foreign>), <cei:issuer><cei:persName
+                                key="P_Stephanus_Pharus_1329">Stephanus von
+                            Pharus</cei:persName></cei:issuer>
+                        (<cei:foreign>Pharensis</cei:foreign>), <cei:issuer><cei:persName
+                                key="P_Bonifatius_Sulcis_1326">Bonifatius von
+                            Sulcis</cei:persName></cei:issuer>
+                        (<cei:foreign>Sulcitani</cei:foreign>), <cei:issuer><cei:persName
+                                key="P_AngelusI_Grosseto_false">Angelus von
+                            Grosseto</cei:persName></cei:issuer>
+                            (<cei:foreign>Groscitani</cei:foreign>), <cei:issuer><cei:persName
+                                key="P_Guillelmus_Taebris_1329">Guillelmus von
+                            Täbris</cei:persName></cei:issuer>
+                            (<cei:foreign>Taurisiensis</cei:foreign>), <cei:issuer><cei:persName
+                                key="P_Johannes_Cassano_1329">Johannes von
+                            Cassano</cei:persName></cei:issuer>
+                            (<cei:foreign>Cassanesis</cei:foreign>), <cei:issuer><cei:persName
+                                key="P_Vinzenz_Patti_1342">Vinzenz von
+                            Nebbio</cei:persName></cei:issuer>
+                        (<cei:foreign>Nebiensis</cei:foreign>), <cei:issuer><cei:persName
+                                key="P_Johannes_Serbien_1329">Johannes von
+                            Serbien</cei:persName></cei:issuer>
+                            (<cei:foreign>Serbiensis</cei:foreign>), <cei:issuer><cei:persName
+                                key="P_Jordanus_Acerno_1319">Jordansus von
+                            Acerno</cei:persName></cei:issuer>
+                            (<cei:foreign>Acernensis</cei:foreign>) und <cei:issuer><cei:persName
+                                key="P_Thomas_Annaghdown_1327">Thomas von
+                            Annaghdown</cei:persName></cei:issuer>
+                            (<cei:foreign>Enagdunensis</cei:foreign>) erteilen all jenen einen
+                        Ablass von 40 Tagen (<cei:foreign>misericorditer in Domino
+                            relaxamus</cei:foreign>), die die in der Diözese Strassburg gelegene
+                        Kapelle zu Ehren Gottes und des heiligen Remigius in Itterswiller
+                            (<cei:foreign>capella fundata in honore Dei patris omnipotentis et
+                            sancti Remigii in Witriswiler, Argentinensis diocesis</cei:foreign>) an
+                        bestimmten Festtagen und – soweit gegeben – in der jeweiligen Oktav reumütig
+                        und nach Ablegung der Beichte besuchen und dort welchen Messfeierlichkeiten
+                        auch immer beiwohnen, und zwar an den Feiertagen des Patrons dieser Kapelle
+                        und aller Heiligen, deren Reliquien in den dortigen Altären aufbewahrt
+                        werden, zu Weihnachten, zu den Festen der Beschneidung und der Erscheinung
+                        des Herrn, am Karfreitag, zu Ostern, Christi Himmelfahrt, Pfingsten, zu
+                        Fronleichnam, an allen Marienfeiertagen, an den Feiertagen des heiligen
+                        Erzengels Michael, des Apostels und Evangelisten Johannes, aller anderen
+                        Apostel und Evangelisten, des heiligen Laurenz, des heiligen Stephan, des
+                        heiligen Vinzenz, des heiligen Georg, des heiligen Nikolaus, des heiligen
+                        Martin, des heiligen Benedikt, des heiligen Augustinus, der heiligen Maria
+                        Magdalena, der heiligen Katharina, der heiligen Margarete, der heiligen
+                        Agnes, des heiligen Lucia, am Kreuzauffindungstag, am Kreuzerhöhungstag, zu
+                        Allerheiligen, zu Allerseelen sowie am Weihetag der Kapelle. Weiters wird
+                        all jenen Ablass erteilt, die für den Bau, die Beleuchtung und die sonstige
+                        Ausstattung der Kapelle aufkommen, die dem für diese Kapelle zuständigen
+                        Geistlichen eine karitative Spende geben, die ihr Sünden bei demselben
+                        beichten oder irgendein anderes kirchliches Sakrament von ihm empfangen, ie
+                        beim Abendläuten mit gebeugten Knien drei Ave-Maria beten, die den
+                        Geistlichen beim Versehgang begleiten sowie jenen, die für die Wohltäter und
+                        den genannten Geistlichen dieser Kapelle Gebete sprechen.<cei:lb/>Markus
+                        Gneiss</cei:abstract> Meletius von Gallipoli
+                            (Gallipolitani)<cei:issued><cei:placeName>Avignon</cei:placeName><cei:dateRange
+                            from="13300519" to="13300519"
+                            >1330-05-19</cei:dateRange></cei:issued><cei:witnessOrig><cei:traditioForm>Original</cei:traditioForm><cei:figure><cei:graphic
+                                url="http://images.monasterium.net/illum/IllUrk/1330-05-19_Itterswiller-.jpg"
+                            /></cei:figure><cei:figure><cei:graphic
+                                url="http://images.monasterium.net/illum/IllUrk/1330-05-19_Itterswiller-detail-.jpg"
+                            /></cei:figure>
+                                <cei:archIdentifier>
+                                    <cei:altIdentifier><cei:settlement>Itterswiller</cei:settlement><cei:idno></cei:idno>
+                                <cei:arch>Pfarrarchiv</cei:arch>
+                                    </cei:altIdentifier><!--(aufbewahrt in:-->
+                                <cei:settlement>Strassburg</cei:settlement>, <cei:arch>Archives
+                                départementales du Bas-Rhin</cei:arch>, <cei:archFond>Itterswiller,
+                                </cei:archFond><cei:idno>2 G 226,1</cei:idno>)
+                                    </cei:archIdentifier><cei:physicalDesc><cei:decoDesc><cei:p
+                                    n="Ekphrasis"><cei:index indexName="IllUrkGlossar"
+                                        lemma="HistorisierteAvignonerBischofsammelindulgenz"
+                                        >Historisierte Avignoner Bischofsammelindulgenz</cei:index>:
+                                    Historisierte Initiale U(niversis) zu Textbeginn, die drei
+                                    weiteren vergrösserten Initialen der ersten Zeile in den
+                                    Binnenfeldern gefüllt mit Aussparungen in Federzeichnung vor
+                                    quadriertem Grund, das M(atris) im Binnenfeld mit Fischen. Im
+                                    Textfeld drei einzeilige lombardenartig geformte vergrösserte
+                                    Majuskeln, zwei davon gespalten. </cei:p><cei:p n="Ekphrasis"
+                                    >Sechs Zeilen hohe historisierte Initiale zu Textbeginn: in
+                                    Feder gezeichnet und koloriert (kolorierte Federzeichnung). Im
+                                    Binnenfeld eine <cei:index indexName="IllUrkGlossar"
+                                        lemma="Christusbueste">Christusbüste</cei:index> mit
+                                    erhobenen Händen. Der Buchstabenkörper mit ausgesparten und
+                                    kolorierten Kreuzblüten bzw. Trifolien. </cei:p><cei:p
+                                    n="Stil und Einordnung">Der Zeichner ist der bisher am längsten
+                                    in der <cei:index indexName="IllUrkGlossar"
+                                        lemma="WerkstattderAvignonerBischofsammelindulgenzen"
+                                        >Werkstatt der Avignoner
+                                        Bischofsammelindulgenzen</cei:index> nachweisbare <cei:index
+                                        indexName="IllUrkGlossar"
+                                        lemma="ZeichnermitdenMasswerkmotiven">Zeichner mit den
+                                        Masswerkmotiven</cei:index>, hier an seinen Kreuzblüten
+                                    erkennbar. </cei:p><cei:p n="Stil und Einordnung">Für
+                                    Itterswiler modifiziert er die Vorlage von <cei:ref
+                                        target="http://monasterium.net/mom/IlluminierteUrkunden/1328-06-07_Bruessel/charter"
+                                        >1328 Juni für Léau</cei:ref> (von einem anderen Zeichner)
+                                    mit den andersfarbigen Rändern des Gewands und setzt – freilich
+                                    lediglich als rote Punkte unterhalb des Jochbeins – Wangenrot
+                                    ein. Aus seinen mandelförmigen Augen sind nun unten ein gerader
+                                    Strich und oben eine ansteigende Linie um die Pupillen geworden.
+                                    Wie häufiger zu beobachten, lässt er die Wundmale Christi
+                                    weg.</cei:p><cei:p n="Autorensigle">Martin Roland, Gabriele
+                                    Bartz</cei:p></cei:decoDesc><cei:material>Pergament</cei:material><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:notariusDesc/><cei:sealDesc>Siegel
+                                auf dem Foto nicht sichtbar.</cei:sealDesc></cei:auth><cei:nota>auf
+                            der Vorderseite keine sichtbar, kein Bild der Rückseite
+                            vorhanden.</cei:nota><cei:rubrum/></cei:witnessOrig><cei:witListPar><cei:witness><cei:traditioForm/><cei:figure/><cei:archIdentifier/><cei:physicalDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:sealDesc/><cei:notariusDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witness></cei:witListPar><cei:diplomaticAnalysis><cei:listBibl><cei:bibl
+                                key="">Trankskription in: Straßburger Diözesanblatt 11,
+                                Archivalische Beilage, 1892, S. 99-100. (<cei:ref
+                                    target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/6R6KFS94/q/Diözesanblatt"
+                                    >Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl
+                                key="zotero:V7VGM46N">Lehni, Itterswiller, 1970, S. 3–5. (<cei:ref
+                                    target="http://zotero.org/groups/257864/items/V7VGM46N"
+                                    >Volltitel auf
+                            Zotero</cei:ref>)</cei:bibl></cei:listBibl><cei:listBiblRegest><cei:bibl/></cei:listBiblRegest><cei:listBiblFaksimile><cei:bibl/></cei:listBiblFaksimile><cei:listBiblErw><cei:bibl/></cei:listBiblErw><cei:p>Arenga
+                            (Incipit): <cei:foreign>Pia mater ecclesia ...
+                            .</cei:foreign></cei:p><cei:p>Markus
+                            Gneiss</cei:p><cei:quoteOriginaldatierung/><cei:nota/><cei:listBiblEdition><cei:bibl/></cei:listBiblEdition></cei:diplomaticAnalysis><cei:lang_MOM/></cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">Frankreich (Kurie)</cei:placeName>
+                <cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1:
+                    historisiert</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: Mit
+                    zusätzlichen Farben</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="ExecutionDraw">N1:
+                    gezeichnet</cei:index>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

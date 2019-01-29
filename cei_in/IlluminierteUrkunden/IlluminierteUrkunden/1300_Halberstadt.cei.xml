@@ -1,0 +1,179 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1300_Halberstadt</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"
+                            <cei:lb/>Bearbeitungsstand: MITTEL</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1300_Halberstadt">1300_Halberstadt</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract>Halberstädter Ablasstafel.<cei:lb/>Kardinäle, Erzbischöfe und
+                        Bischöfe haben dieser Kirche sieben Jahre und 45 Tage Ablass und [den
+                        Erlass] zehn vierzigtägiger Busszeiten verliehen. Darüber hinaus gewährte
+                        der Herr Papst Nikolaus IV. ein Jahr und vierzig Tage, der Herr Papst
+                        Innozenz IV. vierzig Tage. Dieser Ablass besteht an allen Festtagen der
+                        heiligen Maria und am Tag der (Kirch-)Weihe und während ihrer Oktaven. Die
+                        Gesamtheit des Ablasses: Es sind acht Jahre und 85 Tage und zehn
+                        vierzigtägige Busszeiten. <cei:lb/>(Christine Magin) </cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>(Halberstadt)</cei:placeName>
+                        <cei:dateRange from="13009999" to="13009999">1300 circa</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1300_ca_Halberstaetter-Ablasstafel-und-Madonna.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1300_ca_Halberstaetter-Ablasstafel_a.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1300_ca_Halberstaetter-Ablasstafel_b.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Halberstadt</cei:settlement><cei:arch>Domschatz,</cei:arch><cei:idno>Inv.-Nr.32.</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Stil und Einordnung">Im Domschatz von Halberstadt hat sich
+                                    eine ursprünglich aus der dortigen Liebfrauenkirche stammende
+                                    Messingtafel erhalten, auf der Ablässe aufgezählt werden, die
+                                    damals an der Kirche zu gewinnen waren, und deren Summe taxativ
+                                    angegeben ist.</cei:p>
+                                <cei:p n="Stil und Einordnung">Dieses ablassspezifische
+                                    „Werbemittel“ war spätestens 1737 aussen an, später in der
+                                    Kirche zu sehen. Als optisches Signakel zeigt die Platte eine
+                                    thronende Madonna mit Kind, deren Stil zu jener Datierung passt,
+                                    die sich aus dem Zeitansatz der angeführten Indulgenzen ergibt
+                                    (nach 1290). </cei:p>
+                                <cei:p n="Stil und Einordnung">Die Darstellung referiert auf die
+                                    sogenannte „Halberstädter Sitzmadonna“, in der die verehrten
+                                    Marienreliquien verschlossen gewesen sein dürften. Das Bildwerk
+                                    selbst wurde möglicherweise in einem noch heute erhaltenen
+                                    Schrein verwahrt, siehe Fuhrmann, Inschriften, Kat.-Nr.
+                                    21.</cei:p>
+                                <cei:p n="Stil und Einordnung">Knapp vor bzw. um 1300 gab es also
+                                    bereits die zukunftsweisende Idee, einen auf die Ablässe
+                                    bezogenen Text mit einem entsprechenden Bild – hier mit dem des
+                                    in dieser Kirche verehrten Kultbilds – zu kombinieren. </cei:p>
+                                <cei:p n="Stil und Einordnung">Der Schritt zum illuminierten
+                                    Ablassbrief war also gleichsam vorgezeichnet, der dann –
+                                    bezeichnenderweise zunächst in einer Einzelindulgenz – <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1315-05-23_Florenz/charter">1315 Mai 23</cei:ref> in Lüttich/Liège – bzw. <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1323-05-11_Amiens/charter">1323 Mai 11</cei:ref> in Form eines Sammelablasses an der
+                                    Kurie nachweisbar ist.</cei:p>
+                                <cei:p n="Autorensigle">Andreas Zajic, Martin Roland</cei:p>
+                                <cei:p/>
+                            </cei:decoDesc>
+                            <cei:material>Messingtafel</cei:material>
+                            <cei:dimensions>ca. <cei:height>40</cei:height> cm</cei:dimensions>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc/>
+                        </cei:auth>
+                        <cei:nota/>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl key="zotero:ER2VHKET"/>
+                            <cei:bibl>Magin, Ablassinschrift, 2011: <cei:ref target="https://rep.adw-goe.de/bitstream/handle/11858/00-001S-0000-0001-CC1F-9/Magin-Ablassinschriften.pdf?sequence=1">https://rep.adw-goe.de/bitstream/handle/11858/00-001S-0000-0001-CC1F-9/Magin-Ablassinschriften.pdf?sequence=1</cei:ref>,
+                                Abschnitt 1. (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/UNENHMVK">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Honemann, Vorformen, 2000, S. 16. (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/JNLWM5ZX">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Fuhrmann, Inschriften, Dom, Halberstadt, 2009 , Kat.-Nr. 27
+                                (mit Abb.40): online: <cei:ref target="urn:nbn:de:0238-di075l003k0002700">urn:nbn:de:0238-di075l003k0002700</cei:ref>. (<cei:ref target="http://zotero.org/groups/257864/items/ER2VHKET">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:BH99RHAK">Roland, Zajic, Illuminierte Urkunden,
+                                2013, S. 313f.: online: <cei:ref target="http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf">http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf</cei:ref>
+                                    (<cei:ref target="http://zotero.org/groups/257864/items/BH99RHAK">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p>Die hier in die Datenbank aufgenommene Tafel ist natürlich keine
+                            Urkunde, sondern ein Summarium, das vor Ort zu erwerbende Ablässe
+                            aufzählt. </cei:p>
+                        <cei:p>Warum das Stück hier (als Grenzüberschreitung) doch Aufnahme findet,
+                            wird im kunsthistorischen Kommentar begründet.</cei:p>
+                        <cei:p>Die Tafel addiert die einzelnen Ablässe, die der Kirche von
+                            Kardinälen, Erzbischöfen und Bischöfen verliehen worden seien, sowie je
+                            einen Ablass von Papst Innozenz IV. (1243–1254; 40 Tage) und Papst
+                            Nikolaus IV. (1288–1292; ein Jahr und 40 Tage) zu insgesamt acht Jahren,
+                            85 Tagen und zehn Karenen und irrt damit um zehn Tage gegenüber der
+                            korrekt zu bildenden Summe. </cei:p>
+                        <cei:p>Das Datum des zweiten päpstlichen Ablasses, 1290 Juli 1, stellt
+                            zugleich den Terminus post quem für die Anfertigung der Tafel
+                            dar.</cei:p>
+                        <cei:p>Martin Roland, Andreas Zajic</cei:p>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor>CARDINALES • ARCHIEPISCOPI • ET • EP( ISCOP)I • CONTVLERV(N)T / ISTI •
+                    ECCL(ESI)E • VII • ANNOS • ET • XLV • DIES • INDVLGENC/IE • ET • X • KARRENAS •
+                    INSVP(ER) • D(OMI)N(V)S • NICOLAVS • PAPA • / IIII • DEDIT • ANNVM • ET • XL •
+                    DIES • D(OMI)N(V)S • INNOCEN/CIVS • PAPA • IIII • XL • DIES • HEC • INDVLGENCIA
+                    • D/VRAT • IN OMNIBVS • FESTIVITATIBVS • SANCTE • M/ARIE • ET • IN DIE •
+                    DEDICACIONIS • ET • PER OCTA/VAS • EARVM • SVMMA • INDVLGENCIE • SVNT • / VIII •
+                    ANNI • ET • LXXXV • DIES • ET • X • KARRENE • <cei:lb/>(Hans
+                    Fuhrmann)</cei:tenor>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">HRR </cei:placeName>
+                <cei:placeName type="Region">Deutschland</cei:placeName>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+                <cei:index/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

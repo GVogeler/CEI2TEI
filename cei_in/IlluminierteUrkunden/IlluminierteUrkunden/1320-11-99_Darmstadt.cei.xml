@@ -1,0 +1,150 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1320-11-99_Darmstadt</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:link rel="versionOf" ref="tag:www.monasterium.net,2011:/charter/DE-UBHD/UrkLehmann/Urk_Lehmann_630"/>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"
+                            <cei:lb/>Bearbeitungsstand: MITTEL</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1320-11-99_Darmstadt">1320-11-99_Darmstadt</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract><cei:index indexName="Illurk-Urkundenart">Bischofsammelindulgenz</cei:index>:<cei:lb/> Die Aussteller gewähren
+                        den Gläubigen, die in Andacht den Altar St. Barbara im Kloster Georgenberg
+                        vor Frankenberg an den Festtagen St. Barbara, Christi Geburt, Beschneidung,
+                        Epiphanias, Palmarum, Gründonnerstag, Karfreitag, Auferstehung, Himmelfahrt,
+                        Pfingsten, Kreuzfindung, Kreuzerhöhung, Fronleichnam, an den Festtagen der
+                        hl. Messe, Michael Archangelus, Johannes der Täufer, Stephan, Laurentius,
+                        Dyonisius, Georg, 10000 Märtyrer, Martin, Nicolaus, Antonius, Benedikt,
+                        Maria Magdalena, Katharina, Agnes Margarete, Lucia, Cecilie, 11000
+                        Jungfrauen, Elisabeth, Anna, Allerheiligen, Allerseelen, in den Fasten vor
+                        Ostern, in der Adventszeit und an den Oktaven der genannten Feste besuchen,
+                        ihm etwas stiften, die beim Glockenläuten drei Ave Maria sagen, den Kirchhof
+                        des Klosters umschreiten und zum Seelenheil der Begrabenen ein Vaterunser
+                        mit dem Englischen Gruss sagen, zur Kirchenfabrik beisteuern und in der
+                        Messe beim Namen Jesu und Mariae ihre Häupter neigen und ihre Knie beugen,
+                        einen Ablass von 40 Tagen. <cei:lb/>Als Aussteller sind genannt: Erzbischof
+                                <cei:issuer><cei:persName>Esgerus von
+                            Lund</cei:persName></cei:issuer> (<cei:quote>Londensis</cei:quote>),
+                        Primas in Schweden (<cei:quote>Suecie</cei:quote>), Erzbischof
+                                <cei:issuer><cei:persName key="P_Matthaeus_Durazzo_1320">Matthäus
+                                von Durrazo</cei:persName></cei:issuer>
+                            (<cei:quote>Duracensis</cei:quote>), Bischof
+                                <cei:issuer><cei:persName>Rudolf von
+                            Salona</cei:persName></cei:issuer> (<cei:quote>Solanensis</cei:quote>),
+                        Bischof <cei:issuer><cei:persName key="P_Zacharias_Sfacia_1318">Zacharias
+                                von Sas</cei:persName></cei:issuer> (Suaciensis) und Bischof
+                                <cei:issuer><cei:persName>Egidius von
+                            Adrianopel</cei:persName></cei:issuer>
+                            (<cei:quote>Adrianopolensis</cei:quote>) (nach
+                        HADIS).<cei:lb/></cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Avignon</cei:placeName>
+                        <cei:dateRange from="13201199" to="13201199">1320-11-99</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure/>
+                        <cei:archIdentifier><cei:settlement>Darmstadt</cei:settlement>
+                            <cei:arch>Hessisches Staatsarchiv</cei:arch><cei:archFond>Urkunden der
+                                Grafschaft Hanau-Lichtenberg (Bestand B 2)</cei:archFond>
+                            <cei:idno>Nr. 230</cei:idno>
+                                    <cei:altIdentifier><cei:settlement>Heildelberg</cei:settlement>
+                                <cei:arch>Universitätsbibliothek</cei:arch>
+                                <cei:archFond>Urkunden, Sammlung Lehmann</cei:archFond>
+                                <cei:idno>Urk. 630</cei:idno>
+                            <cei:note>(Initiale).</cei:note></cei:altIdentifier></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis">In der Archivdatenbank keine Informationen zur
+                                    Ausstattung. </cei:p>
+                            </cei:decoDesc>
+                            <cei:material/>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc/>
+                        </cei:auth>
+                        <cei:nota/>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl>
+                                <cei:ref target="https://arcinsys.hessen.de/arcinsys/detailAction?detailid=v591974">https://arcinsys.hessen.de/arcinsys/detailAction?detailid=v591974</cei:ref>
+                            </cei:bibl>
+                            <cei:bibl>
+                                <cei:ref target="http://digi.ub.uni-heidelberg.de/diglit/lehm630">http://digi.ub.uni-heidelberg.de/diglit/lehm630</cei:ref>
+                            </cei:bibl>
+                            <cei:bibl key="zotero:DRXWAU7R">Schunder, Oberhessische Klöster, 1961,
+                                Nr. 400. (<cei:ref target="http://zotero.org/groups/257864/items/DRXWAU7R">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p>Kommentar:<cei:lb/>Urkundenbeschreibung in <cei:ref target="http://monasterium.net/mom/DE-UBHD/UrkLehmann/Urk_Lehmann_630/charter">monasterium.net</cei:ref>.</cei:p>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">Frankreich (Kurie)</cei:placeName>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+                <cei:index/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

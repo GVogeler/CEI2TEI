@@ -1,0 +1,218 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+  <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1331-05-09_Oxford</atom:id>
+  <atom:title/>
+  <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+  <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+  <atom:author>
+    <atom:email>illuminierteurkunden@gmail.com</atom:email>
+  </atom:author>
+  <app:control xmlns:app="http://www.w3.org/2007/app">
+    <app:draft>no</app:draft>
+  </app:control>
+  <atom:content type="application/xml">
+    <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+      <cei:front>
+        <cei:sourceDesc>
+          <cei:sourceDescVolltext>
+            <cei:bibl/>
+          </cei:sourceDescVolltext>
+          <cei:sourceDescRegest>
+            <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+          </cei:sourceDescRegest>
+        </cei:sourceDesc>
+      </cei:front>
+      <cei:body>
+        <cei:idno id="1331-05-09_Oxford">1331-05-09_Oxford</cei:idno>
+        <cei:chDesc>
+          <cei:abstract><cei:index indexName="Illurk-Urkundenart">Bischofsammelindulgenz
+            </cei:index>(7 Aussteller) für alle, die für alle verstorbenen Gläubigen und speziell
+            für die Seelen der verstorbenen Robert de Holland, Galfried von Sutton und von dessen
+            Frau Christine beten und andere fromme Werke tätigen:<cei:lb/>Erzischof
+                <cei:issuer><cei:persName key="P_Apostolus_Nikopolis_1331">Apostolus von
+                Nikopolis</cei:persName></cei:issuer> (<cei:quote type="italic"
+            >Nicopoli</cei:quote>) sowie die Bischöfe <cei:issuer><cei:persName
+                key="P_Bonifatius_Sulcis_1326">Bonifatius von Sulcis</cei:persName></cei:issuer>
+              (<cei:quote type="italic">Sulcitanensis</cei:quote>), <cei:issuer><cei:persName
+                key="P_Johannes_Serbien_1329">Johannes von Serbien</cei:persName></cei:issuer>
+              (<cei:quote type="italic">Serbiensis</cei:quote>), <cei:issuer><cei:persName
+                key="P_Jakobus_Castro_1321">Jakobus von Castro</cei:persName></cei:issuer>
+              (<cei:quote type="italic">Castrensis</cei:quote>), <cei:issuer><cei:persName
+                key="P_Jordanus_Bobbio_1326">Jordanus von Bobbio</cei:persName></cei:issuer>
+              (<cei:quote type="italic">Bobiensis</cei:quote>), <cei:issuer><cei:persName
+                key="P_Meletius_Gallipoli_1327">Meletius von Gallipoli</cei:persName></cei:issuer>
+              (<cei:quote type="italic">Gallipolitanensis</cei:quote>) und <cei:issuer><cei:persName
+                key="P_Antonius_Sagona_1328">Antonius von Sagona</cei:persName></cei:issuer>
+              (<cei:quote type="italic">Sagonensis</cei:quote>) erteilen all jenen einen Ablass von
+            40 Tagen (<cei:quote type="italic">misericorditer in Domino relaxamus</cei:quote>), die
+            für die Seelen des verstorben Ritters Robert de Holland (<cei:quote type="italic">pro
+              animabus Roberti de Holand quondam militis)</cei:quote> und Galfrieds von Sutton sowie
+            von dessen Frau Christine (<cei:quote type="italic">Galfridi de Suttone et Cristine
+              uxoris sue</cei:quote>), wo auch immer ihre Körper ruhen (<cei:quote type="italic"
+              >ubicumque corpora eorum in Christo requiescunt</cei:quote>), sowie für alle anderen
+            verstorbenen Gläubigen ein Vater Unser mit dem Engelsgruss beten, für diese Messen
+            feiern oder feiern lassen, ein Totenamt, den Psalter oder die sieben Busspsalmen
+            sprechen oder sprechen lassen und auch jenen, die Almosen geben.<cei:lb/>Markus Gneiss </cei:abstract>
+          <cei:issued>
+            <cei:placeName>Avignon</cei:placeName>
+            <cei:dateRange from="13310509" to="13310509">1331-05-09</cei:dateRange>
+          </cei:issued>
+          <cei:witnessOrig>
+            <cei:traditioForm>Original</cei:traditioForm>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1331-05-09_fuer-Ropbertus-de-Holland_Oxford-Magdalen-Coll-muniments-Brackley-d-250-1_IMG_3860.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1331-05-09_fuer-Ropbertus-de-Holland_Oxford-Magdalen-Coll-muniments-Brackley-d-250-1_IMG_3870.jpg"
+              />
+            </cei:figure>
+            <cei:archIdentifier>
+              <cei:settlement>Oxford, </cei:settlement>
+              <cei:arch>Magdalen College, </cei:arch>
+              <cei:archFond>Muniments Brackley, </cei:archFond>
+              <cei:idno>d 250-1</cei:idno>
+            </cei:archIdentifier>
+            <cei:physicalDesc>
+              <cei:decoDesc>
+                <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar"
+                    lemma="HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner
+                    Bischofsammelindulgenz</cei:index>: Historisierte Initiale U(niversis) zu
+                  Textbeginn und zwei vergrösserte Initialen mit Aussparungen vor farbigem Grund in
+                  den Binnenfeldern. Im Text zwei vergrösserte einzeilige Initialen mit Aussparungen
+                  und Farbe, das C(upientes) mit einem Gesicht im Binnenfeld.</cei:p>
+                <cei:p n="Ekphrasis">Sechs Zeilen hohe historisierte Initiale zu Textbeginn: in
+                  Feder vorgezeichnet und mit Rot, Grün, Gelb und Braun ausgemalt. Im Binnenfeld
+                    <cei:index indexName="IllUrkGlossar" lemma="Christusbueste"
+                    >Christusbüste</cei:index> mit erhobenen Händen. Der rot und grün gespaltene
+                  Buchstabenkörper mit zwischen Farbflächen ausgesparter Blattranke. Die Zwickel des
+                  Initialfeldes monochrom gelb gefüllt. Der Buchstabe ragt nach links in den Rand
+                  hinaus, wobei die innere Begrenzung des Bogens in etwa am Textspiegel
+                  ansetzt.</cei:p>
+                <cei:p n="Ekphrasis">Auf der rechten Seite am Rand Doppellinierung erkennbar. Ob es
+                  sich bei den Löchern mit Rostspuren oben um Spuren ehemaliger Anbringung handelt,
+                  ist nicht ganz klar.</cei:p>
+                <cei:p n="Stil und Einordnung">Das En-face-Gesicht im Binnenfeld des „C“ im
+                  Textblock ist ein in der <cei:index indexName="IllUrkGlossar"
+                    lemma="WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                    Bischofsammelindulgenzen</cei:index> immer wieder genutztes Dekorationselement;
+                  man kennt es schon seit den Anfängen des Zeichners mit den Masswerkmotiven. In
+                  zeitlicher Nähe zum Ablass finden sich <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1330-04-05_Donaueschingen/charter"
+                    >1330 April 5 für Wittichen</cei:ref>, <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1330-04-06_Wien/charter"
+                    >1330 April 6 für Reifenstein</cei:ref> und <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1330-10-08_Darmstadt/charter"
+                    >1330 Oktober 8 für die Forstwaldkapelle</cei:ref>.</cei:p>
+                <cei:p n="Autorensigle">Gabriele Bartz</cei:p>
+              </cei:decoDesc>
+              <cei:material>Pergament</cei:material>
+              <cei:dimensions/>
+              <cei:condition/>
+            </cei:physicalDesc>
+            <cei:auth>
+              <cei:notariusDesc/>
+              <cei:sealDesc>sieben Seidenschnüre noch vorhanden, die Siegel jedoch alle
+                abgefallen.</cei:sealDesc>
+            </cei:auth>
+            <cei:nota>Arenga (Incipit): <cei:quote>Eterni patris filius ...
+              </cei:quote>.<cei:lb/>Vermerke: Auf der Vorderseite keine sichtbar; kein Bild der
+              Rückseite vorhanden.</cei:nota>
+            <cei:rubrum/>
+          </cei:witnessOrig>
+          <cei:witListPar>
+            <cei:witness>
+              <cei:traditioForm/>
+              <cei:figure/>
+              <cei:archIdentifier/>
+              <cei:physicalDesc>
+                <cei:material/>
+                <cei:dimensions/>
+                <cei:condition/>
+              </cei:physicalDesc>
+              <cei:auth>
+                <cei:sealDesc/>
+                <cei:notariusDesc/>
+              </cei:auth>
+              <cei:nota/>
+              <cei:rubrum/>
+            </cei:witness>
+          </cei:witListPar>
+          <cei:diplomaticAnalysis>
+            <cei:listBibl>
+              <cei:bibl/>
+            </cei:listBibl>
+            <cei:listBiblRegest>
+              <cei:bibl/>
+            </cei:listBiblRegest>
+            <cei:listBiblFaksimile>
+              <cei:bibl/>
+            </cei:listBiblFaksimile>
+            <cei:listBiblErw>
+              <cei:bibl/>
+            </cei:listBiblErw>
+            <cei:p>Kommentar:</cei:p>
+            <cei:p>In diesem Ablass wird ein nicht allzu oft vorkommendes Diktat verwendet. Wie
+              bereits bei der Indulgenz für die Habsburgergräber im <cei:ref
+                target="http://monasterium.net/mom/IlluminierteUrkunden/1329-09-06_Bern/charter"
+                >Kloster Königsfelden</cei:ref> (1329 September 9) und später für die <cei:ref
+                target="http://monasterium.net/mom/IlluminierteUrkunden/1344-04-12_Stuttgart/charter"
+                >Grablege der Herren von Ehestetten</cei:ref> (1344 April 12) erfolgt auch hier die
+              volle Konzentration auf die frommen Handlungen für die Seelen der genannten
+              Verstorbenen, jedoch mit dem Unterschied, dass in der vorliegenden Urkunde kein
+              konkreter Begräbnisort genannt wird (<cei:quote type="italic">ubicumque corpora eorum
+                in Christo requiescunt</cei:quote>). Die Stücke für Königsfelden und die Gräber der
+              Ehestettener in Blaubeuren enthalten ausserdem mehr Ablassgelegenheiten als die
+              vorliegende Indulgenz von 1331, wie beispielsweise die Teilnahme an den
+              Jahrtagsmessen. Die Zahl der Aussteller ist mit sieben bei dem Ablass von 1331
+              deutlich geringer als im Königfeldener (14) und im Ehestettener (12) Stück; der
+              Schreiber hatte deutlich Mühe, den bereits vorgefertigten Platz, der offenbar für eine
+              höhere Personenzahl konzipiert war, mit den wenigen genannten Ausstellern zu füllen.
+              Die Arenga (<cei:quote type="italic">Eterni patris filius ...</cei:quote>) ist in
+              allen drei Urkunden überenistimmend, auch die Überleitung in die Dispositio ist
+              wortident.</cei:p>
+            <cei:p>Der genannte Robert de Holland, der explizit als verstorbener Ritter (<cei:quote
+                type="italic">quondam miles</cei:quote>) bezeichnet wird, ist mit dem ersten Baron
+              Holand aus der gleichnamigen englischen Adelsfamilie zu identifizieren. Er diente
+              Thomas Plantagenet, Earl of Lancaster und Anführer der Adelsopposition gegen König
+              Eduard II. Nachdem Robert de Holland im Jahr 1321 dem Earl of Lancaster seine
+              Gefolgschaft aufgekündigt und zur Partei des Königs übergelaufen war, entging er zwar
+              – anders als Thomas Plantagenet – der Hinrichtung, befand sich jedoch bis 1327 in
+              königlicher Gefangenschaft. Nach seiner Freilassung Ende des Jahres 1327 wurde er am
+              7. Oktober 1328 wahrscheinlich von einem Parteigänger des Earl von Lancaster ermordet.
+              Sein Grab befand sich in Preston, Lancashire in der dortigen Franziskanerkirche. Vgl.
+              zu diesesr Familie Cokayne, Complete Peerage 4, 1892, S. 236f., online: <cei:ref
+                target="https://archive.org/details/completepeerage02cokagoog"
+                >https://archive.org/details/completepeerage02cokagoog</cei:ref> (21 Jänner 2016).
+              Warum der Ablass von 1331 die genaue Begräbnisstätte des Robert de Holland
+              verschweigt, muss offenbleiben. </cei:p>
+            <cei:p> Über Tod und Grablege Galfrieds/Geoffreys de Sutton und seiner Frau Christine
+              konnten keine weiteren Informationen gefunden werden. </cei:p>
+            <cei:p> Markus Gneiss </cei:p>
+            <cei:quoteOriginaldatierung/>
+            <cei:nota/>
+            <cei:listBiblEdition>
+              <cei:bibl/>
+            </cei:listBiblEdition>
+          </cei:diplomaticAnalysis>
+          <cei:lang_MOM/>
+        </cei:chDesc>
+        <cei:tenor/>
+      </cei:body>
+      <cei:back>
+        <cei:persName/>
+        <cei:placeName type="Region">Frankreich (Kurie)</cei:placeName>
+        <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1: historisiert</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: Mit zusätzlichen
+          Farben</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1: gemalt</cei:index>
+        <cei:divNotes>
+          <cei:note/>
+        </cei:divNotes>
+        <cei:class/>
+      </cei:back>
+    </cei:text>
+  </atom:content>
+</atom:entry>

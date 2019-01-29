@@ -1,0 +1,152 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1162-99-99_Klosterneuburg-Klosterneuburg</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:link rel="versionOf" ref="tag:www.monasterium.net,2011:/charter/AT-StiAK/KlosterneuburgCanReg/1162"/>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1162-99-99_Klosterneuburg-Klosterneuburg">1162-99-99_Klosterneuburg-Klosterneuburg</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract>Herzog Heinrich [II.] von Österreich (<cei:quote type="italic">dux
+                            Austrie</cei:quote>) verspricht Marquard, Propst des Stifts
+                        [Kloster-]Neuburg (<cei:quote type="italic">Niuuenburgensis ecclesie
+                            preposito</cei:quote>), der Grablege seiner Eltern, alle Privilegien,
+                        insbesondere diejenigen, die das Stift von seinem Vater, den römischen
+                        Päpsten und vom verstorbenen römischen König Konrad [III.] erhalten hat, zu
+                        bewahren (<cei:quote type="italic">a nobis</cei:quote> [...] <cei:quote type="italic">conservari volumus</cei:quote>) und bestimmt (<cei:quote type="italic">statuimus</cei:quote>), nachdem er von mehreren
+                        Beschwerlichkeiten durch die Rücksichtslosigkeit (<cei:quote type="italic">inportunitatem</cei:quote>) der Untervögte (<cei:quote type="italic">subadvocatorum</cei:quote>) gehört hat, dass diese nur mehr nach
+                        Ermessen (<cei:quote type="italic">arbitrium</cei:quote>) des Propstes
+                        eingesetzt und bei erneuten Schädigungen des Stifts auch wieder abgesetzt
+                        werden können; weiters macht er bekannt (<cei:quote type="italic">sciat</cei:quote> [...] <cei:quote type="italic">omnium</cei:quote>),
+                        dass die Untervogteien weder erblich sein noch zu Lehen gegeben werden
+                        sollen.<cei:lb/>Markus Gneiss</cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Wien</cei:placeName>
+                        <cei:dateRange from="11629999" to="11629999">1162-99-99</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1162-99-99_Heinrich-II-v-Oe-Privilegienbestaetigung-Klosterneuburgjpg.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1162-99-99_Heinrich-II-v-Oe-Privilegienbestaetigung-Klosterneuburgjpg_Detail.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Klosterneuburg</cei:settlement><cei:arch>Stiftsarchiv</cei:arch><cei:idno>sub dato</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis">Initiale I(n nomine) als Vogel
+                                    ausgeführt.</cei:p>
+                                <cei:p n="Stil und Einordnung">Die Form der Initiale ist im höchsten
+                                    Masse ungewöhnlich. Figureninitialen wie die hier in Form eines
+                                    Vogels sind aus dem Buchwesen als eine Sonderform jedoch
+                                    bekannt. Dass diese hier in einer Urkunde als Dekor auftritt,
+                                    ist jedoch bemerkenswert. </cei:p>
+                                <cei:p n="Autorensigle">Martin Roland</cei:p>
+                            </cei:decoDesc>
+                            <cei:material/>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc>Rückwärts eingehängtes Siegel des
+                                Ausstellers.</cei:sealDesc>
+                        </cei:auth>
+                        <cei:nota>Rückseite (14. Jahrhundert): <cei:foreign>Littera Heinricus ducis
+                                Austrie de advocatis et subadvocatis et de confirmatione iurum
+                                ecclesie Newnburgensis</cei:foreign>.</cei:nota>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm>Kopial</cei:traditioForm>
+                            <cei:figure/>
+                            <cei:archIdentifier><cei:settlement>Klosterneuburg</cei:settlement><cei:arch>Stiftsarchiv</cei:arch><cei:idno>Handschrift 2, fol. 1r–v</cei:idno></cei:archIdentifier>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl key="zotero:NFQEPGVS">Fischer, Schicksale 2, 1815, Nr. 15
+                                (Abdruck). (<cei:ref target="http://zotero.org/groups/257864/items/NFQEPGVS">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:KBJWT2EI">Meiller, Regesten, 1850., Nr. 37:
+                                online: <cei:ref target="page/n58/mode/1up">https://archive.org/stream/regestenzurgesc00meilgoog#page/n58/mode/1up</cei:ref>.
+                                    (<cei:ref target="http://zotero.org/groups/257864/items/KBJWT2EI">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:3MXDBVJH">Sickel, Monumenta graphica 5, 1859,
+                                Tafel 15. (<cei:ref target="http://zotero.org/groups/257864/items/3MXDBVJH">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:WCUF3GK4">BUB 1, 1950, Nr. 33. (<cei:ref target="http://zotero.org/groups/257864/items/WCUF3GK4">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:XCUQRMW8">Wintermayr, Urkundenwesen, 1949, Nr. 1.
+                                    (<cei:ref target="http://zotero.org/groups/257864/items/XCUQRMW8">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>
+                                <cei:ref target="http://monasterium.net/mom/AT-StiAK/KlosterneuburgCanReg/1162/charter">http://monasterium.net/mom/AT-StiAK/KlosterneuburgCanReg/1162/charter</cei:ref>
+                            </cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p/>
+                        <cei:p>Datum: <cei:quote type="italic">Dat. Wiene anno incarnationis Domini
+                                M</cei:quote>o <cei:quote type="italic">C</cei:quote>o <cei:quote type="italic">LX</cei:quote>mo <cei:quote type="italic">II</cei:quote>o <cei:quote type="italic">, regnante imperatore
+                                Romanorum Friderico.</cei:quote></cei:p>
+                        <cei:p>Markus Gneiss</cei:p>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">HRR </cei:placeName>
+                <cei:placeName type="Region">Österreich</cei:placeName>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+                <cei:index/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

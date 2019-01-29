@@ -1,0 +1,164 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1463-04-01_Krems</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1463-04-01_Krems">1463-04-01_Krems</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract><cei:index>Wappenbrief</cei:index>: <cei:issuer>Kaiser Friedrich
+                            III.</cei:issuer> überträgt den Städten
+                            <cei:placeName>Krems</cei:placeName> und
+                            <cei:placeName>Stein</cei:placeName> Wappen und Privilegien der Stadt
+                            <cei:placeName>Wien</cei:placeName>.<cei:lb/><cei:issuer>Kaiser
+                            Friedrich [III.]</cei:issuer> gibt und begnadet (<cei:foreign>geben ...
+                            und begnaden</cei:foreign>) aus eigenem Antrieb Richter, Rat und Bürger
+                        von <cei:placeName>Krems</cei:placeName> und
+                            <cei:placeName>Stein</cei:placeName> (<cei:foreign>Krembs und
+                            Stain</cei:foreign>) für deren treuen Beistand im Kampf gegen die
+                        aufständische Stadt <cei:placeName>Wien</cei:placeName>
+                            (<cei:foreign>Wienn</cei:foreign>) und für deren künftige Dienste mit
+                        dem Wappen, den Titeln und dem Rotwachsprivileg (<cei:foreign>klaӱnet und
+                            wappen, auch dem titulum ... auch dartzuͤ in sunderhait mit ratem wachs
+                            ze sigeln und secretiern</cei:foreign>), wie sie bislang die Stadt
+                            <cei:placeName>Wien</cei:placeName> innegehabt hat. Da die Wiener trotz
+                        eines Eides (<cei:foreign>mit erb aiden verpunden</cei:foreign>) diesen
+                        gebrochen und sich gegen den Aussteller aufgelehnt haben (<cei:foreign>sich
+                            wider uns aufgewarffen, uns ir erbaid aufgesagt</cei:foreign>), die
+                        Kaiserin (<cei:foreign>unser liebe gemahel, die roͤmische
+                            kaӱserin</cei:foreign>) und den minderjährigen
+                            (<cei:foreign>unertzogen</cei:foreign>) Sohn in der Wiener Burg
+                            (<cei:foreign>in unser burgkch daselbs zu Wienn</cei:foreign>) belagert,
+                        mit Waffen bekämpft und sich ungebührlich verhalten haben
+                            (<cei:foreign>belegert, mit zewg gearibait und in annder meniger wege
+                            untzimliche und unpilliche widerwertigkait zugezogen
+                        haben</cei:foreign>) und damit die kaiserliche Gnade verloren haben
+                            (<cei:foreign>under annderm von solhen unsern begnadungen komen und
+                            gevallen seinn</cei:foreign>), weil sie den Aussteller nicht als
+                        Erbherrn und Landesfürsten anerkannt haben, wurden ihnen diese Privilegien
+                        genommen (<cei:foreign>ganntz aufgehebt und genomen</cei:foreign>). Die
+                        nunmehr Begünstigten dürfen das übertragene Wappen, das in der Mitte der
+                        Urkunde farbig eingemalt ist (<cei:foreign>in mit dises briefs
+                            ausgestrichen</cei:foreign>), nämlich in schwarzem Schild ein
+                        doppelköpfiger goldener Adler, darüber eine goldene Kaiserkrone
+                            (<cei:foreign>ainn schilde von zobel, habendt in im ain volkomen adler
+                            mit zwyn haubtern und ausgepraitten flugen von gold gezieret, mit ainer
+                            kayserlichen kron</cei:foreign>), ebenso wie rotes Wachs zur Besiegelung
+                        und Sekretierung nach ihren Bedürfnissen (<cei:foreign>unserr stet
+                            natduͤrften und sachen</cei:foreign>) gebrauchen. Dazu erhalten sie das
+                        Privileg, vom Aussteller und allen nachfolgenden Reichs- und Landesfürsten
+                        in allen Urkunden (<cei:foreign>schriften</cei:foreign>) mit den Titeln
+                            <cei:foreign>ersamen, weisen, unser besunder lieben und
+                            getrewn</cei:foreign> genannt zu werden. Außerdem hat er ihnen die Gnade
+                        erteilt (<cei:foreign>die sunder gnad getan</cei:foreign>), künftig jedes
+                        Jahr zu Weihnachten einen Bürgermeister wählen zu dürfen (<cei:foreign>mit
+                            zedeln wellen</cei:foreign>), wie es in Wien üblich ist (<cei:foreign>in
+                            massen, als das daselbs zu Wienn geschicht</cei:foreign>), mit der
+                        Auflage, dass die Wahlzetteln dem Landesfürsten petschiert zugeschickt
+                        werden, damit der Bürgermeister bewilligt wird (<cei:foreign>verpetschadt
+                            zugeschikcht werden, dadurch wir in ainen burgermaister zu verwillgen
+                            wissen</cei:foreign>). Dieser Bürgermeister soll den beiden Städten
+                            <cei:placeName>Krems</cei:placeName> und
+                            <cei:placeName>Stein</cei:placeName> vorstehen. Er gebietet allen
+                            <cei:foreign>erwirdigen, hochgebornen, ersamen, edeln</cei:foreign>
+                        geistlichen und weltlichen Fürsten, Grafen, Freien, Herren, Rittern,
+                        Knechten, Landvögten, Vögten, Verwesern, Vizedomen, Burggrafen,
+                        Schultheißen, Bürgermeistern, Richtern, Räten, Bürgern, Gemeinden und allen
+                        seinen, des Heiligen Römischen Reichs und der Erblande Untertanen und
+                        Getreuen aller Stände (<cei:foreign>in was wesen, stannd oder wirden die
+                            seien</cei:foreign>) unter Androhung schwerer Ungnade sowie einer Strafe
+                        von zwanzig Mark lötigen Goldes, die je zur Hälfte an die Reichskammer und
+                        an die Betroffenen zu zahlen ist, Richter, Rat und Bürger von Krems und
+                        Stein sowie deren Nachfolger die verliehenen Wappen (<cei:foreign>wappen und
+                            klainat</cei:foreign>) in allen ritterlichen Angelegenheiten und Taten
+                            (<cei:foreign>sachen und taten</cei:foreign>) <cei:foreign>zu schimpf
+                            und zu ernst</cei:foreign>, auch das Rotwachsprivileg und die Titel
+                        ungehindert führen und gebrauchen zu lassen.<cei:lb/>Daniel
+                        Maier</cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Wiener Neustadt (<cei:foreign>zu der
+                            Newnstat</cei:foreign>)</cei:placeName>
+                        <cei:dateRange from="14630401" to="14630401">1463-04-01</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig><cei:traditioForm>Orig.
+                                Perg.</cei:traditioForm><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1463-04-01_wappenverleihung-krems_Stadtarchiv-krems.jpg"/></cei:figure><cei:archIdentifier><cei:settlement>Krems</cei:settlement><cei:arch>Stadtarchiv</cei:arch><cei:idno>395</cei:idno></cei:archIdentifier><cei:physicalDesc><cei:decoDesc><cei:p>Mittig
+                                    in Deckfarben eingemalt leicht hochrechteckiges Bildfeld mit
+                                    Wappenschild.</cei:p></cei:decoDesc><cei:material>Pergament</cei:material><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:notariusDesc/><cei:sealDesc>Wachsfarbenes
+                                Majestätssiegel (Posse xy) an roter
+                            Seidenschnur.</cei:sealDesc></cei:auth><cei:nota>Auf der Plica rechts:
+                                <cei:foreign>Comissio dom(in)i imp(er)ator(is) in
+                                c(on)si(li)o</cei:foreign>.</cei:nota>Comissio dom(in)i
+                        imp(er)ator(is) in c(on)si(li)o<cei:rubrum/></cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl/>
+                        </cei:listBibl>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p/>
+                        <cei:quoteOriginaldatierung>an freytag vor dem heiligen palm
+                            tag.</cei:quoteOriginaldatierung>
+                        <cei:nota/>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:class/>
+                <cei:persName/>
+                <cei:placeName/>
+                <cei:index/>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

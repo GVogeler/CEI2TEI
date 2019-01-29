@@ -1,0 +1,178 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1364-06-99_Paris-Paris-Paris</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1364-06-99_Paris-Paris-Paris">1364-06-99_Paris-Paris-Paris</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract>König Charles [V., (le Sage)] von Frankreich bestätigt (<cei:quote type="italic">volumus, laudamus, approbamus auctoritateque nostra regia
+                        </cei:quote>[…] <cei:quote type="italic">confirmamus</cei:quote>) den hier
+                        inserierten, von ihm selbst als französischer Regent, Herzog der Normandie
+                        und Dauphin von Viennois im August 1359 für die Klarissenabtei von Longchamp
+                            (<cei:quote type="italic">Lonc Champ prez de Paris</cei:quote>)
+                        ausgestellten Schutzbrief.<cei:lb/>Markus Gneiss </cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Paris</cei:placeName>
+                        <cei:dateRange from="13640699" to="13640699">1364-06-99</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1364-06-99_Karl_V_betaetigt_die_Sicherheitsbriefe_die_er_mit_der_Zisterziensterabtei.jpeg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1364-06-99_Karl_V_betaetigt_die_Sicherheitsbriefe_die_er_mit_der_Zisterziensterabtei_Detail.jpeg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Paris</cei:settlement>
+                            <cei:arch>Archives nationales</cei:arch><cei:idno>K 49 A, no 1
+                                (Original)</cei:idno>. Inserierte Urkunde (1359 August): Original:
+                                    <cei:altIdentifier><cei:settlement>Paris</cei:settlement><cei:arch>Archives
+                                    nationales</cei:arch><cei:idno>K 49 C, no
+                                56</cei:idno></cei:altIdentifier>.Kopie:
+                                    <cei:altIdentifier><cei:settlement>Paris</cei:settlement><cei:arch>Archives
+                                    nationales</cei:arch><cei:idno>JJ 90, fol. 138r, no
+                                    267</cei:idno></cei:altIdentifier>.</cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis">Für die stark vergrösserte, und somit weit in
+                                    den oberen Rand der Urkunde reichende Federzeichnungsinitiale
+                                    K(arolus), hat der Schreiber bloss zwei Zeilen ausgespart. Der
+                                    Buchstabenkörper mit ausgespartem Wellenband im Schaft und
+                                    ausgesparten Herzblättern im Bogen und der Cauda. Der Balken
+                                    durch eine horizontale Linie oben abgeschlossen, deren
+                                    aufgebogene Enden als dünn gezeichnete Greifen- und Drachenköpfe
+                                    gebildet sind. Vom unteren Ende des Schaftes reicht ein
+                                    gezeichneter Fortsatz in den linken Rand, der mit
+                                    Silhouette-Trifolietten und Eicheln besetzt ist. </cei:p>
+                                <cei:p n="Ekphrasis">Die Initiale N(otum) mit ausgesparten, halben
+                                    Fleurs-de-lys, die Initiale C(harles), ebenfalls noch in der
+                                    ersten Zeile, mit zwei ausgesparten, gespiegelten Blattmotiven. </cei:p>
+                                <cei:p n="Stil und Einordnung">Der Schreiber wie der Zeichner der
+                                    Initialen ist der gleiche wie <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1362-09-99_Paris/charter">1362 September</cei:ref> (Archives nationales, K 49 C, no
+                                    71). Man vergleiche die charakteristischen Motive aus drei
+                                    Scheiben (Trifolietten). Während für das „J“ der Urkunde des
+                                    Jean le Bon keine Vorkehrungen im Schriftspiegel getroffen
+                                    werden mussten, da dieser Buchstabe davor gesetzt wird, hat er
+                                    beim „K“ hier eine zwei Zeilen hohe Fläche frei gelassen.
+                                    Während diese Eingangsinitiale in ihrer Grösse harmonisch wirkt,
+                                    sind die beiden anderen recht schmal, was besonders beim „C“ zu
+                                    beobachten ist. Es ist fraglich, ob darin eine Eigenart des
+                                    Schreibers liegt oder ob er sich neuen Anfordungen stellt, derer
+                                    er noch nicht ganz entsprechen kann. Nur zurückhaltend werden
+                                    die Fleurs-de-lys eingesetzt; gleichwohl sind sie als Zeichen
+                                    des französischen Königtums unverkennbar.</cei:p>
+                                <cei:p n="Stil und Einordnung">Dieselbe Hand ist offensichtlich auch
+                                    für den Buchstabenkörper (und die Schrift?) jener Urkunde vom
+                                        <cei:ref target="monasterium.net/mom/IlluminierteUrkunden/1364-07-99_Paris/charter">Juli 1364</cei:ref> (Paris, Archives nationales,
+                                    AE//III/383) verantwortlich, deren historisierter Dekor sie zum
+                                    Ausgangspunkt der Entwicklung der illuminierten Urkunden König
+                                    Charles’ V macht.</cei:p>
+                                <cei:p n="Autorensigle">Gabriele Bartz</cei:p>
+                            </cei:decoDesc>
+                            <cei:material>Pergament</cei:material>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc/>
+                        </cei:auth>
+                        <cei:nota/>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl key="zotero:V286ZHPC">Tardif, Monuments, 1866, S. 396, Nr.
+                                1428. (<cei:ref target="http://zotero.org/groups/257864/items/V286ZHPC">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Brunel, Images, 2005, S. 119–124, Nr. 15. <cei:ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/RJ37NJMN">(Volltitel auf Zotero</cei:ref>) </cei:bibl>
+                            <cei:bibl key="zotero:XZ35ZUGR">Trésor des chartes, 2007, Nr. 129, Abb.
+                                S. 102. (<cei:ref target="http://zotero.org/groups/257864/items/XZ35ZUGR">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p>Siegel: abgefallen.</cei:p>
+                        <cei:p>Vermerke</cei:p>
+                        <cei:p>- auf der Plica: (links)<cei:quote type="italic"> Per regem in
+                                consilio suo, Ogier</cei:quote>; (rechts) <cei:quote type="italic">Visa</cei:quote>, <cei:quote type="italic">Collata facta
+                                est.</cei:quote></cei:p>
+                        <cei:p>- Rückseite (14. Jahrhundert) <cei:quote type="italic">Publiees en
+                                jugement ou Chastellet de Paris le lundi XVIIe jour de septembre mil
+                                CCC LX et dix“; Lebègue; La sauvegarde du roy present,
+                                Loncchamp.</cei:quote></cei:p>
+                        <cei:p>Kommentar:</cei:p>
+                        <cei:p>Charles V. wurde am 19. Mai 1364 in Reims zum König gesalbt, die
+                            Urkunde stellt somit wohl das älteste erhaltene illuminierte Stück aus
+                            seiner Königszeit dar. Schon seit der Gründung der Abtei durch Isabelle
+                            de France zwischen 1255 und 1259 hatte die königliche Familie eine enge
+                            Beziehung zu diesem Kloster, was sich auch in laufend neuausgestellten
+                            Privilegienbestätigungen ausdrückt.</cei:p>
+                        <cei:p>Markus Gneiss</cei:p>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">Frankreich</cei:placeName>
+                <cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials">N2:
+                    Initiale</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="zoomorphic"/>
+                <cei:index indexName="illurk-vocabulary" lemma="Historiated"/>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

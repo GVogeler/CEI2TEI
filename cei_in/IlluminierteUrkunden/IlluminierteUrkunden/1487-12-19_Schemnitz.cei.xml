@@ -1,0 +1,161 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1487-12-19_Schemnitz</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1487-12-19_Schemnitz">1487-12-19_Schemnitz</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract>Richter und Rat der Stadt Schebnicz (Schemnitz/Banská Štiavnica)
+                        bestätigen die Zunftartikel der Fleischerzeche. <cei:lb/></cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Schemnitz</cei:placeName>
+                        <cei:dateRange from="14871219" to="14871219">1487-12-19</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1487-12-19_Schemnitz-bestaetigt-Zunftartikel-Fleischerzeche_.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1487-12-19_Schemnitz-bestaetigt-Zunftartikel-Fleischerzeche-.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1487-12-19_Schemnitz-bestaetigt-Zunftartikel-Fleischerzeche.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1487-12-19_Schemnitz-bestaetigt-Zunftartikel-Fleischerzeche_Detail.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Schemnitz</cei:settlement><cei:arch>Zweigstelle des Staatlichen Archivs Neusohl</cei:arch><cei:idno>ohne Signatur, K 1</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis">Deckfarbeninitiale, links des Schriftspiegels
+                                    Rankenausläufer. </cei:p>
+                                <cei:p n="Stil und Einordnung">Die Ranken sind durchaus zeittypisch,
+                                    können aber noch nicht einem definierten Stilumfeld zugewiesen
+                                    werden. <cei:lb/>Es sind – zumindest mir – derzeit auch keine
+                                    weiteren vergleichbar ausgestatteten Urkunden aus Schemnitz
+                                    bekannt.</cei:p>
+                                <cei:p n="Stil und Einordnung">Im Kontext illuminierter
+                                        Zunfturkunden<cei:lb/><cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1402-07-04_Koeln/my-charter">1402 Juli 4</cei:ref> gaben sich die Herren vom Grünen
+                                    Fischmarkt in Köln eine Bruderschaftsordnung. Die dortigen
+                                    Bestimmungen sind auf innere Abläufe des Gemeinwesens
+                                    fokussiert, während im vorliegenden Fall die Bestimmungen
+                                    berufsständisch geprägt sind, deutlich auf die Abschottung gegen
+                                    (nicht deutsche) Zuwanderer und die Infiltration von Gesellen
+                                    gerichtet. Ausführlich wird der Kauf von Rindern und Schweinen,
+                                    das Schlachten und die Fleischbeschau behandelt. Das
+                                    Bruderschaftliche (Mahlgemeinschaft, Totenobsorge) spielt kaum
+                                    eine Rolle. Einziges im weitesten Sinn bruderschaftliches
+                                    Element ist die Finanzierung des Heilig Kreuz-Altars in der
+                                    Pfarrkirche. <cei:lb/>Ebenfalls im Kontrast zur Kölner Urkunde
+                                    agieren die Betroffenen nicht autonom, sondern bedienen sich der
+                                    städtischen Autoritäten. Markus Gneiss, Gesellenordnungsbuch,
+                                    passim, konnte an Wiener Beispielen zeigen, dass Urkunden, die
+                                    sich Bruderschaften selbst geben, eher von gruppeninternen
+                                    Bestimmungen dominiert werden, während solche, die von der Stadt
+                                    verliehen werden, Bestimmungen enthalten, die – wie im Fall der
+                                    Schemnitzer Fleischer – eher allgemein relevante Punkte
+                                    abhandeln. Vergleiche vor allem den Fall der von Bürgermeister
+                                    und Rat der Stadt Wien erlassenen Ordnung der Hühnereierer
+                                    einerseits und der selbst gegebenen (und von der Stadt nur
+                                    bestätigten) Statuten der St. Oswald- Bruderschaft andererseits,
+                                    die mehreren Kleinhändlerzechen </cei:p>
+                                <cei:p n="Autorensigle">Martin Roland</cei:p>
+                                <cei:p>offenstand (Nr. 335: jeweils 1516 Dezember 2).konnte an
+                                    Wiener Beispielen zeigen,69 dass Urkunden, die sich
+                                    Bruderschaften selbst geben, eher von gruppeninternen
+                                    Bestimmungen dominiert werden, während solche, die von der Stadt
+                                    verliehen werden, Bestimmungen enthalten, die – wie im Fall der
+                                    Schemnitzer Fleischer – eher allgemein relevante Punkte
+                                    abhandeln.70</cei:p>
+                            </cei:decoDesc>
+                            <cei:material/>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc/>
+                        </cei:auth>
+                        <cei:nota/>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl key="zotero:WWZPHKAA">Deutschsprachige Handschriften in
+                                slowakischen Archiven 2, 2009, S. 517 (BB/Bs 1457), S. 616 (BB/Bs
+                                2129: dasselbe ohne Dekor?) (<cei:ref target="http://zotero.org/groups/257864/items/WWZPHKAA">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Roland, Funktion, 2018, S. 419-421 (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/MIQTDPN6">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p/>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">Ungarn</cei:placeName>
+                <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: mit
+                    zusätzlichen Farben</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="Borders">N1: Randdekor</cei:index>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

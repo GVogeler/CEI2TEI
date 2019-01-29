@@ -1,0 +1,190 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1480-03-03_Muenchen</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"
+                            <cei:lb/>Bearbeitungsstand: MITTEL</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1480-03-03_Muenchen">1480-03-03_Muenchen</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract>Papst Sixtus IV. überträgt den Jubelablass (von 1475) mit der
+                        Bulle „Pastoris aeterni“ vom 10. Mai 1479 auf zu nennende andere Orte, hier
+                        für das Kloster Odilienberg (Elsass). Burcardus Stör verkündigt die Bulle
+                        (Schlettstadt 3. März 1480) und fügt einen eigenen Ablass
+                        hinzu.<cei:lb/></cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Strassburg (Druck Heinrich Eggestein)</cei:placeName>
+                        <cei:dateRange from="14800303" to="14800303">1480-03-03 nicht
+                            vor</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1480-03-03_nach_Sixtus-IV-Ablass-fuer-St-Otilienburg_Druck-Strassburg_GW-M42441.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>München</cei:settlement><cei:arch>Bayerische Staatsbibliothek</cei:arch><cei:idno>Einbl.
+                                VI, 13 m</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma="Druck">Einblattdruck</cei:index>: Cadellenartige
+                                    Initiale S(ixtus). Oben mittig elf Zeilen in den Text
+                                    eingeschoben zwei hochrechteckige Holzschnitte: links kniende
+                                    weibliche Heilige (Odilia) vor einem Marienaltar, auf dem ein
+                                    Kelch mit einem Augenpaar (dem Attribut der hl. Odilia) und ein
+                                    Leuchter steht; Altarretabel mit Madonna mit Kind (Madonna
+                                    dell'Umiltà) im Strahlenkranz. Links im Hintergrund ein Engel,
+                                    der einen Gekrönten (Odiliens Vater Eticho [Attich]) aus dem
+                                    Feuer des Fegefeuers rettet. Links das von Tiara und gekreuzten
+                                    Schlüsseln überhöhte Wappen Papst Sixtus IV. (della Rovere). </cei:p>
+                                <cei:p n="Stil und Einordnung">Ablässe für bestimmte Orte sind
+                                    häufig, Ablässe mehrerer Bischöfe bilden eine der Hauptgruppen
+                                    illuminierter Urkunden: <cei:ref target="http://monasterium.net/mom/IlluminierteUrkundenBischofsammelablaesse/collection">http://monasterium.net/mom/IlluminierteUrkundenBischofsammelablaesse/collection</cei:ref>.
+                                    Jene Ablässe, die Martin Luther zu recht sehr kritisierte, waren
+                                    jedoch „vollkommene Ablässe“, die in der Regel nicht an einen
+                                    Ort gebunden waren und daher in grossen Kampagnen weiträumig
+                                    „verkauft“ werden konnten. Für diese Art von Ablässen war der
+                                    Druck naturgemäss das ideale Hilfsmittel, um dem „Kunden“ einen
+                                    „Beichtzettel“, der die vollkommene Lossprechung auch zu einem
+                                    späteren Zeitpunkt ermöglichte, mitzugeben. </cei:p>
+                                <cei:p n="Stil und Einordnung">Die hier vorliegende Variante ist
+                                    eine ungewöhnliche Mischform. Grundlage ist eine päpstliche
+                                    Bulle, die den Ablass gewährt, wie dies bei den vollkommenen
+                                    Ablässen z. B. für die Türkenabwehr der Fall ist. In dem hier
+                                    vorliegenden Fall wird ein vollständiger Ablass
+                                    (Jubiläumsablass) statt für den Besuchs Roms für den Besuch des
+                                    Odilienberges gewährt. Das vorliegende Stück scheint das erste
+                                    Exemplar zu sein, das mit (sogar erzählenden) Holzschnitten
+                                    ausgestattet wurde.</cei:p>
+                                <cei:p n="Stil und Einordnung">Zum Stil:</cei:p>
+                                <cei:p n="Stil und Einordnung">Der Drucker Heinrich Eggestein hat
+                                    nur wenige Holzschnitte (Initialen) hinterlassen, die allesamt
+                                    keine stilistischen Parallelen zu dem hier vorliegenden Stück
+                                    erlauben. </cei:p>
+                                <cei:p n="Stil und Einordnung">Die Initiale ist ein schönes Beispiel
+                                    für Cadellurendruck. Sie ist dabei keine ‚Erfindung‘ des
+                                    Strassburger Druckers, sondern eine Kopie nach einer Initiale,
+                                    die der in Zürich beheimatete Drucker des Albertus de Albo z. B.
+                                    für einen sonst schmucklosen Ablass für die Kirchen Zürichs
+                                    verwendete (GW M 42449: <cei:ref target="http://gesamtkatalogderwiegendrucke.de/docs/M42449.htm">http://gesamtkatalogderwiegendrucke.de/docs/M42449.htm</cei:ref>;
+                                    mit allen Angaben und Digitalisat).</cei:p>
+                                <cei:p n="Stil und Einordnung">Die Stilschicht der Odilienszene wird
+                                    durch einen Holzschnitt in einem Druck von Hinrich Knoblochtzer
+                                    (Strassburg) aus 1482 bestimmt: GW 5645 (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW05645.htm">http://www.gesamtkatalogderwiegendrucke.de/docs/GW05645.htm</cei:ref>).</cei:p>
+                                <cei:p n="Autorensigle">Martin Roland</cei:p>
+                            </cei:decoDesc>
+                            <cei:material/>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc/>
+                        </cei:auth>
+                        <cei:nota/>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl>Heitz, Einblattdrucke 27, 11 (Abb. und Textabdruck). (<cei:ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/PTWDZAEM">Volltitel auf Zotero</cei:ref>) </cei:bibl>
+                            <cei:bibl>Heitz, Einblattdrucke 31, 31. (<cei:ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/PTWDZAEM">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:HNDW8XSU">Schramm, Bilderschmuck, Bd. 19:
+                                Strassburg, 1936, S. 3, 13, Abb. 9: online: <cei:ref target="http://digi.ub.uni-heidelberg.de/diglit/schramm1936bd19?sid=7dee2e519766cea14dffb35ba059e78f">http://digi.ub.uni-heidelberg.de/diglit/schramm1936bd19?sid=7dee2e519766cea14dffb35ba059e78f</cei:ref>.
+                                    (<cei:ref target="http://zotero.org/groups/257864/items/HNDW8XSU">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Illustrated Bartsch 164, 1992, S. 143 Nr. 1111-1. (<cei:ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/SAMEK7XA">Volltitel auf Zotero</cei:ref>) </cei:bibl>
+                            <cei:bibl key="zotero:API2PXH9">VE15, Bd. 3, S. 462f.: S-57, und Bd. 1:
+                                Abb. 81. (<cei:ref target="http://zotero.org/groups/257864/items/API2PXH9">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:33NTPDFJ">Eisermann, Ablass, 2001, S. 110.
+                                    (<cei:ref target="http://zotero.org/groups/257864/items/33NTPDFJ">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Roland, Masse und Individualität, 2018, S. 300, 303 (mit Abb.
+                                6 und Anm. 30-34). (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/N5YAUX3B/">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl/>
+                            <cei:bibl>Gesamtkatalog der Wiegendrucke, M 42441: <cei:ref target="http://gesamtkatalogderwiegendrucke.de/docs/M42441.htm">http://gesamtkatalogderwiegendrucke.de/docs/M42441.htm</cei:ref></cei:bibl>
+                            <cei:bibl>
+                                <cei:ref target="http://inkunabeln.digitale-sammlungen.de/Ausgabe_S-425.html">BSB-Ink: S-425</cei:ref>: online:<cei:ref target="http://inkunabeln.digitale-sammlungen.de/Ausgabe_S-425.pdf">http://inkunabeln.digitale-sammlungen.de/Ausgabe_S-425.pdf</cei:ref>
+                            </cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p>Als Drucker wurde der Strassburger Heinrich Eggstein bestimmt. </cei:p>
+                        <cei:p>Tit.:Copia bulle plenariarium indulgenciarum anni jubilei et
+                            facultatum in monte sancte Otilie Argentinen(sis)
+                            dyocesis.<cei:lb/>Inc.: Sixtus episcopus servus servorum Dei. Ad futuram
+                            rei memoriam. Pastoris eterni qui pro salute gregis</cei:p>
+                        <cei:p>Die Corroboratio des Burkhard Stör wurde nicht umgesetzt. Die zu
+                            einem grossen Blatt zusammengeklebten beiden Papiere blieben
+                            unbesiegelt. Stattdessen bestätigt der Notar Konrad Kauwel
+                            handschriftlich die Authentizität (des Drucks) durch: <cei:quote type="italic">Conradus Rauwel (ev. auch Kauwel) not(arius) hec
+                                subscripsit</cei:quote>. Die Lesung in BSB-Ink mit „Krauwel“
+                            erscheint fraglich. <cei:lb/>Ein weiteres Exemplar, das Falk Eisermann
+                            im VE15 erwähnt, wurde vom Notar Johannes Seydner beglaubigt.</cei:p>
+                        <cei:p/>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">HRR (Deutschland)</cei:placeName>
+                <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1:
+                    historisiert</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="Miniatures">N1: Bildfeld</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials">N2:
+                    Initiale</cei:index>
+                <cei:index indexName="IllUrkGlossar" lemma="Druck">Druck</cei:index>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

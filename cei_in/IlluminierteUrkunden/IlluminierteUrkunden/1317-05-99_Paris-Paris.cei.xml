@@ -1,0 +1,151 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1317-05-99_Paris-Paris</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"
+                            <cei:lb/>Bearbeitungsstand: MITTEL</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1317-05-99_Paris-Paris">1317-05-99_Paris-Paris</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract>König Philippe [V., (le Long)] von Fankreich und Navarra bestätigt
+                            (<cei:foreign>confirmamus</cei:foreign>) seinem Ritter
+                            (<cei:foreign>miles noster</cei:foreign>) Jean de Courpalay die
+                        Übertragung der Gerichtsbarkeit in dessen Herrschaftsgebiet Courpalay
+                            <cei:foreign>(in terra sua de Courpalayo</cei:foreign>), in der
+                        gleichnamigen Stadt, in La Chapelle-Iger (<cei:foreign>capella
+                            Ygerii</cei:foreign>) und in Cramayel
+                            (<cei:foreign>Cramonel</cei:foreign>); weiters überträgt
+                            (<cei:foreign>concedimus et donamus</cei:foreign>) er ihm gegen eine
+                        jährliche Zahlung von 50 Pfund von Tours (<cei:foreign>libris
+                            turonensium</cei:foreign>) alle Lehnsrechte und Einkünfte aus
+                        verschiedenen Gebieten, namentlich aus dem Besitz des verstorbenen Philipp
+                        „de Granchia“,weiters aus dem Besitz von Gottfried von Cordoux, von Johannes
+                        von Bernay-Vilbert (<cei:foreign>Berneyo</cei:foreign> […]
+                            <cei:foreign>Villebart</cei:foreign>] und aus seinem eigenen Besitz in
+                        den Pfarren Nesles-la-Gilberte (<cei:foreign>Neelle</cei:foreign>), Le
+                        Breuil (<cei:foreign>Brolio</cei:foreign>), Changeard
+                            (<cei:foreign>Changaart</cei:foreign>) und Ozouer–le–Voulgis
+                            (<cei:foreign>Ororio le Bougis</cei:foreign>).<cei:lb/>Markus Gneiss </cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Le Val-Coquatrix („apud Vallem Coquatrici“)</cei:placeName>
+                        <cei:dateRange from="13170599" to="13170599">1317-05-99</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure/>
+                        <cei:figure/>
+                        <cei:figure/>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1317-05-99_Philippe_V_bestaetigt_Jean_von_Courplay_dem_Ritter_des_Koenigs_seine_Rechte.jpeg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Paris</cei:settlement><cei:arch>Archives nationales</cei:arch><cei:idno>J 396, no
+                                18</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis">Stark vergrösserte, gespaltene Initialen „Ph“,
+                                    das „h“ mit kreuzendem Balken der Abbreviatur: diese mit
+                                    Wellenbandaussparung. In der ersten Zeile Initiale N(otum) mit
+                                    Aussparungen. Ornament aus zwei (?) Scheiben auf der Plica, die
+                                    den Ort der Siegelanbringung markieren.</cei:p>
+                                <cei:p n="Stil und Einordnung">Alle drei Initialen sind mit dem
+                                    gleichen Muster dekoriert, wodruch ein klarer und eleganter
+                                    Eindruck entsteht.</cei:p>
+                                <cei:p n="Autorensigle">Gabriele Bartz </cei:p>
+                            </cei:decoDesc>
+                            <cei:material>Pergament</cei:material>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc>Es wird ein aufgedrücktes Siegel angekündigt, das Siegel
+                                des Ausstellers ist aber an rot-grünen Seidenfädeen
+                                angehängt.</cei:sealDesc>
+                        </cei:auth>
+                        <cei:nota>- auf der Plica: (links, Auftragsvermerk): <cei:foreign>per
+                                dominum .. regem ad rel(ationem) magistri Philippi
+                                Conversi</cei:foreign>; (rechts, Sekretärsvermerk?):
+                                <cei:foreign>Parquerius</cei:foreign>.<cei:lb/>- Rückvermerke (14.
+                            Jh.): <cei:foreign>X</cei:foreign>; <cei:foreign>XVII</cei:foreign>;
+                                <cei:foreign>MCCCXVII</cei:foreign>; <cei:foreign>Registrata
+                                est</cei:foreign> // <cei:foreign>Exhibita in festo Beato Remigii
+                                anno XXIIo</cei:foreign>; <cei:foreign>G.
+                            Julioti</cei:foreign>.</cei:nota>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier>Kopial: <cei:settlement>Paris</cei:settlement>,
+                                <cei:arch>Archives nationales</cei:arch>, <cei:idno>JJ 53, fol. 71v,
+                                    Nr. 167</cei:idno>.</cei:archIdentifier>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl key="zotero:SKBIGGJ2">Brunel, Images, 2005, S. 74–76 Nr. 5
+                                (mit Abb., Edition, Übersetzung und Kommentar). (<cei:ref target="http://zotero.org/groups/257864/items/SKBIGGJ2">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p/>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">Frankreich</cei:placeName>
+                <cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials">N2:
+                    Initiale</cei:index>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

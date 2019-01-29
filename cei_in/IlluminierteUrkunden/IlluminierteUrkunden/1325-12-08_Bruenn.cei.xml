@@ -1,0 +1,215 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1325-12-08_Bruenn</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:link rel="versionOf" ref="tag:www.monasterium.net,2011:/charter/CZ-MZA/E09/1325_XII_08"/>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"
+                            <cei:lb/>Bearbeitungsstand: HOCH</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1325-12-08_Bruenn">1325-12-08_Bruenn</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract><cei:index indexName="Illurk-Urkundenart">Bischofsammelindulgenz
+                        </cei:index>(16 Aussteller<cei:index indexName="Illurk-Urkundenart">)</cei:index> für die Kloster[kirche] von Marien-Saal in
+                        Alt-Brünn:<cei:lb/>Patriarch <cei:issuer><cei:persName key="P_Dominikus_Grado_1318">Dominikus von
+                            Grado</cei:persName></cei:issuer> (<cei:quote type="italic">Gradensis</cei:quote>) und die Bischöfe <cei:issuer><cei:persName key="P_Nikolaus_Argos_1324">Nikolaus von
+                            Argos</cei:persName></cei:issuer> (<cei:quote type="italic">Argoricensis</cei:quote>), <cei:issuer><cei:persName key="P_Matthäus_Beirut_1323">Matthäus von
+                            Beirut</cei:persName></cei:issuer> (<cei:quote type="italic">Beritensis</cei:quote>), <cei:issuer><cei:persName key="P_Gregorius_Belluno-Feltre_1323">Gregorius von
+                                Belluno-Feltre</cei:persName></cei:issuer> (<cei:quote type="italic">Feltrensis</cei:quote>), <cei:issuer><cei:persName key="P_Marinus_Coron_1324">Marinus von
+                            Coron</cei:persName></cei:issuer> (<cei:quote type="italic">Coronensis</cei:quote>), <cei:issuer><cei:persName key="P_Guillelmus_CivitatisCastellana_1324">Guilellmus von Civitatis
+                                Castellana</cei:persName></cei:issuer> (<cei:quote type="italic">Civitatis Castelle</cei:quote>), <cei:issuer><cei:persName key="P_Franziskus_Perugia_1312">Franziskus von
+                                Perugia</cei:persName></cei:issuer> (<cei:quote type="italic">Perusinus</cei:quote>), <cei:issuer><cei:persName key="P_Heinrich_Luebeck_1317">Heinrich von
+                            Lübeck</cei:persName></cei:issuer> (<cei:quote type="italic">Lubicensis</cei:quote>), <cei:issuer><cei:persName key="P_Robertus_Annaghdown_1325">Robertus von
+                                Clonfert</cei:persName></cei:issuer> (<cei:quote type="italic">Clonfertensis</cei:quote>), <cei:issuer><cei:persName key="P_Thomas_Sutri_1325">Thomas von
+                            Sutri</cei:persName></cei:issuer> (<cei:quote type="italic">Sutrini</cei:quote>), <cei:issuer><cei:persName key="P_Chrysogonus_Sebenico_1319">Chrysogonus von
+                                Sebenico</cei:persName></cei:issuer> (<cei:quote type="italic">Sibinicensis</cei:quote>), <cei:issuer><cei:persName key="P_Rogerus_Ross_1325">Rogerus von
+                            Ross</cei:persName></cei:issuer> (<cei:quote type="italic">Roscensis</cei:quote>), <cei:issuer><cei:persName key="P_Karolus_Maronia_false">Karolus von
+                            Maronia</cei:persName></cei:issuer> (<cei:quote type="italic">Maronensis</cei:quote>), <cei:issuer><cei:persName key="P_Stephanus_Lebus_1326">Stephan von
+                            Lebus</cei:persName></cei:issuer> (<cei:quote type="italic">Lubucensis</cei:quote>), <cei:issuer><cei:persName key="P_Johannes_Roeskilde_1322">Johannes von
+                                Roeskilde</cei:persName></cei:issuer> (<cei:quote type="italic">Roskildensis</cei:quote>) und <cei:issuer><cei:persName key="P_Jordanus_Acerno_1319">Jordanus von
+                            Acerno</cei:persName></cei:issuer> (<cei:quote type="italic">Acernensis</cei:quote>) erteilen all jenen einen Ablass von 40 Tagen
+                            (<cei:quote type="italic">misericorditer in Domino
+                        relaxamus</cei:quote>), die die in der Diözese Olmütz gelegene
+                        Kloster[kirche] von Marien-Saal (<cei:quote type="italic">monasterium Aule
+                            sancte Marie</cei:quote>) in Alt–Brünn an bestimmten Festtagen und –
+                        soweit gegeben – in der jeweiligen Oktav reumütig und nach Ablegung der
+                        Beichte besuchen und dort Messen, Begräbnissen und sonstigen Feierlichkeiten
+                        beiwohnen, und zwar zu Weihnachten, zu den Festen der Beschneidung und der
+                        Erscheinung des Herrn, am Karfreitag, zu Ostern, Christi Himmelfahrt,
+                        Pfingsten, am Dreifaltigkeitstag, zu Fronleichnam, an allen
+                        Marienfeiertagen, am Peter- und Paulstag, zu allen Apostel- und
+                        Evangelistenfesten, am Kreuzauffindungstag, am Kreuzerhöhungstag, an den
+                        Feiertagen des heiligen Johannes des Täufers, des heiligen Erzengels
+                        Michael, des heiligen Stephan, des heiligen Laurenz, des heiligen Georg, des
+                        heiligen Vitus, des heiligen Wenzel, der heilge Adalbert, <cei:quote type="italic">Decem milium Militum</cei:quote> [22. Juni], des heiligen
+                        Blasius, des heiligen Vinzenz, des heiligen Dionysius, des heiligen
+                        Nikasius, des heiligen Christophorus, des heiligen Mauritius und seiner
+                        Gefährten, des heiligen Martin, des heiligen Nikolaus, des heiligen Eligius,
+                        des heiligen Leodegar, des heiligen Benedikt, des heiligen Bernhard, des
+                        heiligen Leonhard, des heiligen Prokop, des heiligen Antonius, des heiligen
+                        Ambrosius, des heiligen Gregor, des heiligen Hieronymus, des heiligen
+                        Augustinus, der heiligen Maria Magdalena, der heiligen Katharina, der
+                        heiligen Margarete, der heiligen Odilia, der heiligen Agnes, der heiligen
+                        Dorothea, der heiligen Anna, der heiligen Lucia, der heiligen Barbara, der
+                        11 000 Jungfrauen [21. Oktober], der heiligen Elisabeth, der heiligen
+                        Ludmilla, der heiligen Anastasia und der heiligen Scholastica sowie zu
+                        Allerheiligen, an allen ersten Sonntagen im Monat, im Advent und an den
+                        Samstagen, an denen zu Ehren Gottes und der heiligen Maria eine Messe in der
+                        Kloster[kirche] gehalten wird. Weiters wird all jenen Ablass gewährt, die
+                        beim Abendläuten drei Vater-Unser mit einem Engelsgruss beten, die im
+                        Angesicht des Todes dem Kloster ein gewisses Vermögen vermachen, die für den
+                        Bau, die Beleuchtung und die sonstige Ausstattung der Kirche oder des
+                        Diözesanortes aufkommen.<cei:lb/><cei:lb/>1325 Dezember 8,
+                        Brünn<cei:lb/>Bischof <cei:issuer><cei:persName>Konrad von
+                                Olmütz</cei:persName></cei:issuer> bestätigt (<cei:quote type="italic">ratificamus et approbamus</cei:quote>) die obige Indulgenz
+                        und fügt weitere 40 Tage Ablass hinzu.<cei:lb/>Markus Gneiss </cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Avignon</cei:placeName>
+                        <cei:dateRange from="13251208" to="13251208">1325-12-08</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1325-12-08_maria-saal-in-bruenn.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1325-12-08_maria-saal-in-bruenn-.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1325-12-08_maria-saal-in-bruenn_detail.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Brünn (Brno)</cei:settlement><cei:arch>Moravský zemský archiv</cei:arch></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma="IlluminierteAvignonerBischofsammelindulgenz">Illuminierte Avignoner Bischofsammelindulgenz</cei:index>:
+                                    Dreizeilige in den oberen Rand ragende Initiale U(niversis) zu
+                                    Textbeginn, verlängerte Schrift (Elongata) in der ersten
+                                    Textzeile und zwei vergrösserte einzeilige Initialen im
+                                    Textblock, eine davon mit Frontalgesicht.</cei:p>
+                                <cei:p n="Ekphrasis">Drei Zeilen hohe historisierte Initiale: in
+                                    Tintenfarbe, ohne Kolorierung. Im Binnenfeld Vera Ikon.
+                                    Buchstabenkörper ornamental und floral ausgestaltet. Einzeilige
+                                    Initiale P(ia) im Textblock mit bärtigem Gesicht.</cei:p>
+                                <cei:p n="Stil und Einordnung">Diese Initiale kombiniert zwei
+                                    Gestaltungen für die Eingangsinitiale bei Sammelablässen: Die
+                                    Kreisform für den Buchstabenkörper ist seit <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1314-04-01_Aufbewahrungsort-unbekannt/charter">1314 April 1 für Kiechlinsbergen</cei:ref> vom Zeichner der
+                                    kreisförmigen U-Initiale verwendet worden, die <cei:index indexName="IllUrkGlossar" lemma="VeraIkon">Vera
+                                        Ikon</cei:index> im Binnenfeld war bereits für <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1323-05-11_Amiens/charter">Saint Martin in Picquingy</cei:ref> (1323 Mai 11)
+                                    ausprobiert worden. Während dort noch eine gewisse Unsicherheit
+                                    bei der Gestaltung des Gesichts zu beobachten ist, findet man
+                                    hier einen piktogrammartigen Typus vor: Dieser Zeichner arbeitet
+                                    die Spitzen von Haar und Bart pointiert heraus, das Gesicht wird
+                                    lediglich durch Augen mit grossen Pupillen und einem dunklen
+                                    Mund bestimmt. Der Nimbus ist nicht ganz als Kreuznimbus
+                                    charakterisiert, denn unten fehlt eine weitere Abteilung. Der
+                                    Ausführende ist der <cei:index indexName="IllUrkGlossar" lemma="ZeichnermitdenMasswerkmotiven">Zeichner mit den
+                                        Masswerkmotiven</cei:index>. Man erkennt ihn an den Blumen
+                                    an den Ausläufern und am bärtigen Gesicht. Die Synthese von
+                                    vorgefundenen und neuen Gestaltungsprinzipien wird man in der
+                                        <cei:index indexName="IllUrkGlossar" lemma="WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                                        Bischofsammelindulgenzen</cei:index> immer wieder beobachten
+                                    können.</cei:p>
+                                <cei:p n="Autorensigle">Martin Roland, Gabriele Bartz</cei:p>
+                            </cei:decoDesc>
+                            <cei:material>Pergament</cei:material>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc>16 Siegelschnüre (Seide), davon noch 15 mit einem Siegel
+                                (rotes Wachs). Das Siegel des bestätigenden Bischofs von Ölmütz
+                                (rotes Wachs) an Pergamentpressel.</cei:sealDesc>
+                        </cei:auth>
+                        <cei:nota>Rückseite (14. Jahrhundert): <cei:quote>Indulgencie sedecim
+                                episcoporum cum patriarcha Gradensis, ratificare et approbare per
+                                dominum Chunradum Olomucensem episcopum, quorum quilibet largitus
+                                est XL.</cei:quote></cei:nota>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl key="zotero:FFKRJT9V">Švábenský, E 9 Cisterciačky Brno, 1954.
+                                    (<cei:ref target="http://zotero.org/groups/257864/items/FFKRJT9V">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:BH99RHAK">Roland, Zajic, Illuminierte Urkunden,
+                                2013, S. 321, online:<cei:ref target="http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf">
+                                    http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf</cei:ref>
+                                    (<cei:ref target="http://zotero.org/groups/257864/items/BH99RHAK">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>
+                                <cei:ref target="http://www.mom-ca.uni-koeln.de/mom/CZ-MZA/E09/1325_XII_08/charter">http://www.mom-ca.uni-koeln.de/mom/CZ-MZA/E09/1325_XII_08/charter</cei:ref>
+                            </cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p>Arenga (Incipit): <cei:quote>Pia mater ecclesia ...
+                            .</cei:quote></cei:p>
+                        <cei:p>Markus Gneiss</cei:p>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">Frankreich (Kurie)</cei:placeName>
+                <cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1:
+                    historisiert</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="ExecutionDraw">N1:
+                    gezeichnet</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="figural">N2: figürlich</cei:index>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

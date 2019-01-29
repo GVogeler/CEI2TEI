@@ -1,0 +1,133 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+ <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1466-07-05_Mailand</atom:id>
+ <atom:title/>
+ <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+ <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+ <atom:author>
+  <atom:email>illuminierteurkunden@gmail.com</atom:email>
+ </atom:author>
+ <app:control xmlns:app="http://www.w3.org/2007/app">
+  <app:draft>no</app:draft>
+ </app:control>
+ <atom:content type="application/xml">
+  <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+   <cei:front>
+    <cei:sourceDesc>
+     <cei:sourceDescVolltext>
+      <cei:bibl/>
+     </cei:sourceDescVolltext>
+     <cei:sourceDescRegest>
+      <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+     </cei:sourceDescRegest>
+    </cei:sourceDesc>
+   </cei:front>
+   <cei:body>
+    <cei:idno id="1466-07-05_Mailand">1466-07-05_Mailand</cei:idno>
+    <cei:chDesc>
+     <cei:class/>
+     <cei:abstract>Bianca Maria Sforza und ihr Sohn Galeazzo Maria bestätigen dem Dom von Mailand
+      Privilegien des Francesco Sforza aus dem Jahre 1450(März 16).<cei:lb/> Martin Roland </cei:abstract>
+     <cei:issued>
+      <cei:placeName/>
+      <cei:dateRange from="14660705" to="14660705">1466-07-05 (auf der Urkunde:
+       1465)</cei:dateRange>
+     </cei:issued>
+     <cei:witnessOrig>
+      <cei:traditioForm>Original</cei:traditioForm>
+      <cei:figure>
+       <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1466-07-05_Bianca-M-f-Dom-v-Mailand_zerst%c3%b6rt-Nachzeichnung-1906.jpg"/>
+      </cei:figure>
+      <cei:figure>
+       <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1466-07-05_Bianca-M-f-Dom-v-Mailand_zerst%c3%b6rt-Nachzeichnung-Scaccabarozzi.jpg"/>
+      </cei:figure>
+      <cei:archIdentifier><cei:settlement>Mailand</cei:settlement><cei:arch>Archivio della Veneranda fabbrica del Duomo</cei:arch><cei:archFond>Privilegi </cei:archFond></cei:archIdentifier>
+      <cei:physicalDesc>
+       <cei:decoDesc>
+        <cei:p n="Ekphrasis">Iniziale miniata formata da elementi floreali recante in ansa superiore
+         impresa della colomba ed in ansa inferiore impresa delle tre pigne.</cei:p>
+        <cei:p n="Ekphrasis">Die Initiale B(ianca) als Deckfarbeninitiale ausgeführt: in den
+         Binnenfeldern zwei Bilddevisen: oben: vor blauem Grund weisse Taube mit Spruchband „A bon
+         droit“, unten Berg mit drei goldenen Pinienzapfen und der Devise „Mit Zait“ am Sockel.
+         Buchstabenkörper der Initiale aus Lorbeerblättern. Rankenfortsätze. </cei:p>
+        <cei:p n="Ekphrasis">Der Buchschmuck wird von Pellegrin dem Francesco da Concorezzo
+         zugeschrieben. </cei:p>
+        <cei:p n="Autorensigle">Martin Roland</cei:p>
+       </cei:decoDesc>
+       <cei:material/>
+       <cei:dimensions/>
+       <cei:condition/>
+      </cei:physicalDesc>
+      <cei:auth>
+       <cei:notariusDesc/>
+       <cei:sealDesc/>
+      </cei:auth>
+      <cei:nota/>
+      <cei:rubrum/>
+     </cei:witnessOrig>
+     <cei:witListPar>
+      <cei:witness>
+       <cei:traditioForm/>
+       <cei:figure/>
+       <cei:archIdentifier/>
+       <cei:physicalDesc>
+        <cei:material/>
+        <cei:dimensions/>
+        <cei:condition/>
+       </cei:physicalDesc>
+       <cei:auth>
+        <cei:sealDesc/>
+        <cei:notariusDesc/>
+       </cei:auth>
+       <cei:nota/>
+       <cei:rubrum/>
+      </cei:witness>
+     </cei:witListPar>
+     <cei:diplomaticAnalysis>
+      <cei:listBibl>
+       <cei:bibl key="zotero:6TP4K39T">Duomo di Milano, 1906, S. 33f. (Kat.-Nr. 115; mit
+        Nachzeichnung der Initiale und des Siegels): <cei:ref target="https://archive.org/stream/digitami_LO10353810#page/n33">https://archive.org/stream/digitami_LO10353810#page/n33</cei:ref> (bitte in gesondertem
+        Fenster öffnen) ( <cei:ref target="http://zotero.org/groups/257864/items/6TP4K39T">Volltitel
+         auf Zotero</cei:ref> )</cei:bibl>
+       <cei:bibl key="zotero:JV8SXTG4">Pellegrin, Bibliothèque, 1955, S. 410–412, bes. S. 410 (mit
+        älterer Lit.). ( <cei:ref target="http://zotero.org/groups/257864/items/JV8SXTG4">Volltitel
+         auf Zotero</cei:ref> )</cei:bibl>
+      </cei:listBibl>
+      <cei:listBiblRegest>
+       <cei:bibl/>
+      </cei:listBiblRegest>
+      <cei:listBiblFaksimile>
+       <cei:bibl/>
+      </cei:listBiblFaksimile>
+      <cei:listBiblErw>
+       <cei:bibl/>
+      </cei:listBiblErw>
+      <cei:p n="msDesc/history">1906 zerstört</cei:p>
+      <cei:quoteOriginaldatierung/>
+      <cei:nota/>
+      <cei:listBiblEdition>
+       <cei:bibl/>
+      </cei:listBiblEdition>
+     </cei:diplomaticAnalysis>
+     <cei:lang_MOM/>
+    </cei:chDesc>
+    <cei:tenor/>
+   </cei:body>
+   <cei:back>
+    <cei:persName/>
+    <cei:placeName type="Region">Italien</cei:placeName>
+    <cei:placeName type="Region">Lombardei</cei:placeName>
+    <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1: historisiert</cei:index>
+    <cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index>
+    <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: mit zusätzlichen
+     Farben</cei:index>
+    <cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1: gemalt</cei:index>
+    <cei:index indexName="illurk-vocabulary" lemma="Borders">N1: Randdekor</cei:index>
+    <cei:index indexName="illurk-vocabulary" lemma="CoatsOfArms">N1: Wappen</cei:index>
+    <cei:divNotes>
+     <cei:note/>
+    </cei:divNotes>
+    <cei:class/>
+   </cei:back>
+  </cei:text>
+ </atom:content>
+</atom:entry>

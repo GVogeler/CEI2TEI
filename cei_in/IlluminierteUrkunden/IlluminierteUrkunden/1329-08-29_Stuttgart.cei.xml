@@ -1,0 +1,202 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1329-08-29_Stuttgart</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1329-08-29_Stuttgart">1329-08-29_Stuttgart</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract><cei:index indexName="Illurk-Urkundenart">Bischofsammelindulgenz</cei:index> (14 Aussteller) für das
+                        Dominikanerinnenkloster von Kirchberg:<cei:lb/>Die Erzbischöfe
+                                <cei:issuer><cei:persName key="P_Guillelmus_Bar_1324">Guillelmus von
+                                Bar</cei:persName></cei:issuer> (<cei:quote type="italic">Antibarensis</cei:quote>) und <cei:issuer><cei:persName key="P_Jurefortis_Lepanto_1329">Jurefortis von
+                                Lepanto</cei:persName></cei:issuer> (<cei:quote type="italic">Neopatensis</cei:quote>) sowie die Bischöfe <cei:issuer><cei:persName key="P_Egidius_Ostuni_1329">Egidius von
+                            Ostuni</cei:persName></cei:issuer> (<cei:quote type="italic">Ostunensis</cei:quote>), <cei:issuer><cei:persName key="P_Vinzenz_Patti_1342">Vinzenz von
+                            Nebbio</cei:persName></cei:issuer> (<cei:quote type="italic">Nebiensis</cei:quote>), <cei:issuer><cei:persName key="P_Johannes_Serbien_1329">Johannes von
+                            Serbien</cei:persName></cei:issuer> (<cei:quote type="italic">Serbiensis</cei:quote>), <cei:issuer><cei:persName key="P_Meletius_Gallipoli_1327">Meletius von
+                                Gallipolli</cei:persName></cei:issuer> (<cei:quote type="italic">Gallipolitani</cei:quote>), <cei:issuer><cei:persName key="P_Johannes_Moray_1326">Johannes von
+                            Moray</cei:persName></cei:issuer> (<cei:quote type="italic">Moraviensis</cei:quote>), <cei:issuer><cei:persName key="">Johannes von
+                                Marokko</cei:persName></cei:issuer> (<cei:quote type="italic">Marrochitani</cei:quote>), <cei:issuer><cei:persName key="P_Rogerus_Bovino_1329">Rogerus von
+                            Bovino</cei:persName></cei:issuer> (<cei:quote type="italic">Biviensis</cei:quote>), <cei:issuer><cei:persName key="P_Angelus_Sulcis_1325">Angelus von
+                            Sulcis</cei:persName></cei:issuer> (<cei:quote type="italic">Sulcitanensis</cei:quote>) und <cei:issuer><cei:persName key="P_Madius_Duvno_1327">Madius von
+                            Duvno</cei:persName></cei:issuer> (<cei:quote type="italic">Demitensis</cei:quote>) erteilen all jenen einen Ablass von 40 Tagen
+                            (<cei:quote type="italic">misericorditer in Domino
+                        relaxamus</cei:quote>), die die [Kirche] des in der Diözese Konstanz
+                        gelegenen Frauenklosters in Kirchberg (<cei:quote type="italic">monasterium
+                            sororum in Kirepert, Constanciensis diocesis</cei:quote>) an bestimmten
+                        Festtagen und – soweit gegeben – in der jeweiligen Oktav reumütig und nach
+                        Ablegung der Beichte besuchen und dort Morgen- und Abendmessen oder welchen
+                        Messfeierlichkeiten auch immer beiwohnen, und zwar zu Weihnachten, zu den
+                        Festen der Beschneidung und der Erscheinung des Herrn, am Gründonnerstag, am
+                        Karfreitag, zu Ostern, Christi Himmelfahrt, Pfingsten, am
+                        Dreifaltigkeitstag, zu Fronleichnam, an allen Marienfeiertagen, am Feiertag
+                        des heiligen Erzengels Michael, zu den Festen der Geburt und der Enthauptung
+                        des heiligen Johannes des Täufers, am Peter- und Paulstag, zu allen Apostel-
+                        und Evangelistenfesten, an den Feiertagen des heiligen Laurenz, des heiligen
+                        Stephan, des heiligen Clemens, des heiligen Vinzenz, des heiligen Georg, des
+                        heiligen Martin, des heiligen Nikolaus, des heiligen Gregor, des heiligen
+                        Augustinus, des heiligen Ambrosius, des heiligen Hieronymus, der heiligen
+                        Maria Magdalena, der heiligen Katharina, der heiligen Margarete, der
+                        heiligen Lucia, der heiligen Barbara, der heiligen Gertrude, der heiligen
+                        Cäcilia, der heiligen Agnes, der 11 000 Jungfrauen, zu Allerheiligen, zu
+                        Allerseelen sowie an allen Sonntagen. Weiters wird all jenen Ablass gewährt,
+                        die den Priester beim Versehgang begleiten, die beim Abendläuten mit
+                        gebeugten Knien drei Ave Maria beten, die für den Bau, die Beleuchtung und
+                        die sonstige Ausstattung der Kloster[kirche] aufkommen, die dem Kloster
+                        entweder testamentarisch oder auf anderen Wegen Gold-, Silber- oder
+                        Kleidungsspenden zukommen lassen sowie denen, die für die Gesundheit
+                        desjenigen Bischofs, der diese Indulgenz bestätigt, sowie von
+                        Dominikanerbruder Werner Haso, der die vorliegende Indulgenz erbeten hat
+                            (<cei:quote type="italic">salubri statu venerabilis patris domini ...
+                            Dei gracia episcopi istam indulgenciam confirmantis et fratris Werneri
+                            Hasonis, ordinis predicatorum, istius indulgencie
+                            impetratoris</cei:quote>) – solange diese leben – und für deren Seelen –
+                        wenn sie verstorben sind – ein Vater Unser zusammen mit dem Engelsgruss
+                        beten oder für diese Personen eine Messe feiern bzw. feiern
+                        lassen.<cei:lb/>Markus Gneiss </cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Avignon</cei:placeName>
+                        <cei:dateRange from="13290829" to="13290829">1329-08-29</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig><cei:traditioForm>Original</cei:traditioForm>Pergament; Siegel:
+                        alle abgefallen; die Namen der 14 Siegler wurden in der Reihenfolge der
+                        Besiegelung auf der Plica notiert.<cei:figure/><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1329-08-29_Kirchberg_Landesarchiv_Baden-Wuerttemberg_Hauptstaatsarchiv_Stuttgart_H_52_U_2-.jpg"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1329-08-29_Kirchberg_Landesarchiv_Baden-Wuerttemberg_Hauptstaatsarchiv_Stuttgart_H_52_U_2-det-1.jpg"/></cei:figure><cei:archIdentifier><cei:settlement>Stuttgart</cei:settlement>
+                            <cei:arch>Landesarchiv Baden-Württemberg, Hauptstaatsarchiv
+                                Stuttgart</cei:arch><cei:archFond>H 52</cei:archFond><cei:idno>U
+                                2</cei:idno><cei:altIdentifier type="old"><cei:idno>J 28, Nr.
+                                    8</cei:idno></cei:altIdentifier></cei:archIdentifier><cei:physicalDesc><cei:decoDesc><cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma="HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</cei:index>:
+                                    Historisierte Initiale U(niversis) zu Textbeginn und vier
+                                    vergrösserte Initialen mit Aussparungen vor rotem und grünen
+                                    Grund in den Binnenfeldern in der ersten Zeile. Im Textfeld vier
+                                    einzeilige Initialen der gleichen Art.</cei:p><cei:p n="Ekphrasis">Neun Zeilen hohe historisierte Initiale zu
+                                    Textbeginn: in Feder vorgezeichnet und mit Grün und Rot sowie
+                                    Blau, Braun und Hellgelb ausgemalt (kolorierte Federzeichnung).
+                                    Im Binnenfeld <cei:index indexName="IllUrkGlossar" lemma="Christusbueste">Christusbüste</cei:index> mit
+                                    erhobenen Händen. Der rot und grün gespaltene Buchstabenkörper
+                                    mit zwischen Farbflächen ausgesparter Blattranke gestaltet. Der
+                                    Buchstabe ragt nach links in den Rand hinaus.</cei:p><cei:p n="Stil und Einordnung">Die Initiale folgt im Wesentlichen dem
+                                    Entwurf vom <cei:ref target="http://www.monasterium.net/mom/IlluminierteUrkunden/1328-06-07_Bruessel/charter">1328 Juni 7 für Léau</cei:ref>, doch fehlt hier das
+                                    Mischwesen im Schaft. Dabei ist sie mehr als doppelt so hoch
+                                    geworden, was den Proportionen der <cei:index indexName="IllUrkGlossar" lemma="Christusbueste">Christusbüste</cei:index> zugutekommt. Bemerkenswert ist
+                                    der Versuch, dem Gesicht durch Schattierungen entlang des
+                                    Nasenrückens und durch Falten am Auge mehr Tiefe zu verleihen.
+                                    Hierbei handelt es sich um eine Arbeit des <cei:index indexName="IllUrkGlossar" lemma="Zeichner3derChristusbuesten">Zeichners 3 der
+                                        Christusbüsten</cei:index>. Die Initiale kann in ihrer
+                                    sorgfältigen Ausführung und den ausgewogenen Proportionen als
+                                    Archetyp für die Illumination mit der Christusbüste
+                                    gelten.</cei:p><cei:p n="Stil und Einordnung">Angesichts der
+                                    gleichmässigen Tintenfarbe würde man nicht darauf kommen, dass
+                                    der Text vorgeschrieben wurde. Die dekorativ in die Länge
+                                    gezogenen „s“ bei den Bischofsnamen beweisen jedoch das
+                                    Gegenteil.</cei:p><cei:p n="Autorensigle">Martin Roland,
+                                    Gabriele
+                                Bartz</cei:p></cei:decoDesc><cei:material>Pergament</cei:material><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:notariusDesc/><cei:sealDesc>alle
+                                abgefallen; die Namen der 14 Siegler wurden in der Reihenfolge der
+                                Besiegelung auf der Plica
+                            notiert.</cei:sealDesc></cei:auth><cei:nota>Vermerke: Vorderseite,
+                            rechts oberhalb der Plica: Summa indulgenciarum sexcenti dies; (von
+                            anderer Hand:) <cei:quote>Insuper summa indulgenciarum ordinis sunt
+                                XXXVII anni, sexcenti dies et tres carene</cei:quote>. Kein Bild der
+                            Rückseite vorhanden.</cei:nota><cei:rubrum/></cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl key="zotero:S6Q3SX6Q">Erben, Bittschriften und Ablaßurkunden,
+                                1923, S. 181, Nr. III-3. (<cei:ref target="http://zotero.org/groups/257864/items/S6Q3SX6Q">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>
+                                <cei:ref target="http://www.landesarchiv-bw.de/plink/?f=1-324594">http://www.landesarchiv-bw.de/plink/?f=1-324594</cei:ref>
+                            </cei:bibl>
+                            <cei:bibl key="zotero:MQ77XQ4V">Delehaye, 45, 1927, S. 333. (<cei:ref target="http://zotero.org/groups/257864/items/MQ77XQ4V">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:26FJWVDS">Homburger, von Steiger, Zwei
+                                Ablassbriefe in Bern, 1957, S. 135, Anm. 9, 147 (Abb. 7). (<cei:ref target="http://zotero.org/groups/257864/items/26FJWVDS">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:CAMCHQCH">Homburger, Ablassbrief Königsfelden
+                                1329, 1957/58, S. 116 (<cei:ref target="http://zotero.org/groups/257864/items/CAMCHQCH">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="">Reg. Const. ep. 2, 1905, Nr. 4195. (<cei:ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/8GFXDSTB/q/regesta">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:R6MQEXZN">Burmeister, Zwei illuminierte
+                                Ablassbriefe, 2003, S. 7; online: <cei:ref target="http://www.vorarlberg.at/pdf/bg68burmeisterablassbrief.pdf">http://www.vorarlberg.at/pdf/bg68burmeisterablassbrief.pdf</cei:ref>
+                                    (<cei:ref target="http://zotero.org/groups/257864/items/R6MQEXZN">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:4PQHP9IU">Manzari, Miniatura ad Avignone, 2006, S.
+                                356f. (<cei:ref target="http://zotero.org/groups/257864/items/4PQHP9IU">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p>Kommentar:</cei:p>
+                        <cei:p>Arenga (Incipit): <cei:quote>Pia mater ecclesia ...
+                            </cei:quote>.</cei:p>
+                        <cei:p>Aus der im Vermerk errechneten Summe der Ablasstage geht hervor, dass
+                            wohl noch ein Siegel des bestätigenden Bischofs an der Urkunde befestigt
+                            war, also insgesamt 15. Auch dieses ist nicht mehr erhalten.</cei:p>
+                        <cei:p>Der Zürcher Dominikanermönch Werner Haso/von Hasle war auch
+                            Impetrator der Indulgenzen für <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1329_Aufbewahrungsort-unbekannt_1/my-charter">Diessenhofen</cei:ref> und <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1329_Aufbewahrungsort-unbekannt_2/my-charter">Offenhausen</cei:ref> (beide 1329 ohne Monat und Tag); siehe dazu
+                            Homburger–von Steiger, Zwei Ablassbriefe in Bern, 1957, S. 140.</cei:p>
+                        <cei:p>Markus Gneiss</cei:p>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">Frankreich (Kurie)</cei:placeName>
+                <cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1:
+                    historisiert</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: Mit
+                    zusätzlichen Farben</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="ExecutionDraw">N1:
+                    gezeichnet</cei:index>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

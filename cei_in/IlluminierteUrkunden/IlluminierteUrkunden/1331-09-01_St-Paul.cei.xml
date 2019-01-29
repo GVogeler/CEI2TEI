@@ -1,0 +1,133 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1331-09-01_St-Paul</atom:id>
+    <atom:title/>
+    <atom:published>2017-02-28T16:40:52.948+01:00</atom:published>
+    <atom:updated>2017-03-14T14:34:17.3+01:00</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:link rel="versionOf" ref="tag:www.monasterium.net,2011:/charter/AT-StiAStP/BlUKLorch/BU_307"/>
+    <atom:content type="application/xml" src="tag:www.monasterium.net,2011:/charter/AT-StiAStP/BlUKLorch/BU_307">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>Stiftsarchiv St. Paul Filmrepertorium St. Blasien,
+                            Generallandesarchiv Karlsruhe, Repertorium Abt. St. Paul (Abt. Aarau,
+                            Abt. Einsiedeln) (Fremdrepertorien Aarau und Zürich), Sanktblasianische
+                            Archivalien im Stiftsarchiv St. Paul im Lavanttal sowie im Stiftsarchiv
+                            und in der Stiftsbibliothek Einsiedeln, im Staatsarchiv des Kantons
+                            Aarau und im Staatsarchiv des Kantons Zürich. Repertorium über die
+                            vorhandenen Mikrofilme S 8821, S IV 689 - 762, 831 – 833, bearbeitet von
+                            Konrad Krimm (1983) - Generallandesarchiv Karlsruhe, 7500 Karlsruhe
+                            Nördliche Hildapromenade 2</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1331-09-01_St-Paul">1331-09-01_St-Paul</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract>Kaiser <cei:persName>Ludwig [der Bayer]</cei:persName> konfirmirt
+                        dem Abte von Lorch das eingeschaltete Privilegium des römischen Königs
+                        Rudolf de dato Rodemburch, 3. April 1274, wodurch König Rudolf das Kloster
+                        Lorch mit allen seinen Leuten und Gütern in den königlichen Schutz nimmt,
+                        die demselben vom Kaiser Friedrich und dessen Sohne, dem römischen König
+                        Heinrich und dem Herzoge Friedrich von Schwaben und Franken verliehenen
+                        Privilegien bestätigt und bestimmt, dass bloss er oder der Abt einen Vogt
+                        aufstellen könne. </cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Nürnberg</cei:placeName>
+                        <cei:dateRange from="13310901" to="13310901">1331-09-01</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm/>
+                        <cei:figure/>
+                        <cei:archIdentifier><cei:settlement>St. Paul im Lavanttal</cei:settlement><cei:arch>Stift St. Paul,
+                                Stiftsarchiv</cei:arch><cei:archFond>St. Blasien</cei:archFond><cei:idno>U 307</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis">Stark vergrösserte Initiale L(udwicus) mit
+                                    ausgesparter Blattranke (Trifolien) und Besatzfleuronnée. </cei:p>
+                                <cei:p n="Stil und Einordnung">Diese Urkunde Kaiser Ludwigs des
+                                    Bayern wird von <cei:ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/6358NVRZ">Wrede, Leonhard von München, 1980</cei:ref>, nicht genannt.
+                                    Der Vergleich mit dem von Wrede publizierten Material macht
+                                    jedoch sehr wahrscheinlich, dass auch dieses Stück von Leonhard
+                                    von München, dem kunstfertigen Notar, mit der Initiale versehen
+                                    wurde. Für das Fleuronnée vergleiche ein Diplom für die Stadt
+                                    Aachen (1330 Mai 20; Wrede, Anhang, Nr. 2).</cei:p>
+                                <cei:p n="Autorensigle">Martin Roland</cei:p>
+                            </cei:decoDesc>
+                            <cei:material/>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc/>
+                        </cei:auth>
+                        <cei:nota/>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl/>
+                            <cei:bibl>
+                                <cei:ref target="http://monasterium.net/mom/AT-StiAStP/BlUKLorch/BU_307/charter">http://monasterium.net/mom/AT-StiAStP/BlUKLorch/BU_307/charter</cei:ref>
+                            </cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p/>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:class/>
+                <cei:persName/>
+                <cei:placeName/>
+                <cei:index/>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

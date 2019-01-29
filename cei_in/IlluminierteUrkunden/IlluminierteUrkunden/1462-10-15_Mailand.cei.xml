@@ -1,0 +1,206 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1462-10-15_Mailand</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1462-10-15_Martin-Roland-Mailand">1462-10-15_Mailand</cei:idno>
+                <cei:chDesc>
+                    <cei:class/>
+                    <cei:abstract>Libell (24 Blätter) mit notariellen Abschriften herzoglicher
+                        Diplome für das Kloster San Pietro de Senis, das dem Orden der "Eremiti di
+                        San Gerolamo" angehört und "Ospitaletto di Lodi" genannt wird: <cei:lb/>
+                        1462 Oktober 15, Mailand: Bianca Maria Visconti gewährt Immunität und
+                        Freiheiten (fol. 1–9). <cei:lb/>Weitere Privilegien von 1477 November 25,
+                        Pavia, bis 1508 Februar 11, Mailand (ff. 10-24). <cei:lb/> Codicetto
+                        membranaceo contenente copie autentiche di privilege ducali per il monastero
+                        di S.Pietro de Senis detto dell´Ospitaletto di Lodi dell´Ordine degli
+                        Eremiti di S.Gerolamo. <cei:lb/> Si apre con:1462-10-15, MilanoBianca Maria
+                        Visconti concede immunità ed esenzioni al monastero (fol. 1–9).
+                        <cei:lb/>Weitere Privilegien von 1477 November 25, Pavia bis 1508 Februar
+                        11, Mailand (ff. 10-24). 4)</cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Mailand</cei:placeName>
+                        <cei:dateRange from="14621015" to="14621015">1462-10-15</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1462-10-15_Bianca-Maria-fuer-San-Gerolamo-in-Lodi_Mailand-Archivio-di-Stato_Bild-Rotarymilanoportavittoria-.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1462-10-15_Bianca-Maria-fuer-San-Gerolamo-in-Lodi_Mailand-Archivio-di-Stato_Bild-Rotarymilanoportavittoria_Einband.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1462-10-15_Bianca-Maria-fuer-San-Gerolamo-in-Lodi_Mailand-Archivio-di-Stato_Bild-Rotarymilanoportavittoria_Initiale.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1462-10-15_Biancha-M-f-S-Pietro-de-Senis_Arch-di-Stato-1992.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Mailand</cei:settlement><cei:arch>Archivio di Stato</cei:arch><cei:archFond>Cimeli,</cei:archFond><cei:idno> cart. 5, doc.
+                                5</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis">Das Libell hat eine prunkvoll gestaltete
+                                    Incipit-Doppelseite: <cei:lb/>Fol. 2v steht eine ganzseitige
+                                    Miniatur auf fol. 2v, in welcher in einem umzäunten Garten der
+                                    Heilige Hieronymus segnend und auf einem Podest steht und vor
+                                    ihm knien Francesco Sforza und seine Gemahlin Bianca Maria
+                                    Visconti. Im Hintergrund eine Landschaft mit Blick auf eine
+                                    Stadt. Auf dem Podest der Schriftzug „Franciscus Sfor[tia]“. Auf
+                                    folio 3r Initiale auf goldenem Grund mit dem Emblem “i tre
+                                    semprevivi”. <cei:lb/>Der Codex mit dem herzoglichen Privileg
+                                    ist mit einer ganzseitigen Miniatur auf fol. 2v versehen, in
+                                    welcher in einem umzäunten Garten der Heilige Hieronymus segnend
+                                    und auf einem Podest steht und vor ihm knien Francesco Sforza
+                                    und seine Gemahlin Bianca Maria Visconti. Im Hintergrund eine
+                                    Landschaft mit Blick auf eine Stadt. Auf dem Podest der
+                                    Schriftzug „Franciscus Sfor[tia]“. <cei:lb/>Der Miniatur
+                                    gegenüber auf fol. 3r Textbeginn mit einer fünfzeiligen Initiale
+                                    B(iancha Maria) auf goldenem Grund mit kurzen Blattausläufern.
+                                    Im Binnenfeld die Bilddevise “i tre semprevivi”. Textanschluss
+                                    in Majuskeln; Kontextschrift humanistisch geprägt.</cei:p>
+                                <cei:p n="Stil und Einordnung">Malaguzzi Valeri hat die Ausstattung
+                                    einem Meister zugeschrieben “fedele agli ideali che avevano
+                                    trovato in Michelino il miglior interprete”. Bereits er hat das
+                                    Libell mit einem weiteren Libell verbunden (siehe <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1464-09-01_Cremona-Cremona/charter">1464 September 1</cei:ref>). <cei:lb/>In weiterer Folge
+                                    wurde die Ausstattung dem „Maestro di Ippolita Sforza“
+                                    zugeschrieben: Arte lombarda dai Visconti agli Sforza ,
+                                    Ausstellungskatalog, Mailand 1958, S. 89 (Cipriani), und
+                                    Giuseppa G. Zanichelli, Il Maestro di Ippolita Sforza e il suo
+                                    “atelier”: ipotesi di un percorso , in: Artes 14 (2008-2009), S.
+                                    5-31. Die Zuschreibung wurde jedoch kürzlich von Laura Paola
+                                    Gnaccolini hinterfragt: Arte lombarda dai Visconti agli Sforza.
+                                    Milano al centro dell’Europa , Ausstellungskatalog herausgegeben
+                                    von Mauro Natale und Serena Romano, Mailand 2015, Nr. IV.3 S.
+                                    286-287. <cei:lb/>Die Gelehrte stellt gewichtige Unterschiede
+                                    zwischen dem Urheber der vorliegenden Urkunde und der Produkiton
+                                    des „Maestro di Ippolita Sforza“ fest, wie zum Beispiel eine
+                                    grössere Achtsamkeit in der Ausführung der Volumen durch
+                                    raffiniertere Schattierungen und Gesichter mit
+                                    naturalistischeren Zügen aufgrund eines feineren Inkarnats.
+                                    <cei:lb/>Gnaccolini schlägt vor, den zur Diskussion stehenden
+                                    Künstler „Maestro dei Privilegi“ zu nennen und ordnet ihm auch
+                                    das Portrait Francesco Sforzas in der Grammatica des Martorelli
+                                    für Ippolita Sforza (Mailand, Biblioteca Trivulziana, Ms. Triv.
+                                    786) und jenes auf der Urkunde für die Girolamini di San
+                                    Sigismondo (<cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1464-09-01_Cremona-Cremona/charter">1464 September 1</cei:ref>).</cei:p>
+                                <cei:p n="Stil und Einordnung">Zur Bilddevise vergleiche auch die
+                                    "Monticelli", eine weitere der zahlreichen Bilddevisen der
+                                    Visconti und Sforza. Im hier verzeichneten Bestand siehe z. B.
+                                        <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1454-12-11_Mailand/charter">1454 Dezember 11</cei:ref>.</cei:p>
+                                <cei:p>[<cei:ref target="http://monasterium.net/mom/IlluminierteUrkundenLombardeiit/1462-10-15_Mailand/charter">Für Details siehe italienischen
+                                    Originaltext.</cei:ref>]</cei:p>
+                                <cei:p/>
+                                <cei:p>
+                                    <cei:index n="Autorensigle">Laura Alidori (Ergänzungen: Martin
+                                        Roland)</cei:index>
+                                </cei:p>
+                            </cei:decoDesc>
+                            <cei:material/>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc/>
+                        </cei:auth>
+                        <cei:nota/>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl key="zotero:DH9CNF82">Malaguzzi Valeri, Corte, 1, 1913, pp.
+                                12, 394, 396: online: <cei:ref target="https://archive.org/stream/lacortedilodovic01mala#page/12">https://archive.org/stream/lacortedilodovic01mala#page/12</cei:ref>.
+                                ( <cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/KJG39ATF">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Malaguzzi Valeri, Corte, 3, 1917, pp. 131, 184–185: online:
+                                    <cei:ref target="https://archive.org/stream/lacortedilodovic1917mala#page/131">https://archive.org/stream/lacortedilodovic1917mala#page/131</cei:ref>
+                                bzw. <cei:ref target="https://archive.org/stream/lacortedilodovic1917mala#page/184">https://archive.org/stream/lacortedilodovic1917mala#page/184</cei:ref>
+                                . (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/QFVGF67K">Volltitel auf Zotero</cei:ref> )</cei:bibl>
+                            <cei:bibl> Arte Lombarda dai Visconti agli Sforza, 1958, S. 89
+                                (Cipriani). (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/FZPMX52U">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Bazzi, Bernini, Santorelli, ASMi, Cimeli, 1979-2006, S. 41:
+                                online: <cei:ref target="www.archiviodistatomilano.beniculturali.it/getFile.php?id=846">www.archiviodistatomilano.beniculturali.it/getFile.php?id=846</cei:ref>
+                                (bitte in eigenenem Fenster öffnen). (<cei:ref target="http://zotero.org/groups/257864/items/DH9CNF82">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:RVHFFJZW">Cagliari Poli, Archivio, 1992, S. 60f.
+                                (mit Abb. von fol. 1r). (<cei:ref target="http://zotero.org/groups/257864/items/RVHFFJZW">Volltitel auf Zotero</cei:ref> )</cei:bibl>
+                            <cei:bibl>Zanichelli, Maesto di Ippolita Sforza, 2008, passim. (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/PU2XX6XQ">Volltitel auf Zotero</cei:ref>) </cei:bibl>
+                            <cei:bibl>Arte Lombarda, 2015, Nr. IV.3 S. 286-287 (Laura Paola
+                                Gnaccolini). (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/K6XZB4TC">Volltitel auf Zotero</cei:ref>) </cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p/>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">Italien</cei:placeName>
+                <cei:placeName type="Region">Lombardei</cei:placeName>
+                <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1:
+                    historisiert</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="Miniatures">N1: Bildfeld</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: mit
+                    zusätzlichen Farben</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1:
+                    gemalt</cei:index>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

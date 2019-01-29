@@ -1,0 +1,115 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1519-09-22_</atom:id>
+    <atom:title/>
+    <atom:published>2018-01-21T15:34:56.597Z</atom:published>
+    <atom:updated>2018-01-21T15:34:56.597Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1519-09-22_">1519-09-22_</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract>König Ludwig II. verleiht dem Propst (provost) Jan Puchauer der
+                        Prämonstratenserinnen von Doksany(Doxan) ein neues Siegel und ein neues
+                        Sekretsiegel und gewährt Rotwachsfreiheit. <cei:lb/>_ </cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Buda</cei:placeName>
+                        <cei:dateRange from="15190922" to="15190922">1519-09-22</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic/>
+                        </cei:figure>
+                        <cei:figure/>
+                        <cei:archIdentifier><cei:settlement>Louny</cei:settlement><cei:arch>Státní oblastní archiv v Litoměřicích</cei:arch><cei:archFond>fund Cech
+                            řezníků Louny</cei:archFond><cei:idno>Inv. no. 14</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p>Darstellung der beiden Siegel in einer Miniatur; das größere
+                                    mit gekrönter Madonna, das Sekretsiegel mit Darstellung des hl.
+                                    Maternus. Der Katalog Europa Jagellonica sieht Valentin Noh als
+                                    Vorbild (Ornamnet) und für den hl. Maternus Vorlagen des
+                                    Donaustils.</cei:p>
+                            </cei:decoDesc>
+                            <cei:material/>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc/>
+                        </cei:auth>
+                        <cei:nota/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl>Europa Jagellonica 1386–1572. Art and Culture in Central
+                                Europe under the Jagiellonian Dynasty. Exhibition Guile (Hg. Jiří
+                                Fajt. Kuttenberg 2012, S. 225 (Kat.-Nr. III 47; ohne Abb.). </cei:bibl>
+                            <cei:bibl>Böhmische Stadtsiegel aus der Sammlung Erik Turnwald.:
+                                Ausstellungen: München, Haus d. Dt. Ostens, 18.5.–16.6.1988;
+                                Regensburg, Leerer Beutel, ab Mitte September bis Anfang Oktober
+                                1988; Berlin, Deutschlandhaus, 28.10.–27.11.1988. Katalog bearbeitet
+                                von Aleš Zelenka.,München 1988, S. 11 (Google-Books)</cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p>_</cei:p>
+                        <cei:p>_</cei:p>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">HRR (Böhmen/Ungarn)</cei:placeName>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

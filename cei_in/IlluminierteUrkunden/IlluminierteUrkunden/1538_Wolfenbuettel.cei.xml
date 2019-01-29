@@ -1,0 +1,123 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1538_Wolfenbuettel</atom:id>
+    <atom:title/>
+    <atom:published>2018-01-21T15:34:56.597Z</atom:published>
+    <atom:updated>2018-01-21T15:34:56.597Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1538_Wolfenbuettel">1538_Wolfenbuettel</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract>Graf Jobst zu Hoya gegen Detlev von Bremer zu Quakenbrück wegen
+                        Schuldforderung von 2400 Goldgulden und Bürgschaft des Ludolf von Klenck,
+                        Propst der Lande Hadeln und Wursten, JohannFridach, Ivo von Zesterfleth.
+                        Segebad von der Hude, Domscholaster zu Bremen, Konrad von Mandelsloh, Dirick
+                        von Schleppegrell, Domherr zu Verden, Otto und Segebad von der Hude, Harbort
+                        von Apen, Johann Harmeling, Ortgies von Wechelt und Jobst von Münchhausen,
+                        Diricks Sohn. <cei:lb/>Bischof zu Münster (nach Archivdatenbank).
+                        <cei:lb/></cei:abstract>
+                    <cei:issued>
+                        <cei:placeName/>
+                        <cei:dateRange from="15389999" to="15389999">1538</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1538_Paul-fuer-St-Andrews-Detail.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1538_Paul-fuer-St-Andrews.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1538_Preu-Wappenbrief_.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1538_Wappen-Michael-Strobl_Radoscay-1973_NOeLA.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Wolfenbüttel</cei:settlement><cei:arch>Niedersächsisches Landesarchiv – Standort
+                                Wolfenbüttel</cei:arch><cei:archFond>Fürstliche Geld- und Schuldsachen</cei:archFond><cei:idno>Nr.
+                            28</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p>Laut Archivdatenbank mit gedrucktem Scheltbrief 1537; 2
+                                    handgemalten Schandbildern 1538.</cei:p>
+                            </cei:decoDesc>
+                            <cei:material/>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc/>
+                        </cei:auth>
+                        <cei:nota/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl>Archivdatenbank – AIDA (derzeit ohne
+                                Verlinkungsmöglichkeit)</cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p/>
+                        <cei:p/>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">HRR (Deutschland) </cei:placeName>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

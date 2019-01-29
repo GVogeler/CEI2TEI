@@ -1,0 +1,144 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1363-01-10_Wien</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:link rel="versionOf" ref="tag:www.monasterium.net,2011:/charter/AT-DAW/Urkunden/13630110"/>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"
+                            <cei:lb/>Bearbeitungsstand: HOCH</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1363-01-10_Wien">1363-01-10_Wien</cei:idno>
+                <cei:chDesc><cei:abstract><cei:index indexName="Illurk-Urkundenart">Bischofsammelindulgenz</cei:index> für St. Stephan in Wien: Patriarch
+                        Guillelmus von Konstantinopel (<cei:foreign>sancte Constantinopolitanis
+                            sedis patriarcha</cei:foreign>), die Erzbischöfe
+                                <cei:issuer><cei:persName key="P_Nikolaus_Larissa_1330">Nikolaus von
+                                Larissa</cei:persName></cei:issuer>
+                            (<cei:foreign>Lacisanensis</cei:foreign>) und <cei:issuer><cei:persName key="P_Kosmas_Trabzon_1359">Kosmas von
+                            Trabzon</cei:persName></cei:issuer>
+                            (<cei:foreign>Trapacensis</cei:foreign>) sowie die Bischöfe Petrus von
+                        Soazzo (<cei:foreign>Suaciensis</cei:foreign>), Johannes
+                            <cei:foreign>Armirocensis</cei:foreign> [nicht identifiziert, fehlt bei
+                        Eubel], <cei:issuer><cei:persName key="">Augustinus von
+                                Siliwri</cei:persName></cei:issuer>
+                            (<cei:foreign>Salubriensis</cei:foreign>), Petrus
+                            <cei:foreign>Drymonensis</cei:foreign> [nicht identifiziert, fehlt bei
+                        Eubel], Albertinus <cei:foreign>Surmenensis</cei:foreign> [nicht
+                        identifiziert, fehlt bei Eubel], Robertus
+                            <cei:foreign>Lambrensis</cei:foreign>, Thomas von Syba
+                            (<cei:foreign>Sirensis</cei:foreign>), Bertoldus von Sizebolu
+                            (<cei:foreign>Cisopolensis</cei:foreign>), Robertus von Daulis (?,
+                            <cei:foreign>Davacensis</cei:foreign>), Philippus
+                            <cei:foreign>Lavadensis</cei:foreign> [nicht identifiziert, fehlt bei
+                        Eubel], Egidius <cei:foreign>Faniariensis</cei:foreign> [nicht
+                        identifiziert], Lazarus von Butrinto
+                            (<cei:foreign>Botronticensis</cei:foreign>), Paulus von Hierapetra
+                            (<cei:foreign>Girapetrensis</cei:foreign>), Petrus von Cagli
+                            (<cei:foreign>Calliensis</cei:foreign>), Raphael von Arkadi
+                            (<cei:foreign>Archadiensis</cei:foreign>), Jakobus
+                            <cei:foreign>Neopatrensis</cei:foreign> [Lepanto?, aber das wäre ein
+                        Erzbistum], Johannes <cei:foreign>Aytonensis</cei:foreign> [wird bei Eubel
+                        518 unter Veglia angeführt, jedoch nicht identifiziert], Johannes
+                            <cei:foreign>Lyssanensis</cei:foreign>, Avancius von Xanthi
+                            (<cei:foreign>Xanciensis</cei:foreign>) und Franziskus von Vregen
+                            (<cei:foreign>Verehensis</cei:foreign>) erteilen all jenen einen Ablass
+                        von 40 Tagen (<cei:foreign>misericorditer in Domino
+                        relaxamus</cei:foreign>), die die in der Diözese Passau gelegene Pfarrkirche
+                        des heiligen Stephan in Wien (<cei:foreign>ecclesia parrochialis sacti
+                            Stephani in Wienna, Pataviensis diocesis</cei:foreign>) an bestimmten
+                        Festtagen und – soweit gegeben – in der jeweiligen Oktav reumütig und nach
+                        Ablegung der Beichte besuchen und dort Morgen- und Abendmessen oder welchen
+                        Messfeierlichkeiten auch immer beiwohnen, und zwar an den Feiertagen des
+                        heiligen Stephan und der heiligen Maria, zu Weihnachten, zu den Festen der
+                        Beschneidung und der Erscheinung des Herrn, am Karfreitag, zu Ostern,
+                        Christi Himmelfahrt, Pfingsten, am Dreifaltigkeitstag, zu Fronleichnam, am
+                        Kreuzauffindungstag, am Kreuzerhöhungstag, am Feiertag des heiligen
+                        Erzengels Michael, am Peter- und Paulstag, zu allen anderen Apostelfesten,
+                        an den Feiertagen des heiligen Johannes des Täufers und des Evangelisten
+                        Johannes, zu allen anderen Evangelistenfesten, an den Feiertagen der vier
+                        Kirchenväter, zu Allerheiligen, zu Allerseelen, am Weihetag der genannten
+                        Kirche, an den Feiertagen des heiligen Laurenz, des heiligen Georg, des
+                        heiligen Vitus, des heiligen Wenzel, des heiligen Martin, des heiligen
+                        Nikolaus, des heiligen Gallus, des heiligen Gregor, der heiligen Katharina,
+                        der heiligen Maria Magdalena, der heiligen Margarete, de rheiligen Dorothea,
+                        der heiligen Ottilia, der heiligen Elisabeth, der heiligen Lucia und der
+                        heiligen Agathe. Weiters wird all jenen Ablass gewährt, die den Priester
+                        beim Versehgang begleiten, die zu bestimmten Zeiten, zu denen die Reliquien
+                        gezeigt werden, anwesend sind und diese sehen und auch jenen die zu diesen
+                        Zeiten nicht anwesend sind, aber mit hingebungsvoller und vollständiger
+                        Zuneigung des Geistes diese anbeten, schließlich auch all jenen, die für
+                        Rudolf [IV.], Herzog von Österreich sowie für dessen Eltern und für alle
+                        seine Vorfahren Gebete sprechen.<cei:lb/>Markus
+                    Gneiss</cei:abstract>Robertus von Daulis (?,
+                            Davacensis)<cei:issued><cei:placeName>Avignon</cei:placeName><cei:dateRange from="13630110" to="13630110">1363-01-10</cei:dateRange></cei:issued><cei:witnessOrig><cei:traditioForm>Original</cei:traditioForm><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1363-01-10_f-St-Stephen-Wien_Monasterium-DAW_13630110_r.jpg"/></cei:figure><cei:archIdentifier><cei:settlement>Wien</cei:settlement><cei:arch>Diözesanarchiv</cei:arch><cei:archFond>Urkunden</cei:archFond><cei:idno>13630110</cei:idno></cei:archIdentifier><cei:physicalDesc><cei:decoDesc><cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma="UnilluminierteAvignonerBischofsammelindulgenz">Unilluminierte Avignoner
+                                    Bischofsammelindulgenz</cei:index>: 13 Zeilen hohe Initiale
+                                    U(niversis) zu Textbeginn, durch dicke Tintenumrisse festgelegt
+                                    und aussen und innen mit einer feinen Linie
+                                    umrandet.</cei:p><cei:p n="Stil und Einordnung">Seit der
+                                    letzten, bisher bekannten Indulgenz mit Illumierungen der
+                                        <cei:index indexName="IllUrkGlossar" lemma="WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                                        Bischofsammelindulgenzen</cei:index>, <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1348-03-05_Nuernberg/charter">1348 März 5 für das Heilig-Geist-Spital in
+                                        Nürnberg</cei:ref> muss man annehmen, dass die Werkstatt
+                                    ihre Tätigkeit – vielleicht wegen der wütenden Pest –
+                                    eingestellt hat. Deshalb mussten die Bittsteller ihre
+                                    Indulgenzen anderswo illuminieren lassen. St. Stephan in Wien
+                                    hatte bereits zwei Jahre zuvor, <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1361-01-25_Wien/charter">1361 Jänner 25</cei:ref>, einen Ablass aus Avignon
+                                    erhalten, der vom selben Schreiber der vergrösserten Initialen
+                                    geschaffen worden war. Angesichts der erhaltenen Fragmente der
+                                    U-Initiale mit dem spitzen Ende des rechten Buchstabenschafts
+                                    ist das zunächst nicht besonders einleuchtend. Von zwei der
+                                    weiteren vergrösserten Initialen der ersten Zeile sind jedoch
+                                    horizontal liegende Tropfenformen mit ausgesparten Halbpalmetten
+                                    in Teilen erhalten, die die charakteristische Gestaltungsweise
+                                    dieses Florators/ Schreibers (<cei:index indexName="IllUrkGlossar" lemma="FloratorfuerStStephan">Florator für St. Stephan</cei:index>) offenbaren: Seine
+                                    Majuskeln bilden diese Tropfenformen aus, die bei den
+                                    aufwendigeren Urkunden ebenfalls mit Fleuronnée versehen
+                                    werden.</cei:p><cei:p n="Stil und Einordnung">Für den zweiten
+                                    Ablass hat man aber in St. Stephan gespart und auf Fleuronnée in
+                                    und an der U-Initiale verzichtet, die weiteren Initialen der
+                                    ersten Zeile aber mit diesem Zierrat versehen lassen. Wie das
+                                    ausgesehen haben könnte, zeigt neben der Urkunde für St. Stephan
+                                    von 1361 Jänner 25 auch <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1361-04-04_St-Gallen/charter">1361 April 4 für Ganterschwil</cei:ref>.</cei:p><cei:p n="Autorensigle">Gabriele
+                                Bartz</cei:p></cei:decoDesc><cei:material>Pergament</cei:material><cei:dimensions/><cei:condition>Die
+                                Urkunde ist oberhalb der zweiten Zeile
+                                abgeschnitten.</cei:condition></cei:physicalDesc><cei:auth><cei:notariusDesc/><cei:sealDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witnessOrig><cei:witListPar><cei:witness><cei:traditioForm/><cei:figure/><cei:archIdentifier/><cei:physicalDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:sealDesc/><cei:notariusDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witness></cei:witListPar><cei:diplomaticAnalysis><cei:listBibl><cei:bibl><cei:ref target="http://monasterium.net/mom/AT-DAW/Urkunden/13630110/charter?q=13630110">http://monasterium.net/mom/AT-DAW/Urkunden/13630110/charter?q=13630110</cei:ref></cei:bibl><cei:bibl>Wolfinger,
+                                Stephanskirche, 2011 (online: <cei:ref target="http://ostdok.de/id/BV039162334/ft/bsb00107911?page=1&amp;c=solrSearchOstdok">urn:nbn:de:bvb:12-bsb00107911-8</cei:ref>), S. 50f. (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/HUV76BRN">Volltitel bei
+                            Zotero</cei:ref>)</cei:bibl></cei:listBibl><cei:listBiblRegest><cei:bibl/></cei:listBiblRegest><cei:listBiblFaksimile><cei:bibl/></cei:listBiblFaksimile><cei:listBiblErw><cei:bibl/></cei:listBiblErw><cei:p>Lukas
+                            Wolfinger weist darauf hin (Mail vom 16. Mai 2018), dass nur kurze Zeit
+                            nach dem Ausstellungsdatum der hier behandelten Sammelindulgenz Hermann
+                            Schultheiss von Rottweil als Gesandter Herzog Rudolfs IV. von Österreich
+                            an der Kurie nachweisbar ist. Dass im Zuge dieser Reise auch die hier
+                            behandelte Sammelindulgenz impetriert wurde, ist mehr als
+                            wahrscheinlich.</cei:p><cei:p>Martin
+                            Roland</cei:p><cei:quoteOriginaldatierung/><cei:nota/><cei:listBiblEdition><cei:bibl/></cei:listBiblEdition></cei:diplomaticAnalysis><cei:lang_MOM/></cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">Frankreich (Kurie)</cei:placeName>
+                <cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials">N2:
+                    Initiale</cei:index>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

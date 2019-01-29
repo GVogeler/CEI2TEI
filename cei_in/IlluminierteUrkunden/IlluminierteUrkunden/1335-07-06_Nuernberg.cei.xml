@@ -1,0 +1,251 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1335-07-06_Nuernberg</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl/>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1335-07-06_Nuernberg">1335-07-06_Nuernberg</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract><cei:index indexName="Illurk-Urkundenart">Bischofsammelindulgenz</cei:index> (18 Aussteller) für das
+                        Heilig-Geist-Spital in Nürnberg:<cei:lb/>Erzbischof
+                                <cei:issuer><cei:persName key="P_Guillelmus_Bar_1324">Guillelmus von
+                                Bar</cei:persName></cei:issuer>
+                            (<cei:foreign>Antibarensis</cei:foreign>) sowie die Bischöfe
+                                <cei:issuer><cei:persName key="P_Salmannus_Worms_1329">Salmannus von
+                                Worms</cei:persName></cei:issuer>
+                            (<cei:foreign>Wormacensis</cei:foreign>), <cei:issuer><cei:persName key="P_Bernardus_Dschordschan_1329">Bernardus von
+                                Dschordschan</cei:persName></cei:issuer>
+                            (<cei:foreign>Diagorganensis</cei:foreign>), <cei:issuer><cei:persName key="P_Alamannus_Soana_1330">Alamannus von
+                            Soana</cei:persName></cei:issuer>
+                        (<cei:foreign>Suanensis</cei:foreign>), <cei:issuer><cei:persName key="P_Nikolaus_Karpathos_1326">Nikolaus von
+                                Karpathos</cei:persName></cei:issuer>
+                            (<cei:foreign>Scarpatensis</cei:foreign>), <cei:issuer><cei:placeName key="P_Johannes_Terralba_1332">Johannes von
+                            Terralba</cei:placeName></cei:issuer>
+                            (<cei:foreign>Terrealbensis</cei:foreign>), <cei:issuer><cei:persName key="P_Philipp_Salona_1332">Philipp von
+                            Salona</cei:persName></cei:issuer>
+                            (<cei:foreign>Salonensis</cei:foreign>), <cei:issuer><cei:persName key="P_Bartholomaeus_Cloyne_false">Bartholomäus von
+                                Cloyne</cei:persName></cei:issuer>
+                            (<cei:foreign>Clofensis</cei:foreign>), <cei:issuer><cei:persName key="P_Guillelmus_Taebris_1329">Guillelmus von
+                            Täbris</cei:persName></cei:issuer>
+                            (<cei:foreign>Taurisiensis</cei:foreign>), <cei:issuer><cei:persName key="P_Johannes_Clonfert_1322">Johannes von
+                            Clonfert</cei:persName></cei:issuer>
+                            (<cei:foreign>Clonensis</cei:foreign>), <cei:issuer><cei:persName key="P_Raimundus_Kotor_1331">Raimundus von
+                            Kotor</cei:persName></cei:issuer>
+                            (<cei:foreign>Catarnensis</cei:foreign>), <cei:issuer><cei:persName key="P_Gorzias_Belluno-Feltre_1327">Gorzias von
+                                Belluno-Feltre</cei:persName></cei:issuer>
+                            (<cei:foreign>Feltrensis</cei:foreign>), <cei:issuer><cei:persName key="P_Bonifatius_Krbava_1332">Bonifatius von
+                            Krbava</cei:persName></cei:issuer>
+                            (<cei:foreign>Corbaviensis</cei:foreign>), <cei:issuer><cei:persName key="P_Andreas_Coron_1333">Andreas von
+                            Coron</cei:persName></cei:issuer>
+                        (<cei:foreign>Coronensis</cei:foreign>), <cei:issuer><cei:persName key="P_Petrus_MonteMarano_1331">Petrus von Monte
+                                Marano</cei:persName></cei:issuer>
+                            (<cei:foreign>Montismarani</cei:foreign>), <cei:issuer><cei:persName key="P_Paulus_Alatri_1316">Paulus von
+                            Alatri</cei:persName></cei:issuer>
+                        (<cei:foreign>Alatrini</cei:foreign>), <cei:issuer><cei:persName>Ägidius
+                                    <cei:foreign>Veronensis</cei:foreign></cei:persName></cei:issuer>
+                        [Verona? ] und <cei:issuer><cei:persName>Petrus
+                                    <cei:foreign>Walneoregensis</cei:foreign></cei:persName></cei:issuer>
+                        [Bagnorea?] erteilen all jenen einen Ablass von 40 Tagen
+                            (<cei:foreign>misericorditer in Domino relaxamus</cei:foreign>), die die
+                        in der Diözese Bamberg gelegene Kapelle des Heilig-Geist-Spitals in Nürnberg
+                        am Fluss Pegnitz (<cei:foreign>capella hospitalis Sancti Spiritus et ipsum
+                            hospitale in oppido Nurenberg situatum prope fluvium Pegencz,
+                            Babenbergensis dyocesis</cei:foreign>) reumütig und nach Ablegung der
+                        Beichte an bestimmten Festtagen und – soweit gegeben – in der jeweiligen
+                        Oktav besuchen, und zwar zu Weihnachten, an den Tagen der Beschneidung und
+                        der Erscheinung des Herrn, am Karfreitag, zu Ostern, Christi Himmelfahrt,
+                        Pfingsten, am Dreifaltigkeitstag, zu Fronleichnam, an den Tagen der
+                        Kreuzerfindung und Kreuzerhöhung, an allen Marienfeiertagen, am Feiertag des
+                        heiligen Michael, am Tag der Geburt und der Enthauptung des heiligen
+                        Johannes des Täufers, am Peter- und Paulstag, zu allen Apostel- und
+                        Evangelistenfesten, zu Allerheiligen, Allerseelen, am Weihetag der Kapelle,
+                        am Feiertag des heiligen Stefan, des heiligen Laurenz, des heiligen Vinzenz,
+                        des heiligen Georg, der 10000 Martyrer, der unschuldigen Kinder, des
+                        heiligen Bonifaz, des Papsts Urban, des heiligen Mauritius, des heiligen
+                        Martin, des heiligen Nikolaus, des heiligen Otto, des Papsts Gregor, des
+                        heiligen Augustinus, des heiligen Benedikt, des heiligen Bernhard, des
+                        heiligen Sebald, des heiligen Egidius, des heiligen Heinrich, des heiligen
+                        Dominikus, des heiligen Franziskus, der heiligen Maria Magdalena, der
+                        heiligen Katharina, der heiligen Margarete, der heiligen Agatha, der
+                        heiligen Agnes, der heiligen Cäcilia, der heiligen Lucia, der heiligen
+                        Kunigunde, der heiligen Klara, der heiligen Dorothea, der heiligen
+                        Elisabeth, der 11000 Jungfrauen sowie an allen Sonntagen, im Advent und in
+                        der Fastenzeit. Weiters wird all jenen Ablass gewährt, die die den Priester
+                        beim Versehgang begleiten, die den Friedhof des Spitals umschreiten und
+                        dabei für die Verstorbenen beten, die das Vater Unser und den Engelsgruß
+                        sprechen, der Kapelle oder dem Spital etwas von ihrem Vermögen vermachen,
+                        der Messe, Predigt oder einer kirchlichen Tagzeit beiwohnen, besonders der
+                        Messe vom hl. Geist oder von der seligsten Jungfrau an Samstagen, die für
+                        den Bau, die Beleuchtung und die sonstige Ausstattung der Spitalkapelle
+                        aufkommen, die der Kapelle oder dem Spital in ihrem Testamente oder sonstwie
+                        etwas vermachen oder vermachen helfen an Gold, Silber, Büchern, Kleidern,
+                        Kelchen, oder denjenigen, die für der [nicht namentlich genannten] Stifter
+                        und deren Vorfahren oder für alle Verstorbenen beten und jenen, die diese
+                        Indulgenz durch ihre Arbeit erhalten.<cei:lb/>Markus Gneiss</cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Avignon</cei:placeName>
+                        <cei:dateRange from="13350706" to="13350706">1335-07-06</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure/>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1335-07-06_f-Hl-Geist-Spital_Stadtarchiv-Nuernberg.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1335-07-06_Hl-Geist-Spital_Stadtarchiv-Nuernberg_det-1.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Nürnberg</cei:settlement><cei:arch>Stadtarchiv</cei:arch><cei:archFond>Urkundenreihe (A1)</cei:archFond><cei:idno>sub dato</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p><cei:index indexName="IllUrkGlossar" lemma="HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</cei:index>:
+                                    Historisierte Initiale U(niversis) zu Textbeginn, unterhalb der
+                                    Initiale ein Bildfeld. Fünf weitere Initialen mit Aussparungen
+                                    vor farbigem Grund in den Binnenfeldern in der ersten Zeile,
+                                    gelb gefärbt mit Blattwerkaussparungen aus roten und grünen
+                                    Gründen. Im Text vier vergrösserte, farbig markierte einzeilige
+                                    Lombarden sowie rote Lombarden bei den Namen der ausstellenden
+                                    Bischöfen, einige mit blauviolettem Fleuronnée.<cei:lb/> Neun
+                                    Zeilen hohe, über die erste Zeile und den linken Rand des
+                                    Schriftspiegels herausragende historisierte Initiale zu
+                                    Textbeginn: in Feder gezeichnet und mit Deckfarben koloriert. Im
+                                    Binnenfeld vor blaugrauem Grund Gottvater thronend mit dem Kreuz
+                                    und dem gekreuzigten Christus (Gnadenstuhl; die sonst übliche
+                                    Heilig-Geist-Taube fehlt). Die Buchstabenschäfte mit einer
+                                    Verkündigung: links der stehende Engel Gabriel, rechts die
+                                    stehende Madonna mit der Geist-Taube auf der erhobenen Rechten.
+                                    Der Engel hält ein Schriftband: Ave gratia plena d(omi)nus
+                                    tecum. Mariens Schriftband: Ecce ancilla d(omi)ni. Viat m(eu)m
+                                    s(e)c(un)d(u)m verbu(m) tuum. Das Initialfeld rot
+                                    ausgemalt.<cei:lb/> Unterhalb der Initiale in einem graublauen
+                                    Bildfeld ein rot gewandeter kniender Petent mit Spruchband:
+                                    „S(an)c(t)a Trinitas Deus misere mei“. </cei:p>
+                                <cei:p>Bei dem gewählten <cei:index indexName="IllUrkGlossar" lemma="Layout">Layout</cei:index> handelt es sich um die
+                                    Minimalversion des <cei:index indexName="IllUrkGlossar" lemma="Rahmentyp">Rahmentyps</cei:index>, denn das
+                                    Initialfeld der Initiale schliesst genau mit dem Bildfeld für
+                                    den Stifter ab. Auch oben hätte man einen Bildstreifen
+                                    anschliessen können. Doch gehört es zu den Vorzügen dieses
+                                    Layouts, dass die Besteller wählen konnten. Ähnlich wie bei den
+                                    Bildthemen der Initiale, die hier mit einem Gnadenstuhl auf die
+                                    Kapelle sinnfällig anspielen. Mit der Verkündigung kommt sogar
+                                    noch ein zweites Sujet hinzu, weshalb der Petent -
+                                    ungewöhnlicherweise - in dem Bildfeld links unterhalb
+                                    unterkommen musste (damit entfernt ähnlich dem bisher ersten
+                                    Vorkommen eines gemalten Bittstellers bei <cei:ref target="monasterium.net/mom/IlluminierteUrkunden/1328-06-07_Bruessel/charter">1328 Juni 7</cei:ref> für Zoutleeuw).</cei:p>
+                                <cei:p>Seit 1329 kann man eine <cei:index indexName="IllUrkGlossar" lemma="IkonographischeDiversifizierung">ikonographische
+                                        Diversifizierung</cei:index> bei der Illuminierung von
+                                    Avignoner Sammelablässen beobachten. Für das Heilig-Geist-Spital
+                                    in Nürnberg hat man die schon erprobte Ikonographie des
+                                    Gnadenstuhls adaptiert (erstmals <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1332-10-15_Lahnstein/charter">1332 Oktober 15</cei:ref> für Lahnstein - wohl ebenfalls
+                                    ohne die Geist-Taube), indem man den Heiligen Geist in die
+                                    Verkündigungsgruppe in den Buchstabenschäften "exportierte".
+                                    Eine Verkündigung mit zwei stehenden Figuren kam bereits
+                                        <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1333-04-06_Trier/charter">1333 April 6</cei:ref> bei einem Ablass für Pfalzel vor,
+                                    auch dort auf zwei Bildfelder aufgeteilt (freilich auf linken
+                                    Schaft und Binnenfeld). </cei:p>
+                                <cei:p>Für das Heilig-Geist-Spital in Nürnberg wurden zumindest vier
+                                    Sammelablässe ausgestellt: der hier vorliegende, <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1335-07-06_Nuernberg/charter">1335 Juli 6</cei:ref>,<cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1348-03-05_Nuernberg/charter">1348 März 5</cei:ref> und schliesslich <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1336-12-29_Nuernberg/charter">1336 Dezember 29</cei:ref>, der hier vorliegende Ablass und
+                                    schliesslich <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1358-04-07_Nuernberg/charter">1358 April 7</cei:ref>.</cei:p>
+                                <cei:p>
+                                    <cei:index n="Autorensigle">Gabriele Bartz, Martin
+                                        Roland</cei:index>
+                                </cei:p>
+                            </cei:decoDesc>
+                            <cei:material>Pergament</cei:material>
+                            <cei:dimensions><cei:height>81,7</cei:height> x <cei:width>52,0</cei:width> cm</cei:dimensions>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc>Plica: 7,4 cm. An roten und blau-grünen Hanfschnüren 16 Siegel von rotem
+                                Wachs, 1 und 16 rund, die übrigen spitzoval und alle ziemlich gut
+                                erhalten. <cei:lb/>Das 17. Siegel ist von grünem Wachs, hängt an
+                                gelb-grüner Hanfpressel und trägt rückwärts 2 wagrechte Hohlkehlen,
+                                während die anderen Siegel ohne Rückenzeichen sind. <cei:lb/>Den 17
+                                Siegeln ist vorausgesetzt an rot-grünen Seidenfäden das Siegel des
+                                Bamberger Bischofs mit rotem Rücksiegel.</cei:sealDesc>
+                        </cei:auth>
+                        <cei:nota/>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl>Herrn Dr. Bauernfeind sei sehr herzlich für den Hinweis auf
+                                dieses Stück gedankt.</cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p>1337-02-24 (in die beati Mathie apostoli)<cei:lb/>Bischof Leupold
+                            [von Egloffstein 1325-1344] von Bamberg gibt zum Ablass seine Zustimmung
+                            und gewährt ebenfalls 40 Tage Ablass.</cei:p>
+                        <cei:p>Rückvermerke:<cei:lb/>um 1400: in roter Tinte Q; ein antlazbriefe von
+                            XVIII pischofen; <cei:lb/>Plica: 16.Jh.: kurzes Regest (nach
+                            Archivaufzeichnungen)</cei:p>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:class/>
+                <cei:persName/>
+                <cei:placeName type="Region">Frankreich (Kurie)</cei:placeName>
+                <cei:index indexName="illurk-vocabulary" lemma="Historiated"/>
+                <cei:index indexName="illurk-vocabulary" lemma="Initials"/>
+                <cei:index indexName="illurk-vocabulary" lemma="N2WithAdditionalColours"/>
+                <cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted"/>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

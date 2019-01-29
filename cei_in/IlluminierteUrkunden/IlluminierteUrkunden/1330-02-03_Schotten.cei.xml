@@ -1,0 +1,235 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1330-02-03_Schotten</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"
+                            <cei:lb/>Bearbeitungsstand: MITTEL</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1330-02-03_Schotten">1330-02-03_Schotten</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract><cei:index indexName="Illurk-Urkundenart">Bischofsammelindulgenz</cei:index> (13 Aussteller) für die
+                        Michaelskirche in Schotten (Hessen):<cei:lb/>Erzbischof
+                                <cei:issuer><cei:persName key="P_PetrusI_Nazareth_1321">Petrus von
+                                Nazareth</cei:persName></cei:issuer>
+                            (<cei:quote>Nazareni</cei:quote>) sowie die Bischöfe
+                                <cei:issuer><cei:persName key="P_Angelus_Sulcis_1325">Angelus von
+                                Sulcis</cei:persName></cei:issuer>
+                            (<cei:quote>Sulcitanensis</cei:quote>), Poenitentiär des Papstes,
+                                <cei:issuer><cei:persName key="P_Rogerus_Bovino_1329">Rogerus von
+                                Bovino</cei:persName></cei:issuer>
+                        (<cei:quote>Biviensis</cei:quote>), <cei:issuer><cei:persName key="P_Franziskus_Bisaccia_1329">Franziskus von
+                                Bisaccia</cei:persName></cei:issuer>
+                            (<cei:quote>Bisaciensis</cei:quote>), <cei:issuer><cei:persName key="P_Stephanus_Pharus_1329">Stephanus von
+                            Pharus</cei:persName></cei:issuer> (<cei:quote>Farensis</cei:quote>),
+                                <cei:issuer><cei:persName key="P_Johannes_Serbien_1329">Johannes von
+                                Serbien</cei:persName></cei:issuer>
+                            (<cei:quote>Serbiensis)</cei:quote>, <cei:issuer><cei:persName key="P_Radulfus_Down_1328">Radulfus von
+                            Down</cei:persName></cei:issuer> (<cei:quote>Dunensis</cei:quote>),
+                                <cei:issuer><cei:persName key="P_Meletius_Gallipoli_1327">Meletius
+                                von Gallipoli</cei:persName></cei:issuer>
+                            (<cei:quote>Gallipolitani</cei:quote>), <cei:issuer><cei:persName key="P_Vinzenz_Patti_1342">Vinzenz von
+                            Mariana</cei:persName></cei:issuer> (<cei:quote>Maranensis</cei:quote>),
+                                <cei:issuer><cei:persName key="P_Johannes_Caorle_1308">Johannes von
+                                Caorle</cei:persName></cei:issuer>
+                            (<cei:quote>Caprulensis</cei:quote>), <cei:issuer><cei:persName key="P_Jordanus_Acerno_1319">Jordanus von
+                            Acerno</cei:persName></cei:issuer> (<cei:quote>Acernensis</cei:quote>),
+                                <cei:issuer><cei:persName key="P_Jordanus_Colombo_false">Jordanus
+                                von Colombo</cei:persName></cei:issuer>
+                            (<cei:quote>Columbensis</cei:quote>) und <cei:issuer><cei:persName key="P_Guillelmus_Cassano_1330">Guillelmus von
+                                Cassano</cei:persName></cei:issuer>
+                            (<cei:quote>Cassanensis</cei:quote>) erteilen all jenen einen Ablass von
+                        40 Tagen (<cei:quote>misericorditer in Domino relaxamus</cei:quote>), die
+                        die in der Diözese Mainz gelegene Kirche des heiligen Michael in Schotten
+                        und die Marienkapelle, Filiale der genannten Kirche (<cei:quote>ecclesia
+                            sancti Michaelis in Schotten, Maguntinensis diocesis, et capella beate
+                            Marie virginis, eiusdem ecclesie filia</cei:quote>), wo bekanntlich [!]
+                        viele Wunder durch den allmächtigen Gott aus Liebe zu seiner Mutter
+                        vollbracht werden (<cei:quote>ubi omnipotens Deus amore sua matris multa
+                            miracula noscitur operari</cei:quote>), an bestimmten Festtagen und –
+                        soweit gegeben – in der jeweiligen Oktav reumütig und nach Ablegung der
+                        Beichte besuchen und dort Morgen- und Abendmessen oder welchen
+                        Messfeierlichkeiten auch immer beiwohnen, und zwar die genannte Kirche am
+                        Feiertag des heiligen Michael und an ihrem Weihetag, die genannte Kapelle an
+                        den Feiertagen der heiligen Maria sowie an ihrem Weihetag, weiters beide
+                        Institutionen zu Weihnachten, zu den Festen der Beschneidung und der
+                        Erscheinung des Herrn, am Karfreitag, zu Ostern, zu Christi Himmelfahrt, zu
+                        Pfingsten, am Dreifaltigkeitstag, zu Fronleichnam, am Kreuzauffindungstag,
+                        am Kreuzerhöhungstag, zu den Festen der Geburt und der Enthauptung des
+                        heiligen Johannes des Täufers, am Peter- und Paulstag, zu allen Apostel- und
+                        Evangelistenfesten, an den Feiertagen des heiligen Stephan, des heiligen
+                        Laurenz, des heiligen Vincenz, des heiligen Clemens, des heiligen Georg, des
+                        heiligen Martin, des heiligen Nikolaus, des heiligen Gregor, des heiligen
+                        Augustinus, des heiligen Ambrosius, des heiligen Hieronymus, des heiligen
+                        Benedikt, der heiligen Maria Magdalena, der heiligen Katharina, der heiligen
+                        Margarete, der heiligen Cäcilia, der heiligen Lucia, der heilige Agathem der
+                        heiligen Agnes, der heiligen Gertrude, der heiligen Barbara, der 11 000
+                        Jungfrauen, zu Allerheiligen, zu Allerseelen sowie an allen Sonntagen.
+                        Weiters wird all jenen Ablass gewährt, die den Priester beim Versehgang
+                        begleiten, die beim Abendläuten mit gebeugten Knien drei Ave Maria beten,
+                        die den Friedhof der genannten Kirche umschreiten und dabei für die Seelen
+                        der dort begrabenen Verstorbenen beten, die für den Bau, die Beleuchtung und
+                        die sonstige Ausstattung der genannten Kirche und der Kapelle aufkommen, die
+                        derselben entweder testamentarisch oder auf anderen Wegen Gold-, Silber- und
+                        Kleidungsspenden oder andere Notwendigkeiten zukommen lassen sowie jenen,
+                        die für die Gesundheit des Pfarrer der genannten Kirche, Konrad, genannt
+                        Gnado, und des Konrad, Schultheiß (scultetus) ebendort [also wohl in
+                        Schotten], solange diese leben, und für deren Seelen, wenn sie verstorben
+                        sind, sowie für alle gläubigen Verstorbenen ein Vater Unser mit einem
+                        Engelsgruß beten oder für sie eine Messe feiern bzw. feiern
+                        lassen.<cei:lb/>Markus Gneiss </cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Avignon</cei:placeName>
+                        <cei:dateRange from="13300203" to="13300203">1330-02-03</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Original</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1330-02-03_Michaelskirche_Schotten_Darmstadt_bearb-1.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1330-02-03_Michaelskirche_Schotten_Darmstadt_bearb-2.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier>
+                            <cei:settlement>Schotten</cei:settlement>
+                            <cei:arch>Ev. Kirchengemeinde.</cei:arch>
+                            <cei:altIdentifier>Aufbewahrt in:
+                                    <cei:settlement>Darmstadt</cei:settlement>
+                                <cei:arch>Zentralarchiv der Ev. Kirche von Hessen und
+                                    Nassau</cei:arch></cei:altIdentifier>
+                        </cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma="HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</cei:index>:
+                                    Historisierte Initiale U(niversis) zu Textbeginn, die drei
+                                    weiteren Initialen der ersten Zeile vergrössert und mit
+                                    Blattformen, die aus den farbigen Binnenfeldern ausgespart sind,
+                                    das m(atris) mit Fischen. Im Textblock zwei zweizeilige
+                                    Initialen der gleichen Art sowie rot gefüllte Versalien.</cei:p>
+                                <cei:p n="Ekphrasis">Sieben Zeilen hohe historisierte Initiale, mit
+                                    der Feder gezeichnet und mit Deckfarben koloriert. Im Binnenfeld
+                                        <cei:index indexName="IllUrkGlossar" lemma="Christusbueste">Christusbüste</cei:index> mit erhobenen Händen. Der rot und
+                                    grün gespaltene Buchstabenkörper mit zwischen Farbflächen
+                                    ausgesparter Blattranke. Der Buchstabe ragt nach links in den
+                                    Rand hinaus, wobei die innere Begrenzung des Bogens in etwa am
+                                    Textspiegel ansetzt. Die vergrösserten Initialen der ersten
+                                    Zeile mit farbigen Aussparungen im Binnenfeld, das M(atris) mit
+                                    Fischen. Die zweizeiligen Initialen im Textblock ebenfalls mit
+                                    farbigen Aussparungen.</cei:p>
+                                <cei:p n="Stil und Einordnung">Im Vergleich zum ersten, bisher
+                                    bekannten Auftreten der Christusbüste ist die Initiale
+                                    wesentlich höher geworden: Vier Zeilen bei <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1328-06-07_Bruessel/charter">Léau</cei:ref> (1328 Juni 7) gegenüber sechs Zeilen für
+                                    Schotten. Dadurch ist das Antlitz Christi stark in die Länge
+                                    gezogen, insbesondere Nasenrücken und Wangen sind aus der Form
+                                    geraten. Zum ersten Mal begegnen hier die roten Wangen, die zur
+                                    Belebung der Gesichtsflächen eingesetzt werden.</cei:p>
+                                <cei:p n="Stil und Einordnung">Mit den zweizeiligen Initialen im
+                                    Textblock, die ebenfalls mit Rot und Grün arbeiten, eine
+                                    ausgewogen schöne Gestaltung.</cei:p>
+                                <cei:p n="Autorensigle">Gabriele Bartz</cei:p>
+                            </cei:decoDesc>
+                            <cei:material>Pergament</cei:material>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc>Reste von 13 Siegelschnüren, daran Bruchstücke von sechs
+                                Siegeln (rotes Wachs).</cei:sealDesc>
+                        </cei:auth>
+                        <cei:nota>Vorderseite oben mittig (15. Jh.): aufgrund der schlechten
+                            Bildqualität nicht lesbar; auf der Vorderseite wurden die Namen der
+                            Siegler in der Reihenfolge der Besiegelung auf der Plica notiert;
+                            Rückseite (15. Jahrhundert): <cei:quote>1330</cei:quote>.</cei:nota>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl><cei:ref target="http://www.vogelsberger-geschichtsverein.de/fotogalerie/">http://www.vogelsberger-geschichtsverein.de/fotogalerie/</cei:ref>
+                                (mit Übersetzung)</cei:bibl>
+                        </cei:listBibl>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p>Das Formular und das Diktat entsprechen weitgehend dem gängigen Usus
+                            der Avignoner Kanzlei in dieser Zeit. Der Hinweis auf die mit der
+                            begünstigten Kirche bzw. der mit dieser zusammenhängenden Kapelle in
+                            Verbindung stehenden Wundertätigkeit in der Narratio der Urkunde zeugt
+                            von dem Versuch, die ab 1320 errichtete Kirche schon sehr früh als
+                            Wallfahrtsort zu positionieren; vgl. dazu
+                            http://www.vogelsberger-geschichtsverein.de/fotogalerie/ (Erwin Mengel
+                            auf S. 46). Zur Frage, ob die heutige evangelische Liebfrauenkirche in
+                            Schotten am selben Platz stand wie die in diesem Ablass erwähnte
+                            Michaelskirche vgl. Kellner, Schotten, 1962 (<cei:ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/VMU8BM6Q/q/kellner">Volltitel auf Zotero</cei:ref>).</cei:p>
+                        <cei:p>Arenga (Incipit): <cei:foreign>Pia mater ecclesia ...
+                            .</cei:foreign></cei:p>
+                        <cei:p>Markus Gneiss</cei:p>
+                        <cei:quoteOriginaldatierung/>
+                        <cei:nota/>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:persName/>
+                <cei:placeName type="Region">Frankreich (Kurie)</cei:placeName>
+                <cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1:
+                    historisiert</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: Mit
+                    zusätzlichen Farben</cei:index>
+                <cei:index indexName="illurk-vocabulary" lemma="ExecutionDraw">N1:
+                    gezeichnet</cei:index>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+                <cei:class/>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

@@ -1,0 +1,181 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1450-12-29_Nuernberg</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1450-12-29_Nuernberg">1450-12-29_Nuernberg</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract><cei:index>Wappenbrief</cei:index>: <cei:issuer>König Friedrich
+                            IV.</cei:issuer> bestätigt <cei:recipient>Nikolaus</cei:recipient> und
+                            <cei:recipient>Jakob Muffel</cei:recipient> das
+                            Wappen.<cei:lb/><cei:issuer>König Friedrich [IV.]</cei:issuer>
+                        bestätigt, verleiht und gibt erneut (<cei:foreign>confirmiern, bestettigen,
+                            verleihen und geben ... von newen</cei:foreign>)
+                            <cei:recipient>Nikolaus</cei:recipient> und <cei:recipient>Jakob
+                            Muffel</cei:recipient> (<cei:foreign>Niclas und Jacob die
+                            Muͤffeln</cei:foreign>) für deren Tugend und Redlichkeit sowie die
+                        treuen und bereitwilligen Dienste, die sie und ihre Vorfahren am König und
+                        dessen Vorgängern sowie dem Haus Österreich vollbracht haben, das Wappen
+                            (<cei:foreign>klainete und wapen</cei:foreign>), das die Vorfahren der
+                        Empfänger schon fünfhundert Jahre geführt und durch ritterliche Taten von
+                        vorangegangenen Herrschern erhalten haben (<cei:foreign>von lanngen und
+                            alten ziten, ob fuͤnfhundert iarn her ... gefüret und herbracht und bey
+                            andern cristenlichen kunigen und fuͤrsten auch in ritterlichen und
+                            guͦten sachen erworben haben</cei:foreign>) und das in der Mitte der
+                        Urkunde farbig eingemalt ist (<cei:foreign>hie in mitte diss briefs
+                            aigentlicher gemalet steend</cei:foreign>), nämlich in rot und golden
+                        geteiltem Schild im goldenen Feld ein rotbekrönter und rotbewehrter
+                        schwarzer Löwe, im roten Feld ein silberner Fisch; im Oberwappen ein Helm
+                        mit silbern-roten Helmdecken, darauf ein halber Hund mit gespreizten
+                        Vorderbeinen und geöffnetem Maul, die Ohren silbern und schwarz geteilt
+                            (<cei:foreign>ainen schild geleich geteilt rot und geel, und in dem
+                            gelben teil ainen swarczen lewen mit zuerpraitten fuͤezzen und
+                            aufgeraktem swancz mit ainer roten cron und roten klaen, und in dem
+                            roten teil ainen weissen visch, auch den helme mit einem weissen und
+                            roten deken gecziret, darauf einen halben praken, mit den vordern
+                            zuerspannen fuͤessen und aufgetanem maul, und die orn uͤber zwerch
+                            geteilt halb weiss und swarcz</cei:foreign>). Außerdem gibt und verleiht
+                            (<cei:foreign>auch gegeben und verlihn haben</cei:foreign>) er ihnen die
+                        Erlaubnis, das Wappen fortan gebessert zu führen, dass sie im schwarzen Feld
+                        einen rotbewehrten und rotbekrönten goldenen Löwen, der dem im anderen Feld
+                        gleicht (<cei:foreign>den schild halben gelb und halben swarcz, und in dem
+                            swarczen teil ain gelben lewen mit ainer roten cronen und roten klaen,
+                            als in dem andern teil des schildes</cei:foreign>) sowie eine goldene
+                        Krone im Oberwappen (<cei:foreign>den helm als vorsteet mit ainer gelben
+                            crone</cei:foreign>), zusätzlich oder statt des bisher geführten Wappens
+                            (<cei:foreign>zu den vorgeschriben irn alten wapen oder welhe under den
+                            aintweders sӱ wellen</cei:foreign>) in allen ehrlichen Taten und
+                        Angelegenheiten (<cei:foreign>in allen eerlichen teͣten und
+                            sachen</cei:foreign>) <cei:foreign>zu schimph und zu
+                            ernste</cei:foreign> ungehindert führen dürfen, wie es andere
+                        Wappengenossen tun (<cei:foreign>als ander wopensgenos erber leͣute
+                            gebrauchen</cei:foreign>). Er erwartet
+                            (<cei:foreign>derworten</cei:foreign>), dass die Empfänger sich
+                        besonders begnadet und geehrt fühlen, nachdem er ihnen angesichts einer
+                        vorgelegten Urkunde (<cei:foreign>als wir dann underweiset sein worden mit
+                            brieflicher urkund</cei:foreign>) bestätigt und verleiht
+                            (<cei:foreign>bestettigen, confirmiern und verleihen ... von
+                            neͣwes</cei:foreign>), dass sie fortan ungehindert mit rotem Wachs
+                        siegeln dürfen, wie es ihre Vorfahren schon seit fünfundert Jahren getan
+                        haben (<cei:foreign>daz ir altvordern vor lanngen und alten zeiten, auch ob
+                            fuͤnfhundert iarn her gephlegen haben</cei:foreign>). Er gebietet allen
+                        geistlichen und weltlichen Fürsten, Grafen, Freien, Herren, Rittern,
+                        Knechten, Herolden, Persevanten und allen anderen seinen und des Heiligen
+                        Römischen Reichs Untertanen aller Stände (<cei:foreign>was wirdiketten, eern
+                            und states die sein</cei:foreign>) unter Androhung schwerer Ungnade und
+                        einer Strafe von zwanzig Mark lötigen Goldes, die je zur Hälfte an die
+                        Reichskammer und an die Betroffenen oder ihre Erben zu zahlen ist, dass sie
+                        die Empfänger und deren Erben in ihren verliehenen Gnaden, Freiheiten und
+                        Wappen (<cei:foreign>klainaten</cei:foreign>) nicht behindern
+                        sollen.<cei:lb/>Daniel Maier</cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Wiener Neustadt (<cei:foreign>zur
+                            Newnstat</cei:foreign>)</cei:placeName>
+                        <cei:dateRange from="14501229" to="14501229">1450-12-29</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Orig. Perg.</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1450_12_29_GNM_HA_Perg_Urk_a.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1450_12_29_GNM_HA_Perg_Urk_b.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier>Nürnberg, Germanisches Nationalmuseum, Historisches
+                            Archiv, Pergamenturkunde sub dato.</cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p>Mittig quadratisches Bildfeld ohne eingemaltes
+                                    Wappen.</cei:p>
+                            </cei:decoDesc>
+                            <cei:material>Pergament</cei:material>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc>Siegel abgefallen</cei:sealDesc>
+                        </cei:auth>
+                        <cei:nota>Rechts auf der Plica: <cei:foreign>Ad mandatum domini regis in
+                                cons(ili)o</cei:foreign></cei:nota>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl/>
+                        </cei:listBibl>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p>Arenga: <cei:foreign>Wan die uͤberfluzzig roͤmisch kuͤniglich
+                                mildikeit, die alle tag mit der sunnen scheinet und steticlich
+                                ettwas schaffet, daz ir lob weiter erhebt werd und zuerbraitet,
+                                darczuͤ irn fleiss allermaist keret, dadurch fuͤrneͣmen und gegen
+                                dem heilgen reiche wolverdienten personen billich eere und lone umb
+                                ir verdienung muͤg gegeben werden.</cei:foreign></cei:p>
+                        <cei:quoteOriginaldatierung>an sand Thomass tag von
+                            Khandelberg.</cei:quoteOriginaldatierung>
+                        <cei:nota/>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:class/>
+                <cei:persName/>
+                <cei:placeName/>
+                <cei:index/>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

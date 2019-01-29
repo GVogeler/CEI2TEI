@@ -1,0 +1,165 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1492-12-29_Budapest</atom:id>
+    <atom:title/>
+    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+    <atom:author>
+        <atom:email>illuminierteurkunden@gmail.com</atom:email>
+    </atom:author>
+    <app:control xmlns:app="http://www.w3.org/2007/app">
+        <app:draft>no</app:draft>
+    </app:control>
+    <atom:content type="application/xml">
+        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+            <cei:front>
+                <cei:sourceDesc>
+                    <cei:sourceDescVolltext>
+                        <cei:bibl/>
+                    </cei:sourceDescVolltext>
+                    <cei:sourceDescRegest>
+                        <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+                    </cei:sourceDescRegest>
+                </cei:sourceDesc>
+            </cei:front>
+            <cei:body>
+                <cei:idno id="1492-12-29_Budapest">1492-12-29_Budapest</cei:idno>
+                <cei:chDesc>
+                    <cei:abstract><cei:index>Wappenbrief</cei:index>: <cei:issuer>König
+                                <cei:persName>Maximilian I.</cei:persName></cei:issuer> verleiht
+                                <cei:recipient><cei:persName>Hans
+                            Weinangl</cei:persName></cei:recipient> ein
+                            Wappen.<cei:lb/><cei:issuer>König <cei:persName>Maximilian
+                                [I.]</cei:persName></cei:issuer> verleiht und gibt erneut
+                            (<cei:foreign>verleyhen und geben von newem</cei:foreign>) mit
+                        wohlbedachtem Mut, gutem Rat und rechtem Wissen dem
+                                <cei:recipient><cei:persName>Hans
+                            Weinangl</cei:persName></cei:recipient> (<cei:foreign>Hanns
+                            Weinangl</cei:foreign>) sowie allen Erben aufgrund von dessen
+                        Ehrbarkeit, Redlichkeit, Tugend und Vernunft, für die der Empfänger bekannt
+                        ist, sowie der vergangenen und künftigen treuen Dienste an Kaiser und Reich
+                        ein Wappen (<cei:foreign>wappenn und cleinette</cei:foreign>), wie es in der
+                        Mitte der Urkunde farbig eingemalt ist (<cei:foreign>in mitten diss
+                            gegenwuͤrtigen unnsers kuniglichen briefs gemalet und mit varben
+                            aigentlicher ausgestrichen</cei:foreign>), nämlich ein goldener Schild,
+                        im Schildfuß ein grüner Dreiberg, darauf ein schwarzer Hahn mit rotem Kamm;
+                        im Oberwappen ein silberner Stechhelm mit schwarz-goldenen Helmdecken,
+                        darauf ein grüner Dreiberg mit einem schwarzen Hahn (<cei:foreign>einen
+                            gantzen gelben schildt, im grunde desselben ein dreÿegketter gruͤener
+                            perg, darauf ein swartzer han mit einem roten kamp, auf dem schildt ein
+                            helm, darauf ein dreÿegketter perg und ein han als in dem schildt gemalt
+                            mit ainer swartzs und gelben helmdeckhen getzieret, so sich under dem
+                            gruͤenen perg auf dem helm erheben</cei:foreign>). Er bestimmt
+                            (<cei:foreign>meynen, setzen und wellen</cei:foreign>), dass der
+                        Begünstigte und alle Erben das Wappen fortan in allen redlichen
+                        Angelegenheiten und Geschäften (<cei:foreign>sachen und
+                            geschefften</cei:foreign>) <cei:foreign>zu schimp und zu
+                            ernst</cei:foreign>, im Krieg, in Kämpfen, Lanzenstechen, Gefechten, auf
+                        Bannern, Zelten, Aufschlägen, in Siegeln, Petschaften, Kleinodien und auf
+                        Begräbnissen (<cei:foreign>in streyten, kempfen, gesteͣchen, geveͣchten,
+                            paniern, getzelten, aufslagen, innsigeln, petschadten, kleineten,
+                            begreͣbdnussen</cei:foreign>) und auch sonst überall (<cei:foreign>an
+                            allen ennden</cei:foreign>) nach ihrem Bedürfnis, Willen und Wunsch
+                            (<cei:foreign>notdurftenn, willen und wolgevallen</cei:foreign>) führen
+                        dürfen, wie es andere seine und des Heiligen Römischen Reichs Wappengenossen
+                            (<cei:foreign>wappensgenoslewͦte</cei:foreign>) durch Recht oder
+                        Gewohnheit (<cei:foreign>von recht oder gewonheit</cei:foreign>) ungehindert
+                        tun. Er gebietet allen geistlichen und weltlichen Kurfürsten, Fürsten,
+                        Prälaten, Grafen, Freien, Herren, Rittern, Knechten, Hauptleuten, Vizedomen,
+                        Vögten, Pflegern, Verwesern, Amtleuten, Schultheißen, Bürgermeistern,
+                        Richtern, Räten, Wappenkönigen, Herolden, Persevanten, Bürgern und Gemeinden
+                        und auch sonst allen seinen, des Heiligen Römischen Reichs und der Erblande
+                        Untertanen und Getreuen aller Stände (<cei:foreign>in was wirden, states
+                            oder wesens die sein</cei:foreign>) und bestimmt
+                            (<cei:foreign>wellen</cei:foreign>), den Begünstigten und alle Erben
+                        unter Androhung schwerer Ungnade sowie einer Strafe von zwanzig Mark lötigen
+                        Goldes, die je zur Hälfte in die Reichskammer und an die Betroffenen zu
+                        zahlen ist, in der Führung und im Gebrauch des Wappens nicht zu behindern,
+                        noch dies irgendjemandem zu gestatten. Die Urkunde beschadet nicht die
+                        ältere Führung identischer Wappen durch andere.<cei:lb/>Daniel
+                        Maier</cei:abstract>
+                    <cei:issued>
+                        <cei:placeName>Innsbruck
+                            (<cei:foreign>Ynsprugk</cei:foreign>)</cei:placeName>
+                        <cei:dateRange from="14921229" to="14921229">1492-12-29</cei:dateRange>
+                    </cei:issued>
+                    <cei:witnessOrig>
+                        <cei:traditioForm>Orig. Perg.</cei:traditioForm>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1492-12-29_Maximilian-fuer-Johann-Weinangl_DL-50540.jpg"/>
+                        </cei:figure>
+                        <cei:figure>
+                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1492-12-29_Maximilian-fuer-Johann-Weinangl_DL-50540_Detail-Wappen.jpg"/>
+                        </cei:figure>
+                        <cei:archIdentifier><cei:settlement>Budapest</cei:settlement><cei:arch>Magyar Országos Levéltár</cei:arch><cei:idno>Diplomatikai
+                            Levéltár 50.540</cei:idno></cei:archIdentifier>
+                        <cei:physicalDesc>
+                            <cei:decoDesc>
+                                <cei:p>Mittig in Deckfarben eingemalt leicht hochrechteckiges
+                                    Bildfeld mit Wappenschild.</cei:p>
+                            </cei:decoDesc>
+                            <cei:material>Pergament</cei:material>
+                            <cei:dimensions/>
+                            <cei:condition/>
+                        </cei:physicalDesc>
+                        <cei:auth>
+                            <cei:notariusDesc/>
+                            <cei:sealDesc>Siegel abgefallen</cei:sealDesc>
+                        </cei:auth>
+                        <cei:nota/>
+                        <cei:rubrum/>
+                    </cei:witnessOrig>
+                    <cei:witListPar>
+                        <cei:witness>
+                            <cei:traditioForm/>
+                            <cei:figure/>
+                            <cei:archIdentifier/>
+                            <cei:physicalDesc>
+                                <cei:material/>
+                                <cei:dimensions/>
+                                <cei:condition/>
+                            </cei:physicalDesc>
+                            <cei:auth>
+                                <cei:sealDesc/>
+                                <cei:notariusDesc/>
+                            </cei:auth>
+                            <cei:nota/>
+                            <cei:rubrum/>
+                        </cei:witness>
+                    </cei:witListPar>
+                    <cei:diplomaticAnalysis>
+                        <cei:listBibl>
+                            <cei:bibl/>
+                        </cei:listBibl>
+                        <cei:listBiblEdition>
+                            <cei:bibl/>
+                        </cei:listBiblEdition>
+                        <cei:listBiblRegest>
+                            <cei:bibl/>
+                        </cei:listBiblRegest>
+                        <cei:listBiblFaksimile>
+                            <cei:bibl/>
+                        </cei:listBiblFaksimile>
+                        <cei:listBiblErw>
+                            <cei:bibl/>
+                        </cei:listBiblErw>
+                        <cei:p/>
+                        <cei:quoteOriginaldatierung>am newͦnundtzwantzigisten tag des monates
+                            decembris.</cei:quoteOriginaldatierung>
+                        <cei:nota/>
+                    </cei:diplomaticAnalysis>
+                    <cei:lang_MOM/>
+                </cei:chDesc>
+                <cei:tenor/>
+            </cei:body>
+            <cei:back>
+                <cei:class/>
+                <cei:persName/>
+                <cei:placeName/>
+                <cei:index/>
+                <cei:divNotes>
+                    <cei:note/>
+                </cei:divNotes>
+            </cei:back>
+        </cei:text>
+    </atom:content>
+</atom:entry>

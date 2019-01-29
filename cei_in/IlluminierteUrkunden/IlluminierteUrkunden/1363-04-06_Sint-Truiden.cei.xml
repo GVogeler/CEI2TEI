@@ -1,0 +1,445 @@
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+                        <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1363-04-06_Sint-Truiden</atom:id>
+                        <atom:title/>
+                        <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+                        <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+                        <atom:author>
+                                                <atom:email>illuminierteurkunden@gmail.com</atom:email>
+                        </atom:author>
+                        <app:control xmlns:app="http://www.w3.org/2007/app">
+                                                <app:draft>no</app:draft>
+                        </app:control>
+                        <atom:content type="application/xml">
+                                                <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+                                                  <cei:front>
+                                                  <cei:sourceDesc>
+                                                  <cei:sourceDescVolltext>
+                                                  <cei:bibl/>
+                                                  </cei:sourceDescVolltext>
+                                                  <cei:sourceDescRegest>
+                                                  <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte
+                                                  Urkunden" <cei:lb/>Bearbeitungsstand:
+                                                  MITTEL</cei:bibl>
+                                                  </cei:sourceDescRegest>
+                                                  </cei:sourceDesc>
+                                                  </cei:front>
+                                                  <cei:body>
+                                                  <cei:idno id="1363-04-06_Sint-Truiden">1363-04-06_Sint-Truiden</cei:idno>
+                                                  <cei:chDesc>
+                                                  <cei:abstract><cei:index indexName="Illurk-Urkundenart">Bischofsammelindulgenz</cei:index> (18
+                                                  Aussteller) für die Zisterzienserinnen von
+                                                  Herkenrode:<cei:lb/>Die Erzbischöfe
+                                                  <cei:issuer><cei:persName key="P_Johannes_Matrek_1363">Johannes von
+                                                  Matrek</cei:persName></cei:issuer> (<cei:quote type="italic">Matrigensis</cei:quote>) und
+                                                  <cei:issuer><cei:persName>Paulus</cei:persName></cei:issuer><cei:quote type="italic">Airithrensis</cei:quote> [nicht
+                                                  identifiziert] sowie die Bischöfe
+                                                  <cei:issuer><cei:persName>Stephanus von
+                                                  Vence</cei:persName></cei:issuer> (<cei:quote type="italic">Venciensis</cei:quote>),
+                                                  <cei:issuer><cei:persName>Johannes</cei:persName></cei:issuer><cei:quote type="italic">Aytonensis</cei:quote> [wird bei
+                                                  Eubel 518 unter Veglia angeführt, jedoch nicht
+                                                  identifiziert], <cei:issuer><cei:persName key="P_Johannes_Siliwri_1363">Johannes von
+                                                  Siliwri</cei:persName></cei:issuer> (<cei:quote type="italic">Saluiensis</cei:quote>),
+                                                  <cei:issuer><cei:persName key="P_Arnoldus_Sorra_1348">Arnoldus von
+                                                  Sorra</cei:persName></cei:issuer> (<cei:quote type="italic">Surrensis</cei:quote>),
+                                                  <cei:issuer><cei:persName key="P_Simon_Gerace_false">Simon von
+                                                  Gerace</cei:persName></cei:issuer> (<cei:quote type="italic">Gyracensis</cei:quote>),
+                                                  <cei:issuer><cei:persName>Johannes von
+                                                  Kisamos</cei:persName></cei:issuer> (<cei:quote type="italic">Kysamensis</cei:quote>),
+                                                  <cei:issuer><cei:persName key="P_Petrus_Massalubrense_1362">Petrus von
+                                                  Massalubrense</cei:persName></cei:issuer>
+                                                  (<cei:quote type="italic">Lobrensis</cei:quote>),
+                                                  <cei:issuer><cei:persName key="P_Betrandus_Ampurias_1355">Bertrandus von
+                                                  Ampurias</cei:persName></cei:issuer> (<cei:quote type="italic">Ampuriensis</cei:quote>),
+                                                  <cei:issuer><cei:persName key="P_Balduinus_Tripolis_1363">Balduinus von
+                                                  Tripolis</cei:persName></cei:issuer> (<cei:quote type="italic">Tripolitanensis</cei:quote>),
+                                                  <cei:issuer><cei:persName key="P_Robertus_Pristina_1363">Robertus von
+                                                  Priština</cei:persName></cei:issuer> (<cei:quote type="italic">Prisniensis</cei:quote>),
+                                                  <cei:issuer><cei:persName key="P_Antonius_Triest_1349">Antonius von
+                                                  Triest</cei:persName></cei:issuer> (<cei:quote type="italic">Tergestinensis</cei:quote>),
+                                                  <cei:issuer><cei:persName key="P_Alfonsus_Citrum_false">Alfonsus von
+                                                  Citrum</cei:persName></cei:issuer> (<cei:quote type="italic">Citrensis</cei:quote>),
+                                                  <cei:issuer><cei:persName key="P_Ludowicus_Brugnato_1363">Ludowicus von
+                                                  Brugnato</cei:persName></cei:issuer> (<cei:quote type="italic">Brugnatensis</cei:quote>; Schrift
+                                                  stark verblasst, deswegen Schreibung unsicher),
+                                                  <cei:issuer><cei:persName key="P_Arnoldus_Ottana_1355">Arnoldus von
+                                                  Ottana</cei:persName></cei:issuer> (<cei:quote type="italic">Ottonensis</cei:quote>),
+                                                  <cei:issuer><cei:persName>Albertus</cei:persName></cei:issuer><cei:quote type="italic">Surmenensis</cei:quote> [nicht
+                                                  identifiziert, fehlt bei Eubel] und
+                                                  <cei:issuer><cei:persName>Philippus</cei:persName></cei:issuer><cei:quote type="italic">Lavadensis</cei:quote> [nicht
+                                                  identifiziert, fehlt bei Eubel] erteilen all jenen
+                                                  einen Ablass von 40 Tagen (<cei:quote type="italic">misericorditer in Domino
+                                                  relaxamus</cei:quote>), die die in der Diözese
+                                                  Lüttich gelegene Konventualkirche des
+                                                  Zisterzienserinnenklosters Herkenrode (<cei:quote type="italic">ecclesia conventualis monasterii de
+                                                  Herkenrode, Leodiensis diocesis, ordinis
+                                                  Cisterciensis</cei:quote>) an bestimmten Festtagen
+                                                  und – soweit gegeben – in der jeweiligen Oktav
+                                                  reumütig und nach Ablegung der Beichte besuchen
+                                                  und dort an Messfeierlichkeiten teilnehmen, und
+                                                  zwar in der gesamten Adventszeit, zu Weihnachten,
+                                                  zu den Festen der Beschneidung und der Erscheinung
+                                                  des Herrn, in der gesamten Fastenzeit, zu Ostern,
+                                                  Christi Himmelfahrt, Pfingsten, zu Allerheiligen,
+                                                  am Dreifaltigkeitstag, zu Fronleichnam (<cei:quote type="italic">Sacramenti</cei:quote>), am
+                                                  Kreuzauffindungstag, am Kreuzerhöhungstag, an
+                                                  allen Marienfeiertagen, nämlich Mariae Empfängnis,
+                                                  Geburt, Verkündigung, Lichtmess und Himmelfahrt,
+                                                  an den Feiertagen des heiligen Erzengels Michael,
+                                                  des heiligen Johannes des Täufers und des
+                                                  Evangelisten Johannes, am Peter- und Paulstag, zu
+                                                  allen Apostel- und Evangelistenfesten, an den
+                                                  Feiertagen der vier Kirchenväter, zu Allerseelen,
+                                                  am Kirchweihtag, an den Feiertagen des heiligen
+                                                  Stephan, des heiligen Laurenz, des heiligen
+                                                  Martin, des heiligen Nikolaus, des heiligen
+                                                  Lambert, des heiligen Cornelius, des heiligen
+                                                  Antonius, des heiligen Georg, des heiligen
+                                                  Quirinus, des heiligen Egidius, des heiligen
+                                                  Remigius, des heiligen Christophorus, des heiligen
+                                                  Fabian, des heiligen Sebastian, der heiligen Maria
+                                                  Magdalena, der heiligen Katharina, der heiligen
+                                                  Barbara, der heiligen Margarete, der heiligen
+                                                  Agathe, der heiligen Agnes, der heiligen
+                                                  Christina, der heiligen Cäcilie, der heiligen
+                                                  Lucia, der heiligen Anna, der heiligen Odilia, der
+                                                  heiligen Ursula, der heiligen Cordula, der
+                                                  heiligen Scholastica, der heiligen Genoveva, der
+                                                  11 000 Jungfrauen sowie an allen Sonntagen,
+                                                  Samstagen und Freitagen. Weiters wird all jenen
+                                                  Ablass gewährt, die den Priester beim Versehgang
+                                                  begleiten, die beim Abendläuten mit gebeugten
+                                                  Knien drei Ave-Maria beten, die für den Bau, die
+                                                  Beleuchtung und die sonstige Ausstattung der
+                                                  Kirche aufkommen, die derselben entweder
+                                                  testamentarisch oder auf anderen Wegen Gold-,
+                                                  Silber- oder Kleidungsspenden und andere
+                                                  Notwendigkeiten zukommen lassen sowie jenen, die
+                                                  für denjenigen, der die vorliegende Indulgenz
+                                                  bestätigt, für den [nicht namentlich genannten]
+                                                  Impetrator derselben und für alle verstorbenen
+                                                  Seelen im Fegefeuer zu Gott beten.<cei:lb/>Markus
+                                                  Gneiss</cei:abstract>
+                                                  <cei:issued>
+                                                  <cei:placeName>Avignon und Flandern (Herkenrode?)
+                                                  (Ausstattung)</cei:placeName>
+                                                  <cei:dateRange from="13630406" to="13630406">1363-04-06</cei:dateRange>
+                                                  </cei:issued>
+                                                  <cei:witnessOrig>
+                                                  <cei:traditioForm>Original</cei:traditioForm>
+                                                  <cei:figure/>
+                                                  <cei:figure>
+                                                  <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1363-04-06_Herkenrode_01.jpg"/>
+                                                  </cei:figure>
+                                                  <cei:figure>
+                                                  <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1363-04-06_Herkenrode_02.jpg"/>
+                                                  </cei:figure>
+                                                  <cei:figure>
+                                                  <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1363-04-06_Herkenrode_03_Facebook_Pourpoints-and-doublets.jpg"/>
+                                                  </cei:figure>
+                                                  <cei:figure>
+                                                  <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1363-04-06_Herkenrode_04_Prometheus-nach-MA-Schatzkunst-in-Westfalen-2012.jpg"/>
+                                                  </cei:figure>
+                                                  <cei:figure>
+                                                  <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1363-04-06_Herkenrode_11.jpg"/>
+                                                  </cei:figure>
+                                                  <cei:figure>
+                                                  <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1363-04-06_Herkenrode_12.jpg"/>
+                                                  </cei:figure>
+                                                  <cei:figure>
+                                                  <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1363-04-06_Herkenrode_13_Facebook_Pourpoints-and-doublets.jpg"/>
+                                                  </cei:figure>
+                                                  <cei:figure>
+                                                  <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1363-04-06_Herkenrode_14_Facebook_Pourpoints-and-doublets.jpg"/>
+                                                  </cei:figure>
+                                                  <cei:figure>
+                                                  <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1363-04-06_Herkenrode_15_Facebook_Pourpoints-and-doublets.jpg"/>
+                                                  </cei:figure>
+                                                  <cei:figure>
+                                                  <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1363-04-06_Herkenrode_16_Facebook_Pourpoints-and-doublets.jpg"/>
+                                                  </cei:figure>
+                                                  <cei:figure>
+                                                  <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1363-04-06_Herkenrode_9.jpg"/>
+                                                  </cei:figure>
+                                                  <cei:figure>
+                                                  <cei:graphic url="http://www2.limburg.be/webfiles/PBL/oudedrukken/HS-X-0002/HS-X-0002_2012_AC080_0001.jpg"/>
+                                                  </cei:figure>
+                                                  <cei:archIdentifier>
+                                                  <cei:settlement>Sint-Truiden</cei:settlement>
+                                                  <cei:arch>Provinciaal Museum voor religieuze
+                                                  Kunst</cei:arch>
+                                                  <cei:idno>Inv. KPL/sd/251</cei:idno>
+                                                  <cei:altIdentifier>(Depositum des
+                                                  <cei:arch>Stedelijk Museum</cei:arch> in
+                                                  <cei:settlement>Hasselt</cei:settlement>)</cei:altIdentifier>
+                                                  </cei:archIdentifier>
+                                                  <cei:physicalDesc>
+                                                  <cei:decoDesc>
+                                                  <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma="HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner
+                                                  Bischofsammelindulgenz</cei:index>: Einzeilige,
+                                                  jedoch weit über die erste Zeile hinausgehende
+                                                  historisierte Initiale U(niversis) zu Textbeginn,
+                                                  oben Bildfries. Die erste Zeile in ausgesparter
+                                                  Auszeichnungsschrift (teilweise
+                                                  Tüchleinbuchstaben) vor rot schraffiertem
+                                                  Grund.</cei:p>
+                                                  <cei:p n="Ekphrasis">Historisierte Initiale: mit
+                                                  der Feder gezeichnet und mit Deckfarben (und
+                                                  Gold?) koloriert. Im Binnenfeld Darstellung der
+                                                  Klosterkirche (Oliver 1995, S. 191; Roland, Zajic
+                                                  2013, S. 336, Anm. 174). Der linke
+                                                  Buchstabenschaft wie eine Goldschmiedearbeit mit
+                                                  blauen und roten Steinen gestaltet, in den
+                                                  Zwickeln wohl je ein Engel. Die Zwickel des
+                                                  Initialfeldes links mit achtzackigen
+                                                  Sternen.</cei:p>
+                                                  <cei:p n="Ekphrasis">Oberhalb des Schriftspiegels
+                                                  Fronleichnamsprozession: Angeführt von einer
+                                                  Weihwasser versprühenden Novizin oder
+                                                  Laienschwester (?). Ob es sich tatsächlich um eine
+                                                  Frau handelt, ist nicht ganz klar, denn das Gewand
+                                                  gibt den Blick auf die rot bestrumfpten Knöchel
+                                                  frei. Der Figur folgen in Zweierreihen: Zwei
+                                                  bekränzte Männer, die Fahnen und zwei, die grosse
+                                                  gedrehte Kerzen / Fackeln (?) tragen. Ihre Röcke
+                                                  reichen bis kurz oberhalb des Knies, darunter
+                                                  Beinlinge. Danach zwei weltliche Frauen mit
+                                                  bodenlangen, mit Borten versehenen Gewändern und
+                                                  Kopftüchern; an den Ellenbogen zeittypisch fast
+                                                  bis zum Boden reichende Stoffstreifen. Sodann
+                                                  sechs Nonnen mit aufgeschlagenen Gebetbüchern. Die
+                                                  Grösse der Bücher spricht eigentlich gegen
+                                                  Gesangsbücher, die Oliver (1995, S. 193) zu
+                                                  erkennen meinte, selbst wenn Notation auszumachen
+                                                  ist. Dabei möchte es sich um Prozessionale
+                                                  handeln, selbst wenn man nicht viel über deren
+                                                  Grösse weiss. Chorbücher waren ja jedenfalls nicht
+                                                  für einzelne Sänger(Innen), z. B. das auch einen
+                                                  Zisterzienserorden hegestellte Prozessionale,
+                                                  Karlsruhe, Baden-Württembergische
+                                                  Landesbibliothek, Ms. Lichtenthal 54; dessen
+                                                  Grösse mit 9,5 x 7 cm wohl kleiner ist als die,
+                                                  die die Nonnen hier tragen. Die Äbtissin mit einer
+                                                  Krümme wird von einem von ihr nahezu gänzlich
+                                                  verdeckten weltlichem Mann begleitet, danach
+                                                  folgen zwei Mönche mit langen Stäben in der Hand.
+                                                  Vier besonders prächtig bekleidete weltliche
+                                                  Männer tragen den Baldachin für die Monstranz,
+                                                  vorne zwei ältere mit roten Stirnbändern und
+                                                  hinten zwei jüngere. Unter dem Baldachin drei
+                                                  Priester in festlichem Ornat; der mittlere trägt
+                                                  die Monstranz, die beiden anderen wohl Reliquiare.
+                                                  Der Weg, den die Prozession beschreitet, ist mit
+                                                  Gras bewachsen; sechs mit zahlreichen Vögeln
+                                                  bevölkerte Bäume machen den Weg zu einer Allee. </cei:p>
+                                                  <cei:p n="Stil und Einordnung">Seit der letzten,
+                                                  bisher bekannten Indulgenz mit Illumierungen der
+                                                  <cei:index indexName="IllUrkGlossar" lemma="WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                                                  Bischofsammelindulgenzen</cei:index>, <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1348-03-03_Laibach/charter">1348 März 5 für Nürnberg</cei:ref> muss man
+                                                  annehmen, dass die Werkstatt ihre Tätigkeit –
+                                                  vielleicht wegen der wütenden Pest – eingestellt
+                                                  hat. Deshalb mussten die Bittsteller ihre
+                                                  Indulgenzen anderswo illuminieren lassen. Die
+                                                  Indulgenz für Herkenrode hat die Papststadt als
+                                                  <cei:index indexName="IllUrkGlossar" lemma="UnilluminierteAvignonerBischofsammelindulgenz">unilluminierte Avignoner
+                                                  Bischofsammelindulgenz</cei:index> verlassen.
+                                                  Dabei handelt es sich wohl um den seltenen Fall,
+                                                  dass die ganze erste Zeile frei gelassen wurde.
+                                                  Vielleicht hat man aber auch die Buchstaben der
+                                                  ersten Zeile nur in Tintenkonturen ausgeführt; das
+                                                  würde das Fortlaufen des Texts in der zweiten
+                                                  Zeile leichter machen.</cei:p>
+                                                  <cei:p n="Stil und Einordnung">Es wäre wohl zu
+                                                  kompliziert geworden, wenn man wie gewöhnlich die
+                                                  Initiale in das Textfeld eingepasst hätte.
+                                                  Wahrscheinlich hat der Auftraggeber bereits das
+                                                  später verwirklichte <cei:index indexName="IllUrkGlossar" lemma="Layout">Layout</cei:index> vor Augen gehabt. So ergibt
+                                                  sich nämlich durch die nach oben gerückte Initiale
+                                                  die Möglichkeit, Binnenfeld und Bildfries als eine
+                                                  Aktionsbühne aufzufassen. </cei:p>
+                                                  <cei:p n="Stil und Einordnung">Für eine solche
+                                                  Idee eignete sich die in Avignon geschriebenen
+                                                  ersten Zeilen mit ihren vergrösserten Initialen
+                                                  nicht; hier hat man extra Linien gezogen, um der
+                                                  ersten Zeile nach oben wie nach unten eine feste
+                                                  Struktur zu verleihen. Die Linie für den Bildfries
+                                                  setzt ein wenig höher an und bildet im Binnenfeld
+                                                  die Unterkante der Kirche, sodass eine
+                                                  einheitliche Aktionsbühne für die Figuren zustande
+                                                  kommt.</cei:p>
+                                                  <cei:p n="Stil und Einordnung">Die
+                                                  Auszeichnungsschrift, die letztlich so etwas wie
+                                                  die Konturen der kräfigen Tintenstriche aus
+                                                  Avignon nachzeichnet (vgl. z. B. <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1363-03-06_Einsiedeln/charter">1363 März 6 für Sarmenstdorf</cei:ref>), erhält
+                                                  durch das Aussparen vor dem rot schraffierten
+                                                  Grund den Charakter von Bändchenbuchstaben
+                                                  (Tüchleinbuchstaben). Die U-Initiale spielt mit
+                                                  Dekorationen aus Goldeschmiedearbeiten, letztlich
+                                                  wohl auf die prächtige Monstanz anspielend, die
+                                                  das Kloster für die wundersame blutende Hostie
+                                                  benutzte.</cei:p>
+                                                  <cei:p n="Stil und Einordnung">Diese Monstranz von
+                                                  1286 (Guster 2009, S. 248-251) ist wohl auf der
+                                                  Urkunde abgebildet (Kempkens in: Goldene Pracht,
+                                                  2012, S. 372 mit Abb. 68).</cei:p>
+                                                  <cei:p n="Stil und Einordnung">Interessant ist die
+                                                  genaue soziale Kennzeichnung der Teilnehmer der
+                                                  Prozession: die Fahnen- und Kerzenträger sind
+                                                  einfacher gekleidet, die Damen vornehm und
+                                                  aufwendig mit Pelzbesätzen, beinah geckenhaft
+                                                  jedoch die älteren Träger des Baldachins mit ihren
+                                                  Gürteln mit riesigen Schnallen, den spitzen
+                                                  Schuhen und den bunt gemusterten Gewändern. Auch
+                                                  die Umhänge der Priester, der Baldachin und die
+                                                  Kreuzfahnen sind eine Zurschaustellung von
+                                                  unterschiedlichen Stoffmustern. </cei:p>
+                                                  <cei:p n="Stil und Einordnung">Roland und Zajic
+                                                  (2013, S. 337) hoben hervor, dass es angsichts der
+                                                  Klausurbestimmungen der Zisterzienserinnen die
+                                                  Öffentlichkeit bemerkenswert ist. Oliver (1995, S.
+                                                  193) stellte heraus, dass die Teilnahme von Frauen
+                                                  an der Prozession ungewöhnlich ist. Ob tatsächlich
+                                                  die allenthalben spriessende Natur und die
+                                                  Anwesenheit der Vögel auf die Jahreszeit und somit
+                                                  auf das Datum der Fronleichnamsprozession anspielt
+                                                  (Oliver 1995, S. 192), ist vielleicht etwas
+                                                  überinterpretiert, doch ist schon allein das
+                                                  Vorkommen von Flora und Fauna bemerkenswert.
+                                                  Ebenso bemerkenswert ist der frühe Versuch,
+                                                  Architektur vedoutenhaft zu individualisieren.
+                                                  Ausserhalb Italiens scheint es sich dabei um eine
+                                                  besonders frühe Erscheinung zu handeln.</cei:p>
+                                                  <cei:p n="Stil und Einordnung">Die Malerei kann
+                                                  somit als ein beeindruckendes Beispiel für
+                                                  voreyckischen Realismus bezeichnen. Seit Oliver
+                                                  (1995) ist die Indulgenz für Herkenrode als
+                                                  wichtiges Zeugnis niederländischer Malerei
+                                                  anerkannt (<cei:index indexName="IllUrkGlossar" lemma="DekorationbeimEmpfaenger">Dekoration beim
+                                                  Empfänger</cei:index>). Angesichts des wenigen
+                                                  erhaltenen Materials, das zur Einordnung der
+                                                  Malerei dienen könnte, ist dennoch Olivers (1995,
+                                                  S. 197) vorgetragene These, dass es sich dabei um
+                                                  eine Arbeit der Nonnen von Herkenrode handeln
+                                                  wird, nicht tragbar.</cei:p>
+                                                  <cei:p n="Stil und Einordnung">Oliver (1995, S.
+                                                  192) wie später auch Rudy hoben besonders die in
+                                                  unterschiedliche Seiden verpackte Siegel hervor;
+                                                  die bereits in Avignon so präpariert wurden. </cei:p>
+                                                  <cei:p n="Autorensigle"> Gabriele Bartz, Martin
+                                                  Roland</cei:p>
+                                                  </cei:decoDesc>
+                                                  <cei:material>Pergament</cei:material>
+                                                  <cei:dimensions/>
+                                                  <cei:condition/>
+                                                  </cei:physicalDesc>
+                                                  <cei:auth>
+                                                  <cei:notariusDesc/>
+                                                  <cei:sealDesc>16 Siegel noch erhalten, zwei
+                                                  abgefallen.</cei:sealDesc>
+                                                  </cei:auth>
+                                                  <cei:nota>Vermerke: auf der Vorderseite keine
+                                                  sichtbar, kein Bild der Rückseite
+                                                  vorhanden.</cei:nota>
+                                                  <cei:rubrum/>
+                                                  </cei:witnessOrig>
+                                                  <cei:witListPar>
+                                                  <cei:witness>
+                                                  <cei:traditioForm/>
+                                                  <cei:figure/>
+                                                  <cei:archIdentifier/>
+                                                  <cei:physicalDesc>
+                                                  <cei:material/>
+                                                  <cei:dimensions/>
+                                                  <cei:condition/>
+                                                  </cei:physicalDesc>
+                                                  <cei:auth>
+                                                  <cei:sealDesc/>
+                                                  <cei:notariusDesc/>
+                                                  </cei:auth>
+                                                  <cei:nota/>
+                                                  <cei:rubrum/>
+                                                  </cei:witness>
+                                                  </cei:witListPar>
+                                                  <cei:diplomaticAnalysis>
+                                                  <cei:listBibl>
+                                                  <cei:bibl key="zotero:2IJVRADJ">Notice historique
+                                                  sur l'ancienne abbaye de Herckenrode, 1849, S. 21.
+                                                  (<cei:ref target="http://zotero.org/groups/257864/items/2IJVRADJ">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                                  <cei:bibl key="zotero:MQ77XQ4V">Delehaye, 45,
+                                                  1927, S. 343. (<cei:ref target="http://zotero.org/groups/257864/items/MQ77XQ4V">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                                  <cei:bibl key="zotero:B6BZ589J">Oliver,
+                                                  Herkenrode, 1995, S. 187–206, bes. 191–198 (mit
+                                                  Abb.) (<cei:ref target="http://zotero.org/groups/257864/items/B6BZ589J">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                                  <cei:bibl key="">Schmidt, Pre-Eyckian realism,
+                                                  1995. (<cei:ref target="http://zotero.org/groups/257864/items/ETD5HIXI">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                                  <cei:bibl key="zotero:5S4KCGMW">Krone und
+                                                  Schleier, 2005, S. 48 (Farbabb.), im Text kurz S.
+                                                  34, 50 erwähnt (keine näheren Angaben). (<cei:ref target="http://zotero.org/groups/257864/items/5S4KCGMW">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                                  <cei:bibl key="zotero:8NV543P5">Guster,
+                                                  Hostienmonstranzen des 13. und 14. Jahrhunderts,
+                                                  2009, 212, 248-251. (<cei:ref target="http://zotero.org/groups/257864/items/8NV543P5">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                                  <cei:bibl key="zotero:7AE326BH">Kempkens,
+                                                  Gebrauch, 2012, S. 372 mit Abb. 68, Kat.-Nr. 177.
+                                                  (<cei:ref target="http://zotero.org/groups/257864/items/7AE326BH">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                                  <cei:bibl key="zotero: BH99RHAK">Roland, Zajic,
+                                                  Illuminierte Urkunden, 2013, S. 336f. und Abb. 17,
+                                                  online: <cei:ref target="http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf">http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf</cei:ref>
+                                                  (<cei:ref target="http://zotero.org/groups/257864/items/BH99RHAK">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                                  <cei:bibl key="zotero:K2FAMWA9">Rudy, Sewing as
+                                                  Autority, 2015, S. 123 f., online: <cei:ref target="http://www.academia.edu/11965286/Sewing_as_Authority_in_the_Middle_Ages_Zeitschrift_f%C3%BCr_Medien-_und_Kulturforschung_June_2015_pp._117-131">http://www.academia.edu/11965286/Sewing_as_Authority_in_the_Middle_Ages_Zeitschrift_f%C3%BCr_Medien-_und_Kulturforschung_June_2015_pp._117-131</cei:ref>
+                                                  (<cei:ref target="http://zotero.org/groups/257864/items/K2FAMWA9">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                                  <cei:bibl>
+                                                  <cei:ref target="http://www.erfgoedplus.be/erfgoedplus/detail.jsp?artefactid=71022A99.priref.1132">http://www.erfgoedplus.be/erfgoedplus/detail.jsp?artefactid=71022A99.priref.1132</cei:ref>
+                                                  </cei:bibl>
+                                                  <cei:bibl><cei:ref target="http://www2.limburg.be/Pub/Oudeboeken/hires.html?afb=%2fwebfiles%2fPBL%2foudedrukken%2fHS-X-0002%2fHS-X-0002_2012_AC080_0001.jpg">http://www2.limburg.be/Pub/Oudeboeken/hires.html?afb=%2fwebfiles%2fPBL%2foudedrukken%2fHS-X-0002%2fHS-X-0002_2012_AC080_0001.jpg</cei:ref>
+                                                  (Hochauflösendes Bild mit
+                                                  Zoom-Funktion)</cei:bibl>
+                                                  </cei:listBibl>
+                                                  <cei:listBiblRegest>
+                                                  <cei:bibl/>
+                                                  </cei:listBiblRegest>
+                                                  <cei:listBiblFaksimile>
+                                                  <cei:bibl/>
+                                                  </cei:listBiblFaksimile>
+                                                  <cei:listBiblErw>
+                                                  <cei:bibl/>
+                                                  </cei:listBiblErw>
+                                                  <cei:p/>
+                                                  <cei:p>Arenga (Incipit): <cei:quote type="italic">Splendor paterne glorie ... .</cei:quote></cei:p>
+                                                  <cei:p>So bemerkenswert die Ausstattung dieser
+                                                  Indulgenz ist, so wenig individuell gestaltet sich
+                                                  das Diktat der Urkunde. Die
+                                                  Fronleichnamsprozession, die prominent ins Bild
+                                                  gerückt ist, wird im Urkundentext mit keinem Wort
+                                                  erwähnt, lediglich das Fest Fronleichnam wird in
+                                                  der üblichen Form bei den Ablassgelegenheiten
+                                                  genannt.</cei:p>
+                                                  <cei:p>Markus Gneiss</cei:p>
+                                                  <cei:quoteOriginaldatierung/>
+                                                  <cei:nota/>
+                                                  <cei:listBiblEdition>
+                                                  <cei:bibl/>
+                                                  </cei:listBiblEdition>
+                                                  </cei:diplomaticAnalysis>
+                                                  <cei:lang_MOM/>
+                                                  </cei:chDesc>
+                                                  <cei:tenor/>
+                                                  </cei:body>
+                                                  <cei:back>
+                                                  <cei:persName/>
+                                                  <cei:placeName type="Region">Frankreich (Kurie)
+                                                  (Empfängerausfertigung)</cei:placeName>
+                                                  <cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index>
+                                                  <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1: historisiert</cei:index>
+                                                  <cei:index indexName="illurk-vocabulary" lemma="Borders">N1: Randdekor</cei:index>
+                                                  <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: Mit zusätzlichen
+                                                  Farben</cei:index>
+                                                  <cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1: gemalt</cei:index>
+                                                  <cei:index indexName="illurk-vocabulary" lemma="Display-Script-calligraphic-with-decorative-character"/>
+                                                  <cei:divNotes>
+                                                  <cei:note/>
+                                                  </cei:divNotes>
+                                                  <cei:class/>
+                                                  </cei:back>
+                                                </cei:text>
+                        </atom:content>
+</atom:entry>
