@@ -341,7 +341,7 @@
         <bibl>
             <xsl:if test="@key != ''">
                 <xsl:variable name="key" select="@key"/>
-                <ref target="zotero:{$key}">zotero:{$key}</ref>
+                <ref target="zotero:{$key}"/>
             </xsl:if>
             <xsl:apply-templates/>
         </bibl>
@@ -775,6 +775,9 @@
     </xsl:template>
     <xsl:template match="cei:quote">
         <quote>
+            <xsl:if test="@type[. = 'italic']">
+                <xsl:attribute name="rend" select="italic"/>
+            </xsl:if>
             <xsl:apply-templates/>
         </quote>
     </xsl:template>
@@ -1055,7 +1058,7 @@
         <place>
             <placeName>
                 <xsl:choose>
-                    <xsl:when test="@type">
+                    <xsl:when test="@type|@n">
                         <region>
                             <xsl:value-of select="."/>
                         </region>
