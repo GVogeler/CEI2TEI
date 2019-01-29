@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- BIG FIX NEEDED IN ORDER TO PULL IN versionOf DATA AND CREATE LINKED DOCUMENTS -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-    xmlns:atom="http://www.w3.org/2005/Atom"
-    xmlns="http://www.tei-c.org/ns/1.0" 
-    xmlns:cei="http://www.monasterium.net/NS/cei"
-    xmlns:xalan="http://xml.apache.org/xslt"
-    exclude-result-prefixes="xs" 
-    version="2.0">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"
+    xmlns:xalan="http://xml.apache.org/xslt" exclude-result-prefixes="xs" version="2.0">
     <xsl:output method="xml" indent="yes" xalan:indent-amount="4"/>
     <xsl:template match="/">
         <xsl:processing-instruction name="xml-model">href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
@@ -90,7 +86,9 @@
                             <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
                                 Asset Management System</orgName>
                             <idno type="PID" resp="https://illuminierte-urkunden.uni-graz.at/">
-                                o:cord.IU.<xsl:value-of select="concat(replace(substring-before(//cei:body/cei:idno, '_'), '-', ''), '_', substring-after(//cei:body/cei:idno, '_'))"/>
+                                    o:cord.IU.<xsl:value-of
+                                    select="concat(replace(substring-before(//cei:body/cei:idno, '_'), '-', ''), '_', substring-after(//cei:body/cei:idno, '_'))"
+                                />
                             </idno>
                         </distributor>
                         <availability>
@@ -119,15 +117,17 @@
                         </date>-->
                     </publicationStmt>
                     <sourceDesc>
-                        <bibl>Originally converted to TEI based upon a CEI file from <ref target="http://monasterium.net/">Monasterium</ref>, 
-                            <idno type="Monasterium">
-                                <xsl:value-of select="substring-after(//atom:id, 'tag:www.monasterium.net,2011:/charter/')"/>
+                        <bibl>Originally converted to TEI based upon a CEI file from <ref
+                                target="http://monasterium.net/">Monasterium</ref>, <idno
+                                type="Monasterium">
+                                <xsl:value-of
+                                    select="substring-after(//atom:id, 'tag:www.monasterium.net,2011:/charter/')"
+                                />
                             </idno>, created on <date>
                                 <xsl:value-of select="//atom:published"/>
                             </date> and last updated on <date>
                                 <xsl:value-of select="//atom:updated"/>
-                            </date>. 
-                        </bibl>
+                            </date>. </bibl>
                         <xsl:for-each
                             select="//cei:sourceDesc | cei:sourceDescRegest | cei:sourceDescVolltext | cei:sourceDescErw">
                             <xsl:apply-templates select="cei:bibl"/>
@@ -148,6 +148,15 @@
                             illuminated medieval charters from all over Europe, publishes them, and
                             explores them in detailed studies.</p>
                     </projectDesc>
+                    <listPrefixDef>
+                        <prefixDef ident="zotero" matchPattern="([a-z]+[a-z0-9]*)"
+                            replacementPattern="http://zotero.org/groups/257864/items/$1">
+                            <p part="N"> Private URIs using the <code>bibl</code> prefix can be
+                                expanded to form URIs which retrieve the relevant bibliographical
+                                reference from Zotero.
+                            </p>
+                        </prefixDef>
+                    </listPrefixDef>
                 </encodingDesc>
                 <profileDesc>
                     <abstract>
@@ -258,16 +267,16 @@
     </xsl:template>
     <xsl:template match="cei:altIdentifier">
         <altIdentifier>
-                <xsl:if test="@ana != ''">
-                    <xsl:attribute name="ana">
-                        <xsl:value-of select="@ana"/>
-                    </xsl:attribute>
-                </xsl:if>
-                <xsl:if test="@type != ''">
-                    <xsl:attribute name="type">
-                        <xsl:value-of select="@type"/>
-                    </xsl:attribute>
-                </xsl:if>
+            <xsl:if test="@ana != ''">
+                <xsl:attribute name="ana">
+                    <xsl:value-of select="@ana"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:if test="@type != ''">
+                <xsl:attribute name="type">
+                    <xsl:value-of select="@type"/>
+                </xsl:attribute>
+            </xsl:if>
             <xsl:apply-templates/>
         </altIdentifier>
     </xsl:template>
@@ -330,6 +339,10 @@
     </xsl:template>
     <xsl:template match="cei:bibl">
         <bibl>
+            <xsl:if test="@key != ''">
+                <xsl:variable name="key" select="@key"/>
+                <ref target="zotero:{$key}">zotero:{$key}</ref>
+            </xsl:if>
             <xsl:apply-templates/>
         </bibl>
     </xsl:template>
@@ -450,9 +463,10 @@
             <xsl:apply-templates/>
         </desc>
     </xsl:template>
-    <xsl:template match="cei:dimensions"><!-- no text allowed within dimensions -->
+    <xsl:template match="cei:dimensions">
+        <!-- no text allowed within dimensions -->
         <dimensions>
-            <xsl:apply-templates select="node()[text()]"></xsl:apply-templates>
+            <xsl:apply-templates select="node()[text()]"/>
         </dimensions>
     </xsl:template>
     <xsl:template match="cei:diplomaticAnalysis">
@@ -523,7 +537,7 @@
                     <xsl:text>cm</xsl:text>
                 </xsl:when>
             </xsl:choose>
-        </xsl:variable>   
+        </xsl:variable>
         <height>
             <xsl:if test="$unit">
                 <xsl:attribute name="unit" select="$unit"/>
@@ -787,11 +801,15 @@
         <xsl:choose>
             <xsl:when test="@target[. != '']">
                 <xsl:variable name="target" select="@target"/>
-                <xsl:choose><!-- The ID to another Illurk charter has to be hashed as well! -->
+                <xsl:choose>
+                    <!-- The ID to another Illurk charter has to be hashed as well! -->
                     <xsl:when test="contains($target, 'IlluminierteUrkunden')">
-                        <ref><xsl:attribute name="target">                         
-                            <xsl:value-of select="concat('o:cord.IU.', substring-before(substring-after($target,'IlluminierteUrkunden/'), '/charter'))"/>                            
-                        </xsl:attribute>
+                        <ref>
+                            <xsl:attribute name="target">
+                                <xsl:value-of
+                                    select="concat('o:cord.IU.', substring-before(substring-after($target, 'IlluminierteUrkunden/'), '/charter'))"
+                                />
+                            </xsl:attribute>
                             <xsl:apply-templates/>
                         </ref>
                     </xsl:when>
@@ -800,7 +818,7 @@
                             <xsl:apply-templates/>
                         </ref>
                     </xsl:otherwise>
-                </xsl:choose>               
+                </xsl:choose>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:apply-templates/>
@@ -923,7 +941,7 @@
                     <xsl:text>cm</xsl:text>
                 </xsl:when>
             </xsl:choose>
-        </xsl:variable> 
+        </xsl:variable>
         <width>
             <xsl:if test="$unit">
                 <xsl:attribute name="unit" select="$unit"/>
