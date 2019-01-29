@@ -451,9 +451,9 @@
             <xsl:apply-templates/>
         </desc>
     </xsl:template>
-    <xsl:template match="cei:dimensions">
+    <xsl:template match="cei:dimensions"><!-- no text allowed within dimensions -->
         <dimensions>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="node()[text()]"></xsl:apply-templates>
         </dimensions>
     </xsl:template>
     <xsl:template match="cei:diplomaticAnalysis">
@@ -515,7 +515,20 @@
         </handShift>
     </xsl:template>
     <xsl:template match="cei:height">
+        <xsl:variable name="unit">
+            <xsl:choose>
+                <xsl:when test="contains(parent::cei:dimensions, 'mm')">
+                    <xsl:text>mm</xsl:text>
+                </xsl:when>
+                <xsl:when test="contains(parent::cei:dimensions, 'cm')">
+                    <xsl:text>cm</xsl:text>
+                </xsl:when>
+            </xsl:choose>
+        </xsl:variable>   
         <height>
+            <xsl:if test="$unit">
+                <xsl:attribute name="unit" select="$unit"/>
+            </xsl:if>
             <xsl:apply-templates/>
         </height>
     </xsl:template>
@@ -902,7 +915,20 @@
         <user_name><xsl:apply-templates/></user_name>
     </xsl:template>-->
     <xsl:template match="cei:width">
+        <xsl:variable name="unit">
+            <xsl:choose>
+                <xsl:when test="contains(parent::cei:dimensions, 'mm')">
+                    <xsl:text>mm</xsl:text>
+                </xsl:when>
+                <xsl:when test="contains(parent::cei:dimensions, 'cm')">
+                    <xsl:text>cm</xsl:text>
+                </xsl:when>
+            </xsl:choose>
+        </xsl:variable> 
         <width>
+            <xsl:if test="$unit">
+                <xsl:attribute name="unit" select="$unit"/>
+            </xsl:if>
             <xsl:apply-templates/>
         </width>
     </xsl:template>
