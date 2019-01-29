@@ -777,9 +777,20 @@
         <xsl:choose>
             <xsl:when test="@target[. != '']">
                 <xsl:variable name="target" select="@target"/>
-                <ref target="{$target}">
-                    <xsl:apply-templates/>
-                </ref>
+                <xsl:choose><!-- The ID to another Illurk charter has to be hashed as well! -->
+                    <xsl:when test="contains($target, 'IlluminierteUrkunden')">
+                        <ref><xsl:attribute name="target">                         
+                            <xsl:value-of select="concat('o:cord.IU.', substring-before(substring-after($target,'IlluminierteUrkunden/'), '/charter'))"/>                            
+                        </xsl:attribute>
+                            <xsl:apply-templates/>
+                        </ref>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <ref target="{$target}">
+                            <xsl:apply-templates/>
+                        </ref>
+                    </xsl:otherwise>
+                </xsl:choose>               
             </xsl:when>
             <xsl:otherwise>
                 <xsl:apply-templates/>
