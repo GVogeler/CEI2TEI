@@ -256,7 +256,7 @@
             <xsl:apply-templates/>
         </add>
     </xsl:template>
-    <xsl:template match="cei:altIdentifier"  mode= "arch">
+    <xsl:template match="cei:altIdentifier">
         <altIdentifier>
                 <xsl:if test="@ana != ''">
                     <xsl:attribute name="ana">
@@ -268,7 +268,7 @@
                         <xsl:value-of select="@type"/>
                     </xsl:attribute>
                 </xsl:if>
-            <xsl:apply-templates/>
+            <xsl:apply-templates mode="arch"/>
         </altIdentifier>
     </xsl:template>
     <xsl:template match="cei:app">
