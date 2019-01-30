@@ -3,10 +3,13 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:atom="http://www.w3.org/2005/Atom"
     xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"
-    xmlns:xalan="http://xml.apache.org/xslt" exclude-result-prefixes="xs" version="2.0">
+    xmlns:xalan="http://xml.apache.org/xslt" exclude-result-prefixes="xs" version="3.0">
     <xsl:output method="xml" indent="yes" xalan:indent-amount="4"/>
     <xsl:template match="/">
         <xsl:processing-instruction name="xml-model">href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
+        <!-- Various Variables -->
+        <xsl:variable name="atom_published" select="/atom:entry/atom:published"/>
+        <xsl:variable name="atom_updated" select="/atom:entry/atom:updated"/>
         <TEI>
             <teiHeader>
                 <fileDesc>
@@ -123,11 +126,8 @@
                                 <xsl:value-of
                                     select="substring-after(//atom:id, 'tag:www.monasterium.net,2011:/charter/')"
                                 />
-                            </idno>, created on <date>
-                                <xsl:value-of select="//atom:published"/>
-                            </date> and last updated on <date>
-                                <xsl:value-of select="//atom:updated"/>
-                            </date>. </bibl>
+                                </idno>, created on <date when="{$atom_published}"><xsl:value-of select="format-dateTime($atom_published, '[Y]-[M]-[D]')"/></date> and last updated on <date when="{$atom_updated}"><xsl:value-of select="format-dateTime($atom_updated, '[Y]-[M]-[D]')"/></date>.
+                        </bibl>
                         <xsl:for-each
                             select="//cei:sourceDesc | cei:sourceDescRegest | cei:sourceDescVolltext | cei:sourceDescErw">
                             <xsl:apply-templates select="cei:bibl"/>
@@ -554,6 +554,7 @@
         <xsl:apply-templates select="cei:country"/>
         <xsl:apply-templates select="cei:region"/>
         <xsl:apply-templates select="cei:settlement"/>
+        <xsl:apply-templates select="cei:institution"/>
         <xsl:apply-templates select="cei:arch | cei:repository"/>
         <xsl:apply-templates select="cei:archFond"/>
         <xsl:apply-templates select="cei:idno"/>
@@ -563,6 +564,7 @@
         <xsl:apply-templates select="cei:country"/>
         <xsl:apply-templates select="cei:region"/>
         <xsl:apply-templates select="cei:settlement"/>
+        <xsl:apply-templates select="cei:institution"/>
         <xsl:apply-templates select="cei:arch | cei:repository"/>
         <xsl:apply-templates select="cei:archFond"/>
         <xsl:apply-templates select="cei:idno"/>
@@ -591,6 +593,11 @@
         <term>
             <xsl:call-template name="vocab_uri"/>
         </term>
+    </xsl:template>
+    <xsl:template match="cei:institution">
+        <institution>
+            <xsl:apply-templates/>
+        </institution>
     </xsl:template>
     <xsl:template match="//cei:issued">
         <xsl:apply-templates/>
