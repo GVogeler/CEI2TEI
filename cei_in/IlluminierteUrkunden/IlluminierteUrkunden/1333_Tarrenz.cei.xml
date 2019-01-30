@@ -32,10 +32,9 @@
                     <cei:witnessOrig>
                         <cei:traditioForm>Original</cei:traditioForm>
                         <cei:figure/>
-                        <cei:archIdentifier><cei:settlement>Tarrenz (Südtirol)</cei:settlement></cei:archIdentifier>
+                        <cei:archIdentifier><cei:settlement>Tarrenz (Südtirol)</cei:settlement><cei:idno></cei:idno></cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>
-                                <cei:p/>
                             </cei:decoDesc>
                             <cei:material/>
                             <cei:dimensions/>

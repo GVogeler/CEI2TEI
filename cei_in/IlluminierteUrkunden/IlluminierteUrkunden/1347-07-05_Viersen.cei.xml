@@ -41,9 +41,16 @@
                         <cei:figure>
                             <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1347-07-05_fuer-St-Remigius-wohl-in-Borken_Sammlung-Huyskens_Depositum-Viersen-Kreisarchiv_x-det-2_.jpg"/>
                         </cei:figure>
-                        <cei:archIdentifier><cei:arch>Sammlung Huyskens</cei:arch>, als Depositum in
-                                    <cei:altIdentifier><cei:settlement>Viersen</cei:settlement>
-                                <cei:arch>Kreisarchiv</cei:arch></cei:altIdentifier></cei:archIdentifier>
+                        <cei:archIdentifier>
+                            <cei:arch>Sammlung Huyskens</cei:arch>
+                            <cei:idno></cei:idno>
+                            <cei:altIdentifier>
+                                <cei:settlement>Viersen</cei:settlement>
+                                <cei:arch>Kreisarchiv</cei:arch>
+                                <cei:idno></cei:idno>
+                                <cei:note>Depositum in</cei:note>
+                            </cei:altIdentifier>
+                        </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>
                                 <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma="HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</cei:index>:

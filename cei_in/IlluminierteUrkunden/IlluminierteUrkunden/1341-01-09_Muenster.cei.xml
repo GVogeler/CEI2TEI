@@ -84,7 +84,7 @@
                             <cei:arch>Nordrhein-Westfälisches Staatsarchiv</cei:arch>
                             <cei:archFond>Urkundenselekt</cei:archFond>
                             <cei:idno>Ablassbrief 6</cei:idno>
-                            <cei:altIdentifier type="old">Fürstentum Minden<cei:idno>Nr.
+                            <cei:altIdentifier type="old"><cei:archFond>Fürstentum Minden</cei:archFond><cei:idno>Nr.
                                     158</cei:idno></cei:altIdentifier>
                         </cei:archIdentifier>
                         <cei:physicalDesc>

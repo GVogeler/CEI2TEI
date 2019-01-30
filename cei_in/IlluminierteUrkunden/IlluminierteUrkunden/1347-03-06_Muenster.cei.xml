@@ -39,8 +39,8 @@
                             <cei:arch>Bistumsarchiv</cei:arch>
                             <cei:archFond>Gen. Vik.</cei:archFond>
                             <cei:idno>Urk. Nr. 22</cei:idno>
-                            <cei:archFond>Generalvikariat</cei:archFond>
-                            <cei:idno>U. 0022</cei:idno>
+                            <cei:altIdentifier><cei:archFond>Generalvikariat</cei:archFond>
+                            <cei:idno>U. 0022</cei:idno></cei:altIdentifier>
                         </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>

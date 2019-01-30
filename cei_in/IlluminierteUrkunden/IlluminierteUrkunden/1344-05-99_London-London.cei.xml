@@ -36,12 +36,18 @@
                     <cei:witnessOrig>
                         <cei:traditioForm>Original</cei:traditioForm>
                         <cei:figure/>
-                        <cei:archIdentifier><cei:settlement>London</cei:settlement>
-                            <cei:arch>British Library</cei:arch><cei:idno>Add. Ch. 76.773</cei:idno>
-                            ehem (1963) <cei:altIdentifier type="old"><cei:arch>Privatbesitz</cei:arch>:
-                                    <cei:settlement>London</cei:settlement><cei:arch>D. J. A.
-                                    Ross</cei:arch><cei:idno/> (1963)
-                            </cei:altIdentifier></cei:archIdentifier>
+                        <cei:archIdentifier>
+                            <cei:settlement>London</cei:settlement>
+                            <cei:arch>British Library</cei:arch>
+                            <cei:idno>Add. Ch. 76.773</cei:idno> 
+                            <cei:altIdentifier type="old">
+                                <cei:institution>Privatbesitz</cei:institution>
+                                <cei:settlement>London</cei:settlement>
+                                <cei:arch>D. J. A. Ross</cei:arch>
+                                <cei:idno/> 
+                                <cei:note>ehem (1963)</cei:note>
+                            </cei:altIdentifier>
+                        </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>
                                 <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma="HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</cei:index>:

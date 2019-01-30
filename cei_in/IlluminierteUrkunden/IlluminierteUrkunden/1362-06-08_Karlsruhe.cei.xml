@@ -36,8 +36,8 @@
                         <cei:figure/>
                         <cei:archIdentifier>
                             <cei:settlement>Karlsruhe</cei:settlement>
-                            <cei:arch>Landesarchiv Baden-Württemberg</cei:arch>
-                            <cei:arch>Generallandesarchiv</cei:arch>
+                            <cei:institution>Landesarchiv Baden-Württemberg</cei:institution>
+                            <cei:arch>Generallandesarchiv Karlsruhe</cei:arch>
                             <cei:archFond>42</cei:archFond>
                             <cei:idno>Nr. 3778</cei:idno>
                         </cei:archIdentifier>

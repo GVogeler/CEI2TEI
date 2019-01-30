@@ -1,1 +1,287 @@
-<atom:entry xmlns:atom="http://www.w3.org/2005/Atom"><atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1353-11-12_Marburg</atom:id><atom:title/><atom:published>2018-10-25T06:51:55.661Z</atom:published><atom:updated>2018-10-25T06:51:55.661Z</atom:updated><atom:author><atom:email>illuminierteurkunden@gmail.com</atom:email></atom:author><app:control xmlns:app="http://www.w3.org/2007/app"><app:draft>no</app:draft></app:control><atom:content type="application/xml"><cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id=""><cei:front><cei:sourceDesc><cei:sourceDescVolltext><cei:bibl/></cei:sourceDescVolltext><cei:sourceDescRegest><cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden" <cei:lb/>Bearbeitungsstand: MITTEL</cei:bibl></cei:sourceDescRegest></cei:sourceDesc></cei:front><cei:body><cei:idno id="1353-11-12_Marburg">1353-11-12_Marburg</cei:idno><cei:chDesc><cei:abstract><cei:index indexName="Illurk-Urkundenart">Bischofsammelindulgenz</cei:index> (18 Aussteller) für die Kapelle der heiligen Katharina In Fulda:<cei:lb/>Erzbischof <cei:issuer><cei:persName key="P_Jakobus_Patrajik_1346">Jakob von Patrajik</cei:persName></cei:issuer> (<cei:quote type="italic">Neopatensis</cei:quote>) sowie die Bischöfe <cei:issuer><cei:persName key="">Gregorius von Ciudad Rodrigo</cei:persName></cei:issuer> (<cei:quote type="italic">Civitatensis</cei:quote>), <cei:issuer><cei:persName>Johannes</cei:persName></cei:issuer><cei:quote type="italic">Elcaonensis [?]</cei:quote>, <cei:issuer><cei:persName key="P_Petrus_Butrinto_1353">Petrus von Butrinto</cei:persName></cei:issuer> (<cei:quote type="italic">Botrentonus</cei:quote>), <cei:issuer><cei:persName key="P_Petrus_Avlona_1353">Petrus von Avlona</cei:persName></cei:issuer> (<cei:quote type="italic">Valonensis)</cei:quote>, <cei:issuer><cei:persName key="P_Franziskus_Vregen_1343">Franzsikus von Vregen</cei:persName></cei:issuer> (<cei:quote type="italic">Vrehensis</cei:quote>), <cei:issuer><cei:persName>Johannes von Gubbio</cei:persName></cei:issuer> (<cei:quote type="italic">Egubinus</cei:quote>), <cei:issuer><cei:persName>Nitardus von Thermopylae</cei:persName></cei:issuer> (<cei:quote type="italic">Termopolensis</cei:quote>), <cei:issuer><cei:persName key="P_JohannesII_Trebinje-Mrkanj_1349">Johannes von Trebinje-Mrkanj</cei:persName></cei:issuer> (<cei:quote type="italic">Tribuniensis</cei:quote>), <cei:issuer><cei:persName key="P_Adam_Perpereno_1348">Adam von Perpereno</cei:persName></cei:issuer> (<cei:quote type="italic">Perpenensis</cei:quote>), <cei:issuer><cei:persName key="P_Raphael_Arkadi_1349">Raphael von Arkadi</cei:persName></cei:issuer> (<cei:quote type="italic">Archadiensis</cei:quote>), <cei:issuer><cei:persName>Johannes von Tortiboli</cei:persName></cei:issuer> (<cei:quote type="italic">Tertopolensis</cei:quote>), <cei:issuer><cei:persName>Augustinus von Destillarien</cei:persName></cei:issuer> (<cei:quote type="italic">Destillariensis)</cei:quote>, <cei:issuer><cei:persName key="P_Avancius_Xanthi_1343">Avancius von Xanthi</cei:persName></cei:issuer> (<cei:quote type="italic">Sanchiensis</cei:quote>) <cei:issuer><cei:persName>Gregorius</cei:persName></cei:issuer><cei:quote type="italic">Salunensis</cei:quote> (= <cei:quote type="italic">Salvinensis</cei:quote>; Lage nicht genau bestimmt), <cei:issuer><cei:persName key="P_Petrus_Cagli_1319">Petrus von Cagli</cei:persName></cei:issuer> (<cei:quote type="italic">Calliensis</cei:quote>), <cei:issuer><cei:persName>Johannes</cei:persName></cei:issuer><cei:quote type="italic">Cinitensis</cei:quote> [?] und <cei:issuer><cei:persName key="P_Johannes_Dragonara_false">Johannes von Dragonara</cei:persName></cei:issuer> (<cei:quote type="italic">Draconariensis</cei:quote>) erteilen all jenen einen Ablass von 40 Tagen (<cei:quote type="italic">misericorditer in Domino relaxamus</cei:quote>), die die in der Diözese Würzburg gelegene Kapelle der heiligen Katharina der <cei:quote type="italic">Novicastri Fuldensis</cei:quote> (<cei:quote type="italic">capella Novicastri Fuldensis beate Katerine virginis et martiris, Herbipolensis diocesis, ad laudem Dei et beate Katerine fundata</cei:quote>) an bestimmten Festtagen und – soweit gegeben – in der jeweiligen Oktav reumütig und nach Ablegung der Beichte besuchen, und zwar am Feiertag der Patronin dieser Kapelle, zu Weihnachten, zu den Festen der Beschneidung und der Erscheinung des Herrn, am Karfreitag, zu Ostern, Christi Himmelfahrt, Pfingsten, am Dreifaltigkeitstag, zu Fronleichnam, am Kreuzauffindungstag, am Kreuzerhöhungstag, am Feiertag des heiligen Erzengels Michael, an allen Marienfeiertagen, zu den Festen der Geburt und der Enthauptung des heiligen Johannes des Täufers, am Peter- und Paulstag, zu allen Apostel- und Evangelistenfesten, zu Allerheiligen, zu Allerseelen, an den Feiertagen des heiligen Stephan, des heiligen Laurenz, des heiligen Vinzenz, des heiligen Martin, des heiligen Nikolaus, des heiligen Antonius, des heiligen Quirinus, des heiligen Bonifatius, des heiligen Benedikt, der heiligen Maria Magdalena, der heiligen Margarete, der heiligen Katharina [!], der heiligen Anna, der heiligen Agnes, der heiligen Agathe, der heiligen Cäcilia, der heiligen Lucia, der heiligen Elisabeth, der heiligen Barbara sowie an allen Sonntagen und Samstagen. Weiters wird all jenen Ablass gewährt, die den Priester beim Versehgang begleiten, die beim Abendläuten mit gebeugten Knien drei Ave-Maria beten, die in der genannten Kapelle Messen feiern oder feiern lassen, die den Friedhof dieser Kapelle umschreiten und dabei für die Verstorbenen beten, die für den Bau, die Beleuchtung und die sonstige Ausstattung der Kapelle aufkommen, die dieser entweder testamentarisch oder auf anderen Wegen Gold-, Silber-, Kleidungsspenden oder andere Notwendigkeiten zukommen lassen sowie jenen, die für den Würzuburger Bischof, der die vorliegende Indulgenz bestätigt, und für Abt Heinrich von Fulda, Impetrator der vorliegenden Indulgenz, Gebete sprechen und die Messen von Letzterem hören.<cei:lb/>1354 Mai 4, Fulda<cei:lb/>Bischof von Würzburg bestätigt die vorliegende Indulgenz und fügt weitere 40 Tage Ablass hinzu.<cei:lb/>Markus Gneiss </cei:abstract><cei:issued><cei:placeName>Avignon</cei:placeName><cei:dateRange from="13531112" to="13531112">1353-11-12</cei:dateRange></cei:issued><cei:witnessOrig><cei:traditioForm>Original</cei:traditioForm><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1353-11-12_Katharinenkapelle-Fulda_Visualisierte-Kommunikation-195.jpg"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1353-11-12_fuer-Fulda-Katharinenkapelle-Affix-1354_Marburg-StA-Urk-78SAM_7059.JPG"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1353-11-12_fuer-Fulda-Katharinenkapelle_Marburg-StA-Urk-78.JPG"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1353-11-12_fuer-Fulda-Katharinenkapelle_Marburg-StA-Urk-78SAM_7055.JPG"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1353-11-12_fuer-Fulda-Katharinenkapelle_Marburg-StA-Urk-78SAM_7056.JPG"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1353-11-12_fuer-Fulda-Katharinenkapelle_Marburg-StA-Urk-78SAM_7057.JPG"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1353-11-12_fuer-Fulda-Katharinenkapelle_Marburg-StA-Urk-78SAM_7058.JPG"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1353-11-12_fuer-Fulda-Katharinenkapelle_Marburg-StA-Urk-78SAM_7060.JPG"/></cei:figure><cei:archIdentifier><cei:settlement>Marburg</cei:settlement>, <cei:arch>Hessisches Staatsarchiv</cei:arch>, <cei:idno>Urk. 78</cei:idno> (<cei:archFond>Fulda, Archive und Kirchen</cei:archFond>), <cei:idno>sub dato</cei:idno></cei:archIdentifier><cei:physicalDesc><cei:decoDesc><cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma="HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</cei:index>: Historisierte Initiale U(niversis) zu Textbeginn, vier weitere vergrösserte Initialen in der ersten Zeile. Eine zweizeilige und eine vergrösserte einzeilige Initiale im Textblock. Versalien gelb und gelegentlich auch rot angestrichelt.</cei:p><cei:p n="Ekphrasis">Achtzeilige historisierte Initiale zu Textbeginn: mit Deckfarben koloriert sowie mit Goldgrund hinterlegt, der Buchstabenkörper und die Blattranke jedoch gezeichnet und koloriert. Im Binnenfeld rechts thronende gekrönte Madonna mit nacktem Kind, vor ihr ein schwarz gekleideter Benediktinermönch, präsentiert von der hl. Katharina mit ihrem Rad. Um das Bildfeld ein alle Seiten umgreifender Rahmen; die Schäfte mit einer Wellenranke mit Büten dekoriert.Das Initialfeld aus beigen und hellvioletten Teilen Von der Initiale links oben ausgehend Ranke mit Herzblättern oberhalb und links des Textblocks über die gesamte Textspiegelbreite. Die weiteren Initialen in der ersten Textzeile ebenfalls mit Wellenlinien und Fleuronnée gefült und mit Initialfeldern gerahmt. </cei:p><cei:p n="Stil und Einordnung">Bei dem Ablass für Fulda handelt es sich um ein vorgeschriebenes Formular, in das mit dunklerer Tinte die individualisierenden Daten eingetragen wurden; dabei war auch genügend Platz, um den Namen des Petenten, ein Abt Heinrich von Fulda, einzutragen.</cei:p><cei:p n="Stil und Einordnung">Seit der letzten, bisher bekannten Indulgenz mit Illuminierungen der <cei:index indexName="IllUrkGlossar" lemma="WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner Bischofsammelindulgenzen</cei:index> für <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1348-03-03_Laibach/charter">Nürnberg 1348 März 3</cei:ref> muss man annehmen, dass die Werkstatt ihre Tätigkeit – vielleicht wegen der wütenden Pest – eingestellt hat. Seitdem kennen wir nur noch Exemplare, die Avignon unilluminiert verlassen haben. Bei dem Stück für Fulda handelt es sich jedoch zweifelsohne um eine Indulgenz, die in einem Avignoner Atelier illuminiert wurde. Der Stil gleicht der einer Werkstatt, die Francesca Manzari nach einem Pontifikale, Ms. 143 der Pairser Bibliothèque Sainte-Genviève, genannt hat und die für zwei weitere Initialen auf Sammelindulgenzen verantwortlich ist: <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1356-08-09_Lissabon/charter">1356 August 9 für Santarém</cei:ref> und <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1357-06-09_Muenchen/charter">1357 Juni 9 für Haindling</cei:ref>. Im Vergleich zu den beiden anderen ist beim Ablass für Fulda die Verbindung von Initialschäften und Darstellung im Binnenfeld nicht so gut gelungen; die Dornblattranke hat erstaunlich dicke Äste und keine Astachseln. Dass dabei einerseits deckende Buchmalerfarben in mehreren Schichten, andererseits aber üppig mit Goldgrund gearbeitet wird, unterscheidet diese, in erster Linie der Buchmalerei gewidmete Werkstatt von der der Avignoner Bischofsammelindulgenzen, die stets mit weniger kostbaren Materialien operierte. Vielleicht liegt die Diskrepanz zwischen dem nur in einfachen Farben ausgeführten Dekor von Ranke und Buchstabenkörper und dem vollfarbig ausgeführten Binnenfeld an zwei unterschiedlichen Ausführenden.</cei:p><cei:p n="Autorensigle">Martin Roland, Gabriele Bartz</cei:p></cei:decoDesc><cei:material>Pergament</cei:material><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:notariusDesc/><cei:sealDesc>13 (+1) Siegel der Aussteller (18 + 1) zumindest teilweise erhalten.</cei:sealDesc></cei:auth><cei:nota>Vermerke: auf der Vorderseite keine sichtbar, kein Bild der Rückseite vorhanden.</cei:nota><cei:rubrum/></cei:witnessOrig><cei:witListPar><cei:witness><cei:traditioForm/><cei:figure/><cei:archIdentifier/><cei:physicalDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:sealDesc/><cei:notariusDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witness></cei:witListPar><cei:diplomaticAnalysis><cei:listBibl><cei:bibl key="zotero:WEQU9TIJ">Seibold, Ablassurkunden, 2010, 105. (<cei:ref target="http://zotero.org/groups/257864/items/WEQU9TIJ">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl key="zotero:4PQHP9IU">Manzari, Miniatura ad Avignone, 2006, S. 156–161. (<cei:ref target="http://zotero.org/groups/257864/items/4PQHP9IU">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl><cei:ref target="https://arcinsys.hessen.de/arcinsys/detailAction?detailid=v2602205">https://arcinsys.hessen.de/arcinsys/detailAction?detailid=v2602205</cei:ref> (mit Digitalisat)</cei:bibl></cei:listBibl><cei:listBiblRegest><cei:bibl/></cei:listBiblRegest><cei:listBiblFaksimile><cei:bibl/></cei:listBiblFaksimile><cei:listBiblErw><cei:bibl/></cei:listBiblErw><cei:p>Kommentar:</cei:p><cei:p>Arenga (Incipit): <cei:quote type="italic">Rex pacificus ... .</cei:quote></cei:p><cei:p>Urkundentext war ein Blankett mit Nachtrag der Aussteller und des Empfängers; bei den Heiligentagen, an denen ein Ablass zu gewinnen ist, Elisabeth und Barbara nachgetragen.</cei:p><cei:p>Markus Gneiss</cei:p><cei:quoteOriginaldatierung/><cei:nota/><cei:listBiblEdition><cei:bibl/></cei:listBiblEdition></cei:diplomaticAnalysis><cei:lang_MOM/></cei:chDesc><cei:tenor/></cei:body><cei:back><cei:persName/><cei:placeName type="Region">Frankreich (Kurie)</cei:placeName><cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index><cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: Mit zusätzlichen Farben</cei:index><cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1: gemalt</cei:index><cei:index indexName="illurk-vocabulary" lemma="Historiated">N1: historisiert</cei:index><cei:index indexName="illurk-vocabulary" lemma="ExecutionDraw">N1: gezeichnet</cei:index><cei:index indexName="illurk-vocabulary" lemma="Borders">N1: Randdekor</cei:index><cei:divNotes><cei:note/></cei:divNotes><cei:class/></cei:back></cei:text></atom:content></atom:entry>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+  <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1353-11-12_Marburg</atom:id>
+  <atom:title/>
+  <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+  <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+  <atom:author>
+    <atom:email>illuminierteurkunden@gmail.com</atom:email>
+  </atom:author>
+  <app:control xmlns:app="http://www.w3.org/2007/app">
+    <app:draft>no</app:draft>
+  </app:control>
+  <atom:content type="application/xml">
+    <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+      <cei:front>
+        <cei:sourceDesc>
+          <cei:sourceDescVolltext>
+            <cei:bibl/>
+          </cei:sourceDescVolltext>
+          <cei:sourceDescRegest>
+            <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden" <cei:lb/>Bearbeitungsstand:
+              MITTEL</cei:bibl>
+          </cei:sourceDescRegest>
+        </cei:sourceDesc>
+      </cei:front>
+      <cei:body>
+        <cei:idno id="1353-11-12_Marburg">1353-11-12_Marburg</cei:idno>
+        <cei:chDesc>
+          <cei:abstract><cei:index indexName="Illurk-Urkundenart">Bischofsammelindulgenz</cei:index>
+            (18 Aussteller) für die Kapelle der heiligen Katharina In Fulda:<cei:lb/>Erzbischof
+                <cei:issuer><cei:persName key="P_Jakobus_Patrajik_1346">Jakob von
+                Patrajik</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Neopatensis</cei:quote>) sowie die Bischöfe <cei:issuer><cei:persName key=""
+                >Gregorius von Ciudad Rodrigo</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Civitatensis</cei:quote>),
+              <cei:issuer><cei:persName>Johannes</cei:persName></cei:issuer><cei:quote type="italic"
+              >Elcaonensis [?]</cei:quote>, <cei:issuer><cei:persName key="P_Petrus_Butrinto_1353"
+                >Petrus von Butrinto</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Botrentonus</cei:quote>), <cei:issuer><cei:persName key="P_Petrus_Avlona_1353">Petrus
+                von Avlona</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Valonensis)</cei:quote>, <cei:issuer><cei:persName key="P_Franziskus_Vregen_1343"
+                >Franzsikus von Vregen</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Vrehensis</cei:quote>), <cei:issuer><cei:persName>Johannes von
+              Gubbio</cei:persName></cei:issuer> (<cei:quote type="italic">Egubinus</cei:quote>),
+                <cei:issuer><cei:persName>Nitardus von Thermopylae</cei:persName></cei:issuer>
+              (<cei:quote type="italic">Termopolensis</cei:quote>), <cei:issuer><cei:persName
+                key="P_JohannesII_Trebinje-Mrkanj_1349">Johannes von
+              Trebinje-Mrkanj</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Tribuniensis</cei:quote>), <cei:issuer><cei:persName key="P_Adam_Perpereno_1348">Adam
+                von Perpereno</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Perpenensis</cei:quote>), <cei:issuer><cei:persName key="P_Raphael_Arkadi_1349"
+                >Raphael von Arkadi</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Archadiensis</cei:quote>), <cei:issuer><cei:persName>Johannes von
+                Tortiboli</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Tertopolensis</cei:quote>), <cei:issuer><cei:persName>Augustinus von
+                Destillarien</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Destillariensis)</cei:quote>, <cei:issuer><cei:persName key="P_Avancius_Xanthi_1343"
+                >Avancius von Xanthi</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Sanchiensis</cei:quote>)
+              <cei:issuer><cei:persName>Gregorius</cei:persName></cei:issuer><cei:quote
+              type="italic">Salunensis</cei:quote> (= <cei:quote type="italic"
+              >Salvinensis</cei:quote>; Lage nicht genau bestimmt), <cei:issuer><cei:persName
+                key="P_Petrus_Cagli_1319">Petrus von Cagli</cei:persName></cei:issuer> (<cei:quote
+              type="italic">Calliensis</cei:quote>),
+                <cei:issuer><cei:persName>Johannes</cei:persName></cei:issuer><cei:quote
+              type="italic">Cinitensis</cei:quote> [?] und <cei:issuer><cei:persName
+                key="P_Johannes_Dragonara_false">Johannes von Dragonara</cei:persName></cei:issuer>
+              (<cei:quote type="italic">Draconariensis</cei:quote>) erteilen all jenen einen Ablass
+            von 40 Tagen (<cei:quote type="italic">misericorditer in Domino relaxamus</cei:quote>),
+            die die in der Diözese Würzburg gelegene Kapelle der heiligen Katharina der <cei:quote
+              type="italic">Novicastri Fuldensis</cei:quote> (<cei:quote type="italic">capella
+              Novicastri Fuldensis beate Katerine virginis et martiris, Herbipolensis diocesis, ad
+              laudem Dei et beate Katerine fundata</cei:quote>) an bestimmten Festtagen und – soweit
+            gegeben – in der jeweiligen Oktav reumütig und nach Ablegung der Beichte besuchen, und
+            zwar am Feiertag der Patronin dieser Kapelle, zu Weihnachten, zu den Festen der
+            Beschneidung und der Erscheinung des Herrn, am Karfreitag, zu Ostern, Christi
+            Himmelfahrt, Pfingsten, am Dreifaltigkeitstag, zu Fronleichnam, am Kreuzauffindungstag,
+            am Kreuzerhöhungstag, am Feiertag des heiligen Erzengels Michael, an allen
+            Marienfeiertagen, zu den Festen der Geburt und der Enthauptung des heiligen Johannes des
+            Täufers, am Peter- und Paulstag, zu allen Apostel- und Evangelistenfesten, zu
+            Allerheiligen, zu Allerseelen, an den Feiertagen des heiligen Stephan, des heiligen
+            Laurenz, des heiligen Vinzenz, des heiligen Martin, des heiligen Nikolaus, des heiligen
+            Antonius, des heiligen Quirinus, des heiligen Bonifatius, des heiligen Benedikt, der
+            heiligen Maria Magdalena, der heiligen Margarete, der heiligen Katharina [!], der
+            heiligen Anna, der heiligen Agnes, der heiligen Agathe, der heiligen Cäcilia, der
+            heiligen Lucia, der heiligen Elisabeth, der heiligen Barbara sowie an allen Sonntagen
+            und Samstagen. Weiters wird all jenen Ablass gewährt, die den Priester beim Versehgang
+            begleiten, die beim Abendläuten mit gebeugten Knien drei Ave-Maria beten, die in der
+            genannten Kapelle Messen feiern oder feiern lassen, die den Friedhof dieser Kapelle
+            umschreiten und dabei für die Verstorbenen beten, die für den Bau, die Beleuchtung und
+            die sonstige Ausstattung der Kapelle aufkommen, die dieser entweder testamentarisch oder
+            auf anderen Wegen Gold-, Silber-, Kleidungsspenden oder andere Notwendigkeiten zukommen
+            lassen sowie jenen, die für den Würzuburger Bischof, der die vorliegende Indulgenz
+            bestätigt, und für Abt Heinrich von Fulda, Impetrator der vorliegenden Indulgenz, Gebete
+            sprechen und die Messen von Letzterem hören.<cei:lb/>1354 Mai 4, Fulda<cei:lb/>Bischof
+            von Würzburg bestätigt die vorliegende Indulgenz und fügt weitere 40 Tage Ablass
+            hinzu.<cei:lb/>Markus Gneiss </cei:abstract>
+          <cei:issued>
+            <cei:placeName>Avignon</cei:placeName>
+            <cei:dateRange from="13531112" to="13531112">1353-11-12</cei:dateRange>
+          </cei:issued>
+          <cei:witnessOrig>
+            <cei:traditioForm>Original</cei:traditioForm>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1353-11-12_Katharinenkapelle-Fulda_Visualisierte-Kommunikation-195.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1353-11-12_fuer-Fulda-Katharinenkapelle-Affix-1354_Marburg-StA-Urk-78SAM_7059.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1353-11-12_fuer-Fulda-Katharinenkapelle_Marburg-StA-Urk-78.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1353-11-12_fuer-Fulda-Katharinenkapelle_Marburg-StA-Urk-78SAM_7055.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1353-11-12_fuer-Fulda-Katharinenkapelle_Marburg-StA-Urk-78SAM_7056.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1353-11-12_fuer-Fulda-Katharinenkapelle_Marburg-StA-Urk-78SAM_7057.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1353-11-12_fuer-Fulda-Katharinenkapelle_Marburg-StA-Urk-78SAM_7058.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1353-11-12_fuer-Fulda-Katharinenkapelle_Marburg-StA-Urk-78SAM_7060.JPG"
+              />
+            </cei:figure>
+            <cei:archIdentifier>
+              <cei:settlement>Marburg</cei:settlement>
+              <cei:arch>Hessisches Staatsarchiv</cei:arch>
+              <cei:archFond>Urk. 78 Fulda, Archive und Kirchen</cei:archFond>
+              <cei:idno>sub dato</cei:idno>
+            </cei:archIdentifier>
+            <cei:physicalDesc>
+              <cei:decoDesc>
+                <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar"
+                    lemma="HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner
+                    Bischofsammelindulgenz</cei:index>: Historisierte Initiale U(niversis) zu
+                  Textbeginn, vier weitere vergrösserte Initialen in der ersten Zeile. Eine
+                  zweizeilige und eine vergrösserte einzeilige Initiale im Textblock. Versalien gelb
+                  und gelegentlich auch rot angestrichelt.</cei:p>
+                <cei:p n="Ekphrasis">Achtzeilige historisierte Initiale zu Textbeginn: mit
+                  Deckfarben koloriert sowie mit Goldgrund hinterlegt, der Buchstabenkörper und die
+                  Blattranke jedoch gezeichnet und koloriert. Im Binnenfeld rechts thronende
+                  gekrönte Madonna mit nacktem Kind, vor ihr ein schwarz gekleideter
+                  Benediktinermönch, präsentiert von der hl. Katharina mit ihrem Rad. Um das
+                  Bildfeld ein alle Seiten umgreifender Rahmen; die Schäfte mit einer Wellenranke
+                  mit Büten dekoriert.Das Initialfeld aus beigen und hellvioletten Teilen Von der
+                  Initiale links oben ausgehend Ranke mit Herzblättern oberhalb und links des
+                  Textblocks über die gesamte Textspiegelbreite. Die weiteren Initialen in der
+                  ersten Textzeile ebenfalls mit Wellenlinien und Fleuronnée gefült und mit
+                  Initialfeldern gerahmt. </cei:p>
+                <cei:p n="Stil und Einordnung">Bei dem Ablass für Fulda handelt es sich um ein
+                  vorgeschriebenes Formular, in das mit dunklerer Tinte die individualisierenden
+                  Daten eingetragen wurden; dabei war auch genügend Platz, um den Namen des
+                  Petenten, ein Abt Heinrich von Fulda, einzutragen.</cei:p>
+                <cei:p n="Stil und Einordnung">Seit der letzten, bisher bekannten Indulgenz mit
+                  Illuminierungen der <cei:index indexName="IllUrkGlossar"
+                    lemma="WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner
+                    Bischofsammelindulgenzen</cei:index> für <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1348-03-03_Laibach/charter"
+                    >Nürnberg 1348 März 3</cei:ref> muss man annehmen, dass die Werkstatt ihre
+                  Tätigkeit – vielleicht wegen der wütenden Pest – eingestellt hat. Seitdem kennen
+                  wir nur noch Exemplare, die Avignon unilluminiert verlassen haben. Bei dem Stück
+                  für Fulda handelt es sich jedoch zweifelsohne um eine Indulgenz, die in einem
+                  Avignoner Atelier illuminiert wurde. Der Stil gleicht der einer Werkstatt, die
+                  Francesca Manzari nach einem Pontifikale, Ms. 143 der Pairser Bibliothèque
+                  Sainte-Genviève, genannt hat und die für zwei weitere Initialen auf
+                  Sammelindulgenzen verantwortlich ist: <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1356-08-09_Lissabon/charter"
+                    >1356 August 9 für Santarém</cei:ref> und <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1357-06-09_Muenchen/charter"
+                    >1357 Juni 9 für Haindling</cei:ref>. Im Vergleich zu den beiden anderen ist
+                  beim Ablass für Fulda die Verbindung von Initialschäften und Darstellung im
+                  Binnenfeld nicht so gut gelungen; die Dornblattranke hat erstaunlich dicke Äste
+                  und keine Astachseln. Dass dabei einerseits deckende Buchmalerfarben in mehreren
+                  Schichten, andererseits aber üppig mit Goldgrund gearbeitet wird, unterscheidet
+                  diese, in erster Linie der Buchmalerei gewidmete Werkstatt von der der Avignoner
+                  Bischofsammelindulgenzen, die stets mit weniger kostbaren Materialien operierte.
+                  Vielleicht liegt die Diskrepanz zwischen dem nur in einfachen Farben ausgeführten
+                  Dekor von Ranke und Buchstabenkörper und dem vollfarbig ausgeführten Binnenfeld an
+                  zwei unterschiedlichen Ausführenden.</cei:p>
+                <cei:p n="Autorensigle">Martin Roland, Gabriele Bartz</cei:p>
+              </cei:decoDesc>
+              <cei:material>Pergament</cei:material>
+              <cei:dimensions/>
+              <cei:condition/>
+            </cei:physicalDesc>
+            <cei:auth>
+              <cei:notariusDesc/>
+              <cei:sealDesc>13 (+1) Siegel der Aussteller (18 + 1) zumindest teilweise
+                erhalten.</cei:sealDesc>
+            </cei:auth>
+            <cei:nota>Vermerke: auf der Vorderseite keine sichtbar, kein Bild der Rückseite
+              vorhanden.</cei:nota>
+            <cei:rubrum/>
+          </cei:witnessOrig>
+          <cei:witListPar>
+            <cei:witness>
+              <cei:traditioForm/>
+              <cei:figure/>
+              <cei:archIdentifier/>
+              <cei:physicalDesc>
+                <cei:material/>
+                <cei:dimensions/>
+                <cei:condition/>
+              </cei:physicalDesc>
+              <cei:auth>
+                <cei:sealDesc/>
+                <cei:notariusDesc/>
+              </cei:auth>
+              <cei:nota/>
+              <cei:rubrum/>
+            </cei:witness>
+          </cei:witListPar>
+          <cei:diplomaticAnalysis>
+            <cei:listBibl>
+              <cei:bibl key="zotero:WEQU9TIJ">Seibold, Ablassurkunden, 2010, 105. (<cei:ref
+                  target="http://zotero.org/groups/257864/items/WEQU9TIJ">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl key="zotero:4PQHP9IU">Manzari, Miniatura ad Avignone, 2006, S. 156–161.
+                  (<cei:ref target="http://zotero.org/groups/257864/items/4PQHP9IU">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl><cei:ref
+                  target="https://arcinsys.hessen.de/arcinsys/detailAction?detailid=v2602205"
+                  >https://arcinsys.hessen.de/arcinsys/detailAction?detailid=v2602205</cei:ref> (mit
+                Digitalisat)</cei:bibl>
+            </cei:listBibl>
+            <cei:listBiblRegest>
+              <cei:bibl/>
+            </cei:listBiblRegest>
+            <cei:listBiblFaksimile>
+              <cei:bibl/>
+            </cei:listBiblFaksimile>
+            <cei:listBiblErw>
+              <cei:bibl/>
+            </cei:listBiblErw>
+            <cei:p>Kommentar:</cei:p>
+            <cei:p>Arenga (Incipit): <cei:quote type="italic">Rex pacificus ...
+              .</cei:quote></cei:p>
+            <cei:p>Urkundentext war ein Blankett mit Nachtrag der Aussteller und des Empfängers; bei
+              den Heiligentagen, an denen ein Ablass zu gewinnen ist, Elisabeth und Barbara
+              nachgetragen.</cei:p>
+            <cei:p>Markus Gneiss</cei:p>
+            <cei:quoteOriginaldatierung/>
+            <cei:nota/>
+            <cei:listBiblEdition>
+              <cei:bibl/>
+            </cei:listBiblEdition>
+          </cei:diplomaticAnalysis>
+          <cei:lang_MOM/>
+        </cei:chDesc>
+        <cei:tenor/>
+      </cei:body>
+      <cei:back>
+        <cei:persName/>
+        <cei:placeName type="Region">Frankreich (Kurie)</cei:placeName>
+        <cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: Mit zusätzlichen
+          Farben</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1: gemalt</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1: historisiert</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="ExecutionDraw">N1: gezeichnet</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="Borders">N1: Randdekor</cei:index>
+        <cei:divNotes>
+          <cei:note/>
+        </cei:divNotes>
+        <cei:class/>
+      </cei:back>
+    </cei:text>
+  </atom:content>
+</atom:entry>

@@ -1,1 +1,273 @@
-<atom:entry xmlns:atom="http://www.w3.org/2005/Atom"><atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1347-04-15_Krakau</atom:id><atom:title/><atom:published>2018-10-25T06:51:55.661Z</atom:published><atom:updated>2018-10-25T06:51:55.661Z</atom:updated><atom:author><atom:email>illuminierteurkunden@gmail.com</atom:email></atom:author><app:control xmlns:app="http://www.w3.org/2007/app"><app:draft>no</app:draft></app:control><atom:content type="application/xml"><cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id=""><cei:front><cei:sourceDesc><cei:sourceDescVolltext><cei:bibl/></cei:sourceDescVolltext><cei:sourceDescRegest><cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl></cei:sourceDescRegest></cei:sourceDesc></cei:front><cei:body><cei:idno id="1347-04-15_Krakau">1347-04-15_Krakau</cei:idno><cei:chDesc><cei:abstract><cei:index indexName="Illurk-Urkundenart">Bischofsammelindulgenz</cei:index> (12 Aussteller) für die Fronleichnamsbruderschaft in Kazimierz [Stadtteil von Krakau]:<cei:lb/>Die Bischöfe <cei:issuer><cei:persName key="P_Nikolaus_Accia_1344">Nikolaus</cei:persName></cei:issuer><cei:quote type="italic">Axiensis</cei:quote> [?], <cei:issuer><cei:persName key="P_Thaddaeus_Caffa_1334">Thaddäus von Caffa</cei:persName></cei:issuer> (<cei:quote type="italic">Caphensis</cei:quote>), <cei:issuer><cei:persName>Augustinus von Destillarien</cei:persName></cei:issuer> (<cei:quote type="italic">Distillariensis</cei:quote>), <cei:issuer><cei:persName key="P_Johannes_Duvno_1345">Johannes von Duvno</cei:persName></cei:issuer> (<cei:quote type="italic">Delmitensis</cei:quote>), <cei:issuer><cei:persName>Markus von Scutari</cei:persName></cei:issuer> (<cei:quote type="italic">Scutarensis</cei:quote>), <cei:issuer><cei:persName>Guillelmus von Umbriatico</cei:persName></cei:issuer> (<cei:quote type="italic">Umbriaticensis</cei:quote>), <cei:issuer><cei:persName>Laurenz von Lavello</cei:persName></cei:issuer> (<cei:quote type="italic">Lavellensis</cei:quote>), <cei:issuer><cei:persName key="P_JohannesI_Trebinje-Mrkanj_1345">Johannes von Trebinje-Mrkanj</cei:persName></cei:issuer> (<cei:quote type="italic">Tribuniensis</cei:quote>), <cei:issuer><cei:persName key="P_Petrus_Brugnato_1345">Petrus von Brugnato</cei:persName></cei:issuer> (<cei:quote type="italic">Bruniacensis</cei:quote>), <cei:issuer><cei:persName key="P_Thomas_Knin_1334">Thomas von Knin</cei:persName></cei:issuer> (<cei:quote type="italic">Tiniensis</cei:quote>), <cei:issuer><cei:persName>Gregorius</cei:persName></cei:issuer><cei:quote type="italic">Salunensis</cei:quote> (= <cei:quote>Salvinensis</cei:quote>; Lage nicht genau bestimmt) und <cei:issuer><cei:persName key="P_Gregorius_Oppido_1339">Gregorius von Oppido</cei:persName></cei:issuer> (<cei:quote type="italic">Oppidensis</cei:quote>) erteilen all jenen einen Ablass von 40 Tagen (<cei:quote type="italic">misericorditer in Domino relaxamus</cei:quote>), die die Bruderschaft in der Fronleichnamskirche in Kazimierz bei Krakau (<cei:quote type="italic">confratria in ecclesia Corporis Christi in Kazimiria ante Cracoviam</cei:quote>) an den Festtagen [des Herrn] nach Ablegung der Beichte besuchen, besonders zu Fronleichnam und in der dazugehörigen Oktav, dort Messfeierlichkeiten oder Begräbnissen von Mitgliedern dieser Bruderschaft beiwohnen, weiters jenen, die der genannten Bruderschaft beitreten oder vormals beigetreten sind, auch besonders jenen, die bei den Zusammenkünften der Bruderschaft anwesend sind und dort Spenden geben, die die Mitlgieder der Bruderschaft beim Versehgang begleiten, die die kranken Bruderschaftsmitglieder besuchen und ihnen Hilfestellungen sowohl mit Worten als auch mit frommen Taten geben, die der Bruderschaft entweder testamentarisch oder auf anderen Wegen Gold-, Silber-, und Kleidungsspenden zukommen lassen sowie jenen, die für bestimmte Bruderschaftsmitglieder, nämlich den krakauischen Kanoniker Johannes Dzeczko (<cei:quote type="italic">Iohanne Dzeczkonis canonico Cracouiensi</cei:quote>), den Rektor der genannten Kirche Jaroslaw (<cei:quote type="italic">Iaroslao dicte ecclesie rectore)</cei:quote>, den Rektor der Kirche von <cei:quote type="italic">Velin</cei:quote> Matthias (<cei:quote type="italic">Mathia</cei:quote>), den Vikar der krakauischen Kirche Petrus Kytlicz (<cei:quote type="italic">Petro dicto Kytlicz</cei:quote>), den Rektor der Kirche von Dobczyce Nikolaus Ungarus (<cei:quote type="italic">Nicolao Ungaro rectore ecclesie de Dobshicz</cei:quote>), den Kanoniker von [...] Albertus von <cei:quote type="italic">Turbia</cei:quote> sowie für Antonius Woyczessicz und für alle zukünftige Bruderschaftsmitglieder Gebete sprechen.<cei:lb/><cei:lb/>(1348–1366)<cei:lb/>Bischof <cei:issuer><cei:persName>Bodzenta von Krakau</cei:persName></cei:issuer> bestätigt die obige Indulgenz und fügt weitere 40 Tage Ablass hinzu.<cei:lb/><cei:lb/>(1367–1380)<cei:lb/>Bischof <cei:issuer><cei:persName>Florian von Krakau</cei:persName></cei:issuer> bestätigt die obigen Indulgenzen und fügt weitere 40 Tage Ablass hinzu.<cei:lb/><cei:lb/>(1382–1392)<cei:lb/>Bischof <cei:issuer><cei:persName>Johannes [III.] von Krakau</cei:persName></cei:issuer> bestätigt die obige Indulgenz und fügt weitere 40 Tage Ablass hinzu.<cei:lb/><cei:lb/>1399 Dezember 30, Krakau<cei:lb/>Bischof <cei:issuer><cei:persName>Petrus [II.] von Krakau</cei:persName></cei:issuer> bestätigt auf Bitte des Johannes, Rektor der Fronleichnamskirche von Krakau, die obigen Indulgenzen und fügt weitere 40 Tage Ablass hinzu.<cei:lb/>(um 1400)<cei:lb/><cei:lb/>Bischof <cei:issuer><cei:persName>Johannes von Lebus</cei:persName></cei:issuer> bestätigt die obigen Indulgenzen und fügt weitere 40 Tage Ablass hinzu.<cei:lb/><cei:lb/>1423 Jänner 7, Krakau<cei:lb/>Bischof <cei:issuer><cei:persName>Albert [Jastrzambiecz] von Krakau</cei:persName></cei:issuer> bestätigt die obige Indulgenz und fügt weitere 40 Tage Ablass hinzu.<cei:lb/><cei:lb/>1442 Dezember 26, Krakau<cei:lb/>Bischof <cei:issuer><cei:persName>Zbigniew von Krakau</cei:persName></cei:issuer> bestätigt die obigen Indulgenzen und fügt weitere 40 Tage Ablass hinzu.<cei:lb/>Markus Gneiss</cei:abstract><cei:issued><cei:placeName>Avignon</cei:placeName><cei:dateRange from="13470415" to="13470415">1347-04-15</cei:dateRange></cei:issued><cei:witnessOrig><cei:traditioForm>Original</cei:traditioForm><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1347-04-15_Ablass-Krakau-Kasimirz_Miodonska-1993.jpg"/></cei:figure><cei:archIdentifier><cei:settlement>Krakau</cei:settlement><cei:arch>Kanonicy Regularni Lateranscy</cei:arch><cei:arch>Archiwum (Augustiner-Chorherren vom Lateran, Archiv</cei:arch><cei:idno>Nr. D. perg. 1126</cei:idno></cei:archIdentifier><cei:physicalDesc><cei:decoDesc><cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma="HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</cei:index>: Historisierte Initiale U(niversis), oberhalb der Initiale eine Darstellung, weitere vergrösserte Initialen in der ersten Zeile (?) sowie vergrösserte einzeilige Initialen im Textblock (?).</cei:p><cei:p n="Ekphrasis">Zehn Zeilen hohe historisierte Initiale zu Textbeginn: mit der Feder gezeichnet und mit Deckfarben koloriert. Im Binnenfeld Christus als Priester bei der Elevation, hinter ihm sechs teils (?) tonsurierte Beter vor quadriertem Binnengrund. Die Initialschäfte mit schwarzen Ranken, bei denen teils die Farbe ausgelaufen zu sein scheint. Das Initialfeld zeigt links in der Mitte eine Spitze; von ihr wie unten und oben gehen Blattfortsätze aus. Über der Initiale in einer Borgenarchitektur ein Papst mit Tiara und Schlüssel thronend und ein Kniender, wohl ein Mitglied der Bruderschaft (Spruchbänder nicht lesbar). Rechts unten neben Schriftblock: ein kniender Mitbruder (später [?] bezeichnet mit <cei:quote type="italic">Stanislaus Soffka confrater</cei:quote>; dieser in der Urkunde nicht genannt).</cei:p><cei:p n="Stil und Einordnung">Zunächst wird es sich bei dem Ablass für Kasimierz um eine einfache Ausführung des <cei:index indexName="IllUrkGlossar" lemma="Blattrankentyp">Blattrankentyps</cei:index> mit kurzen Blattfortsätzen gehandelt haben, doch nach der Fertigstellung hat man noch die Darstellung über der Initiale hinzugefügt.</cei:p><cei:p n="Stil und Einordnung">Der Initialtyp mit der Spitze in der Mitte ist <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1347-04-06_Enneberg/charter">1347 April 6 für Enneberg</cei:ref>, <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1347-08-28_Wolfenbuettel/charter">1347 August 28 für St. Stephani und St. Ludgeri in Helmstedt</cei:ref> aufgetreten; bei der Auszeichnungsschrift der ersten Zeilen begegnete dieses Phänomen schon häufiger, z. B. <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1345-04-11_Privatbesitz/charter">1345 April 11 für Flaschberg</cei:ref> (vgl. auch <cei:index indexName="IllUrkGlossar" lemma="Layout">Layout</cei:index>).</cei:p><cei:p n="Stil und Einordnung">Die Themenwahl mit Christus als Priester ist trotz der seit 1329 einsetzenden <cei:index indexName="IllUrkGlossar" lemma="IkonographischeDiversifizierung">ikonographischen Diversifizierung</cei:index> im bekannten Material noch nicht vorgekommen und setzt einen dezidierten Auftraggeberwunsch voraus, den man in der <cei:index indexName="IllUrkGlossar" lemma="WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner Bischofsammelindulgenzen</cei:index> auch umsetzte. Zur ungewöhnlichen Ikonographie vgl. <cei:ref target="http://zotero.org/groups/257864/items/EGFIUZCM">Avril, Curieuse illustration, 1990</cei:ref> (ohne Kenntnis dieses Stücks). Ob auch die Darstellung darüber schon in der Avignoner Werkstatt verfertigt wurde, kann erst die Autopsie des Originals klären.</cei:p><cei:p n="Stil und Einordnung">Ikonographisch jedoch ist der Ablass für Kasimierz in der Kombination beider Darstellungen etwas Besonderes: So wie Christus als Priester agiert, scheint auch Petrus als Papst die Segnungen der Kirche an den Petenten weiterzugeben.</cei:p><cei:p n="Autorensigle">Martin Roland, Gabriele Bartz</cei:p></cei:decoDesc><cei:material>Pergament</cei:material><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:notariusDesc/><cei:sealDesc>Abbildung fehlt, deswegen kann keine Aussage dazu gemacht werden.</cei:sealDesc></cei:auth><cei:nota>Vermerke: Zahlreiche bischöfliche Bestätigungen auf der Vorderseite der Urkunde.</cei:nota><cei:rubrum/></cei:witnessOrig><cei:witListPar><cei:witness><cei:traditioForm/><cei:figure/><cei:archIdentifier/><cei:physicalDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:sealDesc/><cei:notariusDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witness></cei:witListPar><cei:diplomaticAnalysis><cei:listBibl><cei:bibl key="zotero:WUKKIRRT">Piekosiński, Codex diplomaticus Poloniae Minoris 1, 1876, Nr. CCXXIII. (<cei:ref target="http://zotero.org/groups/257864/items/WUKKIRRT">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl key="zotero:CX47D7XG">Delehaye, 44, 1926, S. 342–379, 45 (1927), S. 97–123, 323–344, und 46 (1928), S. 149–157, 287–343, bes. Bd. 45, S. 339. (<cei:ref target="http://zotero.org/groups/257864/items/CX47D7XG">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl key="zotero:TCGETHQS">Miodónska, Małopolskie malarstwo książkowe1993, 119f. und Abb. 48f. (<cei:ref target="http://zotero.org/groups/257864/items/TCGETHQS">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl key="zotero:BH99RHAK">Roland, Zajic, Illuminierte Urkunden, 2013, S. 333, online:<cei:ref target="http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf"> http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf</cei:ref> (<cei:ref target="http://zotero.org/groups/257864/items/BH99RHAK">Volltitel auf Zotero</cei:ref>)</cei:bibl></cei:listBibl><cei:listBiblRegest><cei:bibl/></cei:listBiblRegest><cei:listBiblFaksimile><cei:bibl/></cei:listBiblFaksimile><cei:listBiblErw><cei:bibl/></cei:listBiblErw><cei:p>Kommentar:</cei:p><cei:p>Arenga (Incipit): <cei:quote type="italic">Splendor paterne glorie ... .</cei:quote></cei:p><cei:p>Die Anzahl der bischöflichen Bestätigungen dieses Ablasses ist bemerkenswert, ziehen sich diese doch bis in die Mitte des 15. Jahrhunderts. Neben den Bestätigungen durch den lokalen Bischof von Krakau findet sich einmal auch eine Konfirmation durch den Bischof von Lebus. Besonderes Interesse verdient der Text zur Bestätigung der Indulgenz vom 30. Dezember 1399, da hier sogar der Impetrator derselben – der Rektor der Fronleichnamskirche in Krakau, Johannes – genannt wird.</cei:p><cei:p>Von Formular und Diktat her orientiert sich die Urkunde weitgehend an anderen, zeitlich naheliegenden Indulgenzen für Bruderschaften, zum Beispiel der <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1345-10-18_Imola/charter">Società dei Devoti della Beata Vergine Maria di Imola</cei:ref> (18. Oktober 1345) oder der <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1345-11-28_Udine/charter">Società der Flagellanten von Cividale</cei:ref> (28. November 1345), erweitert gegen Ende hin jedoch die gängigen Formen: Die allgemeine Ablassgelegenheit des Gebets für die Bruderschaftsmitglieder, die sich so auch in anderen Indulgenzen für Bruderschaften findet, wird durch die namentliche Nennung zahlreicher Mitglieder der Krakauer Fronleichnsamsbruderschaft ergänzt.</cei:p><cei:p>Markus Gneiss</cei:p><cei:quoteOriginaldatierung/><cei:nota/><cei:listBiblEdition><cei:bibl/></cei:listBiblEdition></cei:diplomaticAnalysis><cei:lang_MOM/></cei:chDesc><cei:tenor/></cei:body><cei:back><cei:persName/><cei:placeName type="Region">Frankreich (Kurie)</cei:placeName><cei:index indexName="illurk-vocabulary" lemma="Historiated">N1: historisiert</cei:index><cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index><cei:index indexName="illurk-vocabulary" lemma="Borders">N1: Randdekor</cei:index><cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: Mit zusätzlichen Farben</cei:index><cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1: gemalt</cei:index><cei:divNotes><cei:note/></cei:divNotes><cei:class/></cei:back></cei:text></atom:content></atom:entry>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+  <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1347-04-15_Krakau</atom:id>
+  <atom:title/>
+  <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+  <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+  <atom:author>
+    <atom:email>illuminierteurkunden@gmail.com</atom:email>
+  </atom:author>
+  <app:control xmlns:app="http://www.w3.org/2007/app">
+    <app:draft>no</app:draft>
+  </app:control>
+  <atom:content type="application/xml">
+    <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+      <cei:front>
+        <cei:sourceDesc>
+          <cei:sourceDescVolltext>
+            <cei:bibl/>
+          </cei:sourceDescVolltext>
+          <cei:sourceDescRegest>
+            <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+          </cei:sourceDescRegest>
+        </cei:sourceDesc>
+      </cei:front>
+      <cei:body>
+        <cei:idno id="1347-04-15_Krakau">1347-04-15_Krakau</cei:idno>
+        <cei:chDesc>
+          <cei:abstract><cei:index indexName="Illurk-Urkundenart">Bischofsammelindulgenz</cei:index>
+            (12 Aussteller) für die Fronleichnamsbruderschaft in Kazimierz [Stadtteil von
+            Krakau]:<cei:lb/>Die Bischöfe <cei:issuer><cei:persName key="P_Nikolaus_Accia_1344"
+                >Nikolaus</cei:persName></cei:issuer><cei:quote type="italic">Axiensis</cei:quote>
+            [?], <cei:issuer><cei:persName key="P_Thaddaeus_Caffa_1334">Thaddäus von
+                Caffa</cei:persName></cei:issuer> (<cei:quote type="italic">Caphensis</cei:quote>),
+                <cei:issuer><cei:persName>Augustinus von Destillarien</cei:persName></cei:issuer>
+              (<cei:quote type="italic">Distillariensis</cei:quote>), <cei:issuer><cei:persName
+                key="P_Johannes_Duvno_1345">Johannes von Duvno</cei:persName></cei:issuer>
+              (<cei:quote type="italic">Delmitensis</cei:quote>), <cei:issuer><cei:persName>Markus
+                von Scutari</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Scutarensis</cei:quote>), <cei:issuer><cei:persName>Guillelmus von
+                Umbriatico</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Umbriaticensis</cei:quote>), <cei:issuer><cei:persName>Laurenz von
+                Lavello</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Lavellensis</cei:quote>), <cei:issuer><cei:persName
+                key="P_JohannesI_Trebinje-Mrkanj_1345">Johannes von
+              Trebinje-Mrkanj</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Tribuniensis</cei:quote>), <cei:issuer><cei:persName key="P_Petrus_Brugnato_1345"
+                >Petrus von Brugnato</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Bruniacensis</cei:quote>), <cei:issuer><cei:persName key="P_Thomas_Knin_1334">Thomas
+                von Knin</cei:persName></cei:issuer> (<cei:quote type="italic"
+            >Tiniensis</cei:quote>),
+              <cei:issuer><cei:persName>Gregorius</cei:persName></cei:issuer><cei:quote
+              type="italic">Salunensis</cei:quote> (= <cei:quote>Salvinensis</cei:quote>; Lage nicht
+            genau bestimmt) und <cei:issuer><cei:persName key="P_Gregorius_Oppido_1339">Gregorius
+                von Oppido</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Oppidensis</cei:quote>) erteilen all jenen einen Ablass von 40 Tagen (<cei:quote
+              type="italic">misericorditer in Domino relaxamus</cei:quote>), die die Bruderschaft in
+            der Fronleichnamskirche in Kazimierz bei Krakau (<cei:quote type="italic">confratria in
+              ecclesia Corporis Christi in Kazimiria ante Cracoviam</cei:quote>) an den Festtagen
+            [des Herrn] nach Ablegung der Beichte besuchen, besonders zu Fronleichnam und in der
+            dazugehörigen Oktav, dort Messfeierlichkeiten oder Begräbnissen von Mitgliedern dieser
+            Bruderschaft beiwohnen, weiters jenen, die der genannten Bruderschaft beitreten oder
+            vormals beigetreten sind, auch besonders jenen, die bei den Zusammenkünften der
+            Bruderschaft anwesend sind und dort Spenden geben, die die Mitlgieder der Bruderschaft
+            beim Versehgang begleiten, die die kranken Bruderschaftsmitglieder besuchen und ihnen
+            Hilfestellungen sowohl mit Worten als auch mit frommen Taten geben, die der Bruderschaft
+            entweder testamentarisch oder auf anderen Wegen Gold-, Silber-, und Kleidungsspenden
+            zukommen lassen sowie jenen, die für bestimmte Bruderschaftsmitglieder, nämlich den
+            krakauischen Kanoniker Johannes Dzeczko (<cei:quote type="italic">Iohanne Dzeczkonis
+              canonico Cracouiensi</cei:quote>), den Rektor der genannten Kirche Jaroslaw
+              (<cei:quote type="italic">Iaroslao dicte ecclesie rectore)</cei:quote>, den Rektor der
+            Kirche von <cei:quote type="italic">Velin</cei:quote> Matthias (<cei:quote type="italic"
+              >Mathia</cei:quote>), den Vikar der krakauischen Kirche Petrus Kytlicz (<cei:quote
+              type="italic">Petro dicto Kytlicz</cei:quote>), den Rektor der Kirche von Dobczyce
+            Nikolaus Ungarus (<cei:quote type="italic">Nicolao Ungaro rectore ecclesie de
+              Dobshicz</cei:quote>), den Kanoniker von [...] Albertus von <cei:quote type="italic"
+              >Turbia</cei:quote> sowie für Antonius Woyczessicz und für alle zukünftige
+            Bruderschaftsmitglieder Gebete sprechen.<cei:lb/><cei:lb/>(1348–1366)<cei:lb/>Bischof
+                <cei:issuer><cei:persName>Bodzenta von Krakau</cei:persName></cei:issuer> bestätigt
+            die obige Indulgenz und fügt weitere 40 Tage Ablass
+            hinzu.<cei:lb/><cei:lb/>(1367–1380)<cei:lb/>Bischof <cei:issuer><cei:persName>Florian
+                von Krakau</cei:persName></cei:issuer> bestätigt die obigen Indulgenzen und fügt
+            weitere 40 Tage Ablass hinzu.<cei:lb/><cei:lb/>(1382–1392)<cei:lb/>Bischof
+                <cei:issuer><cei:persName>Johannes [III.] von Krakau</cei:persName></cei:issuer>
+            bestätigt die obige Indulgenz und fügt weitere 40 Tage Ablass
+            hinzu.<cei:lb/><cei:lb/>1399 Dezember 30, Krakau<cei:lb/>Bischof
+                <cei:issuer><cei:persName>Petrus [II.] von Krakau</cei:persName></cei:issuer>
+            bestätigt auf Bitte des Johannes, Rektor der Fronleichnamskirche von Krakau, die obigen
+            Indulgenzen und fügt weitere 40 Tage Ablass hinzu.<cei:lb/>(um
+            1400)<cei:lb/><cei:lb/>Bischof <cei:issuer><cei:persName>Johannes von
+                Lebus</cei:persName></cei:issuer> bestätigt die obigen Indulgenzen und fügt weitere
+            40 Tage Ablass hinzu.<cei:lb/><cei:lb/>1423 Jänner 7, Krakau<cei:lb/>Bischof
+                <cei:issuer><cei:persName>Albert [Jastrzambiecz] von
+              Krakau</cei:persName></cei:issuer> bestätigt die obige Indulgenz und fügt weitere 40
+            Tage Ablass hinzu.<cei:lb/><cei:lb/>1442 Dezember 26, Krakau<cei:lb/>Bischof
+                <cei:issuer><cei:persName>Zbigniew von Krakau</cei:persName></cei:issuer> bestätigt
+            die obigen Indulgenzen und fügt weitere 40 Tage Ablass hinzu.<cei:lb/>Markus
+            Gneiss</cei:abstract>
+          <cei:issued>
+            <cei:placeName>Avignon</cei:placeName>
+            <cei:dateRange from="13470415" to="13470415">1347-04-15</cei:dateRange>
+          </cei:issued>
+          <cei:witnessOrig>
+            <cei:traditioForm>Original</cei:traditioForm>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1347-04-15_Ablass-Krakau-Kasimirz_Miodonska-1993.jpg"
+              />
+            </cei:figure>
+            <cei:archIdentifier>
+              <cei:settlement>Krakau</cei:settlement>
+              <cei:institution>Kanonicy Regularni Lateranscy</cei:institution>
+              <cei:arch>Archiwum (Augustiner-Chorherren vom Lateran, Archiv</cei:arch>
+              <cei:idno>Nr. D. perg. 1126</cei:idno>
+            </cei:archIdentifier>
+            <cei:physicalDesc>
+              <cei:decoDesc>
+                <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar"
+                    lemma="HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner
+                    Bischofsammelindulgenz</cei:index>: Historisierte Initiale U(niversis), oberhalb
+                  der Initiale eine Darstellung, weitere vergrösserte Initialen in der ersten Zeile
+                  (?) sowie vergrösserte einzeilige Initialen im Textblock (?).</cei:p>
+                <cei:p n="Ekphrasis">Zehn Zeilen hohe historisierte Initiale zu Textbeginn: mit der
+                  Feder gezeichnet und mit Deckfarben koloriert. Im Binnenfeld Christus als Priester
+                  bei der Elevation, hinter ihm sechs teils (?) tonsurierte Beter vor quadriertem
+                  Binnengrund. Die Initialschäfte mit schwarzen Ranken, bei denen teils die Farbe
+                  ausgelaufen zu sein scheint. Das Initialfeld zeigt links in der Mitte eine Spitze;
+                  von ihr wie unten und oben gehen Blattfortsätze aus. Über der Initiale in einer
+                  Borgenarchitektur ein Papst mit Tiara und Schlüssel thronend und ein Kniender,
+                  wohl ein Mitglied der Bruderschaft (Spruchbänder nicht lesbar). Rechts unten neben
+                  Schriftblock: ein kniender Mitbruder (später [?] bezeichnet mit <cei:quote
+                    type="italic">Stanislaus Soffka confrater</cei:quote>; dieser in der Urkunde
+                  nicht genannt).</cei:p>
+                <cei:p n="Stil und Einordnung">Zunächst wird es sich bei dem Ablass für Kasimierz um
+                  eine einfache Ausführung des <cei:index indexName="IllUrkGlossar"
+                    lemma="Blattrankentyp">Blattrankentyps</cei:index> mit kurzen Blattfortsätzen
+                  gehandelt haben, doch nach der Fertigstellung hat man noch die Darstellung über
+                  der Initiale hinzugefügt.</cei:p>
+                <cei:p n="Stil und Einordnung">Der Initialtyp mit der Spitze in der Mitte ist
+                    <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1347-04-06_Enneberg/charter"
+                    >1347 April 6 für Enneberg</cei:ref>, <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1347-08-28_Wolfenbuettel/charter"
+                    >1347 August 28 für St. Stephani und St. Ludgeri in Helmstedt</cei:ref>
+                  aufgetreten; bei der Auszeichnungsschrift der ersten Zeilen begegnete dieses
+                  Phänomen schon häufiger, z. B. <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1345-04-11_Privatbesitz/charter"
+                    >1345 April 11 für Flaschberg</cei:ref> (vgl. auch <cei:index
+                    indexName="IllUrkGlossar" lemma="Layout">Layout</cei:index>).</cei:p>
+                <cei:p n="Stil und Einordnung">Die Themenwahl mit Christus als Priester ist trotz
+                  der seit 1329 einsetzenden <cei:index indexName="IllUrkGlossar"
+                    lemma="IkonographischeDiversifizierung">ikonographischen
+                    Diversifizierung</cei:index> im bekannten Material noch nicht vorgekommen und
+                  setzt einen dezidierten Auftraggeberwunsch voraus, den man in der <cei:index
+                    indexName="IllUrkGlossar" lemma="WerkstattderAvignonerBischofsammelindulgenzen"
+                    >Werkstatt der Avignoner Bischofsammelindulgenzen</cei:index> auch umsetzte. Zur
+                  ungewöhnlichen Ikonographie vgl. <cei:ref
+                    target="http://zotero.org/groups/257864/items/EGFIUZCM">Avril, Curieuse
+                    illustration, 1990</cei:ref> (ohne Kenntnis dieses Stücks). Ob auch die
+                  Darstellung darüber schon in der Avignoner Werkstatt verfertigt wurde, kann erst
+                  die Autopsie des Originals klären.</cei:p>
+                <cei:p n="Stil und Einordnung">Ikonographisch jedoch ist der Ablass für Kasimierz in
+                  der Kombination beider Darstellungen etwas Besonderes: So wie Christus als
+                  Priester agiert, scheint auch Petrus als Papst die Segnungen der Kirche an den
+                  Petenten weiterzugeben.</cei:p>
+                <cei:p n="Autorensigle">Martin Roland, Gabriele Bartz</cei:p>
+              </cei:decoDesc>
+              <cei:material>Pergament</cei:material>
+              <cei:dimensions/>
+              <cei:condition/>
+            </cei:physicalDesc>
+            <cei:auth>
+              <cei:notariusDesc/>
+              <cei:sealDesc>Abbildung fehlt, deswegen kann keine Aussage dazu gemacht
+                werden.</cei:sealDesc>
+            </cei:auth>
+            <cei:nota>Vermerke: Zahlreiche bischöfliche Bestätigungen auf der Vorderseite der
+              Urkunde.</cei:nota>
+            <cei:rubrum/>
+          </cei:witnessOrig>
+          <cei:witListPar>
+            <cei:witness>
+              <cei:traditioForm/>
+              <cei:figure/>
+              <cei:archIdentifier/>
+              <cei:physicalDesc>
+                <cei:material/>
+                <cei:dimensions/>
+                <cei:condition/>
+              </cei:physicalDesc>
+              <cei:auth>
+                <cei:sealDesc/>
+                <cei:notariusDesc/>
+              </cei:auth>
+              <cei:nota/>
+              <cei:rubrum/>
+            </cei:witness>
+          </cei:witListPar>
+          <cei:diplomaticAnalysis>
+            <cei:listBibl>
+              <cei:bibl key="zotero:WUKKIRRT">Piekosiński, Codex diplomaticus Poloniae Minoris 1,
+                1876, Nr. CCXXIII. (<cei:ref target="http://zotero.org/groups/257864/items/WUKKIRRT"
+                  >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl key="zotero:CX47D7XG">Delehaye, 44, 1926, S. 342–379, 45 (1927), S. 97–123,
+                323–344, und 46 (1928), S. 149–157, 287–343, bes. Bd. 45, S. 339. (<cei:ref
+                  target="http://zotero.org/groups/257864/items/CX47D7XG">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl key="zotero:TCGETHQS">Miodónska, Małopolskie malarstwo książkowe1993, 119f.
+                und Abb. 48f. (<cei:ref target="http://zotero.org/groups/257864/items/TCGETHQS"
+                  >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl key="zotero:BH99RHAK">Roland, Zajic, Illuminierte Urkunden, 2013, S. 333,
+                  online:<cei:ref
+                  target="http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf"
+                  >
+                  http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf</cei:ref>
+                  (<cei:ref target="http://zotero.org/groups/257864/items/BH99RHAK">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+            </cei:listBibl>
+            <cei:listBiblRegest>
+              <cei:bibl/>
+            </cei:listBiblRegest>
+            <cei:listBiblFaksimile>
+              <cei:bibl/>
+            </cei:listBiblFaksimile>
+            <cei:listBiblErw>
+              <cei:bibl/>
+            </cei:listBiblErw>
+            <cei:p>Kommentar:</cei:p>
+            <cei:p>Arenga (Incipit): <cei:quote type="italic">Splendor paterne glorie ...
+                .</cei:quote></cei:p>
+            <cei:p>Die Anzahl der bischöflichen Bestätigungen dieses Ablasses ist bemerkenswert,
+              ziehen sich diese doch bis in die Mitte des 15. Jahrhunderts. Neben den Bestätigungen
+              durch den lokalen Bischof von Krakau findet sich einmal auch eine Konfirmation durch
+              den Bischof von Lebus. Besonderes Interesse verdient der Text zur Bestätigung der
+              Indulgenz vom 30. Dezember 1399, da hier sogar der Impetrator derselben – der Rektor
+              der Fronleichnamskirche in Krakau, Johannes – genannt wird.</cei:p>
+            <cei:p>Von Formular und Diktat her orientiert sich die Urkunde weitgehend an anderen,
+              zeitlich naheliegenden Indulgenzen für Bruderschaften, zum Beispiel der <cei:ref
+                target="http://monasterium.net/mom/IlluminierteUrkunden/1345-10-18_Imola/charter"
+                >Società dei Devoti della Beata Vergine Maria di Imola</cei:ref> (18. Oktober 1345)
+              oder der <cei:ref
+                target="http://monasterium.net/mom/IlluminierteUrkunden/1345-11-28_Udine/charter"
+                >Società der Flagellanten von Cividale</cei:ref> (28. November 1345), erweitert
+              gegen Ende hin jedoch die gängigen Formen: Die allgemeine Ablassgelegenheit des Gebets
+              für die Bruderschaftsmitglieder, die sich so auch in anderen Indulgenzen für
+              Bruderschaften findet, wird durch die namentliche Nennung zahlreicher Mitglieder der
+              Krakauer Fronleichnsamsbruderschaft ergänzt.</cei:p>
+            <cei:p>Markus Gneiss</cei:p>
+            <cei:quoteOriginaldatierung/>
+            <cei:nota/>
+            <cei:listBiblEdition>
+              <cei:bibl/>
+            </cei:listBiblEdition>
+          </cei:diplomaticAnalysis>
+          <cei:lang_MOM/>
+        </cei:chDesc>
+        <cei:tenor/>
+      </cei:body>
+      <cei:back>
+        <cei:persName/>
+        <cei:placeName type="Region">Frankreich (Kurie)</cei:placeName>
+        <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1: historisiert</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="Borders">N1: Randdekor</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: Mit zusätzlichen
+          Farben</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1: gemalt</cei:index>
+        <cei:divNotes>
+          <cei:note/>
+        </cei:divNotes>
+        <cei:class/>
+      </cei:back>
+    </cei:text>
+  </atom:content>
+</atom:entry>

@@ -35,13 +35,15 @@
                         <cei:traditioForm>Original</cei:traditioForm>
                         <cei:figure/>
                         <cei:archIdentifier>
-                            <cei:arch>Brüssel (Bruxelles)</cei:arch>
+                            <cei:settlement>Brüssel (Bruxelles)</cei:settlement>
                             <cei:arch>Algmeen Rijksarchief</cei:arch>
                             <cei:archFond>Kerkelijke Archieven</cei:archFond>
                             <cei:idno>13722bis</cei:idno>
-                            <cei:altIdentifier>(nach Delehaye: <cei:arch>Bibliothèque
-                                    Royale</cei:arch><cei:idno>Ms. II,
-                                2807</cei:idno>)</cei:altIdentifier>
+                            <cei:altIdentifier>
+                                <cei:note>nach Delehaye</cei:note> 
+                                <cei:arch>Bibliothèque Royale</cei:arch>
+                                <cei:idno>Ms. II, 2807</cei:idno>
+                            </cei:altIdentifier>
                         </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>

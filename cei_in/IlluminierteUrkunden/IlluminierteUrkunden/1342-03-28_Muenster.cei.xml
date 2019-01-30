@@ -43,12 +43,16 @@
                         <cei:figure>
                             <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1342-03-28_LA-Muenster_det2.jpg"/>
                         </cei:figure>
-                        <cei:archIdentifier><cei:settlement>Münster</cei:settlement><cei:arch>Nordrhein-Westfälisches
-                                Staatsarchiv</cei:arch><cei:archFond>Urkundenselekt</cei:archFond><cei:idno>Ablassbrief
-                                11</cei:idno>
-                            <cei:altIdentifier type="old">Studienfonds Archiv Münster,
-                                    Gymnasium<cei:idno>Urk. Nr.
-                            5</cei:idno></cei:altIdentifier>)</cei:archIdentifier>
+                        <cei:archIdentifier>
+                            <cei:settlement>Münster</cei:settlement>
+                            <cei:arch>Nordrhein-Westfälisches Staatsarchiv</cei:arch>
+                            <cei:archFond>Urkundenselekt</cei:archFond>
+                            <cei:idno>Ablassbrief 11</cei:idno>
+                            <cei:altIdentifier type="old">
+                                <cei:archFond>Studienfonds Archiv Münster, Gymnasium</cei:archFond>
+                                <cei:idno>Urk. Nr. 5</cei:idno>
+                            </cei:altIdentifier>
+                        </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>
                                 <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma="HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</cei:index>:

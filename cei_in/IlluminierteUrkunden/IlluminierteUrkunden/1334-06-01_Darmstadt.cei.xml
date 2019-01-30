@@ -60,7 +60,7 @@
                                     <cei:altIdentifier><cei:settlement>Heidelberg</cei:settlement>
                                 <cei:arch>Universitätsbibliothek</cei:arch>
                                 <cei:archFond>Urkunden, Sammlung Lehmann</cei:archFond>
-                                <cei:idno>Urk. 630</cei:idno> (Initiale).</cei:altIdentifier>
+                                <cei:idno>Urk. 630</cei:idno><cei:note>(Initiale).</cei:note></cei:altIdentifier>
                         </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>
