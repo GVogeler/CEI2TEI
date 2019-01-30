@@ -341,7 +341,7 @@
         <bibl>
             <xsl:if test="@key != ''">
                 <xsl:variable name="key" select="@key"/>
-                <ref target="zotero:{$key}"/>
+                <ref target="{$key}"/>
             </xsl:if>
             <xsl:apply-templates/>
         </bibl>
