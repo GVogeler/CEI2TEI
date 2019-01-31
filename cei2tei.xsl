@@ -129,7 +129,7 @@
                                 </idno>, created on <date when="{$atom_published}"><xsl:value-of select="format-dateTime($atom_published, '[Y]-[M]-[D]')"/></date> and last updated on <date when="{$atom_updated}"><xsl:value-of select="format-dateTime($atom_updated, '[Y]-[M]-[D]')"/></date>.
                         </bibl>
                         <xsl:for-each
-                            select="//cei:sourceDesc | cei:sourceDescRegest | cei:sourceDescVolltext | cei:sourceDescErw">
+                            select="//cei:sourceDesc | cei:sourceDescRegest | cei:sourceDescVolltext | cei:sourceDescErw"> <!-- Nested bbibl elements in SourceDescRegest -->
                             <xsl:apply-templates select="cei:bibl"/>
                         </xsl:for-each>
                         <listWit>
