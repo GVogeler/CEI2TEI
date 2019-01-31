@@ -24,7 +24,8 @@
             <cei:body>
                 <cei:idno id="1481-05-07_Bruessel">1481-05-07_Bruessel</cei:idno>
                 <cei:chDesc>
-                    <cei:abstract><cei:index indexName="Illurk-Urkundenart">Kardinalsammelindulgenz</cei:index> für Kollegiatkirche St. Peter in
+                    <cei:abstract><cei:index indexName="Illurk-Urkundenart"
+                            >Kardinalsammelindulgenz</cei:index> für Kollegiatkirche St. Peter in
                         Löwen. </cei:abstract>
                     <cei:issued>
                         <cei:placeName/>
@@ -33,7 +34,11 @@
                     <cei:witnessOrig>
                         <cei:traditioForm>Original</cei:traditioForm>
                         <cei:figure/>
-                        <cei:archIdentifier><cei:settlement>Brüssel (Bruxelles)</cei:settlement><cei:arch>Archives générales du Royaume</cei:arch><cei:arch>Algmeen Rijksarchief</cei:arch></cei:archIdentifier>
+                        <cei:archIdentifier>
+                            <cei:settlement>Brüssel (Bruxelles)</cei:settlement>
+                            <cei:arch>Algmeen Rijksarchief (Archives générales du Royaume)</cei:arch>
+                            <cei:idno></cei:idno>
+                        </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>
                                 <cei:p>Im Binnenfeld die hl. Dorothea</cei:p>
@@ -67,7 +72,9 @@
                     </cei:witListPar>
                     <cei:diplomaticAnalysis>
                         <cei:listBibl>
-                            <cei:bibl key="zotero:CX47D7XG">Delehaye, 44, 1926, S. 377 (<cei:ref target="http://zotero.org/groups/257864/items/CX47D7XG">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:CX47D7XG">Delehaye, 44, 1926, S. 377 (<cei:ref
+                                    target="http://zotero.org/groups/257864/items/CX47D7XG"
+                                    >Volltitel auf Zotero</cei:ref>)</cei:bibl>
                         </cei:listBibl>
                         <cei:listBiblRegest>
                             <cei:bibl/>

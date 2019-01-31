@@ -39,9 +39,7 @@
                                 Brevi, 44,</cei:archFond><cei:idno>
                             perg.10</cei:idno></cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material/>
                             <cei:dimensions/>
                             <cei:condition/>

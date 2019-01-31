@@ -45,7 +45,7 @@
                                 Westfalen</cei:arch>
                             <cei:archFond>Urkundenselekt, </cei:archFond>
                             <cei:idno>Urk. Nr. 47</cei:idno>
-                            <cei:altIdentifier type="old"><cei:arch>Busdorfstift</cei:arch></cei:altIdentifier>
+                            <cei:altIdentifier type="old"><cei:arch>Busdorfstift</cei:arch><cei:idno></cei:idno></cei:altIdentifier>
                         </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>

@@ -87,9 +87,7 @@
                         <cei:figure/>
                         <cei:archIdentifier><cei:settlement>Innsbruck</cei:settlement><cei:arch>Tiroler Landesarchiv</cei:arch><cei:archFond>Adelssachen</cei:archFond></cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material>Pergament</cei:material>
                             <cei:dimensions/>
                             <cei:condition/>

@@ -1,1 +1,226 @@
-<atom:entry xmlns:atom="http://www.w3.org/2005/Atom"><atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1337-11-15_Berlin</atom:id><atom:title/><atom:published>2018-10-25T06:51:55.661Z</atom:published><atom:updated>2018-10-25T06:51:55.661Z</atom:updated><atom:author><atom:email>illuminierteurkunden@gmail.com</atom:email></atom:author><app:control xmlns:app="http://www.w3.org/2007/app"><app:draft>no</app:draft></app:control><atom:content type="application/xml"><cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id=""><cei:front><cei:sourceDesc><cei:sourceDescVolltext><cei:bibl/></cei:sourceDescVolltext><cei:sourceDescRegest><cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl></cei:sourceDescRegest></cei:sourceDesc></cei:front><cei:body><cei:idno id="1337-11-15_Berlin">1337-11-15_Berlin</cei:idno><cei:chDesc><cei:abstract>Das Land der Litauer (<cei:quote>terram Lythwinorum</cei:quote>)  wird als freies Eigen (<cei:quote>donamus</cei:quote>  [...]  <cei:quote>iure proprio</cei:quote>)  an  den  Hochmeister  des  Deutschen  Ordens  geschenkt. Mit der Übergabe bestätigte Ludwig dem Empfänger zudem die zuvor von Herzog Heinrich XIV. von Niederbayern gewährte Berechtigung, die Hauptburg  des Ordenslandes „Bayern“ zu nennen, das bayerische Wappen zu führen, mit diesem Wappen auf den Fahnen die erste Stelle in einem Heereszug  gegen die Litauer einzunehmen, sowie das Recht, ein etwaiges zu errichtendes Erzbistum mit dem Namen „Bayern“ zu versehen (<cei:quote>Cui quidem castro principali idem noster patruelis dilectus nomen at insignia armorum  et vexilli terrae Bawarie que Beyern dicitur appropriavit, ita quod insignia sui vexilli ea debent honoris et dignitatis prerogativa pollere, ut pre omnibus vexillis aliis in expeditionibus contra Lythwinos sint anteriora in agressu et ultima in recessu  [...]  que quidem ecclesia et  archyepiscopatus Beyern appelabitur in eternum</cei:quote>).<cei:lb/><cei:index n="Autorensigle">Andreas Zajic</cei:index></cei:abstract><cei:issued><cei:placeName>München</cei:placeName><cei:dateRange from="13371115" to="13371115">1337-11-15</cei:dateRange></cei:issued><cei:witnessOrig><cei:traditioForm>Original</cei:traditioForm><cei:figure/><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1337-11-15_080_gesamt_Belehnung-mit-Litauen_Schieblade-20-Nr-29.jpg"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1337-11-15_LdB-fuer-OT.jpg"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1337-11-15_ludwig-fuer-dt-orden_Kunstmuseen.jpg"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1337-11-15_ludwig-fuer-dt-orden__.jpg"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1337-11-15_ludwig-fuer-dt-orden__.jpg"/></cei:figure><cei:archIdentifier><cei:settlement>Berlin</cei:settlement>, <cei:arch>Geheimes Staatsarchiv Preußischer Kulturbesitz</cei:arch>, <cei:archFond>Staatsarchiv Königsberg</cei:archFond>, <cei:idno>Schieblade 20, Nr. 29</cei:idno> (Prunkausfertigung für den Hochmeister)</cei:archIdentifier><cei:physicalDesc><cei:decoDesc><cei:p n="Ekphrasis">Figureninitiale in Tintenfarbe.</cei:p><cei:p n="Ekphrasis">Dargestellt sind in der Figureninitiale der Kaiser stehend vor dem Schaft des „L“ und ein kniender Vertreter des Deutschen Ordens, der einen Wimpel mit bayerischen Rauten hält.</cei:p><cei:p n="Ekphrasis">Der Textanschluss (L)udowicus vor gerahmtem kreuzschraffiertem Grund mit ausgesparten stark vergrösserten Minuskeln (Textualis). Die Buchstaben mittig von einem ebenfalls ausgespartem Band (in Viepässen angeordnet) zusammengehalten. Das Q von quartus als vergrösserte Fleuronnée-initiale. Weitere Buchstaben der ersten Zeile cadellenartig in die Höhe gezogen.</cei:p><cei:p n="Ekphrasis">Monogramm.</cei:p><cei:p n="Ekphrasis">Signumzeile in stark vergrösserter Textualis. </cei:p><cei:p n="Stil und Einordnung">Die Initiale L(udowicus) und die Zierschriften der ersten Zeile mit brauner Tinte, wie der Urkundentext. Dies erweist die Identität von Mundator und Zeichner, dem Notar Leonhard von München. </cei:p><cei:p n="Stil und Einordnung">Die Farbigkeit beschränkt sich auf den braunen Tintenton, trotzdem handelt es sich um höchst subtil mit dem Pinsel ausgeführte Malerei, die die Federzeichnung mit fein abgestuften Tonwerten modelliert. </cei:p><cei:p n="Stil und Einordnung">Ob diese reduzierte Farbigkeit nur die Vorbehalte widerspiegelt, die es bei der Verwendung von Farben bei der Ausfertigung von Urkunden auch ausserhalb der päpstlichen Kanzleien gab (vgl. die ersten französischen Königsurkunden mit [noch einfachem] historisierten Dekor von <cei:ref target="http://www.monasterium.net/mom/IlluminierteUrkunden/1332-03-99_Paris/charter">1332 März</cei:ref>), oder ob sich dahinter nicht auch ein ästhetisches Wollen verbirgt, was aufgrund der hohen Qualität durchaus realistisch erscheint, muss derzeit noch unentschieden bleiben.</cei:p><cei:p n="Stil und Einordnung">Das Stück für den deutschen Orden stellt die zweite szenisch historisierte Urkunde der Reichskanzlei dar (zur ersten siehe <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1332-08-25_Dortmund/charter">1332 August 25</cei:ref>; mit weiteren Angaben).</cei:p><cei:p n="Autorensigle">Martin Roland</cei:p></cei:decoDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:notariusDesc/><cei:sealDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witnessOrig><cei:witListPar><cei:witness><cei:traditioForm/><cei:figure/><cei:archIdentifier/><cei:physicalDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:sealDesc/><cei:notariusDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witness></cei:witListPar><cei:diplomaticAnalysis><cei:listBibl><cei:bibl key="zotero:MHT6QDT4">Wattenbach, Schriftwesen, 1896, S. 383: online: <cei:ref target="https://archive.org/stream/dasschriftweseni00wattuoft#page/383/mode/1up">https://archive.org/stream/dasschriftweseni00wattuoft#page/383/mode/1up</cei:ref>. (<cei:ref target="http://zotero.org/groups/257864/items/MHT6QDT4">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl key="zotero:96AUUWQ2">Arndt, Tangl, Schrifttafeln, Tafel 94 und Text S. 53: online: <cei:ref target="http://digital.ub.uni-duesseldorf.de/ihd/content/pageview/4364392">http://digital.ub.uni-duesseldorf.de/ihd/content/pageview/4364392</cei:ref> bzw. <cei:ref target="http://digital.ub.uni-duesseldorf.de/ihd/content/pageview/4364327">http://digital.ub.uni-duesseldorf.de/ihd/content/pageview/4364327</cei:ref>.  (<cei:ref target="http://zotero.org/groups/257864/items/96AUUWQ2">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl key="zotero:UB4Z44TT">Werminghoff, Urkunden, 1914, S. 21f. (<cei:ref target="http://zotero.org/groups/257864/items/UB4Z44TT">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl key="zotero:EF9JPEBV">Acht, Prunkurkunden, 1980, S. 401. (<cei:ref target="http://zotero.org/groups/257864/items/EF9JPEBV">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl key="zotero:4NINWXZP">Wrede, Leonhard von München, 1980, S. 59f., 68, 119–121 (Nr. 10). (<cei:ref target="http://zotero.org/groups/257864/items/4NINWXZP">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl key="zotero:4B5U7UN2">Zajic, Roland, Dürnstein, 2005, S. 401: online: <cei:ref target="http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf">http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf</cei:ref> (<cei:ref target="http://zotero.org/groups/257864/items/4B5U7UN2">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl key="zotero:BH99RHAK">Roland, Zajic, Illuminierte Urkunden, 2013, S. 394: online: <cei:ref target="S. 394: online"/><cei:ref target="http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf">http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf</cei:ref> (<cei:ref target="http://zotero.org/groups/257864/items/BH99RHAK">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl key="zotero:SBSTNWM2">Roland, Wappen und Urkunden, 2015, S. 101–103.  (<cei:ref target="http://zotero.org/groups/257864/items/SBSTNWM2">Volltitel auf Zotero</cei:ref>)</cei:bibl></cei:listBibl><cei:listBiblRegest><cei:bibl/></cei:listBiblRegest><cei:listBiblFaksimile><cei:bibl/></cei:listBiblFaksimile><cei:listBiblErw><cei:bibl/></cei:listBiblErw><cei:p>Die Datierung (wie hier angegeben) beinhaltet die Korrektur von <cei:quote type="italic">xvii non. decembris </cei:quote>zu dem 17. Tag vor den Kalenden (vgl. z. B. Wrede, S. 119).</cei:p><cei:p>Ludwig vergibt hier das Territorium des noch nicht christianisierten Großfürstentums Litauen, das weder ihm noch dem Reich je gehörte. Der Kaiser hatte also keine finanziellen Belastungen zu schultern. Die Urkunde ist Teil eines langanhaltenden Konflikts, der 1336 zur kurzfristigen Eroberung eines Gebietes führte, das durch die Errichtung der besagten Burg (der genaue Standort ist umstritten) gesichert werden sollte. </cei:p><cei:p>Andreas Zajic</cei:p><cei:quoteOriginaldatierung/><cei:nota/><cei:listBiblEdition><cei:bibl/></cei:listBiblEdition></cei:diplomaticAnalysis><cei:lang_MOM/></cei:chDesc><cei:tenor/></cei:body><cei:back><cei:persName/><cei:placeName type="Region">HRR (Deutschland)</cei:placeName><cei:index indexName="illurk-vocabulary" lemma="Historiated">N1: historisiert</cei:index><cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index><cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1: gemalt</cei:index><cei:index indexName="illurk-vocabulary" lemma="Display-Script-calligraphic-with-decorative-character">N2: Zierschrift</cei:index><cei:index indexName="illurk-vocabulary" lemma="Monogram">N3: Monogramm</cei:index><cei:divNotes><cei:note/></cei:divNotes><cei:class/></cei:back></cei:text></atom:content></atom:entry>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+  <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1337-11-15_Berlin</atom:id>
+  <atom:title/>
+  <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+  <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+  <atom:author>
+    <atom:email>illuminierteurkunden@gmail.com</atom:email>
+  </atom:author>
+  <app:control xmlns:app="http://www.w3.org/2007/app">
+    <app:draft>no</app:draft>
+  </app:control>
+  <atom:content type="application/xml">
+    <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+      <cei:front>
+        <cei:sourceDesc>
+          <cei:sourceDescVolltext>
+            <cei:bibl/>
+          </cei:sourceDescVolltext>
+          <cei:sourceDescRegest>
+            <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+          </cei:sourceDescRegest>
+        </cei:sourceDesc>
+      </cei:front>
+      <cei:body>
+        <cei:idno id="1337-11-15_Berlin">1337-11-15_Berlin</cei:idno>
+        <cei:chDesc>
+          <cei:abstract>Das Land der Litauer (<cei:quote>terram Lythwinorum</cei:quote>) wird als
+            freies Eigen (<cei:quote>donamus</cei:quote> [...] <cei:quote>iure proprio</cei:quote>)
+            an den Hochmeister des Deutschen Ordens geschenkt. Mit der Übergabe bestätigte Ludwig
+            dem Empfänger zudem die zuvor von Herzog Heinrich XIV. von Niederbayern gewährte
+            Berechtigung, die Hauptburg des Ordenslandes „Bayern“ zu nennen, das bayerische Wappen
+            zu führen, mit diesem Wappen auf den Fahnen die erste Stelle in einem Heereszug gegen
+            die Litauer einzunehmen, sowie das Recht, ein etwaiges zu errichtendes Erzbistum mit dem
+            Namen „Bayern“ zu versehen (<cei:quote>Cui quidem castro principali idem noster
+              patruelis dilectus nomen at insignia armorum et vexilli terrae Bawarie que Beyern
+              dicitur appropriavit, ita quod insignia sui vexilli ea debent honoris et dignitatis
+              prerogativa pollere, ut pre omnibus vexillis aliis in expeditionibus contra Lythwinos
+              sint anteriora in agressu et ultima in recessu [...] que quidem ecclesia et
+              archyepiscopatus Beyern appelabitur in eternum</cei:quote>).<cei:lb/><cei:index
+              n="Autorensigle">Andreas Zajic</cei:index></cei:abstract>
+          <cei:issued>
+            <cei:placeName>München</cei:placeName>
+            <cei:dateRange from="13371115" to="13371115">1337-11-15</cei:dateRange>
+          </cei:issued>
+          <cei:witnessOrig>
+            <cei:traditioForm>Original</cei:traditioForm>
+            <cei:figure/>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-11-15_080_gesamt_Belehnung-mit-Litauen_Schieblade-20-Nr-29.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-11-15_LdB-fuer-OT.jpg"/>
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-11-15_ludwig-fuer-dt-orden_Kunstmuseen.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-11-15_ludwig-fuer-dt-orden__.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-11-15_ludwig-fuer-dt-orden__.jpg"
+              />
+            </cei:figure>
+            <cei:archIdentifier><cei:settlement>Berlin</cei:settlement>, <cei:arch>Geheimes
+                Staatsarchiv Preußischer Kulturbesitz</cei:arch>, <cei:archFond>Staatsarchiv
+                Königsberg</cei:archFond>, <cei:idno>Schieblade 20, Nr. 29</cei:idno>
+              (Prunkausfertigung für den Hochmeister)</cei:archIdentifier>
+            <cei:physicalDesc>
+              <cei:decoDesc>
+                <cei:p n="Ekphrasis">Figureninitiale in Tintenfarbe.</cei:p>
+                <cei:p n="Ekphrasis">Dargestellt sind in der Figureninitiale der Kaiser stehend vor
+                  dem Schaft des „L“ und ein kniender Vertreter des Deutschen Ordens, der einen
+                  Wimpel mit bayerischen Rauten hält.</cei:p>
+                <cei:p n="Ekphrasis">Der Textanschluss (L)udowicus vor gerahmtem kreuzschraffiertem
+                  Grund mit ausgesparten stark vergrösserten Minuskeln (Textualis). Die Buchstaben
+                  mittig von einem ebenfalls ausgespartem Band (in Viepässen angeordnet)
+                  zusammengehalten. Das Q von quartus als vergrösserte Fleuronnée-initiale. Weitere
+                  Buchstaben der ersten Zeile cadellenartig in die Höhe gezogen.</cei:p>
+                <cei:p n="Ekphrasis">Monogramm.</cei:p>
+                <cei:p n="Ekphrasis">Signumzeile in stark vergrösserter Textualis. </cei:p>
+                <cei:p n="Stil und Einordnung">Die Initiale L(udowicus) und die Zierschriften der
+                  ersten Zeile mit brauner Tinte, wie der Urkundentext. Dies erweist die Identität
+                  von Mundator und Zeichner, dem Notar Leonhard von München. </cei:p>
+                <cei:p n="Stil und Einordnung">Die Farbigkeit beschränkt sich auf den braunen
+                  Tintenton, trotzdem handelt es sich um höchst subtil mit dem Pinsel ausgeführte
+                  Malerei, die die Federzeichnung mit fein abgestuften Tonwerten modelliert. </cei:p>
+                <cei:p n="Stil und Einordnung">Ob diese reduzierte Farbigkeit nur die Vorbehalte
+                  widerspiegelt, die es bei der Verwendung von Farben bei der Ausfertigung von
+                  Urkunden auch ausserhalb der päpstlichen Kanzleien gab (vgl. die ersten
+                  französischen Königsurkunden mit [noch einfachem] historisierten Dekor von
+                    <cei:ref
+                    target="http://www.monasterium.net/mom/IlluminierteUrkunden/1332-03-99_Paris/charter"
+                    >1332 März</cei:ref>), oder ob sich dahinter nicht auch ein ästhetisches Wollen
+                  verbirgt, was aufgrund der hohen Qualität durchaus realistisch erscheint, muss
+                  derzeit noch unentschieden bleiben.</cei:p>
+                <cei:p n="Stil und Einordnung">Das Stück für den deutschen Orden stellt die zweite
+                  szenisch historisierte Urkunde der Reichskanzlei dar (zur ersten siehe <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1332-08-25_Dortmund/charter"
+                    >1332 August 25</cei:ref>; mit weiteren Angaben).</cei:p>
+                <cei:p n="Autorensigle">Martin Roland</cei:p>
+              </cei:decoDesc>
+              <cei:material/>
+              <cei:dimensions/>
+              <cei:condition/>
+            </cei:physicalDesc>
+            <cei:auth>
+              <cei:notariusDesc/>
+              <cei:sealDesc/>
+            </cei:auth>
+            <cei:nota/>
+            <cei:rubrum/>
+          </cei:witnessOrig>
+          <cei:witListPar>
+            <cei:witness>
+              <cei:traditioForm/>
+              <cei:figure/>
+              <cei:archIdentifier/>
+              <cei:physicalDesc>
+                <cei:material/>
+                <cei:dimensions/>
+                <cei:condition/>
+              </cei:physicalDesc>
+              <cei:auth>
+                <cei:sealDesc/>
+                <cei:notariusDesc/>
+              </cei:auth>
+              <cei:nota/>
+              <cei:rubrum/>
+            </cei:witness>
+          </cei:witListPar>
+          <cei:diplomaticAnalysis>
+            <cei:listBibl>
+              <cei:bibl key="zotero:MHT6QDT4">Wattenbach, Schriftwesen, 1896, S. 383: online:
+                  <cei:ref
+                  target="https://archive.org/stream/dasschriftweseni00wattuoft#page/383/mode/1up"
+                  >https://archive.org/stream/dasschriftweseni00wattuoft#page/383/mode/1up</cei:ref>.
+                  (<cei:ref target="http://zotero.org/groups/257864/items/MHT6QDT4">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl key="zotero:96AUUWQ2">Arndt, Tangl, Schrifttafeln, Tafel 94 und Text S. 53:
+                online: <cei:ref
+                  target="http://digital.ub.uni-duesseldorf.de/ihd/content/pageview/4364392"
+                  >http://digital.ub.uni-duesseldorf.de/ihd/content/pageview/4364392</cei:ref> bzw.
+                  <cei:ref
+                  target="http://digital.ub.uni-duesseldorf.de/ihd/content/pageview/4364327"
+                  >http://digital.ub.uni-duesseldorf.de/ihd/content/pageview/4364327</cei:ref>.
+                  (<cei:ref target="http://zotero.org/groups/257864/items/96AUUWQ2">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl key="zotero:UB4Z44TT">Werminghoff, Urkunden, 1914, S. 21f. (<cei:ref
+                  target="http://zotero.org/groups/257864/items/UB4Z44TT">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl key="zotero:EF9JPEBV">Acht, Prunkurkunden, 1980, S. 401. (<cei:ref
+                  target="http://zotero.org/groups/257864/items/EF9JPEBV">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl key="zotero:4NINWXZP">Wrede, Leonhard von München, 1980, S. 59f., 68,
+                119–121 (Nr. 10). (<cei:ref target="http://zotero.org/groups/257864/items/4NINWXZP"
+                  >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl key="zotero:4B5U7UN2">Zajic, Roland, Dürnstein, 2005, S. 401: online:
+                  <cei:ref
+                  target="http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf"
+                  >http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf</cei:ref>
+                  (<cei:ref target="http://zotero.org/groups/257864/items/4B5U7UN2">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl key="zotero:BH99RHAK">Roland, Zajic, Illuminierte Urkunden, 2013, S. 394:
+                online: <cei:ref target="http://zotero.org/groups/257864/items/BH99RHAK"/><cei:ref
+                  target="http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf"
+                  >http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf</cei:ref>
+                  (<cei:ref target="http://zotero.org/groups/257864/items/BH99RHAK">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl key="zotero:SBSTNWM2">Roland, Wappen und Urkunden, 2015, S. 101–103.
+                  (<cei:ref target="http://zotero.org/groups/257864/items/SBSTNWM2">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+            </cei:listBibl>
+            <cei:listBiblRegest>
+              <cei:bibl/>
+            </cei:listBiblRegest>
+            <cei:listBiblFaksimile>
+              <cei:bibl/>
+            </cei:listBiblFaksimile>
+            <cei:listBiblErw>
+              <cei:bibl/>
+            </cei:listBiblErw>
+            <cei:p>Die Datierung (wie hier angegeben) beinhaltet die Korrektur von <cei:quote
+                type="italic">xvii non. decembris </cei:quote>zu dem 17. Tag vor den Kalenden (vgl.
+              z. B. Wrede, S. 119).</cei:p>
+            <cei:p>Ludwig vergibt hier das Territorium des noch nicht christianisierten
+              Großfürstentums Litauen, das weder ihm noch dem Reich je gehörte. Der Kaiser hatte
+              also keine finanziellen Belastungen zu schultern. Die Urkunde ist Teil eines
+              langanhaltenden Konflikts, der 1336 zur kurzfristigen Eroberung eines Gebietes führte,
+              das durch die Errichtung der besagten Burg (der genaue Standort ist umstritten)
+              gesichert werden sollte. </cei:p>
+            <cei:p>Andreas Zajic</cei:p>
+            <cei:quoteOriginaldatierung/>
+            <cei:nota/>
+            <cei:listBiblEdition>
+              <cei:bibl/>
+            </cei:listBiblEdition>
+          </cei:diplomaticAnalysis>
+          <cei:lang_MOM/>
+        </cei:chDesc>
+        <cei:tenor/>
+      </cei:body>
+      <cei:back>
+        <cei:persName/>
+        <cei:placeName type="Region">HRR (Deutschland)</cei:placeName>
+        <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1: historisiert</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1: gemalt</cei:index>
+        <cei:index indexName="illurk-vocabulary"
+          lemma="Display-Script-calligraphic-with-decorative-character">N2: Zierschrift</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="Monogram">N3: Monogramm</cei:index>
+        <cei:divNotes>
+          <cei:note/>
+        </cei:divNotes>
+        <cei:class/>
+      </cei:back>
+    </cei:text>
+  </atom:content>
+</atom:entry>

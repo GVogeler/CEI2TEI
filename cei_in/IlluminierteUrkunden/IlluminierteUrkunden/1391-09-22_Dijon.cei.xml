@@ -73,8 +73,8 @@
                             Hablot steht, eine weitere Abschrift];
                                 <cei:altIdentifier><cei:settlement>Dijon</cei:settlement><cei:arch>Archives
                                 départementales de la Côte-d'Or</cei:arch><cei:idno>B
-                                11470</cei:idno>(Notariatsinstrument bzw. Abschrift davon, 1. H. 16.
-                            Jh.)</cei:altIdentifier></cei:archIdentifier>
+                                11470</cei:idno><cei:note>(Notariatsinstrument bzw. Abschrift davon, 1. H. 16.
+                            Jh.)</cei:note></cei:altIdentifier></cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>
                                 <cei:p n="Ekphrasis">Ausfertigung auf Pergament, mit tintenfarbig

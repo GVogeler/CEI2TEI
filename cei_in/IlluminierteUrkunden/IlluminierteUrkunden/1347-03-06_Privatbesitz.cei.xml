@@ -44,10 +44,10 @@
               <cei:settlement>Privatbesitz</cei:settlement> 
               <cei:idno></cei:idno>
               <cei:altIdentifier>
+                <cei:settlement>Luzern</cei:settlement>
+              <cei:arch>Gilhofer und Ranschburg</cei:arch>
+                <cei:idno>Juni 1932, Nr. 635</cei:idno>
                 <cei:note>Auktion</cei:note>
-              <cei:arch>Gilhofer und Ranschburg</cei:arch>,
-                <cei:settlement>Luzern</cei:settlement>, 
-              <cei:idno>Juni 1932, Nr. 635</cei:idno>
               </cei:altIdentifier>
             </cei:archIdentifier>
             <cei:physicalDesc>

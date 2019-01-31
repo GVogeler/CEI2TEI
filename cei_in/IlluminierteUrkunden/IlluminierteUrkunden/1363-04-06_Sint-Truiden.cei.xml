@@ -164,9 +164,10 @@
               <cei:arch>Provinciaal Museum voor religieuze Kunst</cei:arch>
               <cei:idno>Inv. KPL/sd/251</cei:idno>
               <cei:altIdentifier>
-                <cei:note>Depositum des</cei:note>
-                <cei:arch>Stedelijk Museum</cei:arch>
                 <cei:settlement>Hasselt</cei:settlement>
+                <cei:arch>Stedelijk Museum</cei:arch>
+                <cei:idno></cei:idno>
+                <cei:note>Depositum des</cei:note>
               </cei:altIdentifier>
             </cei:archIdentifier>
             <cei:physicalDesc>
@@ -331,7 +332,7 @@
               <cei:bibl key="zotero:7AE326BH">Kempkens, Gebrauch, 2012, S. 372 mit Abb. 68, Kat.-Nr.
                 177. (<cei:ref target="http://zotero.org/groups/257864/items/7AE326BH">Volltitel auf
                   Zotero</cei:ref>)</cei:bibl>
-              <cei:bibl key="zotero: BH99RHAK">Roland, Zajic, Illuminierte Urkunden, 2013, S. 336f.
+              <cei:bibl key="zotero:BH99RHAK">Roland, Zajic, Illuminierte Urkunden, 2013, S. 336f.
                 und Abb. 17, online: <cei:ref
                   target="http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf"
                   >http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf</cei:ref>

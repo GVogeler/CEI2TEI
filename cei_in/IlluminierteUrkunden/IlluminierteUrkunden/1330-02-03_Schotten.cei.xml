@@ -110,10 +110,13 @@
                         <cei:archIdentifier>
                             <cei:settlement>Schotten</cei:settlement>
                             <cei:arch>Ev. Kirchengemeinde.</cei:arch>
-                            <cei:altIdentifier>Aufbewahrt in:
-                                    <cei:settlement>Darmstadt</cei:settlement>
-                                <cei:arch>Zentralarchiv der Ev. Kirche von Hessen und
-                                    Nassau</cei:arch></cei:altIdentifier>
+                            <cei:idno></cei:idno>
+                            <cei:altIdentifier>
+                                <cei:settlement>Darmstadt</cei:settlement>
+                                <cei:arch>Zentralarchiv der Ev. Kirche von Hessen und Nassau</cei:arch>
+                                <cei:idno></cei:idno>
+                                <cei:note>Aufbewahrt in:</cei:note>
+                            </cei:altIdentifier>
                         </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>

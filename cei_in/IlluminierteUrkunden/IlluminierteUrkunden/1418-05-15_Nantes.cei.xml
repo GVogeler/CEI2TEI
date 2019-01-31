@@ -45,9 +45,7 @@
                                 Loire-Atlantique</cei:arch><cei:idno>E
                             33-8</cei:idno></cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material/>
                             <cei:dimensions/>
                             <cei:condition/>

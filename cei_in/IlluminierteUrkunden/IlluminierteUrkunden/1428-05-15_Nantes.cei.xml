@@ -40,9 +40,7 @@
                         <cei:archIdentifier><cei:settlement>Nantes</cei:settlement><cei:arch>Archives départementales de Loire-Atlantique</cei:arch><cei:idno>E
                             38-8</cei:idno></cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material/>
                             <cei:dimensions/>
                             <cei:condition/>

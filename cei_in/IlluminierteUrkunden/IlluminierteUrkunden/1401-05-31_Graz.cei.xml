@@ -38,9 +38,7 @@
                         </cei:figure>
                         <cei:archIdentifier><cei:settlement>Graz</cei:settlement><cei:arch>Diözesanarchiv Graz Seckau</cei:arch><cei:archFond>Bistumsurkunden</cei:archFond><cei:idno>I-22</cei:idno></cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material/>
                             <cei:dimensions/>
                             <cei:condition/>

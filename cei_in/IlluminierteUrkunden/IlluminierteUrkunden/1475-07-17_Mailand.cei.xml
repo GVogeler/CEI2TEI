@@ -41,9 +41,7 @@
                         <cei:figure/>
                         <cei:archIdentifier><cei:settlement>Mailand, </cei:settlement><cei:arch>Archivio di Stato di Milano, </cei:arch><cei:archFond> Bolle e Brevi, </cei:archFond><cei:idno>scat.43, doc.14</cei:idno></cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material/>
                             <cei:dimensions/>
                             <cei:condition/>

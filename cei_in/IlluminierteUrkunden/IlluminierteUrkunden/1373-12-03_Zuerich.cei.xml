@@ -1,1 +1,177 @@
-<atom:entry xmlns:atom="http://www.w3.org/2005/Atom"><atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1373-12-03_Zuerich</atom:id><atom:title/><atom:published>2018-10-25T06:51:55.661Z</atom:published><atom:updated>2018-10-25T06:51:55.661Z</atom:updated><atom:author><atom:email>illuminierteurkunden@gmail.com</atom:email></atom:author><app:control xmlns:app="http://www.w3.org/2007/app"><app:draft>no</app:draft></app:control><atom:content type="application/xml"><cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id=""><cei:front><cei:sourceDesc><cei:sourceDescVolltext><cei:bibl/></cei:sourceDescVolltext><cei:sourceDescRegest><cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl></cei:sourceDescRegest></cei:sourceDesc></cei:front><cei:body><cei:idno id="1373-12-03_Zuerich">1373-12-03_Zuerich</cei:idno><cei:chDesc><cei:abstract>Zweiter geschworener Brief der Stadt Zürich, in dem durch Neuordnung der Zunftverfassung die Modalitäten der Ratswahl und somit die Zusammensetzung des zentralen politisches Gremiums der Stadt neu festgelegt wurden.<cei:lb/></cei:abstract><cei:issued><cei:placeName>Zürich</cei:placeName><cei:dateRange from="13731203" to="13731203">1373-12-03</cei:dateRange></cei:issued><cei:witnessOrig><cei:traditioForm>Original</cei:traditioForm><cei:figure/><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1373-12-03_Zuerich-zweiter-geschworener-brief.jpg"/></cei:figure><cei:archIdentifier><cei:settlement>Zürich</cei:settlement><cei:arch>Staatsarchiv</cei:arch><cei:idno>C I, Nr. 536</cei:idno></cei:archIdentifier><cei:physicalDesc><cei:decoDesc><cei:p n="Ekphrasis">Figureninitiale zu Beginn des Textes: Neben dem rot-blau gespaltenen Buchstabenkörper steht eine betont modisch gekleidete, tief dekolletierte gekrönte junge Dame mit offenem Haar und ohne Nimbus auf einem Ornamentpodest.</cei:p><cei:p n="Stil und Einordnung">Die Figur kann nicht schlüssig identifiziert werden. Ihre Darstellung widerspricht unzweifelhaft den ikonographischen Mustern der vorgeschlagenen Figuren: Sie stellt weder die hl. Regula, die Stadtpatronin, dar, noch die Gottesmutter Maria, noch die siegelnde Beatrix von Wolhusen, Äbtissin des Fraumünsters und nominelle Stadtherrin, noch die Personifikation der Justitia. Wie mit dem Befund umzugehen ist, dass zumindest bisher keine sinnstiftende Identifikation möglich ist, muss offen bleiben. Vergleichbare Probleme, Bildbotschaft und Inhalt der Urkunde übereinzustimmen, bieten zwei Urkunden des Bischofs von Basel aus dem Jahr <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1400-07-26_Basel/charter">1400 Juli 26</cei:ref> und <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1400-07-26_Basel/charter?q=basel%201400">1400 Juli 26</cei:ref>.</cei:p><cei:p n="Stil und Einordnung">Die Kleidung der dargestellten Dame ist auch für heutige Verhältnisse durchaus aufreizend. Das schulterfreie und trägerlose Gewand gibt den Blick auf die Wölbung praller Brüste frei, die der Maler offenbar ganz bewusst plastisch modelliert. In der zeitgenössischen Buchmalerei sind solche Figuren als Chiffre für das Erotische der Frau durchaus üblich. Sehr ähnlich bekleidet ist etwa die Tochter Jeptes in einer 1365 datierten Weltchronik (<cei:ref target="http://digital.blb-karlsruhe.de/blbhs/content/titleinfo/114092">Karlsruhe, ehem. Donaueschingen, Ms. 79</cei:ref>, <cei:ref target="http://digital.blb-karlsruhe.de/blbhs/content/pageview/120557">fol. 107r</cei:ref>: Rudolf von Ems, Weltchronik: Gegend um Heidelberg), der erotische Esprit fehlt aber, wie auch der extrem körperbetonten Figur auf <cei:ref target="http://daten.digitale-sammlungen.de/bsb00079954/image_342">fol. 168v</cei:ref> in einer gleichzeitigen bayerischen Weltchronikhandschrift (<cei:ref target="http://daten.digitale-sammlungen.de/bsb00079954/image_1">München, Bayerische Staatsbibliothek, Cgm 5</cei:ref>: Weltchronikkompilation, 1360er Jahre). Was diese, weibliche Sexualität darstellende Figur hier verkörpert, muss derzeit, wie gesagt, offen bleiben. Verwiesen sei jedoch auf eine Basler Urkunde von <cei:ref target="http://monasterium.net/mom/IlluminierteUrkundenCimelia/1400-07-26_Liestal/charter">1400 Juli 26</cei:ref>, die Adam mit erigiertem Penis zeigt und bei der ebenfalls eine schlüssige erklärung für diese Darstellungsweise fehlt.</cei:p><cei:p n="Autorensigle">Martin Roland</cei:p></cei:decoDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:notariusDesc/><cei:sealDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witnessOrig><cei:witListPar><cei:witness><cei:traditioForm/><cei:figure/><cei:archIdentifier/><cei:physicalDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:sealDesc/><cei:notariusDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witness></cei:witListPar><cei:diplomaticAnalysis><cei:listBibl><cei:bibl key="zotero:WRZXW8ZM">Quellen zur Zürcher Zunftgeschichte, Band 1: 13. Jahrhundert bis 1604 (Zürich 1936) S. 8–25 Nr. 34. (<cei:ref target="http://zotero.org/groups/257864/items/WRZXW8ZM">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl key="zotero:6VXXAF86">Sigg, Zunftrevolution, 2000, passim. (<cei:ref target="http://zotero.org/groups/257864/items/6VXXAF86">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl key="zotero:4B5U7UN2">Zajic, Roland, Dürnstein, 2005, S. 408. Online: <cei:ref target="http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf">http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf</cei:ref> (<cei:ref target="http://zotero.org/groups/257864/items/4B5U7UN2">Volltitel auf Zotero</cei:ref>)</cei:bibl><cei:bibl>Roland, Zajic, Illuminierte Urkunden, 2013, S. 403. Online: <cei:ref target="Roland, Zajic, Illuminierte Urkunden, 2013, S. 403: online: http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf">http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf</cei:ref></cei:bibl><cei:bibl><cei:ref target="http://de.wikipedia.org/wiki/Brunsche_Zunftverfassung">http://de.wikipedia.org/wiki/Brunsche_Zunftverfassung</cei:ref></cei:bibl></cei:listBibl><cei:listBiblRegest><cei:bibl/></cei:listBiblRegest><cei:listBiblFaksimile><cei:bibl/></cei:listBiblFaksimile><cei:listBiblErw><cei:bibl/></cei:listBiblErw><cei:p/><cei:quoteOriginaldatierung/><cei:nota/><cei:listBiblEdition><cei:bibl/></cei:listBiblEdition></cei:diplomaticAnalysis><cei:lang_MOM/></cei:chDesc><cei:tenor/></cei:body><cei:back><cei:persName/><cei:placeName type="Region">HRR (Schweiz)</cei:placeName><cei:index indexName="illurk-vocabulary" lemma="Historiated">N1: historisiert</cei:index><cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: mit zusätzlichen Farben</cei:index><cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index><cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1: gemalt</cei:index><cei:divNotes><cei:note/></cei:divNotes><cei:class/></cei:back></cei:text></atom:content></atom:entry>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+  <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1373-12-03_Zuerich</atom:id>
+  <atom:title/>
+  <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+  <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+  <atom:author>
+    <atom:email>illuminierteurkunden@gmail.com</atom:email>
+  </atom:author>
+  <app:control xmlns:app="http://www.w3.org/2007/app">
+    <app:draft>no</app:draft>
+  </app:control>
+  <atom:content type="application/xml">
+    <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+      <cei:front>
+        <cei:sourceDesc>
+          <cei:sourceDescVolltext>
+            <cei:bibl/>
+          </cei:sourceDescVolltext>
+          <cei:sourceDescRegest>
+            <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+          </cei:sourceDescRegest>
+        </cei:sourceDesc>
+      </cei:front>
+      <cei:body>
+        <cei:idno id="1373-12-03_Zuerich">1373-12-03_Zuerich</cei:idno>
+        <cei:chDesc>
+          <cei:abstract>Zweiter geschworener Brief der Stadt Zürich, in dem durch Neuordnung der
+            Zunftverfassung die Modalitäten der Ratswahl und somit die Zusammensetzung des zentralen
+            politisches Gremiums der Stadt neu festgelegt wurden.<cei:lb/></cei:abstract>
+          <cei:issued>
+            <cei:placeName>Zürich</cei:placeName>
+            <cei:dateRange from="13731203" to="13731203">1373-12-03</cei:dateRange>
+          </cei:issued>
+          <cei:witnessOrig>
+            <cei:traditioForm>Original</cei:traditioForm>
+            <cei:figure/>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1373-12-03_Zuerich-zweiter-geschworener-brief.jpg"
+              />
+            </cei:figure>
+            <cei:archIdentifier>
+              <cei:settlement>Zürich</cei:settlement>
+              <cei:arch>Staatsarchiv</cei:arch>
+              <cei:idno>C I, Nr. 536</cei:idno>
+            </cei:archIdentifier>
+            <cei:physicalDesc>
+              <cei:decoDesc>
+                <cei:p n="Ekphrasis">Figureninitiale zu Beginn des Textes: Neben dem rot-blau
+                  gespaltenen Buchstabenkörper steht eine betont modisch gekleidete, tief
+                  dekolletierte gekrönte junge Dame mit offenem Haar und ohne Nimbus auf einem
+                  Ornamentpodest.</cei:p>
+                <cei:p n="Stil und Einordnung">Die Figur kann nicht schlüssig identifiziert werden.
+                  Ihre Darstellung widerspricht unzweifelhaft den ikonographischen Mustern der
+                  vorgeschlagenen Figuren: Sie stellt weder die hl. Regula, die Stadtpatronin, dar,
+                  noch die Gottesmutter Maria, noch die siegelnde Beatrix von Wolhusen, Äbtissin des
+                  Fraumünsters und nominelle Stadtherrin, noch die Personifikation der Justitia. Wie
+                  mit dem Befund umzugehen ist, dass zumindest bisher keine sinnstiftende
+                  Identifikation möglich ist, muss offen bleiben. Vergleichbare Probleme,
+                  Bildbotschaft und Inhalt der Urkunde übereinzustimmen, bieten zwei Urkunden des
+                  Bischofs von Basel aus dem Jahr <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1400-07-26_Basel/charter"
+                    >1400 Juli 26</cei:ref> und <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1400-07-26_Basel/charter?q=basel%201400"
+                    >1400 Juli 26</cei:ref>.</cei:p>
+                <cei:p n="Stil und Einordnung">Die Kleidung der dargestellten Dame ist auch für
+                  heutige Verhältnisse durchaus aufreizend. Das schulterfreie und trägerlose Gewand
+                  gibt den Blick auf die Wölbung praller Brüste frei, die der Maler offenbar ganz
+                  bewusst plastisch modelliert. In der zeitgenössischen Buchmalerei sind solche
+                  Figuren als Chiffre für das Erotische der Frau durchaus üblich. Sehr ähnlich
+                  bekleidet ist etwa die Tochter Jeptes in einer 1365 datierten Weltchronik
+                    (<cei:ref
+                    target="http://digital.blb-karlsruhe.de/blbhs/content/titleinfo/114092"
+                    >Karlsruhe, ehem. Donaueschingen, Ms. 79</cei:ref>, <cei:ref
+                    target="http://digital.blb-karlsruhe.de/blbhs/content/pageview/120557">fol.
+                    107r</cei:ref>: Rudolf von Ems, Weltchronik: Gegend um Heidelberg), der
+                  erotische Esprit fehlt aber, wie auch der extrem körperbetonten Figur auf <cei:ref
+                    target="http://daten.digitale-sammlungen.de/bsb00079954/image_342">fol.
+                    168v</cei:ref> in einer gleichzeitigen bayerischen Weltchronikhandschrift
+                    (<cei:ref target="http://daten.digitale-sammlungen.de/bsb00079954/image_1"
+                    >München, Bayerische Staatsbibliothek, Cgm 5</cei:ref>: Weltchronikkompilation,
+                  1360er Jahre). Was diese, weibliche Sexualität darstellende Figur hier verkörpert,
+                  muss derzeit, wie gesagt, offen bleiben. Verwiesen sei jedoch auf eine Basler
+                  Urkunde von <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkundenCimelia/1400-07-26_Liestal/charter"
+                    >1400 Juli 26</cei:ref>, die Adam mit erigiertem Penis zeigt und bei der
+                  ebenfalls eine schlüssige erklärung für diese Darstellungsweise fehlt.</cei:p>
+                <cei:p n="Autorensigle">Martin Roland</cei:p>
+              </cei:decoDesc>
+              <cei:material/>
+              <cei:dimensions/>
+              <cei:condition/>
+            </cei:physicalDesc>
+            <cei:auth>
+              <cei:notariusDesc/>
+              <cei:sealDesc/>
+            </cei:auth>
+            <cei:nota/>
+            <cei:rubrum/>
+          </cei:witnessOrig>
+          <cei:witListPar>
+            <cei:witness>
+              <cei:traditioForm/>
+              <cei:figure/>
+              <cei:archIdentifier/>
+              <cei:physicalDesc>
+                <cei:material/>
+                <cei:dimensions/>
+                <cei:condition/>
+              </cei:physicalDesc>
+              <cei:auth>
+                <cei:sealDesc/>
+                <cei:notariusDesc/>
+              </cei:auth>
+              <cei:nota/>
+              <cei:rubrum/>
+            </cei:witness>
+          </cei:witListPar>
+          <cei:diplomaticAnalysis>
+            <cei:listBibl>
+              <cei:bibl key="zotero:WRZXW8ZM">Quellen zur Zürcher Zunftgeschichte, Band 1: 13.
+                Jahrhundert bis 1604 (Zürich 1936) S. 8–25 Nr. 34. (<cei:ref
+                  target="http://zotero.org/groups/257864/items/WRZXW8ZM">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl key="zotero:6VXXAF86">Sigg, Zunftrevolution, 2000, passim. (<cei:ref
+                  target="http://zotero.org/groups/257864/items/6VXXAF86">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl key="zotero:4B5U7UN2">Zajic, Roland, Dürnstein, 2005, S. 408. Online:
+                  <cei:ref
+                  target="http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf"
+                  >http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf</cei:ref>
+                  (<cei:ref target="http://zotero.org/groups/257864/items/4B5U7UN2">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl>Roland, Zajic, Illuminierte Urkunden, 2013, S. 403. Online: <cei:ref
+                  target="http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf"
+                  >http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf</cei:ref></cei:bibl>
+              <cei:bibl>
+                <cei:ref target="http://de.wikipedia.org/wiki/Brunsche_Zunftverfassung"
+                  >http://de.wikipedia.org/wiki/Brunsche_Zunftverfassung</cei:ref>
+              </cei:bibl>
+            </cei:listBibl>
+            <cei:listBiblRegest>
+              <cei:bibl/>
+            </cei:listBiblRegest>
+            <cei:listBiblFaksimile>
+              <cei:bibl/>
+            </cei:listBiblFaksimile>
+            <cei:listBiblErw>
+              <cei:bibl/>
+            </cei:listBiblErw>
+            <cei:p/>
+            <cei:quoteOriginaldatierung/>
+            <cei:nota/>
+            <cei:listBiblEdition>
+              <cei:bibl/>
+            </cei:listBiblEdition>
+          </cei:diplomaticAnalysis>
+          <cei:lang_MOM/>
+        </cei:chDesc>
+        <cei:tenor/>
+      </cei:body>
+      <cei:back>
+        <cei:persName/>
+        <cei:placeName type="Region">HRR (Schweiz)</cei:placeName>
+        <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1: historisiert</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: mit zusätzlichen
+          Farben</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1: gemalt</cei:index>
+        <cei:divNotes>
+          <cei:note/>
+        </cei:divNotes>
+        <cei:class/>
+      </cei:back>
+    </cei:text>
+  </atom:content>
+</atom:entry>

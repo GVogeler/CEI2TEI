@@ -40,23 +40,35 @@
                     <cei:witnessOrig>
                         <cei:traditioForm>Original</cei:traditioForm>
                         <cei:figure>
-                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1177-99-99_Pontoise.jpg"/>
+                            <cei:graphic
+                                url="http://images.monasterium.net/illum/IllUrk/1177-99-99_Pontoise.jpg"
+                            />
                         </cei:figure>
                         <cei:figure>
-                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1177-99-99_Pontoise_Arch-nat_dafanch06_s200036n00001_2.jpg"/>
+                            <cei:graphic
+                                url="http://images.monasterium.net/illum/IllUrk/1177-99-99_Pontoise_Arch-nat_dafanch06_s200036n00001_2.jpg"
+                            />
                         </cei:figure>
                         <cei:figure>
-                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1177-99-99_Pontoise_Rekonstruktion.jpg"/>
+                            <cei:graphic
+                                url="http://images.monasterium.net/illum/IllUrk/1177-99-99_Pontoise_Rekonstruktion.jpg"
+                            />
                         </cei:figure>
-                        <cei:archIdentifier><cei:settlement>Paris</cei:settlement>
-                            <cei:arch>Archives nationales</cei:arch><cei:idno> AE/II/181</cei:idno>
-                            <cei:idno>J/168/2</cei:idno>
-                            <cei:altIdentifier type="old"><cei:settlement>Paris</cei:settlement>
+                        <cei:archIdentifier>
+                            <cei:settlement>Paris</cei:settlement>
                             <cei:arch>Archives nationales</cei:arch>
-                                <cei:idno>J/168/2</cei:idno></cei:altIdentifier>
-                                    <cei:altIdentifier><cei:settlement>Pontoise</cei:settlement><cei:arch>Archives
-                                    départementales du Val-d’Oise</cei:arch><cei:idno>9 H
-                                    81</cei:idno></cei:altIdentifier></cei:archIdentifier>
+                            <cei:idno> AE/II/181</cei:idno>
+                            <cei:altIdentifier type="old">
+                                <cei:settlement>Paris</cei:settlement>
+                                <cei:arch>Archives nationales</cei:arch>
+                                <cei:idno>J/168/2</cei:idno>
+                            </cei:altIdentifier>
+                        </cei:archIdentifier>
+                        <cei:archIdentifier>
+                            <cei:settlement>Pontoise</cei:settlement>
+                            <cei:arch>Archives départementales du Val-d’Oise</cei:arch>
+                            <cei:idno>9 H 81</cei:idno>
+                        </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>
                                 <cei:p n="Ekphrasis">An der Teilungslinie des Chirographen eine
@@ -101,13 +113,23 @@
                     <cei:diplomaticAnalysis>
                         <cei:listBibl>
                             <cei:bibl key="zotero:DTR8TZNK">Bureau, Couper le corps du Christ en
-                                deux, 2001/02, S. 153 f. (<cei:ref target="http://zotero.org/groups/257864/items/DTR8TZNK">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                deux, 2001/02, S. 153 f. (<cei:ref
+                                    target="http://zotero.org/groups/257864/items/DTR8TZNK"
+                                    >Volltitel auf Zotero</cei:ref>)</cei:bibl>
                             <cei:bibl key="zotero:4B5U7UN2">Zajic, Roland, Dürnstein, 2005, S. 396.
-                                Online unter <cei:ref target="http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf">http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf</cei:ref>
-                                    (<cei:ref target="http://zotero.org/groups/257864/items/4B5U7UN2">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                Online unter <cei:ref
+                                    target="http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf"
+                                    >http://www.univie.ac.at/paecht-archiv-wien/dateien/Zajic_Roland-2005.pdf</cei:ref>
+                                    (<cei:ref
+                                    target="http://zotero.org/groups/257864/items/4B5U7UN2"
+                                    >Volltitel auf Zotero</cei:ref>)</cei:bibl>
                             <cei:bibl>Bedos-Rezak, Cutting Edge, 2010, S. 134–161 (mit Abbildung
-                                beider Teile). (<cei:ref target="http://zotero.org/groups/257864/items/ZREZ8SHW">Volltitel auf Zotero</cei:ref>)</cei:bibl>
-                            <cei:bibl><cei:ref target="http://www.culture.gouv.fr/public/mistral/caran_fr">http://www.culture.gouv.fr/public/mistral/caran_fr</cei:ref>:
+                                beider Teile). (<cei:ref
+                                    target="http://zotero.org/groups/257864/items/ZREZ8SHW"
+                                    >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl><cei:ref
+                                    target="http://www.culture.gouv.fr/public/mistral/caran_fr"
+                                    >http://www.culture.gouv.fr/public/mistral/caran_fr</cei:ref>:
                                 Suchbegriff "AE/II/181" unter "Texte libre" oder "Cote".</cei:bibl>
                         </cei:listBibl>
                         <cei:listBiblRegest>

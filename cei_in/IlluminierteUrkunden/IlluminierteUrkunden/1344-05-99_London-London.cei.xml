@@ -41,8 +41,8 @@
                             <cei:arch>British Library</cei:arch>
                             <cei:idno>Add. Ch. 76.773</cei:idno> 
                             <cei:altIdentifier type="old">
-                                <cei:institution>Privatbesitz</cei:institution>
                                 <cei:settlement>London</cei:settlement>
+                                <cei:institution>Privatbesitz</cei:institution>
                                 <cei:arch>D. J. A. Ross</cei:arch>
                                 <cei:idno/> 
                                 <cei:note>ehem (1963)</cei:note>

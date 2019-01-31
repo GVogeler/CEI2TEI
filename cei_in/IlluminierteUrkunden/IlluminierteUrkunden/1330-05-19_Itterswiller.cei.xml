@@ -118,15 +118,20 @@
                             /></cei:figure><cei:figure><cei:graphic
                                 url="http://images.monasterium.net/illum/IllUrk/1330-05-19_Itterswiller-detail-.jpg"
                             /></cei:figure>
-                                <cei:archIdentifier>
-                                    <cei:altIdentifier><cei:settlement>Itterswiller</cei:settlement><cei:idno></cei:idno>
+                        <cei:archIdentifier>
+                            <cei:altIdentifier>
+                                <cei:settlement>Itterswiller</cei:settlement>
                                 <cei:arch>Pfarrarchiv</cei:arch>
-                                    </cei:altIdentifier><!--(aufbewahrt in:-->
-                                <cei:settlement>Strassburg</cei:settlement>, <cei:arch>Archives
-                                départementales du Bas-Rhin</cei:arch>, <cei:archFond>Itterswiller,
-                                </cei:archFond><cei:idno>2 G 226,1</cei:idno>)
-                                    </cei:archIdentifier><cei:physicalDesc><cei:decoDesc><cei:p
-                                    n="Ekphrasis"><cei:index indexName="IllUrkGlossar"
+                                <cei:idno/>
+                            </cei:altIdentifier>
+                            <cei:note>aufbewahrt in:</cei:note>
+                            <cei:settlement>Strassburg</cei:settlement>
+                            <cei:arch>Archives départementales du Bas-Rhin</cei:arch>
+                            <cei:archFond>Itterswiller</cei:archFond>
+                            <cei:idno>2 G 226,1</cei:idno>
+                        </cei:archIdentifier>
+                        <cei:physicalDesc><cei:decoDesc><cei:p n="Ekphrasis"><cei:index
+                                        indexName="IllUrkGlossar"
                                         lemma="HistorisierteAvignonerBischofsammelindulgenz"
                                         >Historisierte Avignoner Bischofsammelindulgenz</cei:index>:
                                     Historisierte Initiale U(niversis) zu Textbeginn, die drei

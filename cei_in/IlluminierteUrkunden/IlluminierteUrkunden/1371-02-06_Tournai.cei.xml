@@ -32,8 +32,14 @@
                     <cei:witnessOrig>
                         <cei:traditioForm>Original</cei:traditioForm>
                         <cei:figure/>
-                        <cei:archIdentifier><cei:altIdentifier><cei:settlement>Tournai</cei:settlement>
-                                <cei:arch>Archive de la ville</cei:arch><cei:idno/>(ehem.)</cei:altIdentifier></cei:archIdentifier>
+                        <cei:archIdentifier>
+                            <cei:altIdentifier>
+                                <cei:settlement>Tournai</cei:settlement>
+                                <cei:arch>Archive de la ville</cei:arch>
+                                <cei:idno/>
+                                <cei:note>(ehem.)</cei:note>
+                            </cei:altIdentifier>
+                        </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>
                                 <cei:p n="Ekphrasis">In den Binnenfeldern der ersten beiden

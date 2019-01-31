@@ -92,9 +92,7 @@
                         <cei:archIdentifier><cei:settlement>Klagenfurt</cei:settlement><cei:arch>Kärntner Landesarchiv</cei:arch><cei:archFond>Allgemeine
                             Urkundenreihe</cei:archFond><cei:idno>418-B-C 2813 St.</cei:idno></cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material>Papier</cei:material>
                             <cei:dimensions/>
                             <cei:condition/>

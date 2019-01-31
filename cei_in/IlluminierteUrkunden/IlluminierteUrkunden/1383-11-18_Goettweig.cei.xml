@@ -41,9 +41,7 @@
                         </cei:figure>
                         <cei:archIdentifier><cei:settlement>Göttweig</cei:settlement><cei:arch>Stiftsarchiv</cei:arch><cei:idno>sub dato (1383 November 18) (Datum irrig)</cei:idno></cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material/>
                             <cei:dimensions/>
                             <cei:condition/>

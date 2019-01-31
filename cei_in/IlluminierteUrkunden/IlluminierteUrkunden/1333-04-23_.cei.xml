@@ -39,10 +39,10 @@
                             <cei:arch>Algmeen Rijksarchief</cei:arch>
                             <cei:archFond>Kerkelijke Archieven</cei:archFond>
                             <cei:idno>13722bis</cei:idno>
-                            <cei:altIdentifier>
-                                <cei:note>nach Delehaye</cei:note> 
+                            <cei:altIdentifier> 
                                 <cei:arch>Bibliothèque Royale</cei:arch>
                                 <cei:idno>Ms. II, 2807</cei:idno>
+                                <cei:note>nach Delehaye</cei:note>
                             </cei:altIdentifier>
                         </cei:archIdentifier>
                         <cei:physicalDesc>

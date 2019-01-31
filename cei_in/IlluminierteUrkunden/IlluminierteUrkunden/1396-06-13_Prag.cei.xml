@@ -45,9 +45,7 @@
                         <cei:archIdentifier><cei:settlement>Prag</cei:settlement><cei:arch>Národní archiv</cei:arch><cei:archFond>Archivy českých klášterů zrušených za Josefa
                                 II.</cei:archFond><cei:idno>925</cei:idno></cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material/>
                             <cei:dimensions/>
                             <cei:condition/>

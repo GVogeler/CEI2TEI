@@ -35,24 +35,36 @@
                     <cei:witnessOrig>
                         <cei:traditioForm>Original</cei:traditioForm>
                         <cei:figure>
-                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1482-10-17_Pius-II-Ablass-fuer-ND-Reims-Druck-Du-Pre-Paris---.jpg"/>
+                            <cei:graphic
+                                url="http://images.monasterium.net/illum/IllUrk/1482-10-17_Pius-II-Ablass-fuer-ND-Reims-Druck-Du-Pre-Paris---.jpg"
+                            />
                         </cei:figure>
                         <cei:figure>
-                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1482-10-17_Pius-II-Ablass-fuer-ND-Reims-Druck-Du-Pre-Paris---.png"/>
+                            <cei:graphic
+                                url="http://images.monasterium.net/illum/IllUrk/1482-10-17_Pius-II-Ablass-fuer-ND-Reims-Druck-Du-Pre-Paris---.png"
+                            />
                         </cei:figure>
                         <cei:figure>
-                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1482-10-17_Pius-II-Ablass-fuer-ND-Reims-Druck-Du-Pre-Paris.jpg"/>
+                            <cei:graphic
+                                url="http://images.monasterium.net/illum/IllUrk/1482-10-17_Pius-II-Ablass-fuer-ND-Reims-Druck-Du-Pre-Paris.jpg"
+                            />
                         </cei:figure>
-                        <cei:archIdentifier><cei:settlement>Reims</cei:settlement>
-                            <cei:arch>Bibliothèque municipale</cei:arch>Ink. 195 (nach Claudin, GW,
-                            ISTC) und Ink.
-                                    2.<cei:altIdentifier><cei:settlement>Paris</cei:settlement>
-                                <cei:arch>Bibliothèque nationale de France</cei:arch> (nach
-                                Fournier).</cei:altIdentifier>
+                        <cei:archIdentifier>
+                            <cei:settlement>Reims</cei:settlement>
+                            <cei:arch>Bibliothèque municipale</cei:arch>
+                            <cei:idno>Ink. 195</cei:idno> <cei:note>(nach Claudin, GW,
+                            ISTC)</cei:note>
+                            <cei:altIdentifier>
+                                <cei:settlement>Paris</cei:settlement>
+                                <cei:arch>Bibliothèque nationale de France</cei:arch> 
+                                <cei:note>Ink. 2.</cei:note>
+                                <cei:note>(nach Fournier)</cei:note>
+                            </cei:altIdentifier>
                         </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>
-                                <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma="Druck">Einblattdruck</cei:index>: Typendruck;
+                                <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar"
+                                        lemma="Druck">Einblattdruck</cei:index>: Typendruck;
                                     oberhalb des Textes ein einfach gerahmter Holzschnitt mit
                                     thronender Madonna mit Kind (links), zentral mit gekreuzten
                                     päpstlichen Schlüsseln überhöht von einer Tiara und rechts mit
@@ -73,7 +85,9 @@
                                     zugeschrieben.</cei:p>
                                 <cei:p n="Stil und Einordnung">Die verwendete Drucktype des Pariser
                                     Druckers Guy Marchant (Type 3:105/106G) ist von 1482 bis 1500
-                                    nachweisbar: <cei:ref target="http://tw.staatsbibliothek-berlin.de/ma00808">http://tw.staatsbibliothek-berlin.de/ma00808</cei:ref>. Das
+                                    nachweisbar: <cei:ref
+                                        target="http://tw.staatsbibliothek-berlin.de/ma00808"
+                                        >http://tw.staatsbibliothek-berlin.de/ma00808</cei:ref>. Das
                                     hier behandelte Stück (1482) datiert deutlich vor der ab 1488
                                     nachweisbaren Verwendung der Type. Daraus ergibt sich
                                     beträchtliche Unsicherheit in Bezug auf den Entstehungszeitpunkt
@@ -82,7 +96,9 @@
                                     Verwendung des Stückes dar. Einerseits ist es eine klassische
                                     Ablassverkündigung, also genau genommen keine Urkunde
                                     (vergleiche etwa das ebenfalls mit Holzschnitten versehene Stück
-                                    für die Pariser Rochusbruderschaft; <cei:ref target="http://www.monasterium.net/mom/IlluminierteUrkunden/1496-08-11_Braunschweig-Braunschweig/charter">nach 1496 August 11</cei:ref>), andererseits wird die
+                                    für die Pariser Rochusbruderschaft; <cei:ref
+                                        target="http://www.monasterium.net/mom/IlluminierteUrkunden/1496-08-11_Braunschweig-Braunschweig/charter"
+                                        >nach 1496 August 11</cei:ref>), andererseits wird die
                                     Unterschrift von Notaren und eine Besiegelung mit dem Siegel des
                                     Reimser Kapitels angekündigt. Dieser letzte Absatz ist aber
                                     insoferne problematisch, als zwar von einem Vidimus gesprochen
@@ -121,25 +137,48 @@
                     <cei:diplomaticAnalysis>
                         <cei:listBibl>
                             <cei:bibl key="zotero:XR5QMAZT">Claudin, Imprimerie en France, 1915, Bd.
-                                1, S. 220–222 (mit Tafel). (<cei:ref target="http://zotero.org/groups/257864/items/XR5QMAZT">Volltitel auf Zotero</cei:ref>)</cei:bibl>
-                            <cei:bibl key="zotero:6RB7KV9X">Einblattdrucke, 1914. (<cei:ref target="http://zotero.org/groups/257864/items/6RB7KV9X">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                1, S. 220–222 (mit Tafel). (<cei:ref
+                                    target="http://zotero.org/groups/257864/items/XR5QMAZT"
+                                    >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl key="zotero:6RB7KV9X">Einblattdrucke, 1914. (<cei:ref
+                                    target="http://zotero.org/groups/257864/items/6RB7KV9X"
+                                    >Volltitel auf Zotero</cei:ref>)</cei:bibl>
                             <cei:bibl key="zotero:ZEW8DZZT">Fournier, Affiches, 1923, S. 120
-                                (weitere Beispiele nach 1500). (<cei:ref target="http://zotero.org/groups/257864/items/ZEW8DZZT">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                (weitere Beispiele nach 1500). (<cei:ref
+                                    target="http://zotero.org/groups/257864/items/ZEW8DZZT"
+                                    >Volltitel auf Zotero</cei:ref>)</cei:bibl>
                             <cei:bibl key="zotero:MVN6M2P2">Neveux und Dacier, Richesses, 1932, Band
-                                2, S. 113 und Tafel XXIX. (<cei:ref target="http://zotero.org/groups/257864/items/MVN6M2P2">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                2, S. 113 und Tafel XXIX. (<cei:ref
+                                    target="http://zotero.org/groups/257864/items/MVN6M2P2"
+                                    >Volltitel auf Zotero</cei:ref>)</cei:bibl>
                             <cei:bibl>Trésors de la Bibliothèque Municipale de Reims, 1978, Nr. 66.
-                                    <cei:ref target="http://zotero.org/groups/257864/items/XWIS74QS">(Volltitel auf Zotero)</cei:ref></cei:bibl>
+                                    <cei:ref target="http://zotero.org/groups/257864/items/XWIS74QS"
+                                    >(Volltitel auf Zotero)</cei:ref></cei:bibl>
                             <cei:bibl key="zotero:Q3Z5KM7P">Arnoult, Bibliothèques de la région
-                                Champagne-Ardenne, 1979, S. 848. (<cei:ref target="http://zotero.org/groups/257864/items/Q3Z5KM7P">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                Champagne-Ardenne, 1979, S. 848. (<cei:ref
+                                    target="http://zotero.org/groups/257864/items/Q3Z5KM7P"
+                                    >Volltitel auf Zotero</cei:ref>)</cei:bibl>
                             <cei:bibl>VE15, Bd. 1, S. 42, Negativliste Nr. 68: da in Frankreich
-                                gedruckt. (<cei:ref target="http://zotero.org/groups/257864/items/API2PXH9">Volltitel auf Zotero</cei:ref>)</cei:bibl>
-                            <cei:bibl>Paris, capitale des livres, 2007, S. 74. <cei:ref target="http://zotero.org/groups/257864/items/Q4GFK53A">(Volltitel auf Zotero)</cei:ref></cei:bibl>
-                            <cei:bibl>Roland, Masse und Individualität, 2018, S. 304. (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/N5YAUX3B/">Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                                gedruckt. (<cei:ref
+                                    target="http://zotero.org/groups/257864/items/API2PXH9"
+                                    >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+                            <cei:bibl>Paris, capitale des livres, 2007, S. 74. <cei:ref
+                                    target="http://zotero.org/groups/257864/items/Q4GFK53A"
+                                    >(Volltitel auf Zotero)</cei:ref></cei:bibl>
+                            <cei:bibl>Roland, Masse und Individualität, 2018, S. 304. (<cei:ref
+                                    target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/N5YAUX3B/"
+                                    >Volltitel auf Zotero</cei:ref>)</cei:bibl>
                             <cei:bibl/>
-                            <cei:bibl>Gesamtkatalog der Wiegendrucke: <cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW00107.htm">http://www.gesamtkatalogderwiegendrucke.de/docs/GW00107.htm</cei:ref></cei:bibl>
-                            <cei:bibl>Incunabula Short Title Catalogue (ISTC): <cei:ref target="http://istc.bl.uk/search/record.html?istc=ii00064045">http://istc.bl.uk/search/record.html?istc=ii00064045</cei:ref></cei:bibl>
+                            <cei:bibl>Gesamtkatalog der Wiegendrucke: <cei:ref
+                                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW00107.htm"
+                                    >http://www.gesamtkatalogderwiegendrucke.de/docs/GW00107.htm</cei:ref></cei:bibl>
+                            <cei:bibl>Incunabula Short Title Catalogue (ISTC): <cei:ref
+                                    target="http://istc.bl.uk/search/record.html?istc=ii00064045"
+                                    >http://istc.bl.uk/search/record.html?istc=ii00064045</cei:ref></cei:bibl>
                             <cei:bibl>
-                                <cei:ref target="http://www.bm-reims.fr/Exploitation/Infodoc/digitalcollections/viewerpopup.aspx?seid=B514546101_INC_0195">http://www.bm-reims.fr/Exploitation/Infodoc/digitalcollections/viewerpopup.aspx?seid=B514546101_INC_0195</cei:ref>
+                                <cei:ref
+                                    target="http://www.bm-reims.fr/Exploitation/Infodoc/digitalcollections/viewerpopup.aspx?seid=B514546101_INC_0195"
+                                    >http://www.bm-reims.fr/Exploitation/Infodoc/digitalcollections/viewerpopup.aspx?seid=B514546101_INC_0195</cei:ref>
                             </cei:bibl>
                         </cei:listBibl>
                         <cei:listBiblRegest>
@@ -177,7 +216,8 @@
                 <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1:
                     historisiert</cei:index>
                 <cei:index indexName="illurk-vocabulary" lemma="CoatsOfArms">N1: Wappen</cei:index>
-                <cei:index indexName="illurk-vocabulary" lemma="Display-Script-calligraphic-with-decorative-character">N2: Zierschrift
+                <cei:index indexName="illurk-vocabulary"
+                    lemma="Display-Script-calligraphic-with-decorative-character">N2: Zierschrift
                     (Auszeichnungsschrift)</cei:index>
                 <cei:index indexName="IllUrkGlossar" lemma="Druck">Druck</cei:index>
                 <cei:index indexName="illurk-vocabulary" lemma="Miniatures"/>

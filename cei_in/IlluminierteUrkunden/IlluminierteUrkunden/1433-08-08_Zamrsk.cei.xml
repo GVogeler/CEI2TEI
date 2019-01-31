@@ -39,9 +39,7 @@
                         </cei:figure>
                         <cei:archIdentifier><cei:settlement>Zwittau (Zámrsk)</cei:settlement><cei:arch>Státní oblastní archiv</cei:arch><cei:archFond>RA Šliků</cei:archFond><cei:idno>Inv. Nr. 208, Sign. IV.5, Kart. 22</cei:idno></cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material/>
                             <cei:dimensions/>
                             <cei:condition/>

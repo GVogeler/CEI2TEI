@@ -80,9 +80,12 @@
                             <cei:settlement>Arnstorf</cei:settlement>
                             <cei:arch>Pfarrarchiv</cei:arch>
                             <cei:idno>Urk. 1</cei:idno>
-                            <cei:altIdentifier>(aufbewahrt in:
-                                    <cei:settlement>Passau</cei:settlement>
-                                    <cei:arch>Diözesanarchiv</cei:arch>)</cei:altIdentifier>
+                            <cei:note>aufbewahrt in Passau.</cei:note>
+                            <cei:altIdentifier>
+                                <cei:settlement>Passau</cei:settlement>
+                                <cei:arch>Diözesanarchiv</cei:arch>
+                                <cei:idno></cei:idno>
+                            </cei:altIdentifier>
                         </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>

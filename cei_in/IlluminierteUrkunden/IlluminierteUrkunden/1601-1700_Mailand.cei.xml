@@ -37,13 +37,23 @@
                     <cei:witnessOrig>
                         <cei:traditioForm>Original</cei:traditioForm>
                         <cei:figure>
-                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1428-07-06_Mailand_Filippo%20Maria%20Visconti-Torelli%20contea%20Montechiarugolo-a.JPG"/>
+                            <cei:graphic
+                                url="http://images.monasterium.net/illum/IllUrk/1428-07-06_Mailand_Filippo%20Maria%20Visconti-Torelli%20contea%20Montechiarugolo-a.JPG"
+                            />
                         </cei:figure>
-                        <cei:archIdentifier><cei:settlement>Mailand</cei:settlement><cei:arch>Archivio di Stato</cei:arch><cei:archFond>Archivio
-                                Taverna, Eredità Brasca.Daverio.Torelli,14,
-                                </cei:archFond><cei:idno>sub dato</cei:idno></cei:archIdentifier>
+                        <cei:archIdentifier>
+                            <cei:settlement>Mailand</cei:settlement>
+                            <cei:arch>Archivio di Stato</cei:arch>
+                            <cei:archFond>Archivio Taverna, Eredità Brasca.Daverio.Torelli,14, </cei:archFond>
+                            <cei:idno>sub dato</cei:idno>
+                        </cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc><cei:p>siehe bei: <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1428-07-06/charter">http://monasterium.net/mom/IlluminierteUrkunden/1428-07-06/charter</cei:ref></cei:p>http://monasterium.net/mom/IlluminierteUrkunden/1428-07-06/my-charter</cei:decoDesc>
+                            <cei:decoDesc>
+                                <cei:p>siehe bei: <cei:ref
+                                        target="http://monasterium.net/mom/IlluminierteUrkunden/1428-07-06/charter"
+                                        >http://monasterium.net/mom/IlluminierteUrkunden/1428-07-06/charter</cei:ref>
+                                </cei:p>
+                            </cei:decoDesc>
                             <cei:material/>
                             <cei:dimensions/>
                             <cei:condition/>

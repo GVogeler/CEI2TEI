@@ -38,9 +38,7 @@
                         </cei:figure>
                         <cei:archIdentifier><cei:settlement>Altenburg</cei:settlement><cei:arch>Stiftsarchiv</cei:arch><cei:idno>sub dato "1365 Mai 1"</cei:idno></cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material/>
                             <cei:dimensions/>
                             <cei:condition/>

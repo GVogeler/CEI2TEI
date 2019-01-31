@@ -97,14 +97,15 @@
                         </cei:figure>
                         <cei:archIdentifier>
                             <cei:settlement>Münster</cei:settlement>
-                            <cei:arch>Nordrhein-Westfälisches Staatsarchiv, Abteilung
-                                Westfalen</cei:arch>
-                            <cei:archFond>, Urkundenselekt</cei:archFond>
+                            <cei:arch>Nordrhein-Westfälisches Staatsarchiv, Abteilung Westfalen</cei:arch>
+                            <cei:archFond>Urkundenselekt</cei:archFond>
                             <cei:idno>Ablassbrief 12</cei:idno>
-                            <cei:altIdentifier type="old">1.1.1.2: Stifte und Klöster im Herzogtum
-                                Westfalen, <cei:arch>Kloster Benninghausen</cei:arch>
-                                <cei:archFond>Urkunden</cei:archFond>
-                                <cei:idno>Nr. 178</cei:idno></cei:altIdentifier>
+                            <cei:altIdentifier type="old">
+                                <cei:settlement>Münster</cei:settlement>
+                                <cei:arch>Nordrhein-Westfälisches Staatsarchiv, Abteilung Westfalen</cei:arch>
+                                <cei:archFond>1.1.1.2: Stifte und Klöster im Herzogtum Westfalen Kloster Benninghausen Urkunden</cei:archFond>
+                                <cei:idno>Nr. 178</cei:idno>
+                            </cei:altIdentifier>
                         </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>

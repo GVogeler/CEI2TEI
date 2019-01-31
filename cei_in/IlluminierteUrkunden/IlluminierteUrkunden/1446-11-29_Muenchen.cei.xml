@@ -39,9 +39,7 @@
                         <cei:archIdentifier><cei:settlement>München</cei:settlement><cei:arch>Bayerisches Hauptstaatsarchiv</cei:arch><cei:archFond>
                                 Aldersbach, Urkunden</cei:archFond><cei:idno>Nr. 864</cei:idno></cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material/>
                             <cei:dimensions/>
                             <cei:condition/>

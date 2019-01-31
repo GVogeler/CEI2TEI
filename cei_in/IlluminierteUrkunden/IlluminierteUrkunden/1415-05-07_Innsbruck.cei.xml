@@ -72,9 +72,7 @@
                         <cei:archIdentifier>Innsbruck, Tiroler Landesarchiv, Archiv Vintler, Meraner
                             Linie, Urkunde 7.</cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material/>
                             <cei:dimensions/>
                             <cei:condition/>
