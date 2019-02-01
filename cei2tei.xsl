@@ -164,7 +164,7 @@
                     </abstract>
                     <xsl:apply-templates select="//cei:lang_MOM"/>
                     <textClass>
-                        <!-- have to define a rule for keywords, which don#t have @ as well-->
+                        <!-- have to define a rule for keywords, which don't have @ as well-->
                         <xsl:for-each-group select="//cei:index[. != '']" group-by="@indexName">
                             <xsl:call-template name="keywords"/>
                         </xsl:for-each-group>
@@ -212,16 +212,6 @@
                 </profileDesc>
                 <!-- <revisionDesc>
                 Use revisionDesc only for changes to TEI file. atom:updated is referenced in sourceDesc. Need a way to track changes across imports to this space.
-                       <xsl:if test="//atom:updated">
-                        <list>
-                            <xsl:for-each select="//atom:updated">
-                                <xsl:variable name="date" select="substring-before(., 'T')"/>
-                                <item>
-                                    <date when="{$date}"><xsl:value-of select="."/></date> Last
-                                    checked by CAC</item>
-                            </xsl:for-each>
-                        </list>
-                    </xsl:if>
                 </revisionDesc>-->
             </teiHeader>
             <xsl:if test="//cei:graphic[@url != '']">
