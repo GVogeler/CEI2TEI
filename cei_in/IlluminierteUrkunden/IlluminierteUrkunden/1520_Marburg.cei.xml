@@ -45,10 +45,14 @@
                             <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1520_Adelsdiplom-Valenzia_NY-MetMus.jpg"/>
                         </cei:figure>
                         <cei:archIdentifier><cei:settlement>Marburg</cei:settlement>
-                            <cei:arch>Hessisches Staatsarchiv</cei:arch><cei:archFond>Sammlung 7
-                                (Bilder)</cei:archFond><cei:idno>Nr. d 330</cei:idno> (aus
-                                <cei:archFond>Bestand 3</cei:archFond><cei:idno>Nr. 85, Bl.
-                                38</cei:idno>)</cei:archIdentifier>
+                            <cei:arch>Hessisches Staatsarchiv</cei:arch>
+                            <cei:archFond>Sammlung 7 (Bilder)</cei:archFond>
+                            <cei:idno>Nr. d 330</cei:idno>
+                            <cei:altIdentifier>
+                                <cei:archFond>Bestand 3</cei:archFond>
+                                <cei:idno>Nr. 85, Bl. 38</cei:idno>
+                            </cei:altIdentifier>
+                        </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>
                                 <cei:p n="Ekphrasis">Erhalten ist das Schandbild, das in vier

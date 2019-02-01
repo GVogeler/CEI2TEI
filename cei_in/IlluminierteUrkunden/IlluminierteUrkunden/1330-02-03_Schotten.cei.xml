@@ -108,14 +108,14 @@
                             <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1330-02-03_Michaelskirche_Schotten_Darmstadt_bearb-2.jpg"/>
                         </cei:figure>
                         <cei:archIdentifier>
-                            <cei:settlement>Schotten</cei:settlement>
-                            <cei:arch>Ev. Kirchengemeinde.</cei:arch>
+                            <cei:settlement>Darmstadt</cei:settlement>
+                            <cei:arch>Zentralarchiv der Ev. Kirche von Hessen und Nassau</cei:arch>
                             <cei:idno></cei:idno>
+                            <cei:note>Aufbewahrt in:</cei:note>
                             <cei:altIdentifier>
-                                <cei:settlement>Darmstadt</cei:settlement>
-                                <cei:arch>Zentralarchiv der Ev. Kirche von Hessen und Nassau</cei:arch>
+                                <cei:settlement>Schotten</cei:settlement>
+                                <cei:arch>Ev. Kirchengemeinde.</cei:arch>
                                 <cei:idno></cei:idno>
-                                <cei:note>Aufbewahrt in:</cei:note>
                             </cei:altIdentifier>
                         </cei:archIdentifier>
                         <cei:physicalDesc>

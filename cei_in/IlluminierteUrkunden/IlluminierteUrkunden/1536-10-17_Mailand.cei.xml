@@ -36,9 +36,7 @@
                         <cei:figure/>
                         <cei:archIdentifier><cei:settlement>Mailand,</cei:settlement><cei:arch>Archivio di Stato di Milano</cei:arch><cei:archFond>Archivio Taverna, Parte Antica</cei:archFond><cei:idno>cart.1, n.8</cei:idno></cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material/>
                             <cei:dimensions/>
                             <cei:condition/>
