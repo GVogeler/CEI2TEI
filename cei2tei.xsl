@@ -12,6 +12,8 @@
     </xsl:variable>
     <!-- var fond-imgs integrates urls from monasterium fonds -->
     <xsl:variable name="fond-imgs" select="document('Listeversionofimages.xml')//eintrag[id = $oldid]"/>
+    <!-- Entries in subcollections of illurk extracted from List  -->
+    <xsl:variable name="nebensammlungen" select="document('NebensammlungDatumgeordnet.xml')//neben[id= substring-after($oldid,'/')]"/>
     
     
     <xsl:template match="/">
@@ -174,6 +176,8 @@
                     </abstract>
                     <xsl:apply-templates select="//cei:lang_MOM"/>
                     <textClass>
+                       <!-- <ref target="info:fedora/context:fercan.dedication.votum_solvit_libens_merito" type="context">votum solvit libens merito</ref>-->
+                        
                         <!-- have to define a rule for keywords, which don't have @ as well-->
                         <xsl:for-each-group select="//cei:index[. != '']" group-by="@indexName">                          
                             <xsl:call-template name="keywords"/>
@@ -1026,8 +1030,8 @@
         </p>
     </xsl:template>
     <xsl:template name="keywords">
-        <keywords>
-            <xsl:choose>
+        <keywords>       
+            <xsl:choose>                
                 <xsl:when test="@indexName = 'Illurk-Urkundenart'">
                     <xsl:variable name="urkart">
                         <xsl:choose>
@@ -1059,7 +1063,7 @@
                     </xsl:variable>               
                         <xsl:if test="$urkart != ''">
                             <term>
-                                <ref target="context:{$urkart}" type="context"><xsl:value-of select="."/></ref>
+                                <ref target="context:cord.{$urkart}" type="context"><xsl:value-of select="."/></ref>
                             </term>                            
                         </xsl:if>                
                 </xsl:when>
@@ -1067,7 +1071,6 @@
                     <xsl:attribute name="scheme">
                         <xsl:value-of select="@indexName"/>
                     </xsl:attribute>
-                    
                     <xsl:for-each select="current-group()">
                         <term>
                             <xsl:if test="@lemma">
@@ -1079,7 +1082,14 @@
                         </term>
                     </xsl:for-each>
                 </xsl:otherwise>
-            </xsl:choose>          
+            </xsl:choose>
+            <!-- Nebensammlungen become contexts -->
+            <xsl:if test="$nebensammlungen != ''">
+                <xsl:for-each select="$nebensammlungen">
+                    <xsl:variable name="nebensammlung" select="substring-after(sammlung, 'IlluminierteUrkunden')"></xsl:variable>
+                    <term><ref target="context:cord.{$nebensammlung}" type="context"><xsl:value-of select="$nebensammlung"/></ref></term>
+                </xsl:for-each>                
+            </xsl:if>
         </keywords>
     </xsl:template>
     <xsl:template name="list_people">
