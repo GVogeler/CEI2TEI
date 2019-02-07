@@ -5,11 +5,21 @@
     xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"
     xmlns:xalan="http://xml.apache.org/xslt" exclude-result-prefixes="xs" version="3.0">
     <xsl:output method="xml" indent="yes" xalan:indent-amount="4"/>
+    <xsl:variable name="oldid">
+        <xsl:value-of
+            select="substring-after(//atom:id, 'tag:www.monasterium.net,2011:/charter/')"
+        />
+    </xsl:variable>
+    <!-- var fond-imgs integrates urls from monasterium fonds -->
+    <xsl:variable name="fond-imgs" select="document('Listeversionofimages.xml')//eintrag[id = $oldid]"/>
+    
+    
     <xsl:template match="/">
         <xsl:processing-instruction name="xml-model">href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
         <!-- Various Variables -->
         <xsl:variable name="atom_published" select="/atom:entry/atom:published"/>
         <xsl:variable name="atom_updated" select="/atom:entry/atom:updated"/>
+    
         <TEI>
             <teiHeader>
                 <fileDesc>
@@ -165,7 +175,7 @@
                     <xsl:apply-templates select="//cei:lang_MOM"/>
                     <textClass>
                         <!-- have to define a rule for keywords, which don't have @ as well-->
-                        <xsl:for-each-group select="//cei:index[. != '']" group-by="@indexName">
+                        <xsl:for-each-group select="//cei:index[. != '']" group-by="@indexName">                          
                             <xsl:call-template name="keywords"/>
                         </xsl:for-each-group>
                     </textClass>
@@ -214,11 +224,18 @@
                 Use revisionDesc only for changes to TEI file. atom:updated is referenced in sourceDesc. Need a way to track changes across imports to this space.
                 </revisionDesc>-->
             </teiHeader>
-            <xsl:if test="//cei:graphic[@url != '']">
+
+            <xsl:if test="//cei:graphic[@url != ''] or $fond-imgs != ''">
                 <facsimile>
                     <xsl:apply-templates select="//cei:graphic" mode="image"/>
+                    <xsl:if test="$fond-imgs != ''">
+                        <xsl:for-each select="$fond-imgs/image-url">
+                            <graphic url="{.}"/>
+                        </xsl:for-each>
+                    </xsl:if>
                 </facsimile>
             </xsl:if>
+          
             <text>
                 <body>
                     <xsl:apply-templates select="//cei:body"/>
@@ -505,7 +522,7 @@
         </geogName>
     </xsl:template>
     <xsl:template match="cei:graphic" mode="image">
-        <graphic url="{@url}"/>
+        <graphic url="{@url}"/>      
     </xsl:template>
     <xsl:template match="cei:group">
         <group>
@@ -580,9 +597,9 @@
         </imprint>
     </xsl:template>
     <xsl:template match="cei:body//cei:index[. != '']">
-        <term>
+      <!--  <term>-->
             <xsl:call-template name="vocab_uri"/>
-        </term>
+        <!--</term>-->
     </xsl:template>
     <xsl:template match="cei:institution">
         <institution>
@@ -1010,21 +1027,59 @@
     </xsl:template>
     <xsl:template name="keywords">
         <keywords>
-            <!--<xsl:if test="@indexName">-->
-            <xsl:attribute name="scheme">
-                <xsl:value-of select="@indexName"/>
-            </xsl:attribute>
-            <!--</xsl:if>-->
-            <xsl:for-each select="current-group()">
-                <term>
-                    <xsl:if test="@lemma">
-                        <xsl:attribute name="key">
-                            <xsl:value-of select="@lemma"/>
-                        </xsl:attribute>
-                    </xsl:if>
-                    <xsl:call-template name="vocab_uri"/>
-                </term>
-            </xsl:for-each>
+            <xsl:choose>
+                <xsl:when test="@indexName = 'Illurk-Urkundenart'">
+                    <xsl:variable name="urkart">
+                        <xsl:choose>
+                            <xsl:when test="starts-with(normalize-space(.), 'Bischofsammel')">
+                                <xsl:text>Bischofsammelindulgenz</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="starts-with(normalize-space(.), 'Schmäh')">
+                                <xsl:text>Schmaehbrief</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="starts-with(normalize-space(.), 'Notarsinstrument')">
+                                <xsl:text>Notarsinstrument</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="starts-with(normalize-space(.), 'Sammelindulgenz')">
+                                <xsl:text>Sammelindulgenz</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="starts-with(normalize-space(.), 'Prunksupplik')">
+                                <xsl:text>Prunksupplik</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="starts-with(normalize-space(.), 'Notariatsakt')">
+                                <xsl:text>Notariatsakt</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="starts-with(normalize-space(.), 'Wappenbrief')">
+                                <xsl:text>Wappenbrief</xsl:text>
+                            </xsl:when>
+                            <xsl:when test="starts-with(normalize-space(.), 'Kardinalsammel')">
+                                <xsl:text>Kardinalsammelindulgenz</xsl:text>
+                            </xsl:when>                                 
+                        </xsl:choose>
+                    </xsl:variable>               
+                        <xsl:if test="$urkart != ''">
+                            <term>
+                                <ref target="context:{$urkart}" type="context"><xsl:value-of select="."/></ref>
+                            </term>                            
+                        </xsl:if>                
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:attribute name="scheme">
+                        <xsl:value-of select="@indexName"/>
+                    </xsl:attribute>
+                    
+                    <xsl:for-each select="current-group()">
+                        <term>
+                            <xsl:if test="@lemma">
+                                <xsl:attribute name="key">
+                                    <xsl:value-of select="@lemma"/>
+                                </xsl:attribute>
+                            </xsl:if>
+                            <xsl:call-template name="vocab_uri"/>
+                        </term>
+                    </xsl:for-each>
+                </xsl:otherwise>
+            </xsl:choose>          
         </keywords>
     </xsl:template>
     <xsl:template name="list_people">
@@ -1070,18 +1125,25 @@
     <xsl:template name="vocab_uri">
         <xsl:variable name="indexName">
             <xsl:choose>
-                <xsl:when test="@indexName = 'IllUrkGlossar'">2483</xsl:when>
-                <!--<xsl:when test="@indexName = 'Illurk-Urkundenart'">2386</xsl:when>-->
+                <xsl:when test="@indexName = 'IllUrkGlossar'">2483</xsl:when>             
                 <xsl:when test="@indexName = 'illurk-vocabulary'">2484</xsl:when>
                 <xsl:otherwise> </xsl:otherwise>
             </xsl:choose>
         </xsl:variable>
         <xsl:variable name="lemma" select="@lemma"/>
-        <xsl:attribute name="ref">
-            <xsl:value-of
-                select="concat('http://gams.uni-graz.at/skos/scheme/o:cord.', $indexName, '#', $lemma)"
-            />
-        </xsl:attribute>
+        <xsl:choose>
+            <xsl:when test="$lemma">
+                <term>
+                <xsl:attribute name="ref">
+                    <xsl:value-of
+                        select="concat('http://gams.uni-graz.at/skos/scheme/o:cord.', $indexName, '#', $lemma)"
+                    />
+                </xsl:attribute>
+                </term>
+            </xsl:when>
+            
+        </xsl:choose>
+       
         <xsl:apply-templates/>
     </xsl:template>
 </xsl:stylesheet>
