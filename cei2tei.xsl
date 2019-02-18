@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- BIG FIX NEEDED IN ORDER TO PULL IN versionOf DATA AND CREATE LINKED DOCUMENTS -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:atom="http://www.w3.org/2005/Atom"
-    xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xpath-default-namespace="http://www.tei-c.org/ns/1.0" 
+    xmlns:cei="http://www.monasterium.net/NS/cei"
     xmlns:xalan="http://xml.apache.org/xslt" exclude-result-prefixes="xs" version="3.0">
     <xsl:output method="xml" indent="yes" xalan:indent-amount="4"/>
     <xsl:variable name="oldid">
@@ -17,8 +18,8 @@
     
     
     <xsl:template match="/">
-        <!--<xsl:processing-instruction name="xml-model">href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
-         Various Variables -->
+        <!--<xsl:processing-instruction name="xml-model">href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>-->
+        <!-- Various Variables -->
         <xsl:variable name="atom_published" select="/atom:entry/atom:published"/>
         <xsl:variable name="atom_updated" select="/atom:entry/atom:updated"/>
     
@@ -140,10 +141,14 @@
                                 <xsl:value-of
                                     select="substring-after(//atom:id, 'tag:www.monasterium.net,2011:/charter/')"
                                 />
-                                </idno>, created on <date when="{$atom_published}"><xsl:value-of select="format-dateTime($atom_published, '[Y]-[M]-[D]')"/></date> and last updated on <date when="{$atom_updated}"><xsl:value-of select="format-dateTime($atom_updated, '[Y]-[M]-[D]')"/></date>.
-                        </bibl>
+                            </idno>, created on <date when="{$atom_published}"><xsl:value-of
+                                    select="format-dateTime($atom_published, '[Y]-[M]-[D]')"
+                                /></date> and last updated on <date when="{$atom_updated}"
+                                    ><xsl:value-of
+                                    select="format-dateTime($atom_updated, '[Y]-[M]-[D]')"/></date>. </bibl>
                         <xsl:for-each
-                            select="//cei:sourceDesc | cei:sourceDescRegest | cei:sourceDescVolltext | cei:sourceDescErw"> <!-- Nested bbibl elements in SourceDescRegest -->
+                            select="//cei:sourceDesc | cei:sourceDescRegest | cei:sourceDescVolltext | cei:sourceDescErw">
+                            <!-- Nested bbibl elements in SourceDescRegest -->
                             <xsl:apply-templates select="cei:bibl"/>
                         </xsl:for-each>
                         <!-- Hier wird der atom:link erhalten mit bibl type version: Gut Idee? -->
@@ -176,10 +181,9 @@
                     <listPrefixDef>
                         <prefixDef ident="zotero" matchPattern="([a-z]+[a-z0-9]*)"
                             replacementPattern="http://zotero.org/groups/257864/items/$1">
-                            <p part="N"> Private URIs using the bibl prefix can be
-                                expanded to form URIs which retrieve the relevant bibliographical
-                                reference from Zotero.
-                            </p>
+                            <p part="N"> Private URIs using the bibl prefix can be expanded to form
+                                URIs which retrieve the relevant bibliographical reference from
+                                Zotero. </p>
                         </prefixDef>
                     </listPrefixDef>
                 </encodingDesc>
@@ -264,6 +268,7 @@
                         <xsl:apply-templates select="//cei:body"/>
                     </xsl:otherwise>
                 </xsl:choose>                    
+
                 </body>
             </text>
         </TEI>
@@ -271,9 +276,7 @@
     <xsl:template name="original_witness">
         <witness>
             <msDesc>
-                <msIdentifier>
-                    <xsl:apply-templates select="//cei:witnessOrig/cei:archIdentifier"/>
-                </msIdentifier>
+                   <xsl:apply-templates select="//cei:witnessOrig/cei:archIdentifier"/>
                 <xsl:apply-templates select="//cei:witnessOrig/cei:physicalDesc"/>
                 <diploDesc>
                     <xsl:apply-templates select="//cei:witnessOrig/cei:traditioForm"/>
@@ -378,8 +381,8 @@
             <xsl:apply-templates/>
         </bibl>
     </xsl:template>
-    <xsl:template match="cei:body">
-        <xsl:apply-templates/>
+    <xsl:template match="cei:body[. != '']">
+            <xsl:apply-templates/>
     </xsl:template>
     <xsl:template match="cei:c">
         <g>
@@ -583,24 +586,30 @@
         </hi>
     </xsl:template>
     <xsl:template match="cei:witnessOrig/cei:archIdentifier">
-        <xsl:apply-templates select="cei:country"/>
-        <xsl:apply-templates select="cei:region"/>
-        <xsl:apply-templates select="cei:settlement"/>
-        <xsl:apply-templates select="cei:institution"/>
-        <xsl:apply-templates select="cei:arch | cei:repository"/>
-        <xsl:apply-templates select="cei:archFond"/>
-        <xsl:apply-templates select="cei:idno"/>
-        <xsl:apply-templates select="cei:altIdentifier"/>
+        <msIdentifier>
+            <xsl:apply-templates select="cei:country"/>
+            <xsl:apply-templates select="cei:region"/>
+            <xsl:apply-templates select="cei:settlement"/>
+            <xsl:apply-templates select="cei:institution"/>
+            <xsl:apply-templates select="cei:arch | cei:repository"/>
+            <xsl:apply-templates select="cei:archFond"/>
+            <xsl:apply-templates select="cei:idno"/>
+            <xsl:apply-templates select="cei:altIdentifier"/>
+            <xsl:apply-templates select="cei:note"/>
+        </msIdentifier>
     </xsl:template>
     <xsl:template match="cei:witness/cei:archIdentifier">
-        <xsl:apply-templates select="cei:country"/>
-        <xsl:apply-templates select="cei:region"/>
-        <xsl:apply-templates select="cei:settlement"/>
-        <xsl:apply-templates select="cei:institution"/>
-        <xsl:apply-templates select="cei:arch | cei:repository"/>
-        <xsl:apply-templates select="cei:archFond"/>
-        <xsl:apply-templates select="cei:idno"/>
-        <xsl:apply-templates select="cei:altIdentifier"/>
+        <msIdentifier>
+            <xsl:apply-templates select="cei:country"/>
+            <xsl:apply-templates select="cei:region"/>
+            <xsl:apply-templates select="cei:settlement"/>
+            <xsl:apply-templates select="cei:institution"/>
+            <xsl:apply-templates select="cei:arch | cei:repository"/>
+            <xsl:apply-templates select="cei:archFond"/>
+            <xsl:apply-templates select="cei:idno"/>
+            <xsl:apply-templates select="cei:altIdentifier"/>
+            <xsl:apply-templates select="cei:note"/>
+        </msIdentifier>
     </xsl:template>
     <xsl:template match="cei:body/cei:idno">
         <!-- NOT IN USE -->
@@ -1000,9 +1009,7 @@
     <xsl:template match="cei:witness">
         <witness>
             <msDesc>
-                <msIdentifier>
-                    <xsl:apply-templates select="cei:witness/cei:archIdentifier"/>
-                </msIdentifier>
+                <xsl:apply-templates select="cei:witness/cei:archIdentifier"/>
                 <xsl:apply-templates select="cei:physicalDesc"/>
                 <diploDesc>
                     <xsl:apply-templates select="cei:traditioForm"/>
@@ -1051,7 +1058,7 @@
         </p>
     </xsl:template>
     <xsl:template name="keywords">
-        <keywords>       
+        <keywords>
             <xsl:choose>                
                 <xsl:when test="@indexName = 'Illurk-Urkundenart'">
                     <xsl:variable name="urkart">
@@ -1141,7 +1148,7 @@
         <place>
             <placeName>
                 <xsl:choose>
-                    <xsl:when test="@type|@n">
+                    <xsl:when test="@type | @n">
                         <region>
                             <xsl:value-of select="."/>
                         </region>
