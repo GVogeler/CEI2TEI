@@ -248,7 +248,7 @@
 
             <xsl:if test="//cei:graphic[@url != ''] or $fond-imgs != ''">
                 <facsimile>
-                    <xsl:apply-templates select="//cei:graphic" mode="image"/>
+                    <xsl:apply-templates select="//cei:graphic[@url != '']" mode="image"/>
                     <xsl:if test="$fond-imgs != ''">
                         <xsl:for-each select="$fond-imgs/image-url">
                             <graphic url="{.}"/>
