@@ -258,16 +258,8 @@
             </xsl:if>
           
             <text>
-                <body><xsl:choose>
-                    <xsl:when test="//cei:body = ''">
-                        <div type="tenor">
-                        <p/>
-                        </div>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:apply-templates select="//cei:body"/>
-                    </xsl:otherwise>
-                </xsl:choose>                    
+                <body>   
+                        <xsl:apply-templates select="//cei:body"/>                      
 
                 </body>
             </text>
