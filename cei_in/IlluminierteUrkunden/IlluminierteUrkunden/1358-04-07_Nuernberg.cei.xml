@@ -1,1 +1,228 @@
-<atom:entry xmlns:atom="http://www.w3.org/2005/Atom"><atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1358-04-07_Nuernberg</atom:id><atom:title/><atom:published>2018-10-25T06:51:55.661Z</atom:published><atom:updated>2018-10-25T06:51:55.661Z</atom:updated><atom:author><atom:email>illuminierteurkunden@gmail.com</atom:email></atom:author><app:control xmlns:app="http://www.w3.org/2007/app"><app:draft>no</app:draft></app:control><atom:content type="application/xml"><cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter"><cei:front><cei:sourceDesc><cei:sourceDescVolltext><cei:bibl/></cei:sourceDescVolltext><cei:sourceDescRegest><cei:bibl/></cei:sourceDescRegest></cei:sourceDesc></cei:front><cei:body><cei:idno id="1358-04-07_Nuernberg">1358-04-07_Nuernberg</cei:idno><cei:chDesc><cei:abstract>Bischofsammelindulgenz (18 Aussteller) für das Heilig-Geist-Spital in Nürnberg:<cei:lb/>Aussteller: Die Bischöfe <cei:issuer><cei:persName>Garsias von Cuenca</cei:persName></cei:issuer> (<cei:foreign>Conchensis</cei:foreign>), <cei:issuer><cei:persName>Remigius von Pistoja</cei:persName></cei:issuer> (<cei:foreign>Pistoriensis</cei:foreign>), <cei:issuer><cei:persName key="P_Richardus_Bisaccia_1356">Richardus von Bisaccia</cei:persName></cei:issuer> (<cei:foreign>Bisacciensis</cei:foreign>),  <cei:issuer><cei:persName key="P_Petrus_Avlona_1353">Petrus von Avlona</cei:persName></cei:issuer> (<cei:foreign>Valonensis</cei:foreign>), <cei:issuer><cei:persName>Nikolaus von Belcastro</cei:persName></cei:issuer> (<cei:foreign>Bellicastri</cei:foreign>), <cei:issuer><cei:persName>Augustinus von Siliwri</cei:persName></cei:issuer> (<cei:foreign>Salubriensis</cei:foreign>); <cei:issuer><cei:persName>Guillelmus von Sizebolu</cei:persName></cei:issuer> (<cei:foreign>Cissopolitanus</cei:foreign>); <cei:issuer><cei:persName>Richardus von Athyra</cei:persName></cei:issuer> (<cei:foreign>Naturensis</cei:foreign>), <cei:issuer><cei:persName>Petrus von Ottana</cei:persName></cei:issuer> (<cei:foreign>Otthonensis</cei:foreign>), <cei:issuer><cei:persName>Johannes von Kammin</cei:persName></cei:issuer> (<cei:foreign>Carminensis</cei:foreign>), <cei:issuer><cei:persName>Gregorius von Marokko</cei:persName></cei:issuer> (<cei:foreign>Marrochitaniensis</cei:foreign>), <cei:issuer><cei:persName>Jakobus von Sebaste</cei:persName></cei:issuer> (<cei:foreign>Sebastensis</cei:foreign>), <cei:issuer><cei:persName key="P_Arnoldus_Sorra_1348">Arnoldus von Sorra</cei:persName></cei:issuer> (<cei:foreign>Sorrensis</cei:foreign>), <cei:issuer><cei:persName>Thomas von Chrysopolis</cei:persName></cei:issuer> (<cei:foreign>Crisopolitanis</cei:foreign>), <cei:issuer><cei:persName>Bonifatius <cei:foreign>Vodiensis</cei:foreign></cei:persName></cei:issuer> [in Eubel 1, S. 534 erwähnt, aber nicht lokalisiert], <cei:issuer><cei:persName>Johannes von Potenza</cei:persName></cei:issuer> (<cei:foreign>Potentinus</cei:foreign>); <cei:issuer><cei:persName>Raphael von Arkadi</cei:persName></cei:issuer> (<cei:foreign>Archadiensis</cei:foreign>) und <cei:issuer><cei:persName key="P_Betrandus_Ampurias_1355">Bertrandus von Ampurias</cei:persName></cei:issuer> (<cei:foreign>Ampuriensis</cei:foreign>) erteilen all jenen einen Ablass von 40 Tagen (<cei:foreign>misericorditer in Domino relaxamus</cei:foreign>), die das in der Diözese Bamberg gelegene Heilig-Geist-Spital in Nürnberg (<cei:foreign>hospitale pauperum in Nurnbega</cei:foreign> [!] <cei:foreign>in honore Sancti Spiritus fundatum, Bambergensis dyocesis</cei:foreign>) an bestimmten Festtagen und – soweit gegeben – in der jeweiligen Oktav reumütig und nach Ablegung der Beichte besuchen und dort Morgen-, Abend- oder sonstigen Messen beiwohnen, und zwar am Feiertag des Heiligen Geists, weiters zu Weihnachten, zu den Festen der Beschneidung und der Erscheinung des Herrn, am Karfreitag, zu Ostern, Christi Himmelfahrt, am Dreifaltigkeitstag, zu Fronleichnam, an den Feiertagen der heiligen Maria sowie zu den Festen der Geburt und der Enthauptung des heiligen Johannes des Täufers. Weiters wird all jenen Ablass gewährt, die die Armen des Spitals besuchen und diese mit Almosen unterstützen, die den Priester beim Versehgang begleiten, die bei den Bestattungen derselben [also wohl der Armen und Kranken] anwesend sind, die beim Abendläuten mit gebeugten Knien drei Ave Maria beten, die für den Bau des Spitals, die Beleuchtung und andere Notwendigkeiten aufkommen, die dem Spital testamentarisch oder auf anderen Wegen Gold-, Silber- oder Kleidungsspenden oder andere Güter übergeben, die die Boten, Quästoren oder Almosener des Spitals gütig aufnehmen und behandeln sowie all jenen, die für die Gesundheit desjenigen Bischofs, der die Indulgenz bestätigt, und Konrads [Groß] des Älteren, der der Stifter dieses Spitals ist, solange diese leben, und für deren Seelen, wenn sie gestorben sind, Gebete sprechen. <cei:lb/><cei:lb/>1359 November 21, Bamberg<cei:lb/><cei:issuer><cei:persName>Leopold [von Bebenburg], Bischof von Bamberg</cei:persName></cei:issuer>, bestätigt die obige Indulgenz und erteilt einen weiteren Ablass von 40 Tagen.<cei:lb/><cei:lb/>Markus Gneiss</cei:abstract><cei:issued><cei:placeName>Avignon</cei:placeName><cei:dateRange from="13580407" to="13580407">1358-04-07</cei:dateRange></cei:issued><cei:witnessOrig><cei:traditioForm>Original</cei:traditioForm><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1358-04-07_1_Stadtarchiv-Nuernberg_A1_.jpg"/></cei:figure><cei:archIdentifier><cei:settlement>Nürnberg</cei:settlement><cei:arch>Stadtarchiv</cei:arch><cei:archFond>Urkundenreihe (A1)</cei:archFond><cei:idno>sub dato</cei:idno></cei:archIdentifier><cei:physicalDesc><cei:decoDesc><cei:p><cei:index indexName="IllUrkGlossar" lemma="UnilluminierteAvignonerBischofsammelindulgenz">Unilluminierte Avignoner Sammelindulgenz</cei:index>: Stark vergrösserte, neun Zeilen hohe Initiale U(niversis) zu Textbeginn, fünf weitere vergrösserte Initialen in der ersten Zeile. Die vergrösserten Initialen der ersten Zeile wie auch einige Buchstaben im Textfeld Gelb angestrichen. Die grosse U-Initiale lediglich in der Farbe der Schreibertinte.</cei:p><cei:p n="Stil und Einordnung">Der letzte Ablass aus Avignon für das Heilig-Geist-Spital ist denkbar schlicht ausgefallen: Die nur in den Konturen gezeichnete Initiale füllt noch nicht einmal das Initialfeld aus. Ob der einzige farbige Schmuck, die gelben Anstreichungen, in Avignon gemacht worden sind, ist nicht klar, wenn man sich ein  Vergleichsbeispiel, <cei:ref target="">1355 Juni 14</cei:ref> für Hannover, anschaut. Ob die Buchstaben der ersten Zeile von einem anderen Schreiber als dem des restlichen Texts ausgeführt wurden, ist wenig wahrscheinlich; in jedem Fall war für sie der <cei:index indexName="IllUrkGlossar" lemma="SchreibermitdenKreuzblueten">Schreiber mit den Kreuzblüten</cei:index> verantwortlich.</cei:p><cei:p>Wie bereits bei der Urkunde vom <cei:ref target="">29. Dezember 1336</cei:ref> hätte man eine Illuminierung in Nürnberg in Auftrag geben können. Neben diesen beiden Ablässen sind noch zwei weitere für das Heilig-Geist-Spital erhalten: <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1335-07-06_Nuernberg/charter">1335 Juli 6</cei:ref> und <cei:ref target="">1348 März 5</cei:ref>.</cei:p><cei:p n="Autorensigle">Gabriele Bartz</cei:p></cei:decoDesc><cei:material>Pergament</cei:material><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:notariusDesc/><cei:sealDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witnessOrig><cei:witListPar><cei:witness><cei:traditioForm/><cei:figure/><cei:archIdentifier/><cei:physicalDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:sealDesc/><cei:notariusDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witness></cei:witListPar><cei:diplomaticAnalysis><cei:listBibl><cei:bibl/></cei:listBibl><cei:listBiblEdition><cei:bibl/></cei:listBiblEdition><cei:listBiblRegest><cei:bibl/></cei:listBiblRegest><cei:listBiblFaksimile><cei:bibl/></cei:listBiblFaksimile><cei:listBiblErw><cei:bibl/></cei:listBiblErw><cei:p>Arenga: <cei:quote>Inter omnia oppera [!] pietatis ... .</cei:quote></cei:p><cei:p>Der Ablass aus dem Jahr 1358 ergänzt mehrere weitere Sammelindulgenzen, die in den Jahrzehnten davor in Avignon für das Heilig-Geist-Spital eingeworben wurden: <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1335-07-06_Nuernberg/charter">1335 Juli 6</cei:ref>, <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1336-12-29_Nuernberg/charter">1336 Dezember 29</cei:ref> und <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1348-03-05_Nuernberg/charter">1348 März 5</cei:ref>. Ähnlich wie in der Urkunde von 1336 werden nur wenige Feiertage explizit genannt, an denen der Ablass gewonnen werden kann; die Urkunde von 1348 treibt diesen Umstand allerdings mit wenigen Worten an die Spitze, indem sie den Ablass ohnehin für alle Werk- und Feiertage des ganzen Jahres gewährt. Hier gibt sich der Ablass von 1358 vergleichsweise klassischer, indem etwa wieder standardmäßig Weihnachten, Karfreitag, Ostern, Fronleichnam etc. aufgezählt werden. Interessant und definitiv nicht dem Avignoner Standarddiktat entsprechend ist die Arenga, die die Armenpflege in den Mittelpunkt rückt. Damit nimmt das Diktat konkret auf den Empfänger des Ablassbriefes Rücksicht. Klassischer wären hier etwa Arengen wie <cei:foreign>Vere credimus</cei:foreign> oder <cei:foreign>Si iuxta sententiam</cei:foreign> (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/ZG9JUZMZ">Seibold, Sammelindulgenzen 2001, S. 30 f.</cei:ref>). Wie die oben angeführten älteren Indulgenzen für das Heilig-Geist-Spital zeigen, fanden jedoch durchaus auch die fixen Standardarengen <cei:foreign>Pia mater ecclesia</cei:foreign> oder <cei:foreign>Splendor paterne glorie</cei:foreign> für an Spitäler gerichtete Indulgenzen Verwendung.</cei:p><cei:p>Obwohl für die Gesundheit eines angeblich noch lebenden älteren Konrad, des Stifters des Spitals, als eine der Ablassbedingungen gebetet werden soll, ist hier ein Irrtum passiert: Der definitiv gemeinte Konrad Groß ist bereits 1356 - also zwei Jahre vor Ausstellung dieses Ablassbriefes - gestorben. Hier passen also das vordefinierte Formular und die Realität nicht zusammen. Ansonsten beziehen sich die Ablassbedingungen - neben den standardmäßigen Bedingungen wie das Gebet mit gebeugten Knien beim Abendläuten oder die Unterstützung der Fabrik - auf klassische spitalspezifische Themen wie Almosen und den unterstützenden Besuch der Kranken im Spital.</cei:p><cei:p>Markus Gneiss</cei:p><cei:quoteOriginaldatierung/><cei:nota/></cei:diplomaticAnalysis><cei:lang_MOM/></cei:chDesc><cei:tenor/></cei:body><cei:back><cei:class/><cei:persName/><cei:placeName type="Region">Frankreich (Kurie)</cei:placeName><cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials">N2</cei:index><cei:divNotes><cei:note/></cei:divNotes></cei:back></cei:text></atom:content></atom:entry>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+  <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1358-04-07_Nuernberg</atom:id>
+  <atom:title/>
+  <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+  <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+  <atom:author>
+    <atom:email>illuminierteurkunden@gmail.com</atom:email>
+  </atom:author>
+  <app:control xmlns:app="http://www.w3.org/2007/app">
+    <app:draft>no</app:draft>
+  </app:control>
+  <atom:content type="application/xml">
+    <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+      <cei:front>
+        <cei:sourceDesc>
+          <cei:sourceDescVolltext>
+            <cei:bibl/>
+          </cei:sourceDescVolltext>
+          <cei:sourceDescRegest>
+            <cei:bibl/>
+          </cei:sourceDescRegest>
+        </cei:sourceDesc>
+      </cei:front>
+      <cei:body>
+        <cei:idno id="1358-04-07_Nuernberg">1358-04-07_Nuernberg</cei:idno>
+        <cei:chDesc>
+          <cei:abstract>Bischofsammelindulgenz (18 Aussteller) für das Heilig-Geist-Spital in
+            Nürnberg:<cei:lb/>Aussteller: Die Bischöfe <cei:issuer><cei:persName>Garsias von
+                Cuenca</cei:persName></cei:issuer> (<cei:foreign>Conchensis</cei:foreign>),
+                <cei:issuer><cei:persName>Remigius von Pistoja</cei:persName></cei:issuer>
+              (<cei:foreign>Pistoriensis</cei:foreign>), <cei:issuer><cei:persName
+                key="P_Richardus_Bisaccia_1356">Richardus von Bisaccia</cei:persName></cei:issuer>
+              (<cei:foreign>Bisacciensis</cei:foreign>), <cei:issuer><cei:persName
+                key="P_Petrus_Avlona_1353">Petrus von Avlona</cei:persName></cei:issuer>
+              (<cei:foreign>Valonensis</cei:foreign>), <cei:issuer><cei:persName>Nikolaus von
+                Belcastro</cei:persName></cei:issuer> (<cei:foreign>Bellicastri</cei:foreign>),
+                <cei:issuer><cei:persName>Augustinus von Siliwri</cei:persName></cei:issuer>
+              (<cei:foreign>Salubriensis</cei:foreign>); <cei:issuer><cei:persName>Guillelmus von
+                Sizebolu</cei:persName></cei:issuer> (<cei:foreign>Cissopolitanus</cei:foreign>);
+                <cei:issuer><cei:persName>Richardus von Athyra</cei:persName></cei:issuer>
+              (<cei:foreign>Naturensis</cei:foreign>), <cei:issuer><cei:persName>Petrus von
+                Ottana</cei:persName></cei:issuer> (<cei:foreign>Otthonensis</cei:foreign>),
+                <cei:issuer><cei:persName>Johannes von Kammin</cei:persName></cei:issuer>
+              (<cei:foreign>Carminensis</cei:foreign>), <cei:issuer><cei:persName>Gregorius von
+                Marokko</cei:persName></cei:issuer> (<cei:foreign>Marrochitaniensis</cei:foreign>),
+                <cei:issuer><cei:persName>Jakobus von Sebaste</cei:persName></cei:issuer>
+              (<cei:foreign>Sebastensis</cei:foreign>), <cei:issuer><cei:persName
+                key="P_Arnoldus_Sorra_1348">Arnoldus von Sorra</cei:persName></cei:issuer>
+              (<cei:foreign>Sorrensis</cei:foreign>), <cei:issuer><cei:persName>Thomas von
+                Chrysopolis</cei:persName></cei:issuer> (<cei:foreign>Crisopolitanis</cei:foreign>),
+                <cei:issuer><cei:persName>Bonifatius
+                <cei:foreign>Vodiensis</cei:foreign></cei:persName></cei:issuer> [in Eubel 1, S. 534
+            erwähnt, aber nicht lokalisiert], <cei:issuer><cei:persName>Johannes von
+                Potenza</cei:persName></cei:issuer> (<cei:foreign>Potentinus</cei:foreign>);
+                <cei:issuer><cei:persName>Raphael von Arkadi</cei:persName></cei:issuer>
+              (<cei:foreign>Archadiensis</cei:foreign>) und <cei:issuer><cei:persName
+                key="P_Betrandus_Ampurias_1355">Bertrandus von Ampurias</cei:persName></cei:issuer>
+              (<cei:foreign>Ampuriensis</cei:foreign>) erteilen all jenen einen Ablass von 40 Tagen
+              (<cei:foreign>misericorditer in Domino relaxamus</cei:foreign>), die das in der
+            Diözese Bamberg gelegene Heilig-Geist-Spital in Nürnberg (<cei:foreign>hospitale
+              pauperum in Nurnbega</cei:foreign> [!] <cei:foreign>in honore Sancti Spiritus
+              fundatum, Bambergensis dyocesis</cei:foreign>) an bestimmten Festtagen und – soweit
+            gegeben – in der jeweiligen Oktav reumütig und nach Ablegung der Beichte besuchen und
+            dort Morgen-, Abend- oder sonstigen Messen beiwohnen, und zwar am Feiertag des Heiligen
+            Geists, weiters zu Weihnachten, zu den Festen der Beschneidung und der Erscheinung des
+            Herrn, am Karfreitag, zu Ostern, Christi Himmelfahrt, am Dreifaltigkeitstag, zu
+            Fronleichnam, an den Feiertagen der heiligen Maria sowie zu den Festen der Geburt und
+            der Enthauptung des heiligen Johannes des Täufers. Weiters wird all jenen Ablass
+            gewährt, die die Armen des Spitals besuchen und diese mit Almosen unterstützen, die den
+            Priester beim Versehgang begleiten, die bei den Bestattungen derselben [also wohl der
+            Armen und Kranken] anwesend sind, die beim Abendläuten mit gebeugten Knien drei Ave
+            Maria beten, die für den Bau des Spitals, die Beleuchtung und andere Notwendigkeiten
+            aufkommen, die dem Spital testamentarisch oder auf anderen Wegen Gold-, Silber- oder
+            Kleidungsspenden oder andere Güter übergeben, die die Boten, Quästoren oder Almosener
+            des Spitals gütig aufnehmen und behandeln sowie all jenen, die für die Gesundheit
+            desjenigen Bischofs, der die Indulgenz bestätigt, und Konrads [Groß] des Älteren, der
+            der Stifter dieses Spitals ist, solange diese leben, und für deren Seelen, wenn sie
+            gestorben sind, Gebete sprechen. <cei:lb/><cei:lb/>1359 November 21,
+                Bamberg<cei:lb/><cei:issuer><cei:persName>Leopold [von Bebenburg], Bischof von
+                Bamberg</cei:persName></cei:issuer>, bestätigt die obige Indulgenz und erteilt einen
+            weiteren Ablass von 40 Tagen.<cei:lb/><cei:lb/>Markus Gneiss</cei:abstract>
+          <cei:issued>
+            <cei:placeName>Avignon</cei:placeName>
+            <cei:dateRange from="13580407" to="13580407">1358-04-07</cei:dateRange>
+          </cei:issued>
+          <cei:witnessOrig>
+            <cei:traditioForm>Original</cei:traditioForm>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1358-04-07_1_Stadtarchiv-Nuernberg_A1_.jpg"
+              />
+            </cei:figure>
+            <cei:archIdentifier>
+              <cei:settlement>Nürnberg</cei:settlement>
+              <cei:arch>Stadtarchiv</cei:arch>
+              <cei:archFond>Urkundenreihe (A1)</cei:archFond>
+              <cei:idno>sub dato</cei:idno>
+            </cei:archIdentifier>
+            <cei:physicalDesc>
+              <cei:decoDesc>
+                <cei:p><cei:index indexName="IllUrkGlossar"
+                    lemma="UnilluminierteAvignonerBischofsammelindulgenz">Unilluminierte Avignoner
+                    Sammelindulgenz</cei:index>: Stark vergrösserte, neun Zeilen hohe Initiale
+                  U(niversis) zu Textbeginn, fünf weitere vergrösserte Initialen in der ersten
+                  Zeile. Die vergrösserten Initialen der ersten Zeile wie auch einige Buchstaben im
+                  Textfeld Gelb angestrichen. Die grosse U-Initiale lediglich in der Farbe der
+                  Schreibertinte.</cei:p>
+                <cei:p n="Stil und Einordnung">Der letzte Ablass aus Avignon für das
+                  Heilig-Geist-Spital ist denkbar schlicht ausgefallen: Die nur in den Konturen
+                  gezeichnete Initiale füllt noch nicht einmal das Initialfeld aus. Ob der einzige
+                  farbige Schmuck, die gelben Anstreichungen, in Avignon gemacht worden sind, ist
+                  nicht klar, wenn man sich ein Vergleichsbeispiel, <cei:ref target="">1355 Juni
+                    14</cei:ref> für Hannover, anschaut. Ob die Buchstaben der ersten Zeile von
+                  einem anderen Schreiber als dem des restlichen Texts ausgeführt wurden, ist wenig
+                  wahrscheinlich; in jedem Fall war für sie der <cei:index indexName="IllUrkGlossar"
+                    lemma="SchreibermitdenKreuzblueten">Schreiber mit den Kreuzblüten</cei:index>
+                  verantwortlich.</cei:p>
+                <cei:p>Wie bereits bei der Urkunde vom <cei:ref target="">29. Dezember
+                    1336</cei:ref> hätte man eine Illuminierung in Nürnberg in Auftrag geben können.
+                  Neben diesen beiden Ablässen sind noch zwei weitere für das Heilig-Geist-Spital
+                  erhalten: <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1335-07-06_Nuernberg/charter"
+                    >1335 Juli 6</cei:ref> und <cei:ref target="">1348 März 5</cei:ref>.</cei:p>
+                <cei:p n="Autorensigle">Gabriele Bartz</cei:p>
+              </cei:decoDesc>
+              <cei:material>Pergament</cei:material>
+              <cei:dimensions/>
+              <cei:condition/>
+            </cei:physicalDesc>
+            <cei:auth>
+              <cei:notariusDesc/>
+              <cei:sealDesc/>
+            </cei:auth>
+            <cei:nota/>
+            <cei:rubrum/>
+          </cei:witnessOrig>
+          <cei:witListPar>
+            <cei:witness>
+              <cei:traditioForm/>
+              <cei:figure/>
+              <cei:archIdentifier/>
+              <cei:physicalDesc>
+                <cei:material/>
+                <cei:dimensions/>
+                <cei:condition/>
+              </cei:physicalDesc>
+              <cei:auth>
+                <cei:sealDesc/>
+                <cei:notariusDesc/>
+              </cei:auth>
+              <cei:nota/>
+              <cei:rubrum/>
+            </cei:witness>
+          </cei:witListPar>
+          <cei:diplomaticAnalysis>
+            <cei:listBibl>
+              <cei:bibl/>
+            <cei:bibl>Bilderpracht und Seelenheil, 2019, S. 148 (Nr. B 6: Gabriele Bartz, Markus
+                Gneiss) (<cei:ref
+                  target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/X8UUFYKX"
+                  >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+            </cei:listBibl>
+            <cei:listBiblEdition>
+              <cei:bibl/>
+            </cei:listBiblEdition>
+            <cei:listBiblRegest>
+              <cei:bibl/>
+            </cei:listBiblRegest>
+            <cei:listBiblFaksimile>
+              <cei:bibl/>
+            </cei:listBiblFaksimile>
+            <cei:listBiblErw>
+              <cei:bibl/>
+            </cei:listBiblErw>
+            <cei:p>Arenga: <cei:quote>Inter omnia oppera [!] pietatis ... .</cei:quote></cei:p>
+            <cei:p>Der Ablass aus dem Jahr 1358 ergänzt mehrere weitere Sammelindulgenzen, die in
+              den Jahrzehnten davor in Avignon für das Heilig-Geist-Spital eingeworben wurden:
+                <cei:ref
+                target="http://monasterium.net/mom/IlluminierteUrkunden/1335-07-06_Nuernberg/charter"
+                >1335 Juli 6</cei:ref>, <cei:ref
+                target="http://monasterium.net/mom/IlluminierteUrkunden/1336-12-29_Nuernberg/charter"
+                >1336 Dezember 29</cei:ref> und <cei:ref
+                target="http://monasterium.net/mom/IlluminierteUrkunden/1348-03-05_Nuernberg/charter"
+                >1348 März 5</cei:ref>. Ähnlich wie in der Urkunde von 1336 werden nur wenige
+              Feiertage explizit genannt, an denen der Ablass gewonnen werden kann; die Urkunde von
+              1348 treibt diesen Umstand allerdings mit wenigen Worten an die Spitze, indem sie den
+              Ablass ohnehin für alle Werk- und Feiertage des ganzen Jahres gewährt. Hier gibt sich
+              der Ablass von 1358 vergleichsweise klassischer, indem etwa wieder standardmäßig
+              Weihnachten, Karfreitag, Ostern, Fronleichnam etc. aufgezählt werden. Interessant und
+              definitiv nicht dem Avignoner Standarddiktat entsprechend ist die Arenga, die die
+              Armenpflege in den Mittelpunkt rückt. Damit nimmt das Diktat konkret auf den Empfänger
+              des Ablassbriefes Rücksicht. Klassischer wären hier etwa Arengen wie <cei:foreign>Vere
+                credimus</cei:foreign> oder <cei:foreign>Si iuxta sententiam</cei:foreign> (<cei:ref
+                target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/ZG9JUZMZ"
+                >Seibold, Sammelindulgenzen 2001, S. 30 f.</cei:ref>). Wie die oben angeführten
+              älteren Indulgenzen für das Heilig-Geist-Spital zeigen, fanden jedoch durchaus auch
+              die fixen Standardarengen <cei:foreign>Pia mater ecclesia</cei:foreign> oder
+                <cei:foreign>Splendor paterne glorie</cei:foreign> für an Spitäler gerichtete
+              Indulgenzen Verwendung.</cei:p>
+            <cei:p>Obwohl für die Gesundheit eines angeblich noch lebenden älteren Konrad, des
+              Stifters des Spitals, als eine der Ablassbedingungen gebetet werden soll, ist hier ein
+              Irrtum passiert: Der definitiv gemeinte Konrad Groß ist bereits 1356 - also zwei Jahre
+              vor Ausstellung dieses Ablassbriefes - gestorben. Hier passen also das vordefinierte
+              Formular und die Realität nicht zusammen. Ansonsten beziehen sich die
+              Ablassbedingungen - neben den standardmäßigen Bedingungen wie das Gebet mit gebeugten
+              Knien beim Abendläuten oder die Unterstützung der Fabrik - auf klassische
+              spitalspezifische Themen wie Almosen und den unterstützenden Besuch der Kranken im
+              Spital.</cei:p>
+            <cei:p>Markus Gneiss</cei:p>
+            <cei:quoteOriginaldatierung/>
+            <cei:nota/>
+          </cei:diplomaticAnalysis>
+          <cei:lang_MOM/>
+        </cei:chDesc>
+        <cei:tenor/>
+      </cei:body>
+      <cei:back>
+        <cei:class/>
+        <cei:persName/>
+        <cei:placeName type="Region">Frankreich (Kurie)</cei:placeName>
+        <cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials">N2</cei:index>
+        <cei:divNotes>
+          <cei:note/>
+        </cei:divNotes>
+      </cei:back>
+    </cei:text>
+  </atom:content>
+</atom:entry>

@@ -1,8 +1,8 @@
 <atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
   <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1391-92_Wien</atom:id>
   <atom:title/>
-  <atom:published>2018-10-25T06:51:55.661Z</atom:published>
-  <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+  <atom:published>2016-12-09T11:06:15.219+01:00</atom:published>
+  <atom:updated>2019-01-21T08:29:49.205Z</atom:updated>
   <atom:author>
     <atom:email>illuminierteurkunden@gmail.com</atom:email>
   </atom:author>
@@ -185,9 +185,18 @@
                   target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/4T658AAB"
                   >Volltitel auf Zotero</cei:ref>) </cei:bibl>
               <cei:bibl>Roland, Zajic, Illuminierte Urkunden, 2013, S. 404f. und Abb. 39. Online
-                  unter: <cei:ref
+                unter: <cei:ref
+                  target="Roland, Zajic, Illuminierte Urkunden, 2013, S. 404f. und Abb. 39. Online unter:"
+                  /><cei:ref
                   target="http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf"
                   >http://documents.icar-us.eu/documents/2013/11/archiv-fur-diplomatik-schriftgeshichte-siegel-und-wappenkunde.pdf</cei:ref></cei:bibl>
+              <cei:bibl><cei:ref
+                  target="https://fedora.e-book.fwf.ac.at/fedora/objects/o:1229/methods/bdef:Content/download"
+                  >Brugger, Wiedl, Regesten 4, 2018</cei:ref>, S. 104-206, Nr. 2007 (mit Textabdruck
+                und Übersetzung) (<cei:ref
+                  target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/64XGEFAJ"
+                  >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl/>
               <cei:bibl><cei:ref target="http://data.onb.ac.at/rec/AL00609328"
                   >http://data.onb.ac.at/rec/AL00609328</cei:ref> (Katalogisat der ÖNB). </cei:bibl>
               <cei:bibl><cei:ref

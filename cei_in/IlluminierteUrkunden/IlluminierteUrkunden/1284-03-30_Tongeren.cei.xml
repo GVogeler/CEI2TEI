@@ -55,7 +55,8 @@
                     target="http://monasterium.net/mom/IlluminierteUrkunden/1287-99-99_Altenburg/charter"
                     >1284 März 9 für Altenburg</cei:ref>. Die ausgesparte Mittellinie schon etwas
                   üppiger als bei anderen zeitnahen Beispielen, wie etwa dem genannten Ablass für
-                  Altenburg von derselben Hand.</cei:p>
+                  Altenburg von derselben Hand (<cei:index indexName="IllUrkGlossar"
+                    lemma="Schreiber2">Schreiber 2</cei:index>).</cei:p>
                 <cei:p n="Autorensigle">Gabriele Bartz</cei:p>
               </cei:decoDesc>
               <cei:material/>
@@ -93,7 +94,7 @@
                 <cei:ref target="http://balat.kikirpa.be/object/40406"
                   >http://balat.kikirpa.be/object/40406</cei:ref>
               </cei:bibl>
-              <cei:bibl key="zotero:ÖQ3IA29D5">Paquay, 1911, S. 165 (<cei:ref
+              <cei:bibl key="zotero: ÖQ3IA29D5">Paquay, 1911, S. 165 (<cei:ref
                   target="http://zotero.org/groups/257864/items/Q3IA29D5">Volltitel auf
                   Zotero</cei:ref>)</cei:bibl>
               <cei:bibl key="zotero:MQ77XQ4V">Delehaye, 45, 1927, S. 109 (<cei:ref

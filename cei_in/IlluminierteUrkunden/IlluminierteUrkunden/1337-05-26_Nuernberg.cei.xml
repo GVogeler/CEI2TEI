@@ -1,1 +1,284 @@
-<atom:entry xmlns:atom="http://www.w3.org/2005/Atom"><atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1337-05-26_Nuernberg</atom:id><atom:title/><atom:published>2018-10-25T06:51:55.661Z</atom:published><atom:updated>2018-10-25T06:51:55.661Z</atom:updated><atom:author><atom:email>illuminierteurkunden@gmail.com</atom:email></atom:author><app:control xmlns:app="http://www.w3.org/2007/app"><app:draft>no</app:draft></app:control><atom:content type="application/xml"><cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id=""><cei:front><cei:sourceDesc><cei:sourceDescVolltext><cei:bibl/></cei:sourceDescVolltext><cei:sourceDescRegest><cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl></cei:sourceDescRegest></cei:sourceDesc></cei:front><cei:body><cei:idno id="1337-05-26_Nuernberg">1337-05-26_Nuernberg</cei:idno><cei:chDesc><cei:abstract><cei:index indexName="Illurk-Urkundenart">Bischofsammelindulgenz</cei:index> (12 Aussteller) für die Pfarrkirche [St. Sebald] in Nürnberg:<cei:lb/>Die Bischöfe <cei:issuer><cei:persName key="P_Alamannus_Soana_1330">Alamannus von Soana</cei:persName></cei:issuer> (<cei:quote type="italic">Suanensis</cei:quote>), <cei:issuer><cei:persName key="P_Petrus_Cagli_1319">Petrus von Cagli</cei:persName></cei:issuer> (<cei:quote type="italic">Calliensis</cei:quote>), <cei:issuer><cei:persName key="P_Johannes_Vregen_1336">Johannes von Vregen</cei:persName></cei:issuer> (<cei:quote type="italic">Bregerensis</cei:quote>), <cei:issuer><cei:persName key="P_Andreas_Coron_1333">Andreas von Coron</cei:persName></cei:issuer> (<cei:quote type="italic">Coronensis</cei:quote>), <cei:issuer><cei:persName key="P_Petrus_MonteMarano_1331">Petrus von Monte Marano</cei:persName></cei:issuer> (<cei:quote type="italic">Montismarani</cei:quote>), <cei:issuer><cei:persName key="P_Nikolaus_Nezero_1337">Nikolaus von Nezero</cei:persName></cei:issuer> (<cei:quote type="italic">Nazariensis</cei:quote>), <cei:issuer><cei:persName key="P_Dominik_PeraStadtteilvon_1336">Dominik von Pera</cei:persName></cei:issuer> (<cei:quote type="italic">Perensis</cei:quote>), <cei:issuer><cei:persName key="P_Raimundus_Kotor_1331">Raimundus von Kotor</cei:persName></cei:issuer> (<cei:quote type="italic">Cathanensis</cei:quote>), <cei:issuer><cei:persName key="P_Sergius_Pola_1331">Sergius von Pola</cei:persName></cei:issuer> (<cei:quote type="italic">Pollensis</cei:quote>), <cei:issuer><cei:persName key="P_Jakob_Avlona_1336">Jakob von Avlona</cei:persName></cei:issuer> (<cei:quote type="italic">de Vallona</cei:quote>), <cei:issuer><cei:persName key="P_Bernardus_Ganos_1337">Bernardus von Ganos</cei:persName></cei:issuer> (<cei:quote type="italic">Ganensis</cei:quote>) und <cei:issuer><cei:persName key="P_Paulus_Foligno_1326">Paulus von Foligno</cei:persName></cei:issuer> (<cei:quote type="italic">Fulginensis</cei:quote>) erteilen all jenen einen Ablass von 40 Tagen (<cei:quote type="italic">misericorditer in Domino relaxamus</cei:quote>), die die in der Diözese Bamberg gelegene Pfarrkirche in Nürnberg, den darin befindlichen, der heiligen Maria geweihten Altar und alles andere, was sich dort befindet (<cei:quote>ecclesia parrochialis in Nu<cei:sup>e</cei:sup>renberg, Bambergensis diocesis, et altare beate Marie ac omnia inibi constructa et construenda</cei:quote>), an bestimmten Festtagen und – soweit gegeben – in der jeweiligen Oktav reumütig und nach Ablegung der Beichte besuchen und dort Morgen- und Abendmessen oder welchen Messfeierlichkeiten auch immer beiwohnen, und zwar an den Festen der Patrone der Kirche, am Kirchweihtag, zu Weihnachten, zu den Festen der Beschneidung und der Erscheinung des Herrn, am Karfreitag, zu Ostern, Christi Himmelfahrt, Pfingsten, am Dreifaltigkeitstag, zu Fronleichnam, am Kreuzauffindungstag, am Kreuzerhöhungstag, an allen Marienfeiertagen, an allen Feiertagen des heiligen Johannes des Täufers, am Peter- und Paulstag, zu allen Apostel- und Evangelistenfesten, an den Feiertagen des heiligen Stephan, des heiligen Laurenz, des heiligen Martin, des heiligen Nikolaus, des heiligen Gregor, des heiligen Augustinus, des heiligen Ambrosius, des heiligen Hieronymus, des heiligen Benedikt, der heiligen Maria Magdalena, der heiligen Katharina, der heiligen Margarete, der heiligen Cäcilia, der heiligne Lucia, der heiligen Agathe, der heiligen Agnes, zu Allerheiligen, zu Allerseelen sowie an allen Samstagen und Sonntagen. Weiters wird all jenen Ablass gewährt, die den Priester beim Versehgang begleiten, die beim Abendläuten mit gebeugten Knien drei Ave Maria beten, die für den Bau, die Beleuchtung und die sonstige Ausstattung der Pfarrkirche aufkommen, die der Kirche entweder testamentarisch oder auf anderen Wegen Gold-, Silber- oder Kleidungsspenden zukommen lassen, die beim Umgang am Friedhof für die verstorbenen Seelen beten, die ihre Grabstätte auf diesem Friedhof auswählen, die bei dortigen Begräbnissen anwesend sind sowie denen, die für den [nicht namentlich genannten] Impetrator der vorliegenden Indulgenz, dessen Eltern und Verwandte Gebete sprechen.<cei:lb/>Markus Gneiss</cei:abstract><cei:issued><cei:placeName>Avignon</cei:placeName><cei:dateRange from="13370526" to="13370526">1337-05-26</cei:dateRange></cei:issued><cei:witnessOrig><cei:traditioForm>Original</cei:traditioForm><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1337-05-26_St_Sebald_Nuernberg.jpeg"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1337-05-26_St_Sebald_Nuernberg_det.jpeg"/></cei:figure><cei:archIdentifier><cei:settlement>Nürnberg</cei:settlement><cei:arch>Staatsarchiv</cei:arch><cei:archFond>Mchn. Abg</cei:archFond><cei:idno>Nr. 533</cei:idno></cei:archIdentifier><cei:physicalDesc><cei:decoDesc><cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma="HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner Bischofsammelindulgenz</cei:index>: Historisierte Initiale U(niversis) zu Textbeginn, Bildfeld unterhalb der Initiale am Rand, oberhalb des Textfeldes sowie rechts am Rand. Die Bildfelder sind zusammen mit der Initiale so verbunden, dass ein Rahmen um das Textfeld entsteht (<cei:index indexName="IllUrkGlossar" lemma="Rahmentyp">Rahmentyp</cei:index>). Drei vergrösserte Initialen mit farbigen Binnenfeldfüllungen mit Blattwerkaussparungen in der ersten Zeile sowie zwei vergrösserte einzeilige Initialen im Textblock farbig markiert.</cei:p><cei:p n="Ekphrasis">Historisierte, weit über der ersten Zeile endende Initiale zu Textbeginn: mit der Feder gezeichnet und mit Deckfarben koloriert. Im Binnenfeld stehende gekrönte Maria mit Kind vor hellem monochromen Grund, im linken Schaft kniender Beter mit leerem Schriftband in Händen, im rechten stehender Heiliger, beide vor hellem monochromen Grund. Unterhalb der Initiale heiliger Bischof in rechteckigem Bildfeld, oben im Bildstreifen Büsten von Christus, flankiert von Petrus und Paulus. Im rechten, extrem hohen Bildfeld Johannes der Täufer unter einer Spitzarkade. Beide Heilige außen stehen auf einem Postament, sodass eine räumliche Wirkung entsteht.</cei:p><cei:p n="Ekphrasis">Reste einer Malervorschreibung: „i(m)pet(ra)tor genib(us)“ (wo?).</cei:p><cei:p n="Stil und Einordnung">Der Ablass für St. Sebald ist ein schönes Beispiel für den <cei:index indexName="IllUrkGlossar" lemma="Rahmentyp">Rahmentyp</cei:index>, der spätestens seit 1332 in der <cei:index indexName="IllUrkGlossar" lemma="WerkstattderAvignonerBischofsammelindulgenzen">Werkstatt der Avignoner Bischofsammelindulgenzen</cei:index> für aufwendigen Bildschmuck verwendet wurde. Der eckige Rahmen um die U-Initiale ist so weit in den Rand hinausgezogen, dass das Bildfeld darunter eine angemessene Breite erhält. Oben freilich endet die Initiale nicht so passend für den Bildstreifen, weshalb – wie häufiger zu beobachten - ein Farbstreifen angestückt werden musste. </cei:p><cei:p n="Stil und Einordnung">Angesichts der seit 1329 zu beobachtenden <cei:index indexName="IllUrkGlossar" lemma="IkonographischeDiversifizierung">ikonographischen Diversifizierung</cei:index> bei Avignoner Sammelablässen ist es nicht leicht, die dargestellten Heiligen zu identifizieren, zumal man sich bei der Hinzufügung von Attributen zurückhält. Gleichzeitig kommt die pragmatische Verwendung derselben <cei:index indexName="IllUrkGlossar" lemma="Vorlage">Vorlagen</cei:index> ins Gehege: Der Heilige mit dem Hut erinnert an Jakobus <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1332-10-27_Stuttgart/charter">1332 Oktober 27 für Hohenberg</cei:ref>, doch trägt er hier etwas wie ein Rost, was eher für Lorenz (Laurenz) sprechen würde. Der Bischof erinnert an den ersten Lokalbischof im uns bisher bekannten Bestand, <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1332-09-01_Zuerich/charter">1332 September 1 für Zürich</cei:ref>. Ein ähnlich grosses Bildfeld mit einer Spitzarkade begegnete als einziges Randbild <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1335-10-22_Bern/charter">1335 Oktober 22 für Bern</cei:ref>; der Johannes dort ist auch mit einem faltenreichen Umhang versehen. Bei den nicht genau zu datierenden Fragmenten eines Ablasses mit Bildrahmen in <cei:ref target="">Privatbesitz</cei:ref> ist Johannes ebenfalls der gleichen Vorlage entlehnt; auch der Bischof ist erstaunlich ähnlich.</cei:p><cei:p n="Stil und Einordnung">Die stilistische Einordnung muss noch erfolgen. Zum Zeitpunkt der Erfassung der Urkunde lag keine ausreichend gute Abbildung vor.</cei:p><cei:p n="Autorensigle">Gabriele Bartz</cei:p></cei:decoDesc><cei:material>Pergament</cei:material><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:notariusDesc/><cei:sealDesc>alle abgefallen, 13 Seidenschnüre noch vorhanden (12 Aussteller, und – ganz links am Rand – wohl ein bestätigender Bischof, der aber offenbar keine Bestätigung auf die Urkunde schreiben liess).</cei:sealDesc></cei:auth><cei:nota>Arenga (Incipit): <cei:quote>Pia mater ecclesia ... </cei:quote>.<cei:lb/>Vermerke: auf der Vorderseite keine sichtbar, kein Bild der Rückseite vorhanden.</cei:nota><cei:rubrum/></cei:witnessOrig><cei:witListPar><cei:witness><cei:traditioForm/><cei:figure/><cei:archIdentifier/><cei:physicalDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:sealDesc/><cei:notariusDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witness></cei:witListPar><cei:diplomaticAnalysis><cei:listBibl><cei:bibl key="zotero:7RF84JH9"/><cei:bibl>Hoffmann,Sebalduskirche, 1912, S. 217, Nr. 23. (<cei:ref target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/599U8WWB">Volltitel auf Zotero</cei:ref>) </cei:bibl><cei:bibl>Weilandt, Sebalduskirche, 2007, S. 187. (<cei:ref target="http://zotero.org/groups/257864/items/7RF84JH9">Volltitel auf Zotero</cei:ref>)</cei:bibl></cei:listBibl><cei:listBiblRegest><cei:bibl/></cei:listBiblRegest><cei:listBiblFaksimile><cei:bibl/></cei:listBiblFaksimile><cei:listBiblErw><cei:bibl/></cei:listBiblErw><cei:p/><cei:quoteOriginaldatierung/><cei:nota/><cei:listBiblEdition><cei:bibl/></cei:listBiblEdition></cei:diplomaticAnalysis><cei:lang_MOM/></cei:chDesc><cei:tenor/></cei:body><cei:back><cei:persName/><cei:placeName type="Region">Frankreich (Kurie)</cei:placeName><cei:index indexName="illurk-vocabulary" lemma="Historiated">N1: historisiert</cei:index><cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index><cei:index indexName="illurk-vocabulary" lemma="Borders">N1: Randdekor</cei:index><cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: Mit zusätzlichen Farben</cei:index><cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1: gemalt</cei:index><cei:divNotes><cei:note/></cei:divNotes><cei:class/></cei:back></cei:text></atom:content></atom:entry>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+  <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1337-05-26_Nuernberg</atom:id>
+  <atom:title/>
+  <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+  <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+  <atom:author>
+    <atom:email>illuminierteurkunden@gmail.com</atom:email>
+  </atom:author>
+  <app:control xmlns:app="http://www.w3.org/2007/app">
+    <app:draft>no</app:draft>
+  </app:control>
+  <atom:content type="application/xml">
+    <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter" id="">
+      <cei:front>
+        <cei:sourceDesc>
+          <cei:sourceDescVolltext>
+            <cei:bibl/>
+          </cei:sourceDescVolltext>
+          <cei:sourceDescRegest>
+            <cei:bibl>FWF Projekt P 26706-G21 "Illuminierte Urkunden"</cei:bibl>
+          </cei:sourceDescRegest>
+        </cei:sourceDesc>
+      </cei:front>
+      <cei:body>
+        <cei:idno id="1337-05-26_Nuernberg">1337-05-26_Nuernberg</cei:idno>
+        <cei:chDesc>
+          <cei:abstract><cei:index indexName="Illurk-Urkundenart">Bischofsammelindulgenz</cei:index>
+            (12 Aussteller) für die Pfarrkirche [St. Sebald] in Nürnberg:<cei:lb/>Die Bischöfe
+                <cei:issuer><cei:persName key="P_Alamannus_Soana_1330">Alamannus von
+                Soana</cei:persName></cei:issuer> (<cei:quote type="italic">Suanensis</cei:quote>),
+                <cei:issuer><cei:persName key="P_Petrus_Cagli_1319">Petrus von
+              Cagli</cei:persName></cei:issuer> (<cei:quote type="italic">Calliensis</cei:quote>),
+                <cei:issuer><cei:persName key="P_Johannes_Vregen_1336">Johannes von
+                Vregen</cei:persName></cei:issuer> (<cei:quote type="italic"
+            >Bregerensis</cei:quote>), <cei:issuer><cei:persName key="P_Andreas_Coron_1333">Andreas
+                von Coron</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Coronensis</cei:quote>), <cei:issuer><cei:persName key="P_Petrus_MonteMarano_1331"
+                >Petrus von Monte Marano</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Montismarani</cei:quote>), <cei:issuer><cei:persName key="P_Nikolaus_Nezero_1337"
+                >Nikolaus von Nezero</cei:persName></cei:issuer> (<cei:quote type="italic"
+              >Nazariensis</cei:quote>), <cei:issuer><cei:persName
+                key="P_Dominik_PeraStadtteilvon_1336">Dominik von Pera</cei:persName></cei:issuer>
+              (<cei:quote type="italic">Perensis</cei:quote>), <cei:issuer><cei:persName
+                key="P_Raimundus_Kotor_1331">Raimundus von Kotor</cei:persName></cei:issuer>
+              (<cei:quote type="italic">Cathanensis</cei:quote>), <cei:issuer><cei:persName
+                key="P_Sergius_Pola_1331">Sergius von Pola</cei:persName></cei:issuer> (<cei:quote
+              type="italic">Pollensis</cei:quote>), <cei:issuer><cei:persName
+                key="P_Jakob_Avlona_1336">Jakob von Avlona</cei:persName></cei:issuer> (<cei:quote
+              type="italic">de Vallona</cei:quote>), <cei:issuer><cei:persName
+                key="P_Bernardus_Ganos_1337">Bernardus von Ganos</cei:persName></cei:issuer>
+              (<cei:quote type="italic">Ganensis</cei:quote>) und <cei:issuer><cei:persName
+                key="P_Paulus_Foligno_1326">Paulus von Foligno</cei:persName></cei:issuer>
+              (<cei:quote type="italic">Fulginensis</cei:quote>) erteilen all jenen einen Ablass von
+            40 Tagen (<cei:quote type="italic">misericorditer in Domino relaxamus</cei:quote>), die
+            die in der Diözese Bamberg gelegene Pfarrkirche in Nürnberg, den darin befindlichen, der
+            heiligen Maria geweihten Altar und alles andere, was sich dort befindet
+              (<cei:quote>ecclesia parrochialis in Nu<cei:sup>e</cei:sup>renberg, Bambergensis
+              diocesis, et altare beate Marie ac omnia inibi constructa et construenda</cei:quote>),
+            an bestimmten Festtagen und – soweit gegeben – in der jeweiligen Oktav reumütig und nach
+            Ablegung der Beichte besuchen und dort Morgen- und Abendmessen oder welchen
+            Messfeierlichkeiten auch immer beiwohnen, und zwar an den Festen der Patrone der Kirche,
+            am Kirchweihtag, zu Weihnachten, zu den Festen der Beschneidung und der Erscheinung des
+            Herrn, am Karfreitag, zu Ostern, Christi Himmelfahrt, Pfingsten, am Dreifaltigkeitstag,
+            zu Fronleichnam, am Kreuzauffindungstag, am Kreuzerhöhungstag, an allen
+            Marienfeiertagen, an allen Feiertagen des heiligen Johannes des Täufers, am Peter- und
+            Paulstag, zu allen Apostel- und Evangelistenfesten, an den Feiertagen des heiligen
+            Stephan, des heiligen Laurenz, des heiligen Martin, des heiligen Nikolaus, des heiligen
+            Gregor, des heiligen Augustinus, des heiligen Ambrosius, des heiligen Hieronymus, des
+            heiligen Benedikt, der heiligen Maria Magdalena, der heiligen Katharina, der heiligen
+            Margarete, der heiligen Cäcilia, der heiligne Lucia, der heiligen Agathe, der heiligen
+            Agnes, zu Allerheiligen, zu Allerseelen sowie an allen Samstagen und Sonntagen. Weiters
+            wird all jenen Ablass gewährt, die den Priester beim Versehgang begleiten, die beim
+            Abendläuten mit gebeugten Knien drei Ave Maria beten, die für den Bau, die Beleuchtung
+            und die sonstige Ausstattung der Pfarrkirche aufkommen, die der Kirche entweder
+            testamentarisch oder auf anderen Wegen Gold-, Silber- oder Kleidungsspenden zukommen
+            lassen, die beim Umgang am Friedhof für die verstorbenen Seelen beten, die ihre
+            Grabstätte auf diesem Friedhof auswählen, die bei dortigen Begräbnissen anwesend sind
+            sowie denen, die für den [nicht namentlich genannten] Impetrator der vorliegenden
+            Indulgenz, dessen Eltern und Verwandte Gebete sprechen.<cei:lb/>Markus
+            Gneiss</cei:abstract>
+          <cei:issued>
+            <cei:placeName>Avignon</cei:placeName>
+            <cei:dateRange from="13370526" to="13370526">1337-05-26</cei:dateRange>
+          </cei:issued>
+          <cei:witnessOrig>
+            <cei:traditioForm>Original</cei:traditioForm>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-05-26_Rst-Nuernberg_Urk_vor_1401_533.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-05-26_St_Sebald_Nuernberg_det-1.jpeg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-05-26_St_Sebald_Nuernberg_det-2.jpeg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-05-26_St_Sebald_Nuernberg_det-3.jpeg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-05-26_St_Sebald_Nuernberg_det-4.jpeg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-05-26_St_Sebald_Nuernberg_det-5.jpeg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-05-26_St_Sebald_Nuernberg.jpeg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-05-26_St_Sebald_Nuernberg_det.jpeg"
+              />
+            </cei:figure>
+            <cei:archIdentifier>
+              <cei:settlement>Nürnberg</cei:settlement>
+              <cei:arch>Staatsarchiv</cei:arch>
+              <cei:archFond>Mchn. Abg</cei:archFond>
+              <cei:idno>Nr. 533</cei:idno>
+            </cei:archIdentifier>
+            <cei:physicalDesc>
+              <cei:decoDesc>
+                <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar"
+                    lemma="HistorisierteAvignonerBischofsammelindulgenz">Historisierte Avignoner
+                    Bischofsammelindulgenz</cei:index>: Historisierte Initiale U(niversis) zu
+                  Textbeginn, Bildfeld unterhalb der Initiale am Rand, oberhalb des Textfeldes sowie
+                  rechts am Rand. Die Bildfelder sind zusammen mit der Initiale so verbunden, dass
+                  ein Rahmen um das Textfeld entsteht (<cei:index indexName="IllUrkGlossar"
+                    lemma="Rahmentyp">Rahmentyp</cei:index>). Drei vergrösserte Initialen mit
+                  farbigen Binnenfeldfüllungen mit Blattwerkaussparungen in der ersten Zeile sowie
+                  zwei vergrösserte einzeilige Initialen im Textblock farbig markiert.</cei:p>
+                <cei:p n="Ekphrasis">Historisierte, weit über der ersten Zeile endende Initiale zu
+                  Textbeginn: mit der Feder gezeichnet und mit Deckfarben koloriert. Im Binnenfeld
+                  stehende gekrönte Maria mit Kind vor hellem monochromen Grund, im linken Schaft
+                  kniender Beter mit leerem Schriftband in Händen, im rechten stehender Heiliger,
+                  beide vor hellem monochromen Grund. Unterhalb der Initiale heiliger Bischof in
+                  rechteckigem Bildfeld, oben im Bildstreifen Büsten von Christus, flankiert von
+                  Petrus und Paulus. Im rechten, extrem hohen Bildfeld Johannes der Täufer unter
+                  einer Spitzarkade. Beide Heilige außen stehen auf einem Postament, sodass eine
+                  räumliche Wirkung entsteht.</cei:p>
+                <cei:p n="Ekphrasis">Reste einer Malervorschreibung: „i(m)pet(ra)tor genib(us)“
+                  (über der Initiale).</cei:p>
+                <cei:p n="Stil und Einordnung">Der Ablass für St. Sebald ist ein schönes Beispiel
+                  für den <cei:index indexName="IllUrkGlossar" lemma="Rahmentyp"
+                    >Rahmentyp</cei:index>, der spätestens seit 1332 in der <cei:index
+                    indexName="IllUrkGlossar" lemma="WerkstattderAvignonerBischofsammelindulgenzen"
+                    >Werkstatt der Avignoner Bischofsammelindulgenzen</cei:index> für aufwendigen
+                  Bildschmuck verwendet wurde. Der eckige Rahmen um die U-Initiale ist so weit in
+                  den Rand hinausgezogen, dass das Bildfeld darunter eine angemessene Breite erhält.
+                  Oben freilich endet die Initiale nicht so passend für den Bildstreifen, weshalb –
+                  wie häufiger zu beobachten - ein Farbstreifen angestückt werden musste. </cei:p>
+                <cei:p n="Stil und Einordnung">Angesichts der seit 1329 zu beobachtenden <cei:index
+                    indexName="IllUrkGlossar" lemma="IkonographischeDiversifizierung"
+                    >ikonographischen Diversifizierung</cei:index> bei Avignoner Sammelablässen ist
+                  es nicht leicht, die dargestellten Heiligen zu identifizieren, zumal man sich bei
+                  der Hinzufügung von Attributen zurückhält. Gleichzeitig kommt die pragmatische
+                  Verwendung derselben <cei:index indexName="IllUrkGlossar" lemma="Vorlage"
+                    >Vorlagen</cei:index> ins Gehege: Der Heilige mit dem Hut erinnert an Jakobus
+                    <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1332-10-27_Stuttgart/charter"
+                    >1332 Oktober 27 für Hohenberg</cei:ref>, doch trägt er hier etwas wie ein Rost,
+                  was eher für Lorenz (Laurenz) sprechen würde. Der Bischof erinnert an den ersten
+                  Lokalbischof im uns bisher bekannten Bestand, <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1332-09-01_Zuerich/charter"
+                    >1332 September 1 für Zürich</cei:ref>. Ein ähnlich grosses Bildfeld mit einer
+                  Spitzarkade begegnete als einziges Randbild <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1335-10-22_Bern/charter"
+                    >1335 Oktober 22 für Bern</cei:ref>; der Johannes dort ist auch mit einem
+                  faltenreichen Umhang versehen. Bei den nicht genau zu datierenden Fragmenten eines
+                  Ablasses mit Bildrahmen in <cei:ref target="">Privatbesitz</cei:ref> ist Johannes
+                  ebenfalls der gleichen Vorlage entlehnt; auch der Bischof ist erstaunlich
+                  ähnlich.</cei:p>
+                <cei:p n="Stil und Einordnung">Die stilistische Einordnung muss noch erfolgen. Zum
+                  Zeitpunkt der Erfassung der Urkunde lag keine ausreichend gute Abbildung
+                  vor.</cei:p>
+                <cei:p n="Autorensigle">Gabriele Bartz</cei:p>
+              </cei:decoDesc>
+              <cei:material>Pergament</cei:material>
+              <cei:dimensions/>
+              <cei:condition/>
+            </cei:physicalDesc>
+            <cei:auth>
+              <cei:notariusDesc/>
+              <cei:sealDesc>alle abgefallen, 13 Seidenschnüre noch vorhanden (12 Aussteller, und –
+                ganz links am Rand – wohl ein bestätigender Bischof, der aber offenbar keine
+                Bestätigung auf die Urkunde schreiben liess).</cei:sealDesc>
+            </cei:auth>
+            <cei:nota>Arenga (Incipit): <cei:quote>Pia mater ecclesia ...
+              </cei:quote>.<cei:lb/>Vermerke: auf der Vorderseite keine sichtbar, kein Bild der
+              Rückseite vorhanden.</cei:nota>
+            <cei:rubrum/>
+          </cei:witnessOrig>
+          <cei:witListPar>
+            <cei:witness>
+              <cei:traditioForm/>
+              <cei:figure/>
+              <cei:archIdentifier/>
+              <cei:physicalDesc>
+                <cei:material/>
+                <cei:dimensions/>
+                <cei:condition/>
+              </cei:physicalDesc>
+              <cei:auth>
+                <cei:sealDesc/>
+                <cei:notariusDesc/>
+              </cei:auth>
+              <cei:nota/>
+              <cei:rubrum/>
+            </cei:witness>
+          </cei:witListPar>
+          <cei:diplomaticAnalysis>
+            <cei:listBibl>
+              <cei:bibl key="zotero:7RF84JH9"/>
+              <cei:bibl>Hoffmann,Sebalduskirche, 1912, S. 217, Nr. 23. (<cei:ref
+                  target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/599U8WWB"
+                  >Volltitel auf Zotero</cei:ref>) </cei:bibl>
+              <cei:bibl>Weilandt, Sebalduskirche, 2007, S. 187. (<cei:ref
+                  target="http://zotero.org/groups/257864/items/7RF84JH9">Volltitel auf
+                  Zotero</cei:ref>)</cei:bibl>
+            <cei:bibl>Bilderpracht und Seelenheil, 2019, S. 166f. (Nr. C 3: Gabriele Bartz, Markus
+                Gneiss) (<cei:ref
+                  target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/X8UUFYKX"
+                  >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+            </cei:listBibl>
+            <cei:listBiblRegest>
+              <cei:bibl/>
+            </cei:listBiblRegest>
+            <cei:listBiblFaksimile>
+              <cei:bibl/>
+            </cei:listBiblFaksimile>
+            <cei:listBiblErw>
+              <cei:bibl/>
+            </cei:listBiblErw>
+            <cei:p>Der Text des Ablassbriefs verweist lediglich auf die nicht näher bezeichnete
+              Pfarrkiche in Nürnberg (<cei:foreign>ecclesia parrochialis in Nuernberg</cei:foreign>)
+              und den darin befindlichen Marienaltar als begünstigten Ort: In einem St. Sebalder
+              Ablasskalender des 15. Jahrhunderts (StadtAN, A 21 Nr. 214) wird allerdings eine von
+              zwölf Bischöfen ausgestellte und auf den Marienaltar bezogene Indulgenz explizit
+              erwähnt, der Eintrag kann mit großer Wahrscheinlichkeit auf die hier präsentierte
+              Urkunde bezogen werden (Weilandt, Sebalduskirche, 2007, S. 455 mit Anm. 106). Die
+              Existenz eines Marienaltars in St. Sebald ist seit 1283 belegt. Er befand sich
+              zunächst in der Ostkrypta und wurde 1379 zum südlichen Choreingangspfeiler
+              verlegt.</cei:p>
+            <cei:p>Arenga: <cei:foreign>Pia mater ecclesia ...</cei:foreign> .</cei:p>
+            <cei:p>Markus Gneiss</cei:p>
+            <cei:quoteOriginaldatierung/>
+            <cei:nota/>
+            <cei:listBiblEdition>
+              <cei:bibl/>
+            </cei:listBiblEdition>
+          </cei:diplomaticAnalysis>
+          <cei:lang_MOM/>
+        </cei:chDesc>
+        <cei:tenor/>
+      </cei:body>
+      <cei:back>
+        <cei:persName/>
+        <cei:placeName type="Region">Frankreich (Kurie)</cei:placeName>
+        <cei:index indexName="illurk-vocabulary" lemma="Historiated">N1: historisiert</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="Initials">N1: Initiale</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="Borders">N1: Randdekor</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours">N1: Mit zusätzlichen
+          Farben</cei:index>
+        <cei:index indexName="illurk-vocabulary" lemma="ExecutionPainted">N1: gemalt</cei:index>
+        <cei:divNotes>
+          <cei:note/>
+        </cei:divNotes>
+        <cei:class/>
+      </cei:back>
+    </cei:text>
+  </atom:content>
+</atom:entry>

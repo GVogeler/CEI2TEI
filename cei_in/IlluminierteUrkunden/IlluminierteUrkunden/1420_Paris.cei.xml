@@ -32,9 +32,12 @@
           <cei:witnessOrig>
             <cei:traditioForm>Original</cei:traditioForm>
             <cei:figure/>
-            <cei:archIdentifier><cei:settlement>Paris</cei:settlement>, <cei:arch>Bibliothèque
-                nationale</cei:arch>, <cei:idno>nouv. acq. lat. </cei:idno>2544<cei:idno> <cei:note>[pièce
-                155]</cei:note></cei:idno></cei:archIdentifier>
+            <cei:archIdentifier>
+              <cei:settlement>Paris</cei:settlement>
+              <cei:arch>Bibliothèque nationale</cei:arch>
+              <cei:idno>nouv. acq. lat. 2544</cei:idno>
+              <cei:note>[pièce 155]</cei:note>
+            </cei:archIdentifier>
             <cei:physicalDesc>
               <cei:decoDesc>
                 <cei:p n="Ekphrasis">Verzierte Initiale.</cei:p>

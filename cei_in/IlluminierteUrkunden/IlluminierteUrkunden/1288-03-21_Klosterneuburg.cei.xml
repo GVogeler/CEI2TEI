@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+  <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1288-03-21_Klosterneuburg</atom:id>
+  <atom:title/>
+  <atom:published>2017-12-13T11:16:47.708Z</atom:published>
+  <atom:updated>2018-11-29T14:26:04.804Z</atom:updated>
+  <atom:author>
+    <atom:email>illuminierteurkunden@gmail.com</atom:email>
+  </atom:author>
+  <app:control xmlns:app="http://www.w3.org/2007/app">
+    <app:draft>no</app:draft>
+  </app:control>
+  <atom:content type="application/xml">
+    <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+      <cei:front>
+        <cei:sourceDesc>
+          <cei:sourceDescVolltext>
+            <cei:bibl/>
+          </cei:sourceDescVolltext>
+          <cei:sourceDescRegest>
+            <cei:bibl/>
+          </cei:sourceDescRegest>
+        </cei:sourceDesc>
+      </cei:front>
+      <cei:body>
+        <cei:idno id="1288-03-21_Klosterneuburg">1288-03-21_Klosterneuburg</cei:idno>
+        <cei:chDesc>
+          <cei:abstract><cei:index indexName="Illurk-Urkundenart"
+            >Bischofsammelindulgenz</cei:index>: Bischof Bernhard von Passau und Bischof Leopold von
+            Seckau bestätigen die von Herzogin Elisabeth, Gemahlin Herzog Albrechts (I.) von
+            Österreich und Steier, gemachte Stiftung einer täglichen Messe und eines wöchentlich
+            jeweils am Donnerstag abgehaltenen Fronleichnams-Offiziums (<cei:quote>officium de
+              corpore et sanguine Domini nostri</cei:quote>) an die neu errichtete Kapelle in
+            Klosterneuburg, für die der Propst oder jener, der an Stelle des Propstes die Messe
+            zelebriert, am Jahrestag der Kirchenweihe in der Oster-Oktav eine gute Speise
+              (<cei:quote>ferculum</cei:quote>) und eine halbe Zuteilung (<cei:quote>media
+              prebenda</cei:quote>) guten Weines erhalten soll und der Propst sorge dafür, dass
+            jeder Chorherr für ein feierliches Offizium eine Portion
+            (<cei:quote>mensura</cei:quote>) guten Weines und eine Semmel (<cei:quote>simula
+              panis</cei:quote>) erhält, und der Fronleichnamstag selbst mit einem feierlichen
+            Offizium begangen werde, wofür Propst Pabo und der Konvent des Stiftes 80 Pfund Pfennige
+            erhalten. Die Bischöfe erteilen ausserdem für den Jahrestag der Kirchenweihe einen
+            zwanzigtägigen Ablass. (nach: Monasterium: Susanne Fritsch)</cei:abstract>
+          <cei:issued>
+            <cei:placeName>Klosterneuburg</cei:placeName>
+            <cei:dateRange from="12880321" to="12880321">1288-03-21</cei:dateRange>
+          </cei:issued>
+          <cei:witnessOrig>
+            <cei:traditioForm>Original</cei:traditioForm>
+            <cei:figure/>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1288-03-21_fuer-Klosterneuburg_2_MOM-Bilddateien.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1288-03-21_fuer-Klosterneuburg_MOM-Bilddateien.jpg"
+              />
+            </cei:figure>
+            <cei:archIdentifier>
+              <cei:settlement>Klosterneuburg</cei:settlement>
+                <cei:arch>Stiftsarchiv</cei:arch>
+              <cei:archFond>Bestand Klosterneuburg</cei:archFond>
+              <cei:idno>sub dato</cei:idno>
+            </cei:archIdentifier>
+            <cei:physicalDesc>
+              <cei:decoDesc>
+                <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar" lemma=""
+                    >Bischofsammelindulgenz ausserhalb der Kurie</cei:index>: Unbedeutend
+                  vergrösserte Initiale W(ernhardus) mir minimal ausgebogter Begleitlinie (bei einer
+                  Ausfertigung einige Fadenfortsätze).</cei:p>
+                <cei:p n="Stil und Einordnung">Die Bedeutung dieser Urkunde (und der
+                  Zweitausfertigung) liegt in der Tatsache, dass Sammelindulgenzen auch ausserhalb
+                  der Kurie erteilt werden. Gerade in der Kirchenprovinz Salzburg gibt es dazu
+                  einige Beispiele: Zu nennen ist etwa eine Urkunde mit etwas Fleuronnée aus
+                    <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1233-02-20_Muenchen/charter"
+                    >1233 Februar 20</cei:ref>, eine schmucklose Urkunde, die <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1288-11-13_Muenchen/charter"
+                    >1288 November 13</cei:ref> in Salzburg ausgestellt wurde, und eine ebenso
+                  schmucklose Urkunde, ebenfalls in Salzburg am <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1288-11-11_Klosterneuburg/charter"
+                    >1288 November 11</cei:ref> ausgestellt, die jedoch für eine von Albrecht I.
+                  gestiftete Kapelle in Klosterneuburg gewährt wurde. <cei:lb/>Im hier vorliegenden
+                  Fall ist freilich mitzuberücksichtigen, dass der Ablass, der gewährt wird, nur
+                  einer unter mehreren Punkten ist, die in dem Dokument abgehandelt werden.
+                  <cei:lb/>Lukas Wolfinger behandelt diese beiden Ausfertigungen zudem im
+                  Zusammenhang wie Fürsten Ablass für ihre eigenen Interessen instrumentalisieren;
+                  der hier gefeierte Jahrtag, für den ein Ablass gewährt wird, wurde von einem
+                  Mitglied der (in Österreich neuen) Dynastie der Habsburger gestiftet und für diese
+                  wird auch gefeiert.</cei:p>
+                <cei:p n="Autorensigle">Martin Roland</cei:p>
+              </cei:decoDesc>
+              <cei:material>Pergament</cei:material>
+              <cei:dimensions/>
+              <cei:condition/>
+            </cei:physicalDesc>
+            <cei:auth><cei:notariusDesc/><cei:sealDesc>Fünf (bzw. sechs) anhängende Wachssiegel:
+              </cei:sealDesc>Bischof Bernhard von Passau, Bischof Leopold von Seckau, Abt von
+              Heiligenkreuz, Propst und Kapitel des Stiftes Klosterneuburg</cei:auth>
+            <cei:nota/>
+            <cei:rubrum/>
+          </cei:witnessOrig>
+          <cei:witListPar>
+            <cei:witness>
+              <cei:traditioForm/>
+              <cei:figure/>
+              <cei:archIdentifier/>
+              <cei:physicalDesc>
+                <cei:material/>
+                <cei:dimensions/>
+                <cei:condition/>
+              </cei:physicalDesc>
+              <cei:auth>
+                <cei:sealDesc/>
+                <cei:notariusDesc/>
+              </cei:auth>
+              <cei:nota/>
+              <cei:rubrum/>
+            </cei:witness>
+          </cei:witListPar>
+          <cei:diplomaticAnalysis>
+            <cei:listBibl>
+              <cei:bibl/>
+              <cei:bibl>Fischer, Schicksale, 2, S. 288-291, Nr. 110 (Abdruck): <cei:ref
+                  target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10136365_00296.html"
+                  >http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10136365_00296.html</cei:ref></cei:bibl>
+              <cei:bibl>Lukas Wolfinger, Fürst und Ablass: <cei:ref
+                  target="http://ostdok.de/id/BV041288909/ft/bsb00107900?page=49&amp;amp;amp;amp;amp;c=solrSearchOstdok"
+                  >http://ostdok.de/id/BV041288909/ft/bsb00107900?page=49&amp;amp;amp;c=solrSearchOstdok</cei:ref>,
+                S. 41-78, bes. S. 58f. </cei:bibl>
+              <cei:bibl/>
+              <cei:bibl>
+                <cei:ref
+                  target="http://monasterium.net/mom/AT-StiAK/KlosterneuburgCanReg/1288_III_21.1/charter"
+                  >http://monasterium.net/mom/AT-StiAK/KlosterneuburgCanReg/1288_III_21.1/charter</cei:ref>
+              </cei:bibl>
+              <cei:bibl>
+                <cei:ref
+                  target="http://monasterium.net/mom/AT-StiAK/KlosterneuburgCanReg/1288_III_21/charter"
+                  >http://monasterium.net/mom/AT-StiAK/KlosterneuburgCanReg/1288_III_21/charter</cei:ref>
+              </cei:bibl>
+            </cei:listBibl>
+            <cei:listBiblEdition>
+              <cei:bibl/>
+            </cei:listBiblEdition>
+            <cei:listBiblRegest>
+              <cei:bibl/>
+            </cei:listBiblRegest>
+            <cei:listBiblFaksimile>
+              <cei:bibl/>
+            </cei:listBiblFaksimile>
+            <cei:listBiblErw>
+              <cei:bibl/>
+            </cei:listBiblErw>
+            <cei:p/>
+            <cei:quoteOriginaldatierung>die palmarum bzw. nur
+              Jahresangabe.</cei:quoteOriginaldatierung>
+            <cei:nota/>
+          </cei:diplomaticAnalysis>
+          <cei:lang_MOM/>
+        </cei:chDesc>
+        <cei:tenor/>
+      </cei:body>
+      <cei:back>
+        <cei:class/>
+        <cei:persName/>
+        <cei:placeName type="Region">HRR</cei:placeName>
+        <cei:placeName type="Region">Österreich</cei:placeName>
+        <cei:index/>
+        <cei:divNotes>
+          <cei:note/>
+        </cei:divNotes>
+      </cei:back>
+    </cei:text>
+  </atom:content>
+</atom:entry>

@@ -1,409 +1,528 @@
 <atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
-    <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1502-99-99_Nuernberg</atom:id>
-    <atom:title/>
-    <atom:published>2018-10-25T06:51:55.661Z</atom:published>
-    <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
-    <atom:author>
-        <atom:email>illuminierteurkunden@gmail.com</atom:email>
-    </atom:author>
-    <app:control xmlns:app="http://www.w3.org/2007/app">
-        <app:draft>no</app:draft>
-    </app:control>
-    <atom:content type="application/xml">
-        <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
-            <cei:front>
-                <cei:sourceDesc>
-                    <cei:sourceDescVolltext>
-                        <cei:bibl/>
-                    </cei:sourceDescVolltext>
-                    <cei:sourceDescRegest>
-                        <cei:bibl/>
-                    </cei:sourceDescRegest>
-                </cei:sourceDesc>
-            </cei:front>
-            <cei:body>
-                <cei:idno id="1502-99-99_Nuernberg">1502-99-99_Nuernberg</cei:idno>
-                <cei:chDesc>
-                    <cei:abstract>Kardinal Raymundus Peraudi, Bischof von Gurk, Legatus a latere in
-                        "Germanien" verkündigt einen Ablass des derzeit amtierenden Papstes
-                        Alexander VI. zur Unterstützung des Kampfes gegen das Osmanische Reich
-                            (<cei:quote>contra Thurcos</cei:quote>) und stellt einen Beichtbrief
-                        aus. </cei:abstract>
-                    <cei:issued>
-                        <cei:placeName>ohne Ort (Druck: Köln, Johann Koelhoff der Ältere) </cei:placeName>
-                        <cei:dateRange from="15029999" to="15029999">1502-99-99</cei:dateRange>
-                    </cei:issued>
-                    <cei:witnessOrig>
-                        <cei:traditioForm>gedrucktes Original</cei:traditioForm>
-                        <cei:figure/>
-                        <cei:figure>
-                            <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1502-99-99_Beichtbrief_DRUCK_LK-Archiv-Nuernberg-Fen-IV-215-qu_SAM_4297.jpg"/>
-                        </cei:figure>
-                        <cei:archIdentifier><cei:settlement>Nürnberg</cei:settlement><cei:arch>Landeskirchliches Archiv der Evangelisch-Lutherischen
-                                Kirche in Bayern (LAELKB)</cei:arch><cei:idno>S2/ FenIV 4 215,
-                                Nachsatzblatt (ehemals wohl Spiegelbeklebung) eines Bandes mit 1490
-                                bis 1502 gedruckten Werken (siehe "Diplomatischer
-                                Kommentar")</cei:idno></cei:archIdentifier>
-                        <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p n="Ekphrasis">Gedruckter Beichtbrief ohne Dekor</cei:p>
-                                <cei:p n="Stil und Einordnung">Der Beichtbrief ist als
-                                    Einbandmakulatur verwendet (siehe diplomatischer Kommentar).
-                                    <cei:lb/>Die mit einem prächtigen Blindstempeleinband (siehe
-                                    diplomatischer Kommentar) eingebundenen Drucke weisen gedruckten
-                                    Dekor auf, der hier kurz erwähnt werden muss:<cei:lb/>Die
-                                        <cei:foreign>Passio Christi</cei:foreign> des Petrus
-                                    Keyerslach schliesst auf dem letzten Versoblatt mit einem
-                                    ganzseitigen Holzschnitt mit dreifiguriger Kreuzigung. An dieser
-                                    Stelle stand schon bei Johann Guldenschaffs Druck dieses Textes
-                                    von 1479 (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M16280.htm">GW M16280</cei:ref>) ein ähnlicher Holzschnitt, der aus dem
-                                    Bestand des Druckers <cei:ref target="http://tw.staatsbibliothek-berlin.de/of0611">Heinrich Quentell</cei:ref> stammen soll (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/pics//16280.jpg">http://www.gesamtkatalogderwiegendrucke.de/pics//16280.jpg</cei:ref>).
-                                    <cei:lb/>Der hier bei uns verwendete Schnitt <cei:ref target="http://images.monasterium.net/illum/IllUrk/1502-99-99_Beichtbrief_DRUCK_LK-Archiv-Nuernberg-Fen-IV-215-qu_SAM_4290.JPG">(Abb.)</cei:ref> wird von <cei:ref target="http://digi.ub.uni-heidelberg.de/diglit/schramm1924bd8/0007/image">Albert Schramm, Bilderschmuck, Bd. 8 (Die Kölner Drucker
-                                        [1924])</cei:ref>, <cei:ref target="http://digi.ub.uni-heidelberg.de/diglit/schramm1924bd8/0048/image">Abb. 40</cei:ref> verzeichnet, der ihn auf <cei:ref target="http://digi.ub.uni-heidelberg.de/diglit/schramm1924bd8/0023/image">S. 17</cei:ref> der Auflage von 1487 des hier behandelten
-                                    Texts zuweist, die von Urlich Zell veranstaltete wurde (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M16283.htm">GW M16283</cei:ref>).<cei:lb/><cei:lb/>Der 1502 datierte
-                                    Basler Druck des Paschasius (siehe diplomatischer Kommentar)
-                                    enthält zu Beginn des Haupttextes eine prächtige, rot gedruckte
-                                    Fleuronnée-Initiale <cei:ref target="http://images.monasterium.net/illum/IllUrk/1502-99-99_Beichtbrief_DRUCK_LK-Archiv-Nuernberg-Fen-IV-215-qu_SAM_4293.JPG">(Abb.)</cei:ref>. <cei:lb/>Eine stilistisch identische
-                                    E-Initiale wurde auf <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/3371105">fol. 259r</cei:ref>, dem Beginn des Commune sanctorum,
-                                    eines Missaledrucks verwendet (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M24219.htm">GW M 24219</cei:ref>: Missale Argentinense [Strassburg],
-                                    Basel, <cei:ref target="https://www.ub.unibas.ch/itb/druckerverleger/michael-wenssler/">Michael Wenssler</cei:ref> [und Jacob Wolff von
-                                    Pfoezheim?], um 1486/1490); das gleichzeitige Basler Missale
-                                        (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M24866.htm">GW M24866</cei:ref>) weist abweichenden gedruckten Dekor
-                                    auf. <cei:lb/><cei:lb/>Wenssler hat (wenn ich recht sehe)
-                                    erstmals um 1479 eine gedruckte Fleuronnée-Initiale verwendet
-                                        (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M01025.htm">GW M01025</cei:ref>), die jedoch sowohl viel kleiner als
-                                    auch stilistisch abweichend ist <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/5554194">(Abb.)</cei:ref>. <cei:lb/>Eine schwarz gedruckte Initiale
-                                    C (ohne Besatzfleuronnée) ziert den <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/4820912">Beginn</cei:ref> von Wensslers 1488 gedruckten
-                                        <cei:foreign>Forma cartarum</cei:foreign> (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M16220.htm">GW M16220</cei:ref>) und eine sehr ähnliche Initiale D die
-                                        <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/5309592">Incipitseite</cei:ref> eines <cei:foreign>Formularium
-                                        procuratorum et advocatorum Curiae Romanae</cei:foreign>
-                                        (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW10221.htm">GW 10221</cei:ref>) von 1489, dessen Zuordnung zum Basler
-                                    Drucker Michael Furter wohl zu Recht mit einem Fragezeichen
-                                    versehen ist (vgl. auch das <cei:ref target="http://tw.staatsbibliothek-berlin.de/ma04466">Typenrepertorium</cei:ref>, wo die Initiale bis 1500
-                                    nachgewiesen ist [?]). Dieselbe, diesmal rot gedruckte D-Initale
-                                    ziert nämlich die <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/8980675">Incipitseite</cei:ref> der von Wenssler gedruckten
-                                        <cei:foreign>Vigiliae mortuorum</cei:foreign> (nach dem
-                                    Gebrauch der Kirche von Mainz), die um 1490 datiert werden
-                                        (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M50436.htm">GW M50436</cei:ref>). <cei:lb/><cei:lb/>Vorlagen bei mit
-                                    der Hand gezeichnetem Fleuronnée: <cei:lb/>In einem von Wenssler
-                                    um 1483/1487 gedruckten <cei:foreign>Tractatus plurimi
-                                        iuris</cei:foreign> (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M24948.htm">GW M 24948</cei:ref>) in der Universitätsbibliothek Basel
-                                        <cei:ref target="https://www.e-rara.ch/bau_1/content/titleinfo/4820607">(No.I /:3)</cei:ref> befindet sich auf der Incipit-Seite
-                                        <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/4820612">(Abb.)</cei:ref> eine mit der Hand gezeichnete
-                                    Fleuronnée-Initiale, die den gedruckten stilistisch nahe steht
-                                    (allerdings nicht zu 100 Prozent übereinstimmt). <cei:lb/>Dieser
-                                    Florator kann in Basler Drucken mehrfach nachgewiesen werden:
-                                    <cei:lb/>Derzeit frühestes Beispiel ist ein Decretum Gratiani
-                                    Druck Wensslers (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW11362.htm">GW 11362</cei:ref>) aus dem Jahr 1481. In einem heute in
-                                    der Österreichischen Nationalbibliothek in Wien befindlichen
-                                    Exemplar (Ink. 30 23), mit einem Ex Libris Eintrag eines
-                                    Magister Johannes Leoni, befindet sich auf der incipitseite so
-                                    eine Initiale <cei:ref target="http://images.monasterium.net/illum/IllUrk/oenb_ink_30-023_bl_a1a_det.JPG">(Abb.)</cei:ref>. (Kenntnis dieser Initiale ermöglichte
-                                    eine von Armand Tif durchgeführte Durchsicht der
-                                    Inkunabelbestände der ÖNB auf "buchmalerisches" Material, die im
-                                    Rahmen der Katalogisierung illuminierter Handschriften
-                                    durchgeführt wurde.) Das Exemplar in der Zentralbibliothek in
-                                    Zürich (<cei:ref target="http://doi.org/10.3931/e-rara-58138">Ra 9</cei:ref>), das aus Kloster Rheinau stammt, weist an
-                                    derselben Stelle eine Fleuronnée-Initiale derselben Hand auf,
-                                    die sich jedoch durch die figürliche Ausgestaltung des
-                                    Buchstabenkörpers von den bisher behandelten Beispielen
-                                    unterscheidet <cei:ref target="https://www.e-rara.ch/zuz/content/pageview/15698271">(Abb.)</cei:ref>. <cei:lb/>1482 begegnet der Florator auf
-                                    der <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/4371763">Incipitseite</cei:ref> in einem Druck des Johannes Amerbach
-                                        (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M37907.htm">GW M37907</cei:ref>) in der Universitätsbibliothek Basel
-                                        <cei:ref target="https://www.e-rara.ch/bau_1/content/titleinfo/4371746">(DC IV 2)</cei:ref>. <cei:lb/>Weiters <cei:ref target="http://doi.org/10.3931/e-rara-15415">http://doi.org/10.3931/e-rara-15415</cei:ref>: Amerbach,
-                                    1485 <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/4812216">(Abb.)</cei:ref>, einer Inkunabel, die auch eine
-                                    Deckfarbeninitiale aufweist.<cei:lb/><cei:ref target="http://doi.org/10.3931/e-rara-25110">http://doi.org/10.3931/e-rara-25110</cei:ref>: Amerbach,
-                                    1487/88 <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/8874319">(Abb.)</cei:ref><cei:lb/>Wien, ÖNB, Ink. 30 79: <cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW07615.htm">GW 7615</cei:ref>: Nicolaus Kessler, um 1487/89 (ehemals
-                                    Dominikaner in Konstanz <cei:ref target="http://images.monasterium.net/illum/IllUrk/OeNB_ink_30-079_bl_aa2a_ges.jpg">(Abb.)</cei:ref>; die anderen digital verfügbaren Exemplare
-                                    weisen anderen Dekor auf.<cei:lb/>Das nächste von Wenssler
-                                    gedruckte Beispiel ist der Graduale-Druck von 1488, dessen
-                                    Incipitseite <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/2556478">(Abb.)</cei:ref> des Exemplar der UB Basel <cei:ref target="http://doi.org/10.3931/e-rara-8940">(AN VIII
-                                        57)</cei:ref> entsprechenden Fleuronnée-Dekor aufweist
-                                        (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW10978.htm">GW 10978</cei:ref>). <cei:lb/>In weiterer Folge scheint der
-                                    Florator für Johannes Amerbach tätig gewesen zu
-                                        sein:<cei:lb/><cei:ref target="http://doi.org/10.3931/e-rara-10386">http://doi.org/10.3931/e-rara-10386</cei:ref>: nicht nach
-                                    1489/90 <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/3032943">(Abb.)</cei:ref><cei:lb/><cei:ref target="http://doi.org/10.3931/e-rara-10385">http://doi.org/10.3931/e-rara-10385</cei:ref>: nicht nach
-                                    1489 <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/3032793">(Abb.)</cei:ref><cei:lb/><cei:ref target="http://doi.org/10.3931/e-rara-4611">http://doi.org/10.3931/e-rara-4611</cei:ref>: nicht nach
-                                    1490 <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/1394451">(Abb.)</cei:ref><cei:lb/>stilistisch etwas
-                                    weiterentwickelt: <cei:ref target="http://doi.org/10.3931/e-rara-14463">http://doi.org/10.3931/e-rara-14463</cei:ref>: 1492
-                                        <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/5058379">(Abb.)</cei:ref><cei:lb/><cei:ref target=" http://doi.org/10.3931/e-rara-14493">http://doi.org/10.3931/e-rara-14493</cei:ref>: 1495
-                                        <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/4510459">(Abb.)</cei:ref><cei:lb/>Das späteste Auftreten des
-                                    Florators ist derzeit in einem Druck der Briefe des hl.
-                                    Hieronymus 1497 in Antiqua gedruckt von <cei:ref target="https://www.ub.unibas.ch/itb/druckerverleger/nicolaus-kessler/">Nicolaus Kessler</cei:ref> festzustellen (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW12436.htm">GW 12436</cei:ref>). Das heute in der ÖNB in Wien
-                                    befindliche Exemplar (Ink. 30 83), das von den Minoriten aus
-                                    Villingen stammt, weist eine prächtige Fleuronnée-Initiale auf
-                                        <cei:ref target="http://images.monasterium.net/illum/IllUrk/OeNB_ink_30-083_bl_a2a_det1.jpg">(Abb.)</cei:ref>, die den spöten Druck-Initialen gut
-                                    entspricht. <cei:lb/>Im Oeuvre dieses gut belegten Basler
-                                    Florators könnte man den stilistischen Ursprung aller hier
-                                    behandelten gedruckten Fleuronnée-Initialen aus Basel vermuten.
-                                    Es steht zudem zu vermuten, dass sich dieser Florator auch in
-                                    Handschriften aus Basel wird finden lassen.
-                                    <cei:lb/><cei:lb/>Diesen handschriftlichen Vorlagen stehen die
-                                    beiden Initialen eines 1492 für die Basler Dominikaner
-                                    gedruckten Breviers (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW05224.htm">GW 5224</cei:ref>) besonders nahe. So wie bei dem Druck,
-                                    von dem der Rundblick ausging, ist das Brevier von <cei:ref target="https://www.ub.unibas.ch/itb/druckerverleger/jacob-wolff-von-pforzheim/">Jakob Wolff aus Pforzheim</cei:ref> "signiert". Auf der
-                                    Incipit-Seite befindet sich eine besonders grosse, stilistisch
-                                    zugehörige, formal aber von den anderen Drucken etwas
-                                    abweichende B(eatus vir)-Initiale <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/2679584">(Abb.)</cei:ref> und zur Commune sanctorum findet sich eine
-                                    I-Initiale, die beide zusätzlich Randdekor, wie er bei
-                                    gezeichnetem Fleuronnée üblich ist, enthalten. Der Vergleich
-                                    dieser Fadenfortsätze mit den entsprechenden gezeichneten Formen
-                                        <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/5058379">(Abb.)</cei:ref> ist frapant.<cei:lb/>Auch ein Basler
-                                    Brevier (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW05277.htm">GW 5277</cei:ref>: um 1498), das Jakob Wolff zugeordnet
-                                    werden kann, verfügt an diesen beiden Stellen über gedruckte
-                                    Fleuronnée-Initialen desselben Stils: <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/2819825">Abb.</cei:ref> und <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/2819983">Abb.</cei:ref> Diesselben Initialen auch in einem Brevier
-                                        (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW05236.htm">GW 5236</cei:ref>) von 1500. <cei:lb/>Ein vergleichbarerer
-                                    Initialbuchstabe "U" <cei:ref target="http://digital.ub.uni-duesseldorf.de/ink/content/pageview/6482330">(Abb.)</cei:ref> befindet sich im 1498 gedruckten
-                                    Sermonesband (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M22461.htm">GW M 22461</cei:ref>) und auf Blatt <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/1734037">"a iiii"</cei:ref> der 1510 gedruckten
-                                        <cei:foreign>Vigiliae maiores et minores
-                                        mortuorum</cei:foreign> (<cei:ref target="http://gateway-bayern.de/BV036127522">VD16 ZV
-                                        27068</cei:ref>); dort auch ein entsprechendes R <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/1734114">(Abb.)</cei:ref>.<cei:lb/>1501 kommen ein vergleichbar
-                                    dekoriertes C zu Beginn des Credo <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/7284746">(Abb.)</cei:ref> (und öfter) sowie ein N zum Offizium
-                                        <cei:foreign>Ad vincula Petri </cei:foreign><cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/7284878">(Abb.)</cei:ref> in Jakob Wolffs uneinheitlich
-                                    ausgestattetem Druck eines <cei:foreign>Missale
-                                        Numburgense</cei:foreign> (Naumburg) (<cei:ref target="http://doi.org/10.3931/e-rara-23514">UB Basel, RD
-                                        84</cei:ref>) vor.<cei:lb/> Bei einer 1514 Februar 17
-                                    verabschiedeten und von Jakob Wolff in Basel gedruckte
-                                        <cei:foreign>Agenda Pataviensis</cei:foreign> (Passau)
-                                        (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW00474.htm">GW 474</cei:ref>) beginnt den Text mit einem rot gedruckten
-                                    E dieser Serie <cei:ref target="http://daten.digitale-sammlungen.de/bsb00004423/image_9">(Abb.)</cei:ref>. Die <cei:foreign>Agenda secundum rubricam
-                                        ecclesiae Salisburgensis</cei:foreign> (Salzburg) von 1511
-                                        (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW00476.htm">GW 476</cei:ref>) zeigt auf der Incipitseite eine rot
-                                    gedruckte Initiale D (siehe <cei:ref target="http://tw.staatsbibliothek-berlin.de/ma04368">Typenrepertorium</cei:ref>), die denselben Stil zeigt, aber
-                                    vielleicht nicht ganz zugehörig ist <cei:ref target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10989489_00005.html">(Abb.)</cei:ref>. </cei:p>
-                                <cei:p n="Stil und Einordnung">Noch vor Jakob Wolff, den wir wegen
-                                    des Zusammenhangs mit dem handschriftlichen Material vorgezogen
-                                    haben, tritt 1486 eine Fleuronnée-Initiale bei <cei:ref target="https://www.ub.unibas.ch/itb/druckerverleger/johannes-amerbach/">Johann Amerbach</cei:ref> auf. In einem Druck der Disticha
-                                    Catonis von 1486 (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW06284.htm">GW 6284</cei:ref>) begegnet auf der Incipitseite ein
-                                    gedrucktes Fleuronnée-G <cei:ref target="http://daten.digitale-sammlungen.de/bsb00026760/image_7">(Abb.)</cei:ref>. Dies ist freilich nicht der erste Kontakt
-                                    Amerbachs mit diesem Fleuronnée-Stil, denn seit 1482 tritt
-                                    solches Fleuronnée mit der Hand gezeichnet in seinen Drucken
-                                    mitunter auf (siehe oben).</cei:p>
-                                <cei:p n="Stil und Einordnung">Auch bei <cei:ref target="https://www.ub.unibas.ch/itb/druckerverleger/michael-furter/">Michael Furter</cei:ref> kommen gedruckte
-                                    Fleuronnée-Initialen vor. Die Zuschreibung eines
-                                        <cei:foreign>Formularium procuratorum</cei:foreign> (GW
-                                    10221; siehe oben) von 1489 an Furter erscheint fraglich und
-                                    auch das <cei:foreign>Formularium procuratorum</cei:foreign>
-                                        (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW10224.htm">GW 10224</cei:ref>) von 1493 ist im GW mit einem
-                                    Fragezeichen versehen. Die gedruckten Fleuronnée-Initiale D der
-                                        <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/5248840">Incipit-Seite</cei:ref> ist eine Weiterentwicklung jener in
-                                    der Auflage von 1489 <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/5309592">(Abb.)</cei:ref> indem Besatzfleuronnée hinzugefügt wurde;
-                                    dieselbe Initiale kommt freilich auch in Drucken vor, die Furter
-                                    gesichert scheinen: 1493 in der deutschen Übersetzung von
-                                    Geoffroy de la Tours Landrys <cei:foreign>Livre pour
-                                        l'enseignement des ses filles</cei:foreign> (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M17154.htm">GW M17154</cei:ref>), wo der Textbeginn diesen Druckstock
-                                    zeigt <cei:ref target="http://daten.digitale-sammlungen.de/bsb00029711/image_7">(Abb.)</cei:ref>, alle anderen Initialen aber stilistisch
-                                    deutlich abweichen (dass an diesem Druck auch Albrecht Dürer
-                                    mitwirkte sei nur nebenbei erwähnt), und in einer um 1495
-                                    gedruckten Grammatik (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW10999.htm">GW 10999</cei:ref>) <cei:ref target="https://www.e-rara.ch/zuz/content/pageview/14224083">(Abb.)</cei:ref>. <cei:lb/>1500 druckt Furter Sebastian
-                                    Brants <cei:foreign>Expositio omnium titulorum
-                                        legalium</cei:foreign> (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW05071.htm">GW 5071</cei:ref>). Die Incipitseite ist mit einer sehr
-                                    grossen, rot gedruckten Fleuronnée-Initiale dekoriert <cei:ref target="http://digital.ub.uni-duesseldorf.de/ink/content/pageview/3362025">(Abb.)</cei:ref> und <cei:ref target="http://tw.staatsbibliothek-berlin.de/ma04483">Typenrepertorium</cei:ref>. <cei:lb/>Prominentes Beispiel
-                                    ist ein Druck der <cei:foreign>Regula "Dominus quae
-                                        pars"</cei:foreign> des Pseudo-Remigius Autissiodorensis
-                                        (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW11204.htm">GW 11204</cei:ref>), der zwischen 1501 und Furters Tod 1517
-                                    entstand. Die Incipitseite zeigt den schwarz gedrucken
-                                    Typendruck, ebenso gedruckte Randleisten und Binnen- und
-                                    Besatzfleuronnée der grossen Initiale "R", deren
-                                    Buchstabenkörper freilich - erstaunlich grob - mit der Hand
-                                    eingemalt wurde <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/1722697">(Abb.)</cei:ref>. </cei:p>
-                                <cei:p n="Stil und Einordnung">Zusammenfassend ergibt sich ein
-                                    faszinierendes Schlaglicht auf den Zusammenhang von gezeichnetem
-                                    und gedrucktem Fleuronnée. Der von Hand gefertigte Anteil ist
-                                    sicher der gebende, die gedruckten Beispiele folgen nach und
-                                    vereinfachen. Vor allem die weit von der Initiale entfernten
-                                    Fadenfortsätze werden nur ganz vereinzelt in den Druck
-                                    übernommen. <cei:lb/>Der für den hier vorgestellten
-                                    Fleuronnée-Stil verantwortliche Künstler verfügte über einen
-                                    sehr ausgeprägten Fleuronnée-Stil, der als ein prägendes
-                                    Leitmotiv Knospenspiralen aufweist. Die Knospen sind rundkopfig
-                                    und wirken wie aus dem farbigen Grund ausgespart. <cei:lb/>Die
-                                    von ihm entworfenen gedruckten Fleuronnée-Buchstaben schliessen
-                                    sich sicher zu Gruppen zusammen, doch fehlt hier noch der
-                                    Überblick. Dieser wird durch die Tatsache erschwert, dass diese
-                                    stilistisch einheitliche Gruppe von Fleuronnée-Initialen, von
-                                    verschiedenen Druckern verwendet wurde: <cei:lb/>Am Beginn
-                                    standen Michael Wenssler und Johannes Amerbach, die ab der
-                                    zweiten Hälfte der 1480er Jahre solche Buchstaben verwendeten,
-                                    kurz nachdem der Florator seine Werke erstmals handschriftlich
-                                    in Drucken der beiden Offizinen hinterlassen hatte. Während bei
-                                    Wenssler der Anteil des gedruckten Fleuronnée eindeutig
-                                    überwiegt, stehen bei Amerbach - so der vorläufige Kenntnisstand
-                                    - dutzende gezeichnete Initialen einer gedruckten
-                                    Fleuronnée-Initiale gegenüber. Amerbach scheint der Künstler
-                                    besonders nahe gestanden zu sein, denn ab kurz vor 1490 bis 1495
-                                    treten dessen handgezeichneten Buchstabendekorationen
-                                    ausschliesslich in von Amerbach gedruckten Büchern auf.
-                                    <cei:lb/>In den 1490er Jahren werden auch Jakob Wolff und
-                                    Michael Furter Kunden, die gedruckte Fleuronnée-Initialen
-                                    unseres Florators verwenden. <cei:lb/>Ob tatsächlich - wie hier
-                                    insinuiert - ein wirtschaftlich unabhängiger Fleuronnée-Künstler
-                                    von ihm entworfene Druckstöcke von Fleuronnée-Initialen an
-                                    verschiedene Drucker verlieh, soll nicht mehr (und auch nicht
-                                    weniger) als ein Denkanstoss sein. </cei:p>
-                                <cei:p n="Autorensigle">Martin Roland</cei:p>
-                            </cei:decoDesc>
-                            <cei:material>Pergament</cei:material>
-                            <cei:dimensions/>
-                            <cei:condition>Die ersten beiden Zeilen fehlen. </cei:condition>
-                        </cei:physicalDesc>
-                        <cei:auth>
-                            <cei:notariusDesc/>
-                            <cei:sealDesc/>
-                        </cei:auth>
-                        <cei:nota/>
-                        <cei:rubrum/>
-                    </cei:witnessOrig>
-                    <cei:witListPar>
-                        <cei:witness>
-                            <cei:traditioForm/>
-                            <cei:figure/>
-                            <cei:archIdentifier/>
-                            <cei:physicalDesc>
-                                <cei:material/>
-                                <cei:dimensions/>
-                                <cei:condition/>
-                            </cei:physicalDesc>
-                            <cei:auth>
-                                <cei:sealDesc/>
-                                <cei:notariusDesc/>
-                            </cei:auth>
-                            <cei:nota/>
-                            <cei:rubrum/>
-                        </cei:witness>
-                    </cei:witListPar>
-                    <cei:diplomaticAnalysis>
-                        <cei:listBibl>
-                            <cei:bibl/>
-                        </cei:listBibl>
-                        <cei:listBiblEdition>
-                            <cei:bibl/>
-                        </cei:listBiblEdition>
-                        <cei:listBiblRegest>
-                            <cei:bibl/>
-                        </cei:listBiblRegest>
-                        <cei:listBiblFaksimile>
-                            <cei:bibl/>
-                        </cei:listBiblFaksimile>
-                        <cei:listBiblErw>
-                            <cei:bibl/>
-                        </cei:listBiblErw>
-                        <cei:p>Der Beichtbrief entstammt der Ablasskampagne Peraudis im Reich von
-                            1501/02. Ein nahezu identisches Formular wurde bereits 1501 verwendet
-                                (<cei:ref target="https://books.google.at/books?id=yGlFAAAAcAAJ&amp;pg=PA58">https://books.google.at/books?id=yGlFAAAAcAAJ=PA58</cei:ref>).
-                            <cei:lb/>Es haben sich zahlreiche Einblattdrucke erhalten, der hier
-                            vorliegende konnte jedoch bisher noch nicht festgestellt
-                            werden.<cei:lb/>Für andere Ausgaben (mit Digitalisaten) siehe: <cei:ref target="https://ustc.ac.uk/index.php/record/750828">USTC
-                                750828</cei:ref>, <cei:ref target="https://ustc.ac.uk/index.php/record/750829">USTC
-                                750829</cei:ref>, <cei:ref target="https://ustc.ac.uk/index.php/record/750830">USTC
-                                750830</cei:ref>, <cei:ref target="https://ustc.ac.uk/index.php/record/750874">USTC
-                                750874</cei:ref>, <cei:ref target="https://ustc.ac.uk/index.php/record/750875">USTC
-                                750875</cei:ref>, <cei:ref target="https://ustc.ac.uk/index.php/record/750876">USTC
-                                750876</cei:ref> und <cei:ref target="https://ustc.ac.uk/index.php/record/750506">USTC
-                                750506</cei:ref>; alle Drucke weichen von Typenmaterial signifikant
-                            ab. </cei:p>
-                        <cei:p n="">Oliver Duntze von den GW (Gesamtverzeichnis der Wiegendrucke an
-                            der Staatsbibliothek zu Berlin) konnte die Drucktypen, die in dem
-                            Beichtbrief verwendet wurden, bestimmen:<cei:lb/><cei:ref target="http://tw.staatsbibliothek-berlin.de/ma04645">Type
-                                14:150G</cei:ref> bzw. die Rutunda-artige kleinere <cei:ref target="http://tw.staatsbibliothek-berlin.de/ma04646">Type
-                                17:86G</cei:ref> jeweils bei <cei:ref target="http://tw.staatsbibliothek-berlin.de/of0597">Johann Koelhoff
-                                dem Älteren (Köln, Offizin 6)</cei:ref>, die von <cei:ref target="http://tw.staatsbibliothek-berlin.de/ma04772">Johann
-                                Koelhoff dem Jüngeren (Köln, Offizin 28)</cei:ref> weiterverwendet
-                            wurden. Die Typen konnten bisher von 1480 bis 1499 bzw. 1486 bis 1494
-                            nachgewiesen werden. Mit dem hier neu aufgefundenen Druck erweitert sich
-                            die Verwendung bis 1502. </cei:p>
-                        <cei:p>Der auf Pergament gedruckte, für 1502 bestimmte Beichtbrief wurde nie
-                            ausgestellt und besiegelt und hat daher nie Rechtskraft erlangt. Er
-                            wurde vielmehr als Makulatur von einem Buchbinder verwendet, der das
-                            Blatt als Nachsatzblatt (ehemals wohl Spiegelbeklebung) eines
-                            Bucheinbandes verwendete. <cei:lb/>Dass das Blatt nicht verwendet wurde,
-                            hat wohl mit dem Loch im Pergament zu tun, das innerhalb des
-                            Satzspiegels, also der bedruckten Fläche, lag und bewirkte, dass der
-                            Text nicht vollständig abgedruckt ist und einzelne Buchstaben fehlen.
-                            <cei:lb/><cei:lb/>Die Weiterverwendung des nutzlos gewordenen
-                            Pergamentblattes geschah sehr schnell: <cei:lb/>Der späteste Druck, der
-                            mit dem Einband geschützt wurde, stammt von 1502 (siehe unten). Bereits
-                            1503 kaufte der aus Nürnberg stammende Georg Beham, damals Student in
-                            Köln, den bereits gebundenen Band um einen Gulden, wie auf dem vorderen
-                            Spiegel vermerkt ist <cei:ref target="http://images.monasterium.net/illum/IllUrk/1502-99-99_Beichtbrief_DRUCK_LK-Archiv-Nuernberg-Fen-IV-215-qu_SAM_4281.jpg">(Abb.)</cei:ref>. <cei:lb/>Der Vermerk, der wohl 1911 zu datieren
-                            ist (siehe unten), berichtet über einen älteren Vermerk auf einem
-                            abgelösten vorderen Spiegelblatt, das unter "Inc. 457.2°d" verwahrt
-                            werde. Damit ist eine "Sammelstelle für Einblattdrucke der
-                            Inkunabelzeit" bezeichnet, die in der Stadtbibliothek existierte (damals
-                            war die Fenitzer-Bibliothek in der Stadtbibliothek "zu Gast"). Sie wurde
-                            laut den Verwaltungsberichten aus dem Jahre 1911 in diesem Jahr
-                            angelegt, als Ernst Voullieme die Einblattdrucke suchte und diverse
-                            auslösen liess. Diese Sammlung ist offensichtlich ein Kriegsverlust. Im
-                            Exemplar der "Einblattdrucke des XV. Jahrhunderts" von 1914, das sich in
-                            der Stadtbibliothek befindet, wurden jedoch entsprechenden Signaturen
-                            vermerkt, sodass man einen Überblick hat, was verloren ging. Die
-                            Signatur Inc. 457d.2° findet sich leider nicht; es ist davon auszugehen,
-                            dass das Trägerblatt des Besitzvermerks zwar eine Inkunabel war, aber
-                            kein Einblatt (vielleicht ein Einzelblatt aus einem Band). (Auskunft
-                            Thilo Liebe, Caroline Grillich, Christine Sauer). <cei:lb/>Der Vermerk
-                            lautete: <cei:foreign>Iste liber emptus per me Georgium Beham de
-                                Nurinberga anno 1503 calculo et impensis constitit 1 fl. in auro
-                                obiit 1520 Junii 2 et legavit bibliothece S.
-                            Laurencii</cei:foreign>. Der Vermerk berichtet also vom Tod des Georg
-                            Beheim (Beham, Behaim, Peheim, Pehaim, Peham), Propst von St. Laurenz in
-                            Nürnberg, im Jahr 1520 und davon, dass dieser den Band (und weitere) der
-                            Bibliothek "seiner" Kirche vermachte. In der Stadtbibliothek hat sich
-                            sowohl ein Besitzvermerk Beheims von 1514 (in <cei:ref target="http://images.monasterium.net/illum/IllUrk/75_theol_2_672.jpg">Theol. 672.2°</cei:ref>) als auch entsprechende Testatsvermerke
-                                (<cei:ref target="http://images.monasterium.net/illum/IllUrk/75_theol_2_201.jpg">Theol. 201.2°</cei:ref> und <cei:ref target="http://images.monasterium.net/illum/IllUrk/75_inc_2_336.jpg">Inc. 336.2°</cei:ref>) im Original erhalten. <cei:lb/>Zu dieser
-                            Schenkung an die Bibliothek von St. Lorenz siehe die Erwähnung im
-                            Handbuch der historischen Buchbestände in Deutschland, <cei:ref target="https://books.google.at/books?id=cedOhaMrIioC">Band 12:
-                                Bayern I-R (1996)</cei:ref>, <cei:ref target="https://books.google.at/books?id=cedOhaMrIioC&amp;pg=PA170">S. 170</cei:ref> (dieser Text auch auf <cei:ref target="http://fabian.sub.uni-goettingen.de/fabian?Evangelisch-Lutherischen_Kirche_(Nuernberg)">http://fabian.sub.uni-goettingen.de/fabian?Evangelisch-Lutherischen_Kirche_(Nuernberg)</cei:ref>
-                            zugänglich). <cei:lb/>Zum Lebensweg des Nürnbergers Georg Beheim siehe
-                            Karl Bosl, <cei:ref target="https://bavarikon.de/object/UBR-BOS-00000P71XTB00018">Bosls
-                                bayerische Biographie</cei:ref>, Regensburg 1983, S. 55: seit 1482
-                            Studium in Leipzig, seit 1491 Theologiestudium in Köln, 1502 Lizentiat
-                            und Kanonikus an der Marienkirche in Mainz und ab 1513 [?] Propst in St.
-                            Lorenz. </cei:p>
-                        <cei:p><cei:lb/>Der Beichtbrief diente als Bindematerial eines Sammelbandes
-                            verschiedener Drucke, die mit einem Blindstempeleinband verbunden sind.
-                            <cei:lb/>Der Sammelband enthält: <cei:lb/>Guilelmus Alvernus,
-                                <cei:foreign>De passione Domini</cei:foreign> (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW11864.htm">GW 11864</cei:ref>: Hagenau, Heinrich Gran, 1496) <cei:lb/>Petrus
-                            Keyerslach, <cei:foreign>Passio Christi</cei:foreign> (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M16281.htm">GW M16281</cei:ref>: Köln, Johann Guldenschaff, 1490)
-                            <cei:lb/>einen Druck mit einer <cei:foreign>Passio Domini nostri Jesu
-                                Christi</cei:foreign> und Bernhardus Claravallensis, <cei:foreign>De
-                                planctu beatae Mariae virginis</cei:foreign> (wohl <cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M29618.htm">GW M29618</cei:ref>: Köln, Heinrich Quentell, um 1500)
-                            <cei:lb/>Radpertus Pascasius, <cei:foreign>Commentaria in Lamentationis
-                                Jeremiae</cei:foreign> (<cei:ref target="http://gateway-bayern.de/VD16+B+3792">VD16, B
-                            3792</cei:ref>: Basel, Jakob Wolff aus Pforzheim, 1502). <cei:lb/>Der
-                            Band wurde von der Bibliothek des Landeskirchlichen Archivs
-                                katalogisiert:<cei:lb/><cei:ref target="https://katalog.archiv-elkb.de/webOPACClient.lknsis/start.do">https://katalog.archiv-elkb.de/webOPACClient.lknsis/start.do</cei:ref>,
-                            Suchbegriff "S2/ FenIV 4 215".<cei:lb/><cei:lb/>Der original erhaltene
-                            Einband besteht aus mit braunem Leder beklebten Holzdeckeln. Das Leder
-                            ist mit blind eingeprägten Einzelstempeln verziert <cei:ref target="http://images.monasterium.net/illum/IllUrk/1502-99-99_Beichtbrief_DRUCK_LK-Archiv-Nuernberg-Fen-IV-215-qu_SAM_4280.jpg">(Abb.)</cei:ref>. Sowohl der Rundstempel mit einem Einhorn als auch
-                            der nach (heraldisch) rechts stegende Löwe sind charakteristisch. Die
-                            Einbandstempel-Datenbank (<cei:ref target="http://www.hist-einband.de">http://www.hist-einband.de</cei:ref>) verzeichnet 231 Stempel mit
-                            "Einhorn"; der hier verwendete als <cei:ref target="http://www.hist-einband.de/?wz=s012518">EBDB
-                                s012518</cei:ref> verzeichnet. Er gehört zum Stempelmaterial einer
-                            in Köln ansässigen Werkstatt: <cei:ref target="http://www.hist-einband.de/?ws=w000168">EBDB
-                                w000168</cei:ref> (Kyriss K 097: Lilie I), die ab ca. 1485 und bis
-                            1504 tätig war. Der Löwe ist als <cei:ref target="http://www.hist-einband.de/?wz=s012514">EBDB
-                                s012514</cei:ref> verzeichnet (weiters ein Blattwerkstempel in Raute
-                                <cei:ref target="http://www.hist-einband.de/?wz=s012516">EBDB
-                                s012516</cei:ref>. </cei:p>
-                        <cei:p>Kardinal Peraudi war 1502 in Köln, wie ein von ihm Anfang Mai 1502
-                            aus Köln verschicktes Schreiben eindeutig belegt: <cei:ref target="http://www.regesta-imperii.de/id/1502-05-00_1_0_14_4_1_173_19711">http://www.regesta-imperii.de/id/1502-05-00_1_0_14_4_1_173_19711</cei:ref></cei:p>
-                        <cei:p>Martin Roland</cei:p>
-                        <cei:quoteOriginaldatierung/>
-                        <cei:nota/>
-                    </cei:diplomaticAnalysis>
-                    <cei:lang_MOM/>
-                </cei:chDesc>
-                <cei:tenor/>
-            </cei:body>
-            <cei:back>
-                <cei:class/>
-                <cei:persName/>
-                <cei:placeName/>
-                <cei:index indexName="IllUrkGlossar" lemma="Druck"/>
-                <cei:divNotes>
-                    <cei:note/>
-                </cei:divNotes>
-            </cei:back>
-        </cei:text>
-    </atom:content>
+  <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1502-99-99_Nuernberg</atom:id>
+  <atom:title/>
+  <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+  <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+  <atom:author>
+    <atom:email>illuminierteurkunden@gmail.com</atom:email>
+  </atom:author>
+  <app:control xmlns:app="http://www.w3.org/2007/app">
+    <app:draft>no</app:draft>
+  </app:control>
+  <atom:content type="application/xml">
+    <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+      <cei:front>
+        <cei:sourceDesc>
+          <cei:sourceDescVolltext>
+            <cei:bibl/>
+          </cei:sourceDescVolltext>
+          <cei:sourceDescRegest>
+            <cei:bibl/>
+          </cei:sourceDescRegest>
+        </cei:sourceDesc>
+      </cei:front>
+      <cei:body>
+        <cei:idno id="1502-99-99_Nuernberg">1502-99-99_Nuernberg</cei:idno>
+        <cei:chDesc>
+          <cei:abstract>Kardinal Raymundus Peraudi, Bischof von Gurk, Legatus a latere in
+            "Germanien" verkündigt einen Ablass des derzeit amtierenden Papstes Alexander VI. zur
+            Unterstützung des Kampfes gegen das Osmanische Reich (<cei:quote>contra
+              Thurcos</cei:quote>) und stellt einen Beichtbrief aus. </cei:abstract>
+          <cei:issued>
+            <cei:placeName>ohne Ort (Druck: Köln, Johann Koelhoff der Ältere) </cei:placeName>
+            <cei:dateRange from="15029999" to="15029999">1502-99-99</cei:dateRange>
+          </cei:issued>
+          <cei:witnessOrig>
+            <cei:traditioForm>gedrucktes Original</cei:traditioForm>
+            <cei:figure/>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1502-99-99_Peraudi_DRUCK_4-Fen-IV.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1502-99-99_Beichtbrief_DRUCK_LK-Archiv-Nuernberg-Fen-IV-215-qu_SAM_4298.jpg"
+              />
+              </cei:figure>
+            <cei:archIdentifier>
+                <cei:settlement>Nürnberg</cei:settlement>
+                <cei:arch>Landeskirchliches Archiv der Evangelisch-Lutherischen Kirche in Bayern (LAELKB)</cei:arch>
+                <cei:idno>S2/ FenIV 4 215, Nachsatzblatt (ehemals wohl Spiegelbeklebung) eines Bandes mit 1490 bis 1502 gedruckten Werken (siehe "Diplomatischer Kommentar")</cei:idno>
+            </cei:archIdentifier>
+            <cei:physicalDesc>
+              <cei:decoDesc>
+                <cei:p n="Ekphrasis">Gedruckter Beichtbrief ohne Dekor</cei:p>
+                <cei:p n="Stil und Einordnung">Der Beichtbrief ist als Einbandmakulatur verwendet
+                  (siehe diplomatischer Kommentar). <cei:lb/>Die mit einem prächtigen
+                  Blindstempeleinband (siehe diplomatischer Kommentar) eingebundenen Drucke weisen
+                  gedruckten Dekor auf, der hier kurz erwähnt werden muss:<cei:lb/>Die
+                    <cei:foreign>Passio Christi</cei:foreign> des Petrus Keyerslach schliesst auf
+                  dem letzten Versoblatt mit einem ganzseitigen Holzschnitt mit dreifiguriger
+                  Kreuzigung. An dieser Stelle stand schon bei Johann Guldenschaffs Druck dieses
+                  Textes von 1479 (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/M16280.htm">GW
+                    M16280</cei:ref>) ein ähnlicher Holzschnitt, der aus dem Bestand des Druckers
+                    <cei:ref target="http://tw.staatsbibliothek-berlin.de/of0611">Heinrich
+                    Quentell</cei:ref> stammen soll (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/pics//16280.jpg"
+                    >http://www.gesamtkatalogderwiegendrucke.de/pics//16280.jpg</cei:ref>).
+                  <cei:lb/>Der hier bei uns verwendete Schnitt <cei:ref
+                    target="http://images.monasterium.net/illum/IllUrk/1502-99-99_Beichtbrief_DRUCK_LK-Archiv-Nuernberg-Fen-IV-215-qu_SAM_4290.JPG"
+                    >(Abb.)</cei:ref> wird von <cei:ref
+                    target="http://digi.ub.uni-heidelberg.de/diglit/schramm1924bd8/0007/image"
+                    >Albert Schramm, Bilderschmuck, Bd. 8 (Die Kölner Drucker [1924])</cei:ref>,
+                    <cei:ref
+                    target="http://digi.ub.uni-heidelberg.de/diglit/schramm1924bd8/0048/image">Abb.
+                    40</cei:ref> verzeichnet, der ihn auf <cei:ref
+                    target="http://digi.ub.uni-heidelberg.de/diglit/schramm1924bd8/0023/image">S.
+                    17</cei:ref> der Auflage von 1487 des hier behandelten Texts zuweist, die von
+                  Urlich Zell veranstaltete wurde (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/M16283.htm">GW
+                    M16283</cei:ref>).<cei:lb/><cei:lb/>Der 1502 datierte Basler Druck des
+                  Paschasius (siehe diplomatischer Kommentar) enthält zu Beginn des Haupttextes eine
+                  prächtige, rot gedruckte Fleuronnée-Initiale <cei:ref
+                    target="http://images.monasterium.net/illum/IllUrk/1502-99-99_Beichtbrief_DRUCK_LK-Archiv-Nuernberg-Fen-IV-215-qu_SAM_4293.JPG"
+                    >(Abb.)</cei:ref>. <cei:lb/>Eine stilistisch identische E-Initiale wurde auf
+                    <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/3371105">fol.
+                    259r</cei:ref>, dem Beginn des Commune sanctorum, eines Missaledrucks verwendet
+                    (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M24219.htm">GW
+                    M 24219</cei:ref>: Missale Argentinense [Strassburg], Basel, <cei:ref
+                    target="https://www.ub.unibas.ch/itb/druckerverleger/michael-wenssler/">Michael
+                    Wenssler</cei:ref> [und Jacob Wolff von Pfoezheim?], um 1486/1490); das
+                  gleichzeitige Basler Missale (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/M24866.htm">GW
+                    M24866</cei:ref>) weist abweichenden gedruckten Dekor auf.
+                  <cei:lb/><cei:lb/>Wenssler hat (wenn ich recht sehe) erstmals um 1479 eine
+                  gedruckte Fleuronnée-Initiale verwendet (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/M01025.htm">GW
+                    M01025</cei:ref>), die jedoch sowohl viel kleiner als auch stilistisch
+                  abweichend ist <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/5554194">(Abb.)</cei:ref>.
+                  <cei:lb/>Eine schwarz gedruckte Initiale C (ohne Besatzfleuronnée) ziert den
+                    <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/4820912"
+                    >Beginn</cei:ref> von Wensslers 1488 gedruckten <cei:foreign>Forma
+                    cartarum</cei:foreign> (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/M16220.htm">GW
+                    M16220</cei:ref>) und eine sehr ähnliche Initiale D die <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/5309592"
+                    >Incipitseite</cei:ref> eines <cei:foreign>Formularium procuratorum et
+                    advocatorum Curiae Romanae</cei:foreign> (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW10221.htm">GW
+                    10221</cei:ref>) von 1489, dessen Zuordnung zum Basler Drucker Michael Furter
+                  wohl zu Recht mit einem Fragezeichen versehen ist (vgl. auch das <cei:ref
+                    target="http://tw.staatsbibliothek-berlin.de/ma04466"
+                  >Typenrepertorium</cei:ref>, wo die Initiale bis 1500 nachgewiesen ist [?]).
+                  Dieselbe, diesmal rot gedruckte D-Initale ziert nämlich die <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/8980675"
+                    >Incipitseite</cei:ref> der von Wenssler gedruckten <cei:foreign>Vigiliae
+                    mortuorum</cei:foreign> (nach dem Gebrauch der Kirche von Mainz), die um 1490
+                  datiert werden (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/M50436.htm">GW
+                    M50436</cei:ref>). <cei:lb/><cei:lb/>Vorlagen bei mit der Hand gezeichnetem
+                  Fleuronnée: <cei:lb/>In einem von Wenssler um 1483/1487 gedruckten
+                    <cei:foreign>Tractatus plurimi iuris</cei:foreign> (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/M24948.htm">GW M
+                    24948</cei:ref>) in der Universitätsbibliothek Basel <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/titleinfo/4820607">(No.I
+                    /:3)</cei:ref> befindet sich auf der Incipit-Seite <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/4820612">(Abb.)</cei:ref>
+                  eine mit der Hand gezeichnete Fleuronnée-Initiale, die den gedruckten stilistisch
+                  nahe steht (allerdings nicht zu 100 Prozent übereinstimmt). <cei:lb/>Dieser
+                  Florator kann in Basler Drucken mehrfach nachgewiesen werden: <cei:lb/>Derzeit
+                  frühestes Beispiel ist ein Decretum Gratiani Druck Wensslers (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW11362.htm">GW
+                    11362</cei:ref>) aus dem Jahr 1481. In einem heute in der Österreichischen
+                  Nationalbibliothek in Wien befindlichen Exemplar (Ink. 30 23), mit einem Ex Libris
+                  Eintrag eines Magister Johannes Leoni, befindet sich auf der incipitseite so eine
+                  Initiale <cei:ref
+                    target="http://images.monasterium.net/illum/IllUrk/oenb_ink_30-023_bl_a1a_det.JPG"
+                    >(Abb.)</cei:ref>. (Kenntnis dieser Initiale ermöglichte eine von Armand Tif
+                  durchgeführte Durchsicht der Inkunabelbestände der ÖNB auf "buchmalerisches"
+                  Material, die im Rahmen der Katalogisierung illuminierter Handschriften
+                  durchgeführt wurde.) Das Exemplar in der Zentralbibliothek in Zürich (<cei:ref
+                    target="http://doi.org/10.3931/e-rara-58138  [Digital Object Identifier (DOI)] "
+                    >Ra 9</cei:ref>), das aus Kloster
+                  Rheinau stammt, weist an derselben Stelle eine Fleuronnée-Initiale derselben Hand
+                  auf, die sich jedoch durch die figürliche Ausgestaltung des Buchstabenkörpers von
+                  den bisher behandelten Beispielen unterscheidet <cei:ref
+                    target="https://www.e-rara.ch/zuz/content/pageview/15698271">(Abb.)</cei:ref>.
+                  <cei:lb/>1482 begegnet der Florator auf der <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/4371763"
+                    >Incipitseite</cei:ref> in einem Druck des Johannes Amerbach (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/M37907.htm">GW
+                    M37907</cei:ref>) in der Universitätsbibliothek Basel <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/titleinfo/4371746">(DC IV
+                    2)</cei:ref>. <cei:lb/>Weiters <cei:ref
+                    target="http://doi.org/10.3931/e-rara-15415"
+                    >http://doi.org/10.3931/e-rara-15415</cei:ref>: Amerbach, 1485 <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/4812216">(Abb.)</cei:ref>,
+                  einer Inkunabel, die auch eine Deckfarbeninitiale aufweist.<cei:lb/><cei:ref
+                    target="http://doi.org/10.3931/e-rara-25110"
+                    >http://doi.org/10.3931/e-rara-25110</cei:ref>: Amerbach, 1487/88 <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/8874319"
+                  >(Abb.)</cei:ref><cei:lb/>Wien, ÖNB, Ink. 30 79: <cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW07615.htm">GW
+                    7615</cei:ref>: Nicolaus Kessler, um 1487/89 (ehemals Dominikaner in Konstanz
+                    <cei:ref
+                    target="http://images.monasterium.net/illum/IllUrk/OeNB_ink_30-079_bl_aa2a_ges.jpg"
+                    >(Abb.)</cei:ref>; die anderen digital verfügbaren Exemplare weisen anderen
+                  Dekor auf.<cei:lb/>Das nächste von Wenssler gedruckte Beispiel ist der
+                  Graduale-Druck von 1488, dessen Incipitseite <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/2556478">(Abb.)</cei:ref>
+                  des Exemplar der UB Basel <cei:ref target="http://doi.org/10.3931/e-rara-8940">(AN
+                    VIII 57)</cei:ref> entsprechenden Fleuronnée-Dekor aufweist (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW10978.htm">GW
+                    10978</cei:ref>). <cei:lb/>In weiterer Folge scheint der Florator für Johannes
+                  Amerbach tätig gewesen zu sein:<cei:lb/><cei:ref
+                    target="http://doi.org/10.3931/e-rara-10386"
+                    >http://doi.org/10.3931/e-rara-10386</cei:ref>: nicht nach 1489/90 <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/3032943"
+                    >(Abb.)</cei:ref><cei:lb/><cei:ref target="http://doi.org/10.3931/e-rara-10385"
+                    >http://doi.org/10.3931/e-rara-10385</cei:ref>: nicht nach 1489 <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/3032793"
+                    >(Abb.)</cei:ref><cei:lb/><cei:ref target="http://doi.org/10.3931/e-rara-4611"
+                    >http://doi.org/10.3931/e-rara-4611</cei:ref>: nicht nach 1490 <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/1394451"
+                  >(Abb.)</cei:ref><cei:lb/>stilistisch etwas weiterentwickelt: <cei:ref
+                    target="http://doi.org/10.3931/e-rara-14463"
+                    >http://doi.org/10.3931/e-rara-14463</cei:ref>: 1492 <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/5058379"
+                    >(Abb.)</cei:ref><cei:lb/><cei:ref target=" http://doi.org/10.3931/e-rara-14493"
+                    >http://doi.org/10.3931/e-rara-14493</cei:ref>: 1495 <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/4510459"
+                  >(Abb.)</cei:ref><cei:lb/>Das späteste Auftreten des Florators ist derzeit in
+                  einem Druck der Briefe des hl. Hieronymus 1497 in Antiqua gedruckt von <cei:ref
+                    target="https://www.ub.unibas.ch/itb/druckerverleger/nicolaus-kessler/">Nicolaus
+                    Kessler</cei:ref> festzustellen (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW12436.htm">GW
+                    12436</cei:ref>). Das heute in der ÖNB in Wien befindliche Exemplar (Ink. 30
+                  83), das von den Minoriten aus Villingen stammt, weist eine prächtige
+                  Fleuronnée-Initiale auf <cei:ref
+                    target="http://images.monasterium.net/illum/IllUrk/OeNB_ink_30-083_bl_a2a_det1.jpg"
+                    >(Abb.)</cei:ref>, die den spöten Druck-Initialen gut entspricht. <cei:lb/>Im
+                  Oeuvre dieses gut belegten Basler Florators könnte man den stilistischen Ursprung
+                  aller hier behandelten gedruckten Fleuronnée-Initialen aus Basel vermuten. Es
+                  steht zudem zu vermuten, dass sich dieser Florator auch in Handschriften aus Basel
+                  wird finden lassen. <cei:lb/><cei:lb/>Diesen handschriftlichen Vorlagen stehen die
+                  beiden Initialen eines 1492 für die Basler Dominikaner gedruckten Breviers
+                    (<cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW05224.htm"
+                    >GW 5224</cei:ref>) besonders nahe. So wie bei dem Druck, von dem der Rundblick
+                  ausging, ist das Brevier von <cei:ref
+                    target="https://www.ub.unibas.ch/itb/druckerverleger/jacob-wolff-von-pforzheim/"
+                    >Jakob Wolff aus Pforzheim</cei:ref> "signiert". Auf der Incipit-Seite befindet
+                  sich eine besonders grosse, stilistisch zugehörige, formal aber von den anderen
+                  Drucken etwas abweichende B(eatus vir)-Initiale <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/2679584">(Abb.)</cei:ref>
+                  und zur Commune sanctorum findet sich eine I-Initiale, die beide zusätzlich
+                  Randdekor, wie er bei gezeichnetem Fleuronnée üblich ist, enthalten. Der Vergleich
+                  dieser Fadenfortsätze mit den entsprechenden gezeichneten Formen <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/5058379">(Abb.)</cei:ref>
+                  ist frapant.<cei:lb/>Auch ein Basler Brevier (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW05277.htm">GW
+                    5277</cei:ref>: um 1498), das Jakob Wolff zugeordnet werden kann, verfügt an
+                  diesen beiden Stellen über gedruckte Fleuronnée-Initialen desselben Stils:
+                    <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/2819825"
+                    >Abb.</cei:ref> und <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/2819983">Abb.</cei:ref>
+                  Diesselben Initialen auch in einem Brevier (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW05236.htm">GW
+                    5236</cei:ref>) von 1500. <cei:lb/>Ein vergleichbarerer Initialbuchstabe "U"
+                    <cei:ref
+                    target="http://digital.ub.uni-duesseldorf.de/ink/content/pageview/6482330"
+                    >(Abb.)</cei:ref> befindet sich im 1498 gedruckten Sermonesband (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/M22461.htm">GW M
+                    22461</cei:ref>) und auf Blatt <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/1734037">"a iiii"</cei:ref>
+                  der 1510 gedruckten <cei:foreign>Vigiliae maiores et minores
+                    mortuorum</cei:foreign> (<cei:ref target="http://gateway-bayern.de/BV036127522"
+                    >VD16 ZV 27068</cei:ref>); dort auch ein entsprechendes R <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/1734114"
+                  >(Abb.)</cei:ref>.<cei:lb/>1501 kommen ein vergleichbar dekoriertes C zu Beginn
+                  des Credo <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/7284746"
+                    >(Abb.)</cei:ref> (und öfter) sowie ein N zum Offizium <cei:foreign>Ad vincula
+                    Petri </cei:foreign><cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/7284878">(Abb.)</cei:ref>
+                  in Jakob Wolffs uneinheitlich ausgestattetem Druck eines <cei:foreign>Missale
+                    Numburgense</cei:foreign> (Naumburg) (<cei:ref
+                    target="http://doi.org/10.3931/e-rara-23514">UB Basel, RD 84</cei:ref>)
+                  vor.<cei:lb/> Bei einer 1514 Februar 17 verabschiedeten und von Jakob Wolff in
+                  Basel gedruckte <cei:foreign>Agenda Pataviensis</cei:foreign> (Passau) (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW00474.htm">GW
+                    474</cei:ref>) beginnt den Text mit einem rot gedruckten E dieser Serie <cei:ref
+                    target="http://daten.digitale-sammlungen.de/bsb00004423/image_9"
+                    >(Abb.)</cei:ref>. Die <cei:foreign>Agenda secundum rubricam ecclesiae
+                    Salisburgensis</cei:foreign> (Salzburg) von 1511 (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW00476.htm">GW
+                    476</cei:ref>) zeigt auf der Incipitseite eine rot gedruckte Initiale D (siehe
+                    <cei:ref target="http://tw.staatsbibliothek-berlin.de/ma04368"
+                    >Typenrepertorium</cei:ref>), die denselben Stil zeigt, aber vielleicht nicht
+                  ganz zugehörig ist <cei:ref
+                    target="http://reader.digitale-sammlungen.de/de/fs1/object/display/bsb10989489_00005.html"
+                    >(Abb.)</cei:ref>. </cei:p>
+                <cei:p n="Stil und Einordnung">Noch vor Jakob Wolff, den wir wegen des Zusammenhangs
+                  mit dem handschriftlichen Material vorgezogen haben, tritt 1486 eine
+                  Fleuronnée-Initiale bei <cei:ref
+                    target="https://www.ub.unibas.ch/itb/druckerverleger/johannes-amerbach/">Johann
+                    Amerbach</cei:ref> auf. In einem Druck der Disticha Catonis von 1486 (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW06284.htm">GW
+                    6284</cei:ref>) begegnet auf der Incipitseite ein gedrucktes Fleuronnée-G
+                    <cei:ref target="http://daten.digitale-sammlungen.de/bsb00026760/image_7"
+                    >(Abb.)</cei:ref>. Dies ist freilich nicht der erste Kontakt Amerbachs mit
+                  diesem Fleuronnée-Stil, denn seit 1482 tritt solches Fleuronnée mit der Hand
+                  gezeichnet in seinen Drucken mitunter auf (siehe oben).</cei:p>
+                <cei:p n="Stil und Einordnung">Auch bei <cei:ref
+                    target="https://www.ub.unibas.ch/itb/druckerverleger/michael-furter/">Michael
+                    Furter</cei:ref> kommen gedruckte Fleuronnée-Initialen vor. Die Zuschreibung
+                  eines <cei:foreign>Formularium procuratorum</cei:foreign> (GW 10221; siehe oben)
+                  von 1489 an Furter erscheint fraglich und auch das <cei:foreign>Formularium
+                    procuratorum</cei:foreign> (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW10224.htm">GW
+                    10224</cei:ref>) von 1493 ist im GW mit einem Fragezeichen versehen. Die
+                  gedruckten Fleuronnée-Initiale D der <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/5248840"
+                    >Incipit-Seite</cei:ref> ist eine Weiterentwicklung jener in der Auflage von
+                  1489 <cei:ref target="https://www.e-rara.ch/bau_1/content/pageview/5309592"
+                    >(Abb.)</cei:ref> indem Besatzfleuronnée hinzugefügt wurde; dieselbe Initiale
+                  kommt freilich auch in Drucken vor, die Furter gesichert scheinen: 1493 in der
+                  deutschen Übersetzung von Geoffroy de la Tours Landrys <cei:foreign>Livre pour
+                    l'enseignement des ses filles</cei:foreign> (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/M17154.htm">GW
+                    M17154</cei:ref>), wo der Textbeginn diesen Druckstock zeigt <cei:ref
+                    target="http://daten.digitale-sammlungen.de/bsb00029711/image_7"
+                    >(Abb.)</cei:ref>, alle anderen Initialen aber stilistisch deutlich abweichen
+                  (dass an diesem Druck auch Albrecht Dürer mitwirkte sei nur nebenbei erwähnt), und
+                  in einer um 1495 gedruckten Grammatik (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW10999.htm">GW
+                    10999</cei:ref>) <cei:ref
+                    target="https://www.e-rara.ch/zuz/content/pageview/14224083">(Abb.)</cei:ref>.
+                  <cei:lb/>1500 druckt Furter Sebastian Brants <cei:foreign>Expositio omnium
+                    titulorum legalium</cei:foreign> (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW05071.htm">GW
+                    5071</cei:ref>). Die Incipitseite ist mit einer sehr grossen, rot gedruckten
+                  Fleuronnée-Initiale dekoriert <cei:ref
+                    target="http://digital.ub.uni-duesseldorf.de/ink/content/pageview/3362025"
+                    >(Abb.)</cei:ref> und <cei:ref
+                    target="http://tw.staatsbibliothek-berlin.de/ma04483"
+                  >Typenrepertorium</cei:ref>. <cei:lb/>Prominentes Beispiel ist ein Druck der
+                    <cei:foreign>Regula "Dominus quae pars"</cei:foreign> des Pseudo-Remigius
+                  Autissiodorensis (<cei:ref
+                    target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW11204.htm">GW
+                    11204</cei:ref>), der zwischen 1501 und Furters Tod 1517 entstand. Die
+                  Incipitseite zeigt den schwarz gedrucken Typendruck, ebenso gedruckte Randleisten
+                  und Binnen- und Besatzfleuronnée der grossen Initiale "R", deren Buchstabenkörper
+                  freilich - erstaunlich grob - mit der Hand eingemalt wurde <cei:ref
+                    target="https://www.e-rara.ch/bau_1/content/pageview/1722697">(Abb.)</cei:ref>. </cei:p>
+                <cei:p n="Stil und Einordnung">Zusammenfassend ergibt sich ein faszinierendes
+                  Schlaglicht auf den Zusammenhang von gezeichnetem und gedrucktem Fleuronnée. Der
+                  von Hand gefertigte Anteil ist sicher der gebende, die gedruckten Beispiele folgen
+                  nach und vereinfachen. Vor allem die weit von der Initiale entfernten
+                  Fadenfortsätze werden nur ganz vereinzelt in den Druck übernommen. <cei:lb/>Der
+                  für den hier vorgestellten Fleuronnée-Stil verantwortliche Künstler verfügte über
+                  einen sehr ausgeprägten Fleuronnée-Stil, der als ein prägendes Leitmotiv
+                  Knospenspiralen aufweist. Die Knospen sind rundkopfig und wirken wie aus dem
+                  farbigen Grund ausgespart. <cei:lb/>Die von ihm entworfenen gedruckten
+                  Fleuronnée-Buchstaben schliessen sich sicher zu Gruppen zusammen, doch fehlt hier
+                  noch der Überblick. Dieser wird durch die Tatsache erschwert, dass diese
+                  stilistisch einheitliche Gruppe von Fleuronnée-Initialen, von verschiedenen
+                  Druckern verwendet wurde: <cei:lb/>Am Beginn standen Michael Wenssler und Johannes
+                  Amerbach, die ab der zweiten Hälfte der 1480er Jahre solche Buchstaben
+                  verwendeten, kurz nachdem der Florator seine Werke erstmals handschriftlich in
+                  Drucken der beiden Offizinen hinterlassen hatte. Während bei Wenssler der Anteil
+                  des gedruckten Fleuronnée eindeutig überwiegt, stehen bei Amerbach - so der
+                  vorläufige Kenntnisstand - dutzende gezeichnete Initialen einer gedruckten
+                  Fleuronnée-Initiale gegenüber. Amerbach scheint der Künstler besonders nahe
+                  gestanden zu sein, denn ab kurz vor 1490 bis 1495 treten dessen handgezeichneten
+                  Buchstabendekorationen ausschliesslich in von Amerbach gedruckten Büchern auf.
+                  <cei:lb/>In den 1490er Jahren werden auch Jakob Wolff und Michael Furter Kunden,
+                  die gedruckte Fleuronnée-Initialen unseres Florators verwenden. <cei:lb/>Ob
+                  tatsächlich - wie hier insinuiert - ein wirtschaftlich unabhängiger
+                  Fleuronnée-Künstler von ihm entworfene Druckstöcke von Fleuronnée-Initialen an
+                  verschiedene Drucker verlieh, soll nicht mehr (und auch nicht weniger) als ein
+                  Denkanstoss sein. </cei:p>
+                <cei:p n="Autorensigle">Martin Roland</cei:p>
+              </cei:decoDesc>
+              <cei:material>Pergament</cei:material>
+              <cei:dimensions/>
+              <cei:condition>Die ersten beiden Zeilen fehlen. </cei:condition>
+            </cei:physicalDesc>
+            <cei:auth>
+              <cei:notariusDesc/>
+              <cei:sealDesc/>
+            </cei:auth>
+            <cei:nota/>
+            <cei:rubrum/>
+          </cei:witnessOrig>
+          <cei:witListPar>
+            <cei:witness>
+              <cei:traditioForm/>
+              <cei:figure/>
+              <cei:archIdentifier/>
+              <cei:physicalDesc>
+                <cei:material/>
+                <cei:dimensions/>
+                <cei:condition/>
+              </cei:physicalDesc>
+              <cei:auth>
+                <cei:sealDesc/>
+                <cei:notariusDesc/>
+              </cei:auth>
+              <cei:nota/>
+              <cei:rubrum/>
+            </cei:witness>
+          </cei:witListPar>
+          <cei:diplomaticAnalysis>
+            <cei:listBibl>
+              <cei:bibl/>
+            <cei:bibl>Bilderpracht und Seelenheil, 2019, S. 207 (Nr. G 1: Martin Roland) (<cei:ref
+                  target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/X8UUFYKX"
+                  >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+            </cei:listBibl>
+            <cei:listBiblEdition>
+              <cei:bibl/>
+            </cei:listBiblEdition>
+            <cei:listBiblRegest>
+              <cei:bibl/>
+            </cei:listBiblRegest>
+            <cei:listBiblFaksimile>
+              <cei:bibl/>
+            </cei:listBiblFaksimile>
+            <cei:listBiblErw>
+              <cei:bibl/>
+            </cei:listBiblErw>
+            <cei:p>Der Beichtbrief entstammt der Ablasskampagne Peraudis im Reich von 1501/02. Ein
+              nahezu identisches Formular wurde bereits 1501 verwendet (<cei:ref
+                target="https://books.google.at/books?id=yGlFAAAAcAAJ&amp;pg=PA58"
+                >https://books.google.at/books?id=yGlFAAAAcAAJ=PA58</cei:ref>). <cei:lb/>Es haben
+              sich zahlreiche Einblattdrucke erhalten, der hier vorliegende konnte jedoch bisher
+              noch nicht festgestellt werden.<cei:lb/>Für andere Ausgaben (mit Digitalisaten) siehe:
+                <cei:ref target="https://ustc.ac.uk/index.php/record/750828">USTC 750828</cei:ref>,
+                <cei:ref target="https://ustc.ac.uk/index.php/record/750829">USTC 750829</cei:ref>,
+                <cei:ref target="https://ustc.ac.uk/index.php/record/750830">USTC 750830</cei:ref>,
+                <cei:ref target="https://ustc.ac.uk/index.php/record/750874">USTC 750874</cei:ref>,
+                <cei:ref target="https://ustc.ac.uk/index.php/record/750875">USTC 750875</cei:ref>,
+                <cei:ref target="https://ustc.ac.uk/index.php/record/750876">USTC 750876</cei:ref>
+              und <cei:ref target="https://ustc.ac.uk/index.php/record/750506">USTC
+              750506</cei:ref>; alle Drucke weichen von Typenmaterial signifikant ab. </cei:p>
+            <cei:p n="">Oliver Duntze von den GW (Gesamtverzeichnis der Wiegendrucke an der
+              Staatsbibliothek zu Berlin) konnte die Drucktypen, die in dem Beichtbrief verwendet
+              wurden, bestimmen:<cei:lb/><cei:ref
+                target="http://tw.staatsbibliothek-berlin.de/ma04645">Type 14:150G</cei:ref> bzw.
+              die Rutunda-artige kleinere <cei:ref
+                target="http://tw.staatsbibliothek-berlin.de/ma04646">Type 17:86G</cei:ref> jeweils
+              bei <cei:ref target="http://tw.staatsbibliothek-berlin.de/of0597">Johann Koelhoff dem
+                Älteren (Köln, Offizin 6)</cei:ref>, die von <cei:ref
+                target="http://tw.staatsbibliothek-berlin.de/ma04772">Johann Koelhoff dem Jüngeren
+                (Köln, Offizin 28)</cei:ref> weiterverwendet wurden. Die Typen konnten bisher von
+              1480 bis 1499 bzw. 1486 bis 1494 nachgewiesen werden. Mit dem hier neu aufgefundenen
+              Druck erweitert sich die Verwendung bis 1502. </cei:p>
+            <cei:p>Der auf Pergament gedruckte, für 1502 bestimmte Beichtbrief wurde nie ausgestellt
+              und besiegelt und hat daher nie Rechtskraft erlangt. Er wurde vielmehr als Makulatur
+              von einem Buchbinder verwendet, der das Blatt als Nachsatzblatt (ehemals wohl
+              Spiegelbeklebung) eines Bucheinbandes verwendete. <cei:lb/>Dass das Blatt nicht
+              verwendet wurde, hat wohl mit dem Loch im Pergament zu tun, das innerhalb des
+              Satzspiegels, also der bedruckten Fläche, lag und bewirkte, dass der Text nicht
+              vollständig abgedruckt ist und einzelne Buchstaben fehlen. <cei:lb/><cei:lb/>Die
+              Weiterverwendung des nutzlos gewordenen Pergamentblattes geschah sehr schnell:
+              <cei:lb/>Der späteste Druck, der mit dem Einband geschützt wurde, stammt von 1502
+              (siehe unten). Bereits 1503 kaufte der aus Nürnberg stammende Georg Beham, damals
+              Student in Köln, den bereits gebundenen Band um einen Gulden, wie auf dem vorderen
+              Spiegel vermerkt ist <cei:ref
+                target="http://images.monasterium.net/illum/IllUrk/1502-99-99_Beichtbrief_DRUCK_LK-Archiv-Nuernberg-Fen-IV-215-qu_SAM_4281.jpg"
+                >(Abb.)</cei:ref>. <cei:lb/>Der Vermerk, der wohl 1911 zu datieren ist (siehe
+              unten), berichtet über einen älteren Vermerk auf einem abgelösten vorderen
+              Spiegelblatt, das unter "Inc. 457.2°d" verwahrt werde. Damit ist eine "Sammelstelle
+              für Einblattdrucke der Inkunabelzeit" bezeichnet, die in der Stadtbibliothek
+              existierte (damals war die Fenitzer-Bibliothek in der Stadtbibliothek "zu Gast"). Sie
+              wurde laut den Verwaltungsberichten aus dem Jahre 1911 in diesem Jahr angelegt, als
+              Ernst Voullieme die Einblattdrucke suchte und diverse auslösen liess. Diese Sammlung
+              ist offensichtlich ein Kriegsverlust. Im Exemplar der "Einblattdrucke des XV.
+              Jahrhunderts" von 1914, das sich in der Stadtbibliothek befindet, wurden jedoch
+              entsprechenden Signaturen vermerkt, sodass man einen Überblick hat, was verloren ging.
+              Die Signatur Inc. 457d.2° findet sich leider nicht; es ist davon auszugehen, dass das
+              Trägerblatt des Besitzvermerks zwar eine Inkunabel war, aber kein Einblatt (vielleicht
+              ein Einzelblatt aus einem Band). (Auskunft Thilo Liebe, Caroline Grillich, Christine
+              Sauer). <cei:lb/>Der Vermerk lautete: <cei:foreign>Iste liber emptus per me Georgium
+                Beham de Nurinberga anno 1503 calculo et impensis constitit 1 fl. in auro obiit 1520
+                Junii 2 et legavit bibliothece S. Laurencii</cei:foreign>. Der Vermerk berichtet
+              also vom Tod des Georg Beheim (Beham, Behaim, Peheim, Pehaim, Peham), Propst von St.
+              Laurenz in Nürnberg, im Jahr 1520 und davon, dass dieser den Band (und weitere) der
+              Bibliothek "seiner" Kirche vermachte. In der Stadtbibliothek hat sich sowohl ein
+              Besitzvermerk Beheims von 1514 (in <cei:ref
+                target="http://images.monasterium.net/illum/IllUrk/75_theol_2_672.jpg">Theol.
+                672.2°</cei:ref>) als auch entsprechende Testatsvermerke (<cei:ref
+                target="http://images.monasterium.net/illum/IllUrk/75_theol_2_201.jpg">Theol.
+                201.2°</cei:ref> und <cei:ref
+                target="http://images.monasterium.net/illum/IllUrk/75_inc_2_336.jpg">Inc.
+                336.2°</cei:ref>) im Original erhalten. <cei:lb/>Zu dieser Schenkung an die
+              Bibliothek von St. Lorenz siehe die Erwähnung im Handbuch der historischen
+              Buchbestände in Deutschland, <cei:ref
+                target="https://books.google.at/books?id=cedOhaMrIioC">Band 12: Bayern I-R
+                (1996)</cei:ref>, <cei:ref
+                target="https://books.google.at/books?id=cedOhaMrIioC&amp;pg=PA170">S. 170</cei:ref>
+              (dieser Text auch auf <cei:ref
+                target="http://fabian.sub.uni-goettingen.de/fabian?Evangelisch-Lutherischen_Kirche_(Nuernberg)"
+                >http://fabian.sub.uni-goettingen.de/fabian?Evangelisch-Lutherischen_Kirche_(Nuernberg)</cei:ref>
+              zugänglich). <cei:lb/>Zum Lebensweg des Nürnbergers Georg Beheim siehe Karl Bosl,
+                <cei:ref target="https://bavarikon.de/object/UBR-BOS-00000P71XTB00018">Bosls
+                bayerische Biographie</cei:ref>, Regensburg 1983, S. 55: seit 1482 Studium in
+              Leipzig, seit 1491 Theologiestudium in Köln, 1502 Lizentiat und Kanonikus an der
+              Marienkirche in Mainz und ab 1513 [?] Propst in St. Lorenz. </cei:p>
+            <cei:p><cei:lb/>Der Beichtbrief diente als Bindematerial eines Sammelbandes
+              verschiedener Drucke, die mit einem Blindstempeleinband verbunden sind. <cei:lb/>Der
+              Sammelband enthält: <cei:lb/>Guilelmus Alvernus, <cei:foreign>De passione
+                Domini</cei:foreign> (<cei:ref
+                target="http://www.gesamtkatalogderwiegendrucke.de/docs/GW11864.htm">GW
+                11864</cei:ref>: Hagenau, Heinrich Gran, 1496) <cei:lb/>Petrus Keyerslach,
+                <cei:foreign>Passio Christi</cei:foreign> (<cei:ref
+                target="http://www.gesamtkatalogderwiegendrucke.de/docs/M16281.htm">GW
+                M16281</cei:ref>: Köln, Johann Guldenschaff, 1490) <cei:lb/>einen Druck mit einer
+                <cei:foreign>Passio Domini nostri Jesu Christi</cei:foreign> und Bernhardus
+              Claravallensis, <cei:foreign>De planctu beatae Mariae virginis</cei:foreign> (wohl
+                <cei:ref target="http://www.gesamtkatalogderwiegendrucke.de/docs/M29618.htm">GW
+                M29618</cei:ref>: Köln, Heinrich Quentell, um 1500) <cei:lb/>Radpertus Pascasius,
+                <cei:foreign>Commentaria in Lamentationis Jeremiae</cei:foreign> (<cei:ref
+                target="http://gateway-bayern.de/VD16+B+3792">VD16, B 3792</cei:ref>: Basel, Jakob
+              Wolff aus Pforzheim, 1502). <cei:lb/>Der Band wurde von der Bibliothek des
+              Landeskirchlichen Archivs katalogisiert:<cei:lb/><cei:ref
+                target="https://katalog.archiv-elkb.de/webOPACClient.lknsis/start.do"
+                >https://katalog.archiv-elkb.de/webOPACClient.lknsis/start.do</cei:ref>, Suchbegriff
+              "S2/ FenIV 4 215".<cei:lb/><cei:lb/>Der original erhaltene Einband besteht aus mit
+              braunem Leder beklebten Holzdeckeln. Das Leder ist mit blind eingeprägten
+              Einzelstempeln verziert <cei:ref
+                target="http://images.monasterium.net/illum/IllUrk/1502-99-99_Beichtbrief_DRUCK_LK-Archiv-Nuernberg-Fen-IV-215-qu_SAM_4280.jpg"
+                >(Abb.)</cei:ref>. Sowohl der Rundstempel mit einem Einhorn als auch der nach
+              (heraldisch) rechts stegende Löwe sind charakteristisch. Die Einbandstempel-Datenbank
+                (<cei:ref target="http://www.hist-einband.de">http://www.hist-einband.de</cei:ref>)
+              verzeichnet 231 Stempel mit "Einhorn"; der hier verwendete als <cei:ref
+                target="http://www.hist-einband.de/?wz=s012518">EBDB s012518</cei:ref> verzeichnet.
+              Er gehört zum Stempelmaterial einer in Köln ansässigen Werkstatt: <cei:ref
+                target="http://www.hist-einband.de/?ws=w000168">EBDB w000168</cei:ref> (Kyriss K
+              097: Lilie I), die ab ca. 1485 und bis 1504 tätig war. Der Löwe ist als <cei:ref
+                target="http://www.hist-einband.de/?wz=s012514">EBDB s012514</cei:ref> verzeichnet
+              (weiters ein Blattwerkstempel in Raute <cei:ref
+                target="http://www.hist-einband.de/?wz=s012516">EBDB s012516</cei:ref>. </cei:p>
+            <cei:p>Kardinal Peraudi war 1502 in Köln, wie ein von ihm Anfang Mai 1502 aus Köln
+              verschicktes Schreiben eindeutig belegt: <cei:ref
+                target="http://www.regesta-imperii.de/id/1502-05-00_1_0_14_4_1_173_19711"
+                >http://www.regesta-imperii.de/id/1502-05-00_1_0_14_4_1_173_19711</cei:ref></cei:p>
+            <cei:p>Martin Roland</cei:p>
+            <cei:quoteOriginaldatierung/>
+            <cei:nota/>
+          </cei:diplomaticAnalysis>
+          <cei:lang_MOM/>
+        </cei:chDesc>
+        <cei:tenor/>
+      </cei:body>
+      <cei:back>
+        <cei:class/>
+        <cei:persName/>
+        <cei:placeName type="Region">HRR</cei:placeName>
+        <cei:index indexName="IllUrkGlossar" lemma="Druck"/>
+        <cei:divNotes>
+          <cei:note/>
+        </cei:divNotes>
+      </cei:back>
+    </cei:text>
+  </atom:content>
 </atom:entry>

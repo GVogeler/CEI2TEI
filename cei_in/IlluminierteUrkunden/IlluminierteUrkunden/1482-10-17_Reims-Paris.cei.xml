@@ -57,7 +57,7 @@
                             <cei:altIdentifier>
                                 <cei:settlement>Paris</cei:settlement>
                                 <cei:arch>Bibliothèque nationale de France</cei:arch> 
-                                <cei:note>Ink. 2.</cei:note>
+                                <cei:idno>Ink. 2.</cei:idno>
                                 <cei:note>(nach Fournier)</cei:note>
                             </cei:altIdentifier>
                         </cei:archIdentifier>

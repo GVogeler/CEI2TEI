@@ -56,8 +56,11 @@
                         <cei:figure>
                             <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1021-10-14_Clermont.jpg"/>
                         </cei:figure>
-                        <cei:archIdentifier><cei:settlement>Clermont-Ferrand</cei:settlement><cei:arch>Archives départementales du Puy-de-Dôme</cei:arch><cei:idno>3 G, armoire 18, sac A, cote
-                            14</cei:idno></cei:archIdentifier>
+                        <cei:archIdentifier>
+                            <cei:settlement>Clermont-Ferrand</cei:settlement>
+                            <cei:arch>Archives départementales du Puy-de-Dôme</cei:arch>
+                            <cei:idno>3 G, armoire 18, sac A, cote 14</cei:idno>
+                        </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>
                                 <cei:p n="Ekphrasis">Eine Ausstellerbüste vor dem Kreuzzeichen
