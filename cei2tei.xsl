@@ -97,15 +97,17 @@
                                 corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
                                 Informationsmodellierung - Austrian Centre for Digital Humanities,
                                 Karl-Franzens-Universität Graz</orgName>
+                            <!-- old id is included in the new id -->
+                            <idno type="PID" resp="https://illuminierte-urkunden.uni-graz.at/">
+                                <xsl:value-of
+                                    select="normalize-space(concat('o:cord.IU.',//cei:body/cei:idno))"
+                                />
+                            </idno>
                         </publisher>
                         <distributor>
                             <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
                                 Asset Management System</orgName>
-                            <idno type="PID" resp="https://illuminierte-urkunden.uni-graz.at/">
-                                    o:cord.IU.<xsl:value-of
-                                    select="concat(replace(substring-before(//cei:body/cei:idno, '_'), '-', ''), '_', substring-after(//cei:body/cei:idno, '_'))"
-                                />
-                            </idno>
+                          
                         </distributor>
                         <availability>
                             <p>All texts and pictures are protected according to national copyrights
@@ -149,6 +151,17 @@
                             <!-- Nested bbibl elements in SourceDescRegest -->
                             <xsl:apply-templates select="cei:bibl"/>
                         </xsl:for-each>
+                        <!-- Hier wird der atom:link erhalten mit bibl type version: Gut Idee? -->
+                        <xsl:if test="//atom:link">
+                            <bibl type="version">
+                                <ref><xsl:attribute name="target">
+                                   <xsl:text>http://monasterium.net/mom/</xsl:text>
+                                    <xsl:value-of select="substring-after(//atom:link/@ref, 'charter/')"/>
+                                   <xsl:text>/charter</xsl:text>
+                                </xsl:attribute></ref>
+                            </bibl>
+                 
+                        </xsl:if>
                         <listWit>
                             <xsl:call-template name="original_witness"/>
                             <xsl:if test="//cei:chDesc/cei:witListPar//*[. != '']">
@@ -245,8 +258,17 @@
             </xsl:if>
           
             <text>
-                <body>
-                     <xsl:apply-templates select="cei:body"/>
+                <body><xsl:choose>
+                    <xsl:when test="//cei:body = ''">
+                        <div type="tenor">
+                        <p/>
+                        </div>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:apply-templates select="//cei:body"/>
+                    </xsl:otherwise>
+                </xsl:choose>                    
+
                 </body>
             </text>
         </TEI>
@@ -1036,41 +1058,34 @@
         </p>
     </xsl:template>
     <xsl:template name="keywords">
-        <keywords><!-- Nebensammlungen become contexts -->
-            <xsl:if test="$nebensammlungen != ''">
-                <xsl:for-each select="$nebensammlungen">
-                    <xsl:variable name="nebensammlung" select="substring-after(sammlung, 'IlluminierteUrkunden')"></xsl:variable>
-                    <term><ref target="context:cord.{$nebensammlung}" type="context"><xsl:value-of select="$nebensammlung"/></ref></term>
-                </xsl:for-each>
-                
-            </xsl:if>
+        <keywords>
             <xsl:choose>                
                 <xsl:when test="@indexName = 'Illurk-Urkundenart'">
                     <xsl:variable name="urkart">
                         <xsl:choose>
                             <xsl:when test="starts-with(normalize-space(.), 'Bischofsammel')">
-                                <xsl:text>Bischofsammelindulgenz</xsl:text>
+                                <xsl:text>bischofsammelindulgenz</xsl:text>
                             </xsl:when>
                             <xsl:when test="starts-with(normalize-space(.), 'Schmäh')">
-                                <xsl:text>Schmaehbrief</xsl:text>
+                                <xsl:text>schmaehbrief</xsl:text>
                             </xsl:when>
                             <xsl:when test="starts-with(normalize-space(.), 'Notarsinstrument')">
-                                <xsl:text>Notarsinstrument</xsl:text>
+                                <xsl:text>notarsinstrument</xsl:text>
                             </xsl:when>
                             <xsl:when test="starts-with(normalize-space(.), 'Sammelindulgenz')">
-                                <xsl:text>Sammelindulgenz</xsl:text>
+                                <xsl:text>sammelindulgenz</xsl:text>
                             </xsl:when>
                             <xsl:when test="starts-with(normalize-space(.), 'Prunksupplik')">
-                                <xsl:text>Prunksupplik</xsl:text>
+                                <xsl:text>prunksupplik</xsl:text>
                             </xsl:when>
                             <xsl:when test="starts-with(normalize-space(.), 'Notariatsakt')">
-                                <xsl:text>Notariatsakt</xsl:text>
+                                <xsl:text>notariatsakt</xsl:text>
                             </xsl:when>
                             <xsl:when test="starts-with(normalize-space(.), 'Wappenbrief')">
-                                <xsl:text>Wappenbrief</xsl:text>
+                                <xsl:text>wappenbrief</xsl:text>
                             </xsl:when>
                             <xsl:when test="starts-with(normalize-space(.), 'Kardinalsammel')">
-                                <xsl:text>Kardinalsammelindulgenz</xsl:text>
+                                <xsl:text>kardinalsammelindulgenz</xsl:text>
                             </xsl:when>                                 
                         </xsl:choose>
                     </xsl:variable>               
@@ -1084,7 +1099,6 @@
                     <xsl:attribute name="scheme">
                         <xsl:value-of select="@indexName"/>
                     </xsl:attribute>
-                    
                     <xsl:for-each select="current-group()">
                         <term>
                             <xsl:if test="@lemma">
@@ -1096,7 +1110,14 @@
                         </term>
                     </xsl:for-each>
                 </xsl:otherwise>
-            </xsl:choose>          
+            </xsl:choose>
+            <!-- Nebensammlungen become contexts -->
+            <xsl:if test="$nebensammlungen != ''">
+                <xsl:for-each select="$nebensammlungen">
+                    <xsl:variable name="nebensammlung" select="substring-after(sammlung, 'IlluminierteUrkunden')"></xsl:variable>
+                    <term><ref target="context:cord.{$nebensammlung}" type="context"><xsl:value-of select="$nebensammlung"/></ref></term>
+                </xsl:for-each>                
+            </xsl:if>
         </keywords>
     </xsl:template>
     <xsl:template name="list_people">
