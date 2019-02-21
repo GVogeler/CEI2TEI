@@ -1,1 +1,213 @@
-<atom:entry xmlns:atom="http://www.w3.org/2005/Atom"><atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1337-04-29_Nuernberg</atom:id><atom:title/><atom:published>2018-10-25T06:51:55.661Z</atom:published><atom:updated>2018-10-25T06:51:55.661Z</atom:updated><atom:author><atom:email>illuminierteurkunden@gmail.com</atom:email></atom:author><app:control xmlns:app="http://www.w3.org/2007/app"><app:draft>no</app:draft></app:control><atom:content type="application/xml"><cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter"><cei:front><cei:sourceDesc><cei:sourceDescVolltext><cei:bibl/></cei:sourceDescVolltext><cei:sourceDescRegest><cei:bibl/></cei:sourceDescRegest></cei:sourceDesc></cei:front><cei:body><cei:idno id="1337-04-29_Nuernberg">1337-04-29_Nuernberg</cei:idno><cei:chDesc><cei:abstract>Donaldus, Abt des zur Diözese Bamberg gehörigen Benediktinerklosters St. Ägidius in Nürnberg (<cei:quote>abbas monasterii sancti Egidii in Nuremberg ordinis sancti Benedicti, Bawnbergensis dyocesis</cei:quote>) vidimiert eine besiegelte Urkunde (<cei:quote>litteras sigillatas</cei:quote>) mehrerer Bischöfe (<cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1336-12-29_Nuernberg/charter">1336 Dezember 29</cei:ref>, Avignon), und zwar wie folgt: <cei:lb/>Erzbischof <cei:issuer><cei:persName key="P_Guillelmus_Bar_1324">Guillelmus von Bar</cei:persName></cei:issuer> (<cei:quote>Antibarensis</cei:quote>), <cei:issuer><cei:persName key="P_Alamannus_Soana_1330">Alamannus von Soana</cei:persName></cei:issuer> (<cei:quote>Suanensis</cei:quote>), <cei:issuer><cei:persName key="P_Ricardus_Scurschi_1333">Ricardus von Scurschi</cei:persName></cei:issuer> (<cei:quote>Certeonensis</cei:quote>), <cei:issuer><cei:persName key="P_Thomas_Lavata_1330">Thomas von Lavata</cei:persName></cei:issuer> (<cei:quote>Lavetiensis</cei:quote>, unsicher, aus Eubel nicht lokalisierbar), <cei:issuer><cei:persName key="P_Johannes_Terralba_1332">Johannes von Terralba</cei:persName></cei:issuer> (<cei:quote>Terrealbensis</cei:quote>), <cei:issuer><cei:persName key="P_Philipp_Salona_1332">Philipp von Salona</cei:persName></cei:issuer> (<cei:quote>Salonensis</cei:quote>), <cei:issuer><cei:persName key="P_Raimundus_Kotor_1331">Raimundus von Kotor</cei:persName></cei:issuer> (<cei:quote>Catharensis</cei:quote>), <cei:issuer><cei:persName key="P_Nikolaus_Karpathos_1326">Nikolaus von Karpathos</cei:persName></cei:issuer> (<cei:quote>Scarpatensis</cei:quote>) und <cei:issuer><cei:persName key="P_Gorzias_Belluno-Feltre_1327">Gorzias von Belluno-Feltre</cei:persName></cei:issuer> (<cei:quote>Feltrensis</cei:quote>) erteilen all jenen einen Ablass von 40 Tagen (<cei:quote>misericorditer in Domino relaxamus</cei:quote>), die das in der Diözese Bamberg gelegene und neben dem Fluss Pegnitz befindliche Heilig-Geist-Spitals in Nürnberg (<cei:quote>hospitale sancti Spiritus situm in opido Nuerembergensis iuxta fluvium Pegnitz, Bawenbergensis dyocesis</cei:quote>) reumütig und nach Ablegung der Beichte besuchen und dort dem allerheiligsten Corpus Christi am Sonntag in der Fronleichnamsoktav, wenn es in der Prozession durch den Kreuzgang des genannten Spitals getragen und in Pfarrkirchen, Klosterkirchen oder anderen Kirchen der genannten Stadt niedergelegt wird, barfuss oder kerzentragend ehrerbietig folgen. Weiters wird außerdem jenen ein Ablass erteilt, die am Jahrtag des Stifters dieses Spitals und in den sieben darauffolgenden Tagen für das Seelenheil desselben und von dessen Vorfahren beten und am achten Tag, während die Kranken die Kommunion empfangen, bei Messen und Vigilien anwesend sind, die am Jahrtag die Totenmesse oder die Totenvigil, die sieben Bußpsalmen, das Vater Unser, das Ave Maria oder andere Gebete und Fürbitten für das Seelenheil des genannten Stifters oder von dessen Vorfahren selbst lesen bzw. sprechen oder hören. Außerdem erhalten all jene Ablass, die die Kapelle des genannten Spitals zu Pfingsten, am Feiertag des heiligen Geistes, zu Weihnachten, Ostern, Christi Himmelfahrt, Mariä Himmelfahrt und Empfängnis, an den Feiertagen der zwölf Apostel, am Gründonnerstag und am Karfreitag besuchen und dort Messen beiwohnen sowie jenen, die für die Kranken und anderen beklagenswerten im Spital verweilenden Personen, für den Bau und die Erhaltung des genannten Spitals sowie für andere liturgische Notwendigkeiten, für die Vermehrung der Einnahmen des Spitals und für die Nahrung der Armen und Kranken Almosen geben und das alles unterstützen. <cei:lb/>Das Vidimus umfasst auch die Bestätigung durch den Bamberger Lokalbischof (1337 Februar 24, Bamberg): Bischof Leopold von Bamberg bestätigt die obige Indulgenz und fügt weitere 40 Tage Ablass hinzu. <cei:lb/>Markus Gneiss</cei:abstract><cei:issued><cei:placeName>Nürnberg</cei:placeName><cei:dateRange from="13370429" to="13370429">1337-04-29</cei:dateRange></cei:issued><cei:witnessOrig><cei:traditioForm>Original</cei:traditioForm><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1337-04-29_I_1_Stadtarchiv-Nuernberg_A1_klein.jpg"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1337-04-29_II_1_Stadtarchiv-Nuernberg_A1_klein.jpg"/></cei:figure><cei:archIdentifier><cei:settlement>Nürnberg</cei:settlement>,<cei:arch>Stadtarchiv</cei:arch>,<cei:archFond>Urkundenreihe (A1)</cei:archFond>,<cei:idno>sub dato</cei:idno> (zwei Ausfertigungen)</cei:archIdentifier><cei:physicalDesc><cei:decoDesc><cei:p>Stark vergrösserte, zwei Zeilen in den Text eingelassene rote Lombarde N(os) mit ornamental spiralig angelegtem Fleuronnée im Binnenfeld und begleitender Perlreihe aussen in der Schreibertinte (?). Sechs Oberlängen der ersten Zeile ebenfalls aussen mit beleitender Perlreihe, die Binnenfelder abwechselnd mit aus der Tintenfarbe ausgesparten Gesichtern, einem Vogelmonster und floralen Motiven.Im Textfeld einige Initialen rot angestrichen. </cei:p><cei:p n="Stil und Einordnung">Wegen des stark querrechteckigen Formats ist das Textfeld recht kurz, deshalb wirkt die nur wenig in den linken Rand hineinragende, sorgfältig gezeichnete Initiale besonders feierlich. Ganz anders dann die lutstigen Profilgesichter in den Oberlängen, die einander zugewandt den festlichen Charakter der Urkunde mit ihrem Schabernack konterkarieren. In einfacherer Form finden sich Profilgesichter in den Oberlängen auch bei <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1334-05-18_Nuernberg/charter">1334 Mai 18</cei:ref>, einem Ablass für das Heilig-Geist-Spital.</cei:p><cei:p n="Autorensigle">Gabriele Bartz</cei:p></cei:decoDesc><cei:material>Pergament</cei:material><cei:dimensions><cei:height>64,8</cei:height> x <cei:width>28,5</cei:width>cm</cei:dimensions><cei:condition/></cei:physicalDesc><cei:auth><cei:notariusDesc/><cei:sealDesc>Abt Donaldus von St. Ägidius und Heilig-Geist-Spital in Nürnberg, beide Siegel an Seidenschnüren. Bei einer Ausfertigung (I_1) scheinen die Seidenschnüre stärker ausgebleicht zu sein als bei der anderen.</cei:sealDesc></cei:auth><cei:nota/><cei:rubrum/></cei:witnessOrig><cei:witListPar><cei:witness><cei:traditioForm/><cei:figure/><cei:archIdentifier/><cei:physicalDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:sealDesc/><cei:notariusDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witness></cei:witListPar><cei:diplomaticAnalysis><cei:listBibl><cei:bibl>Archivdatenbank: <cei:ref target="http://online-service2.nuernberg.de/stadtarchiv/dosuche.FAU?sid=57FC84088&amp;dm=2=1">http://online-service2.nuernberg.de/stadtarchiv/dosuche.FAU?sid=57FC84088=2=1</cei:ref>: Suchbegriff: "Avignon" und "Donald".</cei:bibl></cei:listBibl><cei:listBiblEdition><cei:bibl/></cei:listBiblEdition><cei:listBiblRegest><cei:bibl/></cei:listBiblRegest><cei:listBiblFaksimile><cei:bibl/></cei:listBiblFaksimile><cei:listBiblErw><cei:bibl/></cei:listBiblErw><cei:p>Arenga: <cei:quote>Quoniam, ut ait apostolus</cei:quote> ... .</cei:p><cei:p>Zur ausgefertigten Urkunde aus Avignon siehe <cei:ref target="http://monasterium.net/mom/IlluminierteUrkunden/1336-12-29_Nuernberg/charter">1336 Dezember 29, Avignon</cei:ref>. Siehe dort auch den diplomatischen Kommentar.</cei:p><cei:p>Markus Gneiss</cei:p><cei:quoteOriginaldatierung/><cei:nota/></cei:diplomaticAnalysis><cei:lang_MOM/></cei:chDesc><cei:tenor/></cei:body><cei:back><cei:class/><cei:persName/><cei:placeName type="Region">Frankreich (Kurie)</cei:placeName><cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials"/><cei:index indexName="illurk-vocabulary" lemma="Fleuronne"/><cei:index indexName="illurk-vocabulary" lemma="DrawnDecoration-not-historiated"/><cei:index indexName="illurk-vocabulary" lemma="figural"/><cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours"/><cei:divNotes><cei:note/></cei:divNotes></cei:back></cei:text></atom:content></atom:entry>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+  <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1337-04-29_Nuernberg</atom:id>
+  <atom:title/>
+  <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+  <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+  <atom:author>
+    <atom:email>illuminierteurkunden@gmail.com</atom:email>
+  </atom:author>
+  <app:control xmlns:app="http://www.w3.org/2007/app">
+    <app:draft>no</app:draft>
+  </app:control>
+  <atom:content type="application/xml">
+    <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+      <cei:front>
+        <cei:sourceDesc>
+          <cei:sourceDescVolltext>
+            <cei:bibl/>
+          </cei:sourceDescVolltext>
+          <cei:sourceDescRegest>
+            <cei:bibl/>
+          </cei:sourceDescRegest>
+        </cei:sourceDesc>
+      </cei:front>
+      <cei:body>
+        <cei:idno id="1337-04-29_Nuernberg">1337-04-29_Nuernberg</cei:idno>
+        <cei:chDesc>
+          <cei:abstract>Donaldus, Abt des zur Diözese Bamberg gehörigen Benediktinerklosters St.
+            Ägidius in Nürnberg (<cei:quote>abbas monasterii sancti Egidii in Nuremberg ordinis
+              sancti Benedicti, Bawnbergensis dyocesis</cei:quote>) vidimiert eine besiegelte
+            Urkunde (<cei:quote>litteras sigillatas</cei:quote>) mehrerer Bischöfe (<cei:ref
+              target="http://monasterium.net/mom/IlluminierteUrkunden/1336-12-29_Nuernberg/charter"
+              >1336 Dezember 29</cei:ref>, Avignon), und zwar wie folgt: <cei:lb/>Erzbischof
+                <cei:issuer><cei:persName key="P_Guillelmus_Bar_1324">Guillelmus von
+                Bar</cei:persName></cei:issuer> (<cei:quote>Antibarensis</cei:quote>),
+                <cei:issuer><cei:persName key="P_Alamannus_Soana_1330">Alamannus von
+                Soana</cei:persName></cei:issuer> (<cei:quote>Suanensis</cei:quote>),
+                <cei:issuer><cei:persName key="P_Ricardus_Scurschi_1333">Ricardus von
+                Scurschi</cei:persName></cei:issuer> (<cei:quote>Certeonensis</cei:quote>),
+                <cei:issuer><cei:persName key="P_Thomas_Lavata_1330">Thomas von
+                Lavata</cei:persName></cei:issuer> (<cei:quote>Lavetiensis</cei:quote>, unsicher,
+            aus Eubel nicht lokalisierbar), <cei:issuer><cei:persName key="P_Johannes_Terralba_1332"
+                >Johannes von Terralba</cei:persName></cei:issuer>
+              (<cei:quote>Terrealbensis</cei:quote>), <cei:issuer><cei:persName
+                key="P_Philipp_Salona_1332">Philipp von Salona</cei:persName></cei:issuer>
+              (<cei:quote>Salonensis</cei:quote>), <cei:issuer><cei:persName
+                key="P_Raimundus_Kotor_1331">Raimundus von Kotor</cei:persName></cei:issuer>
+              (<cei:quote>Catharensis</cei:quote>), <cei:issuer><cei:persName
+                key="P_Nikolaus_Karpathos_1326">Nikolaus von Karpathos</cei:persName></cei:issuer>
+              (<cei:quote>Scarpatensis</cei:quote>) und <cei:issuer><cei:persName
+                key="P_Gorzias_Belluno-Feltre_1327">Gorzias von
+              Belluno-Feltre</cei:persName></cei:issuer> (<cei:quote>Feltrensis</cei:quote>)
+            erteilen all jenen einen Ablass von 40 Tagen (<cei:quote>misericorditer in Domino
+              relaxamus</cei:quote>), die das in der Diözese Bamberg gelegene und neben dem Fluss
+            Pegnitz befindliche Heilig-Geist-Spitals in Nürnberg (<cei:quote>hospitale sancti
+              Spiritus situm in opido Nuerembergensis iuxta fluvium Pegnitz, Bawenbergensis
+              dyocesis</cei:quote>) reumütig und nach Ablegung der Beichte besuchen und dort dem
+            allerheiligsten Corpus Christi am Sonntag in der Fronleichnamsoktav, wenn es in der
+            Prozession durch den Kreuzgang des genannten Spitals getragen und in Pfarrkirchen,
+            Klosterkirchen oder anderen Kirchen der genannten Stadt niedergelegt wird, barfuss oder
+            kerzentragend ehrerbietig folgen. Weiters wird außerdem jenen ein Ablass erteilt, die am
+            Jahrtag des Stifters dieses Spitals und in den sieben darauffolgenden Tagen für das
+            Seelenheil desselben und von dessen Vorfahren beten und am achten Tag, während die
+            Kranken die Kommunion empfangen, bei Messen und Vigilien anwesend sind, die am Jahrtag
+            die Totenmesse oder die Totenvigil, die sieben Bußpsalmen, das Vater Unser, das Ave
+            Maria oder andere Gebete und Fürbitten für das Seelenheil des genannten Stifters oder
+            von dessen Vorfahren selbst lesen bzw. sprechen oder hören. Außerdem erhalten all jene
+            Ablass, die die Kapelle des genannten Spitals zu Pfingsten, am Feiertag des heiligen
+            Geistes, zu Weihnachten, Ostern, Christi Himmelfahrt, Mariä Himmelfahrt und Empfängnis,
+            an den Feiertagen der zwölf Apostel, am Gründonnerstag und am Karfreitag besuchen und
+            dort Messen beiwohnen sowie jenen, die für die Kranken und anderen beklagenswerten im
+            Spital verweilenden Personen, für den Bau und die Erhaltung des genannten Spitals sowie
+            für andere liturgische Notwendigkeiten, für die Vermehrung der Einnahmen des Spitals und
+            für die Nahrung der Armen und Kranken Almosen geben und das alles unterstützen.
+            <cei:lb/>Das Vidimus umfasst auch die Bestätigung durch den Bamberger Lokalbischof (1337
+            Februar 24, Bamberg): Bischof Leopold von Bamberg bestätigt die obige Indulgenz und fügt
+            weitere 40 Tage Ablass hinzu. <cei:lb/>Markus Gneiss</cei:abstract>
+          <cei:issued>
+            <cei:placeName>Nürnberg</cei:placeName>
+            <cei:dateRange from="13370429" to="13370429">1337-04-29</cei:dateRange>
+          </cei:issued>
+          <cei:witnessOrig>
+            <cei:traditioForm>Original</cei:traditioForm>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-04-29_I_1_Stadtarchiv-Nuernberg_A1_klein.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1337-04-29_II_1_Stadtarchiv-Nuernberg_A1_klein.jpg"
+              />
+            </cei:figure>
+            <cei:archIdentifier><cei:settlement>Nürnberg</cei:settlement>,<cei:arch>Stadtarchiv</cei:arch>,<cei:archFond>Urkundenreihe
+                (A1)</cei:archFond>,<cei:idno>sub dato</cei:idno> (zwei
+              Ausfertigungen)</cei:archIdentifier>
+            <cei:physicalDesc>
+              <cei:decoDesc>
+                <cei:p>Stark vergrösserte, zwei Zeilen in den Text eingelassene rote Lombarde N(os)
+                  mit ornamental spiralig angelegtem Fleuronnée im Binnenfeld und begleitender
+                  Perlreihe aussen in der Schreibertinte (?). Sechs Oberlängen der ersten Zeile
+                  ebenfalls aussen mit beleitender Perlreihe, die Binnenfelder abwechselnd mit aus
+                  der Tintenfarbe ausgesparten Gesichtern, einem Vogelmonster und floralen
+                  Motiven.Im Textfeld einige Initialen rot angestrichen. </cei:p>
+                <cei:p n="Stil und Einordnung">Wegen des stark querrechteckigen Formats ist das
+                  Textfeld recht kurz, deshalb wirkt die nur wenig in den linken Rand hineinragende,
+                  sorgfältig gezeichnete Initiale besonders feierlich. Ganz anders dann die
+                  lutstigen Profilgesichter in den Oberlängen, die einander zugewandt den festlichen
+                  Charakter der Urkunde mit ihrem Schabernack konterkarieren. In einfacherer Form
+                  finden sich Profilgesichter in den Oberlängen auch bei <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1334-05-18_Nuernberg/charter"
+                    >1334 Mai 18</cei:ref>, einem Ablass für das Heilig-Geist-Spital.</cei:p>
+                <cei:p n="Autorensigle">Gabriele Bartz</cei:p>
+              </cei:decoDesc>
+              <cei:material>Pergament</cei:material>
+              <cei:dimensions>
+                <cei:width unit="cm">64,8</cei:width> x
+                <cei:height unit="cm">28,5</cei:height>
+              </cei:dimensions>
+              <cei:condition/>
+            </cei:physicalDesc>
+            <cei:auth>
+              <cei:notariusDesc/>
+              <cei:sealDesc>Abt Donaldus von St. Ägidius und Heilig-Geist-Spital in Nürnberg, beide
+                Siegel an Seidenschnüren. Bei einer Ausfertigung (I_1) scheinen die Seidenschnüre
+                stärker ausgebleicht zu sein als bei der anderen.</cei:sealDesc>
+            </cei:auth>
+            <cei:nota/>
+            <cei:rubrum/>
+          </cei:witnessOrig>
+          <cei:witListPar>
+            <cei:witness>
+              <cei:traditioForm/>
+              <cei:figure/>
+              <cei:archIdentifier/>
+              <cei:physicalDesc>
+                <cei:material/>
+                <cei:dimensions/>
+                <cei:condition/>
+              </cei:physicalDesc>
+              <cei:auth>
+                <cei:sealDesc/>
+                <cei:notariusDesc/>
+              </cei:auth>
+              <cei:nota/>
+              <cei:rubrum/>
+            </cei:witness>
+          </cei:witListPar>
+          <cei:diplomaticAnalysis>
+            <cei:listBibl>
+              <cei:bibl>Archivdatenbank: <cei:ref
+                  target="http://online-service2.nuernberg.de/stadtarchiv/dosuche.FAU?sid=57FC84088&amp;dm=2=1"
+                  >http://online-service2.nuernberg.de/stadtarchiv/dosuche.FAU?sid=57FC84088=2=1</cei:ref>:
+                Suchbegriff: "Avignon" und "Donald".</cei:bibl>
+            <cei:bibl>Bilderpracht und Seelenheil, 2019, S. 144f. (Nr. B 4: Markus Gneiss, Martin
+                Roland) (<cei:ref
+                  target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/X8UUFYKX"
+                  >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl/>
+            </cei:listBibl>
+            <cei:listBiblEdition>
+              <cei:bibl/>
+            </cei:listBiblEdition>
+            <cei:listBiblRegest>
+              <cei:bibl/>
+            </cei:listBiblRegest>
+            <cei:listBiblFaksimile>
+              <cei:bibl/>
+            </cei:listBiblFaksimile>
+            <cei:listBiblErw>
+              <cei:bibl/>
+            </cei:listBiblErw>
+            <cei:p>Arenga: <cei:quote>Quoniam, ut ait apostolus</cei:quote> ... .</cei:p>
+            <cei:p>Zur ausgefertigten Urkunde aus Avignon siehe <cei:ref
+                target="http://monasterium.net/mom/IlluminierteUrkunden/1336-12-29_Nuernberg/charter"
+                >1336 Dezember 29, Avignon</cei:ref>. Siehe dort auch den diplomatischen
+              Kommentar.</cei:p>
+            <cei:p>Die Urkunde ist ein Vidimus des Abts des Nürnberger Benediktinerklosters St.
+              Egidien. In den einleitenden Worten wird die Glaubwürdigkeit der Kopie unterstrichen:
+              Einerseits wird bekräftigt, die Abschrift sei „von Wort zu Wort“ (<cei:foreign>de
+                verbo ad verbum</cei:foreign>) erfolgt. Andererseits erhält man Einblick in den
+              Herstellungsprozess der Urkunde, weil der Notar des Abts, der die Abschrift
+              anfertigte, ausdrücklich erwähnt wird (<cei:foreign>per nostrum notarium
+                copiasse</cei:foreign>). Besiegelt wird das Vidimus vom Aussteller, also von Abt
+              Donaldus, aber auch vom begünstigten Heilig-Geist-Spital. Die beiden hier vorliegenden
+              Stücke belegen, wie eilig es Konrad Gross, der Stifter des Heilig-Geist-Spitals,
+              hatte. Am 29. Dezember 1336 wurde der Ablass in Avignon, 900 Kilometer von Nürnberg
+              entfernt, ausgestellt. Mitten im Winter gelangte er über die Alpen und weniger als
+              zwei Monate später brachte der Bischof von Bamberg am Sitz seines Bistums die
+              notwendige Bestätigung an. Weitere zwei Monate später hatte der Notar in Nürnberg die
+              beiden Abschriften angefertigt.</cei:p>
+            <cei:quoteOriginaldatierung/>
+            <cei:nota/>
+          </cei:diplomaticAnalysis>
+          <cei:lang_MOM/>
+        </cei:chDesc>
+        <cei:tenor/>
+      </cei:body>
+      <cei:back>
+        <cei:class/>
+        <cei:persName/>
+        <cei:placeName type="Region">Frankreich (Kurie)</cei:placeName>
+        <cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials"/>
+        <cei:index indexName="illurk-vocabulary" lemma="Fleuronne"/>
+        <cei:index indexName="illurk-vocabulary" lemma="DrawnDecoration-not-historiated"/>
+        <cei:index indexName="illurk-vocabulary" lemma="figural"/>
+        <cei:index indexName="illurk-vocabulary" lemma="WithAdditionalColours"/>
+        <cei:divNotes>
+          <cei:note/>
+        </cei:divNotes>
+      </cei:back>
+    </cei:text>
+  </atom:content>
+</atom:entry>

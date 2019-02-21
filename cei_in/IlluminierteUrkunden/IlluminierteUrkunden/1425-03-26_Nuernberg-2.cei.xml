@@ -1,1 +1,166 @@
-<atom:entry xmlns:atom="http://www.w3.org/2005/Atom"><atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1425-03-26_Nuernberg-2</atom:id><atom:title/><atom:published>2018-10-25T06:51:55.661Z</atom:published><atom:updated>2018-10-25T06:51:55.661Z</atom:updated><atom:author><atom:email>illuminierteurkunden@gmail.com</atom:email></atom:author><app:control xmlns:app="http://www.w3.org/2007/app"><app:draft>no</app:draft></app:control><atom:content type="application/xml"><cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter"><cei:front><cei:sourceDesc><cei:sourceDescVolltext><cei:bibl/></cei:sourceDescVolltext><cei:sourceDescRegest><cei:bibl/></cei:sourceDescRegest></cei:sourceDesc></cei:front><cei:body><cei:idno id="1425-03-26_Nuernberg-2">1425-03-26_Nuernberg-2</cei:idno><cei:chDesc><cei:abstract>Papst Marin V. gestattet die Verehrung des hl. Sebald (Duplikat).</cei:abstract><cei:issued><cei:placeName>Rom</cei:placeName><cei:dateRange from="14250326" to="14250326">1425-03-26</cei:dateRange></cei:issued><cei:witnessOrig><cei:traditioForm/><cei:figure/><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1425-03-26_Rst-N_Paepstl-u-fuerstl-Priv-Urk-190_recto.jpg"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1425-03-26_Rst-N_Paepstl-u-fuerstl-Priv-Urk-190_det1.jpg"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1425-03-26_Rst-N_Paepstl-u-fuerstl-Priv-Urk-190_det2.jpg"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1425-03-26_Rst-N_Paepstl-u-fuerstl-Priv-Urk-190_B-de-Puteo.jpg"/></cei:figure><cei:figure><cei:graphic url="http://images.monasterium.net/illum/IllUrk/1425-03-26_Martin-V-fuer-st-Sebald_Krafft-Ill-Papsturk-.jpg"/></cei:figure><cei:archIdentifier><cei:settlement>Nürnberg</cei:settlement><cei:arch>Staatsarchiv</cei:arch><cei:archFond>Päpstliche und Fürstliche Privilegien (Rep. 1b)</cei:archFond><cei:idno>Urk.-Nr. 190</cei:idno></cei:archIdentifier><cei:physicalDesc><cei:decoDesc><cei:p n="Ekphrasis">Initiale M(artinus) mit üppigen Aussparungen, der mittlere Schaft mit einer gekrönten Säule. Ansätze von Besatzfleuronnée.</cei:p><cei:p n="Stil und Einordnung">Die Säule im mittleren Schaft verweist auf die Familie des Papstes (Colonna). Eine vergleichbare Urkunde mit ausgesparter Säule wurde z. B. <cei:ref target="http://monasterium.net/mom/IlluminierteUrkundenKurie/1424-01-04_Linz/charter">1424 Jänner 4</cei:ref> für das Benediktinerstift Gleink in Oberösterreich ausgestellt. </cei:p><cei:p n="Autorensigle">Martin Roland</cei:p></cei:decoDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:notariusDesc/><cei:sealDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witnessOrig><cei:witListPar><cei:witness><cei:traditioForm/><cei:figure/><cei:archIdentifier/><cei:physicalDesc><cei:material/><cei:dimensions/><cei:condition/></cei:physicalDesc><cei:auth><cei:sealDesc/><cei:notariusDesc/></cei:auth><cei:nota/><cei:rubrum/></cei:witness></cei:witListPar><cei:diplomaticAnalysis><cei:listBibl><cei:bibl> 	Krafft, Illustrationen, 2011, S, 57f. (<cei:ref target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/RV4RR6RC">Vollzitat auf Zotero</cei:ref>)</cei:bibl></cei:listBibl><cei:listBiblEdition><cei:bibl/></cei:listBiblEdition><cei:listBiblRegest><cei:bibl/></cei:listBiblRegest><cei:listBiblFaksimile><cei:bibl/></cei:listBiblFaksimile><cei:listBiblErw><cei:bibl/></cei:listBiblErw><cei:p>Scriptor: B. de Puteo</cei:p><cei:p>In den vatikanischen Registern werden auch die Empfänger benannt: <cei:quote>consulibus oppidi Norimbergens</cei:quote> (nach Krafft, S. 57, Anm. 38).</cei:p><cei:quoteOriginaldatierung/><cei:nota/></cei:diplomaticAnalysis><cei:lang_MOM/></cei:chDesc><cei:tenor/></cei:body><cei:back><cei:class/><cei:persName/><cei:placeName type="Region">Italien (Kurie)</cei:placeName><cei:divNotes><cei:note/></cei:divNotes><cei:index indexName="illurk-vocabulary" lemma="Fleuronne"/><cei:index indexName="illurk-vocabulary" lemma="Historiated"/><cei:index indexName="illurk-vocabulary" lemma="Display-Script-calligraphic-with-decorative-character"/><cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials"/></cei:back></cei:text></atom:content></atom:entry>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+  <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1425-03-26_Nuernberg-2</atom:id>
+  <atom:title/>
+  <atom:published>2018-10-25T06:51:55.661Z</atom:published>
+  <atom:updated>2018-10-25T06:51:55.661Z</atom:updated>
+  <atom:author>
+    <atom:email>illuminierteurkunden@gmail.com</atom:email>
+  </atom:author>
+  <app:control xmlns:app="http://www.w3.org/2007/app">
+    <app:draft>no</app:draft>
+  </app:control>
+  <atom:content type="application/xml">
+    <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+      <cei:front>
+        <cei:sourceDesc>
+          <cei:sourceDescVolltext>
+            <cei:bibl/>
+          </cei:sourceDescVolltext>
+          <cei:sourceDescRegest>
+            <cei:bibl/>
+          </cei:sourceDescRegest>
+        </cei:sourceDesc>
+      </cei:front>
+      <cei:body>
+        <cei:idno id="1425-03-26_Nuernberg-2">1425-03-26_Nuernberg-2</cei:idno>
+        <cei:chDesc>
+          <cei:abstract>Papst Marin V. gestattet die Verehrung des hl. Sebald
+            (Duplikat).</cei:abstract>
+          <cei:issued>
+            <cei:placeName>Rom</cei:placeName>
+            <cei:dateRange from="14250326" to="14250326">1425-03-26</cei:dateRange>
+          </cei:issued>
+          <cei:witnessOrig>
+            <cei:traditioForm/>
+            <cei:figure/>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1425-03-26_Rst-N_Paepstl-u-fuerstl-Priv-Urk-190_recto.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1425-03-26_Rst-N_Paepstl-u-fuerstl-Priv-Urk-190_det1.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1425-03-26_Rst-N_Paepstl-u-fuerstl-Priv-Urk-190_det2.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1425-03-26_Rst-N_Paepstl-u-fuerstl-Priv-Urk-190_B-de-Puteo.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1425-03-26_Martin-V-fuer-st-Sebald_Krafft-Ill-Papsturk-.jpg"
+              />
+            </cei:figure>
+            <cei:archIdentifier>
+              <cei:settlement>Nürnberg</cei:settlement>
+              <cei:arch>Staatsarchiv</cei:arch>
+              <cei:archFond>Päpstliche und Fürstliche Privilegien (Rep. 1b)</cei:archFond>
+              <cei:idno>Urk.-Nr. 190</cei:idno>
+            </cei:archIdentifier>
+            <cei:physicalDesc>
+              <cei:decoDesc>
+                <cei:p n="Ekphrasis">Initiale M(artinus) mit üppigen Aussparungen, der mittlere
+                  Schaft mit einer gekrönten Säule. Ansätze von Besatzfleuronnée. Bemerkenswerte
+                  Proto-Cadelluren an den Oberlängen der langen "s" von s(ervus) und s(ervorum) in
+                  der ersten Zeile. </cei:p>
+                <cei:p n="Stil und Einordnung">Die Säule im mittleren Schaft verweist auf die
+                  Familie des Papstes (Colonna). Die erste so ausgestatte Urkunde hatte Martin V.
+                  bereits am Tag seiner Wahl am Konzil von Konstanz ausgestellt: <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1417-11-21_Nantes/charter"
+                    >1417 November 11</cei:ref> (dort eine Liste weiterer Stücke).<cei:lb/>Die
+                  Proto-Cadelluren scheinen für den Skriptor Bartholomäus de Puteo typisch zu sein,
+                  wie eine weitere von ihm mundierte Urkunde von <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1428-05-05_Nantes/charter"
+                    >1428 Mai 5</cei:ref> zu belegen scheint.<cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkundenKurie/1424-01-04_Linz/charter"
+                    >1424 Jänner 4</cei:ref> (dort eine Liste weiterer Stücke). . </cei:p>
+                <cei:p n="Autorensigle">Martin Roland</cei:p>
+              </cei:decoDesc>
+              <cei:material/>
+              <cei:dimensions/>
+              <cei:condition/>
+            </cei:physicalDesc>
+            <cei:auth>
+              <cei:notariusDesc/>
+              <cei:sealDesc/>
+            </cei:auth>
+            <cei:nota/>
+            <cei:rubrum/>
+          </cei:witnessOrig>
+          <cei:witListPar>
+            <cei:witness>
+              <cei:traditioForm/>
+              <cei:figure/>
+              <cei:archIdentifier/>
+              <cei:physicalDesc>
+                <cei:material/>
+                <cei:dimensions/>
+                <cei:condition/>
+              </cei:physicalDesc>
+              <cei:auth>
+                <cei:sealDesc/>
+                <cei:notariusDesc/>
+              </cei:auth>
+              <cei:nota/>
+              <cei:rubrum/>
+            </cei:witness>
+          </cei:witListPar>
+          <cei:diplomaticAnalysis>
+            <cei:listBibl>
+              <cei:bibl> Krafft, Illustrationen, 2011, S, 57f. (<cei:ref
+                  target="https://www.zotero.org/groups/illuminatedcharters/items/itemKey/RV4RR6RC"
+                  >Vollzitat auf Zotero</cei:ref>)</cei:bibl>
+            <cei:bibl>Bilderpracht und Seelenheil, 2019, S. 168f. (Nr. C 5b: Markus Gneiss, Martin
+                Roland). (<cei:ref
+                  target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/X8UUFYKX"
+                  >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+            </cei:listBibl>
+            <cei:listBiblEdition>
+              <cei:bibl/>
+            </cei:listBiblEdition>
+            <cei:listBiblRegest>
+              <cei:bibl/>
+            </cei:listBiblRegest>
+            <cei:listBiblFaksimile>
+              <cei:bibl/>
+            </cei:listBiblFaksimile>
+            <cei:listBiblErw>
+              <cei:bibl/>
+            </cei:listBiblErw>
+            <cei:p>Scriptor: B. de Puteo<cei:lb/>Frenz, Conspectus (<cei:ref
+                target="https://www.phil.uni-passau.de/fileadmin/dokumente/lehrstuehle/frenz/RORC/littera_B.pdf"
+                >https://www.phil.uni-passau.de/fileadmin/dokumente/lehrstuehle/frenz/RORC/littera_B.pdf</cei:ref>),
+              kann Bartholomaeus de Puteo von 1419 bis 1442 als Schreiber an der Kurie nachweisen. </cei:p>
+            <cei:p>In den vatikanischen Registern werden auch die Empfänger benannt:
+                <cei:quote>consulibus oppidi Norimbergens</cei:quote> (nach Krafft, S. 57, Anm.
+              38).</cei:p>
+            <cei:quoteOriginaldatierung/>
+            <cei:nota/>
+          </cei:diplomaticAnalysis>
+          <cei:lang_MOM/>
+        </cei:chDesc>
+        <cei:tenor/>
+      </cei:body>
+      <cei:back>
+        <cei:class/>
+        <cei:persName/>
+        <cei:placeName type="Region">Italien (Kurie)</cei:placeName>
+        <cei:divNotes>
+          <cei:note/>
+        </cei:divNotes>
+        <cei:index indexName="illurk-vocabulary" lemma="Fleuronne"/>
+        <cei:index indexName="illurk-vocabulary" lemma="Historiated"/>
+        <cei:index indexName="illurk-vocabulary"
+          lemma="Display-Script-calligraphic-with-decorative-character"/>
+        <cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials"/>
+      </cei:back>
+    </cei:text>
+  </atom:content>
+</atom:entry>

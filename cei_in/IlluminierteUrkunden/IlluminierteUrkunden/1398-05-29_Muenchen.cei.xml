@@ -36,12 +36,14 @@
                         <cei:figure>
                             <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1398-05-29_Bonifaz-IX_Tremosnicz_BayHStA-Passau-Domkapitel_13980529_00937_r-1.jpg"/>
                         </cei:figure>
-                        <cei:archIdentifier><cei:settlement>München</cei:settlement><cei:arch>Bayerisches Hauptstaatsarchiv</cei:arch><cei:archFond>Domkapitel Passau</cei:archFond><cei:idno>Nr.
-                            937</cei:idno></cei:archIdentifier>
+                        <cei:archIdentifier>
+                            <cei:settlement>München</cei:settlement>
+                            <cei:arch>Bayerisches Hauptstaatsarchiv</cei:arch>
+                            <cei:archFond>Domkapitel Passau</cei:archFond>
+                            <cei:idno>Nr. 937</cei:idno>
+                        </cei:archIdentifier>
                         <cei:physicalDesc>
-                            <cei:decoDesc>
-                                <cei:p/>
-                            </cei:decoDesc>
+                            <cei:decoDesc/>
                             <cei:material/>
                             <cei:dimensions/>
                             <cei:condition/>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+  <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1285-09-22_Nuernberg</atom:id>
+  <atom:title/>
+  <atom:published>2017-12-13T11:16:50.557Z</atom:published>
+  <atom:updated>2019-02-12T09:38:49.129Z</atom:updated>
+  <atom:author>
+    <atom:email>illuminierteurkunden@gmail.com</atom:email>
+  </atom:author>
+  <app:control xmlns:app="http://www.w3.org/2007/app">
+    <app:draft>no</app:draft>
+  </app:control>
+  <atom:content type="application/xml">
+    <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+      <cei:front>
+        <cei:sourceDesc>
+          <cei:sourceDescVolltext>
+            <cei:bibl/>
+          </cei:sourceDescVolltext>
+          <cei:sourceDescRegest>
+            <cei:bibl/>
+          </cei:sourceDescRegest>
+        </cei:sourceDesc>
+      </cei:front>
+      <cei:body>
+        <cei:idno id="1285-09-22_Nuernberg">1285-09-22_Nuernberg</cei:idno>
+        <cei:chDesc>
+          <cei:abstract><cei:index indexName="IllUrk-Urkundenart">Bischofsammelindulgenz</cei:index>
+            (7 Aussteller) für St. Martin in Halberstadt:<cei:lb/>Erzbischof
+                <cei:issuer><cei:persName>Johannes von Riga</cei:persName></cei:issuer>
+              (<cei:foreign>Rigensis</cei:foreign>) sowie die Bischöfe
+                <cei:issuer><cei:persName>Angelus von Melfi</cei:persName></cei:issuer>
+              (<cei:foreign>Melfictensis</cei:foreign>), <cei:issuer><cei:persName>Valdebrunus von
+                Avlona</cei:persName></cei:issuer> (<cei:foreign>Avellonensis</cei:foreign>),
+                <cei:issuer><cei:persName>Johannes von Ermland</cei:persName></cei:issuer>
+              (<cei:foreign>Warmiensis</cei:foreign>), <cei:issuer><cei:persName>Egidius von
+                Urbino</cei:persName></cei:issuer> (<cei:foreign>Urbinas</cei:foreign>),
+                <cei:issuer><cei:persName>Raimundus von Marseille</cei:persName></cei:issuer>
+              (<cei:foreign>Marsiliensis</cei:foreign>) und <cei:issuer><cei:persName>Markus von San
+                Marco</cei:persName></cei:issuer> (<cei:foreign>Sancti Marci</cei:foreign>) erteilen
+            auf Bitten von Seifried, Rektor der Kirche des heiligen Martin in Halberstadt, all jenen
+            einen Ablass von 40 Tagen (<cei:foreign>misericorditer in Domino
+            relaxamus</cei:foreign>), die den Priester der genannten Kirche beim Versehgang
+            begleiten, die Zustimmung des lokalen Bischofs vorausgesetzt.<cei:lb/><cei:lb/>[ohne
+            Datum:]<cei:lb/>Elekt Ludwig von Halberstadt bestätigt die obige Indulgenz und fügt
+            weitere 40 Tage und eine Karene Ablass für dienjenigen dazu, die dem Priester, während
+            er das Corpus Christi trägt, folgen.<cei:lb/><cei:lb/>Markus Gneiss</cei:abstract>
+          <cei:issued>
+            <cei:placeName>Rom</cei:placeName>
+            <cei:dateRange from="12850922" to="12850922">1285-09-22</cei:dateRange>
+          </cei:issued>
+          <cei:witnessOrig>
+            <cei:traditioForm>Original</cei:traditioForm>
+            <cei:figure/>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1285-09-22_HA_GNM_Or_Perg_1285_Sep_22__1.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1285-09-22_recto_GNM.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1285-09-22_HA_GNM_Or_Perg_1285_Sep_22_det1.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1285-09-22_Martin_Halberstadt_Nuernberg_GNM_Or_Perg_Det1.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1285-09-22_Martin_Halberstadt_Nuernberg_GNM_Or_Perg_Det2.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1285-09-22_Martin_Halberstadt_Nuernberg_GNM_Or_Perg_Det3.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1285-09-22_Martin_Halberstadt_Nuernberg_GNM_Or_Perg_Det4.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1285-09-22_Martin_Halberstadt_Nuernberg_GNM_Or_Perg_Det5.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1285-09-22_Martin_Halberstadt_Nuernberg_GNM_Or_Perg_Det6.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1285-09-22_Martin_Halberstadt_Nuernberg_GNM_Or_Perg_Det7.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1285-09-22_Siegel_GNM.JPG"/>
+            </cei:figure>
+            <cei:figure/>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1285-09-22_Martin_Halberstadt_Nuernberg_GNM_Or_Perg.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1285-09-22_Halberstadt_Nuernberg_GNM_Or_Perg.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1285-09-22_verso_GNM.JPG"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1285-09-22_Martin_Halberstadt_Nuernberg_GNM_Or_Perg_verso.JPG"
+              />
+            </cei:figure>
+            <cei:archIdentifier>
+              <cei:settlement>Nürnberg</cei:settlement>
+              <cei:arch>Germanisches Nationalmuseum</cei:arch>
+              <cei:archFond>Historisches Archiv</cei:archFond>
+              <cei:idno>Or. Perg. 1285 September 22</cei:idno> 
+            </cei:archIdentifier>
+            <cei:physicalDesc>
+              <cei:decoDesc>
+                <cei:p n="Ekphrasis"><cei:index indexName="IllUrkGlossar"
+                    lemma="VoravignonerBischofsammelindulgenz">Voravignoner
+                    Bischofsammelindulgenz</cei:index>: Vergrösstere tintenfarbige Initiale
+                  U(niversis) mit kopfstempelförmiger Aussparung; der zarte Balkenstrich geht in die
+                  Serife links über. Drei vergrösserte Initialen im Textblock.</cei:p>
+                <cei:p n="Stil und Einordnung"/>
+                <cei:p>Den <cei:index indexName="IllUrkGlossar" lemma="Schreiber3">Schreiber
+                    (3)</cei:index> des Formulars kann man in mehreren Ablassurkunden nachweisen.
+                  Dabei ist nicht sicher, ob er auch die dekorativen Initialen ausführte, denn sie
+                  erscheinen äusserst unterschiedlich. Die Initiale ist am besten zu vergleichen mit
+                    <cei:ref target="">1284 September 1</cei:ref> für Mariengreden, selbst wenn die
+                  Verdickung des Balkenstrichs zur Serife dort fehlt. Des weiteren von <cei:index
+                    indexName="IllUrkGlossar" lemma="Schreiber3">Schreiber 3</cei:index>: <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1284-06-18_Magdeburg/charter"
+                    >1284 Juni 18</cei:ref> für Kloster Berge sowie <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1285-10-25_Magdeburg/charter"
+                    >1285 Oktober 25</cei:ref> für Mariengreden. </cei:p>
+                <cei:p>In Halberstadt hat man häufiger um Ablassurkunden angesucht: Die
+                  Liebfrauenkirche bekam <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1284-03-13_Magdeburg/charter"
+                    >1284 März 13</cei:ref> und <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1289-07-07_Magdeburg/charter"
+                    >1289 Juli 7</cei:ref> eine, <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1289-09-01_Magdeburg/charter"
+                    >1289</cei:ref>, <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1293-99-99_Magdeburg/charter"
+                    >1293</cei:ref>, <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1296-99-99_Magdeburg/charter"
+                    >1296</cei:ref> sowie im selben Jahr <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1296-99-99_Magdeburg_2/charter"
+                    >1296</cei:ref> der Dom, <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1300-99-99_Magdeburg_2/charter"
+                    >1300</cei:ref> die Kirche des großen Siechenhofes vor Halberstadt. Auch aus
+                  Avignon hat man welche erbeten: <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1317-05-99_Magdeburg/charter"
+                    >1317 Mai</cei:ref> für den Dom, wie die hier beschriebene Urkunde <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1334-11-10_Nuernberg/charter"
+                    >1334 November 10</cei:ref> für St. Martin und schließlich die späte Indulgenz
+                  ohne farbigen Dekor <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1362-08-11_Magdeburg/charter"
+                    >1362 August 11</cei:ref> für St. Johannes.</cei:p>
+                <cei:p n="Autorensigle">Gabriele Bartz</cei:p>
+              </cei:decoDesc>
+              <cei:material>Pergament</cei:material>
+              <cei:dimensions>
+                <cei:width unit="cm">53,6</cei:width>
+                <cei:height unit="cm">43,4</cei:height>
+              </cei:dimensions>
+              <cei:condition>Alle Siegel abgefallen.</cei:condition>
+            </cei:physicalDesc>
+            <cei:auth>
+              <cei:notariusDesc/>
+              <cei:sealDesc/>
+            </cei:auth>
+            <cei:nota>Auf der Pilca wurden die siegelnden Bischöfe in der Reihenfolge der
+              Besiegelung vornotiert.<cei:lb/>Rückseite (mittig): <cei:foreign>Symon de
+                Cornu</cei:foreign>.</cei:nota>
+            <cei:rubrum/>
+          </cei:witnessOrig>
+          <cei:witListPar>
+            <cei:witness>
+              <cei:traditioForm/>
+              <cei:figure/>
+              <cei:archIdentifier/>
+              <cei:physicalDesc>
+                <cei:material/>
+                <cei:dimensions/>
+                <cei:condition/>
+              </cei:physicalDesc>
+              <cei:auth>
+                <cei:sealDesc/>
+                <cei:notariusDesc/>
+              </cei:auth>
+              <cei:nota/>
+              <cei:rubrum/>
+            </cei:witness>
+          </cei:witListPar>
+          <cei:diplomaticAnalysis>
+            <cei:listBibl>
+              <cei:bibl/>
+              <cei:bibl>Bilderpracht und Seelenheil, 2019, S. 122f. (Nr. A 1: Gabriele Bartz, Markus
+                Gneiss) (<cei:ref
+                  target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/X8UUFYKX"
+                  >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+              <cei:bibl/>
+              <cei:bibl>
+                <cei:ref
+                  target="http://ha.gnm.de/objekt_start.fau?prj=HA-ifaust&amp;dm=Historisches+Archiv=13429"
+                  >http://ha.gnm.de/objekt_start.fau?prj=HA-ifaust=Historisches+Archiv=13429</cei:ref>
+              </cei:bibl>
+              <cei:bibl><cei:ref
+                  target="https://publikationsserver.tu-braunschweig.de/servlets/MCRFileNodeServlet/dbbs_derivate_00007223/2011-4073.pdf"
+                  >Schmidt, UB Halberstadt 2, 1894, S. 155 (Nr. 193)</cei:ref> (mit Textabdruck).
+                  (<cei:ref
+                  target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/C8ICBME4/"
+                  >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+            </cei:listBibl>
+            <cei:listBiblEdition>
+              <cei:bibl/>
+            </cei:listBiblEdition>
+            <cei:listBiblRegest>
+              <cei:bibl/>
+            </cei:listBiblRegest>
+            <cei:listBiblFaksimile>
+              <cei:bibl/>
+            </cei:listBiblFaksimile>
+            <cei:listBiblErw>
+              <cei:bibl/>
+            </cei:listBiblErw>
+            <cei:p>Der Ablassbrief ist überaus kurz gehalten und enthält nur eine einzige
+              Ablassbedingung, nämlich die der Begleitung des Priesters von Halberstadt beim
+              Versehgang, wenn also den Kranken die Kommunion erteilt wird. Der namentlich genannte
+              Petent des Stücks - Seifried - war Rektor der Halberstädter Kirche.</cei:p>
+            <cei:p>Mit Simon <cei:foreign>de Cornu</cei:foreign> nennt sich auf der Rückseite der
+              zuständige Notar - eine überaus seltene Nennung, mangelt es bischöflichen
+              Sammelindulgenzen doch häufig komplett an Vermerken, die den Geschäftsgang des Stücks
+              nachvollziehen lassen. Simon nennt sich nach jetzigem Wissenstand nur in Urkunden aus
+              dem Jahr 1285 explizit als Notar, wenngleich seine Hand in mehreren Urkunden der Jahre
+              1283 bis 1285 nachweisbar ist, siehe dazu die kunsthistorische Beschreibung und vgl.
+                <cei:ref
+                target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/ZG9JUZMZ/"
+                >Seibold, Sammelindulgenzen, 2001, S. 107 Anm. 751</cei:ref>.</cei:p>
+            <cei:p>Rechts neben dem Urkundentext findet sich von eindeutig jüngerer Hand die
+              Bestätigung des Lokalbischofs von Halberstadt, mit der dieser weitere 40 Tage Ablass
+              hinzufügt. Die Bestätigung ist undatiert, lässt sich aufgrund der Nennung des Elekts
+              Ludwig auf die Jahre 1357 bis 1365/1366 einschränken; der paläographische Befund passt
+              ebenso zu dieser Datierung. <cei:ref
+                target="https://de.wikipedia.org/wiki/Ludwig_von_Mei%C3%9Fen">Ludwig von
+                Meißen</cei:ref> wurde bereits im Alter von 17 Jahren zum Bischof von Halberstadt
+              ernannt, erlangte jedoch die Bischofsweihe nicht vor 1365, siehe die Urkunden:<cei:ref
+                target="http://archiv.sachsen.de/archiv/bestand.jsp?oid=01.01&amp;bestandid=10001=367148"
+                >
+              http://archiv.sachsen.de/archiv/bestand.jsp?oid=01.01=10001=367148</cei:ref>.</cei:p>
+            <cei:p>Markus Gneiss</cei:p>
+            <cei:quoteOriginaldatierung/>
+            <cei:nota/>
+          </cei:diplomaticAnalysis>
+          <cei:lang_MOM/>
+        </cei:chDesc>
+        <cei:tenor/>
+      </cei:body>
+      <cei:back>
+        <cei:class/>
+        <cei:persName/>
+        <cei:placeName>Italien (Kurie)</cei:placeName>
+        <cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials"/>
+        <cei:divNotes>
+          <cei:note/>
+        </cei:divNotes>
+      </cei:back>
+    </cei:text>
+  </atom:content>
+</atom:entry>

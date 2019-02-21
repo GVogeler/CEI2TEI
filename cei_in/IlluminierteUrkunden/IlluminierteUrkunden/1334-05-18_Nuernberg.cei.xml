@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+  <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1334-05-18_Nuernberg</atom:id>
+  <atom:title/>
+  <atom:published>2018-06-06T15:20:13.741Z</atom:published>
+  <atom:updated>2019-02-11T12:52:03.479Z</atom:updated>
+  <atom:author>
+    <atom:email>illuminierteurkunden@gmail.com</atom:email>
+  </atom:author>
+  <app:control xmlns:app="http://www.w3.org/2007/app">
+    <app:draft>no</app:draft>
+  </app:control>
+  <atom:content type="application/xml">
+    <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+      <cei:front>
+        <cei:sourceDesc>
+          <cei:sourceDescVolltext>
+            <cei:bibl/>
+          </cei:sourceDescVolltext>
+          <cei:sourceDescRegest>
+            <cei:bibl/>
+          </cei:sourceDescRegest>
+        </cei:sourceDesc>
+      </cei:front>
+      <cei:body>
+        <cei:idno id="1334-05-18_Nuernberg">1334-05-18_Nuernberg</cei:idno>
+        <cei:chDesc>
+          <cei:abstract>Ablassbrief für das neue Spital
+              (<cei:recipient>Heilig-Geist-Spital</cei:recipient>) in Nürnberg:<cei:lb/>Bischof
+                <cei:issuer><cei:persName>Heinrich von Lavata</cei:persName></cei:issuer>
+              (<cei:foreign>Heinricus Dei gratia episcopus ecclesie Lavatensis</cei:foreign>)
+            erteilt stellvertretend für den Eleket <cei:persName>Werntho von Bamberg</cei:persName>
+              (<cei:foreign>gerens vices</cei:foreign> ... <cei:foreign>domini Wernthonis
+              Babenbergensis ecclesie electi</cei:foreign>) all jenen einen Ablass von 40 Tagen für
+            Todsünden, von einem Jahr für lässliche Sünden sowie einer Karene (<cei:foreign>
+              quadraginta dies kriminalium, annum venialium pariter et unam karenam de iniuncta eis
+              penitentia misericorditer in Domino relaxamus</cei:foreign>), die reumütig und nach
+            Ablegung der Beichte das neue Spital, das durch <cei:persName>Konrad
+              Gross</cei:persName> in Nürnberg errichtet wird (<cei:foreign>novum hospitale per
+              discretum virum Cunradum Grossum in Nuremberg constructum</cei:foreign>), besuchen,
+            und zwar zu Ostern, Christi Himmelfahrt, Pfingsten, Allerheiligen, Weihnachten, an allen
+            Marienfeiertagen, an allen Aposteltagen, an den Tagen der Schutzpatrone, an den
+            Weihetagen sowie in den jeweiligen Oktaven der genannten Feste. Weiters wird all jenen
+            Ablass gewährt, die beim Versehgang mitgehen, die den Friedhof des Spitals umschreiten
+            und dabei für die gläubigen Verstorbenen beten, die für die Beleuchtung und die sonstige
+            Ausstattung des Spitals aufkommen, die nach der Komplet beim Läuten der Glocken dort
+            drei Ave Maria beten oder auch nach dem Tod eines Kranken dieses Spitals ein Vater Unser
+            und ein Ave Maria für dessen Seelenheil beten sowie jenen, die dem Begräbnissen der
+            verstorbenen Kranken mit Gebeten folgen.<cei:lb/>Markus Gneiss</cei:abstract>
+          <cei:issued>
+            <cei:placeName>Nürnberg</cei:placeName>
+            <cei:dateRange from="13340518" to="13340518">1334-05-18</cei:dateRange>
+          </cei:issued>
+          <cei:witnessOrig>
+            <cei:traditioForm>Original</cei:traditioForm>
+            <cei:figure/>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1334-05-18_Heinrich-v-Apolda-Einzelablass-f-Hl-Geist-Spital-Nuernberg_.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1334-05-18_Heinrich-v-Apolda-Einzelablass-f-Hl-Geist-Spital-Nuernberg_det1.jpg"
+              />
+            </cei:figure>
+            <cei:archIdentifier>
+              <cei:repository>Nürnberg</cei:repository>
+                <cei:arch>Landeskirchliches Archiv</cei:arch>
+              <cei:archFond>Depot PfA Nürnberg-St. Sebald</cei:archFond>
+            </cei:archIdentifier>
+            <cei:physicalDesc>
+              <cei:decoDesc>
+                <cei:p n="Ekphrasis">Stark vergrösserte Initiale H(enricus) mit kopfstempelförmigen
+                  Aussparungen, weitgehend in den linken Rand hinausragend. Zwei Oberlängen der
+                  ersten Zeile mit einander zugewandten Profilgesichtern.</cei:p>
+                <cei:p n="Stil und Einordnung">Die stark querrechteckige Urkunde ist zwar recht
+                  flüchtig geschrieben, erhält aber durch die Anfangsinitiale und die lustigen
+                  Profilgesichter einen gewissen Glanz. Sehr viel elaborierter kann man das bei
+                    <cei:ref
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1337-04-29_Nuernberg/charter"
+                    >1337 April 29</cei:ref>, ebenfalls für das Heilig-Geist-Spital in Nürnberg,
+                  beobachten.</cei:p>
+                <cei:p n="Autorensigle">Gabriele Bartz</cei:p>
+              </cei:decoDesc>
+              <cei:material>Pergament</cei:material>
+              <cei:dimensions><width unit="cm">47,4</width> x <height unit="cm">24</height> cm</cei:dimensions>
+              <cei:condition/>
+            </cei:physicalDesc>
+            <cei:auth>
+              <cei:notariusDesc/>
+              <cei:sealDesc>Siegel des Ausstellers (spitzoval) an rot-grünen
+                Seidenschnüren.</cei:sealDesc>
+            </cei:auth>
+            <cei:nota/>
+            <cei:rubrum/>
+          </cei:witnessOrig>
+          <cei:witListPar>
+            <cei:witness>
+              <cei:traditioForm/>
+              <cei:figure/>
+              <cei:archIdentifier/>
+              <cei:physicalDesc>
+                <cei:material/>
+                <cei:dimensions/>
+                <cei:condition/>
+              </cei:physicalDesc>
+              <cei:auth>
+                <cei:sealDesc/>
+                <cei:notariusDesc/>
+              </cei:auth>
+              <cei:nota/>
+              <cei:rubrum/>
+            </cei:witness>
+          </cei:witListPar>
+          <cei:diplomaticAnalysis>
+            <cei:listBibl>
+              <cei:bibl/>
+              <cei:bibl>Bilderpracht und Seelenheil, 2019, S. 40 (Martin Roland, Markus Gneiss), 59
+                (Markus Gneiss), 86, 89 (Peter Fleischmann, Martin Roland), 138 (Gabriele Bartz,
+                Markus Gneiss, Martin Roland), 139f. (Nr. B 1: Gabriele Bartz, Markus Gneiss)
+                  (<cei:ref
+                  target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/X8UUFYKX"
+                  >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+            </cei:listBibl>
+            <cei:listBiblEdition>
+              <cei:bibl/>
+            </cei:listBiblEdition>
+            <cei:listBiblRegest>
+              <cei:bibl/>
+            </cei:listBiblRegest>
+            <cei:listBiblFaksimile>
+              <cei:bibl/>
+            </cei:listBiblFaksimile>
+            <cei:listBiblErw>
+              <cei:bibl/>
+            </cei:listBiblErw>
+            <cei:p>Aussteller dieses ersten Ablasses zugunsten des neu gegründeten Spitals in
+              Nürnberg, das nur ein Jahr später bereits als Heilig-Geist-Spital bezeichnet wurde
+              (siehe den Sammelablass von <cei:ref
+                target="http://monasterium.net/mom/IlluminierteUrkunden/1335-07-06_Nuernberg/charter"
+                >1335 Juli 6, Avignon</cei:ref>), war Heinrich [von Apolda], Titularbischof von
+              Lavata und offensichtlich Weihbischof im Bistum Bamberg. Heinrichs Karriere kann über
+              eine längere Zeit verfolgt werden: Er wirkte bis Ende der 1340er Jahre unter anderem
+              auch in den Bistümern Halberstadt, Hildesheim und Kammin sowie im Erzbistum Mainz als
+              Weihbischof. Zur Erstinformation siehe auch: <cei:ref
+                target="https://de.wikipedia.org/wiki/Heinrich_von_Apolda"
+                >https://de.wikipedia.org/wiki/Heinrich_von_Apolda</cei:ref>. Der ebenfalls im
+              Urkundentext erwähnte <cei:ref
+                target="https://de.wikipedia.org/wiki/Werntho_Schenk_von_Reicheneck">Werntho [Schenk
+                von Reicheneck]</cei:ref> wurde zwar 1328/29 zum Bischof von Bamberg ernannt,
+              ermpfing aber bis zum seinem Tod im Jahr 1335 nie die Bischofsweihe, weswegen er in
+              der Urkunde richtigerweise als Elekt angesprochen wird.</cei:p>
+            <cei:p>Die Tage, an denen der Ablass gewonnen werden kann, entsprechen dem Standard, wie
+              er etwa auch in den zeitgleichen Ablassbriefen aus Avignon üblich ist: Es sind so
+              bedeutende Feiertage wie Weihnachten, Ostern oder Pfingsten genauso wie etwa der Tag
+              des Patroziniums, welches zumindest im vorliegenden Stück nicht namentlich genannt
+              wird - stand es vielleicht noch nich fest? Die weiteren Ablassbedingungen
+              konzentrieren sich auf die finanzielle Unterstützung des Spitals bzw. dessen Baus und
+              auf fromme Werke in Bezug auf die Armen und Kranken, die im Spital behandelt
+              werden.</cei:p>
+            <cei:p>Markus Gneiss</cei:p>
+            <cei:quoteOriginaldatierung/>
+            <cei:nota/>
+          </cei:diplomaticAnalysis>
+          <cei:lang_MOM/>
+        </cei:chDesc>
+        <cei:tenor/>
+      </cei:body>
+      <cei:back>
+        <cei:class/>
+        <cei:persName/>
+        <cei:placeName type="Region">HRR</cei:placeName>
+        <cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials"/>
+        <cei:index indexName="illurk-vocabulary" lemma="figural"/>
+        <cei:divNotes>
+          <cei:note/>
+        </cei:divNotes>
+      </cei:back>
+    </cei:text>
+  </atom:content>
+</atom:entry>

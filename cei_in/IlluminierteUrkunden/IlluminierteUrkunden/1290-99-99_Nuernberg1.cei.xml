@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atom:entry xmlns:atom="http://www.w3.org/2005/Atom">
+  <atom:id>tag:www.monasterium.net,2011:/charter/IlluminierteUrkunden/1290-99-99_Nuernberg1</atom:id>
+  <atom:title/>
+  <atom:published>2017-12-13T11:16:52.498Z</atom:published>
+  <atom:updated>2019-02-05T16:08:27.397Z</atom:updated>
+  <atom:author>
+    <atom:email>illuminierteurkunden@gmail.com</atom:email>
+  </atom:author>
+  <app:control xmlns:app="http://www.w3.org/2007/app">
+    <app:draft>no</app:draft>
+  </app:control>
+  <atom:content type="application/xml">
+    <cei:text xmlns:cei="http://www.monasterium.net/NS/cei" type="charter">
+      <cei:front>
+        <cei:sourceDesc>
+          <cei:sourceDescVolltext>
+            <cei:bibl/>
+          </cei:sourceDescVolltext>
+          <cei:sourceDescRegest>
+            <cei:bibl/>
+          </cei:sourceDescRegest>
+        </cei:sourceDesc>
+      </cei:front>
+      <cei:body>
+        <cei:idno id="1290-99-99_nuernberg1">1290-99-99_Nuernberg1</cei:idno>
+        <cei:chDesc>
+          <cei:abstract><cei:index indexName="IllUrk-Urkundenart">Bischofsammelindulgenz</cei:index>
+            für St. Sebald in Nürnberg: Die Erzbischöfe Bonaventura von Ragusa
+              (<cei:foreign>Ragusinus</cei:foreign>) und Petrus von Arborea
+              (<cei:foreign>Arborensis</cei:foreign>), die Bischöfe Petronus von Larino
+              (<cei:foreign>Larinensis</cei:foreign>), Guillelmus von Digne
+              (<cei:foreign>Dignensis</cei:foreign>), Petrus von Tarazona
+              (<cei:foreign>Tirasonensis</cei:foreign>), Jacobus von Trivento
+              (<cei:foreign>Treventinus</cei:foreign>), Theobaldus von Canossa
+              (<cei:foreign>Canensis</cei:foreign>), Guillelmus von Cagli
+              (<cei:foreign>Callensis</cei:foreign>), MarceIIinus von Tortiboli
+              (<cei:foreign>Turtibulensis</cei:foreign>), Waldebrunus von Avellino
+              (<cei:foreign>AveIlonensis</cei:foreign>), Egidius von Urbino (Urbinas), Romanus von
+            Croja (<cei:foreign>Crohensis</cei:foreign>) sowie Bonus Johannes von Ascoli (Esculanus)
+            erteilen all jenen einen Ablass von 40 Tagen (<cei:foreign>misericorditer in Domino
+              relaxamus</cei:foreign>), die reumütig und nach Ablegung der Beichte die in der
+            Diözese Bamberg gelegene Kirche St. Sebald (<cei:foreign>ecclesia sancti Siboldi in
+              Nuoreneberc, Babenbergensis diocesis</cei:foreign>) an bestimmten Feiertagen und -
+            soweit gegeben - in der jeweiligen Oktav besuchen, und zwar zu Weihnachten, Ostern,
+            Christi Himmelfahrt, Pfingsten, an allen Marienfeiertagen - nämlich Himmelfahrt, Geburt,
+            Lichtmess und Verkündigung -, zu allen Apostelfesten, am Feiertag des heiligen Sebald,
+            dessen Patrozinium diese Kirche führt, am Kirchweihtag, an den Feiertagen des heiligen
+            Nikolaus, der heiligen Cäcilia, der heiligen Katharina und der heiligen Margarete und zu
+            Allerheiligen. Weiters wird all jenen Ablass gewährt, die für den Bau oder die
+            Erneuerung des Baus, für die Beleuchtung sowie für die [liturgische] Kleidung und andere
+            Notwendigkeiten aufkommen oder von ihrem Vermögen einen Teil der Kirche
+            vermachen.<cei:lb/>Markus Gneiss</cei:abstract>
+          <cei:issued>
+            <cei:placeName/>
+            <cei:dateRange from="12909999" to="12909999">1290-99-99</cei:dateRange>
+          </cei:issued>
+          <cei:witnessOrig>
+            <cei:traditioForm>Original</cei:traditioForm>
+            <cei:figure/>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1290-99-99_f-St-Sebald_Reichsstadt-Nuernberg-Urk_123_recto.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1290-99-99_f-St-Sebald_Reichsstadt-Nuernberg-Urk_123_recto_det.jpg"
+              />
+            </cei:figure>
+            <cei:figure>
+              <cei:graphic
+                url="http://images.monasterium.net/illum/IllUrk/1290-99-99_f-St-Sebald_Reichsstadt-Nuernberg-Urk_123_verso.jpg"
+              />
+            </cei:figure>
+            <cei:archIdentifier>
+              <cei:settlement>Nürnberg</cei:settlement>
+              <cei:arch>Staatsarchiv</cei:arch>
+              <cei:archFond>Reichsstadt Nürnberg</cei:archFond>
+              <cei:idno>Urk 123</cei:idno></cei:archIdentifier>
+            <cei:physicalDesc>
+              <cei:decoDesc>
+                <cei:p>Stark vergrösserte Initiale U(niversis) zu Textbeginn; zwei weitere, leicht
+                  hervorgehobene Lombarden im Textfeld.</cei:p>
+                <cei:p>Die U-Initiale mit kopfstempelförmigen Aussparungen, die Serife links mit
+                  dreiblattförmiger Aussparung. Der feine Balkenstrich mit wellenförmigen
+                  Begleitlinien, links und rechts unten auslaufend sowie rechts Knospenfleuronnée.
+                  Im Binenfeld an einer Doppellinie gespiegelt aussen Knospenfleuronnée, oben und
+                  unten je zwei Fische, der Hintergrund schraffiert.</cei:p>
+                <cei:p n="Stil und Einordnung">Der Aufbau der Initiale mit Dreipass in der Serife
+                  und Balkenstrich mit Begleitlinien gleicht dem von 1290-99-99 für den Marienaltar
+                  in der Krypta derselben Kirche, sodass wohl derselbe Schreiber tätig gewesen ist. </cei:p>
+                <cei:p>Hier aber ist noch zoomorpher Dekor und Fleuronnée hinzugekommen, was zu
+                  dieser Zeit bei den <cei:index indexName="IllUrkGlossar"
+                    lemma="VoravignonerBischofsammelindulgenz">Voravignoner
+                    Sammelindulgenzen</cei:index> gerade ausprobiert wird. So hat beispielsweise ein
+                  anderer Schreiber bei <cei:a
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1289-12-13_Marburg/charter"
+                    >1289 Dezember 13</cei:a> für Hersfeld mit Begleitlinien gearbeitet, wieder ein
+                  anderer hat zoomorphe und vegetabile Elemente vor unregelmässig schraffiertem
+                  Grund im Binnenfeld untergebracht (<cei:a
+                    target="http://monasterium.net/mom/IlluminierteUrkunden/1290-99-99_Wolfenbuettel/charter"
+                    >1290</cei:a> für St. Cyriacus in Braunschweig).</cei:p>
+                <cei:p n="Autorensigle">Gabriele Bartz</cei:p>
+              </cei:decoDesc>
+              <cei:material>Pergament</cei:material>
+              <cei:dimensions/>
+              <cei:condition/>
+            </cei:physicalDesc>
+            <cei:auth>
+              <cei:notariusDesc/>
+              <cei:sealDesc>Sämtliche Siegel an rot-gelber Seidenschnur, bis auf eines alle
+                erhalten.</cei:sealDesc>
+            </cei:auth>
+            <cei:nota/>
+            <cei:rubrum/>
+          </cei:witnessOrig>
+          <cei:witListPar>
+            <cei:witness>
+              <cei:traditioForm/>
+              <cei:figure/>
+              <cei:archIdentifier/>
+              <cei:physicalDesc>
+                <cei:material/>
+                <cei:dimensions/>
+                <cei:condition/>
+              </cei:physicalDesc>
+              <cei:auth>
+                <cei:sealDesc/>
+                <cei:notariusDesc/>
+              </cei:auth>
+              <cei:nota/>
+              <cei:rubrum/>
+            </cei:witness>
+          </cei:witListPar>
+          <cei:diplomaticAnalysis>
+            <cei:listBibl>
+              <cei:bibl>Hoffmann, Sebalduskirche, 1912, S. 215, Nr. 10 (<cei:ref
+                  target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/599U8WWB/"
+                  >Volltitel auf Zotero</cei:ref>) </cei:bibl>
+              <cei:bibl>Bilderpracht und Seelenheil, 2019, S. 160f. (Nr. C 1: Gabriele Bartz, Markus
+                Gneiss) (<cei:ref
+                  target="https://www.zotero.org/groups/257864/illuminatedcharters/items/itemKey/X8UUFYKX"
+                  >Volltitel auf Zotero</cei:ref>)</cei:bibl>
+            </cei:listBibl>
+            <cei:listBiblEdition>
+              <cei:bibl/>
+            </cei:listBiblEdition>
+            <cei:listBiblRegest>
+              <cei:bibl/>
+            </cei:listBiblRegest>
+            <cei:listBiblFaksimile>
+              <cei:bibl/>
+            </cei:listBiblFaksimile>
+            <cei:listBiblErw>
+              <cei:bibl/>
+            </cei:listBiblErw>
+            <cei:p>Der erste bekannte kuriale Sammelablass für St. Sebald wurde noch in Rom
+              ausgestellt. Als Ausstellungsjahr – ohne Monats- und Tagesdatierung – wird 1289
+              angegeben. Die zusätzliche Datierung mit dem dritten Pontifikatsjahr Papst Nikolausʼ
+              IV. (1290/91) weist allerdings in das Jahr 1290. Der Ablass ist, typisch für seine
+              Zeit, noch weniger umfangreich als spätere Avignoner Indulgenzen, er enthält aber die
+              wichtigsten Feiertage wie Weihnachten, Ostern, Pfingsten oder die Marienfeste. Auch
+              das Fest des hl. Sebald findet sich unter den genannten Ablasstagen. Als einzige
+              zusätzliche Ablassbedingung neben dem Besuch der Kirche wird die finanzielle bzw.
+              materielle Unterstützung derselben angegeben, sei es im Leben oder auf dem Totenbett.
+              Die Art der Siegelanbringung verrät, dass man wohl ursprünglich mit einem
+              ausstellenden Bischof weniger gerechnet hatte: Der gleichmässige Abstand zwischen den
+              Siegelschnüren ist links durch das Anhängen eines weiteren Siegels durchbrochen. Auch
+              scheint es, als hätte man nicht alle Siegler sofort angetroffen, denn rechts nehmen
+              die Beschriftungen über den Siegeln zu, als wollte man sich notieren, bei welchem
+              Bischof noch um ein Siegel nachzufragen wäre. Die Reihenfolge der Besieglung erfolgte
+              nämlich in der Regel nach der Nennung in der Intitulatio. </cei:p>
+            <cei:p>Arenga: <cei:foreign>Pia mater ecclesia ... </cei:foreign>.</cei:p>
+            <cei:p>Markus Gneiss</cei:p>
+            <cei:quoteOriginaldatierung/>
+            <cei:nota/>
+          </cei:diplomaticAnalysis>
+          <cei:lang_MOM/>
+        </cei:chDesc>
+        <cei:tenor/>
+      </cei:body>
+      <cei:back>
+        <cei:class/>
+        <cei:persName/>
+        <cei:placeName type="Region">Italien, Kurie</cei:placeName>
+        <cei:index indexName="illurk-vocabulary" lemma="DD-nh-Initials"/>
+        <cei:index indexName="illurk-vocabulary" lemma="zoomorphic"/>
+        <cei:index indexName="illurk-vocabulary" lemma="Fleuronne"/>
+        <cei:divNotes>
+          <cei:note/>
+        </cei:divNotes>
+      </cei:back>
+    </cei:text>
+  </atom:content>
+</atom:entry>

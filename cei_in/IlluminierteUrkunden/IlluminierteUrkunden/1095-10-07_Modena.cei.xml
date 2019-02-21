@@ -39,9 +39,12 @@
                         <cei:figure>
                             <cei:graphic url="http://images.monasterium.net/illum/IllUrk/1095-10-07_Heinrich-IV-f-Pomposa_Purpur.jpg"/>
                         </cei:figure>
-                        <cei:archIdentifier><cei:settlement>Modena</cei:settlement><cei:arch>Archivio di Stato, </cei:arch><cei:archFond>Arch.
-                                dell’Abbazia della Pomposa, Pergamene, </cei:archFond><cei:idno>f.
-                                1a</cei:idno></cei:archIdentifier>
+                        <cei:archIdentifier>
+                            <cei:settlement>Modena</cei:settlement>
+                            <cei:arch>Archivio di Stato</cei:arch>
+                            <cei:archFond>Arch. dell’Abbazia della Pomposa, Pergamene</cei:archFond>
+                            <cei:idno>f. 1a</cei:idno>
+                        </cei:archIdentifier>
                         <cei:physicalDesc>
                             <cei:decoDesc>
                                 <cei:p n="Ekphrasis">Purpururkunde mit Goldschrift; auch das
