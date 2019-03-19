@@ -154,7 +154,7 @@
                                 Monasterium.Net, we would like to ask every user to pass a free
                                 sample copy to the respective holder of the originals (archive).</p>
                         </availability>
-                        <pubPlace>Graz</pubPlace>
+                        <pubPlace><placeName>Graz</placeName></pubPlace>
                       <date>
                             <xsl:value-of select="current-dateTime()"/>  <!-- hOW TO MAKE THIS STABLE ACROSS Multiple Imports? -->
                         </date>
@@ -175,7 +175,7 @@
                             select="//cei:sourceDesc | //cei:sourceDescRegest | //cei:sourceDescVolltext | //cei:sourceDescErw">
                             
                             <!-- Nested bbibl elements in SourceDescRegest -->
-                            <xsl:apply-templates select="cei:bibl"/>
+                            <xsl:apply-templates select="cei:bibl[. != '']"/>
                         </xsl:for-each>
                         <!-- Hier wird der atom:link erhalten mit bibl type version: Gut Idee? -->
                         <xsl:if test="//atom:link">
@@ -595,6 +595,29 @@
             </xsl:if>
             <xsl:apply-templates/>
         </height>
+    </xsl:template>
+    <xsl:template match="cei:hi">
+        <hi>
+            <xsl:apply-templates/>
+        </hi>
+    </xsl:template>
+    <xsl:template match="cei:plica">
+        <xsl:variable name="unit">
+            <xsl:choose>
+                <xsl:when test="contains(parent::cei:dimensions, 'mm')">
+                    <xsl:text>mm</xsl:text>
+                </xsl:when>
+                <xsl:when test="contains(parent::cei:dimensions, 'cm')">
+                    <xsl:text>cm</xsl:text>
+                </xsl:when>
+            </xsl:choose>
+        </xsl:variable>
+        <plica>
+            <xsl:if test="$unit[. != '']">
+                <xsl:attribute name="unit" select="$unit"/>
+            </xsl:if>
+            <xsl:apply-templates/>
+        </plica>
     </xsl:template>
     <xsl:template match="cei:hi">
         <hi>
@@ -1112,9 +1135,18 @@
                         </xsl:if>                
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:attribute name="scheme">
-                        <xsl:value-of select="@indexName"/>
-                    </xsl:attribute>
+                    <xsl:variable name="indexName">
+                        <xsl:choose>
+                            <xsl:when test="@indexName = 'IllUrkGlossar'">http://gams.uni-graz.at/skos/scheme/o:cord.2483</xsl:when>             
+                            <xsl:when test="@indexName = 'illurk-vocabulary'">http://gams.uni-graz.at/skos/scheme/o:cord.2484</xsl:when>
+                            <xsl:otherwise> </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:variable>
+                    <xsl:if test="$indexName != ''">
+                        <xsl:attribute name="scheme">
+                            <xsl:value-of select="$indexName"/>
+                        </xsl:attribute>
+                    </xsl:if>              
                     <xsl:for-each select="current-group()">
                         <term>
                             <xsl:if test="@lemma">
