@@ -1,24 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
-    xmlns:atom="http://www.w3.org/2005/Atom"
-    xpath-default-namespace="http://www.tei-c.org/ns/1.0" 
-    xmlns="http://www.tei-c.org/ns/1.0" 
-    xmlns:cei="http://www.monasterium.net/NS/cei"
-    xmlns:xalan="http://xml.apache.org/xslt" exclude-result-prefixes="xs" version="3.0">
-    <xsl:output method="xml" indent="yes" xalan:indent-amount="4"/>
-    <xsl:variable name="oldid">
-        <xsl:value-of
-            select="substring-after(//atom:id, 'tag:www.monasterium.net,2011:/charter/')"
-        />
-    </xsl:variable>
-    <!-- var fond-imgs integrates urls from monasterium fonds -->
-    <xsl:variable name="fond-imgs" select="document('Listeversionofimages.xml')//eintrag[id = $oldid]"/>
-    <!-- Entries in subcollections of illurk extracted from List  -->
-    <xsl:variable name="nebensammlungen" select="document('NebensammlungDatumgeordnet.xml')//neben[id= substring-after($oldid,'/')]"/>
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"
+  xmlns:xalan="http://xml.apache.org/xslt" exclude-result-prefixes="xs" version="3.0">
+  <xsl:output method="xml" indent="yes" xalan:indent-amount="4"/>
+  <xsl:strip-space elements="*"/>
+  <!--****************************
+      Dieses Stylesheet regelt das Preprocessing und die Konversion von CEI docs zu TEI docs 
+      1. Step-1: Unnötige leere Elemente aus dem CEI werden entfernt
+      2. Step-2: Konversion von CEI zu TEI
+      3. Step-3: TEI-Validität erzeugen (body befüllen)
+      
+      
+      ****************************
+  -->
+  <xsl:variable name="oldid">
+    <xsl:value-of
+      select="substring-after(//atom:id, 'tag:www.monasterium.net,2011:/charter/')"
+    />
+  </xsl:variable>
+  <!-- xpath-default-namespace entfernt auch aus body-filler
+        var fond-imgs integrates urls from monasterium fonds -->
+  <xsl:variable name="fond-imgs" select="document('Listeversionofimages.xml')//eintrag[id = $oldid]"/>
+  <!-- Entries in subcollections of illurk extracted from List  -->
+  <xsl:variable name="nebensammlungen" select="document('NebensammlungDatumgeordnet.xml')//neben[id= substring-after($oldid,'/')]"/>
     
-    
-    <xsl:template match="/">
+  <xsl:variable name="step-1">
+    <xsl:apply-templates mode="step-1"></xsl:apply-templates>
+  </xsl:variable>
+  <xsl:template match="*[descendant::text() or descendant-or-self::*/@*[string()]]" mode="step-1">
+    <xsl:copy>
+      <xsl:apply-templates select="node()|@*" mode="step-1"/>
+    </xsl:copy>
+  </xsl:template>
+  
+  <xsl:template match="@*[string()]" mode="step-1">
+    <xsl:copy/>
+  </xsl:template>
+  
+  <xsl:variable name="step-2">
+    <xsl:apply-templates select="$step-1" mode="step-2"/>
+  </xsl:variable>
+
+  <xsl:template match="$step-1" mode="step-2">    
         <!--<xsl:processing-instruction name="xml-model">href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>-->
         <!-- Various Variables -->
         <xsl:variable name="atom_published" select="/atom:entry/atom:published"/>
@@ -131,9 +155,9 @@
                                 sample copy to the respective holder of the originals (archive).</p>
                         </availability>
                         <pubPlace>Graz</pubPlace>
-                        <!--<date>
-                            <xsl:value-of select="//today"/>   hOW TO MAKE THIS STABLE ACROSS Multiple Imports?
-                        </date>-->
+                      <date>
+                            <xsl:value-of select="current-dateTime()"/>  <!-- hOW TO MAKE THIS STABLE ACROSS Multiple Imports? -->
+                        </date>
                     </publicationStmt>
                     <sourceDesc>
                         <bibl>Originally converted to TEI based upon a CEI file from <ref
@@ -148,7 +172,8 @@
                                     ><xsl:value-of
                                     select="format-dateTime($atom_updated, '[Y]-[M]-[D]')"/></date>. </bibl>
                         <xsl:for-each
-                            select="//cei:sourceDesc | cei:sourceDescRegest | cei:sourceDescVolltext | cei:sourceDescErw">
+                            select="//cei:sourceDesc | //cei:sourceDescRegest | //cei:sourceDescVolltext | //cei:sourceDescErw">
+                            
                             <!-- Nested bbibl elements in SourceDescRegest -->
                             <xsl:apply-templates select="cei:bibl"/>
                         </xsl:for-each>
@@ -256,16 +281,14 @@
                         </xsl:for-each>
                     </xsl:if>
                 </facsimile>
-            </xsl:if>
-          
+            </xsl:if>          
             <text>
-                <body>   
-                        <xsl:apply-templates select="//cei:body"/>                      
-
+                <body>                    
+                    <xsl:apply-templates select="//cei:tenor"/>
                 </body>
             </text>
         </TEI>
-    </xsl:template>
+  </xsl:template>
     <xsl:template name="original_witness">
         <witness>
             <msDesc>
@@ -374,9 +397,9 @@
             <xsl:apply-templates/>
         </bibl>
     </xsl:template>
-    <xsl:template match="cei:body[. != '']">
+   <!-- <xsl:template match="cei:body[. != '']">
             <xsl:apply-templates/>
-    </xsl:template>
+    </xsl:template>-->
     <xsl:template match="cei:c">
         <g>
             <xsl:apply-templates/>
@@ -604,10 +627,10 @@
             <xsl:apply-templates select="cei:note"/>
         </msIdentifier>
     </xsl:template>
-    <xsl:template match="cei:body/cei:idno">
-        <!-- NOT IN USE -->
-    </xsl:template>
-    <xsl:template match="cei:idno">
+    <!--  NOT IN USE  
+    <xsl:template match="cei:body/cei:idno">        
+    </xsl:template>-->
+    <xsl:template match="cei:idno[not(parent::cei:body)]">
         <idno>
             <xsl:apply-templates/>
         </idno>
@@ -1045,7 +1068,7 @@
  -->
     <xsl:template name="p_in_div">
         <p>
-            <xsl:for-each select="*[not(cei:pTenor | cei:p)]">
+            <xsl:for-each select=".[not(cei:pTenor | cei:p)]">
                 <xsl:apply-templates/>
             </xsl:for-each>
         </p>
@@ -1164,17 +1187,44 @@
         <xsl:variable name="lemma" select="@lemma"/>
         <xsl:choose>
             <xsl:when test="$lemma">
-                <term>
+              <!--  <term>-->
                 <xsl:attribute name="ref">
                     <xsl:value-of
                         select="concat('http://gams.uni-graz.at/skos/scheme/o:cord.', $indexName, '#', $lemma)"
                     />
                 </xsl:attribute>
-                </term>
+                <!--</term>-->
             </xsl:when>
             
         </xsl:choose>
        
         <xsl:apply-templates/>
-    </xsl:template>
+
+  </xsl:template>
+  
+  <xsl:variable name="step-3">
+    <xsl:apply-templates select="$step-2" mode="step-3"/>
+  </xsl:variable>
+  <xsl:template match="node() | @*" mode="step-3">    
+    <xsl:copy>
+      <xsl:apply-templates select="node() | @*" mode="step-3"/>
+    </xsl:copy>    
+  </xsl:template>
+  
+  <xsl:template match="*:TEI/*:text/*:body[empty(node())]" mode="step-3">      
+    <body>
+      <div type="tenor">
+      <p/>
+    </div> 
+    </body>
+  </xsl:template>
+  
+  <xsl:template match="/" priority="-2">
+    <xsl:variable name="idno" select="substring-after(//atom:id, 'IlluminierteUrkunden/')"/>   
+    <xsl:result-document href="happy-tei/{$idno}.xml">     
+   <xsl:copy-of select="$step-3"></xsl:copy-of>
+    </xsl:result-document>
+  </xsl:template>
+  
+
 </xsl:stylesheet>
