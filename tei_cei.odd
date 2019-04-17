@@ -646,6 +646,19 @@
        <macroRef key="macro.specialPara"/>
       </content>
      </elementSpec>
+     <elementSpec ident="plica" mode="add">
+      <desc>Used to specify the length of the plica (fold) of a charter, where it is present. Since the practices of archives vary in whether this is inclusive or exclusive in the measurement of height of a document where the plica is unfolded, the use of this element contains no judgement on such.</desc>
+      <classes>
+       <memberOf key="model.dimLike"/>
+       <memberOf key="model.measureLike"/>
+       <memberOf key="att.global"/>
+       <memberOf key="att.dimensions"/>
+       <memberOf key="att.ranging"/>
+      </classes>
+      <content>
+       <macroRef key="macro.xtext"/>
+      </content>
+     </elementSpec>
     </schemaSpec>
    </div>
   </body>
