@@ -125,10 +125,20 @@
                             <!-- old id is included in the new id -->
                             <idno type="PID" resp="https://illuminierte-urkunden.uni-graz.at/">
                                 <xsl:value-of
-                                    select="normalize-space(concat('o:cord.IU.',//cei:body/cei:idno))"
+                                    select="concat('o:cord.',replace(substring-after(atom:entry/atom:id, 'charter/'), '/', '.'))"
                                 />
                             </idno>
-                        </publisher>
+                           
+                            <xsl:variable name="contextname2">
+                                <xsl:value-of select="substring-after(atom:entry/atom:id, 'charter/')"/>
+                            </xsl:variable>
+                            <xsl:variable name="contextname1">
+                                <xsl:value-of select="concat('/', tokenize($contextname2, '/')[last()])"></xsl:value-of>
+                            </xsl:variable>
+                            <xsl:variable name="contextname">
+                                <xsl:value-of select="concat('context:cord.', substring-before($contextname2, $contextname1) )"/>
+                            </xsl:variable>
+                            <ref target="{$contextname}" type="context"><xsl:value-of select="$contextname"/></ref>                        </publisher>
                         <distributor>
                             <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
                                 Asset Management System</orgName>
@@ -231,15 +241,20 @@
                         <particDesc>
                             <xsl:if test="//cei:back//cei:persName[. != '']">
                                 <listPerson>
-                                    <xsl:for-each select="//back//cei:persName">
+                                    <xsl:for-each select="//cei:back//cei:persName">
                                         <xsl:sort order="ascending" select="."/>
                                         <xsl:choose>
-                                            <xsl:when test="@key">
+                                            <xsl:when test="@key">                                               
                                                 <xsl:for-each-group select="." group-by="@key">
-                                                  <xsl:call-template name="list_people"/>
+                                                    <xsl:call-template name="list_people"/>
                                                 </xsl:for-each-group>
                                             </xsl:when>
-                                            <xsl:otherwise>
+                                            <xsl:when test="@reg">                                               
+                                                <xsl:for-each-group select="." group-by="@reg">
+                                                    <xsl:call-template name="list_people"/>
+                                                </xsl:for-each-group>
+                                            </xsl:when>
+                                            <xsl:otherwise>                                               
                                                 <xsl:for-each-group select="." group-by=".">
                                                   <xsl:call-template name="list_people"/>
                                                 </xsl:for-each-group>
@@ -251,7 +266,24 @@
                             <xsl:if test="//cei:back//cei:orgName[. != '']">
                                 <listOrg>
                                     <xsl:for-each select="//cei:back//cei:orgName[. != '']">
-                                        <xsl:call-template name="list_orgs"/>
+                                        <xsl:sort order="ascending" select="."/>
+                                        <xsl:choose>
+                                            <xsl:when test="@key">                                               
+                                                <xsl:for-each-group select="." group-by="@key">
+                                                    <xsl:call-template name="list_orgs"/>
+                                                </xsl:for-each-group>
+                                            </xsl:when>
+                                            <xsl:when test="@reg">                                               
+                                                <xsl:for-each-group select="." group-by="@reg">
+                                                    <xsl:call-template name="list_orgs"/>
+                                                </xsl:for-each-group>
+                                            </xsl:when>
+                                            <xsl:otherwise>                                               
+                                                <xsl:for-each-group select="." group-by=".">
+                                                    <xsl:call-template name="list_orgs"/>
+                                                </xsl:for-each-group>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
                                     </xsl:for-each>
                                 </listOrg>
                             </xsl:if>
@@ -260,8 +292,27 @@
                     <xsl:if test="//cei:back//cei:placeName[. != '']">
                         <settingDesc>
                             <listPlace>
+                            
                                 <xsl:for-each select="//cei:back//cei:placeName[. != '']">
-                                    <xsl:call-template name="list_places"/>
+                                    <xsl:sort order="ascending" select="."/>
+                                    
+                          <!--          <xsl:choose>
+                                        <xsl:when test="@key">                                               
+                                            <xsl:for-each-group select="." group-by="@key">
+                                                <xsl:value-of select="."/>
+                                            </xsl:for-each-group>
+                                        </xsl:when>
+                                      <xsl:when test="@reg">                                               
+                                            <xsl:for-each-group select="." group-by="@reg">
+                                                <xsl:call-template name="list_places"/>
+                                            </xsl:for-each-group>
+                                        </xsl:when>
+                                        <xsl:otherwise>    -->                                           
+                                            <xsl:for-each-group select="." group-by=".">
+                                                <xsl:apply-templates select="." />                                              
+                                            </xsl:for-each-group>
+                                <!--        </xsl:otherwise>
+                                    </xsl:choose>-->
                                 </xsl:for-each>
                             </listPlace>
                         </settingDesc>
@@ -373,7 +424,7 @@
             <xsl:apply-templates/>
         </availability>
     </xsl:template>
-    <xsl:template match="cei:back/cei:persName">
+<!--    <xsl:template match="cei:back/cei:persName">
         <person>
             <xsl:apply-templates/>
         </person>
@@ -382,7 +433,7 @@
         <place>
             <xsl:apply-templates/>
         </place>
-    </xsl:template>
+    </xsl:template>-->
     <xsl:template match="cei:back/cei:orgName">
         <org>
             <xsl:apply-templates/>
@@ -846,9 +897,33 @@
         <pict><xsl:apply-templates/></pict>
     </xsl:template>-->
     <xsl:template match="cei:placeName">
-        <placeName>
-            <xsl:apply-templates/>
+       <place>        
+           <placeName>
+               <xsl:choose>
+               <xsl:when test="(@type='Region')">
+                        <region>
+                            <xsl:value-of select="."/>
+                        </region>
+                    </xsl:when>
+                    <xsl:when test="(@n='Region')">
+                        <region>
+                            <xsl:value-of select="."/>
+                        </region>
+                    </xsl:when>
+               <xsl:otherwise>
+                   <xsl:for-each select="@*">
+                       <xsl:attribute name="{name()}">
+                           <xsl:value-of select="."/>
+                       </xsl:attribute>
+                   </xsl:for-each>
+                   <xsl:apply-templates/>
+               </xsl:otherwise>
+               </xsl:choose>
         </placeName>
+       </place>
+    </xsl:template>
+    <xsl:template match="@reg">
+       <xsl:copy></xsl:copy>
     </xsl:template>
     <xsl:template match="cei:provenance">
         <provenance>
@@ -1074,21 +1149,6 @@
     <xsl:template match="text()">
         <xsl:value-of select="."/>
     </xsl:template>
-    <!-- add back in when applying to actual files
-    <xsl:template
-        match="
-            *[not(node())]
-            |
-            *[not(node()[2])
-            and
-            node()/self::text()
-            and
-            not(normalize-space())
-            and
-            not(@*)
-            ]
-            "/>
- -->
     <xsl:template name="p_in_div">
         <p>
             <xsl:for-each select=".[not(cei:pTenor | cei:p)]">
@@ -1170,12 +1230,22 @@
     </xsl:template>
     <xsl:template name="list_people">
         <person>
-            <xsl:if test="@key">
+            <persName>
+            <xsl:choose>
+            <xsl:when test="@key">
                 <xsl:attribute name="xml:id">
                     <xsl:value-of select="@key"/>
                 </xsl:attribute>
-            </xsl:if>
-            <persName>
+            </xsl:when>
+            <xsl:otherwise>
+                    <xsl:for-each select="@*">
+                        <xsl:attribute name="{name()}">
+                            <xsl:value-of select="."/>
+                        </xsl:attribute>
+                    </xsl:for-each>
+                    <xsl:apply-templates/>
+                </xsl:otherwise>
+            </xsl:choose>
                 <xsl:apply-templates/>
             </persName>
         </person>
@@ -1192,22 +1262,9 @@
             </orgName>
         </org>
     </xsl:template>
-    <xsl:template name="list_places">
-        <place>
-            <placeName>
-                <xsl:choose>
-                    <xsl:when test="@type | @n">
-                        <region>
-                            <xsl:value-of select="."/>
-                        </region>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:apply-templates/>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </placeName>
-        </place>
-    </xsl:template>
+   <!-- <xsl:template name="list_places">
+            <xsl:apply-templates/>
+    </xsl:template>-->
     <xsl:template name="vocab_uri">
         <xsl:variable name="indexName">
             <xsl:choose>
@@ -1252,7 +1309,7 @@
   </xsl:template>
   
   <xsl:template match="/" priority="-2">
-    <xsl:variable name="idno" select="substring-after(//atom:id, 'IlluminierteUrkunden/')"/>   
+    <xsl:variable name="idno" select="replace(substring-after(//atom:id, 'charter/'),'/', '-')"/>   
     <xsl:result-document href="happy-tei/{$idno}.xml">     
    <xsl:copy-of select="$step-3"></xsl:copy-of>
     </xsl:result-document>
