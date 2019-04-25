@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:atom="http://www.w3.org/2005/Atom"
-  xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei"
-  xmlns:xalan="http://xml.apache.org/xslt" exclude-result-prefixes="xs" version="3.0">
-  <xsl:output method="xml" indent="yes" xalan:indent-amount="4"/>
-  <xsl:strip-space elements="*"/>
-  <!--****************************
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns="http://www.tei-c.org/ns/1.0" xmlns:cei="http://www.monasterium.net/NS/cei" xmlns:bf="http://betterform.sourceforge.net/xforms"
+    xmlns:xalan="http://xml.apache.org/xslt" exclude-result-prefixes="xs" version="3.0">
+    <xsl:output method="xml" indent="yes" xalan:indent-amount="4"/>
+    <xsl:strip-space elements="*"/>
+    <!--****************************
       Dieses Stylesheet regelt das Preprocessing und die Konversion von CEI docs zu TEI docs 
       1. Step-1: Unnötige leere Elemente aus dem CEI werden entfernt
       2. Step-2: Konversion von CEI zu TEI
@@ -14,40 +14,54 @@
       
       ****************************
   -->
-  <xsl:variable name="oldid">
-    <xsl:value-of
-      select="substring-after(//atom:id, 'tag:www.monasterium.net,2011:/charter/')"
-    />
-  </xsl:variable>
-  <!-- xpath-default-namespace entfernt auch aus body-filler
+    <xsl:variable name="oldid">
+        <xsl:value-of select="substring-after(//atom:id, 'tag:www.monasterium.net,2011:/charter/')"
+        />
+    </xsl:variable>
+    <!-- xpath-default-namespace entfernt auch aus body-filler
         var fond-imgs integrates urls from monasterium fonds -->
-  <xsl:variable name="fond-imgs" select="document('Listeversionofimages.xml')//eintrag[id = $oldid]"/>
-  <!-- Entries in subcollections of illurk extracted from List  -->
-  <xsl:variable name="nebensammlungen" select="document('NebensammlungDatumgeordnet.xml')//neben[id= substring-after($oldid,'/')]"/>
-    
-  <xsl:variable name="step-1">
-    <xsl:apply-templates mode="step-1"></xsl:apply-templates>
-  </xsl:variable>
-  <xsl:template match="*[descendant::text() or descendant-or-self::*/@*[string()]]" mode="step-1">
-    <xsl:copy>
-      <xsl:apply-templates select="node()|@*" mode="step-1"/>
-    </xsl:copy>
-  </xsl:template>
+    <xsl:variable name="fond-imgs"
+        select="document('Listeversionofimages.xml')//eintrag[id = $oldid]"/>
+    <!-- Entries in subcollections of illurk extracted from List  -->
   
-  <xsl:template match="@*[string()]" mode="step-1">
-    <xsl:copy/>
-  </xsl:template>
-  
-  <xsl:variable name="step-2">
-    <xsl:apply-templates select="$step-1" mode="step-2"/>
-  </xsl:variable>
 
-  <xsl:template match="$step-1" mode="step-2">    
+    <xsl:variable name="step-1">
+        <xsl:apply-templates mode="step-1"/>
+    </xsl:variable>
+    <xsl:template match="*[descendant::text() or descendant-or-self::*/@*[string()]]" mode="step-1">
+        <xsl:copy>
+            <xsl:apply-templates select="node() | @*" mode="step-1"/>
+        </xsl:copy>
+    </xsl:template>
+
+    <xsl:template match="@*[string()]" mode="step-1">
+        <xsl:copy/>
+    </xsl:template>
+
+    <xsl:variable name="step-2">
+        <xsl:apply-templates select="$step-1" mode="step-2"/>
+    </xsl:variable>
+
+    <xsl:template match="$step-1" mode="step-2">
         <!--<xsl:processing-instruction name="xml-model">href="file:/Z:/Documents/CEI_TEIP5/tei_cei/out/tei_cei.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>-->
         <!-- Various Variables -->
         <xsl:variable name="atom_published" select="/atom:entry/atom:published"/>
         <xsl:variable name="atom_updated" select="/atom:entry/atom:updated"/>
-    
+        <xsl:variable name="pid"
+            select="concat('o:cord.', replace(substring-after(atom:entry/atom:id, 'charter/'), '/', '.'))"/>
+        <xsl:variable name="atom-rest">
+            <xsl:value-of select="substring-after(atom:entry/atom:id, 'charter/')"/>
+        </xsl:variable>
+        <xsl:variable name="atom-last">
+            <xsl:value-of select="concat('/', tokenize($atom-rest, '/')[last()])"/>
+        </xsl:variable>
+        <xsl:variable name="collection" select="substring-before($atom-rest, $atom-last)"></xsl:variable>
+        <xsl:variable name="contextname">
+            <xsl:value-of
+                select="concat('context:cord.', lower-case(replace(substring-before($atom-rest, $atom-last), '/', '.')))"
+            />
+        </xsl:variable>
+
         <TEI>
             <teiHeader>
                 <fileDesc>
@@ -119,30 +133,38 @@
                     <publicationStmt>
                         <publisher>
                             <orgName ref="http://d-nb.info/gnd/1137284463"
-                                corresp="https://informationsmodellierung.uni-graz.at">Zentrum für
+                                corresp="https://informationsmodellierung.uni-graz.at"
+                                >Zentrum für
                                 Informationsmodellierung - Austrian Centre for Digital Humanities,
                                 Karl-Franzens-Universität Graz</orgName>
-                            <!-- old id is included in the new id -->
+                            <!-- old id is included in the new id and is hashed in fedora-->
                             <idno type="PID" resp="https://illuminierte-urkunden.uni-graz.at/">
-                                <xsl:value-of
-                                    select="concat('o:cord.',replace(substring-after(atom:entry/atom:id, 'charter/'), '/', '.'))"
-                                />
+                                <xsl:value-of select="$pid"/>
                             </idno>
-                           
-                            <xsl:variable name="contextname2">
-                                <xsl:value-of select="substring-after(atom:entry/atom:id, 'charter/')"/>
-                            </xsl:variable>
-                            <xsl:variable name="contextname1">
-                                <xsl:value-of select="concat('/', tokenize($contextname2, '/')[last()])"></xsl:value-of>
-                            </xsl:variable>
-                            <xsl:variable name="contextname">
-                                <xsl:value-of select="concat('context:cord.', substring-before($contextname2, $contextname1) )"/>
-                            </xsl:variable>
-                            <ref target="{$contextname}" type="context"><xsl:value-of select="$contextname"/></ref>                        </publisher>
+                            <ref target="{$contextname}" type="context">
+                                <xsl:value-of select="$contextname"/>
+                            </ref>
+                            <!-- Nebensammlungen become contexts, just for Illurks -->
+                            <xsl:if test="$collection = 'IlluminierteUrkunden'">
+                            <xsl:variable name="nebensammlungen"
+                                select="document('NebensammlungDatumgeordnet.xml')//neben[id = substring-after($oldid, '/')]"/>                        
+                                    <xsl:for-each select="$nebensammlungen">
+                                        <xsl:if test="contains(sammlung, 'IlluminierteUrkunden') ">
+                                            <xsl:variable name="nebensammlung"
+                                                select="substring-after(sammlung, 'IlluminierteUrkunden')"/>
+                                                <ref target="context:cord.illuminierteurkunden.{lower-case($nebensammlung)}" type="context">
+                                                    <xsl:value-of select="$nebensammlung"/>
+                                                </ref>
+                                          
+                                        </xsl:if>
+                                    </xsl:for-each>                     
+                            </xsl:if>
+                        </publisher>
                         <distributor>
-                            <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                            <orgName ref="https://gams.uni-graz.at"
+                                >GAMS - Geisteswissenschaftliches
                                 Asset Management System</orgName>
-                          
+
                         </distributor>
                         <availability>
                             <p>All texts and pictures are protected according to national copyrights
@@ -164,9 +186,12 @@
                                 Monasterium.Net, we would like to ask every user to pass a free
                                 sample copy to the respective holder of the originals (archive).</p>
                         </availability>
-                        <pubPlace><placeName>Graz</placeName></pubPlace>
-                      <date>
-                            <xsl:value-of select="current-dateTime()"/>  <!-- hOW TO MAKE THIS STABLE ACROSS Multiple Imports? -->
+                        <pubPlace>
+                            <placeName>Graz</placeName>
+                        </pubPlace>
+                        <date>
+                            <xsl:value-of select="current-dateTime()"/>
+                            <!-- hOW TO MAKE THIS STABLE ACROSS Multiple Imports? -->
                         </date>
                     </publicationStmt>
                     <sourceDesc>
@@ -174,29 +199,33 @@
                                 target="http://monasterium.net/">Monasterium</ref>, <idno
                                 type="Monasterium">
                                 <xsl:value-of
-                                    select="substring-after(//atom:id, 'tag:www.monasterium.net,2011:/charter/')"
+                                    select="$oldid"
                                 />
                             </idno>, created on <date when="{$atom_published}"><xsl:value-of
                                     select="format-dateTime($atom_published, '[Y]-[M]-[D]')"
                                 /></date> and last updated on <date when="{$atom_updated}"
                                     ><xsl:value-of
-                                    select="format-dateTime($atom_updated, '[Y]-[M]-[D]')"/></date>. </bibl>
+                                    select="format-dateTime($atom_updated, '[Y]-[M]-[D]')"
+                            /></date>. </bibl>
                         <xsl:for-each
                             select="//cei:sourceDesc | //cei:sourceDescRegest | //cei:sourceDescVolltext | //cei:sourceDescErw">
-                            
+
                             <!-- Nested bbibl elements in SourceDescRegest -->
                             <xsl:apply-templates select="cei:bibl[. != '']"/>
                         </xsl:for-each>
                         <!-- Hier wird der atom:link erhalten mit bibl type version: Gut Idee? -->
                         <xsl:if test="//atom:link">
                             <bibl type="version">
-                                <ref><xsl:attribute name="target">
-                                   <xsl:text>http://monasterium.net/mom/</xsl:text>
-                                    <xsl:value-of select="substring-after(//atom:link/@ref, 'charter/')"/>
-                                   <xsl:text>/charter</xsl:text>
-                                </xsl:attribute></ref>
+                                <ref>
+                                    <xsl:attribute name="target">
+                                        <xsl:text>http://monasterium.net/mom/</xsl:text>
+                                        <xsl:value-of
+                                            select="substring-after(//atom:link/@ref, 'charter/')"/>
+                                        <xsl:text>/charter</xsl:text>
+                                    </xsl:attribute>
+                                </ref>
                             </bibl>
-                 
+
                         </xsl:if>
                         <listWit>
                             <xsl:call-template name="original_witness"/>
@@ -208,7 +237,8 @@
                 </fileDesc>
                 <encodingDesc>
                     <projectDesc>
-                        <p>The <ref target="https://illuminierte-urkunden.uni-graz.at">Illuminierte
+                        <p>The <ref target="https://illuminierte-urkunden.uni-graz.at"
+                                >Illuminierte
                                 Urkunden</ref> project is a cross-disciplinary historical,
                             art-historical, and digital humanities project which collects
                             illuminated medieval charters from all over Europe, publishes them, and
@@ -217,7 +247,8 @@
                     <listPrefixDef>
                         <prefixDef ident="zotero" matchPattern="([a-z]+[a-z0-9]*)"
                             replacementPattern="http://zotero.org/groups/257864/items/$1">
-                            <p part="N"> Private URIs using the bibl prefix can be expanded to form
+                            <p part="N"
+                                > Private URIs using the bibl prefix can be expanded to form
                                 URIs which retrieve the relevant bibliographical reference from
                                 Zotero. </p>
                         </prefixDef>
@@ -229,12 +260,29 @@
                     </abstract>
                     <xsl:apply-templates select="//cei:lang_MOM"/>
                     <textClass>
-                       <!-- <ref target="info:fedora/context:fercan.dedication.votum_solvit_libens_merito" type="context">votum solvit libens merito</ref>-->
-                        
-                        <!-- have to define a rule for keywords, which don't have @ as well-->
-                        <xsl:for-each-group select="//cei:index[. != '']" group-by="@indexName">                          
-                            <xsl:call-template name="keywords"/>
+                   
+                         <!--   <xsl:when test="//cei:back//cei:index[@indexName != ''] ">
+                                <xsl:for-each-group select="//cei:index[. != '']" group-by="@indexName">
+                                    <xsl:call-template name="keywords"/>
+                                </xsl:for-each-group>
+                            </xsl:when>
+                            <xsl:when test="//cei:back//cei:index[@lemma !=''][not(@indexName)]">
+                                <keywords>
+                                    <term><xsl:call-template name="vocab_uri"></xsl:call-template></term>
+                                </keywords>
+                            </xsl:when>-->
+                           <!-- <cei:index>Schaf</cei:index> -->
+                                
+                          <xsl:for-each-group select="//cei:back//cei:index[attribute::*]" group-by="@indexName | @lemma | @type">
+                              <xsl:call-template name="keywords"/>
+                          </xsl:for-each-group>
+                        <xsl:for-each-group select="//cei:back//cei:index[not(@*)]" group-by=".">
+                            <keywords type="keineATTs">
+                           <term><xsl:value-of select="."/></term>
+                            </keywords>
                         </xsl:for-each-group>
+                            
+                                   
                     </textClass>
                     <xsl:if
                         test="//cei:back//cei:persName[. != ''] | //cei:back//cei:orgName[. != '']">
@@ -244,17 +292,17 @@
                                     <xsl:for-each select="//cei:back//cei:persName">
                                         <xsl:sort order="ascending" select="."/>
                                         <xsl:choose>
-                                            <xsl:when test="@key">                                               
+                                            <xsl:when test="@key">
                                                 <xsl:for-each-group select="." group-by="@key">
-                                                    <xsl:call-template name="list_people"/>
+                                                  <xsl:call-template name="list_people"/>
                                                 </xsl:for-each-group>
                                             </xsl:when>
-                                            <xsl:when test="@reg">                                               
+                                            <xsl:when test="@reg">
                                                 <xsl:for-each-group select="." group-by="@reg">
-                                                    <xsl:call-template name="list_people"/>
+                                                  <xsl:call-template name="list_people"/>
                                                 </xsl:for-each-group>
                                             </xsl:when>
-                                            <xsl:otherwise>                                               
+                                            <xsl:otherwise>
                                                 <xsl:for-each-group select="." group-by=".">
                                                   <xsl:call-template name="list_people"/>
                                                 </xsl:for-each-group>
@@ -268,19 +316,19 @@
                                     <xsl:for-each select="//cei:back//cei:orgName[. != '']">
                                         <xsl:sort order="ascending" select="."/>
                                         <xsl:choose>
-                                            <xsl:when test="@key">                                               
+                                            <xsl:when test="@key">
                                                 <xsl:for-each-group select="." group-by="@key">
-                                                    <xsl:call-template name="list_orgs"/>
+                                                  <xsl:call-template name="list_orgs"/>
                                                 </xsl:for-each-group>
                                             </xsl:when>
-                                            <xsl:when test="@reg">                                               
+                                            <xsl:when test="@reg">
                                                 <xsl:for-each-group select="." group-by="@reg">
-                                                    <xsl:call-template name="list_orgs"/>
+                                                  <xsl:call-template name="list_orgs"/>
                                                 </xsl:for-each-group>
                                             </xsl:when>
-                                            <xsl:otherwise>                                               
+                                            <xsl:otherwise>
                                                 <xsl:for-each-group select="." group-by=".">
-                                                    <xsl:call-template name="list_orgs"/>
+                                                  <xsl:call-template name="list_orgs"/>
                                                 </xsl:for-each-group>
                                             </xsl:otherwise>
                                         </xsl:choose>
@@ -292,11 +340,11 @@
                     <xsl:if test="//cei:back//cei:placeName[. != '']">
                         <settingDesc>
                             <listPlace>
-                            
+
                                 <xsl:for-each select="//cei:back//cei:placeName[. != '']">
                                     <xsl:sort order="ascending" select="."/>
-                                    
-                          <!--          <xsl:choose>
+
+                                    <!--          <xsl:choose>
                                         <xsl:when test="@key">                                               
                                             <xsl:for-each-group select="." group-by="@key">
                                                 <xsl:value-of select="."/>
@@ -307,11 +355,11 @@
                                                 <xsl:call-template name="list_places"/>
                                             </xsl:for-each-group>
                                         </xsl:when>
-                                        <xsl:otherwise>    -->                                           
-                                            <xsl:for-each-group select="." group-by=".">
-                                                <xsl:apply-templates select="." />                                              
-                                            </xsl:for-each-group>
-                                <!--        </xsl:otherwise>
+                                        <xsl:otherwise>    -->
+                                    <xsl:for-each-group select="." group-by=".">
+                                        <xsl:call-template name="list_places"/>
+                                    </xsl:for-each-group>
+                                    <!--        </xsl:otherwise>
                                     </xsl:choose>-->
                                 </xsl:for-each>
                             </listPlace>
@@ -332,18 +380,18 @@
                         </xsl:for-each>
                     </xsl:if>
                 </facsimile>
-            </xsl:if>          
+            </xsl:if>
             <text>
-                <body>                    
+                <body>
                     <xsl:apply-templates select="//cei:tenor"/>
                 </body>
             </text>
         </TEI>
-  </xsl:template>
+    </xsl:template>
     <xsl:template name="original_witness">
         <witness>
             <msDesc>
-                   <xsl:apply-templates select="//cei:witnessOrig/cei:archIdentifier"/>
+                <xsl:apply-templates select="//cei:witnessOrig/cei:archIdentifier"/>
                 <xsl:apply-templates select="//cei:witnessOrig/cei:physicalDesc"/>
                 <diploDesc>
                     <xsl:apply-templates select="//cei:witnessOrig/cei:traditioForm"/>
@@ -356,6 +404,12 @@
                 <!-- There are  cei:figure tags in witnessOrig that need to be moved to facsimile (no anchors neeeded?) -->
             </msDesc>
         </witness>
+    </xsl:template>
+    <xsl:template match="cei:index">
+        <index>
+        <xsl:copy-of select="@*"></xsl:copy-of>
+        <xsl:value-of select="."/>
+        </index>
     </xsl:template>
     <xsl:template match="cei:abstract">
         <p>
@@ -424,7 +478,7 @@
             <xsl:apply-templates/>
         </availability>
     </xsl:template>
-<!--    <xsl:template match="cei:back/cei:persName">
+    <!--    <xsl:template match="cei:back/cei:persName">
         <person>
             <xsl:apply-templates/>
         </person>
@@ -433,12 +487,12 @@
         <place>
             <xsl:apply-templates/>
         </place>
-    </xsl:template>-->
+    </xsl:template>
     <xsl:template match="cei:back/cei:orgName">
         <org>
             <xsl:apply-templates/>
         </org>
-    </xsl:template>
+    </xsl:template>-->
     <xsl:template match="cei:bibl">
         <bibl>
             <xsl:if test="@key != ''">
@@ -448,7 +502,7 @@
             <xsl:apply-templates/>
         </bibl>
     </xsl:template>
-   <!-- <xsl:template match="cei:body[. != '']">
+    <!-- <xsl:template match="cei:body[. != '']">
             <xsl:apply-templates/>
     </xsl:template>-->
     <xsl:template match="cei:c">
@@ -617,7 +671,7 @@
         </geogName>
     </xsl:template>
     <xsl:template match="cei:graphic" mode="image">
-        <graphic url="{@url}"/>      
+        <graphic url="{@url}"/>
     </xsl:template>
     <xsl:template match="cei:group">
         <group>
@@ -720,11 +774,11 @@
             <xsl:apply-templates/>
         </imprint>
     </xsl:template>
-    <xsl:template match="cei:body//cei:index[. != '']">
-      <!--  <term>-->
-            <xsl:call-template name="vocab_uri"/>
-        <!--</term>-->
-    </xsl:template>
+   <!-- <xsl:template match="cei:body//cei:index[. != '']">
+        <!-\-  <term>-\->
+        <xsl:call-template name="vocab_uri"/>
+        <!-\-</term>-\->
+    </xsl:template>-->
     <xsl:template match="cei:institution">
         <institution>
             <xsl:apply-templates/>
@@ -897,34 +951,16 @@
         <pict><xsl:apply-templates/></pict>
     </xsl:template>-->
     <xsl:template match="cei:placeName">
-       <place>        
-           <placeName>
-               <xsl:choose>
-               <xsl:when test="(@type='Region')">
-                        <region>
-                            <xsl:value-of select="."/>
-                        </region>
-                    </xsl:when>
-                    <xsl:when test="(@n='Region')">
-                        <region>
-                            <xsl:value-of select="."/>
-                        </region>
-                    </xsl:when>
-               <xsl:otherwise>
-                   <xsl:for-each select="@*">
-                       <xsl:attribute name="{name()}">
-                           <xsl:value-of select="."/>
-                       </xsl:attribute>
-                   </xsl:for-each>
-                   <xsl:apply-templates/>
-               </xsl:otherwise>
-               </xsl:choose>
+        <placeName>
+            <xsl:for-each select="@*">
+                <xsl:attribute name="{name()}">
+                    <xsl:value-of select="."/>
+                </xsl:attribute>
+            </xsl:for-each>
+            <xsl:apply-templates/>
         </placeName>
-       </place>
     </xsl:template>
-    <xsl:template match="@reg">
-       <xsl:copy></xsl:copy>
-    </xsl:template>
+
     <xsl:template match="cei:provenance">
         <provenance>
             <xsl:apply-templates/>
@@ -1157,9 +1193,13 @@
         </p>
     </xsl:template>
     <xsl:template name="keywords">
-        <keywords>
-            <xsl:choose>                
+        
+            <xsl:choose><!-- exception for Illurks -->
                 <xsl:when test="@indexName = 'Illurk-Urkundenart'">
+                    <keywords>
+                    <xsl:attribute name="scheme">
+                        <xsl:value-of select="@indexName"/>
+                    </xsl:attribute>
                     <xsl:variable name="urkart">
                         <xsl:choose>
                             <xsl:when test="starts-with(normalize-space(.), 'Bischofsammel')">
@@ -1185,28 +1225,33 @@
                             </xsl:when>
                             <xsl:when test="starts-with(normalize-space(.), 'Kardinalsammel')">
                                 <xsl:text>kardinalsammelindulgenz</xsl:text>
-                            </xsl:when>                                 
-                        </xsl:choose>
-                    </xsl:variable>               
-                        <xsl:if test="$urkart != ''">
-                            <term>
-                                <ref target="context:cord.{$urkart}" type="context"><xsl:value-of select="."/></ref>
-                            </term>                            
-                        </xsl:if>                
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:variable name="indexName">
-                        <xsl:choose>
-                            <xsl:when test="@indexName = 'IllUrkGlossar'">http://gams.uni-graz.at/skos/scheme/o:cord.2483</xsl:when>             
-                            <xsl:when test="@indexName = 'illurk-vocabulary'">http://gams.uni-graz.at/skos/scheme/o:cord.2484</xsl:when>
-                            <xsl:otherwise> </xsl:otherwise>
+                            </xsl:when>
                         </xsl:choose>
                     </xsl:variable>
-                    <xsl:if test="$indexName != ''">
+                    <xsl:if test="$urkart != ''">
+                        <term>
+                            <ref target="context:cord.illuminierteurkunden.{$urkart}" type="context">
+                                <xsl:value-of select="."/>
+                            </ref>
+                        </term>
+                    </xsl:if>
+                    </keywords>
+                </xsl:when>
+                <xsl:when test="@indexName = 'IllUrkGlossar' or @indexName = 'illurk-vocabulary'">
+                    <xsl:variable name="indexName">
+                        <xsl:choose>
+                            <xsl:when test="@indexName = 'IllUrkGlossar'"
+                                >http://gams.uni-graz.at/skos/scheme/o:cord.2483</xsl:when>
+                            <xsl:when test="@indexName = 'illurk-vocabulary'"
+                                >http://gams.uni-graz.at/skos/scheme/o:cord.2484</xsl:when>
+                            <xsl:otherwise> </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:variable> 
+                    <keywords>
                         <xsl:attribute name="scheme">
                             <xsl:value-of select="$indexName"/>
                         </xsl:attribute>
-                    </xsl:if>              
+                   
                     <xsl:for-each select="current-group()">
                         <term>
                             <xsl:if test="@lemma">
@@ -1217,35 +1262,31 @@
                             <xsl:call-template name="vocab_uri"/>
                         </term>
                     </xsl:for-each>
-                </xsl:otherwise>
-            </xsl:choose>
-            <!-- Nebensammlungen become contexts -->
-            <xsl:if test="$nebensammlungen != ''">
-                <xsl:for-each select="$nebensammlungen">
-                    <xsl:variable name="nebensammlung" select="substring-after(sammlung, 'IlluminierteUrkunden')"></xsl:variable>
-                    <term><ref target="context:cord.{$nebensammlung}" type="context"><xsl:value-of select="$nebensammlung"/></ref></term>
-                </xsl:for-each>                
-            </xsl:if>
-        </keywords>
+                    </keywords>
+                </xsl:when>
+                <xsl:when test="@*"><!-- gruppieren bei gleichem Wert sollte noch überlegt werden -->
+                    <keywords><xsl:for-each select="current-group()"><term> <xsl:copy-of select="@*"></xsl:copy-of>
+                        <xsl:value-of select="."/></term></xsl:for-each></keywords>
+                </xsl:when>
+            </xsl:choose> 
     </xsl:template>
     <xsl:template name="list_people">
         <person>
-            <persName>
             <xsl:choose>
-            <xsl:when test="@key">
-                <xsl:attribute name="xml:id">
-                    <xsl:value-of select="@key"/>
-                </xsl:attribute>
-            </xsl:when>
-            <xsl:otherwise>
-                    <xsl:for-each select="@*">
-                        <xsl:attribute name="{name()}">
-                            <xsl:value-of select="."/>
-                        </xsl:attribute>
-                    </xsl:for-each>
-                    <xsl:apply-templates/>
-                </xsl:otherwise>
+                <xsl:when test="@key">
+                    <xsl:attribute name="xml:id">
+                        <xsl:value-of select="@key"/>
+                    </xsl:attribute>
+                </xsl:when>
             </xsl:choose>
+            <persName>              
+                        <xsl:for-each select="@*">
+                            <xsl:if test="name() != 'key'">
+                                <xsl:attribute name="{name()}">
+                                    <xsl:value-of select="."/>
+                                </xsl:attribute>
+                            </xsl:if>
+                        </xsl:for-each>
                 <xsl:apply-templates/>
             </persName>
         </person>
@@ -1258,17 +1299,43 @@
                 </xsl:attribute>
             </xsl:if>
             <orgName>
+                <xsl:for-each select="@*">
+                    <xsl:if test="name() != 'key'">
+                    <xsl:attribute name="{name()}">
+                        <xsl:value-of select="."/>
+                    </xsl:attribute>
+                    </xsl:if>
+                </xsl:for-each>
                 <xsl:apply-templates/>
             </orgName>
         </org>
     </xsl:template>
-   <!-- <xsl:template name="list_places">
-            <xsl:apply-templates/>
-    </xsl:template>-->
+    <xsl:template name="list_places">
+        <place>
+            <placeName>
+                <xsl:choose>
+                    <!-- eine Ausnahmeregel für Illum-Daten -->
+                    <xsl:when test="@type = 'Region' or @n = 'Region'">
+                        <region>
+                            <xsl:value-of select="."/>
+                        </region>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:for-each select="@*">
+                            <xsl:attribute name="{name()}">
+                                <xsl:value-of select="."/>
+                            </xsl:attribute>
+                        </xsl:for-each>
+                        <xsl:apply-templates/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </placeName>
+        </place>
+    </xsl:template>
     <xsl:template name="vocab_uri">
         <xsl:variable name="indexName">
             <xsl:choose>
-                <xsl:when test="@indexName = 'IllUrkGlossar'">2483</xsl:when>             
+                <xsl:when test="@indexName = 'IllUrkGlossar'">2483</xsl:when>
                 <xsl:when test="@indexName = 'illurk-vocabulary'">2484</xsl:when>
                 <xsl:otherwise> </xsl:otherwise>
             </xsl:choose>
@@ -1276,7 +1343,7 @@
         <xsl:variable name="lemma" select="@lemma"/>
         <xsl:choose>
             <xsl:when test="$lemma">
-              <!--  <term>-->
+                <!--  <term>-->
                 <xsl:attribute name="ref">
                     <xsl:value-of
                         select="concat('http://gams.uni-graz.at/skos/scheme/o:cord.', $indexName, '#', $lemma)"
@@ -1284,36 +1351,36 @@
                 </xsl:attribute>
                 <!--</term>-->
             </xsl:when>
-            
+
         </xsl:choose>
-       
+
         <xsl:apply-templates/>
 
-  </xsl:template>
-  
-  <xsl:variable name="step-3">
-    <xsl:apply-templates select="$step-2" mode="step-3"/>
-  </xsl:variable>
-  <xsl:template match="node() | @*" mode="step-3">    
-    <xsl:copy>
-      <xsl:apply-templates select="node() | @*" mode="step-3"/>
-    </xsl:copy>    
-  </xsl:template>
-  
-  <xsl:template match="*:TEI/*:text/*:body[empty(node())]" mode="step-3">      
-    <body>
-      <div type="tenor">
-      <p/>
-    </div> 
-    </body>
-  </xsl:template>
-  
-  <xsl:template match="/" priority="-2">
-    <xsl:variable name="idno" select="replace(substring-after(//atom:id, 'charter/'),'/', '-')"/>   
-    <xsl:result-document href="happy-tei/{$idno}.xml">     
-   <xsl:copy-of select="$step-3"></xsl:copy-of>
-    </xsl:result-document>
-  </xsl:template>
-  
+    </xsl:template>
+
+    <xsl:variable name="step-3">
+        <xsl:apply-templates select="$step-2" mode="step-3"/>
+    </xsl:variable>
+    <xsl:template match="node() | @*" mode="step-3">
+        <xsl:copy>
+            <xsl:apply-templates select="node() | @*" mode="step-3"/>
+        </xsl:copy>
+    </xsl:template>
+
+    <xsl:template match="*:TEI/*:text/*:body[empty(node())]" mode="step-3">
+        <body>
+            <div type="tenor">
+                <p/>
+            </div>
+        </body>
+    </xsl:template>
+
+    <xsl:template match="/" priority="-2">
+        <xsl:variable name="idno" select="replace(substring-after(//atom:id, 'charter/'), '/', '_')"/>
+        <xsl:result-document href="happy-tei/{$idno}.xml">
+            <xsl:copy-of select="$step-3"/>
+        </xsl:result-document>
+    </xsl:template>
+
 
 </xsl:stylesheet>
