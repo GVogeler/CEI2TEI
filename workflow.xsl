@@ -259,30 +259,21 @@
                         <xsl:apply-templates select="//cei:abstract"/>
                     </abstract>
                     <xsl:apply-templates select="//cei:lang_MOM"/>
-                    <textClass>
-                   
-                         <!--   <xsl:when test="//cei:back//cei:index[@indexName != ''] ">
-                                <xsl:for-each-group select="//cei:index[. != '']" group-by="@indexName">
-                                    <xsl:call-template name="keywords"/>
-                                </xsl:for-each-group>
-                            </xsl:when>
-                            <xsl:when test="//cei:back//cei:index[@lemma !=''][not(@indexName)]">
-                                <keywords>
-                                    <term><xsl:call-template name="vocab_uri"></xsl:call-template></term>
-                                </keywords>
-                            </xsl:when>-->
-                           <!-- <cei:index>Schaf</cei:index> -->
-                                
-                          <xsl:for-each-group select="//cei:back//cei:index[attribute::*]" group-by="@indexName | @lemma | @type">
+                    <textClass>                         
+                          <xsl:for-each-group select="//cei:index[@indexName]" group-by="@indexName">
                               <xsl:call-template name="keywords"/>
                           </xsl:for-each-group>
-                        <xsl:for-each-group select="//cei:back//cei:index[not(@*)]" group-by=".">
-                            <keywords type="keineATTs">
+                        <xsl:for-each-group select="//cei:index[not(@indexName)][@lemma]" group-by="@lemma">
+                            <xsl:call-template name="keywords"/>
+                        </xsl:for-each-group>
+                        <xsl:for-each-group select="//cei:index[@type]" group-by="@type">
+                            <xsl:call-template name="keywords"/>
+                        </xsl:for-each-group>
+                        <xsl:for-each-group select="//cei:index[not(@*)]" group-by=".">
+                            <keywords>
                            <term><xsl:value-of select="."/></term>
                             </keywords>
-                        </xsl:for-each-group>
-                            
-                                   
+                        </xsl:for-each-group>                                 
                     </textClass>
                     <xsl:if
                         test="//cei:back//cei:persName[. != ''] | //cei:back//cei:orgName[. != '']">
@@ -406,10 +397,28 @@
         </witness>
     </xsl:template>
     <xsl:template match="cei:index">
-        <index>
-        <xsl:copy-of select="@*"></xsl:copy-of>
-        <xsl:value-of select="."/>
-        </index>
+        <!-- ref="http://gams.uni-graz.at/skos/scheme/o:cord.2484#Historiated" -->
+        <ref>
+            <xsl:choose>
+                <xsl:when test="@lemma and @indexName">
+                    <xsl:variable name="indexName">                      
+                            <xsl:choose>
+                                <xsl:when test="@indexName = 'IllUrkGlossar'">2483</xsl:when>
+                                <xsl:when test="@indexName = 'illurk-vocabulary'">2484</xsl:when>
+                                <xsl:otherwise> </xsl:otherwise>
+                            </xsl:choose>                       
+                    </xsl:variable>
+                    <xsl:attribute name="target">
+                        <xsl:value-of
+                            select="concat('http://gams.uni-graz.at/skos/scheme/o:cord.', $indexName, '#', @lemma)"
+                        />
+                    </xsl:attribute>                    
+                </xsl:when>
+                <!-- eigentlich brauch es hier noch ein otherwise, es könnte cei:index geben, der andere @ hat -->
+            </xsl:choose>
+            <!--<xsl:copy-of select="@*"></xsl:copy-of>-->
+                <xsl:value-of select="."/>            
+        </ref>
     </xsl:template>
     <xsl:template match="cei:abstract">
         <p>
@@ -1252,7 +1261,7 @@
                             <xsl:value-of select="$indexName"/>
                         </xsl:attribute>
                    
-                    <xsl:for-each select="current-group()">
+                    <xsl:for-each select="current-group()">                        
                         <term>
                             <xsl:if test="@lemma">
                                 <xsl:attribute name="key">
@@ -1342,7 +1351,7 @@
         </xsl:variable>
         <xsl:variable name="lemma" select="@lemma"/>
         <xsl:choose>
-            <xsl:when test="$lemma">
+            <xsl:when test="$lemma and ancestor::cei:back">
                 <!--  <term>-->
                 <xsl:attribute name="ref">
                     <xsl:value-of
@@ -1350,6 +1359,14 @@
                     />
                 </xsl:attribute>
                 <!--</term>-->
+            </xsl:when>
+            <xsl:when test="$lemma and ancestor::cei:decoDesc">             
+                <xsl:attribute name="target">
+                    <xsl:value-of
+                        select="concat('http://gams.uni-graz.at/skos/scheme/o:cord.', $indexName, '#', $lemma)"
+                    />
+                </xsl:attribute>
+              
             </xsl:when>
 
         </xsl:choose>
@@ -1367,7 +1384,7 @@
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="*:TEI/*:text/*:body[empty(node())]" mode="step-3">
+    <xsl:template match="*:TEI/*:text/*:body[empty(node())]" mode="step-3"><!--  -->
         <body>
             <div type="tenor">
                 <p/>
