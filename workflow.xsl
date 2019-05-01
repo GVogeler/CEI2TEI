@@ -28,7 +28,7 @@
     <xsl:variable name="step-1">
         <xsl:apply-templates mode="step-1"/>
     </xsl:variable>
-    <xsl:template match="*[descendant::text() or descendant-or-self::*/@*[string()]]" mode="step-1">
+    <xsl:template match="*[descendant::text() or descendant-or-self::*/@*[string()] or cei:archIdentifier]" mode="step-1">
         <xsl:copy>
             <xsl:apply-templates select="node() | @*" mode="step-1"/>
         </xsl:copy>
@@ -362,10 +362,10 @@
                 </revisionDesc>-->
             </teiHeader>
 
-            <xsl:if test="//cei:graphic[@url != ''] or $fond-imgs != ''">
+            <xsl:if test="//cei:graphic[@url != ''] or $fond-imgs/eintrag != ''">
                 <facsimile>
                     <xsl:apply-templates select="//cei:graphic[@url != '']" mode="image"/>
-                    <xsl:if test="$fond-imgs != ''">
+                    <xsl:if test="$fond-imgs/eintrag != ''">
                         <xsl:for-each select="$fond-imgs/image-url">
                             <graphic url="{.}"/>
                         </xsl:for-each>
@@ -1204,10 +1204,10 @@
     <xsl:template name="keywords">
         
             <xsl:choose><!-- exception for Illurks -->
-                <xsl:when test="@indexName = 'Illurk-Urkundenart'">
+                <xsl:when test="lower-case(string(@indexName)) = 'illurk-urkundenart' or lower-case(string(@indexName)) = 'urkart'">
                     <keywords>
                     <xsl:attribute name="scheme">
-                        <xsl:value-of select="@indexName"/>
+                        <xsl:text>Illurk-Urkundenart</xsl:text>
                     </xsl:attribute>
                     <xsl:variable name="urkart">
                         <xsl:choose>
@@ -1217,8 +1217,8 @@
                             <xsl:when test="starts-with(normalize-space(.), 'Schmäh')">
                                 <xsl:text>schmaehbrief</xsl:text>
                             </xsl:when>
-                            <xsl:when test="starts-with(normalize-space(.), 'Notarsinstrument')">
-                                <xsl:text>notarsinstrument</xsl:text>
+                            <xsl:when test="starts-with(normalize-space(.), 'Notariatsinstrument')">
+                                <xsl:text>notariatsinstrument</xsl:text>
                             </xsl:when>
                             <xsl:when test="starts-with(normalize-space(.), 'Sammelindulgenz')">
                                 <xsl:text>sammelindulgenz</xsl:text>
@@ -1383,13 +1383,19 @@
             <xsl:apply-templates select="node() | @*" mode="step-3"/>
         </xsl:copy>
     </xsl:template>
-
+    
     <xsl:template match="*:TEI/*:text/*:body[empty(node())]" mode="step-3"><!--  -->
         <body>
             <div type="tenor">
                 <p/>
             </div>
         </body>
+    </xsl:template>
+    
+    <xsl:template match="*:TEI/*:teiHeader/*:profileDesc/*:abstract[empty(node())]" mode="step-3"><!--  -->
+                <abstract>
+                    <p/>
+                </abstract>
     </xsl:template>
 
     <xsl:template match="/" priority="-2">

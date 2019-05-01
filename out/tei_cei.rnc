@@ -7,7 +7,7 @@ namespace teix = "http://www.tei-c.org/ns/Examples"
 namespace xi = "http://www.w3.org/2001/XInclude"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2018-11-21T09:47:35Z. .
+# Schema generated from ODD source 2019-05-01T10:27:34Z. .
 # TEI Edition: Version 3.3.0. Last updated on
 #	31st January 2018, revision f4d8439
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 3.3.0/
@@ -1295,19 +1295,59 @@ model.dateLike_sequence = date, time
 model.dateLike_sequenceOptional = date?, time?
 model.dateLike_sequenceOptionalRepeatable = date*, time*
 model.dateLike_sequenceRepeatable = date+, time+
-model.dimLike = height | depth | width
+model.dimLike = height | depth | width | plica
 model.measureLike =
-  num | measure | measureGrp | geo | dim | height | depth | width
+  num
+  | measure
+  | measureGrp
+  | geo
+  | dim
+  | height
+  | depth
+  | width
+  | plica
 model.measureLike_alternation =
-  num | measure | measureGrp | geo | dim | height | depth | width
+  num
+  | measure
+  | measureGrp
+  | geo
+  | dim
+  | height
+  | depth
+  | width
+  | plica
 model.measureLike_sequence =
-  num, measure, measureGrp, geo, dim, height, depth, width
+  num, measure, measureGrp, geo, dim, height, depth, width, plica
 model.measureLike_sequenceOptional =
-  num?, measure?, measureGrp?, geo?, dim?, height?, depth?, width?
+  num?,
+  measure?,
+  measureGrp?,
+  geo?,
+  dim?,
+  height?,
+  depth?,
+  width?,
+  plica?
 model.measureLike_sequenceOptionalRepeatable =
-  num*, measure*, measureGrp*, geo*, dim*, height*, depth*, width*
+  num*,
+  measure*,
+  measureGrp*,
+  geo*,
+  dim*,
+  height*,
+  depth*,
+  width*,
+  plica*
 model.measureLike_sequenceRepeatable =
-  num+, measure+, measureGrp+, geo+, dim+, height+, depth+, width+
+  num+,
+  measure+,
+  measureGrp+,
+  geo+,
+  dim+,
+  height+,
+  depth+,
+  width+,
+  plica+
 model.egLike = notAllowed
 model.egLike_alternation = notAllowed
 model.egLike_sequence = empty
@@ -8897,7 +8937,7 @@ authen =
         ## Any item where a shared medium has been split in a way that can be recombined to demonstrate authenticity. Chirographs, tallies, indentures. 
         "split"
       | 
-        ## Writing on the document by someone is a position of authority, establishing its authenticity or authroity. 
+        ## Writing on the document by someone is a position of authority, establishing its authenticity or authority. 
         "endorsement"
       | 
         ## Special or controlled materials used to establish authenticity and convey authority. Banknote paper, magnetic stripes, RFID chips. 
@@ -9064,5 +9104,11 @@ legend =
     att.global.attributes,
     att.typed.attributes,
     empty
+  }
+plica =
+  
+  ## Used to specify the length of the plica (fold) of a charter, where it is present. Since the practices of archives vary in whether this is inclusive or exclusive in the measurement of height of a document where the plica is unfolded, the use of this element contains no judgement on such.
+  element plica {
+    macro.xtext, att.global.attributes, att.dimensions.attributes, empty
   }
 start = TEI | teiCorpus
