@@ -28,7 +28,7 @@
     <xsl:variable name="step-1">
         <xsl:apply-templates mode="step-1"/>
     </xsl:variable>
-    <xsl:template match="*[descendant::text() or descendant-or-self::*/@*[string()] or cei:archIdentifier]" mode="step-1">
+    <xsl:template match="*[descendant::text() or descendant-or-self::*/@*[string()]]" mode="step-1">
         <xsl:copy>
             <xsl:apply-templates select="node() | @*" mode="step-1"/>
         </xsl:copy>
@@ -382,7 +382,14 @@
     <xsl:template name="original_witness">
         <witness>
             <msDesc>
-                <xsl:apply-templates select="//cei:witnessOrig/cei:archIdentifier"/>
+                <xsl:choose>
+                    <xsl:when  test="//cei:witnessOrig/not(cei:archIdentifier)">
+                        <msIdentifier><p/></msIdentifier>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:apply-templates select="//cei:witnessOrig/cei:archIdentifier"/>
+                    </xsl:otherwise>
+                </xsl:choose>              
                 <xsl:apply-templates select="//cei:witnessOrig/cei:physicalDesc"/>
                 <diploDesc>
                     <xsl:apply-templates select="//cei:witnessOrig/cei:traditioForm"/>
