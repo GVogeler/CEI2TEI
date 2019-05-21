@@ -48,7 +48,7 @@
         <xsl:variable name="atom_published" select="/atom:entry/atom:published"/>
         <xsl:variable name="atom_updated" select="/atom:entry/atom:updated"/>
         <xsl:variable name="pid"
-            select="concat('o:cord.', replace(substring-after(atom:entry/atom:id, 'charter/'), '/', '.'))"/>
+            select="concat('o:cord.', lower-case(replace(substring-after(atom:entry/atom:id, 'charter/'), '/', '.')))"/>
         <xsl:variable name="atom-rest">
             <xsl:value-of select="substring-after(atom:entry/atom:id, 'charter/')"/>
         </xsl:variable>
@@ -1246,7 +1246,7 @@
                     </xsl:variable>
                     <xsl:if test="$urkart != ''">
                         <term>
-                            <ref target="context:cord.illuminierteurkunden.{$urkart}" type="context">
+                            <ref target="context:cord.illuminierteurkunden.{lower-case($urkart)}" type="context">
                                 <xsl:value-of select="."/>
                             </ref>
                         </term>
