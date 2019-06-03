@@ -1,0 +1,219 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns> .
+@prefix annot: <http://example.com/annot> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc:<http://purl.org/dc/elements/1.1/> .
+@prefix saws:<http://purl.org/saws/ontology#> .
+
+annot:annot a skos:ConceptScheme;
+  skos:hasTopConcept annot:annotation_type;
+  skos:prefLabel "Annotations Type Ontology"@en.
+
+annot:annotation_type rdf:type skos:Concept; 
+  skos:topConceptOf annot:annot;
+  skos:prefLabel "Annotation Elements"@en;
+  skos:narrower annot:production;
+  skos:narrower annot:ownership;
+  skos:narrower annot:reader;
+  skos:relatedMatch saws:Marginalia;
+  skos:definition "TBD"@en.
+
+annot:production rdf:type skos:Concept; 
+  skos:prefLabel "annotation during production"@en;
+  skos:broader annot:annotation_type;
+  skos:narrower annot:notarial;
+  skos:definition "TBD"@en.
+
+annot:ownership rdf:type skos:Concept; 
+  skos:prefLabel "annotation related to ownership"@en;
+  skos:broader annot:annotation_type;
+  skos:narrower annot:ownership_mark;
+  skos:narrower annot:dedication;
+  skos:narrower annot:archival;
+  skos:narrower annot:commercial;
+  skos:definition "TBD"@en.
+
+annot:reader rdf:type skos:Concept; 
+  skos:prefLabel "annotation related to reading or use"@en;
+  skos:broader annot:annotation_type;
+  skos:narrower annot:personal;
+  skos:narrower annot:impersonal;
+  skos:narrower annot:structuring;
+  skos:definition "TBD"@en.
+
+annot:notarial rdf:type skos:Concept; 
+  skos:prefLabel "annotation by notary"@en;
+  skos:broader annot:production;
+  skos:definition "TBD"@en.
+
+annot:ownership_mark rdf:type skos:Concept; 
+  skos:prefLabel "ownership mark"@en;
+  skos:broader annot:ownership;
+  skos:narrower annot:ex_libris;
+  skos:narrower annot:signed;
+  skos:definition "TBD"@en.
+
+annot:dedication rdf:type skos:Concept; 
+  skos:prefLabel "dedication"@en;
+  skos:broader annot:ownership;
+  skos:definition "TBD"@en.
+
+annot:archival rdf:type skos:Concept; 
+  skos:prefLabel "annotation by archive"@en;
+  skos:broader annot:ownership;
+  skos:narrower annot:endorsement;
+  skos:narrower annot:call_number;
+  skos:definition "TBD"@en.
+
+annot:commercial rdf:type skos:Concept; 
+  skos:prefLabel "annotation related to sale or price"@en;
+  skos:broader annot:ownership;
+  skos:definition "TBD"@en.
+
+annot:ex_libris rdf:type skos:Concept; 
+  skos:prefLabel "ex libris notation"@en;
+  skos:broader annot:ownership_mark;
+  skos:definition "TBD"@en.
+
+annot:signed rdf:type skos:Concept;
+  skos:prefLabel "signed by owner"@en;
+  skos:broader annot:ownership_mark;
+  skos:definition "TBD"@en.
+
+annot:endorsement rdf:type skos:Concept; 
+  skos:prefLabel "endorsement"@en;
+  skos:broader annot:archival;
+  skos:prefLabel "rubrum"@la;
+  skos:definition "TBD"@en.
+
+annot:call_number rdf:type skos:Concept; 
+  skos:prefLabel "call number"@en;
+  skos:broader annot:archival;
+  skos:definition "TBD"@en.
+
+annot:personal rdf:type skos:Concept; 
+  skos:prefLabel "personal reader's note"@en;
+  skos:broader annot:reader;
+  skos:narrower annot:polemical;
+  skos:narrower annot:reading;
+  skos:narrower annot:highlight;
+  skos:narrower annot:pen_test;
+  skos:definition "TBD"@en.
+
+annot:polemical rdf:type skos:Concept; 
+  skos:prefLabel "polemical"@en;
+  skos:broader annot:personal;
+  skos:definition "TBD"@en.
+
+annot:reading rdf:type skos:Concept; 
+  skos:prefLabel "reading"@en;
+  skos:broader annot:personal;
+  skos:definition "TBD"@en.
+
+annot:highlight rdf:type skos:Concept; 
+  skos:prefLabel "highlight"@en;
+  skos:broader annot:personal;
+  skos:narrower annot:highlighter;
+  skos:narrower annot:underline;
+  skos:narrower annot:circling;
+  skos:narrower annot:pointer;
+  skos:definition "TBD"@en.
+
+annot:highlighter rdf:type skos:Concept; 
+  skos:prefLabel "highlighter"@en;
+  skos:broader annot:highlight;
+  skos:definition "TBD"@en.
+
+annot:underline rdf:type skos:Concept; 
+  skos:prefLabel "underline"@en;
+  skos:broader annot:highlight;
+  skos:definition "TBD"@en.
+
+annot:circling rdf:type skos:Concept; 
+  skos:prefLabel "circling"@en;
+  skos:broader annot:highlight;
+  skos:definition "TBD"@en.
+
+annot:pointer rdf:type skos:Concept; 
+  skos:prefLabel "pointer"@en;
+  skos:broader annot:highlight;
+  skos:narrower annot:arrow;
+  skos:narrower annot:manicule;
+  skos:definition "TBD"@en.
+
+annot:arrow rdf:type skos:Concept; 
+  skos:prefLabel "arrow"@en;
+  skos:broader annot:pointer;
+  skos:definition "TBD"@en.
+
+annot:manicule rdf:type skos:Concept; 
+  skos:prefLabel "manicule"@en;
+  skos:broader annot:pointer;
+  skos:definition "TBD"@en.
+
+annot:pen_test rdf:type skos:Concept; 
+  skos:prefLabel "pen test"@en;
+  skos:broader annot:personal;
+  skos:prefLabel "probatio pennae"@la;
+  skos:definition "TBD"@en.
+
+annot:impersonal rdf:type skos:Concept; 
+  skos:prefLabel "reader's notes intended for others"@en;
+  skos:broader annot:reader;
+  skos:narrower annot:comment;
+  skos:narrower annot:correction;
+  skos:narrower annot:record;
+  skos:definition "TBD"@en.
+
+annot:comment rdf:type skos:Concept; 
+  skos:prefLabel "comment"@en;
+  skos:broader annot:impersonal;
+  skos:definition "TBD"@en.
+
+annot:correction rdf:type skos:Concept; 
+  skos:prefLabel "correction"@en;
+  skos:broader annot:impersonal;
+  skos:definition "TBD"@en.
+  #superset of comments and corrections is annot:feedback
+
+annot:record rdf:type skos:Concept; 
+  skos:prefLabel "record"@en;
+  skos:broader annot:impersonal;
+  skos:definition "TBD"@en.
+  #e.g. property records or birth records in a bible
+
+annot:structuring rdf:type skos:Concept; 
+  skos:prefLabel "structuring notes"@en;
+  skos:broader annot:reader;
+  skos:narrower annot:technical_note;
+  skos:narrower annot:index;
+  skos:narrower annot:gloss;
+  skos:narrower annot:instruction;
+  skos:definition "TBD"@en.
+
+annot:technical_note rdf:type skos:Concept; 
+  skos:prefLabel "technical"@en;
+  skos:broader annot:structuring;
+  skos:definition "TBD"@en.
+  #Eva Steinova, Notam Superponere Studui: the Use of Technical Signs in the Early Middle Ages
+
+annot:index rdf:type skos:Concept; 
+  skos:prefLabel "index"@en;
+  skos:broader annot:structuring;
+  skos:definition "TBD"@en.
+
+annot:gloss rdf:type skos:Concept; 
+  skos:prefLabel "gloss"@en;
+  skos:broader annot:structuring;
+  skos:definition "TBD"@en.
+
+annot:instruction rdf:type skos:Concept; 
+  skos:prefLabel "instruction"@en;
+  skos:broader annot:structuring;
+  skos:definition "TBD"@en.
+  #e.g. notes on order of liturgy, organizing principle added after the original text
+
+
+
+
+
+
