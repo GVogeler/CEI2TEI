@@ -1407,7 +1407,7 @@
 
     <xsl:template match="/" priority="-2">
         <xsl:variable name="idno" select="replace(substring-after(//atom:id, 'charter/'), '/', '_')"/>
-        <xsl:result-document href="happy-tei/{$idno}.xml">
+        <xsl:result-document href="tei_out/{$idno}.xml">
             <xsl:copy-of select="$step-3"/>
         </xsl:result-document>
     </xsl:template>
