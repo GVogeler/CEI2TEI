@@ -144,21 +144,6 @@
                             <ref target="{$contextname}" type="context">
                                 <xsl:value-of select="$contextname"/>
                             </ref>
-                            <!-- Nebensammlungen become contexts, just for Illurks -->
-                            <xsl:if test="$collection = 'IlluminierteUrkunden'">
-                            <xsl:variable name="nebensammlungen"
-                                select="document('NebensammlungDatumgeordnet.xml')//neben[id = substring-after($oldid, '/')]"/>                        
-                                    <xsl:for-each select="$nebensammlungen">
-                                        <xsl:if test="contains(sammlung, 'IlluminierteUrkunden') ">
-                                            <xsl:variable name="nebensammlung"
-                                                select="substring-after(sammlung, 'IlluminierteUrkunden')"/>
-                                                <ref target="context:cord.illuminierteurkunden.{lower-case($nebensammlung)}" type="context">
-                                                    <xsl:value-of select="$nebensammlung"/>
-                                                </ref>
-                                          
-                                        </xsl:if>
-                                    </xsl:for-each>                     
-                            </xsl:if>
                         </publisher>
                         <distributor>
                             <orgName ref="https://gams.uni-graz.at"
