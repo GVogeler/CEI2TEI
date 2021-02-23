@@ -317,6 +317,7 @@
         <classRef key="model.pPart.msdesc"/>
         <classRef key="model.pLike"/>
         <classRef key="model.limitedPhrase"/>
+        <classRef key="model.desclike"/>
         <elementRef key="decoNote"/>
         <elementRef key="condition"/>
        </alternate>
@@ -612,11 +613,14 @@
            of the document before the first definitive form that has force of the contained act.
           </desc>
          </valItem>
-         <valItem ident="unknown">
-          <desc> When no definitive classification of the document can be made into one of the other
-           three categories. Differs from simply leaving the type off by making a statement that the
-           subject was inspected and determined to be unknown, rather than not having been inspected
-           at all. </desc>
+         <valItem ident="forged">
+          <desc> Asserts that the document is forged, independent of whether it is a copy of a forged document or an original of a forged document.</desc>
+         </valItem>
+          <valItem ident="unknown">
+           <desc> When no definitive classification of the document can be made into one of the other
+            three categories. Differs from simply leaving the type off by making a statement that the
+            subject was inspected and determined to be unknown, rather than not having been inspected
+            at all. </desc>
          </valItem>
         </valList>
        </attDef>
