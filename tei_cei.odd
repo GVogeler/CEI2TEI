@@ -224,6 +224,7 @@
         <classRef key="model.pPart.msdesc"/>
         <classRef key="model.pLike"/>
         <classRef key="model.limitedPhrase"/>
+        <classRef key="model.descLike"/>
         <elementRef key="decoNote"/>
         <elementRef key="condition"/>
        </alternate>
@@ -317,7 +318,7 @@
         <classRef key="model.pPart.msdesc"/>
         <classRef key="model.pLike"/>
         <classRef key="model.limitedPhrase"/>
-        <classRef key="model.desclike"/>
+        <classRef key="model.descLike"/>
         <elementRef key="decoNote"/>
         <elementRef key="condition"/>
        </alternate>
