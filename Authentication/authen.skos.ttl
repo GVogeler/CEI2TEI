@@ -187,7 +187,6 @@ auth:signed a skos:Concept;
   skos:definition "TBD"@en.
 
 auth:special_sign a skos:Concept;
-  skos:relatedMatch vid:145;
   skos:prefLabel "special sign"@en;
   skos:broader auth:signed;
   skos:narrower auth:la_ruche;
