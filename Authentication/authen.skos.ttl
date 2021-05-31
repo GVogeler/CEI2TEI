@@ -102,7 +102,7 @@ auth:mark a skos:Concept;
   skos:narrower auth:hallmark;
   skos:narrower auth:countermark;
   skos:narrower auth:signum;
-  # (see special signs)
+  # (see special_sign)
   skos:narrower auth:notarial_mark;
   skos:narrower auth:barcode;
   skos:narrower auth:QR_code;
@@ -180,16 +180,24 @@ auth:signed a skos:Concept;
   skos:broader auth:authentication_types;
   skos:narrower auth:signature;
   skos:narrower auth:paraph;
-  skos:narrower auth:la_ruche;
   skos:narrower auth:per_procurationem;
   skos:narrower auth:initialing;
   skos:narrower auth:mechanically_signed;
+  skos:narrower auth:special_sign;
+  skos:definition "TBD"@en.
+
+auth:special_sign a skos:Concept;
+  skos:relatedMatch vid:145;
+  skos:prefLabel "special sign"@en;
+  skos:broader auth:signed;
+  skos:narrower auth:la_ruche;
   skos:narrower auth:sign_manual;
   skos:narrower auth:manu_propria;
   skos:narrower auth:cross;
   skos:narrower auth:notarial_signs;
   skos:narrower auth:monogram;
-#  skos:narrower auth:ss;
+  skos:narrower auth:ss;
+  skos:narrower auth:fingerprints;
   skos:definition "TBD"@en.
 
 auth:stamp a skos:Concept;
@@ -213,7 +221,6 @@ auth:biometrics a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "biometrics"@en;
   skos:broader auth:authentication_types;
-  # does narrower really work for these categories?
   skos:narrower auth:fingerprints;
   skos:narrower auth:iris_scan;
   skos:narrower auth:photo;
@@ -288,7 +295,7 @@ auth:endorsement a skos:Concept;
   skos:prefLabel "endorsement"@en;
   skos:broader auth:authentication_types;
   skos:definition "TBD"@en.
-  #change name to avoid technical confusion with writing on the back of the document, since this is meant to be specialist conferral of authority (like writing on the back of a document)
+  # a specialist conferral of authority (like writing on the back of a document), not necessarily all writing on the back of a document
 
 auth:guilloche a skos:Concept;
   skos:inScheme auth:auth;
@@ -578,7 +585,6 @@ auth:lamination a skos:Concept;
   skos:prefLabel "lamination"@en;
   skos:broader auth:packaging;
   skos:definition "TBD"@en.
-  #  (a type of sealing?)
 
 auth:security_bag a skos:Concept;
   skos:inScheme auth:auth;
@@ -603,7 +609,6 @@ auth:signature a skos:Concept;
   skos:prefLabel "autograph signature"@en;
   skos:altLabel "autograph"@en;
   skos:altLabel "holographic signature"@en;
-  #skos:altLabel "holograph"@en;
   skos:altLabel "signature"@en;
   skos:altLabel "John Hancock"@en-US;
   skos:broader auth:signed;
@@ -649,6 +654,13 @@ auth:sign_manual a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "royal sign-manual"@en;
   skos:broader auth:signed;
+  skos:definition "TBD"@en.
+
+auth:ss a skos:Concept;
+  skos:inScheme auth:auth;
+  skos:prefLabel "ss"@en;
+  skos:prefLabel "sub scripsi"@la;
+  skos:broader auth:special_sign;
   skos:definition "TBD"@en.
 
 auth:manu_propria a skos:Concept;
@@ -751,6 +763,8 @@ auth:fingerprints a skos:Concept;
   skos:inScheme auth:auth;
   skos:prefLabel "fingerprints"@en;
   skos:broader auth:biometrics;
+  skos:broader auth:special_sign;
+  # in some areas of the world, inked fingerprints have been used in place of signatures
   skos:definition "TBD"@en.
 
 auth:iris_scan a skos:Concept;
