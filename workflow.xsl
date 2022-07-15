@@ -1157,6 +1157,16 @@
     <xsl:template match="cei:witListPar">
         <xsl:apply-templates/>
     </xsl:template>
+    <xd:doc xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl">
+        <xd:desc>
+            <xd:p>A witness that only contains a bibl and nothing else is assumed to be a textual witness in print, not an archival source.</xd:p>
+        </xd:desc>
+    </xd:doc>
+    <xsl:template match="cei:witness[count(*) = 1 and cei:bibl]">
+        <witness>
+            <xsl:apply-templates/>
+        </witness>
+    </xsl:template>
     <xsl:template match="cei:witness">
         <witness>
             <msDesc>
