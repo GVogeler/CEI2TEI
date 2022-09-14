@@ -291,6 +291,9 @@
           <desc> Elements of packaging which correspond to authenticity or establish that it has not
            been tampered with from some authoritative time frame. </desc>
          </valItem>
+         <valItem ident="other">
+          <desc> Anything that does not fit within the other items. Please consider submitting an issue on GitHub explaining this use.</desc>
+         </valItem>
         </valList>
        </attDef>
       </attList>
@@ -396,6 +399,9 @@
            accusers (where said are not recipients or beneficiaries), petitioners/sponsors who are
            not recipients or beneficiaries of the resulting act, judges (where they are not acting
            as issuers or witnesses), guarantors, etc. </desc>
+         </valItem>
+         <valItem ident="other">
+          <desc> Any legal actor that cannot fit into the other categories here. Please consider submitting an issue on GitHub explaining this use.</desc>
          </valItem>
          <valItem ident="sigillant">
           <desc>
@@ -546,6 +552,10 @@
            containing the signatures of the principals, witnesses, officials, and notaries
            involved.</desc>
          </valItem>
+         <valItem ident="other">
+          <desc>
+           Any standard clause that does not fit into the schemata that are documented here. Please consider submitting an issue on GitHub documenting this usage.</desc>
+         </valItem>
         </valList>
        </attDef>
       </attList>
@@ -577,6 +587,9 @@
           <desc> Annotations that improve the structure of the text or give general directions for
            its use. Indices, instructions (e.g. for the order of readings), glosses, technical
            notes, etc. </desc>
+         </valItem>
+         <valItem ident="other">
+          <desc> Annotations that do not fit into these categories. Please consider submitting an issue on GitHub documenting this use and how it is not covered by the other categories.</desc>
          </valItem>
         </valList>
        </attDef>
@@ -622,6 +635,9 @@
             three categories. Differs from simply leaving the type off by making a statement that the
             subject was inspected and determined to be unknown, rather than not having been inspected
             at all. </desc>
+         </valItem>
+          <valItem ident="other">
+           <desc> When the classification of the document is known but for some reason does not fit into the other categories. Please consider submitting an issue on GitHub documenting this usage.</desc>
          </valItem>
         </valList>
        </attDef>
