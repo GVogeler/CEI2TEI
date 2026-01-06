@@ -20,7 +20,7 @@
         - [ ] atom:update, atom:author etc. => tei:revisionDesc?
         - [x] chDesc, issued, diplomaticAnalysis
         - [x] sourceDescVolltext, sourceDescVollRegest, auth,  
-        - [ ] sealCondition, legend, sigillant, notariusDesc, chirograph, rubrum, incipit(?), sealDimensions, sealMaterial, nota, archIdentifier, arch, archFond, quoteOriginaldatierung, tenor, invocation, intitulation, arenga, narratio, rogatio, intercessio, dispositio, sanctio, subscriptio, datatio, apprecation, setPhrase, notariusSub, notariusSign, pict, sup, scriptDesc, index, dateRange/date, recipient, issuer, testis, class, scope, h1, h2, a,
+        - [ ] sealCondition, legend, sigillant, notariusDesc, chirograph, rubrum, incipit(?), sealDimensions, sealMaterial, nota, archIdentifier, arch, archFond, quoteOriginaldatierung, tenor, invocation, intitulation, arenga, narratio, rogatio, intercessio, dispositio, sanctio, subscriptio, datatio, apprecation, setPhrase, notariusSub, notariusSign, pict, sup, scriptDesc, index, dateRange/date, recipient, issuer, testis, class, scope, h1, h2, a, listBiblEdition, listBiblRegest, ...
         
         - running it over all CEIs in fsdb
         - testing the result against current TEI default schema
@@ -166,8 +166,28 @@
         <xsl:call-template name="div-creation"/>
     </xsl:template>
     <xsl:template match="cei:auth/cei:sealDesc"/>
-        
-
+    <xsl:template match="cei:sealCondition">
+        <condition>
+            <xsl:apply-templates select="@*|node()|comment()|processing-instruction()"/>
+        </condition>
+    </xsl:template>
+    
+    
+    <xsl:template match="cei:notariusSub|cei:chirograph|cei:rubrum|cei:legend|cei:sealDimensions|cei:sealMaterial|cei:nota">
+        <xsl:call-template name="div-creation"/>        
+    </xsl:template>
+    <xsl:template match="cei:sigillant|cei:testis|cei:recipient|cei:issuer">
+        <name role="{name()}">
+            <xsl:apply-templates select="@*|node()|comment()|processing-instruction()"/>
+        </name>
+    </xsl:template>
+    <xsl:template match="cei:invocation|cei:intitulation|cei:arenga|cei:narratio|cei:rogatio|cei:intercessio|cei:dispositio|cei:sanctio|cei:subscriptio|cei:datatio|cei:apprecation|cei:setPhrase">
+        <seg ana="{name()}">
+            <xsl:apply-templates select="@*|node()|comment()|processing-instruction()"/>
+        </seg>
+    </xsl:template>
+    <!-- FIXME: test these generic conversions! -->
+<!--    TODO: incipit(?),  quoteOriginaldatierung, notariusSign, pict, scriptDesc, index, class, scope, -->
     <!--  ##########################
         Handling witnesses
         
@@ -224,6 +244,11 @@
         <repository>
             <xsl:apply-templates select="@*|node()|comment()|processing-instruction()"/>
         </repository>
+    </xsl:template>
+    <xsl:template match="cei:archFond">
+        <collection>
+            <xsl:apply-templates select="@*|node()|comment()|processing-instruction()"/>
+        </collection>
     </xsl:template>
     
     <xsl:template match="cei:text/cei:body/cei:idno" mode="header">
@@ -385,10 +410,21 @@
         </xsl:if>
     </xsl:template>
     
+    <xsl:template match="cei:listBiblEdition|cei:llistBiblRegest">
+        <xsl:if test="*"><listBibl type="{substring-after(name(),'listBibl')}">
+            <xsl:apply-templates select="@*|node()|comment()|processing-instruction()"/>
+        </listBibl></xsl:if>
+    </xsl:template>
+        
+    <xsl:template match="cei:sup">
+        <hi rend="sup">
+            <xsl:apply-templates select="@*|node()|comment()|processing-instruction()"/>
+        </hi>
+    </xsl:template>
     <!--  ##########################
         html relics 
      ########################## -->
-    <xsl:template match="cei:h1">
+    <xsl:template match="cei:h1|cei:h2">
         <head type="{name()}">
             <xsl:apply-templates select="@*|node()|comment()|processing-instruction()"/>
         </head>
